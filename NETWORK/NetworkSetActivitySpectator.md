@@ -1,0 +1,14 @@
+---
+ns: NETWORK
+---
+## NETWORK_SET_ACTIVITY_SPECTATOR
+
+```c
+// 0x75138790B4359A74 0xFC9AD060
+void NETWORK_SET_ACTIVITY_SPECTATOR(BOOL toggle);
+```
+
+
+## Parameters
+* **toggle**: 
+

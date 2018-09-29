@@ -1,0 +1,15 @@
+---
+ns: NETWORK
+aliases: ["0x271CC6AB59EBF9A5"]
+---
+## NETWORK_SESSION_MARK_VISIBLE
+
+```c
+// 0x271CC6AB59EBF9A5 0x7017257D
+void NETWORK_SESSION_MARK_VISIBLE(BOOL p0);
+```
+
+
+## Parameters
+* **p0**: 
+

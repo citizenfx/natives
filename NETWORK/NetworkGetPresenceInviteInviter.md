@@ -1,0 +1,16 @@
+---
+ns: NETWORK
+aliases: ["0x4962CC4AA2F345B7"]
+---
+## NETWORK_GET_PRESENCE_INVITE_INVITER
+
+```c
+// 0x4962CC4AA2F345B7 0x19EC65D9
+Any NETWORK_GET_PRESENCE_INVITE_INVITER(Any p0);
+```
+
+
+## Parameters
+* **p0**: 
+
+## Return value

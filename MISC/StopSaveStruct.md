@@ -1,0 +1,11 @@
+---
+ns: MISC
+---
+## STOP_SAVE_STRUCT
+
+```c
+// 0xEB1774DF12BB9F12 0xC2624A28
+void STOP_SAVE_STRUCT();
+```
+
+

@@ -1,0 +1,12 @@
+---
+ns: CAM
+---
+## IS_FIRST_PERSON_AIM_CAM_ACTIVE
+
+```c
+// 0x5E346D934122613F 0xD6280468
+BOOL IS_FIRST_PERSON_AIM_CAM_ACTIVE();
+```
+
+
+## Return value

@@ -1,0 +1,12 @@
+---
+ns: CAM
+---
+## IS_CINEMATIC_CAM_RENDERING
+
+```c
+// 0xB15162CB5826E9E8 0x80471AD9
+BOOL IS_CINEMATIC_CAM_RENDERING();
+```
+
+
+## Return value

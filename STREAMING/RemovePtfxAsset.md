@@ -1,0 +1,11 @@
+---
+ns: STREAMING
+---
+## REMOVE_PTFX_ASSET
+
+```c
+// 0x88C6814073DD4A73 0xC10F178C
+void REMOVE_PTFX_ASSET();
+```
+
+

@@ -1,0 +1,15 @@
+---
+ns: HUD
+aliases: ["0x80EAD8E2E1D5D52E"]
+---
+## ADD_TEXT_COMPONENT_SUBSTRING_BLIP_NAME
+
+```c
+// 0x80EAD8E2E1D5D52E 0x5DE98F0A
+void ADD_TEXT_COMPONENT_SUBSTRING_BLIP_NAME(Blip blip);
+```
+
+
+## Parameters
+* **blip**: 
+

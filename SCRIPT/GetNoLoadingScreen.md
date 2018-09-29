@@ -1,0 +1,12 @@
+---
+ns: SCRIPT
+---
+## _GET_NO_LOADING_SCREEN
+
+```c
+// 0x18C1270EA7F199BC
+BOOL _GET_NO_LOADING_SCREEN();
+```
+
+
+## Return value

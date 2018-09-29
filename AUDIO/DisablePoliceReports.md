@@ -1,0 +1,12 @@
+---
+ns: AUDIO
+aliases: ["0xB4F90FAF7670B16F"]
+---
+## _DISABLE_POLICE_REPORTS
+
+```c
+// 0xB4F90FAF7670B16F
+void _DISABLE_POLICE_REPORTS();
+```
+
+

@@ -1,0 +1,12 @@
+---
+ns: NETSHOP
+---
+## _0xE3E5A7C64CA2C6ED
+
+```c
+// 0xE3E5A7C64CA2C6ED
+Any _0xE3E5A7C64CA2C6ED();
+```
+
+
+## Return value

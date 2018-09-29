@@ -1,0 +1,15 @@
+---
+ns: NETWORK
+---
+## NETWORK_IS_PARTICIPANT_ACTIVE
+
+```c
+// 0x6FF8FF40B6357D45 0x4E2C348B
+BOOL NETWORK_IS_PARTICIPANT_ACTIVE(int p0);
+```
+
+
+## Parameters
+* **p0**: 
+
+## Return value

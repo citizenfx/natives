@@ -1,0 +1,11 @@
+---
+ns: CUTSCENE
+---
+## REMOVE_CUTSCENE
+
+```c
+// 0x440AF51A3462B86F 0x8052F533
+void REMOVE_CUTSCENE();
+```
+
+

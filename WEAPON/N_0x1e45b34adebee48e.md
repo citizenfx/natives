@@ -1,0 +1,11 @@
+---
+ns: WEAPON
+---
+## _0x1E45B34ADEBEE48E
+
+```c
+// 0x1E45B34ADEBEE48E
+void _0x1E45B34ADEBEE48E();
+```
+
+

@@ -1,0 +1,16 @@
+---
+ns: NETWORK
+aliases: ["0xDC48473142545431"]
+---
+## _FACEBOOK_SET_CREATE_CHARACTER_COMPLETE
+
+```c
+// 0xDC48473142545431 0x02DAD93F
+BOOL _FACEBOOK_SET_CREATE_CHARACTER_COMPLETE();
+```
+
+```
+GTA Online character creation  
+```
+
+## Return value

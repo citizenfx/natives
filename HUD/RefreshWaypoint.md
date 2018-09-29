@@ -1,0 +1,11 @@
+---
+ns: HUD
+---
+## REFRESH_WAYPOINT
+
+```c
+// 0x81FA173F170560D1 0xB395D753
+void REFRESH_WAYPOINT();
+```
+
+

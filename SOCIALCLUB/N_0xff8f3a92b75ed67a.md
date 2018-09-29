@@ -1,0 +1,12 @@
+---
+ns: SOCIALCLUB
+---
+## _0xFF8F3A92B75ED67A
+
+```c
+// 0xFF8F3A92B75ED67A 0xC96456BA
+Any _0xFF8F3A92B75ED67A();
+```
+
+
+## Return value

@@ -1,0 +1,12 @@
+---
+ns: PED
+---
+## _0x876928DDDFCCC9CD
+
+```c
+// 0x876928DDDFCCC9CD 0x05023F8F
+Any _0x876928DDDFCCC9CD();
+```
+
+
+## Return value

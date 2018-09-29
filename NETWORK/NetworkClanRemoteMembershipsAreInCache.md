@@ -1,0 +1,15 @@
+---
+ns: NETWORK
+---
+## NETWORK_CLAN_REMOTE_MEMBERSHIPS_ARE_IN_CACHE
+
+```c
+// 0xBB6E6FEE99D866B2 0x40202867
+BOOL NETWORK_CLAN_REMOTE_MEMBERSHIPS_ARE_IN_CACHE(int* p0);
+```
+
+
+## Parameters
+* **p0**: 
+
+## Return value

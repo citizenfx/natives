@@ -1,0 +1,12 @@
+---
+ns: CAM
+---
+## IS_SCREEN_FADING_OUT
+
+```c
+// 0x797AC7CB535BA28F 0x79275A57
+BOOL IS_SCREEN_FADING_OUT();
+```
+
+
+## Return value

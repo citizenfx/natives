@@ -1,0 +1,12 @@
+---
+ns: STREAMING
+---
+## GET_PLAYER_SWITCH_STATE
+
+```c
+// 0x470555300D10B2A5 0x39A0E1F2
+int GET_PLAYER_SWITCH_STATE();
+```
+
+
+## Return value

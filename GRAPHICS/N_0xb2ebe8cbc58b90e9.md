@@ -1,0 +1,12 @@
+---
+ns: GRAPHICS
+---
+## _0xB2EBE8CBC58B90E9
+
+```c
+// 0xB2EBE8CBC58B90E9
+Any _0xB2EBE8CBC58B90E9();
+```
+
+
+## Return value

@@ -1,0 +1,12 @@
+---
+ns: NETWORK
+---
+## NETWORK_CAN_SET_WAYPOINT
+
+```c
+// 0xC927EC229934AF60 0x009E68F3
+BOOL NETWORK_CAN_SET_WAYPOINT();
+```
+
+
+## Return value

@@ -1,0 +1,12 @@
+---
+ns: CAM
+---
+## IS_GAMEPLAY_CAM_SHAKING
+
+```c
+// 0x016C090630DF1F89 0x3457D681
+BOOL IS_GAMEPLAY_CAM_SHAKING();
+```
+
+
+## Return value

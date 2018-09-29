@@ -1,0 +1,12 @@
+---
+ns: PLAYER
+---
+## IS_PLAYER_TELEPORT_ACTIVE
+
+```c
+// 0x02B15662D7F8886F 0x3A11D118
+BOOL IS_PLAYER_TELEPORT_ACTIVE();
+```
+
+
+## Return value

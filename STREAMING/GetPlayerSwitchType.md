@@ -1,0 +1,12 @@
+---
+ns: STREAMING
+---
+## GET_PLAYER_SWITCH_TYPE
+
+```c
+// 0xB3C94A90D9FC9E62 0x280DC015
+int GET_PLAYER_SWITCH_TYPE();
+```
+
+
+## Return value

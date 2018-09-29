@@ -1,0 +1,11 @@
+---
+ns: STREAMING
+---
+## _0xD4793DFF3AF2ABCD
+
+```c
+// 0xD4793DFF3AF2ABCD
+void _0xD4793DFF3AF2ABCD();
+```
+
+

@@ -1,0 +1,15 @@
+---
+ns: SCRIPT
+aliases: ["_SET_STREAMED_SCRIPT_AS_NO_LONGER_NEEDED"]
+---
+## SET_SCRIPT_WITH_NAME_HASH_AS_NO_LONGER_NEEDED
+
+```c
+// 0xC5BC038960E9DB27 0x96C26F66
+void SET_SCRIPT_WITH_NAME_HASH_AS_NO_LONGER_NEEDED(Hash scriptHash);
+```
+
+
+## Parameters
+* **scriptHash**: 
+

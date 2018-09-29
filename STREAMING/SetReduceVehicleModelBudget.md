@@ -1,0 +1,14 @@
+---
+ns: STREAMING
+---
+## SET_REDUCE_VEHICLE_MODEL_BUDGET
+
+```c
+// 0x80C527893080CCF3 0xCDB4FB7E
+void SET_REDUCE_VEHICLE_MODEL_BUDGET(BOOL toggle);
+```
+
+
+## Parameters
+* **toggle**: 
+

@@ -1,0 +1,12 @@
+---
+ns: AUDIO
+---
+## GET_PLAYER_RADIO_STATION_GENRE
+
+```c
+// 0xA571991A7FE6CCEB 0x872CF0EA
+Any GET_PLAYER_RADIO_STATION_GENRE();
+```
+
+
+## Return value

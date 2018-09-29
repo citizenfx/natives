@@ -1,0 +1,16 @@
+---
+ns: NETWORK
+aliases: ["0x7CF0448787B23758"]
+---
+## _GET_CONTENT_DESCRIPTION_HASH
+
+```c
+// 0x7CF0448787B23758 0x91534C6E
+int _GET_CONTENT_DESCRIPTION_HASH(Any p0);
+```
+
+
+## Parameters
+* **p0**: 
+
+## Return value

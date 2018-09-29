@@ -1,0 +1,17 @@
+---
+ns: INTERIOR
+---
+## _0x405DC2AEF6AF95B9
+
+```c
+// 0x405DC2AEF6AF95B9 0x0E9529CC
+void _0x405DC2AEF6AF95B9(Hash roomHashKey);
+```
+
+```
+Usage: INTERIOR::_0x405DC2AEF6AF95B9(INTERIOR::GET_KEY_FOR_ENTITY_IN_ROOM(PLAYER::PLAYER_PED_ID()));  
+```
+
+## Parameters
+* **roomHashKey**: 
+

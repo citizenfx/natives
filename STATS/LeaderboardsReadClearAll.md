@@ -1,0 +1,12 @@
+---
+ns: STATS
+---
+## LEADERBOARDS_READ_CLEAR_ALL
+
+```c
+// 0xA34CB6E6F0DF4A0B 0x233E058A
+Any LEADERBOARDS_READ_CLEAR_ALL();
+```
+
+
+## Return value

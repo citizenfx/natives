@@ -1,0 +1,12 @@
+---
+ns: NETWORK
+---
+## NETWORK_GET_SCRIPT_STATUS
+
+```c
+// 0x57D158647A6BFABF 0x2BE9235A
+int NETWORK_GET_SCRIPT_STATUS();
+```
+
+
+## Return value

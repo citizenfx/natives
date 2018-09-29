@@ -1,0 +1,13 @@
+---
+ns: NETWORK
+aliases: ["0x62B9FEC9A11F10EF"]
+---
+## _FACEBOOK_IS_SENDING_DATA
+
+```c
+// 0x62B9FEC9A11F10EF 0x37A28C26
+BOOL _FACEBOOK_IS_SENDING_DATA();
+```
+
+
+## Return value

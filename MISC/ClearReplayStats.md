@@ -1,0 +1,11 @@
+---
+ns: MISC
+---
+## CLEAR_REPLAY_STATS
+
+```c
+// 0x1B1AB132A16FDA55 0xC47DFF02
+void CLEAR_REPLAY_STATS();
+```
+
+

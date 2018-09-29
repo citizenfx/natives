@@ -1,0 +1,12 @@
+---
+ns: CAM
+---
+## GET_GAMEPLAY_CAM_RELATIVE_HEADING
+
+```c
+// 0x743607648ADD4587 0xCAF839C2
+float GET_GAMEPLAY_CAM_RELATIVE_HEADING();
+```
+
+
+## Return value

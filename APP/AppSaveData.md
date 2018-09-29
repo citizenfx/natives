@@ -1,0 +1,11 @@
+---
+ns: APP
+---
+## APP_SAVE_DATA
+
+```c
+// 0x95C5D356CDA6E85F 0x84A3918D
+void APP_SAVE_DATA();
+```
+
+

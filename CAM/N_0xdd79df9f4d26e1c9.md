@@ -1,0 +1,11 @@
+---
+ns: CAM
+---
+## _0xDD79DF9F4D26E1C9
+
+```c
+// 0xDD79DF9F4D26E1C9 0x6B0E9D57
+void _0xDD79DF9F4D26E1C9();
+```
+
+

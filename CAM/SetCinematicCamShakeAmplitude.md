@@ -1,0 +1,14 @@
+---
+ns: CAM
+---
+## SET_CINEMATIC_CAM_SHAKE_AMPLITUDE
+
+```c
+// 0xC724C701C30B2FE7 0x67510C4B
+void SET_CINEMATIC_CAM_SHAKE_AMPLITUDE(float p0);
+```
+
+
+## Parameters
+* **p0**: 
+

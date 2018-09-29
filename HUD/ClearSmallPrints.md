@@ -1,0 +1,11 @@
+---
+ns: HUD
+---
+## CLEAR_SMALL_PRINTS
+
+```c
+// 0x2CEA2839313C09AC 0xA869A238
+void CLEAR_SMALL_PRINTS();
+```
+
+

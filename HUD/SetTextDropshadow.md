@@ -1,0 +1,11 @@
+---
+ns: HUD
+---
+## SET_TEXT_DROP_SHADOW
+
+```c
+// 0x1CA3E9EAC9D93E5E 0xE2A11511
+void SET_TEXT_DROP_SHADOW();
+```
+
+

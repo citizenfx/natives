@@ -1,0 +1,12 @@
+---
+ns: HUD
+---
+## GET_MAIN_PLAYER_BLIP_ID
+
+```c
+// 0xDCD4EC3F419D02FA 0xAB93F020
+Blip GET_MAIN_PLAYER_BLIP_ID();
+```
+
+
+## Return value

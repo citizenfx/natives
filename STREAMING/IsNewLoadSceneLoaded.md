@@ -1,0 +1,12 @@
+---
+ns: STREAMING
+---
+## IS_NEW_LOAD_SCENE_LOADED
+
+```c
+// 0x01B8247A7A8B9AD1 0x3ECD839F
+BOOL IS_NEW_LOAD_SCENE_LOADED();
+```
+
+
+## Return value

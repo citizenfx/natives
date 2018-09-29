@@ -1,0 +1,12 @@
+---
+ns: MISC
+---
+## IS_MEMORY_CARD_IN_USE
+
+```c
+// 0x8A75CE2956274ADD 0x40CE4DFD
+BOOL IS_MEMORY_CARD_IN_USE();
+```
+
+
+## Return value

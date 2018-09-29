@@ -1,0 +1,12 @@
+---
+ns: NETWORK
+---
+## NETWORK_IS_SESSION_BUSY
+
+```c
+// 0xF4435D66A8E2905E 0x8592152D
+BOOL NETWORK_IS_SESSION_BUSY();
+```
+
+
+## Return value

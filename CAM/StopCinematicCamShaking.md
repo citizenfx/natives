@@ -1,0 +1,14 @@
+---
+ns: CAM
+---
+## STOP_CINEMATIC_CAM_SHAKING
+
+```c
+// 0x2238E588E588A6D7 0x71C12904
+void STOP_CINEMATIC_CAM_SHAKING(BOOL p0);
+```
+
+
+## Parameters
+* **p0**: 
+

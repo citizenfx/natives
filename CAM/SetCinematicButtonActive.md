@@ -1,0 +1,14 @@
+---
+ns: CAM
+---
+## SET_CINEMATIC_BUTTON_ACTIVE
+
+```c
+// 0x51669F7D1FB53D9F 0x3FBC5D00
+void SET_CINEMATIC_BUTTON_ACTIVE(BOOL p0);
+```
+
+
+## Parameters
+* **p0**: 
+

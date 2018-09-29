@@ -1,0 +1,12 @@
+---
+ns: PED
+---
+## CAN_CREATE_RANDOM_COPS
+
+```c
+// 0x5EE2CAFF7F17770D 0xAA73DAD9
+BOOL CAN_CREATE_RANDOM_COPS();
+```
+
+
+## Return value

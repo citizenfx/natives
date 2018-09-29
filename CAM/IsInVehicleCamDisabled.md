@@ -1,0 +1,13 @@
+---
+ns: CAM
+aliases: ["0x4F32C0D5A90A9B40"]
+---
+## _IS_IN_VEHICLE_CAM_DISABLED
+
+```c
+// 0x4F32C0D5A90A9B40
+BOOL _IS_IN_VEHICLE_CAM_DISABLED();
+```
+
+
+## Return value

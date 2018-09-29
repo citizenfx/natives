@@ -1,0 +1,13 @@
+---
+ns: NETWORK
+aliases: ["0x8D11E61A4ABF49CC"]
+---
+## _NETWORK_IS_PSN_AVAILABLE
+
+```c
+// 0x8D11E61A4ABF49CC
+BOOL _NETWORK_IS_PSN_AVAILABLE();
+```
+
+
+## Return value

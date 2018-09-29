@@ -1,0 +1,12 @@
+---
+ns: AUDIO
+---
+## _MAX_RADIO_STATION_INDEX
+
+```c
+// 0xF1620ECB50E01DE7 0xCC91FCF5
+int _MAX_RADIO_STATION_INDEX();
+```
+
+
+## Return value

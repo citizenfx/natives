@@ -1,0 +1,12 @@
+---
+ns: NETWORK
+---
+## NETWORK_GET_FRIEND_COUNT
+
+```c
+// 0x203F1CFD823B27A4 0xA396ACDE
+int NETWORK_GET_FRIEND_COUNT();
+```
+
+
+## Return value

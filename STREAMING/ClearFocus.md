@@ -1,0 +1,11 @@
+---
+ns: STREAMING
+---
+## CLEAR_FOCUS
+
+```c
+// 0x31B73D1EA9F01DA2 0x34D91E7A
+void CLEAR_FOCUS();
+```
+
+

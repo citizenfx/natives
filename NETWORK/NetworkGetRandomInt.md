@@ -1,0 +1,13 @@
+---
+ns: NETWORK
+aliases: ["0x599E4FA1F87EB5FF"]
+---
+## NETWORK_GET_RANDOM_INT
+
+```c
+// 0x599E4FA1F87EB5FF 0x208DD848
+int NETWORK_GET_RANDOM_INT();
+```
+
+
+## Return value

@@ -1,0 +1,12 @@
+---
+ns: CAM
+---
+## GET_GAMEPLAY_CAM_COORD
+
+```c
+// 0x14D6F5678D8F1B37 0x9388CF79
+Vector3 GET_GAMEPLAY_CAM_COORD();
+```
+
+
+## Return value

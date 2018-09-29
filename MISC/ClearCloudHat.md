@@ -1,0 +1,11 @@
+---
+ns: MISC
+---
+## _CLEAR_CLOUD_HAT
+
+```c
+// 0x957E790EA1727B64 0x2D7787BC
+void _CLEAR_CLOUD_HAT();
+```
+
+

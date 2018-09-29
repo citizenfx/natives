@@ -1,0 +1,12 @@
+---
+ns: STATS
+---
+## _0xC0E0D686DDFC6EAE
+
+```c
+// 0xC0E0D686DDFC6EAE 0x099FCC86
+Any _0xC0E0D686DDFC6EAE();
+```
+
+
+## Return value

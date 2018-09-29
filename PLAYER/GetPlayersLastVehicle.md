@@ -1,0 +1,15 @@
+---
+ns: PLAYER
+---
+## GET_PLAYERS_LAST_VEHICLE
+
+```c
+// 0xB6997A7EB3F5C8C0 0xE2757AC1
+Vehicle GET_PLAYERS_LAST_VEHICLE();
+```
+
+```
+Alternative: GET_VEHICLE_PED_IS_IN(PLAYER_PED_ID(), 1);  
+```
+
+## Return value

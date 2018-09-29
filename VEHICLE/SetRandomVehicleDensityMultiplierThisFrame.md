@@ -1,0 +1,14 @@
+---
+ns: VEHICLE
+---
+## SET_RANDOM_VEHICLE_DENSITY_MULTIPLIER_THIS_FRAME
+
+```c
+// 0xB3B3359379FE77D3 0x543F712B
+void SET_RANDOM_VEHICLE_DENSITY_MULTIPLIER_THIS_FRAME(float multiplier);
+```
+
+
+## Parameters
+* **multiplier**: 
+

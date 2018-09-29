@@ -1,0 +1,12 @@
+---
+ns: PAD
+---
+## _0x0F70731BACCFBB96
+
+```c
+// 0x0F70731BACCFBB96
+BOOL _0x0F70731BACCFBB96();
+```
+
+
+## Return value

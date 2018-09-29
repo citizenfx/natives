@@ -1,0 +1,15 @@
+---
+ns: MISC
+---
+## SET_DISPATCH_TIME_BETWEEN_SPAWN_ATTEMPTS
+
+```c
+// 0x44F7CBC1BEB3327D 0xABADB709
+void SET_DISPATCH_TIME_BETWEEN_SPAWN_ATTEMPTS(Any p0, float p1);
+```
+
+
+## Parameters
+* **p0**: 
+* **p1**: 
+

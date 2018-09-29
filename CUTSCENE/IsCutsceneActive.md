@@ -1,0 +1,12 @@
+---
+ns: CUTSCENE
+---
+## IS_CUTSCENE_ACTIVE
+
+```c
+// 0x991251AFC3981F84 0xCCE2FE9D
+BOOL IS_CUTSCENE_ACTIVE();
+```
+
+
+## Return value

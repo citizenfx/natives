@@ -1,0 +1,15 @@
+---
+ns: BRAIN
+---
+## GET_VEHICLE_WAYPOINT_TARGET_POINT
+
+```c
+// 0x416B62AC8B9E5BBD 0x81049608
+Any GET_VEHICLE_WAYPOINT_TARGET_POINT(Any p0);
+```
+
+
+## Parameters
+* **p0**: 
+
+## Return value

@@ -1,0 +1,15 @@
+---
+ns: BRAIN
+---
+## VEHICLE_WAYPOINT_PLAYBACK_OVERRIDE_SPEED
+
+```c
+// 0x121F0593E0A431D7 0xBE1E7BB4
+void VEHICLE_WAYPOINT_PLAYBACK_OVERRIDE_SPEED(Any p0, float p1);
+```
+
+
+## Parameters
+* **p0**: 
+* **p1**: 
+

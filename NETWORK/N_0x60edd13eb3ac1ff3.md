@@ -1,0 +1,12 @@
+---
+ns: NETWORK
+---
+## _0x60EDD13EB3AC1FF3
+
+```c
+// 0x60EDD13EB3AC1FF3 0x4DEBC227
+Any _0x60EDD13EB3AC1FF3();
+```
+
+
+## Return value

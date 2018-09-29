@@ -1,0 +1,11 @@
+---
+ns: MISC
+---
+## DO_AUTO_SAVE
+
+```c
+// 0x50EEAAD86232EE55 0x54C44B1A
+void DO_AUTO_SAVE();
+```
+
+

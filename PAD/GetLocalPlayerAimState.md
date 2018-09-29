@@ -1,0 +1,12 @@
+---
+ns: PAD
+---
+## GET_LOCAL_PLAYER_AIM_STATE
+
+```c
+// 0xBB41AFBBBC0A0287 0x81802053
+int GET_LOCAL_PLAYER_AIM_STATE();
+```
+
+
+## Return value

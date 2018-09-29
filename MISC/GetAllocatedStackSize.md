@@ -1,0 +1,12 @@
+---
+ns: MISC
+---
+## GET_ALLOCATED_STACK_SIZE
+
+```c
+// 0x8B3CA62B1EF19B62 0x4E9CA30A
+int GET_ALLOCATED_STACK_SIZE();
+```
+
+
+## Return value

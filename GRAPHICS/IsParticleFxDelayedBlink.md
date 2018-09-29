@@ -1,0 +1,12 @@
+---
+ns: GRAPHICS
+---
+## IS_PARTICLE_FX_DELAYED_BLINK
+
+```c
+// 0x5CCABFFCA31DDE33 0xEA432A94
+float IS_PARTICLE_FX_DELAYED_BLINK();
+```
+
+
+## Return value

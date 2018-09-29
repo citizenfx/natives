@@ -1,0 +1,15 @@
+---
+ns: VEHICLE
+---
+## GET_CURRENT_PLAYBACK_FOR_VEHICLE
+
+```c
+// 0x42BC05C27A946054 0xA3F44390
+Any GET_CURRENT_PLAYBACK_FOR_VEHICLE(Any p0);
+```
+
+
+## Parameters
+* **p0**: 
+
+## Return value

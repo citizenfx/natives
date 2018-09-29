@@ -1,0 +1,16 @@
+---
+ns: NETWORK
+aliases: ["0xEEEDA5E6D7080987"]
+---
+## NETWORK_CHANGE_TRANSITION_SLOTS
+
+```c
+// 0xEEEDA5E6D7080987 0x1E5F6AEF
+void NETWORK_CHANGE_TRANSITION_SLOTS(Any p0, Any p1);
+```
+
+
+## Parameters
+* **p0**: 
+* **p1**: 
+

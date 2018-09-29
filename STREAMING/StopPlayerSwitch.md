@@ -1,0 +1,11 @@
+---
+ns: STREAMING
+---
+## STOP_PLAYER_SWITCH
+
+```c
+// 0x95C0A5BBDC189AA1 0x2832C010
+void STOP_PLAYER_SWITCH();
+```
+
+

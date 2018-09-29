@@ -1,0 +1,16 @@
+---
+ns: NETWORK
+aliases: ["0x26E1CD96B0903D60"]
+---
+## NETWORK_GET_PRESENCE_INVITE_SESSION_ID
+
+```c
+// 0x26E1CD96B0903D60 0xC5E0C989
+Any NETWORK_GET_PRESENCE_INVITE_SESSION_ID(Any p0);
+```
+
+
+## Parameters
+* **p0**: 
+
+## Return value

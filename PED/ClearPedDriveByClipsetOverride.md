@@ -1,0 +1,14 @@
+---
+ns: PED
+---
+## CLEAR_PED_DRIVE_BY_CLIPSET_OVERRIDE
+
+```c
+// 0x4AFE3690D7E0B5AC 0xAEC9163B
+void CLEAR_PED_DRIVE_BY_CLIPSET_OVERRIDE(Ped ped);
+```
+
+
+## Parameters
+* **ped**: 
+

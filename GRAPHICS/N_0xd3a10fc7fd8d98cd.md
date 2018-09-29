@@ -1,0 +1,12 @@
+---
+ns: GRAPHICS
+---
+## _0xD3A10FC7FD8D98CD
+
+```c
+// 0xD3A10FC7FD8D98CD 0xE40A0F1A
+BOOL _0xD3A10FC7FD8D98CD();
+```
+
+
+## Return value

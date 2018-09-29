@@ -1,0 +1,14 @@
+---
+ns: STREAMING
+---
+## LOAD_ALL_OBJECTS_NOW
+
+```c
+// 0xBD6E84632DD4CB3F 0xC9DBDA90
+void LOAD_ALL_OBJECTS_NOW();
+```
+
+```
+1  
+```
+

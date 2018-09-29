@@ -1,0 +1,13 @@
+---
+ns: NETWORK
+aliases: ["0xA75E2B6733DA5142"]
+---
+## _FACEBOOK_DO_UNK_CHECK
+
+```c
+// 0xA75E2B6733DA5142 0x11E8B5CD
+BOOL _FACEBOOK_DO_UNK_CHECK();
+```
+
+
+## Return value

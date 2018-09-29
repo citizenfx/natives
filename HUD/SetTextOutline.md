@@ -1,0 +1,11 @@
+---
+ns: HUD
+---
+## SET_TEXT_OUTLINE
+
+```c
+// 0x2513DFB0FB8400FE 0xC753412F
+void SET_TEXT_OUTLINE();
+```
+
+

@@ -1,0 +1,14 @@
+---
+ns: NETWORK
+---
+## NETWORK_REMOVE_TRANSITION_INVITE
+
+```c
+// 0x7524B431B2E6F7EE 0xFDE84CB7
+void NETWORK_REMOVE_TRANSITION_INVITE(Any* p0);
+```
+
+
+## Parameters
+* **p0**: 
+

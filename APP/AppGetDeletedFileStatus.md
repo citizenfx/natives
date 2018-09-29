@@ -1,0 +1,12 @@
+---
+ns: APP
+---
+## APP_GET_DELETED_FILE_STATUS
+
+```c
+// 0xC9853A2BE3DED1A6 0x784D550B
+Any APP_GET_DELETED_FILE_STATUS();
+```
+
+
+## Return value

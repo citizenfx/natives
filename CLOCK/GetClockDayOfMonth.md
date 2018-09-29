@@ -1,0 +1,12 @@
+---
+ns: CLOCK
+---
+## GET_CLOCK_DAY_OF_MONTH
+
+```c
+// 0x3D10BC92A4DB1D35 0xC7A5ACB7
+int GET_CLOCK_DAY_OF_MONTH();
+```
+
+
+## Return value

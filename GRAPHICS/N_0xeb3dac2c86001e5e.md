@@ -1,0 +1,12 @@
+---
+ns: GRAPHICS
+---
+## _0xEB3DAC2C86001E5E
+
+```c
+// 0xEB3DAC2C86001E5E
+BOOL _0xEB3DAC2C86001E5E();
+```
+
+
+## Return value

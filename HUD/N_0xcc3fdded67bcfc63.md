@@ -1,0 +1,11 @@
+---
+ns: HUD
+---
+## _0xCC3FDDED67BCFC63
+
+```c
+// 0xCC3FDDED67BCFC63 0x630CD8EE
+void _0xCC3FDDED67BCFC63();
+```
+
+

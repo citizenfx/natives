@@ -1,0 +1,11 @@
+---
+ns: AUDIO
+---
+## SKIP_RADIO_FORWARD
+
+```c
+// 0x6DDBBDD98E2E9C25 0x10D36630
+void SKIP_RADIO_FORWARD();
+```
+
+

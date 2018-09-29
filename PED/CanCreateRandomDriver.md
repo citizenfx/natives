@@ -1,0 +1,12 @@
+---
+ns: PED
+---
+## CAN_CREATE_RANDOM_DRIVER
+
+```c
+// 0xB8EB95E5B4E56978 0x99861609
+BOOL CAN_CREATE_RANDOM_DRIVER();
+```
+
+
+## Return value

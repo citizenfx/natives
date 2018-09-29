@@ -1,0 +1,15 @@
+---
+ns: NETWORK
+---
+## NETWORK_REQUEST_CONTROL_OF_NETWORK_ID
+
+```c
+// 0xA670B3662FAFFBD0 0x9262A60A
+BOOL NETWORK_REQUEST_CONTROL_OF_NETWORK_ID(int netId);
+```
+
+
+## Parameters
+* **netId**: 
+
+## Return value

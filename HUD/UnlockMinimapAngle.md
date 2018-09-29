@@ -1,0 +1,11 @@
+---
+ns: HUD
+---
+## UNLOCK_MINIMAP_ANGLE
+
+```c
+// 0x8183455E16C42E3A 0x742043F9
+void UNLOCK_MINIMAP_ANGLE();
+```
+
+

@@ -1,0 +1,14 @@
+---
+ns: AUDIO
+---
+## PAUSE_SCRIPTED_CONVERSATION
+
+```c
+// 0x8530AD776CD72B12 0xE2C9C6F8
+void PAUSE_SCRIPTED_CONVERSATION(BOOL p0);
+```
+
+
+## Parameters
+* **p0**: 
+

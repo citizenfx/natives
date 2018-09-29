@@ -1,0 +1,16 @@
+---
+ns: NETWORK
+aliases: ["0x521638ADA1BA0D18"]
+---
+## NETWORK_APPLY_TRANSITION_PARAMETER
+
+```c
+// 0x521638ADA1BA0D18 0xCEE79711
+void NETWORK_APPLY_TRANSITION_PARAMETER(Any p0, Any p1);
+```
+
+
+## Parameters
+* **p0**: 
+* **p1**: 
+

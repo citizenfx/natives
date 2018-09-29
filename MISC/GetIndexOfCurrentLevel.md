@@ -1,0 +1,12 @@
+---
+ns: MISC
+---
+## GET_INDEX_OF_CURRENT_LEVEL
+
+```c
+// 0xCBAD6729F7B1F4FC 0x6F203C6E
+int GET_INDEX_OF_CURRENT_LEVEL();
+```
+
+
+## Return value

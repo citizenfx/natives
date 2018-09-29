@@ -1,0 +1,12 @@
+---
+ns: NETWORK
+---
+## NETWORK_IS_IN_SESSION
+
+```c
+// 0xCA97246103B63917 0x4BC4105E
+BOOL NETWORK_IS_IN_SESSION();
+```
+
+
+## Return value

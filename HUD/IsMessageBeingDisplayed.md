@@ -1,0 +1,12 @@
+---
+ns: HUD
+---
+## IS_MESSAGE_BEING_DISPLAYED
+
+```c
+// 0x7984C03AA5CC2F41 0x6A77FE8D
+BOOL IS_MESSAGE_BEING_DISPLAYED();
+```
+
+
+## Return value

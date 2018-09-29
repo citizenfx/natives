@@ -1,0 +1,14 @@
+---
+ns: EVENT
+---
+## REMOVE_ALL_SHOCKING_EVENTS
+
+```c
+// 0xEAABE8FDFA21274C 0x64DF6282
+void REMOVE_ALL_SHOCKING_EVENTS(BOOL p0);
+```
+
+
+## Parameters
+* **p0**: 
+

@@ -1,0 +1,12 @@
+---
+ns: NETWORK
+---
+## _0xD53ACDBEF24A46E8
+
+```c
+// 0xD53ACDBEF24A46E8 0x4908A514
+Any _0xD53ACDBEF24A46E8();
+```
+
+
+## Return value

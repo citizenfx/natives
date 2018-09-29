@@ -1,0 +1,15 @@
+---
+ns: NETWORK
+---
+## NETWORK_ACCEPT_PRESENCE_INVITE
+
+```c
+// 0xFA91550DF9318B22 0xE5DA4CED
+BOOL NETWORK_ACCEPT_PRESENCE_INVITE(Any p0);
+```
+
+
+## Parameters
+* **p0**: 
+
+## Return value

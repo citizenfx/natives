@@ -1,0 +1,12 @@
+---
+ns: NETWORK
+---
+## NETWORK_HAS_HEADSET
+
+```c
+// 0xE870F9F1F7B4F1FA 0xA7DC5657
+BOOL NETWORK_HAS_HEADSET();
+```
+
+
+## Return value

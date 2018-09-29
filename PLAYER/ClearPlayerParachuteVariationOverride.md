@@ -1,0 +1,14 @@
+---
+ns: PLAYER
+---
+## CLEAR_PLAYER_PARACHUTE_VARIATION_OVERRIDE
+
+```c
+// 0x0F4CC924CF8C7B21 0xFD60F5AB
+void CLEAR_PLAYER_PARACHUTE_VARIATION_OVERRIDE(Player player);
+```
+
+
+## Parameters
+* **player**: 
+

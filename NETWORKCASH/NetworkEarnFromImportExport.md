@@ -1,0 +1,15 @@
+---
+ns: NETWORKCASH
+---
+## NETWORK_EARN_FROM_IMPORT_EXPORT
+
+```c
+// 0xF92A014A634442D6 0xF11FC458
+void NETWORK_EARN_FROM_IMPORT_EXPORT(Any p0, Any p1);
+```
+
+
+## Parameters
+* **p0**: 
+* **p1**: 
+

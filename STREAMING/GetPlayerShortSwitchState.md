@@ -1,0 +1,12 @@
+---
+ns: STREAMING
+---
+## GET_PLAYER_SHORT_SWITCH_STATE
+
+```c
+// 0x20F898A5D9782800 0x9B7BA38F
+int GET_PLAYER_SHORT_SWITCH_STATE();
+```
+
+
+## Return value

@@ -1,0 +1,11 @@
+---
+ns: HUD
+---
+## CLEAR_BRIEF
+
+```c
+// 0x9D292F73ADBD9313 0x9F75A929
+void CLEAR_BRIEF();
+```
+
+

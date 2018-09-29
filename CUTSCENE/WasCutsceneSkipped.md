@@ -1,0 +1,12 @@
+---
+ns: CUTSCENE
+---
+## WAS_CUTSCENE_SKIPPED
+
+```c
+// 0x40C8656EDAEDD569 0xC9B6949D
+BOOL WAS_CUTSCENE_SKIPPED();
+```
+
+
+## Return value

@@ -1,0 +1,12 @@
+---
+ns: CAM
+---
+## IS_CINEMATIC_CAM_SHAKING
+
+```c
+// 0xBBC08F6B4CB8FF0A 0x8376D939
+BOOL IS_CINEMATIC_CAM_SHAKING();
+```
+
+
+## Return value

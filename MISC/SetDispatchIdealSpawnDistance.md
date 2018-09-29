@@ -1,0 +1,14 @@
+---
+ns: MISC
+---
+## SET_DISPATCH_IDEAL_SPAWN_DISTANCE
+
+```c
+// 0x6FE601A64180D423 0x6283BE32
+void SET_DISPATCH_IDEAL_SPAWN_DISTANCE(float p0);
+```
+
+
+## Parameters
+* **p0**: 
+

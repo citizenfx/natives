@@ -1,0 +1,11 @@
+---
+ns: HUD
+---
+## HIDE_HELP_TEXT_THIS_FRAME
+
+```c
+// 0xD46923FC481CA285 0xF3807BED
+void HIDE_HELP_TEXT_THIS_FRAME();
+```
+
+

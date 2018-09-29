@@ -1,0 +1,11 @@
+---
+ns: STATS
+---
+## _0x047CBED6F6F8B63C
+
+```c
+// 0x047CBED6F6F8B63C 0xA063CABD
+void _0x047CBED6F6F8B63C();
+```
+
+

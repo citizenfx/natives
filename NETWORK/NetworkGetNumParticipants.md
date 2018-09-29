@@ -1,0 +1,12 @@
+---
+ns: NETWORK
+---
+## NETWORK_GET_NUM_PARTICIPANTS
+
+```c
+// 0x18D0456E86604654 0x3E25A3C5
+int NETWORK_GET_NUM_PARTICIPANTS();
+```
+
+
+## Return value

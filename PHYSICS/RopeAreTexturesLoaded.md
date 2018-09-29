@@ -1,0 +1,12 @@
+---
+ns: PHYSICS
+---
+## ROPE_ARE_TEXTURES_LOADED
+
+```c
+// 0xF2D0E6A75CC05597 0x5FDC1047
+BOOL ROPE_ARE_TEXTURES_LOADED();
+```
+
+
+## Return value

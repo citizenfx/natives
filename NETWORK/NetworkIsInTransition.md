@@ -1,0 +1,12 @@
+---
+ns: NETWORK
+---
+## NETWORK_IS_IN_TRANSITION
+
+```c
+// 0x68049AEFF83D8F0A 0xC3CDB626
+BOOL NETWORK_IS_IN_TRANSITION();
+```
+
+
+## Return value

@@ -1,0 +1,12 @@
+---
+ns: HUD
+---
+## _0xA9CBFD40B3FA3010
+
+```c
+// 0xA9CBFD40B3FA3010 0xC5223796
+Any _0xA9CBFD40B3FA3010();
+```
+
+
+## Return value

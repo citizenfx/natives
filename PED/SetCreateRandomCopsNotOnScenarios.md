@@ -1,0 +1,14 @@
+---
+ns: PED
+---
+## SET_CREATE_RANDOM_COPS_NOT_ON_SCENARIOS
+
+```c
+// 0x8A4986851C4EF6E7 0x82E548CC
+void SET_CREATE_RANDOM_COPS_NOT_ON_SCENARIOS(BOOL toggle);
+```
+
+
+## Parameters
+* **toggle**: 
+

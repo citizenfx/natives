@@ -1,0 +1,12 @@
+---
+ns: MISC
+---
+## IS_AUTO_SAVE_IN_PROGRESS
+
+```c
+// 0x69240733738C19A0 0x36F75399
+BOOL IS_AUTO_SAVE_IN_PROGRESS();
+```
+
+
+## Return value

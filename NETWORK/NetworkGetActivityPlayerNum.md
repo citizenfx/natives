@@ -1,0 +1,15 @@
+---
+ns: NETWORK
+---
+## NETWORK_GET_ACTIVITY_PLAYER_NUM
+
+```c
+// 0x73E2B500410DA5A2 0x31F951FD
+int NETWORK_GET_ACTIVITY_PLAYER_NUM(BOOL p0);
+```
+
+
+## Parameters
+* **p0**: 
+
+## Return value

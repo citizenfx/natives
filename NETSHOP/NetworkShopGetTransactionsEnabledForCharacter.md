@@ -1,0 +1,16 @@
+---
+ns: NETSHOP
+aliases: ["0xB24F0944DA203D9E"]
+---
+## _NETWORK_SHOP_GET_TRANSACTIONS_ENABLED_FOR_CHARACTER
+
+```c
+// 0xB24F0944DA203D9E
+BOOL _NETWORK_SHOP_GET_TRANSACTIONS_ENABLED_FOR_CHARACTER(int mpChar);
+```
+
+
+## Parameters
+* **mpChar**: 
+
+## Return value

@@ -1,0 +1,13 @@
+---
+ns: NETWORK
+aliases: ["0x1F471B79ACC90BEF"]
+---
+## _GET_NUM_MEMBERSHIP_DESC
+
+```c
+// 0x1F471B79ACC90BEF 0x807B3450
+int _GET_NUM_MEMBERSHIP_DESC();
+```
+
+
+## Return value

@@ -1,0 +1,12 @@
+---
+ns: AUDIO
+---
+## GET_AUDIBLE_MUSIC_TRACK_TEXT_ID
+
+```c
+// 0x50B196FC9ED6545B 0xA2B88CA7
+int GET_AUDIBLE_MUSIC_TRACK_TEXT_ID();
+```
+
+
+## Return value

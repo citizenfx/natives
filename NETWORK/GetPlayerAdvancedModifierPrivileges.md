@@ -1,0 +1,16 @@
+---
+ns: NETWORK
+aliases: ["0xCD67AD041A394C9C","_GET_CONTENT_USER_ID"]
+---
+## GET_PLAYER_ADVANCED_MODIFIER_PRIVILEGES
+
+```c
+// 0xCD67AD041A394C9C 0x8F3137E6
+char* GET_PLAYER_ADVANCED_MODIFIER_PRIVILEGES(int p0);
+```
+
+
+## Parameters
+* **p0**: 
+
+## Return value

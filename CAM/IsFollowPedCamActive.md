@@ -1,0 +1,12 @@
+---
+ns: CAM
+---
+## IS_FOLLOW_PED_CAM_ACTIVE
+
+```c
+// 0xC6D3D26810C8E0F9 0x9F9E856C
+BOOL IS_FOLLOW_PED_CAM_ACTIVE();
+```
+
+
+## Return value

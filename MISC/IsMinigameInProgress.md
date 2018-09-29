@@ -1,0 +1,12 @@
+---
+ns: MISC
+---
+## IS_MINIGAME_IN_PROGRESS
+
+```c
+// 0x2B4A15E44DE0F478 0x53A95E13
+BOOL IS_MINIGAME_IN_PROGRESS();
+```
+
+
+## Return value

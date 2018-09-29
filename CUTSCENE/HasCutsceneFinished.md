@@ -1,0 +1,12 @@
+---
+ns: CUTSCENE
+---
+## HAS_CUTSCENE_FINISHED
+
+```c
+// 0x7C0A893088881D57 0x5DED14B4
+BOOL HAS_CUTSCENE_FINISHED();
+```
+
+
+## Return value

@@ -1,0 +1,12 @@
+---
+ns: STREAMING
+---
+## _0xBC9823AB80A3DCAC
+
+```c
+// 0xBC9823AB80A3DCAC 0x56253356
+Any _0xBC9823AB80A3DCAC();
+```
+
+
+## Return value

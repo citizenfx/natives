@@ -1,0 +1,15 @@
+---
+ns: MISC
+---
+## SET_DISPATCH_TIME_BETWEEN_SPAWN_ATTEMPTS_MULTIPLIER
+
+```c
+// 0x48838ED9937A15D1 0x1C996BCD
+void SET_DISPATCH_TIME_BETWEEN_SPAWN_ATTEMPTS_MULTIPLIER(Any p0, float p1);
+```
+
+
+## Parameters
+* **p0**: 
+* **p1**: 
+

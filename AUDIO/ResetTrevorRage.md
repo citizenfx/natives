@@ -1,0 +1,11 @@
+---
+ns: AUDIO
+---
+## RESET_TREVOR_RAGE
+
+```c
+// 0xE78503B10C4314E0 0xE80CF0D4
+void RESET_TREVOR_RAGE();
+```
+
+

@@ -1,0 +1,12 @@
+---
+ns: CUTSCENE
+---
+## GET_CUTSCENE_TOTAL_DURATION
+
+```c
+// 0xEE53B14A19E480D4 0x0824EBE8
+int GET_CUTSCENE_TOTAL_DURATION();
+```
+
+
+## Return value

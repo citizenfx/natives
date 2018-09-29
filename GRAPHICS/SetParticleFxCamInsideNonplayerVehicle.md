@@ -1,0 +1,15 @@
+---
+ns: GRAPHICS
+---
+## SET_PARTICLE_FX_CAM_INSIDE_NONPLAYER_VEHICLE
+
+```c
+// 0xACEE6F360FC1F6B6 0x6B125A02
+void SET_PARTICLE_FX_CAM_INSIDE_NONPLAYER_VEHICLE(Any p0, BOOL p1);
+```
+
+
+## Parameters
+* **p0**: 
+* **p1**: 
+

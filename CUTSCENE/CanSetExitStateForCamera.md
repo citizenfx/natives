@@ -1,0 +1,15 @@
+---
+ns: CUTSCENE
+---
+## CAN_SET_EXIT_STATE_FOR_CAMERA
+
+```c
+// 0xB2CBCD0930DFB420 0xEDAE6C02
+BOOL CAN_SET_EXIT_STATE_FOR_CAMERA(BOOL p0);
+```
+
+
+## Parameters
+* **p0**: 
+
+## Return value

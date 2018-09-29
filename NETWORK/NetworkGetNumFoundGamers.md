@@ -1,0 +1,12 @@
+---
+ns: NETWORK
+---
+## NETWORK_GET_NUM_FOUND_GAMERS
+
+```c
+// 0xA1B043EE79A916FB 0xF4B80C7E
+int NETWORK_GET_NUM_FOUND_GAMERS();
+```
+
+
+## Return value

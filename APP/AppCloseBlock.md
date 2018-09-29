@@ -1,0 +1,11 @@
+---
+ns: APP
+---
+## APP_CLOSE_BLOCK
+
+```c
+// 0xE8E3FCF72EAC0EF8 0xED97B202
+void APP_CLOSE_BLOCK();
+```
+
+

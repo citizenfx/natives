@@ -1,0 +1,24 @@
+---
+ns: HUD
+aliases: ["0x853648FD1063A213"]
+---
+## BEGIN_TEXT_COMMAND_IS_MESSAGE_DISPLAYED
+
+```c
+// 0x853648FD1063A213 0xDD524A11
+void BEGIN_TEXT_COMMAND_IS_MESSAGE_DISPLAYED(char* text);
+```
+
+```
+nothin doin.   
+BOOL Message(char* text)  
+	{  
+BEGIN_TEXT_COMMAND_IS_MESSAGE_DISPLAYED("STRING");  
+ADD_TEXT_COMPONENT_SUBSTRING_PLAYER_NAME(text);  
+return END_TEXT_COMMAND_IS_MESSAGE_DISPLAYED();  
+	}  
+```
+
+## Parameters
+* **text**: 
+

@@ -1,0 +1,11 @@
+---
+ns: STREAMING
+---
+## CLEAR_HD_AREA
+
+```c
+// 0xCE58B1CFB9290813 0x7CAC6FA0
+void CLEAR_HD_AREA();
+```
+
+

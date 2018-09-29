@@ -1,0 +1,11 @@
+---
+ns: HUD
+---
+## RESET_RETICULE_VALUES
+
+```c
+// 0x12782CE0A636E9F0 0xBE27AA3F
+void RESET_RETICULE_VALUES();
+```
+
+

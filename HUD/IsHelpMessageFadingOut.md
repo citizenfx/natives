@@ -1,0 +1,12 @@
+---
+ns: HUD
+---
+## IS_HELP_MESSAGE_FADING_OUT
+
+```c
+// 0x327EDEEEAC55C369 0x3E50AE92
+BOOL IS_HELP_MESSAGE_FADING_OUT();
+```
+
+
+## Return value

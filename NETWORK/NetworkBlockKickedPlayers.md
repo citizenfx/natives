@@ -1,0 +1,15 @@
+---
+ns: NETWORK
+aliases: ["0x6B07B9CE4D390375"]
+---
+## _NETWORK_BLOCK_KICKED_PLAYERS
+
+```c
+// 0x6B07B9CE4D390375 0x0FCE995D
+void _NETWORK_BLOCK_KICKED_PLAYERS(BOOL p0);
+```
+
+
+## Parameters
+* **p0**: 
+

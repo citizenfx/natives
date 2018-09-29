@@ -1,0 +1,26 @@
+---
+ns: ENTITY
+---
+## IS_ENTITY_PLAYING_ANIM
+
+```c
+// 0x1F0B79228E461EC9 0x0D130D34
+BOOL IS_ENTITY_PLAYING_ANIM(Entity entity, char* animDict, char* animName, int taskFlag);
+```
+
+```
+See also PED::IS_SCRIPTED_SCENARIO_PED_USING_CONDITIONAL_ANIM 0x6EC47A344923E1ED 0x3C30B447  
+Taken from ENTITY::IS_ENTITY_PLAYING_ANIM(PLAYER::PLAYER_PED_ID(), "creatures@shark@move", "attack_player", 3)  
+p4 is always 3 in the scripts.  
+Animations list : www.los-santos-multiplayer.com/dev.airdancer?cxt=anim  
+taskFlag:  
+2 - Check synchronized scene  
+```
+
+## Parameters
+* **entity**: 
+* **animDict**: 
+* **animName**: 
+* **taskFlag**: 
+
+## Return value

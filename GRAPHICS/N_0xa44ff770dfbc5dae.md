@@ -1,0 +1,11 @@
+---
+ns: GRAPHICS
+---
+## _0xA44FF770DFBC5DAE
+
+```c
+// 0xA44FF770DFBC5DAE
+void _0xA44FF770DFBC5DAE();
+```
+
+

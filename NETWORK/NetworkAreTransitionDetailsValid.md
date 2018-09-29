@@ -1,0 +1,16 @@
+---
+ns: NETWORK
+aliases: ["0x2615AA2A695930C1"]
+---
+## NETWORK_ARE_TRANSITION_DETAILS_VALID
+
+```c
+// 0x2615AA2A695930C1 0xCDEBCCE7
+BOOL NETWORK_ARE_TRANSITION_DETAILS_VALID(Any p0);
+```
+
+
+## Parameters
+* **p0**: 
+
+## Return value

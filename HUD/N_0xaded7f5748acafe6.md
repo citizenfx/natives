@@ -1,0 +1,11 @@
+---
+ns: HUD
+---
+## _0xADED7F5748ACAFE6
+
+```c
+// 0xADED7F5748ACAFE6 0x1D6859CA
+void _0xADED7F5748ACAFE6();
+```
+
+

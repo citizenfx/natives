@@ -1,0 +1,12 @@
+---
+ns: HUD
+---
+## IS_PAUSE_MENU_RESTARTING
+
+```c
+// 0x1C491717107431C7 0x3C4CF4D9
+BOOL IS_PAUSE_MENU_RESTARTING();
+```
+
+
+## Return value

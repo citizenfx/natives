@@ -1,0 +1,11 @@
+---
+ns: HUD
+---
+## CLEAR_ALL_HELP_MESSAGES
+
+```c
+// 0x6178F68A87A4D3A0 0x9E5D9198
+void CLEAR_ALL_HELP_MESSAGES();
+```
+
+

@@ -1,0 +1,12 @@
+---
+ns: CAM
+---
+## GET_FOLLOW_PED_CAM_ZOOM_LEVEL
+
+```c
+// 0x33E6C8EFD0CD93E9 0x57583DF1
+int GET_FOLLOW_PED_CAM_ZOOM_LEVEL();
+```
+
+
+## Return value
