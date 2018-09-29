@@ -1,5 +1,6 @@
 ---
 ns: GRAPHICS
+aliases: ["SITTING_TV"]
 ---
 ## _GET_SCALEFORM_MOVIE_FUNCTION_RETURN_STRING
 
@@ -10,7 +11,6 @@ char* _GET_SCALEFORM_MOVIE_FUNCTION_RETURN_STRING(int method_return);
 
 ```
 This returns the name of the scaleform movie.  
-Old name: SITTING_TV
 ```
 
 ## Parameters
