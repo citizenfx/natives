@@ -11,6 +11,7 @@ before_install:
 - curl https://apt.llvm.org/llvm-snapshot.gpg.key | sudo apt-key add -
 - sudo apt-get update -qq
 - sudo apt-get install libclang1-7 -y
+- sudo ln -s /usr/lib/x86_64-linux-gnu/libclang-7.so.1 /usr/lib/x86_64-linux-gnu/libclang.so
 install:
 - bash .travis/setup-builder
 script: |
