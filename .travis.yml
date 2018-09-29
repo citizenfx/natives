@@ -14,9 +14,9 @@ before_install:
 - sudo ln -s /usr/lib/x86_64-linux-gnu/libclang-7.so.1 /usr/lib/x86_64-linux-gnu/libclang.so
 install:
 - bash .travis/setup-builder
-script: |
-  if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then exec bash .travis/run-pr; fi
-  if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then exec bash .travis/run-deploy; fi
+script:
+  - if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then bash .travis/run-pr; fi
+  - if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then bash .travis/run-deploy; fi
 notifications:
   email: false
 
