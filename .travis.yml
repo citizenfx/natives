@@ -15,8 +15,8 @@ before_install:
 install:
 - bash .travis/setup-builder
 script: |
-  if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then bash .travis/run-pr; fi
-  if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then bash .travis/run-deploy; fi
+  if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then exec bash .travis/run-pr; fi
+  if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then exec bash .travis/run-deploy; fi
 notifications:
   email: false
 

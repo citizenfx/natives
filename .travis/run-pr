@@ -45,7 +45,7 @@ done
 
 printf '\n----\n'
 if [ -n "$successful_mds" ]; then
-	print -s1 -c2 "Successfully verified docs:$successful_pkgs\n"
+	print -s1 -c2 "Successfully verified docs:$successful_mds\n"
 fi
 if [ -n "$failed_mds" ]; then
 	die "Failed to build docs:$failed_mds"
