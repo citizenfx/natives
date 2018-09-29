@@ -9,7 +9,7 @@ set -eu
 
 # functions
 changed_docs() {
-    local commit_ish = "$1"
+    local commit_ish="$1"
 
     git diff-tree -r --name-only --diff-filter=ACMR "$commit_ish" -- '*.md' | xargs
 }
