@@ -1,0 +1,12 @@
+#!/bin/bash
+
+set -eu
+
+# include common script
+. "$(dirname "$0")"/common.sh
+
+mkdir -p $BUILDER_ROOT
+cd $BUILDER_ROOT
+
+git clone https://github.com/citizenfx/native-doc-tooling.git .
+yarn

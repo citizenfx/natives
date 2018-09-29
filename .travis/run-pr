@@ -1,0 +1,55 @@
+#!/bin/bash
+
+# based on https://github.com/alpinelinux/aports/blob/master/.travis/build-pkgs
+
+set -eu
+
+# include common script
+. "$(dirname "$0")"/common.sh
+
+# functions
+changed_docs() {
+    local commit_ish = "$1"
+
+    git diff-tree -r --name-only --diff-filter=ACMR "$commit_ish" -- '*.md' | xargs
+}
+
+# determine commit range
+commit_range="$(echo "${TRAVIS_COMMIT_RANGE:-}" | sed -E 's/\.{3}/../')"
+if ! git rev-parse "$commit_range" >/dev/null 2>&1; then
+	commit_range="$(git rev-parse HEAD^1)..HEAD"
+fi
+
+# begin
+failed_mds=''
+successful_mds=''
+
+title "Verifying documentation changed between $commit_range\n"
+
+echo 'Diffstat:'
+git --no-pager diff --color --stat "$commit_range"
+
+for entry in $(changed_docs "$commit_range"); do
+    entry_name=$(basename "$entry")
+
+    fold_start "$entry_name" "Verifying $entry"
+
+    if node "$BUILDER_ROOT/verify-one.js" "$entry"; then
+        successful_mds="$successful_mds $entry"
+    else
+        failed_mds="$failed_mds $entry"
+    fi
+
+    fold_end "$entry_name"
+done
+
+printf '\n----\n'
+if [ -n "$successful_mds" ]; then
+	print -s1 -c2 "Successfully verified docs:$successful_pkgs\n"
+fi
+if [ -n "$failed_mds" ]; then
+	die "Failed to build docs:$failed_mds"
+
+elif [ -z "$successful_mds" ]; then
+	print -s1 -c3 'No docs found to be built.'
+fi
