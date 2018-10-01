@@ -1,5 +1,6 @@
 ---
 ns: STREAMING
+aliases: ["N_0xd8295af639fd9cb8"]
 ---
 ## _SWITCH_IN_PLAYER
 
@@ -8,9 +9,7 @@ ns: STREAMING
 void _SWITCH_IN_PLAYER(Ped ped);
 ```
 
-```
 Use after using _SWITCH_OUT_PLAYER to swoop the camera back down to the player's ped.
-```
 
 ## Parameters
 * **ped**: 
