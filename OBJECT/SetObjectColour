@@ -1,5 +1,6 @@
 ---
 ns: OBJECT
+aliases: ["N_0x3b2fd68db5f8331c"]
 ---
 ## _SET_OBJECT_COLOUR
 
@@ -8,12 +9,10 @@ ns: OBJECT
 void _SET_OBJECT_COLOUR(Entity entity, Any p1, int R, int G, int B);
 ```
 
-```
 Seems to set the colour of the prop. Haven't really tested it on other props.
 Only appears in am_mp_nightclub.c for the nightclub dancefloor.
 
 Not sure what p1 does, seems to only ever be '1' in scripts.
-```
 
 ## Parameters
 * **entity**: 
