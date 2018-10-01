@@ -11,6 +11,5 @@ void END_SCALEFORM_MOVIE_METHOD();
 
 ```
 Pops and calls the Scaleform function on the stack  
-Old Name: _POP_SCALEFORM_MOVIE_FUNCTION_VOID  
 ```
 
