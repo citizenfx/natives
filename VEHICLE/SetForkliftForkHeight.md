@@ -1,5 +1,6 @@
 ---
 ns: VEHICLE
+aliases: ["0x37EBBF3117BD6A25"]
 ---
 ## SET_FORKLIFT_FORK_HEIGHT
 
