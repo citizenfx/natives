@@ -1,6 +1,6 @@
 ---
 ns: STREAMING
-aliases: ["N_0xd8295af639fd9cb8"]
+aliases: ["N_0XD8295AF639FD9CB8"]
 ---
 ## _SWITCH_IN_PLAYER
 
