@@ -11,7 +11,6 @@ BOOL BEGIN_SCALEFORM_MOVIE_METHOD(int scaleform, char* functionName);
 
 ```
 Push a function from the Scaleform onto the stack  
-Old Name: _PUSH_SCALEFORM_MOVIE_FUNCTION  
 ```
 
 ## Parameters
