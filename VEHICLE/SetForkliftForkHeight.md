@@ -1,11 +1,12 @@
 ---
 ns: VEHICLE
+aliases: ["0x37EBBF3117BD6A25"]
 ---
-## _0x37EBBF3117BD6A25
+## SET_FORKLIFT_FORK_HEIGHT
 
 ```c
 // 0x37EBBF3117BD6A25 0x943A6CFC
-void _0x37EBBF3117BD6A25(Vehicle vehicle, float height);
+void SET_FORKLIFT_FORK_HEIGHT(Vehicle vehicle, float height);
 ```
 
 ```
@@ -16,4 +17,3 @@ I've tested on the towtruck 1 & 2, Dock Lift (Crate Arm), Dozer, and such have n
 ## Parameters
 * **vehicle**: 
 * **height**: 
-
