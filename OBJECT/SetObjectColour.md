@@ -1,6 +1,6 @@
 ---
 ns: OBJECT
-aliases: ["N_0X3B2FD68DB5F8331C"]
+aliases: ["0x3B2FD68DB5F8331C"]
 ---
 ## _SET_OBJECT_COLOUR
 
