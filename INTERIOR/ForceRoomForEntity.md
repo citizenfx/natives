@@ -9,7 +9,7 @@ void FORCE_ROOM_FOR_ENTITY(Entity entity, int interiorID, Hash roomHashKey);
 ```
 
 ```
-Does anyone know what this does? I know online modding isn't generally supported especially by the owner of this db, but I first thought this could be used to force ourselves into someones apartment, but I see now that isn't possible.  
+Forces the particular room in an interior to load incase not teleporting into the portal.
 ```
 
 ## Parameters
