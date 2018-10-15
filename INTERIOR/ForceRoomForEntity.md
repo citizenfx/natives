@@ -9,7 +9,7 @@ void FORCE_ROOM_FOR_ENTITY(Entity entity, int interiorID, Hash roomHashKey);
 ```
 
 ```
-Does anyone know what this does? I know online modding isn't generally supported especially by the owner of this db, but I first thought this could be used to force ourselves into someones apartment, but I see now that isn't possible.  
+This seems to force load the room with roomID in interior with interiorID, any other room is empty, if the interior is already loaded, it will clear the other rooms from entities.
 ```
 
 ## Parameters
