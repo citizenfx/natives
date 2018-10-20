@@ -17,7 +17,7 @@ You'll also need to use the `GOLF` scaleform in order to get the correct minmap 
 
 Use [`N_0x35edd5b2e3ff01c0()`](https://runtime.fivem.net/doc/reference.html#_0x35EDD5B2E3FF01C0) to reset the map when you no longer want to display any golf holes (you still need to unlock zoom, position and angle of the radar manually after calling this).
 
-## Example
+## Examples
 ```cs
 // draw hole 2
 N_0x71bdb63dbaf8da59(2);
@@ -32,15 +32,9 @@ SetRadarBigmapEnabled(false, false);
 // Create the flag blip and set the sprite to the flag sprite.
 int blip = AddBlipForCoord(-1321.98f, 158.93f, 57.8f);
 SetBlipSprite(blip, 358);
+
+// result of this code example: https://i.imgur.com/DUnUzKS.png
 ```
-## Result
-![Example result screenshot](https://i.imgur.com/DUnUzKS.png)
 
 ## Parameters
-* **hole**: The ID of the hole to draw on the map. ID starts with 1 for hole 1, 2 for hole 2, etc. 0 disables the golf map behaviour\*.
-
-
-
-_\* There's an additional native [`N_0x35edd5b2e3ff01c0()`](https://runtime.fivem.net/doc/reference.html#_0x35EDD5B2E3FF01C0) that is used in the decompiled scripts to 'reset' the map 'properly'._
-
-
+* **hole**: The ID of the hole to draw on the map. ID starts with 1 for hole 1, 2 for hole 2, etc. 0 disables the golf map behaviour.
