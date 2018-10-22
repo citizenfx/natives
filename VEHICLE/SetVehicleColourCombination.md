@@ -8,10 +8,6 @@ ns: VEHICLE
 void SET_VEHICLE_COLOUR_COMBINATION(Vehicle vehicle, int colorCombination);
 ```
 
-```
-dont be a dick  
-```
-
 ## Parameters
 * **vehicle**: 
 * **colorCombination**: 
