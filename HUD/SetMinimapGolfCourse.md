@@ -1,11 +1,12 @@
 ---
 ns: HUD
+aliases: ["0x71BDB63DBAF8DA59"]
 ---
-## _0x71BDB63DBAF8DA59
+## SET_MINIMAP_GOLF_COURSE
 
 ```c
 // 0x71BDB63DBAF8DA59 0x5133A750
-void _0x71BDB63DBAF8DA59(int hole);
+void SET_MINIMAP_GOLF_COURSE(int hole);
 ```
 
 
@@ -20,7 +21,7 @@ Use [`N_0x35edd5b2e3ff01c0()`](https://runtime.fivem.net/doc/reference.html#_0x3
 ## Examples
 ```cs
 // draw hole 2
-N_0x71bdb63dbaf8da59(2);
+SetMinimapGolfCourse(2);
 
 // set the other minimap properties for this specific hole:
 SetRadarZoom(850);
