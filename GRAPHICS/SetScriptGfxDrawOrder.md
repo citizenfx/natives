@@ -21,5 +21,5 @@ GRAPHICS::DRAW_RECT(0.5, 0.5, 1.5, 1.5, 0, 0, 0, 255, 0);
 ```
 
 ## Parameters
-* **layer**: The intended draw order/layer.
+* **order**: The intended draw order/layer.
 
