@@ -5,7 +5,7 @@ ns: PATHFIND
 
 ```c
 // 0xF90125F1F79ECDF8 0xED35C094
-int GENERATE_DIRECTIONS_TO_COORD(float x, float y, float z, BOOL p3, float* direction, float* vehicle, float* distToNxJunction);
+int GENERATE_DIRECTIONS_TO_COORD(float x, float y, float z, BOOL p3, int* direction, float* vehicle, float* distToNxJunction);
 ```
 
 ```
