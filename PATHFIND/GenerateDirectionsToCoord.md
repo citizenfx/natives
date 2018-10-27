@@ -5,7 +5,7 @@ ns: PATHFIND
 
 ```c
 // 0xF90125F1F79ECDF8 0xED35C094
-int GENERATE_DIRECTIONS_TO_COORD(float x, float y, float z, BOOL p3, float* direction, float* vehicle, float* distToNxJunction);
+int GENERATE_DIRECTIONS_TO_COORD(float x, float y, float z, BOOL p3, int* direction, float* vehicle, float* distToNxJunction);
 ```
 
 ```
@@ -18,14 +18,14 @@ Public Function GenerateDirectionsToCoord(Pos As Vector3) As Tuple(Of String, Si
     End Function  
 p3 I use 1  
 direction:  
-0 = You Have Arrive  
+0 = You Have Arrived
 1 = Recalculating Route, Please make a u-turn where safe  
 2 = Please Proceed the Highlighted Route  
-3 = Keep Left (unsure)  
-4 = In (distToNxJunction) Turn Left  
-5 = In (distToNxJunction) Turn Right  
-6 = Keep Right (unsure)  
-7 = In (distToNxJunction) Go Straight Ahead  
+3 = In (distToNxJunction) Turn Left  
+4 = In (distToNxJunction) Turn Right  
+5 = In (distToNxJunction) Go Straight  
+6 = In (distToNxJunction) Keep Left  
+7 = In (distToNxJunction) Keep Right
 8 = In (distToNxJunction) Join the freeway  
 9 = In (distToNxJunction) Exit Freeway  
 return value set to 0 always  
