@@ -26,7 +26,7 @@ value can be 1.0 or lower (higher values will automatically result in 1.0).
 * **vehicle**: The plane to set the multiplier for
 * **multiplier**: The turbulence multiplier. Value between 0.0 and 1.0
 
-## Examples:
+## Examples
 ```lua
 local plane = GetVehiclePedIsIn(PlayerPedId(), false)
 if IsThisModelAPlane(GetEntityModel(plane)) then
