@@ -15,13 +15,6 @@ This native sets the turbulence multiplier. It only works for planes.
 
 Works by just calling it once, does not need to be called every tick.
 
-```
-old description:
-
-For planes only!  
-value can be 1.0 or lower (higher values will automatically result in 1.0).  
-```
-
 ## Parameters
 * **vehicle**: The plane to set the multiplier for
 * **multiplier**: The turbulence multiplier. Value between 0.0 and 1.0
@@ -30,7 +23,7 @@ value can be 1.0 or lower (higher values will automatically result in 1.0).
 ```lua
 local plane = GetVehiclePedIsIn(PlayerPedId(), false)
 if IsThisModelAPlane(GetEntityModel(plane)) then
-    -- Goodbye retarded turbulence!
+    -- Goodbye turbulence!
     SetPlaneTurbulenceMultiplier(plane, 0.0)
 end
 ```
