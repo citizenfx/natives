@@ -8,18 +8,27 @@ ns: MISC
 float GET_DISTANCE_BETWEEN_COORDS(float x1, float y1, float z1, float x2, float y2, float z2, BOOL useZ);
 ```
 
-```
-If useZ is false, only the 2D plane (X-Y) will be considered for calculating the distance.  
-Consider using this faster native instead: SYSTEM::VDIST - DVIST always takes in consideration the 3D coordinates.  
-```
+Returns the distance between two three-dimensional points, optionally ignoring the Z values.
+
+You'll most likely want to use your language's native vector functionality instead.
 
 ## Parameters
-* **x1**: 
-* **y1**: 
-* **z1**: 
-* **x2**: 
-* **y2**: 
-* **z2**: 
-* **useZ**: 
+* **x1**: The X coordinate of the first point.
+* **y1**: The Y coordinate of the first point.
+* **z1**: The Z coordinate of the first point.
+* **x2**: The X coordinate of the second point.
+* **y2**: The Y coordinate of the second point.
+* **z2**: The Z coordinate of the second point.
+* **useZ**: Whether or not to use the Z coordinate.
 
 ## Return value
+The distance between the passed points in units.
+
+## Examples
+```lua
+local dist = GetDistanceBetweenCoords(0.0, 0.0, 0.0, 5.0, 5.0, 5.0, true)
+
+-- equivalent:
+
+dist = #(vector3(0.0, 0.0, 0.0) - vector3(5.0, 5.0, 5.0))
+```

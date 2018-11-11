@@ -8,13 +8,17 @@ ns: HUD
 Blip ADD_BLIP_FOR_COORD(float x, float y, float z);
 ```
 
-```
-Creates an orange ( default ) Blip-object. Returns a Blip-object which can then be modified.  
-```
+Creates a blip for the specified coordinates. You can use `SET_BLIP_` natives to change the blip.
 
 ## Parameters
-* **x**: 
-* **y**: 
-* **z**: 
+* **x**: The X coordinate to create the blip on.
+* **y**: The Y coordinate.
+* **z**: The Z coordinate.
 
 ## Return value
+A blip handle.
+
+## Examples
+```lua
+local destination = AddBlipForCoord(200.0, 200.0, 5.0)
+```

@@ -8,15 +8,19 @@ ns: HUD
 void SET_BLIP_SPRITE(Blip blip, int spriteId);
 ```
 
-```
-Takes a blip object and adds a sprite to it on the map.  
-You may have your own list, but since dev-c didn't show it I was bored and started looking through scripts and functions to get a presumable almost positive list of a majority of blip IDs  
-h t t p://pastebin.com/Bpj9Sfft  
-Blips Images + IDs:  
-gtaxscripting.blogspot.com/2016/05/gta-v-blips-id-and-image.html  
-```
+<!--
+_loc1_.map((name, idx) => `| ${idx} | ${name} | ![${name}](https://runtime.fivem.net/blips/${name}.svg) |`).join('\n')
+-->
+
+Sets the displayed sprite for a specific blip.
+
+There's a [list of sprites](https://docs.fivem.net/game-references/blips/) on the FiveM documentation site.
 
 ## Parameters
-* **blip**: 
-* **spriteId**: 
+* **blip**: The blip to change.
+* **spriteId**: The sprite ID to set.
 
+## Examples
+```lua
+SetBlipSprite(blip, 588) -- changes `blip` to radar_nhp_orbit
+```

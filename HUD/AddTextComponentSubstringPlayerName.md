@@ -9,40 +9,20 @@ aliases: ["_ADD_TEXT_COMPONENT_STRING"]
 void ADD_TEXT_COMPONENT_SUBSTRING_PLAYER_NAME(char* text);
 ```
 
-```
-• Description :  
-Processes a string and removes the player name(max len 99)  
-You can use this function to create notifications/subtitles  
-		--------------------------------------------------------------------  
-		• Usage(Colors) :  
-~r~ = red  
-~y~ = yellow  
-~g~ = green  
-~b~ = light blue  
-~w~ = white  
-~p~ = purple  
-~n~ = new line  
-		--------------------------------------------------------------------  
-		• Usage(Input) :  
-		~INPUT_CONTEXT~ will show button symbol (regarding last input device -> keyboard/gamepad)  
-		example:  
-		string info = "Context action is assigned to ~INPUT_CONTEXT~!";  
-		--------------------------------------------------------------------  
-		• Example (C++):  
-		void ShowNotification(char *text)    
-		{   
-       UI::_SET_NOTIFICATION_TEXT_ENTRY("STRING");   
-       UI::ADD_TEXT_COMPONENT_SUBSTRING_PLAYER_NAME(text);   
-       UI::_DRAW_NOTIFICATION(FALSE, FALSE); // if first param = 1, the message flashes 1 or 2 times  
-		}  
-		• Colors example :   
-		string red = "~r~Red test";  
-		string white_and_yellow = "~w~White and ~y~yellow";  
-		string text_with_double_line = "First line.~n~Second line";  
-		This native (along with 0x5F68520888E69014 and 0x94CF4AC034C9C986) do not actually filter anything. They simply add the provided text (as of 944)  
-		Used to be known as _ADD_TEXT_COMPONENT_STRING  
-```
+Adds an arbitrary string as a text component placeholder, replacing `~a~` in the current text command's text label.
+
+See the documentation on text formatting for more information.
 
 ## Parameters
-* **text**: 
+* **text**: A string to add of up to 99 characters. This can contain additional `~` formatting directives.
 
+## Examples
+```lua
+-- on initialization
+AddTextEntry('TEST_LABEL', 'Label: ~a~')
+
+-- when drawing
+BeginTextCommandDisplayText('TEST_LABEL')
+AddTextComponentSubstringPlayerName('Hello, World!')
+EndTextCommandDisplayText(0.5, 0.5)
+```
