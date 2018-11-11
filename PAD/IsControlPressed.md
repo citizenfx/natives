@@ -8,13 +8,11 @@ ns: PAD
 BOOL IS_CONTROL_PRESSED(int inputGroup, int control);
 ```
 
-```
-index always is 2 for xbox 360 controller and razerblade  
-0, 1 and 2 used in the scripts. 0 is by far the most common of them.  
-```
+Returns whether a [control](https://docs.fivem.net/game-references/controls/) is currently pressed.
 
 ## Parameters
-* **inputGroup**: 
-* **control**: 
+* **inputGroup**: The control system instance to use. Usually set to 0.
+* **control**: The control ID to check.
 
 ## Return value
+True if the control was pressed.

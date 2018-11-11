@@ -8,11 +8,18 @@ ns: PLAYER
 Ped GET_PLAYER_PED(Player playerId);
 ```
 
-```
-returns the players ped used in many functions  
-```
+Gets the ped for a specified player index.
 
 ## Parameters
-* **playerId**: 
+* **playerId**: The player index, or -1 to get the local player ped.
 
 ## Return value
+The specified player's ped, or 0 if invalid.
+
+## Examples
+```lua
+local playerIdx = GetPlayerFromServerId(source)
+local ped = GetPlayerPed(playerIdx)
+
+-- act on the ped
+```
