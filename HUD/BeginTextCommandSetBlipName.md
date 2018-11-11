@@ -5,7 +5,7 @@ ns: HUD
 
 ```c
 // 0xF9113A30DE5C6670 0xF4C211F6
-void BEGIN_TEXT_COMMAND_SET_BLIP_NAME(char* textLabe);
+void BEGIN_TEXT_COMMAND_SET_BLIP_NAME(char* textLabel);
 ```
 
 Starts a text command to change the name of a blip displayed in the pause menu.
