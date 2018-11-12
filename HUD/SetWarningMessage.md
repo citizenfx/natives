@@ -111,7 +111,7 @@ CreateThread(function()
     while true do
         Wait(0)
         -- Display the warning message every tick.
-        SetWarningMessage("warning_message_first_line", 82, "warning_message_second_line", 0, -1, false, 0, 0, 0)
+        SetWarningMessage("warning_message_first_line", 82, "warning_message_second_line", 0, -1, true, 0, 0, 0)
         
         -- Check for key presses or instructional button clicks.
         -- Input group of 2 is required for this to work while the warning is being displayed.
