@@ -91,12 +91,19 @@ Note: this list is definitely NOT complete, but these are the ones I've been abl
 
 
 ## Examples
-```lua
 -- Make the first line using custom text.
 AddTextEntry("warning_message_first_line", "This is the first line.")
 
 -- Make the second line using custom text.
 AddTextEntry("warning_message_second_line", "This is the second line!")
+
+-- Add an event handler for when the screen is dismissed.
+AddEventHandler("optionSelected", function(selected)
+    print(selected) -- do whatever you want with the selected choice.
+    -- players can either press the physicial buttons, or they can click
+    -- the instructional buttons with their mouse and it will trigger
+    -- the event as well.
+end)
 
 
 -- Create a thread to loop this warning message.
@@ -104,9 +111,21 @@ CreateThread(function()
     while true do
         Wait(0)
         -- Display the warning message every tick.
+        SetWarningMessage("warning_message_first_line", 82, "warning_message_second_line", 0, -1, false, 0, 0, 0)
         
-        SetWarningMessage("warning_message_first_line", 82, "warning_message_second_line", 0, -1, true, 0, 0, 0)
-        -- Result: https://i.imgur.com/imwoimm.png
+        -- Check for key presses or instructional button clicks.
+        -- Input group of 2 is required for this to work while the warning is being displayed.
+        
+        if (IsControlJustReleased(2, 201) or IsControlJustReleased(2, 217)) then -- any select/confirm key was pressed.
+            TriggerEvent("optionSelected", "select")
+            break
+        elseif (IsControlJustReleased(2, 203)) then -- spacebar/x on controller (alt option) was pressed.
+            TriggerEvent("optionSelected", "alt")
+            break
+        elseif (IsControlJustReleased(2, 202)) then -- any of the cancel/back buttons was pressed
+            TriggerEvent("optionSelected", "cancel")
+            break
+        end
     end
 end)
 ```
