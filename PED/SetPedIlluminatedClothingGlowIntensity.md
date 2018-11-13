@@ -6,7 +6,7 @@ aliases: ["0x4E90D746056E273D"]
 
 ```c
 // 0x4E90D746056E273D
-void _SET_PED_ILLUMINATED_CLOTHING_GLOW_INTENSITY(Ped playerPed, float intensity);
+void _SET_PED_ILLUMINATED_CLOTHING_GLOW_INTENSITY(Ped ped, float intensity);
 ```
 
 This native sets the glow intensity of illuminated clothing items.
