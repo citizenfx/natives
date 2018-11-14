@@ -91,6 +91,7 @@ Note: this list is definitely NOT complete, but these are the ones I've been abl
 
 
 ## Examples
+```lua
 -- Make the first line using custom text.
 AddTextEntry("warning_message_first_line", "This is the first line.")
 
