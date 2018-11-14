@@ -74,7 +74,7 @@ enum INSTRUCTIONAL_BUTTON_TYPES
 Note: this list is definitely NOT complete, but these are the ones I've been able to find before giving up because it's such a boring thing to look for 'good' combinations.
 
 **Result of the example code:**
-![preview https://i.imgur.com/imwoimm.png](https://i.imgur.com/imwoimm.png)
+[https://i.imgur.com/imwoimm.png](https://i.imgur.com/imwoimm.png)
 
 ## Parameters
 * **entryLine1**: The text label to display as the first line of the warning message.
