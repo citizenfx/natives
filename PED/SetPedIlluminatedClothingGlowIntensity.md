@@ -20,6 +20,8 @@ Glow intensity is a value between `0.0` and `1.0`.
 In some older decompiled scripts this is known as `_SET_PED_REFLECTION_INTENSITY`.
 Since there's no joaat hash for this, I find `_SET_PED_ILLUMINATED_CLOTHING_GLOW_INTENSITY` more descriptive than `_SET_PED_REFLECTION_INTENSITY`.
 
+Use [`GetPedIlluminatedClothingGlowIntensity`](#_0x1461B28A06717D68) to get the illuminated clothing glow intensity of a specific ped.
+
 Intensity: `1.0`:
 ![](https://www.vespura.com/hi/i/2018-11-13_17-03_c2e23_229.png)
 
