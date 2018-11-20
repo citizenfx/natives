@@ -8,7 +8,7 @@ ns: HUD
 void SET_BLIP_DISPLAY(Blip blip, int displayId);
 ```
 
-**displayId Behaviour**
+**displayId Behaviour** \
 0 = Doesn't show up, ever, anywhere. \
 1 = Doesn't show up, ever, anywhere. \
 2 = Shows on both main map and minimap. (Selectable on map) \
