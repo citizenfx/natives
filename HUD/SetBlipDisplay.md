@@ -9,10 +9,11 @@ void SET_BLIP_DISPLAY(Blip blip, int displayId);
 ```
 
 ```
-displayId = 8 : shows on radar  
-displayId:  
-3 = Shows on Main map but not Radar (not selectable on map)  
-displayId = 2 (Shows on Main map + Radar + selectable)  
+displayId = 2 : Shows on Main map and Radar, selectable
+displayId = 3 : Shows on Main map but not Radar (not selectable on map)  
+displayId = 5 : Shows on Radar but not Main map
+displayId = 8 : shows on Main map and Radar, not selectable
+
 ```
 
 ## Parameters
