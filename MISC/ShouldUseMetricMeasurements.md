@@ -1,12 +1,12 @@
 ---
 ns: MISC
-aliases: ["0xD3D15555431AB793"]
+aliases: ["0xD3D15555431AB793", "_IS_GAME_USING_METRIC_MEASUREMENT_SYSTEM"]
 ---
-## _IS_GAME_USING_METRIC_MEASUREMENT_SYSTEM
+## SHOULD_USE_METRIC_MEASUREMENTS
 
 ```c
 // 0xD3D15555431AB793 0xBAF17315
-BOOL _IS_GAME_USING_METRIC_MEASUREMENT_SYSTEM();
+BOOL SHOULD_USE_METRIC_MEASUREMENTS();
 ```
 
 Returns true if the game is using the metric measurement system, false if imperial is used.
@@ -17,7 +17,7 @@ Returns true if the game is using the metric measurement system, false if imperi
 
 ## Examples
 ```lua
-if (IsGameUsingMetricMeasurementSystem()) then
+if (ShouldUseMetricMeasurements()) then
     print("Distance to finish line: 8,04672 km.")
 else
     print("Distance to finish line: 5 mi.")
