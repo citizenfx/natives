@@ -8,7 +8,6 @@ ns: PED
 void SET_PED_STRAFE_CLIPSET(Ped ped, char* clipSet);
 ```
 
-## Description
 Defines movement when _aiming_.
 
 ## Parameters
