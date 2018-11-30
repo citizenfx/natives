@@ -17,7 +17,7 @@ SetVehicleAsNoLongerNeeded(0x629BFA74418D6239)
 
 DeleteVehicle will require SetEntityAsMissionEntity(0xAD738C3085FE7E11) to work.
 As of 2018.11.30 Set...AsNoLongerNeeded was not working without calling this native(0x57D158647A6BFABF) at least once.
-SetObjectAsNoLongerNeeded(and SetEntityAsNoLongerNeeded when used on object, because it's same fucntion) behaves same for some reason at least for objects I tested it with.
+SetObjectAsNoLongerNeeded(and SetEntityAsNoLongerNeeded when used on object) behaves same for some reason at least for objects I tested it with.
 
 ## Return value
 
