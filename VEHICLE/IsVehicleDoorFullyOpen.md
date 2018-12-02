@@ -5,11 +5,10 @@ ns: VEHICLE
 
 ```c
 // 0x3E933CFF7B111C22 0xC2385B6F
-Vehicle IS_VEHICLE_DOOR_FULLY_OPEN(Vehicle v, int rwing);
+BOOL IS_VEHICLE_DOOR_FULLY_OPEN(Vehicle vehicle, int doorIndex);
 ```
 
-```
-doorIndex:  
+doorIndex:
 0 = Front Left Door  
 1 = Front Right Door  
 2 = Back Left Door  
@@ -17,10 +16,11 @@ doorIndex:
 4 = Hood  
 5 = Trunk  
 6 = Trunk2  
-```
+
 
 ## Parameters
-* **v**: 
-* **rwing**: 
+* **vehicle**: The vehicle to check.
+* **doorIndex**: The index of the door to check.
 
 ## Return value
+A bool indiciating if the specified door is fully open on the specified vehicle.
