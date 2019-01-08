@@ -1,6 +1,6 @@
 ---
 ns: VEHICLE
-aliases: ["N_0x83f813570ff519de"]
+aliases: ["0x83F813570FF519DE"]
 ---
 ## _DISABLE_VEHICLE_NEON_LIGHTS
 
