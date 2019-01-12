@@ -10,11 +10,7 @@ int GET_ENTITY_POPULATION_TYPE(Entity entity);
 
 Gets an entity's population type.
 
-## Parameters
-* **entity**: The entity to obtain the population type from.
-
-## Return value
-A population type, from the following enum:
+**Valid population types:**
 
 ```cpp
 enum ePopulationType
@@ -32,3 +28,9 @@ enum ePopulationType
 	POPTYPE_TOOL
 };
 ```
+
+## Parameters
+* **entity**: The entity to obtain the population type from.
+
+## Return value
+A population type, from the enumeration above.
