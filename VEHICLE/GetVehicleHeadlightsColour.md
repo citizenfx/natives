@@ -10,7 +10,7 @@ int _GET_VEHICLE_HEADLIGHTS_COLOUR(Vehicle vehicle);
 ```
 
 Returns the headlight color index from the vehicle. Value between 0, 12.
-Use (_SET_VEHICLE_HEADLIGHTS_COLOUR)[#_0xE41033B25D003A07] to set the headlights color for the vehicle.
+Use [_SET_VEHICLE_HEADLIGHTS_COLOUR](#_0xE41033B25D003A07) to set the headlights color for the vehicle.
 Must enable xenon headlights before it'll take affect.
 
 List of colors and ids:
