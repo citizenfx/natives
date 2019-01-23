@@ -1,23 +1,36 @@
 ---
 ns: ENTITY
 ---
-## _GET_ENTITY_POPULATION_TYPE
+## GET_ENTITY_POPULATION_TYPE
 
 ```c
-// 0xF6F5161F4534EDFF
-int _GET_ENTITY_POPULATION_TYPE(Entity entity);
+// 0xF6F5161F4534EDFF 0xFC30DDFF
+int GET_ENTITY_POPULATION_TYPE(Entity entity);
 ```
 
-```
-Console Hash: 0xFC30DDFF  
-Returns range from 0-10  
---------------------------------------------------------------  
-The type name can be retrieved by using this:  
-typedef LPSTR(__fastcall *GetEntityPopulationTypeName_t)(unsigned __int16 entityPopulationType, bool scriptName);  
-	GetEntityPopulationTypeName_t GetEntityPopulationTypeName = (GetEntityPopulationTypeName_t)FindPattern("44 0F B7 C1 4C 8D 0D ?? ?? ?? ?? 41 83 F8 07");  
+Gets an entity's population type.
+
+**Valid population types:**
+
+```cpp
+enum ePopulationType
+{
+	POPTYPE_UNKNOWN = 0,
+	POPTYPE_RANDOM_PERMANENT,
+	POPTYPE_RANDOM_PARKED,
+	POPTYPE_RANDOM_PATROL,
+	POPTYPE_RANDOM_SCENARIO,
+	POPTYPE_RANDOM_AMBIENT,
+	POPTYPE_PERMANENT,
+	POPTYPE_MISSION,
+	POPTYPE_REPLAY,
+	POPTYPE_CACHE,
+	POPTYPE_TOOL
+};
 ```
 
 ## Parameters
-* **entity**: 
+* **entity**: The entity to obtain the population type from.
 
 ## Return value
+A population type, from the enumeration above.
