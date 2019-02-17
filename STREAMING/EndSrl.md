@@ -8,4 +8,4 @@ ns: STREAMING
 void END_SRL();
 ```
 
-
+Clear the current srl and stop rendering the area selected by PrefetchSrl and started with BeginSrl.

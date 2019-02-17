@@ -8,5 +8,7 @@ ns: STREAMING
 BOOL IS_SRL_LOADED();
 ```
 
+Returns true when the srl from BeginSrl is loaded.
 
 ## Return value
+* A boolean once BeginSrl srl is loaded. 
