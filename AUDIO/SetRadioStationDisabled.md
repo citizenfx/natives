@@ -1,6 +1,6 @@
 ---
 ns: HUD
-aliases: N_0x94f2e83ead7e6b82
+aliases: ["0x94f2e83ead7e6b82"]
 ---
 ## _SET_RADIO_STATION_DISABLED
 
