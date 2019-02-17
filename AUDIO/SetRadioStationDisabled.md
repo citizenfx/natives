@@ -2,11 +2,11 @@
 ns: HUD
 aliases: N_0x94f2e83ead7e6b82
 ---
-## _SET_RADIO_DISABLED
+## _SET_RADIO_STATION_DISABLED
 
 ```c
 // 0x94F2E83EAD7E6B82
-BOOL _SET_RADIO_DISABLED(char StationName, BOOL Toggle);
+BOOL _SET_RADIO_STATION_DISABLED(char StationName, BOOL Toggle);
 ```
 
 Disables the radio station from the radio wheel.  
