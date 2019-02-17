@@ -6,7 +6,7 @@ aliases: N_0x94f2e83ead7e6b82
 
 ```c
 // 0x94F2E83EAD7E6B82
-void _SET_RADIO_STATION_DISABLED(char stationName, BOOL Toggle);
+void _SET_RADIO_STATION_DISABLED(char* stationName, BOOL Toggle);
 ```
 
 Disables the radio station from the radio wheel.  
