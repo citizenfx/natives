@@ -5,14 +5,14 @@ ns: HUD
 
 ```c
 // 0x75A9A10948D1DEA6 0x419DCDC4
-void SET_MINIMAP_COMPONENT(int componentID, BOOL toggle, int p2);
+Any SET_MINIMAP_COMPONENT(int componentID, BOOL toggle, int p2);
 ```
 
-```
-Please change to void.  
+This native is used to toggle map components like the army base at the top of the map.  
 p2 appears to be always -1.  
-```
 
+An incomplete list of components ID:
+```
 0: Los Santos' air port yellow lift-off markers.
 1: Sandy Shore's air port yellow lift-off markers.
 2: Trevor's air port yellow lift-off markers.
@@ -23,6 +23,7 @@ p2 appears to be always -1.
 7: Unknown.
 8: Unknown.
 15: Army base.
+```
 
 ## Parameters
 * **componentID**: 
