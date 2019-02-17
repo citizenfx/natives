@@ -5,7 +5,7 @@ ns: HUD
 
 ```c
 // 0x75A9A10948D1DEA6 0x419DCDC4
-void SET_MINIMAP_COMPONENT(int componentID, BOOL enable, int p2);
+void SET_MINIMAP_COMPONENT(int componentID, BOOL toggle, int p2);
 ```
 
 ```
@@ -26,7 +26,7 @@ p2 appears to be always -1.
 
 ## Parameters
 * **componentID**: 
-* **enable**: 
+* **toggle**: 
 * **p2**: 
 
 ## Return value
