@@ -10,14 +10,17 @@ int GET_LANDING_GEAR_STATE(Vehicle vehicle);
 ```
 
 ```
-landing gear states:  
+Landing gear states:  
 0: Deployed  
-1: Closing  
-2: Opening  
-3: Retracted  
+1: Closing (Retracting)
+3: Opening (Deploying)
+4: Retracted  
 ```
 
+Landing gear state 2 is never used.
+
 ## Parameters
-* **vehicle**: 
+* **vehicle**: The vehicle to check.
 
 ## Return value
+The current state of the vehicles landing gear.

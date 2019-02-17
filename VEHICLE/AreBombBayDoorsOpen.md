@@ -6,7 +6,7 @@ aliases: ["0xD0917A423314BBA8", "_GET_ARE_BOMB_BAY_DOORS_OPEN"]
 
 ```c
 // 0xD0917A423314BBA8
-bool _ARE_BOMB_BAY_DOORS_OPEN(Vehicle aircraft);
+BOOL _ARE_BOMB_BAY_DOORS_OPEN(Vehicle aircraft);
 ```
 
 Returns true when the bomb bay doors of this plane are open. False if they're closed.
