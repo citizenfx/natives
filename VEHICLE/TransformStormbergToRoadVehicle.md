@@ -13,4 +13,4 @@ Transforms the `stormberg` to it's "road vehicle" variant. If the vehicle is alr
 
 ## Parameters
 * **vehicle**: A vehicle handle.
-* **p1**: If true, the vehicle will be instantly transformed, when false the transform animation plays normally.
+* **instantly**: If true, the vehicle will be instantly transformed, when false the transform animation plays normally.
