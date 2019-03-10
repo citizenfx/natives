@@ -2,11 +2,11 @@
 ns: GRAPHICS
 aliases: ["0x2BC54A8188768488"]
 ---
-## DRAW_INTERACTIVE_SPRITE
+## _DRAW_INTERACTIVE_SPRITE
 
 ```c
 // 0x2BC54A8188768488
-void DRAW_INTERACTIVE_SPRITE(char* textureDict, char* textureName, float screenX, float screenY, float width, float height, float heading, int red, int green, int blue, int alpha);
+void _DRAW_INTERACTIVE_SPRITE(char* textureDict, char* textureName, float screenX, float screenY, float width, float height, float heading, int red, int green, int blue, int alpha);
 ```
 
 ## Parameters
@@ -16,7 +16,7 @@ void DRAW_INTERACTIVE_SPRITE(char* textureDict, char* textureName, float screenX
 * **screenY**: Screen Y
 * **width**: Scale X
 * **height**: Scale Y
-* **float**: Texture rotation in degrees (default = 0.0) positive is clockwise, measured in degrees
+* **heading**: Texture rotation in degrees (default = 0.0) positive is clockwise, measured in degrees
 * **red**: Color
 * **green**: Color
 * **blue**: Color
