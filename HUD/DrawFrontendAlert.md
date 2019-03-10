@@ -9,20 +9,6 @@ aliases: ["0x15803FEC3B9A872B"]
 Any _DRAW_FRONTEND_ALERT(char* labelTitle, char* labelMsg, int p2, int p3, char* labelMsg2, int p5, int p6, int p7, char* p8, char p9, bool background, Any p11);
 ```
 
-## Parameters
-* **labelTitle**: Label of the alert's title. 
-* **labelMsg**: Label of the alert's message.
-* **p2**: This is an enum, check the description for a list.
-* **p3**: This is an enum, check the description for a list.
-* **labelMsg2**: Label of another message line
-* **p5**: usually 0
-* **p6**: usually -1
-* **p7**: usually 0
-* **p8**: unknown label
-* **p9**: unknown label
-* **background**: Set to anything other than 0 or false (even any string) and it will draw a background. Setting it to 0 or false will draw no background.
-* **p11**: unknown value default false, it shows an error code at the bottom left
-
 instructionalKey enum list:
 ```
 Buttons = {
@@ -69,6 +55,22 @@ Alt = {
 }
 ```
 
+**Result of the example code:** [https://i.imgur.com/TvmNF4k.png](https://i.imgur.com/TvmNF4k.png)
+
+## Parameters
+* **labelTitle**: Label of the alert's title. 
+* **labelMsg**: Label of the alert's message.
+* **p2**: This is an enum, check the description for a list.
+* **p3**: This is an enum, check the description for a list.
+* **labelMsg2**: Label of another message line
+* **p5**: usually 0
+* **p6**: usually -1
+* **p7**: usually 0
+* **p8**: unknown label
+* **p9**: unknown label
+* **background**: Set to anything other than 0 or false (even any string) and it will draw a background. Setting it to 0 or false will draw no background.
+* **p11**: unknown value default false, it shows an error code at the bottom left
+
 ## Examples
 ```lua
 Citizen.CreateThread(function()
@@ -81,4 +83,3 @@ Citizen.CreateThread(function()
 	end
 end)
 ```
-**Result of the example code:** [https://i.imgur.com/TvmNF4k.png](https://i.imgur.com/TvmNF4k.png)
