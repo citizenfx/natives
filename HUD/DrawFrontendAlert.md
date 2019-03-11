@@ -6,7 +6,7 @@ aliases: ["0x15803FEC3B9A872B"]
 
 ```c
 // 0x15803FEC3B9A872B
-Any _DRAW_FRONTEND_ALERT(char* labelTitle, char* labelMsg, int p2, int p3, char* labelMsg2, int p5, int p6, int p7, char* p8, char p9, bool background, Any p11);
+Any _DRAW_FRONTEND_ALERT(char* labelTitle, char* labelMsg, int p2, int p3, char* labelMsg2, int p5, int p6, int p7, char* p8, char* p9, BOOL background, Any p11);
 ```
 
 instructionalKey enum list:
