@@ -10,7 +10,7 @@ void _0xECDC202B25E5CF48(Player player, Any p1, BOOL p2);
 
 
 ## Parameters
-* **Player**: 
+* **player**: 
 * **p1**: 
 * **p2**: 
 
