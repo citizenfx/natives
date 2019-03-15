@@ -9,6 +9,8 @@ aliases: ["0x3E200C2BCF4164EB"]
 void _NETWORK_SET_RICH_PRESENCE_2(int p0, char* gxtLabel);
 ```
 
+**This native does absolutely nothing, just a nullsub**
+
 ```
 NETWORK_SET_RICH_PRESENCE but for PlayStation? (On PC it's a nullsub)  
 ```

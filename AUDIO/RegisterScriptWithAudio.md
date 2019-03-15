@@ -8,6 +8,7 @@ ns: AUDIO
 void REGISTER_SCRIPT_WITH_AUDIO(int p0);
 ```
 
+**This native does absolutely nothing, just a nullsub**
 
 ## Parameters
 * **p0**: 
