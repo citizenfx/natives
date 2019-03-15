@@ -8,17 +8,21 @@ ns: MISC
 int ADD_STUNT_JUMP_ANGLED(float x1, float y1, float z1, float x2, float y2, float z2, float radius1, float x3, float y3, float z3, float x4, float y4, float z4, float radius2, float camX, float camY, float camZ, int unk1, int unk2, int unk3);
 ```
 
-Creates a new stunt jump. Info about the specific 'parameter sections':
+Creates a new stunt jump. 
+
+The radius1 and radius2 might actually not be a radius at all, but that's what it seems to me testing them in-game. But they may be 'angle' floats instead, considering this native is named ADD\_STUNT\_JUMP\_**ANGLED**.
+
+Info about the specific 'parameter sections':
 
 
 **x1, y1, z1, x2, y2, z2 and radius1:**
 
-First coordinates are for the jump entry area, and the radius that will be checked around that area. So if you're not exactly within the coordinates, but you are within the outter radius limit then it will still register as entering the stunt jump.
+First coordinates are for the jump entry area, and the radius that will be checked around that area. So if you're not exactly within the coordinates, but you are within the outter radius limit then it will still register as entering the stunt jump. Note as mentioned above, the radius is just a guess, I'm not really sure about it's exact purpose.
 
 
 **x3, y3, z3, x4, y4, z4 and radius2:**
 
-Next part is the landing area, again starting with the left bottom (nearest to the stunt jump entry zone) coordinate, and the second one being the top right furthest away part of the landing area. Followed by another radius float, this is usually slightly larger than the entry zone radius, just because you have quite a lot of places where you can land.
+Next part is the landing area, again starting with the left bottom (nearest to the stunt jump entry zone) coordinate, and the second one being the top right furthest away part of the landing area. Followed by another (most likely) radius float, this is usually slightly larger than the entry zone 'radius' float value, just because you have quite a lot of places where you can land (I'm guessing).
 
 
 **camX, camY and camZ:**
@@ -45,14 +49,14 @@ Here is a list of almost all of the stunt jumps from GTA V (taken from decompile
 * **x2**: Entry zone top right corner x.
 * **y2**: Entry zone top right corner y.
 * **z2**: Entry zone top right corner z.
-* **radius1**: "Feather" radius for entry zone, you need to enter the jump within the min/max coordinates, or within this radius of those two coordinates.
+* **radius1**: Probably a "feather" radius for entry zone, you need to enter the jump within the min/max coordinates, or within this radius of those two coordinates.
 * **x3**: Landing zone start corner coordinate x.
 * **y3**: Landing zone start corner coordinate y.
 * **z3**: Landing zone start corner coordinate z.
 * **x4**: Landing zone end corner coordinate x.
 * **y4**: Landing zone end corner coordinate y.
 * **z4**: Landing zone end corner coordinate z.
-* **radius2**: "Feather" radius for landing zone, you need to land within the min/max coordinates, or within this radius of those two coordinates.
+* **radius2**: Probably a "feather" radius for landing zone, you need to land within the min/max coordinates, or within this radius of those two coordinates.
 * **camX**: Stunt (cinematic) camera x position.
 * **camY**: Stunt (cinematic) camera y position.
 * **camZ**: Stunt (cinematic) camera z position.
