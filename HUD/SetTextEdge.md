@@ -8,6 +8,7 @@ ns: HUD
 void SET_TEXT_EDGE(int p0, int r, int g, int b, int a);
 ```
 
+**This native does absolutely nothing, just a nullsub**
 
 ## Parameters
 * **p0**: 
