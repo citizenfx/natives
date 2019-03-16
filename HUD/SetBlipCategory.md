@@ -8,8 +8,12 @@ ns: HUD
 void SET_BLIP_CATEGORY(Blip blip, int index);
 ```
 
+## Parameters
+* **blip**: The blip to change the category index of
+* **index**: The category index to change to
+
+**index:**
 ```
-int index:
 1 = No distance shown in legend
 2 = Distance shown in legend
 7 = "Other Players" category, also shows distance in legend
@@ -20,7 +24,7 @@ Any other value behaves like `index = 1`, `index` wraps around after 255
 
 Blips with categories `7`, `10` or `11` will all show under the specific categories listing in the map legend, regardless of sprite or name.
 
-**Legend entries:**
+## Legend entries
 
 | index | Legend entry | Label |
 | --- | --- | --- |
@@ -28,7 +32,7 @@ Blips with categories `7`, `10` or `11` will all show under the specific categor
 | 10 | Property | BLIP_PROPCAT |
 | 11 | Owned Property | BLIP_APARTCAT |
 
-**Example:**
+## Examples
 
 ```lua
 blip = AddBlipForCoord(-702.97290039063, -1393.2911376953, 5.1502623558044)
@@ -47,9 +51,4 @@ SetBlipCategory(blip, 10)
 Result:
 
 ![](https://i.imgur.com/skY6vAJ.png)
-
-
-## Parameters
-* **blip**: The blip to change the category index of
-* **index**: The category index to change to
 
