@@ -10,7 +10,9 @@ Vehicle GET_VEHICLE_PED_IS_IN(Ped ped, BOOL lastVehicle);
 
 ```
 Gets the vehicle the specified Ped is/was in depending on bool value.  
-[False = CurrentVehicle, True = LastVehicle]  
+[False = CurrentVehicle, True = LastVehicle]
+
+Returns 0 if the ped is/was not in a vehicle.
 ```
 
 ## Parameters
