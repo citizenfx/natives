@@ -8,7 +8,7 @@ ns: PED
 void SET_PED_COMPONENT_VARIATION(Ped ped, int componentId, int drawableId, int textureId, int paletteId);
 ```
 
-This native is used to set component variation on a ped. Component, drawable and texture ids are related to the ped model. 
+This native is used to set component variation on a ped. Components, drawables and textures IDs are related to the ped model. 
 
 ## Parameters
 * **ped**: The ped handle.
