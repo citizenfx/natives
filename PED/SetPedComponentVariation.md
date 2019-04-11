@@ -18,18 +18,18 @@ This native is used to set component variation on a ped. Components, drawables a
 * **paletteId**: 0 to 3.
 
 ## MP Freemode list of components
-**0**: Face.  
-**1**: Mask.  
-**2**: Hair.  
-**3**: Torso.  
-**4**: Leg.  
-**5**: Parachute / bag.  
-**6**: Shoes.  
-**7**: Accessory.  
-**8**: Undershirt.  
-**9**: Kevlar.  
-**10**: Badge.  
-**11**: Torso 2.  
+**0**: Face  
+**1**: Mask  
+**2**: Hair  
+**3**: Torso  
+**4**: Leg  
+**5**: Parachute / bag  
+**6**: Shoes  
+**7**: Accessory  
+**8**: Undershirt  
+**9**: Kevlar  
+**10**: Badge  
+**11**: Torso 2  
 
 ## Related and useful natives
 [GET_NUMBER_OF_PED_DRAWABLE_VARIATIONS](#_0x27561561732A7842)  

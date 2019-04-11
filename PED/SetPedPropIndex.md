@@ -18,11 +18,11 @@ This native is used to set prop variation on a ped. Components, drawables and te
 * **attach**: Attached or not. 
 
 ## MP Freemode list of props
-**0**: Hat.  
-**1**: Glass.  
-**2**: Ear.  
-**6**: Watch.  
-**7**: Bracelet.  
+**0**: Hat  
+**1**: Glass  
+**2**: Ear  
+**6**: Watch  
+**7**: Bracelet  
 
 ## Related and useful natives
 [GET_NUMBER_OF_PED_PROP_DRAWABLE_VARIATIONS](#_0x5FAF9754E789FB47)  
