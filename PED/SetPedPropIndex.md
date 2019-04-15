@@ -10,13 +10,6 @@ void SET_PED_PROP_INDEX(Ped ped, int componentId, int drawableId, int textureId,
 
 This native is used to set prop variation on a ped. Components, drawables and textures IDs are related to the ped model. 
 
-## Parameters
-* **ped**: The ped handle.
-* **componentId**: The component that you want to set.
-* **drawableId**: The drawable id that is going to be set.
-* **textureId**: The texture id of the drawable.
-* **attach**: Attached or not. 
-
 ## MP Freemode list of props
 **0**: Hat  
 **1**: Glass  
@@ -29,3 +22,10 @@ This native is used to set prop variation on a ped. Components, drawables and te
 [GET_NUMBER_OF_PED_PROP_TEXTURE_VARIATIONS](#_0xA6E7F1CEB523E171)  
 
 [List of component/props ID](gtaxscripting.blogspot.com/2016/04/gta-v-peds-component-and-props.html) of player_two with examples
+
+## Parameters
+* **ped**: The ped handle.
+* **componentId**: The component that you want to set.
+* **drawableId**: The drawable id that is going to be set.
+* **textureId**: The texture id of the drawable.
+* **attach**: Attached or not. 
