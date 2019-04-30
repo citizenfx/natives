@@ -10,7 +10,7 @@ void SET_PED_COMPONENT_VARIATION(Ped ped, int componentId, int drawableId, int t
 
 This native is used to set component variation on a ped. Components, drawables and textures IDs are related to the ped model. 
 
-## MP Freemode list of components
+### MP Freemode list of components
 **0**: Face  
 **1**: Mask  
 **2**: Hair  
@@ -24,7 +24,7 @@ This native is used to set component variation on a ped. Components, drawables a
 **10**: Badge  
 **11**: Torso 2  
 
-## Related and useful natives
+### Related and useful natives
 [GET_NUMBER_OF_PED_DRAWABLE_VARIATIONS](#_0x27561561732A7842)  
 [GET_NUMBER_OF_PED_TEXTURE_VARIATIONS](#_0x8F7156A3142A6BAD)  
 
