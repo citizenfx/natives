@@ -32,8 +32,9 @@ AddTextEntry("warning_message_first_line", "This is the first line.")
 AddTextEntry("warning_message_second_line", "This is the second line!")
 AddTextEntry("warning_message_name", "Hello World")
 
-Citizen.CreatThread(function()
+CreateThread(function()
     while true do
+        Wait(0)
         SetWarningMessage("warning_message_first_line", 82, "warning_message_second_line", 0, -1, true, 0, 0, 0)
         SetWarningMessageListRow(1, "warning_message_name", 1, 1, 1, 1)
     end
