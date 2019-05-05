@@ -24,7 +24,7 @@ Note: You can only use text entries. No custom text. You can recreate this easil
 * **p4**:
 * **p5**:
 * **p6**: 
-* **showBackground**:
+* **showBackground**: Whether or not to show a black background.
 * **p7**:
 * **p8**:
 
