@@ -1,5 +1,6 @@
 ---
 ns: HUD
+aliases: ["0x75D3691713C3B05A"]
 ---
 ## _SHOW_SOCIAL_CLUB_BANNED_SCREEN
 
