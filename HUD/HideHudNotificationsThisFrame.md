@@ -9,7 +9,4 @@ aliases: ["0x25F87B30C382FCA7"]
 void _HIDE_HUD_NOTIFICATIONS_THIS_FRAME();
 ```
 
-```
-Once called each frame hides all above radar notifications.  
-```
-
+Once called each frame hides all above radar notifications.
