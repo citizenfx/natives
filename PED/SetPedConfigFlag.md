@@ -16,6 +16,7 @@ enum PedConfigFlags
 {  
 	PED_FLAG_CAN_FLY_THRU_WINDSCREEN = 32,  
         PED_FLAG_DIES_BY_RAGDOLL = 33,  
+	_PED_FLAG_PUT_ON_MOTORCYCLE_HELMET = 35,  
 	PED_FLAG_NO_COLLISION = 52,  
         _PED_FLAG_IS_SHOOTING = 58,  
         _PED_FLAG_IS_ON_GROUND = 60,  
@@ -31,6 +32,7 @@ enum PedConfigFlags
 	PED_FLAG_NM_MESSAGE_466 = 125,  
 	PED_FLAG_INJURED_LIMP = 166,  
 	PED_FLAG_INJURED_LIMP_2 = 170,  
+	_PED_FLAG_DISABLE_SHUFFLING_TO_DRIVER_SEAT = 184,  
 	PED_FLAG_INJURED_DOWN = 187,  
 	PED_FLAG_SHRINK = 223,  
         PED_FLAG_MELEE_COMBAT = 224,  
@@ -42,6 +44,7 @@ enum PedConfigFlags
         PED_FLAG_NO_PED_MELEE = 314,  
         _PED_SWITCHING_WEAPON = 331,  
 	PED_FLAG_ALPHA = 410,  
+	_PED_FLAG_DISABLE_STARTING_VEH_ENGINE = 429,  
 };  
 (*) When flagId is set to 33 and the bool value to true, peds will die by starting ragdoll, so you should set this flag to false when you resurrect a ped.  
 When flagId is set to 62 and the boolvalue to false this happens: Ped is taken out of vehicle and can't get back in when jacking their empty vehicle. If in a plane it falls from the sky and crashes. Sometimes peds vehicle continue to drive the route without its driver who's running after.   
