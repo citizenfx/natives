@@ -5,14 +5,14 @@ ns: BRAIN
 
 ```c
 // 0xEA47FE3719165B94 0x5AB552C6
-void TASK_PLAY_ANIM(Ped ped, char* animDictionary, char* animationName, float speed, float speedMultiplier, int duration, int flag, float playbackRate, BOOL lockX, BOOL lockY, BOOL lockZ);
+void TASK_PLAY_ANIM(Ped ped, char* animDictionary, char* animationName, float blendInSpeed, float blendOutSpeed, int duration, int flag, float playbackRate, BOOL lockX, BOOL lockY, BOOL lockZ);
 ```
 
 ```
 Animations list : www.los-santos-multiplayer.com/dev.airdancer?cxt=anim  
-float speed > normal speed is 8.0f  
+float blendInSpeed > normal speed is 8.0f
 ----------------------  
-float speedMultiplier > multiply the playback speed  
+float blendOutSpeed > normal speed is 8.0f
 ----------------------  
 int duration: time in millisecond  
 ----------------------  
@@ -61,8 +61,8 @@ lockZ:
 * **ped**: 
 * **animDictionary**: 
 * **animationName**: 
-* **speed**: 
-* **speedMultiplier**: 
+* **blendInSpeed**: 
+* **blendOutSpeed**: 
 * **duration**: 
 * **flag**: 
 * **playbackRate**: 

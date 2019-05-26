@@ -8,6 +8,8 @@ ns: AUDIO
 void UNREGISTER_SCRIPT_WITH_AUDIO();
 ```
 
+**This native does absolutely nothing, just a nullsub**
+
 ```
 On last-gen this just runs blr and this func is called by several other functions other then the native's table.  
 ```

@@ -9,4 +9,4 @@ aliases: ["0xB57D8DD645CFA2CF"]
 void CLEAR_REMINDER_MESSAGE();
 ```
 
-
+**This native does absolutely nothing, just a nullsub**

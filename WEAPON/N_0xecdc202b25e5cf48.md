@@ -5,12 +5,13 @@ ns: WEAPON
 
 ```c
 // 0xECDC202B25E5CF48
-void _0xECDC202B25E5CF48(Any p0, Any p1, Any p2);
+void _0xECDC202B25E5CF48(Player player, Any p1, BOOL p2);
 ```
 
 
 ## Parameters
-* **p0**: 
+* **player**: 
 * **p1**: 
 * **p2**: 
 
+Read [_0x91EF34584710BE99](#_0x91EF34584710BE99) for more information.

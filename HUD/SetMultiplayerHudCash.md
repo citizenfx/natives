@@ -8,6 +8,7 @@ ns: HUD
 void SET_MULTIPLAYER_HUD_CASH(int p0, int p1);
 ```
 
+**This native does absolutely nothing, just a nullsub**
 
 ## Parameters
 * **p0**: 
