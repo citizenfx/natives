@@ -19,9 +19,10 @@ portuguese = 5
 polish = 6  
 russian = 7  
 korean = 8  
-chinese = 9  
+chinesetraditional = 9  
 japanese = 10  
 mexican = 11  
+chinesesimplified = 12
 ```
 
 ## Return value
