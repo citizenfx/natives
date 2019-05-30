@@ -8,15 +8,49 @@ ns: HUD
 void SET_BLIP_CATEGORY(Blip blip, int index);
 ```
 
+Examples result:
+
+![](https://i.imgur.com/skY6vAJ.png)
+
+
+**index:**
 ```
-int index:  
-1 = No Text on blip or Distance  
-2 = Text on blip  
-3 = No text, just distance  
-4+ No Text on blip or distance  
+1 = No distance shown in legend
+2 = Distance shown in legend
+7 = "Other Players" category, also shows distance in legend
+10 = "Property" category
+11 = "Owned Property" category
 ```
+Any other value behaves like `index = 1`, `index` wraps around after 255
+
+Blips with categories `7`, `10` or `11` will all show under the specific categories listing in the map legend, regardless of sprite or name.
+
+
+**Legend entries**
+
+| index | Legend entry | Label |
+| --- | --- | --- |
+| 7 | Other Players | `BLIP_OTHPLYR` |
+| 10 | Property | `BLIP_PROPCAT` |
+| 11 | Owned Property | `BLIP_APARTCAT` |
+
 
 ## Parameters
-* **blip**: 
-* **index**: 
+* **blip**: The blip to change the category index of
+* **index**: The category index to change to
+
+## Examples
+```lua
+blip = AddBlipForCoord(-702.97290039063, -1393.2911376953, 5.1502623558044)
+SetBlipSprite(blip, 370) -- Helipad For Sale
+SetBlipCategory(blip, 10)
+
+blip = AddBlipForCoord(-712.40521240234, -1298.7811279297, 5.1019215583801)
+SetBlipSprite(blip, 371) -- Dock For Sale
+SetBlipCategory(blip, 10)
+
+blip = AddBlipForCoord(-927.92755126953, -2824.1362304688, 13.947744369507)
+SetBlipSprite(blip, 372) -- Hangar For Sale
+SetBlipCategory(blip, 10)
+```
 
