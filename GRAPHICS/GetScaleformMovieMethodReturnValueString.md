@@ -10,7 +10,7 @@ char* GET_SCALEFORM_MOVIE_METHOD_RETURN_VALUE_STRING(int method_return);
 ```
 
 ```
-This returns the name of the scaleform movie.  
+Returns a string in the same way GET_SCALEFORM_MOVIE_METHOD_RETURN_VALUE_INT returns an int 
 ```
 
 ## Parameters
