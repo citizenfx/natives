@@ -8,9 +8,10 @@ ns: HUD
 void SET_BLIP_CATEGORY(Blip blip, int index);
 ```
 
-## Parameters
-* **blip**: The blip to change the category index of
-* **index**: The category index to change to
+Examples result:
+
+![](https://i.imgur.com/skY6vAJ.png)
+
 
 **index:**
 ```
@@ -24,16 +25,21 @@ Any other value behaves like `index = 1`, `index` wraps around after 255
 
 Blips with categories `7`, `10` or `11` will all show under the specific categories listing in the map legend, regardless of sprite or name.
 
-## Legend entries
+
+**Legend entries**
 
 | index | Legend entry | Label |
 | --- | --- | --- |
-| 7 | Other Players | BLIP_OTHPLYR |
-| 10 | Property | BLIP_PROPCAT |
-| 11 | Owned Property | BLIP_APARTCAT |
+| 7 | Other Players | `BLIP_OTHPLYR` |
+| 10 | Property | `BLIP_PROPCAT` |
+| 11 | Owned Property | `BLIP_APARTCAT` |
+
+
+## Parameters
+* **blip**: The blip to change the category index of
+* **index**: The category index to change to
 
 ## Examples
-
 ```lua
 blip = AddBlipForCoord(-702.97290039063, -1393.2911376953, 5.1502623558044)
 SetBlipSprite(blip, 370) -- Helipad For Sale
@@ -47,8 +53,4 @@ blip = AddBlipForCoord(-927.92755126953, -2824.1362304688, 13.947744369507)
 SetBlipSprite(blip, 372) -- Hangar For Sale
 SetBlipCategory(blip, 10)
 ```
-
-Result:
-
-![](https://i.imgur.com/skY6vAJ.png)
 
