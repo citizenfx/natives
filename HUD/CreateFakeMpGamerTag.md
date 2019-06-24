@@ -2,11 +2,11 @@
 ns: HUD
 aliases: ["0xBFEFE3321A3F5015", "_CREATE_MP_GAMER_TAG"]
 ---
-## _CREATE_MP_GAMER_TAG_FOR_PAD
+## CREATE_FAKE_MP_GAMER_TAG
 
 ```c
 // 0xBFEFE3321A3F5015 0xF5CD2AA4
-int _CREATE_MP_GAMER_TAG_FOR_PAD(Ped ped, char* username, BOOL pointedClanTag, BOOL isRockstarClan, char* clanTag, int clanFlag);
+int CREATE_FAKE_MP_GAMER_TAG(Ped ped, char* username, BOOL pointedClanTag, BOOL isRockstarClan, char* clanTag, int clanFlag);
 ```
 
 ```
