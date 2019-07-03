@@ -69,7 +69,7 @@ Alt = {
 * **p8**: unknown label
 * **p9**: unknown label
 * **background**: Set to anything other than 0 or false (even any string) and it will draw a background. Setting it to 0 or false will draw no background.
-* **p11**: Error code. It shows at the bottom left if set.
+* **p11**: Error code. It shows at the bottom left if set to value other than 0.
 
 ## Examples
 ```lua
