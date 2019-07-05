@@ -1,11 +1,12 @@
 ---
 ns: GRAPHICS
+aliases: ["0xA356990E161C9E65"]
 ---
-## _0xA356990E161C9E65
+## TERRAINGRID_ACTIVATE
 
 ```c
 // 0xA356990E161C9E65 0xA1CB6C94
-void _0xA356990E161C9E65(BOOL toggle);
+void TERRAINGRID_ACTIVATE(BOOL toggle);
 ```
 
 This native enables/disables the gold putting grid display (https://i.imgur.com/TC6cku6.png).
