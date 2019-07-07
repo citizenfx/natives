@@ -1,0 +1,12 @@
+---
+ns: HUD
+aliases: ["0xD2B32BE3FC1626C6"]
+---
+## CLOSE_SOCIAL_CLUB_MENU
+
+```c
+// 0xD2B32BE3FC1626C6 0x5F86AA39
+void CLOSE_SOCIAL_CLUB_MENU();
+```
+
+
