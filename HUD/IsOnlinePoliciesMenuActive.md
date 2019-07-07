@@ -1,0 +1,14 @@
+---
+ns: HUD
+aliases: ["0x6F72CD94F7B5B68C"]
+---
+## IS_ONLINE_POLICIES_MENU_ACTIVE
+
+```c
+// 0x6F72CD94F7B5B68C 0x9D4934F4
+BOOL IS_ONLINE_POLICIES_MENU_ACTIVE();
+```
+
+Returns the same as `IS_SOCIAL_CLUB_ACTIVE`.
+
+## Return value
