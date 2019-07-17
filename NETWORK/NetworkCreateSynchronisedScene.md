@@ -19,6 +19,8 @@ int NETWORK_CREATE_SYNCHRONISED_SCENE(float x, float y, float z, float xRot, flo
 * **p7**: 
 * **p8**: 
 * **p9**: 
+* **p10**: 
+* **p11**: 
 
 ## Return value
 netScene id
