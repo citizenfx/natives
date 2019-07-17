@@ -5,7 +5,7 @@ ns: NETWORK
 
 ```c
 // 0x7CD6BC4C2BBDD526 0xB06FE3FE
-int NETWORK_CREATE_SYNCHRONISED_SCENE(float x, float y, float z, float xRot, float yRot, float zRot, int p6, BOOL p7, BOOL p8, float p9, float p10, float p11);
+int NETWORK_CREATE_SYNCHRONISED_SCENE(float x, float y, float z, float xRot, float yRot, float zRot, int p6, BOOL p7, BOOL looped, float p9, float p10, float p11);
 ```
 
 ## Parameters
@@ -17,7 +17,7 @@ int NETWORK_CREATE_SYNCHRONISED_SCENE(float x, float y, float z, float xRot, flo
 * **zRot**: 
 * **p6**: 
 * **p7**: 
-* **p8**: 
+* **looped**: 
 * **p9**: 
 * **p10**: 
 * **p11**: 
