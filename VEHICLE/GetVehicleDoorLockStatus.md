@@ -16,3 +16,6 @@ int GET_VEHICLE_DOOR_LOCK_STATUS(Vehicle vehicle);
 * **vehicle**: 
 
 ## Return value
+1 = Unlocked,
+
+4 = locked
