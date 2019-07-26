@@ -1,6 +1,6 @@
 ---
 ns: PED
-aliases: ["0xCC9682B8951C5229"]
+aliases: ["0xA21C118553BBDF02"]
 ---
 ## DISABLE_HEAD_BLEND_PALETTE_COLOR
 
