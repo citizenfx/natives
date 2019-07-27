@@ -8,13 +8,11 @@ ns: WEAPON
 Hash GET_WEAPONTYPE_MODEL(Hash weaponHash);
 ```
 
-```
-Returns the model of any weapon.  
-Can also take an ammo hash?  
-sub_6663a(&l_115B, WEAPON::GET_WEAPONTYPE_MODEL(${ammo_rpg}));  
-```
+Returns the world model of the given weapon.
+Mainly used with [CREATE_WEAPON_OBJECT](#_0x9541D3CF0D398F36).
 
 ## Parameters
-* **weaponHash**: 
+* **weaponHash**: The weapon hash
 
 ## Return value
+A weapon world model hash
