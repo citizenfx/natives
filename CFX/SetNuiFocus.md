@@ -8,6 +8,7 @@ apiset: client
 void SET_NUI_FOCUS(BOOL hasFocus, BOOL hasCursor);
 ```
 
+Not ref counted.
 
 ## Parameters
 * **hasFocus**: 
