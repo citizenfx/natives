@@ -5,7 +5,7 @@ ns: WEAPON
 
 ```c
 // 0x9541D3CF0D398F36 0x62F5987F
-Object CREATE_WEAPON_OBJECT(Hash weaponHash, int ammoCount, float x, float y, float z, BOOL showWorldModel, float heading, Any p7, Any p8, Any p9);
+Object CREATE_WEAPON_OBJECT(Hash weaponHash, int ammoCount, float x, float y, float z, BOOL showWorldModel, float heading, Any p7);
 ```
 
 Creates a weapon object that can be shown in the world.
@@ -27,8 +27,6 @@ Commented example from the decompiled scripts: (found in `gunclub_shop` at line 
 * **showWorldModel**: If the world model should be shown for this weapon object
 * **heading**: The heading the weapon object should achieve
 * **p7**: unknown
-* **p8**: unknown
-* **p9**: unknown
 
 ## Return value
 A weapon object handle
