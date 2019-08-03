@@ -1,0 +1,15 @@
+---
+ns: PED
+aliases: ["0xA21C118553BBDF02"]
+---
+## DISABLE_HEAD_BLEND_PALETTE_COLOR
+
+```c
+// 0xA21C118553BBDF02 0xC6F36292
+void DISABLE_HEAD_BLEND_PALETTE_COLOR(Ped ped);
+```
+
+
+## Parameters
+* **ped**: 
+
