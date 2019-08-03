@@ -1,12 +1,12 @@
 ---
 ns: OBJECT
-aliases: ["0xB48FCED898292E52"]
+aliases: ["0xB48FCED898292E52", "_GET_DES_OBJECT"]
 ---
-## _GET_DES_OBJECT
+## GET_RAYFIRE_MAP_OBJECT
 
 ```c
 // 0xB48FCED898292E52 0xA286DE96
-int _GET_DES_OBJECT(float x, float y, float z, float rotation, char* name);
+int GET_RAYFIRE_MAP_OBJECT(float x, float y, float z, float rotation, char* name);
 ```
 
 ```
