@@ -8,6 +8,7 @@ ns: NETWORK
 BOOL _NETWORK_IS_ENTITY_CONCEALED(Entity entity);
 ```
 
+This only works with vehicles.
 
 ## Parameters
 * **entity**: 
