@@ -24,7 +24,7 @@ Listed below are the integers and the corresponding HUD component.
 - 17 : Save Game
 - 20 : Weapon Statistics 
 
-These integers also work for the HIDE_HUD_COMPONENT_THIS_FRAME(); native, but instead hide the HUD Component.
+These integers also work for the HIDE_HUD_COMPONENT_THIS_FRAME(); native, but instead hide the HUD component.
 ```
 
 ## Parameters
