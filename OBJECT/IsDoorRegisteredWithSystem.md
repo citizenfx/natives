@@ -1,12 +1,12 @@
 ---
 ns: OBJECT
-aliases: ["0xC153C43EA202C8C1"]
+aliases: ["0xC153C43EA202C8C1","_DOES_DOOR_EXIST"]
 ---
-## _DOES_DOOR_EXIST
+## IS_DOOR_REGISTERED_WITH_SYSTEM
 
 ```c
 // 0xC153C43EA202C8C1 0x5AFCD8A1
-BOOL _DOES_DOOR_EXIST(Hash doorHash);
+BOOL IS_DOOR_REGISTERED_WITH_SYSTEM(Hash doorHash);
 ```
 
 ```
@@ -18,6 +18,6 @@ if (OBJECT::_DOES_DOOR_EXIST(doorHash))
 ```
 
 ## Parameters
-* **doorHash**: 
+* **doorHash**:
 
 ## Return value

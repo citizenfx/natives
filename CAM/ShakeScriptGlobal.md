@@ -1,11 +1,12 @@
 ---
 ns: CAM
+aliases: ["0xF4C8CF9E353AFECA"]
 ---
-## _0xF4C8CF9E353AFECA
+## SHAKE_SCRIPT_GLOBAL
 
 ```c
 // 0xF4C8CF9E353AFECA 0x2B0F05CD
-void _0xF4C8CF9E353AFECA(char* p0, float p1);
+void SHAKE_SCRIPT_GLOBAL(char* p0, float p1);
 ```
 
 ```
@@ -14,6 +15,6 @@ CAM::_F4C8CF9E353AFECA("HAND_SHAKE", 0.2);
 ```
 
 ## Parameters
-* **p0**: 
-* **p1**: 
+* **p0**:
+* **p1**:
 

@@ -1,12 +1,12 @@
 ---
 ns: BRAIN
-aliases: ["0xD5BB4025AE449A4E"]
+aliases: ["0xD5BB4025AE449A4E","_SET_TASK_PROPERTY_FLOAT"]
 ---
-## _SET_TASK_PROPERTY_FLOAT
+## SET_TASK_MOVE_NETWORK_SIGNAL_FLOAT
 
 ```c
 // 0xD5BB4025AE449A4E 0xA79BE783
-void _SET_TASK_PROPERTY_FLOAT(Ped ped, char* p1, float p2);
+void SET_TASK_MOVE_NETWORK_SIGNAL_FLOAT(Ped ped, char* signalName, float value);
 ```
 
 ```
@@ -19,6 +19,6 @@ Example: AI::_D5BB4025AE449A4E(PLAYER::PLAYER_PED_ID(), "Phase", 0.5);
 
 ## Parameters
 * **ped**: The ped on which the task is playing.
-* **p1**: The property name.
-* **p2**: The property value to set.
+* **signalName**:
+* **value**:
 

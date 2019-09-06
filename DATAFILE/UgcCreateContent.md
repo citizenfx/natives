@@ -1,21 +1,25 @@
 ---
 ns: DATAFILE
+aliases: ["0xC84527E235FCA219"]
 ---
-## _0xC84527E235FCA219
+## UGC_CREATE_CONTENT
 
 ```c
 // 0xC84527E235FCA219 0xF09157B0
-BOOL _0xC84527E235FCA219(char* p0, BOOL p1, char* p2, Any* p3, Any* p4, char* type, BOOL p6);
+BOOL UGC_CREATE_CONTENT(char* data, BOOL dataCount, char* contentName, char* description, char* tagsCsv, char* contentTypeName, BOOL publish);
 ```
 
+```
+UnknownDB argument 2: int dataCount
+```
 
 ## Parameters
-* **p0**: 
-* **p1**: 
-* **p2**: 
-* **p3**: 
-* **p4**: 
-* **type**: 
-* **p6**: 
+* **data**:
+* **dataCount**:
+* **contentName**:
+* **description**:
+* **tagsCsv**:
+* **contentTypeName**:
+* **publish**:
 
 ## Return value

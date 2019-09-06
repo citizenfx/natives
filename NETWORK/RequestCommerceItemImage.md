@@ -1,15 +1,15 @@
 ---
 ns: NETWORK
+aliases: ["0xA2F952104FC6DD4B"]
 ---
-## _0xA2F952104FC6DD4B
+## REQUEST_COMMERCE_ITEM_IMAGE
 
 ```c
 // 0xA2F952104FC6DD4B 0x1FDC75DC
-BOOL _0xA2F952104FC6DD4B(Any p0);
+BOOL REQUEST_COMMERCE_ITEM_IMAGE(int index);
 ```
 
-
 ## Parameters
-* **p0**: 
+* **index**:
 
 ## Return value

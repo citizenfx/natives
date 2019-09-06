@@ -1,15 +1,15 @@
 ---
 ns: GRAPHICS
+aliases: ["0xD2300034310557E4"]
 ---
-## _0xD2300034310557E4
+## REMOVE_VEHICLE_CREW_EMBLEM
 
 ```c
 // 0xD2300034310557E4 0x667046A8
-void _0xD2300034310557E4(Vehicle vehicle, Any p1);
+void REMOVE_VEHICLE_CREW_EMBLEM(Vehicle vehicle, int p1);
 ```
 
-
 ## Parameters
-* **vehicle**: 
-* **p1**: 
+* **vehicle**:
+* **p1**:
 

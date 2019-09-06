@@ -1,11 +1,12 @@
 ---
 ns: STREAMING
+aliases: ["_REMOVE_NAMED_PTFX_ASSET"]
 ---
-## _REMOVE_NAMED_PTFX_ASSET
+## REMOVE_NAMED_PTFX_ASSET
 
 ```c
-// 0x5F61EBBE1A00F96D
-void _REMOVE_NAMED_PTFX_ASSET(char* assetName);
+// 0x5F61EBBE1A00F96D 0xC44762A1
+void REMOVE_NAMED_PTFX_ASSET(char* fxName);
 ```
 
 ```
@@ -14,5 +15,5 @@ console hash: 0xC44762A1
 ```
 
 ## Parameters
-* **assetName**: 
+* **fxName**:
 

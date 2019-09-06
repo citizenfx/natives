@@ -1,11 +1,12 @@
 ---
 ns: STATS
+aliases: ["0x58A651CD201D89AD"]
 ---
-## _0x58A651CD201D89AD
+## LEADERBOARDS_GET_CACHE_NUMBER_OF_ROWS
 
 ```c
 // 0x58A651CD201D89AD 0xCE7CB520
-Any _0x58A651CD201D89AD(Any p0);
+int LEADERBOARDS_GET_CACHE_NUMBER_OF_ROWS(Any p0);
 ```
 
 ```
@@ -13,6 +14,6 @@ LEADERBOARDS_GET_CACHE_???
 ```
 
 ## Parameters
-* **p0**: 
+* **p0**:
 
 ## Return value

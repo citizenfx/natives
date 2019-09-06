@@ -1,16 +1,15 @@
 ---
 ns: VEHICLE
+aliases: ["0x2B6747FAA9DB9D6B"]
 ---
-## _0x2B6747FAA9DB9D6B
+## SET_VEHICLE_DISABLE_TOWING
 
 ```c
 // 0x2B6747FAA9DB9D6B 0x95A9ACCB
-Any _0x2B6747FAA9DB9D6B(Vehicle vehicle, BOOL p1);
+void SET_VEHICLE_DISABLE_TOWING(Vehicle vehicle, BOOL toggle);
 ```
 
-
 ## Parameters
-* **vehicle**: 
-* **p1**: 
+* **vehicle**:
+* **toggle**:
 
-## Return value

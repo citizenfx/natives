@@ -1,18 +1,18 @@
 ---
 ns: NETSHOP
+aliases: ["_NETWORK_SHOP_BASKET_START"]
 ---
-## _NETWORK_SHOP_BASKET_START
+## NET_GAMESERVER_BASKET_START
 
 ```c
 // 0x279F08B1A4B29B7E
-BOOL _NETWORK_SHOP_BASKET_START(Any* p0, int p1, int p2, int p3);
+BOOL NET_GAMESERVER_BASKET_START(int* transactionId, Hash categoryHash, Hash actionHash, int flags);
 ```
 
-
 ## Parameters
-* **p0**: 
-* **p1**: 
-* **p2**: 
-* **p3**: 
+* **transactionId**:
+* **categoryHash**:
+* **actionHash**:
+* **flags**:
 
 ## Return value

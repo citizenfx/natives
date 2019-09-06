@@ -1,15 +1,15 @@
 ---
 ns: NETWORK
+aliases: ["0x662635855957C411"]
 ---
-## _0x662635855957C411
+## GET_COMMERCE_ITEM_ID
 
 ```c
 // 0x662635855957C411 0x4ACF110C
-Any _0x662635855957C411(Any p0);
+char* GET_COMMERCE_ITEM_ID(int index);
 ```
 
-
 ## Parameters
-* **p0**: 
+* **index**:
 
 ## Return value

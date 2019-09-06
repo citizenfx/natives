@@ -1,17 +1,17 @@
 ---
 ns: CAM
+aliases: ["0xC91C6C55199308CA"]
 ---
-## _0xC91C6C55199308CA
+## SET_FLY_CAM_COORD_AND_CONSTRAIN
 
 ```c
 // 0xC91C6C55199308CA 0x60B345DE
-void _0xC91C6C55199308CA(Any p0, float p1, float p2, float p3);
+void SET_FLY_CAM_COORD_AND_CONSTRAIN(Cam cam, float x, float y, float z);
 ```
 
-
 ## Parameters
-* **p0**: 
-* **p1**: 
-* **p2**: 
-* **p3**: 
+* **cam**:
+* **x**:
+* **y**:
+* **z**:
 

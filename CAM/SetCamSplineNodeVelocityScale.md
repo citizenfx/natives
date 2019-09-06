@@ -1,16 +1,16 @@
 ---
 ns: CAM
+aliases: ["0xA6385DEB180F319F"]
 ---
-## _0xA6385DEB180F319F
+## SET_CAM_SPLINE_NODE_VELOCITY_SCALE
 
 ```c
 // 0xA6385DEB180F319F 0xA3BD9E94
-void _0xA6385DEB180F319F(Any p0, Any p1, float p2);
+void SET_CAM_SPLINE_NODE_VELOCITY_SCALE(Cam cam, int p1, float scale);
 ```
 
-
 ## Parameters
-* **p0**: 
-* **p1**: 
-* **p2**: 
+* **cam**:
+* **p1**:
+* **scale**:
 

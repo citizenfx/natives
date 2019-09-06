@@ -1,11 +1,12 @@
 ---
 ns: AUDIO
+aliases: ["0x044DBAD7A7FA2BE5"]
 ---
-## _0x044DBAD7A7FA2BE5
+## SET_PORTAL_SETTINGS_OVERRIDE
 
 ```c
 // 0x044DBAD7A7FA2BE5 0x8AD670EC
-void _0x044DBAD7A7FA2BE5(char* p0, char* p1);
+void SET_PORTAL_SETTINGS_OVERRIDE(char* p0, char* p1);
 ```
 
 ```
@@ -18,6 +19,6 @@ AUDIO::_044DBAD7A7FA2BE5("V_CARSHOWROOM_PS_WINDOW_UNBROKEN", "V_CARSHOWROOM_PS_W
 ```
 
 ## Parameters
-* **p0**: 
-* **p1**: 
+* **p0**:
+* **p1**:
 

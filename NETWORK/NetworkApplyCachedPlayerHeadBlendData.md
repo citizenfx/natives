@@ -1,12 +1,12 @@
 ---
 ns: NETWORK
-aliases: ["0x99B72C7ABDE5C910"]
+aliases: ["0x99B72C7ABDE5C910","_NETWORK_COPY_PED_BLEND_DATA"]
 ---
-## _NETWORK_COPY_PED_BLEND_DATA
+## NETWORK_APPLY_CACHED_PLAYER_HEAD_BLEND_DATA
 
 ```c
-// 0x99B72C7ABDE5C910
-BOOL _NETWORK_COPY_PED_BLEND_DATA(Ped ped, Player player);
+// 0x99B72C7ABDE5C910 0x99F58A07
+BOOL NETWORK_APPLY_CACHED_PLAYER_HEAD_BLEND_DATA(Ped ped, Player player);
 ```
 
 ```
@@ -15,7 +15,7 @@ Sadly I thought this copied their tattoos, but it just seems to copy their 'blen
 ```
 
 ## Parameters
-* **ped**: 
-* **player**: 
+* **ped**:
+* **player**:
 
 ## Return value

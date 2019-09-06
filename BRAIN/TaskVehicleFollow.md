@@ -1,11 +1,12 @@
 ---
 ns: BRAIN
+aliases: ["_TASK_VEHICLE_FOLLOW"]
 ---
-## _TASK_VEHICLE_FOLLOW
+## TASK_VEHICLE_FOLLOW
 
 ```c
-// 0xFC545A9F0626E3B6
-void _TASK_VEHICLE_FOLLOW(Ped driver, Vehicle vehicle, Entity targetEntity, float speed, int drivingStyle, int minDistance);
+// 0xFC545A9F0626E3B6 0xA8B917D7
+void TASK_VEHICLE_FOLLOW(Ped driver, Vehicle vehicle, Entity targetEntity, float speed, int drivingStyle, int minDistance);
 ```
 
 ```
@@ -18,10 +19,10 @@ TASK_VEHICLE_FOLLOW, FC545A9F0626E3B6, 0xFC545A9F0626E3B6, all the parameters in
 ```
 
 ## Parameters
-* **driver**: 
-* **vehicle**: 
-* **targetEntity**: 
-* **speed**: 
-* **drivingStyle**: 
-* **minDistance**: 
+* **driver**:
+* **vehicle**:
+* **targetEntity**:
+* **speed**:
+* **drivingStyle**:
+* **minDistance**:
 

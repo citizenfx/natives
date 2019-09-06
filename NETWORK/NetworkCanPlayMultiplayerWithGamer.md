@@ -1,15 +1,15 @@
 ---
 ns: NETWORK
+aliases: ["0x07DD29D5E22763F1"]
 ---
-## _0x07DD29D5E22763F1
+## NETWORK_CAN_PLAY_MULTIPLAYER_WITH_GAMER
 
 ```c
 // 0x07DD29D5E22763F1
-BOOL _0x07DD29D5E22763F1(Any* p0);
+BOOL NETWORK_CAN_PLAY_MULTIPLAYER_WITH_GAMER(Any* networkHandle);
 ```
 
-
 ## Parameters
-* **p0**: 
+* **networkHandle**:
 
 ## Return value

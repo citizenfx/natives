@@ -1,12 +1,12 @@
 ---
 ns: GRAPHICS
-aliases: ["_PUSH_SCALEFORM_MOVIE_FUNCTION_FROM_HUD_COMPONENT"]
+aliases: ["_PUSH_SCALEFORM_MOVIE_FUNCTION_FROM_HUD_COMPONENT","_BEGIN_SCALEFORM_MOVIE_METHOD_HUD_COMPONENT"]
 ---
-## _BEGIN_SCALEFORM_MOVIE_METHOD_HUD_COMPONENT
+## BEGIN_SCALEFORM_SCRIPT_HUD_MOVIE_METHOD
 
 ```c
 // 0x98C494FD5BDFBFD5 0x5D66CE1E
-BOOL _BEGIN_SCALEFORM_MOVIE_METHOD_HUD_COMPONENT(int hudComponent, char* functionName);
+BOOL BEGIN_SCALEFORM_SCRIPT_HUD_MOVIE_METHOD(int hudComponent, char* methodName);
 ```
 
 ```
@@ -18,7 +18,7 @@ This native requires more research - all information can be found inside of 'hud
 ```
 
 ## Parameters
-* **hudComponent**: 
-* **functionName**: 
+* **hudComponent**:
+* **methodName**:
 
 ## Return value

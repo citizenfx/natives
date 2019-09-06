@@ -1,11 +1,12 @@
 ---
 ns: PED
+aliases: ["0x7D7A2E43E74E2EB8"]
 ---
-## _0x7D7A2E43E74E2EB8
+## REQUEST_PED_VISIBILITY_TRACKING
 
 ```c
 // 0x7D7A2E43E74E2EB8 0x840D24D3
-void _0x7D7A2E43E74E2EB8(Any p0);
+void REQUEST_PED_VISIBILITY_TRACKING(Ped ped);
 ```
 
 ```
@@ -18,5 +19,5 @@ if (PED::IS_TRACKED_PED_VISIBLE(ped))
 ```
 
 ## Parameters
-* **p0**: 
+* **ped**:
 

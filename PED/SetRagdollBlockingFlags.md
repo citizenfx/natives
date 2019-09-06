@@ -1,12 +1,12 @@
 ---
 ns: PED
-aliases: ["0x26695EC767728D84"]
+aliases: ["0x26695EC767728D84","_SET_PED_RAGDOLL_BLOCKING_FLAGS"]
 ---
-## _SET_PED_RAGDOLL_BLOCKING_FLAGS
+## SET_RAGDOLL_BLOCKING_FLAGS
 
 ```c
 // 0x26695EC767728D84 0x9C8F830D
-void _SET_PED_RAGDOLL_BLOCKING_FLAGS(Ped ped, int flags);
+void SET_RAGDOLL_BLOCKING_FLAGS(Ped ped, int flags);
 ```
 
 ```
@@ -19,6 +19,6 @@ There seem to be 26 flags
 ```
 
 ## Parameters
-* **ped**: 
-* **flags**: 
+* **ped**:
+* **flags**:
 

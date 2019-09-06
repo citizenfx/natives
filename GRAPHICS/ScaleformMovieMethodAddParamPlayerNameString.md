@@ -1,12 +1,12 @@
 ---
 ns: GRAPHICS
-aliases: ["0xE83A3E3557A56640"]
+aliases: ["0xE83A3E3557A56640","_PUSH_SCALEFORM_MOVIE_METHOD_PARAMETER_BUTTON_NAME"]
 ---
-## _PUSH_SCALEFORM_MOVIE_METHOD_PARAMETER_BUTTON_NAME
+## SCALEFORM_MOVIE_METHOD_ADD_PARAM_PLAYER_NAME_STRING
 
 ```c
 // 0xE83A3E3557A56640 0xCCBF0334
-void _PUSH_SCALEFORM_MOVIE_METHOD_PARAMETER_BUTTON_NAME(char* button);
+void SCALEFORM_MOVIE_METHOD_ADD_PARAM_PLAYER_NAME_STRING(char* string);
 ```
 
 ```
@@ -15,5 +15,5 @@ When switching with a controller, the icons update and become the controller's i
 ```
 
 ## Parameters
-* **button**: 
+* **string**:
 

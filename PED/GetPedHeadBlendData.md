@@ -1,11 +1,12 @@
 ---
 ns: PED
+aliases: ["_GET_PED_HEAD_BLEND_DATA"]
 ---
-## _GET_PED_HEAD_BLEND_DATA
+## GET_PED_HEAD_BLEND_DATA
 
 ```c
-// 0x2746BD9D88C5C5D0
-BOOL _GET_PED_HEAD_BLEND_DATA(Ped ped, Any* headBlendData);
+// 0x2746BD9D88C5C5D0 0x44E1680C
+BOOL GET_PED_HEAD_BLEND_DATA(Ped ped, Any* headBlendData);
 ```
 
 ```
@@ -21,7 +22,7 @@ typedef struct
 ```
 
 ## Parameters
-* **ped**: 
-* **headBlendData**: 
+* **ped**:
+* **headBlendData**:
 
 ## Return value

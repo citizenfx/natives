@@ -1,15 +1,15 @@
 ---
 ns: SOCIALCLUB
+aliases: ["0x85535ACF97FC0969"]
 ---
-## _0x85535ACF97FC0969
+## SC_PROFANITY_GET_STRING_PASSED
 
 ```c
 // 0x85535ACF97FC0969 0x09497F31
-Any _0x85535ACF97FC0969(Any p0);
+BOOL SC_PROFANITY_GET_STRING_PASSED(int token);
 ```
 
-
 ## Parameters
-* **p0**: 
+* **token**:
 
 ## Return value

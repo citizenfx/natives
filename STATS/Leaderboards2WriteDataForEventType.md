@@ -1,16 +1,16 @@
 ---
 ns: STATS
+aliases: ["0xC980E62E33DF1D5C"]
 ---
-## _0xC980E62E33DF1D5C
+## LEADERBOARDS2_WRITE_DATA_FOR_EVENT_TYPE
 
 ```c
 // 0xC980E62E33DF1D5C 0x62C19A3D
-BOOL _0xC980E62E33DF1D5C(Any* p0, Any* p1);
+BOOL LEADERBOARDS2_WRITE_DATA_FOR_EVENT_TYPE(Any* p0, Any* p1);
 ```
 
-
 ## Parameters
-* **p0**: 
-* **p1**: 
+* **p0**:
+* **p1**:
 
 ## Return value

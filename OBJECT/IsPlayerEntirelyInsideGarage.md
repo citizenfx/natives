@@ -1,18 +1,18 @@
 ---
 ns: OBJECT
+aliases: ["0x024A60DEB0EA69F0"]
 ---
-## _0x024A60DEB0EA69F0
+## IS_PLAYER_ENTIRELY_INSIDE_GARAGE
 
 ```c
 // 0x024A60DEB0EA69F0 0xC33ED360
-BOOL _0x024A60DEB0EA69F0(Any p0, Player player, float p2, int p3);
+BOOL IS_PLAYER_ENTIRELY_INSIDE_GARAGE(Hash garageHash, Player player, float p2, int p3);
 ```
 
-
 ## Parameters
-* **p0**: 
-* **player**: 
-* **p2**: 
-* **p3**: 
+* **garageHash**:
+* **player**:
+* **p2**:
+* **p3**:
 
 ## Return value

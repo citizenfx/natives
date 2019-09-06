@@ -1,12 +1,12 @@
 ---
 ns: ENTITY
-aliases: ["0x9EBC85ED0FFFE51C"]
+aliases: ["0x9EBC85ED0FFFE51C","_SET_ENTITY_COLLISION_2"]
 ---
-## _SET_ENTITY_COLLISION_2
+## SET_ENTITY_COMPLETELY_DISABLE_COLLISION
 
 ```c
-// 0x9EBC85ED0FFFE51C
-void _SET_ENTITY_COLLISION_2(Entity entity, BOOL p1, BOOL p2);
+// 0x9EBC85ED0FFFE51C 0xBD0D4831
+void SET_ENTITY_COMPLETELY_DISABLE_COLLISION(Entity entity, BOOL p1, BOOL p2);
 ```
 
 ```
@@ -27,7 +27,7 @@ Gonna ignore the 'vars' for the create_ped no point in defining them.
 ```
 
 ## Parameters
-* **entity**: 
-* **p1**: 
-* **p2**: 
+* **entity**:
+* **p1**:
+* **p2**:
 

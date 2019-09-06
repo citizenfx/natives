@@ -1,16 +1,16 @@
 ---
 ns: GRAPHICS
+aliases: ["0xFE26117A5841B2FF"]
 ---
-## _0xFE26117A5841B2FF
+## GET_VEHICLE_CREW_EMBLEM_REQUEST_STATE
 
 ```c
 // 0xFE26117A5841B2FF 0x4F4D76E8
-int _0xFE26117A5841B2FF(Vehicle vehicle, Any p1);
+int GET_VEHICLE_CREW_EMBLEM_REQUEST_STATE(Vehicle vehicle, int p1);
 ```
 
-
 ## Parameters
-* **vehicle**: 
-* **p1**: 
+* **vehicle**:
+* **p1**:
 
 ## Return value

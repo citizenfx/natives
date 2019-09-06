@@ -1,12 +1,12 @@
 ---
 ns: INTERIOR
-aliases: ["0xF0F77ADB9F67E79D"]
+aliases: ["0xF0F77ADB9F67E79D","_UNK_GET_INTERIOR_AT_COORDS"]
 ---
-## _UNK_GET_INTERIOR_AT_COORDS
+## GET_INTERIOR_AT_COORDS_WITH_TYPEHASH
 
 ```c
-// 0xF0F77ADB9F67E79D
-int _UNK_GET_INTERIOR_AT_COORDS(float x, float y, float z, int unk);
+// 0xF0F77ADB9F67E79D 0x11718507
+int GET_INTERIOR_AT_COORDS_WITH_TYPEHASH(float x, float y, float z, Hash typeHash);
 ```
 
 ```
@@ -14,9 +14,9 @@ Returns the interior ID at the given coords, but only if the unknown variable is
 ```
 
 ## Parameters
-* **x**: 
-* **y**: 
-* **z**: 
-* **unk**: 
+* **x**:
+* **y**:
+* **z**:
+* **typeHash**:
 
 ## Return value

@@ -1,12 +1,12 @@
 ---
 ns: NETSHOP
-aliases: ["0x3C5FD37B5499582E"]
+aliases: ["0x3C5FD37B5499582E","_NETWORK_SHOP_BEGIN_SERVICE"]
 ---
-## _NETWORK_SHOP_BEGIN_SERVICE
+## NET_GAMESERVER_BEGIN_SERVICE
 
 ```c
 // 0x3C5FD37B5499582E
-BOOL _NETWORK_SHOP_BEGIN_SERVICE(int* transactionID, Hash p1, Hash transactionHash, int amount, Hash p4, int mode);
+BOOL NET_GAMESERVER_BEGIN_SERVICE(int* transactionId, Hash categoryHash, Hash itemHash, Hash actionTypeHash, Hash value, int flags);
 ```
 
 ```
@@ -17,14 +17,15 @@ Modes------------------
 4: Bank  
 8: Wallet  
 Only difference I noticed.  
+UnknownDB argument 5: int value
 ```
 
 ## Parameters
-* **transactionID**: 
-* **p1**: 
-* **transactionHash**: 
-* **amount**: 
-* **p4**: 
-* **mode**: 
+* **transactionId**:
+* **categoryHash**:
+* **itemHash**:
+* **actionTypeHash**:
+* **value**:
+* **flags**:
 
 ## Return value

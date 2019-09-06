@@ -1,17 +1,17 @@
 ---
 ns: OBJECT
+aliases: ["0x1761DC5D8471CBAA"]
 ---
-## _0x1761DC5D8471CBAA
+## IS_PLAYER_PARTIALLY_INSIDE_GARAGE
 
 ```c
 // 0x1761DC5D8471CBAA 0x41924877
-BOOL _0x1761DC5D8471CBAA(Any p0, Player player, int p2);
+BOOL IS_PLAYER_PARTIALLY_INSIDE_GARAGE(Hash garageHash, Player player, int p2);
 ```
 
-
 ## Parameters
-* **p0**: 
-* **player**: 
-* **p2**: 
+* **garageHash**:
+* **player**:
+* **p2**:
 
 ## Return value

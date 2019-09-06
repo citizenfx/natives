@@ -1,16 +1,16 @@
 ---
 ns: BRAIN
+aliases: ["0xD01015C7316AE176"]
 ---
-## _0xD01015C7316AE176
+## REQUEST_TASK_MOVE_NETWORK_STATE_TRANSITION
 
 ```c
 // 0xD01015C7316AE176 0x885724DE
-Any _0xD01015C7316AE176(Ped ped, char* p1);
+BOOL REQUEST_TASK_MOVE_NETWORK_STATE_TRANSITION(Ped ped, char* name);
 ```
 
-
 ## Parameters
-* **ped**: 
-* **p1**: 
+* **ped**:
+* **name**:
 
 ## Return value

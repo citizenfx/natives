@@ -1,16 +1,15 @@
 ---
 ns: NETWORK
-aliases: ["0x87EB7A3FFCB314DB"]
+aliases: ["0x87EB7A3FFCB314DB","_NETWORK_IS_FRIEND_ONLINE_2"]
 ---
-## _NETWORK_IS_FRIEND_ONLINE_2
+## NETWORK_IS_FRIEND_HANDLE_ONLINE
 
 ```c
 // 0x87EB7A3FFCB314DB
-BOOL _NETWORK_IS_FRIEND_ONLINE_2(int* networkHandle);
+BOOL NETWORK_IS_FRIEND_HANDLE_ONLINE(int* networkHandle);
 ```
 
-
 ## Parameters
-* **networkHandle**: 
+* **networkHandle**:
 
 ## Return value

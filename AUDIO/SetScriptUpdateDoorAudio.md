@@ -1,15 +1,15 @@
 ---
 ns: AUDIO
+aliases: ["0x06C0023BED16DD6B"]
 ---
-## _0x06C0023BED16DD6B
+## SET_SCRIPT_UPDATE_DOOR_AUDIO
 
 ```c
 // 0x06C0023BED16DD6B 0xE61110A2
-void _0x06C0023BED16DD6B(Any p0, BOOL p1);
+void SET_SCRIPT_UPDATE_DOOR_AUDIO(Hash doorHash, BOOL toggle);
 ```
 
-
 ## Parameters
-* **p0**: 
-* **p1**: 
+* **doorHash**:
+* **toggle**:
 

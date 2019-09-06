@@ -1,14 +1,14 @@
 ---
 ns: STREAMING
+aliases: ["0xF086AD9354FAC3A3"]
 ---
-## _0xF086AD9354FAC3A3
+## REMOVE_MODEL_FROM_CREATOR_BUDGET
 
 ```c
 // 0xF086AD9354FAC3A3 0x1C576388
-void _0xF086AD9354FAC3A3(Any p0);
+void REMOVE_MODEL_FROM_CREATOR_BUDGET(Hash modelHash);
 ```
 
-
 ## Parameters
-* **p0**: 
+* **modelHash**:
 

@@ -1,12 +1,12 @@
 ---
 ns: VEHICLE
-aliases: ["0x260BE8F09E326A20"]
+aliases: ["0x260BE8F09E326A20","_SET_VEHICLE_HALT"]
 ---
-## _SET_VEHICLE_HALT
+## BRING_VEHICLE_TO_HALT
 
 ```c
 // 0x260BE8F09E326A20 0xCBC7D3C8
-void _SET_VEHICLE_HALT(Vehicle vehicle, float distance, int killEngine, BOOL unknown);
+void BRING_VEHICLE_TO_HALT(Vehicle vehicle, float distance, int duration, BOOL unknown);
 ```
 
 ```
@@ -16,8 +16,8 @@ This native makes the vehicle stop immediately, as happens when we enter a MP ga
 ```
 
 ## Parameters
-* **vehicle**: 
-* **distance**: 
-* **killEngine**: 
-* **unknown**: 
+* **vehicle**:
+* **distance**:
+* **duration**:
+* **unknown**:
 

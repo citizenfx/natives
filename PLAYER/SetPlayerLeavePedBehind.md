@@ -1,11 +1,12 @@
 ---
 ns: PLAYER
+aliases: ["0xFF300C7649724A0B"]
 ---
-## _0xFF300C7649724A0B
+## SET_PLAYER_LEAVE_PED_BEHIND
 
 ```c
 // 0xFF300C7649724A0B 0xAD8383FA
-void _0xFF300C7649724A0B(Player player, BOOL p1);
+void SET_PLAYER_LEAVE_PED_BEHIND(Player player, BOOL toggle);
 ```
 
 ```
@@ -18,6 +19,6 @@ SET_PLAYER_*
 ```
 
 ## Parameters
-* **player**: 
-* **p1**: 
+* **player**:
+* **toggle**:
 

@@ -1,12 +1,12 @@
 ---
 ns: GRAPHICS
-aliases: ["0xF7B38B8305F1FE8B"]
+aliases: ["0xF7B38B8305F1FE8B","_LOAD_TV_CHANNEL_SEQUENCE"]
 ---
-## _LOAD_TV_CHANNEL_SEQUENCE
+## SET_TV_CHANNEL_PLAYLIST
 
 ```c
 // 0xF7B38B8305F1FE8B 0xB262DE67
-void _LOAD_TV_CHANNEL_SEQUENCE(int TV_Channel, char* VideoSequence, BOOL Restart);
+void SET_TV_CHANNEL_PLAYLIST(int tvChannel, char* playlistName, BOOL restart);
 ```
 
 ```
@@ -33,7 +33,7 @@ Restart
 ```
 
 ## Parameters
-* **TV_Channel**: 
-* **VideoSequence**: 
-* **Restart**: 
+* **tvChannel**:
+* **playlistName**:
+* **restart**:
 

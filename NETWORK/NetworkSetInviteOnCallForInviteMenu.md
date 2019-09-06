@@ -1,14 +1,14 @@
 ---
 ns: NETWORK
+aliases: ["0x66F010A4B031A331"]
 ---
-## _0x66F010A4B031A331
+## NETWORK_SET_INVITE_ON_CALL_FOR_INVITE_MENU
 
 ```c
 // 0x66F010A4B031A331
-void _0x66F010A4B031A331(Any* p0);
+void NETWORK_SET_INVITE_ON_CALL_FOR_INVITE_MENU(Any* p0);
 ```
 
-
 ## Parameters
-* **p0**: 
+* **p0**:
 

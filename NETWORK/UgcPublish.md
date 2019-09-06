@@ -1,17 +1,17 @@
 ---
 ns: NETWORK
+aliases: ["0x1DE0F5F50D723CAA"]
 ---
-## _0x1DE0F5F50D723CAA
+## UGC_PUBLISH
 
 ```c
 // 0x1DE0F5F50D723CAA 0xAD334B40
-BOOL _0x1DE0F5F50D723CAA(Any* p0, Any* p1, Any* p2);
+BOOL UGC_PUBLISH(char* contentId, char* baseContentId, char* contentTypeName);
 ```
 
-
 ## Parameters
-* **p0**: 
-* **p1**: 
-* **p2**: 
+* **contentId**:
+* **baseContentId**:
+* **contentTypeName**:
 
 ## Return value

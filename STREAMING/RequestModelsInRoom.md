@@ -1,12 +1,12 @@
 ---
 ns: STREAMING
-aliases: ["0x8A7A40100EDFEC58"]
+aliases: ["0x8A7A40100EDFEC58","_REQUEST_INTERIOR_ROOM_BY_NAME"]
 ---
-## _REQUEST_INTERIOR_ROOM_BY_NAME
+## REQUEST_MODELS_IN_ROOM
 
 ```c
 // 0x8A7A40100EDFEC58 0x939243FB
-void _REQUEST_INTERIOR_ROOM_BY_NAME(int interiorID, char* roomName);
+void REQUEST_MODELS_IN_ROOM(int interior, char* roomName);
 ```
 
 ```
@@ -21,6 +21,6 @@ STREAMING::_8A7A40100EDFEC58(l_13BC, "limbo");
 ```
 
 ## Parameters
-* **interiorID**: 
-* **roomName**: 
+* **interior**:
+* **roomName**:
 

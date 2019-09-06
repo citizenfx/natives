@@ -1,12 +1,12 @@
 ---
 ns: VEHICLE
-aliases: ["0xF796359A959DF65D"]
+aliases: ["0xF796359A959DF65D","_DISPLAY_DISTANT_VEHICLES"]
 ---
-## _DISPLAY_DISTANT_VEHICLES
+## SET_DISTANT_CARS_ENABLED
 
 ```c
 // 0xF796359A959DF65D 0xB5CC548B
-void _DISPLAY_DISTANT_VEHICLES(BOOL toggle);
+void SET_DISTANT_CARS_ENABLED(BOOL toggle);
 ```
 
 ```
@@ -14,5 +14,5 @@ Toggles to render distant vehicles. They may not be vehicles but images to look 
 ```
 
 ## Parameters
-* **toggle**: 
+* **toggle**:
 

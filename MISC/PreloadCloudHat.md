@@ -1,11 +1,12 @@
 ---
 ns: MISC
+aliases: ["0x11B56FBBF7224868"]
 ---
-## _0x11B56FBBF7224868
+## PRELOAD_CLOUD_HAT
 
 ```c
 // 0x11B56FBBF7224868 0x8727A4C5
-void _0x11B56FBBF7224868(char* p0);
+void PRELOAD_CLOUD_HAT(char* name);
 ```
 
 ```
@@ -14,5 +15,5 @@ GAMEPLAY::_11B56FBBF7224868("CONTRAILS");
 ```
 
 ## Parameters
-* **p0**: 
+* **name**:
 

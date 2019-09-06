@@ -1,11 +1,12 @@
 ---
 ns: MISC
+aliases: ["0xDEA36202FC3382DF"]
 ---
-## _0xDEA36202FC3382DF
+## ALLOW_MISSION_CREATOR_WARP
 
 ```c
 // 0xDEA36202FC3382DF 0x082BA6F2
-void _0xDEA36202FC3382DF(BOOL p0);
+void ALLOW_MISSION_CREATOR_WARP(BOOL toggle);
 ```
 
 ```
@@ -15,5 +16,5 @@ Seems to have something to do with initializing/destroying creator shit.
 ```
 
 ## Parameters
-* **p0**: 
+* **toggle**:
 

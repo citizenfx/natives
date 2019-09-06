@@ -1,11 +1,12 @@
 ---
 ns: CUTSCENE
+aliases: ["0x71B74D2AE19338D0"]
 ---
-## _0x71B74D2AE19338D0
+## IS_CUTSCENE_PLAYBACK_FLAG_SET
 
 ```c
 // 0x71B74D2AE19338D0 0x7B93CDAA
-BOOL _0x71B74D2AE19338D0(int p0);
+BOOL IS_CUTSCENE_PLAYBACK_FLAG_SET(int flag);
 ```
 
 ```
@@ -13,6 +14,6 @@ It's 100% an IS_CUTSCENE_* native.
 ```
 
 ## Parameters
-* **p0**: 
+* **flag**:
 
 ## Return value

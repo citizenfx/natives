@@ -1,12 +1,12 @@
 ---
 ns: HUD
-aliases: ["0x01A358D9128B7A86"]
+aliases: ["0x01A358D9128B7A86","_GET_ACTIVE_WEBSITE_ID"]
 ---
-## _GET_ACTIVE_WEBSITE_ID
+## GET_CURRENT_WEBPAGE_ID
 
 ```c
 // 0x01A358D9128B7A86 0xAB5B7C18
-int _GET_ACTIVE_WEBSITE_ID();
+int GET_CURRENT_WEBPAGE_ID();
 ```
 
 ```
@@ -15,5 +15,6 @@ same thing as this but does not need websiteID
 Any _0xE3B05614DCE1D014(Any p0) // 0xE3B05614DCE1D014 0xD217EE7E  
 returns current websitePageID  
 ```
+
 
 ## Return value

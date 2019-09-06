@@ -1,15 +1,15 @@
 ---
 ns: MISC
+aliases: ["0x8098C8D6597AAE18"]
 ---
-## _0x8098C8D6597AAE18
+## GET_REPLAY_STAT_AT_INDEX
 
 ```c
 // 0x8098C8D6597AAE18 0x22BE2423
-Any _0x8098C8D6597AAE18(Any p0);
+int GET_REPLAY_STAT_AT_INDEX(int index);
 ```
 
-
 ## Parameters
-* **p0**: 
+* **index**:
 
 ## Return value

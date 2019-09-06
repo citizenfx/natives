@@ -1,11 +1,12 @@
 ---
 ns: VEHICLE
+aliases: ["_GET_VEHICLE_OWNER"]
 ---
-## _GET_VEHICLE_OWNER
+## GET_VEHICLE_LOCK_ON_TARGET
 
 ```c
 // 0x8F5EBAB1F260CFCE 0x4A557117
-BOOL _GET_VEHICLE_OWNER(Vehicle vehicle, Entity* entity);
+BOOL GET_VEHICLE_LOCK_ON_TARGET(Vehicle vehicle, Entity* entity);
 ```
 
 ```
@@ -16,7 +17,7 @@ on a side note watching changes in memory this will only store your ped's entity
 ```
 
 ## Parameters
-* **vehicle**: 
-* **entity**: 
+* **vehicle**:
+* **entity**:
 
 ## Return value

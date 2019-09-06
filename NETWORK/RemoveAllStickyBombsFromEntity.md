@@ -1,17 +1,19 @@
 ---
 ns: NETWORK
+aliases: ["0x715135F4B82AC90D"]
 ---
-## _0x715135F4B82AC90D
+## REMOVE_ALL_STICKY_BOMBS_FROM_ENTITY
 
 ```c
 // 0x715135F4B82AC90D 0xCEAE5AFC
-void _0x715135F4B82AC90D(Entity entity);
+void REMOVE_ALL_STICKY_BOMBS_FROM_ENTITY(Entity entity);
 ```
 
 ```
 Used in am_mp_property_ext and am_mp_property_int  
+UnknownDB additional arguments(s): Ped ped
 ```
 
 ## Parameters
-* **entity**: 
+* **entity**:
 

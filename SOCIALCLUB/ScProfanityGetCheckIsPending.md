@@ -1,12 +1,12 @@
 ---
 ns: SOCIALCLUB
-aliases: ["0x82E4A58BABC15AE7"]
+aliases: ["0x82E4A58BABC15AE7","_SC_GET_CHECK_STRING_STATUS"]
 ---
-## _SC_GET_CHECK_STRING_STATUS
+## SC_PROFANITY_GET_CHECK_IS_PENDING
 
 ```c
 // 0x82E4A58BABC15AE7 0xA796D7A7
-int _SC_GET_CHECK_STRING_STATUS(int taskHandle);
+int SC_PROFANITY_GET_CHECK_IS_PENDING(int token);
 ```
 
 ```
@@ -15,9 +15,10 @@ Possible return values:
 0: not a profane string  
 1: a profane string  
 3: server error occurred  
+UnknownDB return type: BOOL
 ```
 
 ## Parameters
-* **taskHandle**: 
+* **token**:
 
 ## Return value

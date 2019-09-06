@@ -1,11 +1,12 @@
 ---
 ns: VEHICLE
+aliases: ["0x9737A37136F07E75"]
 ---
-## _0x9737A37136F07E75
+## SET_VEHICLE_DOORS_LOCKED_FOR_NON_SCRIPT_PLAYERS
 
 ```c
 // 0x9737A37136F07E75 0xE4EF6514
-void _0x9737A37136F07E75(Vehicle vehicle, BOOL toggle);
+void SET_VEHICLE_DOORS_LOCKED_FOR_NON_SCRIPT_PLAYERS(Vehicle vehicle, BOOL toggle);
 ```
 
 ```
@@ -13,6 +14,6 @@ SET_VEHICLE_DOORS_LOCKED_FOR_*
 ```
 
 ## Parameters
-* **vehicle**: 
-* **toggle**: 
+* **vehicle**:
+* **toggle**:
 

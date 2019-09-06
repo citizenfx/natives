@@ -1,12 +1,12 @@
 ---
 ns: NETWORK
-aliases: ["0xC01E93FAC20C3346"]
+aliases: ["0xC01E93FAC20C3346","_NETWORK_HAS_CONTROL_OF_PAVEMENT_STATS"]
 ---
-## _NETWORK_HAS_CONTROL_OF_PAVEMENT_STATS
+## NETWORK_IS_DOOR_NETWORKED
 
 ```c
-// 0xC01E93FAC20C3346
-BOOL _NETWORK_HAS_CONTROL_OF_PAVEMENT_STATS(Hash doorHash);
+// 0xC01E93FAC20C3346 0xD14D9C07
+BOOL NETWORK_IS_DOOR_NETWORKED(Hash doorHash);
 ```
 
 ```
@@ -14,6 +14,6 @@ console hash: 0xD14D9C07
 ```
 
 ## Parameters
-* **doorHash**: 
+* **doorHash**:
 
 ## Return value

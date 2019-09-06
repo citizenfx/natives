@@ -1,15 +1,15 @@
 ---
 ns: NETWORK
+aliases: ["0x631DC5DFF4B110E3"]
 ---
-## _0x631DC5DFF4B110E3
+## NETWORK_IS_PLAYER_FADING
 
 ```c
-// 0x631DC5DFF4B110E3
-BOOL _0x631DC5DFF4B110E3(Any p0);
+// 0x631DC5DFF4B110E3 0x065C597B
+BOOL NETWORK_IS_PLAYER_FADING(Player player);
 ```
 
-
 ## Parameters
-* **p0**: 
+* **player**:
 
 ## Return value

@@ -1,11 +1,12 @@
 ---
 ns: MISC
+aliases: ["_START_SAVE_STRUCT"]
 ---
-## _START_SAVE_STRUCT
+## START_SAVE_STRUCT_WITH_SIZE
 
 ```c
 // 0xBF737600CDDBEADD 0xFB45728E
-void _START_SAVE_STRUCT(Any* p0, int p1, char* structName);
+void START_SAVE_STRUCT_WITH_SIZE(Any* p0, int size, char* structName);
 ```
 
 ```
@@ -13,7 +14,7 @@ Second parameter might be length.
 ```
 
 ## Parameters
-* **p0**: 
-* **p1**: 
-* **structName**: 
+* **p0**:
+* **size**:
+* **structName**:
 

@@ -1,11 +1,12 @@
 ---
 ns: DATAFILE
+aliases: ["0x83BCCE3224735F05"]
 ---
-## _0x83BCCE3224735F05
+## DATAFILE_START_SAVE_TO_CLOUD
 
 ```c
 // 0x83BCCE3224735F05 0x768CBB35
-BOOL _0x83BCCE3224735F05(char* filename);
+BOOL DATAFILE_START_SAVE_TO_CLOUD(char* filename);
 ```
 
 ```
@@ -32,6 +33,6 @@ DATAFILE::_83BCCE3224735F05("gta5/psych/index.json"); // saves the file?
 ```
 
 ## Parameters
-* **filename**: 
+* **filename**:
 
 ## Return value

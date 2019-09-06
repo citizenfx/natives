@@ -1,12 +1,12 @@
 ---
 ns: HUD
-aliases: ["0x8F9EE5687F8EECCD"]
+aliases: ["0x8F9EE5687F8EECCD","_BEGIN_TEXT_COMMAND_TIMER"]
 ---
-## _BEGIN_TEXT_COMMAND_TIMER
+## BEGIN_TEXT_COMMAND_OVERRIDE_BUTTON_TEXT
 
 ```c
 // 0x8F9EE5687F8EECCD 0xBF855650
-void _BEGIN_TEXT_COMMAND_TIMER(char* p0);
+void BEGIN_TEXT_COMMAND_OVERRIDE_BUTTON_TEXT(char* gxtEntry);
 ```
 
 ```
@@ -19,5 +19,5 @@ void message(char *text)
 ```
 
 ## Parameters
-* **p0**: 
+* **gxtEntry**:
 

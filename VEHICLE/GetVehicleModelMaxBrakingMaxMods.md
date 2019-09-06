@@ -1,12 +1,12 @@
 ---
 ns: VEHICLE
-aliases: ["0xBFBA3BA79CFF7EBF"]
+aliases: ["0xBFBA3BA79CFF7EBF","_GET_VEHICLE_MODEL_HAND_BRAKE"]
 ---
-## _GET_VEHICLE_MODEL_HAND_BRAKE
+## GET_VEHICLE_MODEL_MAX_BRAKING_MAX_MODS
 
 ```c
 // 0xBFBA3BA79CFF7EBF 0xF3A7293F
-float _GET_VEHICLE_MODEL_HAND_BRAKE(Hash modelHash);
+float GET_VEHICLE_MODEL_MAX_BRAKING_MAX_MODS(Hash modelHash);
 ```
 
 ```
@@ -17,6 +17,6 @@ For a full list, see here: pastebin.com/Cb9L1Cn0
 ```
 
 ## Parameters
-* **modelHash**: 
+* **modelHash**:
 
 ## Return value

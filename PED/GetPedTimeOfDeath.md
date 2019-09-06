@@ -1,12 +1,12 @@
 ---
 ns: PED
-aliases: ["_GET_PED_TIME_OF_DEATH"]
+aliases: ["_GET_PED_TIME_OF_DEATH","0x1E98817B311AE98A"]
 ---
-## _0x1E98817B311AE98A
+## GET_PED_TIME_OF_DEATH
 
 ```c
-// 0x1E98817B311AE98A
-int _0x1E98817B311AE98A(Ped ped);
+// 0x1E98817B311AE98A 0xDF6D5D54
+int GET_PED_TIME_OF_DEATH(Ped ped);
 ```
 
 ```
@@ -18,6 +18,6 @@ Retreives [CPed + 15CC] (as of 944)
 ```
 
 ## Parameters
-* **ped**: 
+* **ped**:
 
 ## Return value

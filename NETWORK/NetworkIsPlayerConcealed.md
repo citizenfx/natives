@@ -1,15 +1,15 @@
 ---
 ns: NETWORK
+aliases: ["0x919B3C98ED8292F9"]
 ---
-## _0x919B3C98ED8292F9
+## NETWORK_IS_PLAYER_CONCEALED
 
 ```c
 // 0x919B3C98ED8292F9 0xB0313590
-BOOL _0x919B3C98ED8292F9(Any p0);
+BOOL NETWORK_IS_PLAYER_CONCEALED(Player player);
 ```
 
-
 ## Parameters
-* **p0**: 
+* **player**:
 
 ## Return value

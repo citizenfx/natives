@@ -1,16 +1,16 @@
 ---
 ns: NETWORK
+aliases: ["0x44B37CDCAE765AAE"]
 ---
-## _0x44B37CDCAE765AAE
+## NETWORK_CHECK_DATA_MANAGER_SUCCEEDED_FOR_HANDLE
 
 ```c
 // 0x44B37CDCAE765AAE
-BOOL _0x44B37CDCAE765AAE(Any p0, Any* p1);
+BOOL NETWORK_CHECK_DATA_MANAGER_SUCCEEDED_FOR_HANDLE(Any p0, Any* p1);
 ```
 
-
 ## Parameters
-* **p0**: 
-* **p1**: 
+* **p0**:
+* **p1**:
 
 ## Return value

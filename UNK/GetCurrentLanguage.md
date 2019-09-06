@@ -1,12 +1,12 @@
 ---
 ns: UNK
-aliases: ["_GET_UI_LANGUAGE_ID"]
+aliases: ["_GET_UI_LANGUAGE_ID","_GET_CURRENT_LANGUAGE_ID"]
 ---
-## _GET_CURRENT_LANGUAGE_ID
+## GET_CURRENT_LANGUAGE
 
 ```c
-// 0x2BDD44CC428A7EAE
-int _GET_CURRENT_LANGUAGE_ID();
+// 0x2BDD44CC428A7EAE 0x761BE00B
+int GET_CURRENT_LANGUAGE();
 ```
 
 ```
@@ -24,5 +24,6 @@ japanese = 10
 mexican = 11  
 chinesesimplified = 12
 ```
+
 
 ## Return value

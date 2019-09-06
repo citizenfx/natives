@@ -1,15 +1,15 @@
 ---
 ns: BRAIN
+aliases: ["0x19D1B791CB3670FE"]
 ---
-## _0x19D1B791CB3670FE
+## TASK_AGITATED_ACTION
 
 ```c
 // 0x19D1B791CB3670FE
-void _0x19D1B791CB3670FE(Any p0, Any p1);
+void TASK_AGITATED_ACTION(Ped ped, Ped ped2);
 ```
 
-
 ## Parameters
-* **p0**: 
-* **p1**: 
+* **ped**:
+* **ped2**:
 

@@ -1,15 +1,15 @@
 ---
 ns: GRAPHICS
+aliases: ["0xDBAA5EC848BA2D46"]
 ---
-## _0xDBAA5EC848BA2D46
+## GOLF_TRAIL_SET_TESSELLATION
 
 ```c
 // 0xDBAA5EC848BA2D46 0xBB1A1294
-void _0xDBAA5EC848BA2D46(Any p0, Any p1);
+void GOLF_TRAIL_SET_TESSELLATION(int p0, int p1);
 ```
 
-
 ## Parameters
-* **p0**: 
-* **p1**: 
+* **p0**:
+* **p1**:
 

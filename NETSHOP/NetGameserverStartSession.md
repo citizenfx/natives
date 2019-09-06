@@ -1,16 +1,15 @@
 ---
 ns: NETSHOP
-aliases: ["0xA135AC892A58FC07"]
+aliases: ["0xA135AC892A58FC07","_NETWORK_SHOP_START_SESSION"]
 ---
-## _NETWORK_SHOP_START_SESSION
+## NET_GAMESERVER_START_SESSION
 
 ```c
 // 0xA135AC892A58FC07
-BOOL _NETWORK_SHOP_START_SESSION(Any p0);
+BOOL NET_GAMESERVER_START_SESSION(int charSlot);
 ```
 
-
 ## Parameters
-* **p0**: 
+* **charSlot**:
 
 ## Return value

@@ -1,11 +1,12 @@
 ---
 ns: GRAPHICS
+aliases: ["_CALL_SCALEFORM_MOVIE_FUNCTION_MIXED_PARAMS"]
 ---
-## _CALL_SCALEFORM_MOVIE_FUNCTION_MIXED_PARAMS
+## CALL_SCALEFORM_MOVIE_METHOD_WITH_NUMBER_AND_STRING
 
 ```c
 // 0xEF662D8D57E290B1 0x6EAF56DE
-void _CALL_SCALEFORM_MOVIE_FUNCTION_MIXED_PARAMS(int scaleform, char* functionName, float floatParam1, float floatParam2, float floatParam3, float floatParam4, float floatParam5, char* stringParam1, char* stringParam2, char* stringParam3, char* stringParam4, char* stringParam5);
+void CALL_SCALEFORM_MOVIE_METHOD_WITH_NUMBER_AND_STRING(int scaleform, char* methodName, float floatParam1, float floatParam2, float floatParam3, float floatParam4, float floatParam5, char* stringParam1, char* stringParam2, char* stringParam3, char* stringParam4, char* stringParam5);
 ```
 
 ```
@@ -20,16 +21,16 @@ GRAPHICS::_CALL_SCALEFORM_MOVIE_FUNCTION_MIXED_PARAMS(scaleform, "MY_FUNCTION_2"
 ```
 
 ## Parameters
-* **scaleform**: 
-* **functionName**: 
-* **floatParam1**: 
-* **floatParam2**: 
-* **floatParam3**: 
-* **floatParam4**: 
-* **floatParam5**: 
-* **stringParam1**: 
-* **stringParam2**: 
-* **stringParam3**: 
-* **stringParam4**: 
-* **stringParam5**: 
+* **scaleform**:
+* **methodName**:
+* **floatParam1**:
+* **floatParam2**:
+* **floatParam3**:
+* **floatParam4**:
+* **floatParam5**:
+* **stringParam1**:
+* **stringParam2**:
+* **stringParam3**:
+* **stringParam4**:
+* **stringParam5**:
 

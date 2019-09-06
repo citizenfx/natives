@@ -1,15 +1,15 @@
 ---
 ns: NETWORK
+aliases: ["0x6F697A66CE78674E"]
 ---
-## _0x6F697A66CE78674E
+## NETWORK_OVERRIDE_TEAM_RESTRICTIONS
 
 ```c
 // 0x6F697A66CE78674E 0xC8CC9E75
-void _0x6F697A66CE78674E(int team, BOOL toggle);
+void NETWORK_OVERRIDE_TEAM_RESTRICTIONS(int team, BOOL toggle);
 ```
 
-
 ## Parameters
-* **team**: 
-* **toggle**: 
+* **team**:
+* **toggle**:
 

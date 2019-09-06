@@ -1,11 +1,12 @@
 ---
 ns: VEHICLE
+aliases: ["0x27B926779DEB502D"]
 ---
-## _0x27B926779DEB502D
+## IS_VEHICLE_BUMPER_BOUNCING
 
 ```c
 // 0x27B926779DEB502D 0xB3A2CC4F
-BOOL _0x27B926779DEB502D(Vehicle vehicle, BOOL frontBumper);
+BOOL IS_VEHICLE_BUMPER_BOUNCING(Vehicle vehicle, BOOL frontBumper);
 ```
 
 ```
@@ -14,7 +15,7 @@ Not sure what the actual name is but this checks if the bumper of a vehicle is h
 ```
 
 ## Parameters
-* **vehicle**: 
-* **frontBumper**: 
+* **vehicle**:
+* **frontBumper**:
 
 ## Return value

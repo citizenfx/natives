@@ -1,11 +1,12 @@
 ---
 ns: AUDIO
+aliases: ["0x031ACB6ABA18C729"]
 ---
-## _0x031ACB6ABA18C729
+## UNLOCK_RADIO_STATION_TRACK_LIST
 
 ```c
 // 0x031ACB6ABA18C729 0xBE998184
-void _0x031ACB6ABA18C729(char* radioStation, char* p1);
+void UNLOCK_RADIO_STATION_TRACK_LIST(char* radioStation, char* trackListName);
 ```
 
 ```
@@ -15,6 +16,6 @@ Note: Another name for RADIO_16_SILVERLAKE is RADIO MIRROR PARK
 ```
 
 ## Parameters
-* **radioStation**: 
-* **p1**: 
+* **radioStation**:
+* **trackListName**:
 

@@ -1,12 +1,12 @@
 ---
 ns: HUD
-aliases: ["0xABA17D7CE615ADBF","_SET_LOADING_PROMPT_TEXT_ENTRY"]
+aliases: ["0xABA17D7CE615ADBF","_SET_LOADING_PROMPT_TEXT_ENTRY","_BEGIN_TEXT_COMMAND_BUSY_STRING"]
 ---
-## _BEGIN_TEXT_COMMAND_BUSY_STRING
+## BEGIN_TEXT_COMMAND_BUSYSPINNER_ON
 
 ```c
 // 0xABA17D7CE615ADBF 0xCB7C8994
-void _BEGIN_TEXT_COMMAND_BUSY_STRING(char* string);
+void BEGIN_TEXT_COMMAND_BUSYSPINNER_ON(char* string);
 ```
 
 ```
@@ -46,5 +46,5 @@ These are some localized strings used in the loading spinner.
 ```
 
 ## Parameters
-* **string**: 
+* **string**:
 

@@ -1,15 +1,15 @@
 ---
 ns: MISC
+aliases: ["_SET_CLOUD_HAT_TRANSITION"]
 ---
-## _SET_CLOUD_HAT_TRANSITION
+## LOAD_CLOUD_HAT
 
 ```c
 // 0xFC4842A34657BFCB 0xED88FC61
-void _SET_CLOUD_HAT_TRANSITION(char* type, float transitionTime);
+void LOAD_CLOUD_HAT(char* name, float transitionTime);
 ```
 
-
 ## Parameters
-* **type**: 
-* **transitionTime**: 
+* **name**:
+* **transitionTime**:
 

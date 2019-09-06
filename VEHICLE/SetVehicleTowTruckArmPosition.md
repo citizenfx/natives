@@ -1,12 +1,12 @@
 ---
 ns: VEHICLE
-aliases: ["_SET_TOW_TRUCK_CRANE_RAISED"]
+aliases: ["_SET_TOW_TRUCK_CRANE_RAISED","_SET_TOW_TRUCK_CRANE_HEIGHT"]
 ---
-## _SET_TOW_TRUCK_CRANE_HEIGHT
+## SET_VEHICLE_TOW_TRUCK_ARM_POSITION
 
 ```c
 // 0xFE54B92A344583CA 0x88236E22
-void _SET_TOW_TRUCK_CRANE_HEIGHT(Vehicle towTruck, float height);
+void SET_VEHICLE_TOW_TRUCK_ARM_POSITION(Vehicle vehicle, float position);
 ```
 
 ```
@@ -14,6 +14,6 @@ Sets how much the crane on the tow truck is raised, where 0.0 is fully lowered a
 ```
 
 ## Parameters
-* **towTruck**: 
-* **height**: 
+* **vehicle**:
+* **position**:
 

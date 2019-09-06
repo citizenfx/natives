@@ -1,15 +1,15 @@
 ---
 ns: INTERIOR
+aliases: ["0x920D853F3E17F1DA"]
 ---
-## _0x920D853F3E17F1DA
+## FORCE_ROOM_FOR_GAME_VIEWPORT
 
 ```c
 // 0x920D853F3E17F1DA 0xD79803B5
-void _0x920D853F3E17F1DA(int interiorID, Hash roomHashKey);
+void FORCE_ROOM_FOR_GAME_VIEWPORT(int interiorID, Hash roomHashKey);
 ```
 
-
 ## Parameters
-* **interiorID**: 
-* **roomHashKey**: 
+* **interiorID**:
+* **roomHashKey**:
 

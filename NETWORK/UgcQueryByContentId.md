@@ -1,17 +1,17 @@
 ---
 ns: NETWORK
+aliases: ["0x158EC424F35EC469"]
 ---
-## _0x158EC424F35EC469
+## UGC_QUERY_BY_CONTENT_ID
 
 ```c
 // 0x158EC424F35EC469 0xDED82A6E
-BOOL _0x158EC424F35EC469(char* p0, BOOL p1, char* contentType);
+BOOL UGC_QUERY_BY_CONTENT_ID(char* contentId, BOOL latestVersion, char* contentTypeName);
 ```
 
-
 ## Parameters
-* **p0**: 
-* **p1**: 
-* **contentType**: 
+* **contentId**:
+* **latestVersion**:
+* **contentTypeName**:
 
 ## Return value

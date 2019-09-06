@@ -1,12 +1,12 @@
 ---
 ns: HUD
-aliases: ["0x97C65887D4B37FA9"]
+aliases: ["0x97C65887D4B37FA9","_SET_AI_BLIP_MAX_DISTANCE"]
 ---
-## _SET_AI_BLIP_MAX_DISTANCE
+## SET_PED_AI_BLIP_NOTICE_RANGE
 
 ```c
 // 0x97C65887D4B37FA9 0xF9DC2AF7
-void _SET_AI_BLIP_MAX_DISTANCE(Ped ped, float distance);
+void SET_PED_AI_BLIP_NOTICE_RANGE(Ped ped, float range);
 ```
 
 ```
@@ -15,6 +15,6 @@ Sets the maximum view distance for the AI BIP
 ```
 
 ## Parameters
-* **ped**: 
-* **distance**: 
+* **ped**:
+* **range**:
 

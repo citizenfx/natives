@@ -1,15 +1,15 @@
 ---
 ns: PED
+aliases: ["0x52D59AB61DDC05DD"]
 ---
-## _0x52D59AB61DDC05DD
+## SET_PED_HIGHLY_PERCEPTIVE
 
 ```c
 // 0x52D59AB61DDC05DD 0x9A2180FF
-void _0x52D59AB61DDC05DD(Ped ped, BOOL p1);
+void SET_PED_HIGHLY_PERCEPTIVE(Ped ped, BOOL toggle);
 ```
 
-
 ## Parameters
-* **ped**: 
-* **p1**: 
+* **ped**:
+* **toggle**:
 

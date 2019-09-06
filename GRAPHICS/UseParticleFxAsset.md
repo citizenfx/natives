@@ -1,12 +1,12 @@
 ---
 ns: GRAPHICS
-aliases: ["_SET_PTFX_ASSET_NEXT_CALL"]
+aliases: ["_SET_PTFX_ASSET_NEXT_CALL","_USE_PARTICLE_FX_ASSET_NEXT_CALL"]
 ---
-## _USE_PARTICLE_FX_ASSET_NEXT_CALL
+## USE_PARTICLE_FX_ASSET
 
 ```c
 // 0x6C38AF3693A69A91 0x9C720B61
-void _USE_PARTICLE_FX_ASSET_NEXT_CALL(char* name);
+void USE_PARTICLE_FX_ASSET(char* name);
 ```
 
 ```
@@ -21,5 +21,5 @@ GRAPHICS::_SET_PTFX_ASSET_NEXT_CALL("scr_prison_break_heist_station");
 ```
 
 ## Parameters
-* **name**: 
+* **name**:
 

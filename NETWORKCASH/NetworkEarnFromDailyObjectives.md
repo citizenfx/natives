@@ -1,12 +1,12 @@
 ---
 ns: NETWORKCASH
-aliases: ["0x6EA318C91C1A8786"]
+aliases: ["0x6EA318C91C1A8786","_NETWORK_EARN_FROM_DAILY_OBJECTIVE"]
 ---
-## _NETWORK_EARN_FROM_DAILY_OBJECTIVE
+## NETWORK_EARN_FROM_DAILY_OBJECTIVES
 
 ```c
-// 0x6EA318C91C1A8786
-void _NETWORK_EARN_FROM_DAILY_OBJECTIVE(int p0, char* p1, int p2);
+// 0x6EA318C91C1A8786 0xAB6BD72F
+void NETWORK_EARN_FROM_DAILY_OBJECTIVES(int p0, char* p1, int p2);
 ```
 
 ```
@@ -14,7 +14,7 @@ Console Hash - 0xAB6BD72F = NETWORK_EARN_FROM_DAILY_OBJECTIVE
 ```
 
 ## Parameters
-* **p0**: 
-* **p1**: 
-* **p2**: 
+* **p0**:
+* **p1**:
+* **p2**:
 
