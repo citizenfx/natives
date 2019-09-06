@@ -1,0 +1,17 @@
+---
+ns: NETWORKCASH
+---
+## _NETWORK_EARN_FROM_BB_EVENT_BONUS
+
+```c
+// 0xFDD8D2440DAF1590
+void _NETWORK_EARN_FROM_BB_EVENT_BONUS(int amount);
+```
+
+```
+Introduced: v1604
+```
+
+## Parameters
+* **amount**:
+

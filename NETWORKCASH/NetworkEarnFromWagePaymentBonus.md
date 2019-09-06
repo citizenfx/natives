@@ -1,0 +1,17 @@
+---
+ns: NETWORKCASH
+---
+## _NETWORK_EARN_FROM_WAGE_PAYMENT_BONUS
+
+```c
+// 0x005ACA7100BD101D
+void _NETWORK_EARN_FROM_WAGE_PAYMENT_BONUS(int amount);
+```
+
+```
+Introduced: v1180
+```
+
+## Parameters
+* **amount**:
+

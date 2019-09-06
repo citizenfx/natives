@@ -1,0 +1,16 @@
+---
+ns: SOCIALCLUB
+---
+## 0x710BCDA8071EDED1
+
+```c
+// 0x710BCDA8071EDED1 0x04EE74A3
+Any _0x710BCDA8071EDED1();
+```
+
+```
+Introduced: v323
+```
+
+
+## Return value

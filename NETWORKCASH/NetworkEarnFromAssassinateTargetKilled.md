@@ -1,0 +1,17 @@
+---
+ns: NETWORKCASH
+---
+## _NETWORK_EARN_FROM_ASSASSINATE_TARGET_KILLED
+
+```c
+// 0xFA700D8A9905F78A
+void _NETWORK_EARN_FROM_ASSASSINATE_TARGET_KILLED(int amount);
+```
+
+```
+Introduced: v1604
+```
+
+## Parameters
+* **amount**:
+

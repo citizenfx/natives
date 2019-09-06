@@ -1,0 +1,18 @@
+---
+ns: NETWORKCASH
+---
+## _NETWORK_EARN_FROM_SELL_BASE
+
+```c
+// 0x0E1E2FF3F4EC11AA
+void _NETWORK_EARN_FROM_SELL_BASE(int amount, Hash baseNameHash);
+```
+
+```
+Introduced: v1290
+```
+
+## Parameters
+* **amount**:
+* **baseNameHash**:
+

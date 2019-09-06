@@ -1,0 +1,16 @@
+---
+ns: NETSHOP
+---
+## _NET_GAMESERVER_USE_SERVER_TRANSACTIONS
+
+```c
+// 0x7D2708796355B20B
+BOOL _NET_GAMESERVER_USE_SERVER_TRANSACTIONS();
+```
+
+```
+Introduced: v1290
+```
+
+
+## Return value
