@@ -1,11 +1,12 @@
 ---
 ns: CAM
+aliases: ["SET_FOLLOW_PED_CAM_CUTSCENE_CHAT"]
 ---
-## SET_FOLLOW_PED_CAM_CUTSCENE_CHAT
+## SET_FOLLOW_PED_CAM_THIS_UPDATE
 
 ```c
 // 0x44A113DD6FFC48D1 0x1425F6AC
-BOOL SET_FOLLOW_PED_CAM_CUTSCENE_CHAT(char* p0, int p1);
+BOOL SET_FOLLOW_PED_CAM_THIS_UPDATE(char* camName, int p1);
 ```
 
 ```
@@ -19,7 +20,7 @@ CAM::SET_FOLLOW_PED_CAM_CUTSCENE_CHAT("FOLLOW_PED_SKY_DIVING_CAMERA", 0);
 ```
 
 ## Parameters
-* **p0**: 
-* **p1**: 
+* **camName**:
+* **p1**:
 
 ## Return value

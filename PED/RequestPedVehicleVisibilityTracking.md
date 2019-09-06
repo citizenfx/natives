@@ -1,11 +1,12 @@
 ---
 ns: PED
+aliases: ["GET_PED_FLOOD_INVINCIBILITY"]
 ---
-## GET_PED_FLOOD_INVINCIBILITY
+## REQUEST_PED_VEHICLE_VISIBILITY_TRACKING
 
 ```c
 // 0x2BC338A7B21F4608 0x31C31DAA
-void GET_PED_FLOOD_INVINCIBILITY(Ped ped, BOOL p1);
+void REQUEST_PED_VEHICLE_VISIBILITY_TRACKING(Ped ped, BOOL p1);
 ```
 
 ```
@@ -13,6 +14,6 @@ hash collision???
 ```
 
 ## Parameters
-* **ped**: 
-* **p1**: 
+* **ped**:
+* **p1**:
 

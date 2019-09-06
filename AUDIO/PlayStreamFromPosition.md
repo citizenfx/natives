@@ -1,11 +1,12 @@
 ---
 ns: AUDIO
+aliases: ["SPECIAL_FRONTEND_EQUAL"]
 ---
-## SPECIAL_FRONTEND_EQUAL
+## PLAY_STREAM_FROM_POSITION
 
 ```c
 // 0x21442F412E8DE56B 0x6FE5D865
-void SPECIAL_FRONTEND_EQUAL(float x, float y, float z);
+void PLAY_STREAM_FROM_POSITION(float x, float y, float z);
 ```
 
 ```
@@ -13,7 +14,7 @@ Hash collision!!! PLAY_STREAM_FROM_POSITION is the correct name!
 ```
 
 ## Parameters
-* **x**: 
-* **y**: 
-* **z**: 
+* **x**:
+* **y**:
+* **z**:
 

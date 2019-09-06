@@ -1,11 +1,12 @@
 ---
 ns: PED
+aliases: ["SET_EXCLUSIVE_PHONE_RELATIONSHIPS"]
 ---
-## SET_EXCLUSIVE_PHONE_RELATIONSHIPS
+## GET_VEHICLE_PED_IS_ENTERING
 
 ```c
 // 0xF92691AED837A5FC 0x56E0C163
-Vehicle SET_EXCLUSIVE_PHONE_RELATIONSHIPS(Ped ped);
+Vehicle GET_VEHICLE_PED_IS_ENTERING(Ped ped);
 ```
 
 ```
@@ -18,6 +19,6 @@ Proper name is GET_VEHICLE_PED_IS_ENTERING
 ```
 
 ## Parameters
-* **ped**: 
+* **ped**:
 
 ## Return value

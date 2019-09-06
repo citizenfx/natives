@@ -1,11 +1,12 @@
 ---
 ns: HUD
+aliases: ["KEY_HUD_COLOUR"]
 ---
-## KEY_HUD_COLOUR
+## SET_MINIMAP_IN_SPECTATOR_MODE
 
 ```c
 // 0x1A5CD7752DD28CD3 0xD5BFCADB
-void KEY_HUD_COLOUR(BOOL p0, Any p1);
+void SET_MINIMAP_IN_SPECTATOR_MODE(BOOL toggle, Ped ped);
 ```
 
 ```
@@ -13,6 +14,6 @@ hash collision
 ```
 
 ## Parameters
-* **p0**: 
-* **p1**: 
+* **toggle**:
+* **ped**:
 
