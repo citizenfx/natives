@@ -18,21 +18,21 @@ Example result:
 
 Old description with list of possible icons and texture names:
 
-```text
-List of picNames: pastebin.com/XdpJVbHz  
-flash is a bool for fading in.  
-iconTypes:  
-1 : Chat Box  
-2 : Email  
-3 : Add Friend Request  
-4 : Nothing  
-5 : Nothing  
-6 : Nothing  
-7 : Right Jumping Arrow  
-8 : RP Icon  
-9 : $ Icon  
-"sender" is the very top header. This can be any old string.  
-"subject" is the header under the sender.  
+```
+List of picNames: pastebin.com/XdpJVbHz
+flash is a bool for fading in.
+iconTypes:
+1 : Chat Box
+2 : Email
+3 : Add Friend Request
+4 : Nothing
+5 : Nothing
+6 : Nothing
+7 : Right Jumping Arrow
+8 : RP Icon
+9 : $ Icon
+"sender" is the very top header. This can be any old string.
+"subject" is the header under the sender.
 ```
 
 ## Parameters
@@ -71,7 +71,7 @@ Citizen.CreateThread(function()
     local showInBrief = true
     local blink = false -- blink doesn't work when using icon notifications.
     DrawNotification(blink, showInBrief)
-    
+
     -- Cleanup after yourself!
     UnregisterPedheadshot(handle)
 end)
