@@ -1,11 +1,12 @@
 ---
 ns: VEHICLE
+aliases: ["0xDBA3C090E3D74690"]
 ---
-## _0xDBA3C090E3D74690
+## _REQUEST_VEHICLE_DASHBOARD_SCALEFORM_MOVIE
 
 ```c
 // 0xDBA3C090E3D74690
-void _0xDBA3C090E3D74690(Vehicle vehicle);
+void _REQUEST_VEHICLE_DASHBOARD_SCALEFORM_MOVIE(Vehicle vehicle);
 ```
 
 ```
@@ -13,5 +14,5 @@ REQUEST_VEHICLE_*
 ```
 
 ## Parameters
-* **vehicle**: 
+* **vehicle**:
 

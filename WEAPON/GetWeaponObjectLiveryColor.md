@@ -1,16 +1,20 @@
 ---
 ns: WEAPON
+aliases: ["0xB3EA4FEABF41464B"]
 ---
-## _0xB3EA4FEABF41464B
+## _GET_WEAPON_OBJECT_LIVERY_COLOR
 
 ```c
 // 0xB3EA4FEABF41464B
-Any _0xB3EA4FEABF41464B(Any p0, Any p1);
+int _GET_WEAPON_OBJECT_LIVERY_COLOR(Object weaponObject, Hash camoComponentHash);
 ```
 
+```
+Returns -1 if camoComponentHash is invalid/not attached to the weapon object.
+```
 
 ## Parameters
-* **p0**: 
-* **p1**: 
+* **weaponObject**:
+* **camoComponentHash**:
 
 ## Return value

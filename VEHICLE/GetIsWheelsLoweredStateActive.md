@@ -1,15 +1,15 @@
 ---
 ns: VEHICLE
+aliases: ["0x1DA0DA9CB3F0C8BF"]
 ---
-## _0x1DA0DA9CB3F0C8BF
+## _GET_IS_WHEELS_LOWERED_STATE_ACTIVE
 
 ```c
 // 0x1DA0DA9CB3F0C8BF
-Any _0x1DA0DA9CB3F0C8BF(Any p0);
+BOOL _GET_IS_WHEELS_LOWERED_STATE_ACTIVE(Vehicle vehicle);
 ```
 
-
 ## Parameters
-* **p0**: 
+* **vehicle**:
 
 ## Return value

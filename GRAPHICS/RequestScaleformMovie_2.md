@@ -1,15 +1,15 @@
 ---
 ns: GRAPHICS
+aliases: ["0x65E7E78842E74CDB"]
 ---
-## _0x65E7E78842E74CDB
+## _REQUEST_SCALEFORM_MOVIE_2
 
 ```c
 // 0x65E7E78842E74CDB
-Any _0x65E7E78842E74CDB(Any p0);
+int _REQUEST_SCALEFORM_MOVIE_2(char* scaleformName);
 ```
 
-
 ## Parameters
-* **p0**: 
+* **scaleformName**:
 
 ## Return value

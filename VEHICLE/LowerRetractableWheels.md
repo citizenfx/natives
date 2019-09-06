@@ -1,14 +1,14 @@
 ---
 ns: VEHICLE
+aliases: ["0x5335BE58C083E74E"]
 ---
-## _0x5335BE58C083E74E
+## _LOWER_RETRACTABLE_WHEELS
 
 ```c
 // 0x5335BE58C083E74E
-void _0x5335BE58C083E74E(Any p0);
+void _LOWER_RETRACTABLE_WHEELS(Vehicle vehicle);
 ```
 
-
 ## Parameters
-* **p0**: 
+* **vehicle**:
 

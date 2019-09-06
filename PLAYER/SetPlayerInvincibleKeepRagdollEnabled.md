@@ -1,15 +1,15 @@
 ---
 ns: PLAYER
+aliases: ["0x6BC97F4F4BB3C04B"]
 ---
-## _0x6BC97F4F4BB3C04B
+## _SET_PLAYER_INVINCIBLE_KEEP_RAGDOLL_ENABLED
 
 ```c
 // 0x6BC97F4F4BB3C04B
-void _0x6BC97F4F4BB3C04B(Any p0, Any p1);
+void _SET_PLAYER_INVINCIBLE_KEEP_RAGDOLL_ENABLED(Player player, BOOL toggle);
 ```
 
-
 ## Parameters
-* **p0**: 
-* **p1**: 
+* **player**:
+* **toggle**:
 

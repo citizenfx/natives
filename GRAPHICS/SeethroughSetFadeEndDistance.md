@@ -1,14 +1,14 @@
 ---
 ns: GRAPHICS
+aliases: ["0x9D75795B9DC6EBBF"]
 ---
-## _0x9D75795B9DC6EBBF
+## _SEETHROUGH_SET_FADE_END_DISTANCE
 
 ```c
 // 0x9D75795B9DC6EBBF
-void _0x9D75795B9DC6EBBF(Any p0);
+void _SEETHROUGH_SET_FADE_END_DISTANCE(float distance);
 ```
 
-
 ## Parameters
-* **p0**: 
+* **distance**:
 

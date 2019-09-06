@@ -1,11 +1,12 @@
 ---
 ns: GRAPHICS
+aliases: ["0xB7ED70C49521A61D"]
 ---
-## _0xB7ED70C49521A61D
+## _UNDO_DECAL_TEXTURE_OVERRIDE
 
 ```c
 // 0xB7ED70C49521A61D 0x7B786555
-void _0xB7ED70C49521A61D(int decalType);
+void _UNDO_DECAL_TEXTURE_OVERRIDE(int decalType);
 ```
 
 ```
@@ -14,5 +15,5 @@ GRAPHICS::SET_STREAMED_TEXTURE_DICT_AS_NO_LONGER_NEEDED("MPMissMarkers256");
 ```
 
 ## Parameters
-* **decalType**: 
+* **decalType**:
 

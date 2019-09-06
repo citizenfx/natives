@@ -1,15 +1,15 @@
 ---
 ns: NETWORK
+aliases: ["0x1632BE0AC1E62876"]
 ---
-## _0x1632BE0AC1E62876
+## _NETWORK_CONCEAL_ENTITY
 
 ```c
 // 0x1632BE0AC1E62876
-void _0x1632BE0AC1E62876(Any p0, Any p1);
+void _NETWORK_CONCEAL_ENTITY(Entity entity, BOOL toggle);
 ```
 
-
 ## Parameters
-* **p0**: 
-* **p1**: 
+* **entity**:
+* **toggle**:
 

@@ -1,15 +1,15 @@
 ---
 ns: PED
+aliases: ["0xBA8805A1108A2515"]
 ---
-## _0xBA8805A1108A2515
+## _REGISTER_PEDHEADSHOT_3
 
 ```c
 // 0xBA8805A1108A2515
-Any _0xBA8805A1108A2515(Any p0);
+int _REGISTER_PEDHEADSHOT_3(Ped ped);
 ```
 
-
 ## Parameters
-* **p0**: 
+* **ped**:
 
 ## Return value

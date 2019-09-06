@@ -1,16 +1,16 @@
 ---
 ns: SOCIALCLUB
+aliases: ["0xEB2BF817463DFA28"]
 ---
-## _0xEB2BF817463DFA28
+## _SC_PROFANITY_CHECK_UGC_STRING
 
 ```c
 // 0xEB2BF817463DFA28
-Any _0xEB2BF817463DFA28(Any p0, Any p1);
+BOOL _SC_PROFANITY_CHECK_UGC_STRING(char* string, int* token);
 ```
 
-
 ## Parameters
-* **p0**: 
-* **p1**: 
+* **string**:
+* **token**:
 
 ## Return value

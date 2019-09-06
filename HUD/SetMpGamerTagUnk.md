@@ -1,15 +1,15 @@
 ---
 ns: HUD
+aliases: ["0x9C16459B2324B2CF"]
 ---
-## _0x9C16459B2324B2CF
+## _SET_MP_GAMER_TAG_UNK
 
 ```c
 // 0x9C16459B2324B2CF
-void _0x9C16459B2324B2CF(Any p0, Any p1);
+void _SET_MP_GAMER_TAG_UNK(int gamerTagId, int p1);
 ```
 
-
 ## Parameters
-* **p0**: 
-* **p1**: 
+* **gamerTagId**:
+* **p1**:
 

@@ -1,16 +1,16 @@
 ---
 ns: WEAPON
+aliases: ["0x2472622CE1F2D45F"]
 ---
-## _0x2472622CE1F2D45F
+## _ADD_PED_AMMO
 
 ```c
 // 0x2472622CE1F2D45F
-void _0x2472622CE1F2D45F(Any p0, Any p1, Any p2);
+void _ADD_PED_AMMO(Ped ped, Hash weaponHash, int ammo);
 ```
 
-
 ## Parameters
-* **p0**: 
-* **p1**: 
-* **p2**: 
+* **ped**:
+* **weaponHash**:
+* **ammo**:
 

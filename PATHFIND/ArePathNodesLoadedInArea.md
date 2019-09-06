@@ -1,11 +1,12 @@
 ---
 ns: PATHFIND
+aliases: ["0xF7B79A50B905A30D"]
 ---
-## _0xF7B79A50B905A30D
+## _ARE_PATH_NODES_LOADED_IN_AREA
 
 ```c
 // 0xF7B79A50B905A30D 0x86E80A17
-BOOL _0xF7B79A50B905A30D(float p0, float p1, float p2, float p3);
+BOOL _ARE_PATH_NODES_LOADED_IN_AREA(float x1, float y1, float x2, float y2);
 ```
 
 ```
@@ -13,9 +14,9 @@ Only did a quick disassembly, but this function seems to load all path nodes in 
 ```
 
 ## Parameters
-* **p0**: 
-* **p1**: 
-* **p2**: 
-* **p3**: 
+* **x1**:
+* **y1**:
+* **x2**:
+* **y2**:
 
 ## Return value

@@ -1,11 +1,12 @@
 ---
 ns: SOCIALCLUB
+aliases: ["0x8416FE4E4629D7D7"]
 ---
-## _0x8416FE4E4629D7D7
+## _SC_GET_IS_PROFILE_ATTRIBUTE_SET
 
 ```c
 // 0x8416FE4E4629D7D7 0xDF45B2A7
-BOOL _0x8416FE4E4629D7D7(char* p0);
+BOOL _SC_GET_IS_PROFILE_ATTRIBUTE_SET(char* name);
 ```
 
 ```
@@ -15,6 +16,6 @@ func_719(socialclub::_0x8416FE4E4629D7D7("bIgnoreBadSportOverride"));
 ```
 
 ## Parameters
-* **p0**: 
+* **name**:
 
 ## Return value

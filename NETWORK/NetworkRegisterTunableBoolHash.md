@@ -1,17 +1,17 @@
 ---
 ns: NETWORK
+aliases: ["0x697F508861875B42"]
 ---
-## _0x697F508861875B42
+## _NETWORK_REGISTER_TUNABLE_BOOL_HASH
 
 ```c
 // 0x697F508861875B42
-Any _0x697F508861875B42(Any p0, Any p1, Any p2);
+BOOL _NETWORK_REGISTER_TUNABLE_BOOL_HASH(Hash contextHash, Hash nameHash, BOOL* value);
 ```
 
-
 ## Parameters
-* **p0**: 
-* **p1**: 
-* **p2**: 
+* **contextHash**:
+* **nameHash**:
+* **value**:
 
 ## Return value

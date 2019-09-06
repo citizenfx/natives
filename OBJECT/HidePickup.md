@@ -1,15 +1,15 @@
 ---
 ns: OBJECT
+aliases: ["0x867458251D47CCB2"]
 ---
-## _0x867458251D47CCB2
+## _HIDE_PICKUP
 
 ```c
 // 0x867458251D47CCB2
-void _0x867458251D47CCB2(Any p0, Any p1);
+void _HIDE_PICKUP(Pickup pickup, BOOL toggle);
 ```
 
-
 ## Parameters
-* **p0**: 
-* **p1**: 
+* **pickup**:
+* **toggle**:
 

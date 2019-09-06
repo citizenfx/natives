@@ -1,17 +1,17 @@
 ---
 ns: WEAPON
+aliases: ["0x44F1012B69313374"]
 ---
-## _0x44F1012B69313374
+## _FIRE_AIR_DEFENSE_WEAPON
 
 ```c
 // 0x44F1012B69313374
-void _0x44F1012B69313374(Any p0, Any p1, Any p2, Any p3);
+void _FIRE_AIR_DEFENSE_WEAPON(int zoneId, float x, float y, float z);
 ```
 
-
 ## Parameters
-* **p0**: 
-* **p1**: 
-* **p2**: 
-* **p3**: 
+* **zoneId**:
+* **x**:
+* **y**:
+* **z**:
 

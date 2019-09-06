@@ -1,15 +1,15 @@
 ---
 ns: PHYSICS
+aliases: ["0x15F944730C832252"]
 ---
-## _0x15F944730C832252
+## _SET_ENTITY_PROOF_UNK
 
 ```c
 // 0x15F944730C832252
-void _0x15F944730C832252(Any p0, Any p1);
+void _SET_ENTITY_PROOF_UNK(Entity entity, BOOL toggle);
 ```
 
-
 ## Parameters
-* **p0**: 
-* **p1**: 
+* **entity**:
+* **toggle**:
 

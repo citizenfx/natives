@@ -1,15 +1,15 @@
 ---
 ns: WEAPON
+aliases: ["0x0ABF535877897560"]
 ---
-## _0x0ABF535877897560
+## _REMOVE_AIR_DEFENSE_ZONE
 
 ```c
 // 0x0ABF535877897560
-Any _0x0ABF535877897560(Any p0);
+BOOL _REMOVE_AIR_DEFENSE_ZONE(int zoneId);
 ```
 
-
 ## Parameters
-* **p0**: 
+* **zoneId**:
 
 ## Return value

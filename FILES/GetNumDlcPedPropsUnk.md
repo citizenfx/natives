@@ -1,11 +1,12 @@
 ---
 ns: FILES
+aliases: ["0xD40AAC51E8E4C663"]
 ---
-## _0xD40AAC51E8E4C663
+## _GET_NUM_DLC_PED_PROPS_UNK
 
 ```c
 // 0xD40AAC51E8E4C663
-int _0xD40AAC51E8E4C663(Hash propHash);
+int _GET_NUM_DLC_PED_PROPS_UNK(Hash propHash);
 ```
 
 Decompiled scripts have this listed as `FILES::_GET_NUM_DLC_PED_PROPS_UNK`, but that seems wrong.
@@ -33,12 +34,12 @@ if (FILES::_GET_NUM_DLC_PED_PROPS_UNK(iVar18) > 0) // _0xD40AAC51E8E4C663
 }
 ```
 
-
 ## Parameters
 * **propHash**: Ped helmet prop hash
 
 ## Return value
 This native returns 1 when the player helmet has a visor (there is another prop index for the same helmet with closed/opened visor variant) that can be toggled. 0 if there's no alternative version with a visor for this helmet prop.
+
 
 
 ## Examples

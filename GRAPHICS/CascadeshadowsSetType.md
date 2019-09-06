@@ -1,11 +1,12 @@
 ---
 ns: GRAPHICS
+aliases: ["0xB11D94BC55F41932"]
 ---
-## _0xB11D94BC55F41932
+## _CASCADESHADOWS_SET_TYPE
 
 ```c
 // 0xB11D94BC55F41932 0xDE10BA1F
-void _0xB11D94BC55F41932(char* p0);
+void _CASCADESHADOWS_SET_TYPE(char* type);
 ```
 
 ```
@@ -15,5 +16,5 @@ Only possible values:
 ```
 
 ## Parameters
-* **p0**: 
+* **type**:
 

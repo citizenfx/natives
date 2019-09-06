@@ -1,17 +1,17 @@
 ---
 ns: NETWORK
+aliases: ["0x1950DAE9848A4739"]
 ---
-## _0x1950DAE9848A4739
+## _NETWORK_REGISTER_TUNABLE_FLOAT_HASH
 
 ```c
 // 0x1950DAE9848A4739
-Any _0x1950DAE9848A4739(Any p0, Any p1, Any p2);
+BOOL _NETWORK_REGISTER_TUNABLE_FLOAT_HASH(Hash contextHash, Hash nameHash, float* value);
 ```
 
-
 ## Parameters
-* **p0**: 
-* **p1**: 
-* **p2**: 
+* **contextHash**:
+* **nameHash**:
+* **value**:
 
 ## Return value

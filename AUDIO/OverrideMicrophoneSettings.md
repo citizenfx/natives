@@ -1,15 +1,19 @@
 ---
 ns: AUDIO
+aliases: ["0x75773E11BA459E90"]
 ---
-## _0x75773E11BA459E90
+## _OVERRIDE_MICROPHONE_SETTINGS
 
 ```c
 // 0x75773E11BA459E90
-void _0x75773E11BA459E90(Any p0, BOOL p1);
+void _OVERRIDE_MICROPHONE_SETTINGS(Hash hash, BOOL toggle);
 ```
 
+```
+Sets audio flag "OverrideMicrophoneSettings"
+```
 
 ## Parameters
-* **p0**: 
-* **p1**: 
+* **hash**:
+* **toggle**:
 

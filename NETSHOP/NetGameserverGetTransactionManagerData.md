@@ -1,16 +1,16 @@
 ---
 ns: NETSHOP
+aliases: ["0x897433D292B44130"]
 ---
-## _0x897433D292B44130
+## _NET_GAMESERVER_GET_TRANSACTION_MANAGER_DATA
 
 ```c
 // 0x897433D292B44130
-BOOL _0x897433D292B44130(Any* p0, Any* p1);
+BOOL _NET_GAMESERVER_GET_TRANSACTION_MANAGER_DATA(int* p0, BOOL* p1);
 ```
 
-
 ## Parameters
-* **p0**: 
-* **p1**: 
+* **p0**:
+* **p1**:
 
 ## Return value

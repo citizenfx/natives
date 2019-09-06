@@ -1,11 +1,12 @@
 ---
 ns: GRAPHICS
+aliases: ["0xEC52C631A1831C03"]
 ---
-## _0xEC52C631A1831C03
+## _SCALEFORM_MOVIE_METHOD_ADD_PARAM_INT_STRING
 
 ```c
 // 0xEC52C631A1831C03 0x83A9811D
-void _0xEC52C631A1831C03(int p0);
+void _SCALEFORM_MOVIE_METHOD_ADD_PARAM_INT_STRING(int value);
 ```
 
 ```
@@ -22,5 +23,5 @@ _pop_scaleform_movie_function_void();
 ```
 
 ## Parameters
-* **p0**: 
+* **value**:
 

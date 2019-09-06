@@ -1,11 +1,12 @@
 ---
 ns: GRAPHICS
+aliases: ["0xD7021272EB0A451E"]
 ---
-## _0xD7021272EB0A451E
+## _PRESET_INTERIOR_AMBIENT_CACHE
 
 ```c
 // 0xD7021272EB0A451E
-void _0xD7021272EB0A451E(char* p0);
+void _PRESET_INTERIOR_AMBIENT_CACHE(char* timecycleModifierName);
 ```
 
 ```
@@ -14,5 +15,5 @@ GRAPHICS::_D7021272EB0A451E("int_carrier_hanger");
 ```
 
 ## Parameters
-* **p0**: 
+* **timecycleModifierName**:
 

@@ -1,15 +1,19 @@
 ---
 ns: NETWORK
+aliases: ["0x71302EC70689052A"]
 ---
-## _0x71302EC70689052A
+## _NETWORK_IS_ENTITY_CONCEALED
 
 ```c
 // 0x71302EC70689052A
-Any _0x71302EC70689052A(Any p0);
+BOOL _NETWORK_IS_ENTITY_CONCEALED(Entity entity);
 ```
 
+```
+Note: This only works for vehicles, which appears to be a bug (since the setter _does_ work for every entity type and the name is 99% correct).
+```
 
 ## Parameters
-* **p0**: 
+* **entity**:
 
 ## Return value

@@ -1,15 +1,15 @@
 ---
 ns: PLAYER
+aliases: ["0x8BC515BAE4AAF8FF"]
 ---
-## _0x8BC515BAE4AAF8FF
+## _GET_PLAYER_HEALTH_RECHARGE_LIMIT
 
 ```c
 // 0x8BC515BAE4AAF8FF
-Any _0x8BC515BAE4AAF8FF(Any p0);
+float _GET_PLAYER_HEALTH_RECHARGE_LIMIT(Player player);
 ```
 
-
 ## Parameters
-* **p0**: 
+* **player**:
 
 ## Return value

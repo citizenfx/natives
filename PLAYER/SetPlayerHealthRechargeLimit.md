@@ -1,15 +1,15 @@
 ---
 ns: PLAYER
+aliases: ["0xC388A0F065F5BC34"]
 ---
-## _0xC388A0F065F5BC34
+## _SET_PLAYER_HEALTH_RECHARGE_LIMIT
 
 ```c
 // 0xC388A0F065F5BC34
-void _0xC388A0F065F5BC34(Any p0, Any p1);
+void _SET_PLAYER_HEALTH_RECHARGE_LIMIT(Player player, float limit);
 ```
 
-
 ## Parameters
-* **p0**: 
-* **p1**: 
+* **player**:
+* **limit**:
 

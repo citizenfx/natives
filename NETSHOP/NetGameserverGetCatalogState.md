@@ -1,15 +1,15 @@
 ---
 ns: NETSHOP
+aliases: ["0xCF38DAFBB49EDE5E"]
 ---
-## _0xCF38DAFBB49EDE5E
+## _NET_GAMESERVER_GET_CATALOG_STATE
 
 ```c
 // 0xCF38DAFBB49EDE5E
-BOOL _0xCF38DAFBB49EDE5E(Any* p0);
+BOOL _NET_GAMESERVER_GET_CATALOG_STATE(int* state);
 ```
 
-
 ## Parameters
-* **p0**: 
+* **state**:
 
 ## Return value

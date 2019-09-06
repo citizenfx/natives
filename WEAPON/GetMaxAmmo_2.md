@@ -1,17 +1,17 @@
 ---
 ns: WEAPON
+aliases: ["0x585847C5E4E11709"]
 ---
-## _0x585847C5E4E11709
+## _GET_MAX_AMMO_2
 
 ```c
 // 0x585847C5E4E11709
-Any _0x585847C5E4E11709(Any p0, Any p1, Any p2);
+BOOL _GET_MAX_AMMO_2(Ped ped, Hash weaponHash, int* ammo);
 ```
 
-
 ## Parameters
-* **p0**: 
-* **p1**: 
-* **p2**: 
+* **ped**:
+* **weaponHash**:
+* **ammo**:
 
 ## Return value

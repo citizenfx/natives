@@ -1,14 +1,14 @@
 ---
 ns: STATS
+aliases: ["0x47B32F5611E6E483"]
 ---
-## _0x47B32F5611E6E483
+## _PLAYSTATS_AWARD_BADSPORT
 
 ```c
 // 0x47B32F5611E6E483
-void _0x47B32F5611E6E483(Any p0);
+void _PLAYSTATS_AWARD_BADSPORT(int id);
 ```
 
-
 ## Parameters
-* **p0**: 
+* **id**:
 

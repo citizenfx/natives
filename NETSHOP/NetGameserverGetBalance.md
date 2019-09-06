@@ -1,16 +1,20 @@
 ---
 ns: NETSHOP
+aliases: ["0x35A1B3E1D1315CFA"]
 ---
-## _0x35A1B3E1D1315CFA
+## _NET_GAMESERVER_GET_BALANCE
 
 ```c
 // 0x35A1B3E1D1315CFA
-BOOL _0x35A1B3E1D1315CFA(BOOL p0, BOOL p1);
+BOOL _NET_GAMESERVER_GET_BALANCE(BOOL inventory, BOOL playerbalance);
 ```
 
+```
+Note: only one of the arguments can be set to true at a time
+```
 
 ## Parameters
-* **p0**: 
-* **p1**: 
+* **inventory**:
+* **playerbalance**:
 
 ## Return value

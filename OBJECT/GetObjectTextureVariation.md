@@ -1,15 +1,15 @@
 ---
 ns: OBJECT
+aliases: ["0xE84EB93729C5F36A"]
 ---
-## _0xE84EB93729C5F36A
+## _GET_OBJECT_TEXTURE_VARIATION
 
 ```c
 // 0xE84EB93729C5F36A
-Any _0xE84EB93729C5F36A(Any p0);
+int _GET_OBJECT_TEXTURE_VARIATION(Object object);
 ```
 
-
 ## Parameters
-* **p0**: 
+* **object**:
 
 ## Return value
