@@ -1,11 +1,12 @@
 ---
 ns: VEHICLE
+aliases: ["WAS_COUNTER_ACTIVATED"]
 ---
-## WAS_COUNTER_ACTIVATED
+## 0x3EC8BF18AA453FE9 
 
 ```c
 // 0x3EC8BF18AA453FE9 0x2916D69B
-BOOL WAS_COUNTER_ACTIVATED(Vehicle vehicle, Any p1);
+BOOL _0x3EC8BF18AA453FE9 (Vehicle vehicle, BOOL p1);
 ```
 
 ## Parameters
