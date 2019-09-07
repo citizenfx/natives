@@ -10,8 +10,6 @@ BOOL NETWORK_APPLY_VOICE_PROXIMITY_OVERRIDE(float x, float y, float z);
 ```
 
 ```
-hash collision.  
-Definitely a hash collision, has something do to with your local player, not a vehicle  
 UnknownDB return type: void
 ```
 

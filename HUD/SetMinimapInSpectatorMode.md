@@ -9,10 +9,6 @@ aliases: ["KEY_HUD_COLOUR"]
 void SET_MINIMAP_IN_SPECTATOR_MODE(BOOL toggle, Ped ped);
 ```
 
-```
-hash collision  
-```
-
 ## Parameters
 * **toggle**:
 * **ped**:

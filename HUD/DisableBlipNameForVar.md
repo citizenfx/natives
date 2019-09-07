@@ -8,9 +8,4 @@ ns: HUD
 Blip DISABLE_BLIP_NAME_FOR_VAR();
 ```
 
-```
-Hash collision!!!   
-Returns a blip handle.  
-```
-
 ## Return value

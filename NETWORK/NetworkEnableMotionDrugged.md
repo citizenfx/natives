@@ -9,8 +9,4 @@ aliases: ["0x0B0CC10720653F3B"]
 Any NETWORK_ENABLE_MOTION_DRUGGED();
 ```
 
-```
-Pretty sure this is a hash collision  
-```
-
 ## Return value

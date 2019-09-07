@@ -9,10 +9,6 @@ aliases: ["SET_WEAPON_SMOKEGRENADE_ASSIGNED"]
 BOOL IS_FLASH_LIGHT_ON(Ped ped);
 ```
 
-```
-Hash collision, real name is: IS_FLASH_LIGHT_ON  
-```
-
 ## Parameters
 * **ped**:
 

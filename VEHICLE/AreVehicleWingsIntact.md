@@ -10,8 +10,7 @@ BOOL _ARE_VEHICLE_WINGS_INTACT(Vehicle vehicle);
 ```
 
 ```
-ADD_A_MARKER_OVER_VEHICLE was a hash collision!!!  
-Can be used for planes only!  
+Can be used for planes only!
 ```
 
 ## Parameters

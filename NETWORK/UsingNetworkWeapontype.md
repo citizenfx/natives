@@ -8,10 +8,6 @@ ns: NETWORK
 BOOL USING_NETWORK_WEAPONTYPE(Any p0);
 ```
 
-```
-hash collision?  
-```
-
 ## Parameters
 * **p0**: 
 

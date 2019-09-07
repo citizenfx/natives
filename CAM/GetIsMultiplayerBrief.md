@@ -8,10 +8,6 @@ ns: CAM
 void GET_IS_MULTIPLAYER_BRIEF(BOOL p0);
 ```
 
-```
-Hash collision  
-```
-
 ## Parameters
 * **p0**: 
 

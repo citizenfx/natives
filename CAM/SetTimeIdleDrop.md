@@ -9,10 +9,6 @@ aliases: ["0x9DFE13ECDC1EC196"]
 void SET_TIME_IDLE_DROP(BOOL p0, BOOL p1);
 ```
 
-```
-hash collision?  
-```
-
 ## Parameters
 * **p0**: 
 * **p1**: 

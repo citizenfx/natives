@@ -9,7 +9,3 @@ aliases: ["NETWORK_IS_PLAYER_ANIMATION_DRAWING_SYNCHRONIZED"]
 void NETWORK_SESSION_JOIN_INVITE();
 ```
 
-```
-hash collision  
-```
-

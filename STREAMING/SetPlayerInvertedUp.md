@@ -8,8 +8,4 @@ ns: STREAMING
 int SET_PLAYER_INVERTED_UP();
 ```
 
-```
-Hash collision  
-```
-
 ## Return value

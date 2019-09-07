@@ -9,12 +9,6 @@ aliases: ["STEER_UNLOCK_BIAS"]
 void SET_VEHICLE_IS_RACING(Vehicle vehicle, BOOL toggle);
 ```
 
-```
-Hash collision!!!  
-SET_VEHICLE_IS_*  
-p1 (toggle) was always 1 (true) except in one case in the b678 scripts.  
-```
-
 ## Parameters
 * **vehicle**:
 * **toggle**:

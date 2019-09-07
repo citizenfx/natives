@@ -8,10 +8,6 @@ ns: VEHICLE
 Any SET_ALL_VEHICLES_SPAWN(Vehicle p0, BOOL p1, BOOL p2, BOOL p3);
 ```
 
-```
-Most likely a hash collision  
-```
-
 ## Parameters
 * **p0**: 
 * **p1**: 

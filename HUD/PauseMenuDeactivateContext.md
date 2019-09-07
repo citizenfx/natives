@@ -9,10 +9,6 @@ aliases: ["OBJECT_DECAL_TOGGLE"]
 void PAUSE_MENU_DEACTIVATE_CONTEXT(Hash contextHash);
 ```
 
-```
-Please change back to _0x444D8CF241EC25C5 (hash collision)  
-```
-
 ## Parameters
 * **contextHash**:
 

@@ -9,10 +9,6 @@ aliases: ["SPECIAL_FRONTEND_EQUAL"]
 void PLAY_STREAM_FROM_POSITION(float x, float y, float z);
 ```
 
-```
-Hash collision!!! PLAY_STREAM_FROM_POSITION is the correct name!  
-```
-
 ## Parameters
 * **x**:
 * **y**:

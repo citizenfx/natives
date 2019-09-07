@@ -8,10 +8,6 @@ ns: GRAPHICS
 void SET_PARTICLE_FX_BLOOD_SCALE(BOOL p0);
 ```
 
-```
-hash collision  
-```
-
 ## Parameters
 * **p0**: 
 

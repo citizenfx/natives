@@ -10,7 +10,6 @@ Any IS_SWITCH_SKIPPING_DESCENT();
 ```
 
 ```
-Hash collision  
 UnknownDB return type: BOOL
 ```
 

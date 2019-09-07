@@ -9,12 +9,6 @@ aliases: ["GET_VEHICLE_DEFORMATION_GET_TREE"]
 void SET_VEHICLE_CEILING_HEIGHT(Vehicle vehicle, float p1);
 ```
 
-```
-Previously named GET_VEHICLE_DEFORMATION_GET_TREE (hash collision)  
-from Decrypted Scripts I found  
-VEHICLE::SET_VEHICLE_CEILING_HEIGHT(l_BD9[2/*2*/], 420.0);  
-```
-
 ## Parameters
 * **vehicle**: 
 * **p1**: 

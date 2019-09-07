@@ -9,10 +9,6 @@ aliases: ["SET_PED_PATHS_WIDTH_PLANT"]
 void SET_PED_PATH_MAY_ENTER_WATER(Ped ped, BOOL mayEnterWater);
 ```
 
-```
-Hash collision!!! Actual name: SET_PED_PATH_MAY_ENTER_WATER  
-```
-
 ## Parameters
 * **ped**:
 * **mayEnterWater**:

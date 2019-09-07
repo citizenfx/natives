@@ -8,10 +8,6 @@ ns: VEHICLE
 BOOL WAS_COUNTER_ACTIVATED(Vehicle vehicle, Any p1);
 ```
 
-```
-Hash collision  
-```
-
 ## Parameters
 * **vehicle**: 
 * **p1**: 

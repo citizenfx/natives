@@ -11,7 +11,7 @@ void PAUSE_MENU_ACTIVATE_CONTEXT(Hash hash);
 
 Activates the specified frontend menu context.
 
-pausemenu.xml defines some specific menu options using 'context'. Context is basically a 'condition'. 
+pausemenu.xml defines some specific menu options using 'context'. Context is basically a 'condition'.
 
 The `*ALL*` part of the context means that whatever is being defined, will be active when any or all of those conditions after `*ALL*` are met.
 
@@ -40,10 +40,6 @@ See the old description below for more info.
 >      UI::PAUSE_MENU_ACTIVATE_CONTEXT(${bet_locked}); // This native
 >  }
 >  ```
-> OBJECT_DECAL_TOGGLE seems to remove a context, It also has a hash collision
-> // Old
-> Scripts do not make this native's purpose clear. However, this native most likely has something to do with decals since in nearly every instance, "OBJECT_DECAL_TOGGLE" is called prior.
-
 
 ## Parameters
 * **hash**: Context name hash.

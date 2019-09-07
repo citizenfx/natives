@@ -8,10 +8,6 @@ ns: AUDIO
 void SET_PLAYER_ANGRY(Ped playerPed, BOOL disabled);
 ```
 
-```
-Hash collision! Disables speech.  
-```
-
 ## Parameters
 * **playerPed**: 
 * **disabled**: 

@@ -9,10 +9,6 @@ aliases: ["GET_PED_FLOOD_INVINCIBILITY"]
 void REQUEST_PED_VEHICLE_VISIBILITY_TRACKING(Ped ped, BOOL p1);
 ```
 
-```
-hash collision???  
-```
-
 ## Parameters
 * **ped**:
 * **p1**:
