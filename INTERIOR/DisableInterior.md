@@ -5,7 +5,7 @@ ns: INTERIOR
 
 ```c
 // 0x6170941419D7D8EC 0x093ADEA5
-void DISABLE_INTERIOR(int interiorID, BOOL toggle);
+void DISABLE_INTERIOR(int interior, BOOL toggle);
 ```
 
 ```
@@ -15,6 +15,6 @@ INTERIOR::DISABLE_INTERIOR(118018, true);
 ```
 
 ## Parameters
-* **interiorID**: 
+* **interior**:
 * **toggle**: 
 

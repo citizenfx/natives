@@ -10,6 +10,7 @@ Entity _SC_GET_NICKNAME();
 
 ```
 Returns the nickname of the logged-in Rockstar Social Club account.  
+UnknownDB return type: char*
 ```
 
 ## Return value

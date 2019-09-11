@@ -8,5 +8,6 @@ ns: APP
 int APP_DATA_VALID();
 ```
 
+UnknownDB return type: BOOL
 
 ## Return value

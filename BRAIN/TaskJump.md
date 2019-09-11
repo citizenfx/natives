@@ -13,6 +13,7 @@ Definition is wrong. This has 4 parameters (Not sure when they were added. v350 
 v350: Ped ped, bool unused  
 v678: Ped ped, bool unused, bool flag1, bool flag2  
 flag1 = super jump, flag2 = do nothing if flag1 is false and doubles super jump height if flag1 is true.  
+UnknownDB additional arguments(s): Any p2, Any p3
 ```
 
 ## Parameters

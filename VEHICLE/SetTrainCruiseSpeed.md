@@ -5,7 +5,7 @@ ns: VEHICLE
 
 ```c
 // 0x16469284DB8C62B5 0xB507F51D
-Any SET_TRAIN_CRUISE_SPEED(Vehicle train, float speed);
+void SET_TRAIN_CRUISE_SPEED(Vehicle train, float speed);
 ```
 
 
@@ -13,4 +13,3 @@ Any SET_TRAIN_CRUISE_SPEED(Vehicle train, float speed);
 * **train**: 
 * **speed**: 
 
-## Return value

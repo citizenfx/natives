@@ -9,5 +9,6 @@ aliases: ["0x9747292807126EDA"]
 ScrHandle NETWORK_IS_MULTIPLAYER_DISABLED();
 ```
 
+UnknownDB return type: BOOL
 
 ## Return value

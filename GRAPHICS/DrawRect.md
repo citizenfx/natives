@@ -19,6 +19,7 @@ Draws a rectangle on the screen.
 -B: Blue part of the color. (0-255)  
 -A: Alpha part of the color. (0-255, 0 means totally transparent, 255 means totally opaque)  
 The total number of rectangles to be drawn in one frame is apparently limited to 399.  
+UnknownDB additional arguments(s): BOOL p8
 ```
 
 ## Parameters

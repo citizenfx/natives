@@ -12,6 +12,7 @@ void TASK_PARACHUTE(Ped ped, BOOL p1);
 This function has a third parameter as well (bool).  
 Second parameter is unused.  
 seconds parameter was for jetpack in the early stages of gta and the hard coded code is now removed  
+UnknownDB additional arguments(s): BOOL p2
 ```
 
 ## Parameters

@@ -5,7 +5,7 @@ ns: PLAYER
 
 ```c
 // 0x085DEB493BE80812 0x1CF7D7DA
-Any GET_WANTED_LEVEL_RADIUS(Player player);
+float GET_WANTED_LEVEL_RADIUS(Player player);
 ```
 
 ```

@@ -5,15 +5,17 @@ ns: PHYSICS
 
 ```c
 // 0x3D95EC8B6D940AC3 0x7508668F
-void ATTACH_ENTITIES_TO_ROPE(Object rope, Entity ent1, Entity ent2, float ent1_x, float ent1_y, float ent1_z, float ent2_x, float ent2_y, float ent2_z, float length, BOOL p10, BOOL p11, char* boneName1, char* boneName2);
+void ATTACH_ENTITIES_TO_ROPE(int ropeId, Entity ent1, Entity ent2, float ent1_x, float ent1_y, float ent1_z, float ent2_x, float ent2_y, float ent2_z, float length, BOOL p10, BOOL p11, char* boneName1, char* boneName2);
 ```
 
 ```
 Attaches entity 1 to entity 2.  
+UnknownDB argument 13: Any* p12
+UnknownDB argument 14: Any* p13
 ```
 
 ## Parameters
-* **rope**: 
+* **ropeId**:
 * **ent1**: 
 * **ent2**: 
 * **ent1_x**: 

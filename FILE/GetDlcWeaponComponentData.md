@@ -5,7 +5,7 @@ ns: FILE
 
 ```c
 // 0x6CF598A2957C2BF8 0x4B83FCAF
-BOOL GET_DLC_WEAPON_COMPONENT_DATA(int dlcWeaponIndex, int dlcWeapCompIndex, Any* ComponentDataPtr);
+BOOL GET_DLC_WEAPON_COMPONENT_DATA(int dlcWeaponIndex, int dlcWeapCompIndex, int* ComponentDataPtr);
 ```
 
 ```

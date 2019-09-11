@@ -8,6 +8,7 @@ ns: AUDIO
 Any HINT_AMBIENT_AUDIO_BANK(Any p0, Any p1);
 ```
 
+UnknownDB additional arguments(s): Any p2
 
 ## Parameters
 * **p0**: 

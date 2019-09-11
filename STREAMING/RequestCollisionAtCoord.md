@@ -5,7 +5,7 @@ ns: STREAMING
 
 ```c
 // 0x07503F7948F491A7 0xCD9805E7
-Any REQUEST_COLLISION_AT_COORD(float x, float y, float z);
+void REQUEST_COLLISION_AT_COORD(float x, float y, float z);
 ```
 
 
@@ -14,4 +14,3 @@ Any REQUEST_COLLISION_AT_COORD(float x, float y, float z);
 * **y**: 
 * **z**: 
 
-## Return value

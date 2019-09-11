@@ -52,6 +52,7 @@ enum ExplosionTypes
 	EXPLOSION_GAS_TANK,  
 	EXPLOSION_BIRD_CRAP  
 };  
+UnknownDB additional arguments(s): BOOL noDamage
 ```
 
 ## Parameters

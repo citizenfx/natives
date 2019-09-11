@@ -16,6 +16,8 @@ Function.Call(Hash._SET_WARNING_MESSAGE_2, "HUD_QUIT", "HUD_CGIGNORE", 2, "HUD_C
 you can recreate this easily with scaleforms  
 ---------------  
 Fixed native name, from before nativedb restoration.  
+UnknownDB argument 7: Any* p6
+UnknownDB additional arguments(s): Any p9
 ```
 
 ## Parameters

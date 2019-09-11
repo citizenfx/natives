@@ -11,6 +11,7 @@ BOOL START_NETWORKED_PARTICLE_FX_NON_LOOPED_AT_COORD(char* effectName, float xPo
 
 ```
 network fx  
+UnknownDB additional arguments(s): BOOL p11
 ```
 
 ## Parameters

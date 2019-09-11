@@ -5,7 +5,7 @@ ns: PLAYER
 
 ```c
 // 0xD465A8599DFF6814 0x13CAFAFA
-Any SET_PLAYER_CAN_USE_COVER(Player player, BOOL toggle);
+void SET_PLAYER_CAN_USE_COVER(Player player, BOOL toggle);
 ```
 
 ```
@@ -16,4 +16,3 @@ Sets whether this player can take cover.
 * **player**: 
 * **toggle**: 
 
-## Return value

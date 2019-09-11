@@ -5,7 +5,7 @@ ns: GRAPHICS
 
 ```c
 // 0x23BA6B0C2AD7B0D3 0xC44C2F44
-void _0x23BA6B0C2AD7B0D3(BOOL toggle);
+void _0x23BA6B0C2AD7B0D3(BOOL p0);
 ```
 
 ```
@@ -15,5 +15,5 @@ Used in-between DRAW_* calls (DRAW_POLY specifically).
 ```
 
 ## Parameters
-* **toggle**: 
+* **p0**:
 

@@ -11,6 +11,7 @@ void SET_PED_HELMET_PROP_INDEX(Ped ped, int propIndex);
 ```
 List of component/props ID  
 gtaxscripting.blogspot.com/2016/04/gta-v-peds-component-and-props.html  
+UnknownDB additional arguments(s): BOOL p2
 ```
 
 ## Parameters

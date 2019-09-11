@@ -8,6 +8,8 @@ ns: APP
 void APP_GET_INT(ScrHandle property);
 ```
 
+UnknownDB argument 1: char* property
+UnknownDB return type: int
 
 ## Parameters
 * **property**: 

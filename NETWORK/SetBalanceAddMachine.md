@@ -5,12 +5,12 @@ ns: NETWORK
 
 ```c
 // 0x815E5E3073DA1D67 0xE123C7AC
-BOOL SET_BALANCE_ADD_MACHINE(Any* p0, Any* p1);
+BOOL SET_BALANCE_ADD_MACHINE(char* contentId, char* contentTypeName);
 ```
 
 
 ## Parameters
-* **p0**: 
-* **p1**: 
+* **contentId**:
+* **contentTypeName**:
 
 ## Return value

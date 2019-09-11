@@ -5,7 +5,7 @@ ns: CAM
 
 ```c
 // 0xDCD4EA924F42D01A 0x1A75DC9A
-Any SET_WIDESCREEN_BORDERS(BOOL p0, int p1);
+void SET_WIDESCREEN_BORDERS(BOOL p0, int p1);
 ```
 
 
@@ -13,4 +13,3 @@ Any SET_WIDESCREEN_BORDERS(BOOL p0, int p1);
 * **p0**: 
 * **p1**: 
 
-## Return value

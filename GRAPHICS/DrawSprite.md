@@ -18,6 +18,7 @@ scaleX/Y - Texture scaling. Negative values can be used to flip the texture on t
 heading - Texture rotation in degrees (default = 0.0) positive is clockwise, measured in degrees  
 red,green,blue - Sprite color (default = 255/255/255)  
 alpha - opacity level  
+UnknownDB additional arguments(s): BOOL p11
 ```
 
 ## Parameters

@@ -13,6 +13,7 @@ p1 is always false in R* scripts.
 Quick disassembly seems to indicate that p1 is unused.  
 List of component/props ID  
 gtaxscripting.blogspot.com/2016/04/gta-v-peds-component-and-props.html  
+UnknownDB argument 2: int p1
 ```
 
 ## Parameters

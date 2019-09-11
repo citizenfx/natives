@@ -5,12 +5,12 @@ ns: STATS
 
 ```c
 // 0x46F917F6B4128FE4 0x8770017B
-void PLAYSTATS_AWARD_XP(Any p0, Any p1, Any p2);
+void PLAYSTATS_AWARD_XP(int amount, Hash type, Hash category);
 ```
 
 
 ## Parameters
-* **p0**: 
-* **p1**: 
-* **p2**: 
+* **amount**:
+* **type**:
+* **category**:
 

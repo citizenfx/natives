@@ -11,6 +11,7 @@ Hash _GET_PICKUP_HASH(Pickup pickupHash);
 
 ```
 returns pickup hash.  
+UnknownDB argument 1: Hash pickupHash
 ```
 
 ## Parameters

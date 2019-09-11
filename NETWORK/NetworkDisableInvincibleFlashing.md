@@ -6,7 +6,7 @@ aliases: ["0x9DD368BF06983221"]
 
 ```c
 // 0x9DD368BF06983221 0x8D27280E
-void NETWORK_DISABLE_INVINCIBLE_FLASHING(int player, BOOL p1);
+void NETWORK_DISABLE_INVINCIBLE_FLASHING(Player player, BOOL toggle);
 ```
 
 ```
@@ -24,5 +24,5 @@ NETWORK_DISABLE_INVINCIBLE_FLASHING(pindex, 1);
 
 ## Parameters
 * **player**: 
-* **p1**: 
+* **toggle**:
 

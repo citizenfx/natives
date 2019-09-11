@@ -10,6 +10,7 @@ void SET_ENTITY_HEALTH(Entity entity, int health);
 
 ```
 health >= 0  
+UnknownDB additional arguments(s): int p2
 ```
 
 ## Parameters

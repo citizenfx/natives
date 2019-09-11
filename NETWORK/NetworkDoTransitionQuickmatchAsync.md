@@ -9,6 +9,7 @@ aliases: ["0xA091A5E44F0072E5"]
 BOOL NETWORK_DO_TRANSITION_QUICKMATCH_ASYNC(Any p0, Any p1, Any p2, Any p3);
 ```
 
+UnknownDB additional arguments(s): Any p4, Any p5
 
 ## Parameters
 * **p0**: 

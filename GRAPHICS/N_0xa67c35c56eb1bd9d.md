@@ -11,6 +11,7 @@ BOOL _0xA67C35C56EB1BD9D();
 ```
 Dr. Underscore (1/6/18):  
 Only one instances in two scripts. (cellphone_controller, maintransition)  
+UnknownDB return type: Any
 ```
 
 ## Return value

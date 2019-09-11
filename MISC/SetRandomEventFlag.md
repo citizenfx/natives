@@ -5,7 +5,7 @@ ns: MISC
 
 ```c
 // 0x971927086CFD2158 0xA77F31E8
-void SET_RANDOM_EVENT_FLAG(Any p0);
+void SET_RANDOM_EVENT_FLAG(BOOL toggle);
 ```
 
 ```
@@ -14,5 +14,5 @@ Does nothing if the mission flag is set.
 ```
 
 ## Parameters
-* **p0**: 
+* **toggle**:
 

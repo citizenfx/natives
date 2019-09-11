@@ -5,7 +5,7 @@ ns: VEHICLE
 
 ```c
 // 0xFD813BB7DB977F20 0x68BFDD61
-Any SWITCH_TRAIN_TRACK(int intersectionId, BOOL state);
+void SWITCH_TRAIN_TRACK(int intersectionId, BOOL state);
 ```
 
 
@@ -13,4 +13,3 @@ Any SWITCH_TRAIN_TRACK(int intersectionId, BOOL state);
 * **intersectionId**: 
 * **state**: 
 
-## Return value

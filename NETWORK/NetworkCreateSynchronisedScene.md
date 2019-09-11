@@ -12,6 +12,9 @@ int NETWORK_CREATE_SYNCHRONISED_SCENE(float x, float y, float z, float xRot, flo
 returns netScene  
 this native is missing 2 params  
 float p10, float p11  
+UnknownDB argument 8: BOOL p7
+UnknownDB argument 9: BOOL p8
+UnknownDB additional arguments(s): float p10, float p11
 ```
 
 ## Parameters

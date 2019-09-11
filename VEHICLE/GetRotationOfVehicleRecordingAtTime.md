@@ -8,6 +8,7 @@ ns: VEHICLE
 int GET_ROTATION_OF_VEHICLE_RECORDING_AT_TIME(Any p0, float p1, Any* p2);
 ```
 
+UnknownDB return type: Vector3
 
 ## Parameters
 * **p0**: 

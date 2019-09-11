@@ -8,4 +8,5 @@ ns: STREAMING
 void NETWORK_UPDATE_LOAD_SCENE();
 ```
 
+UnknownDB return type: BOOL
 

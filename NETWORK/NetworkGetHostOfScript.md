@@ -14,6 +14,7 @@ scriptName examples:
 Most of the time, these values are used:  
 p1 = -1  
 p2 = 0  
+UnknownDB return type: Player
 ```
 
 ## Parameters

@@ -12,6 +12,7 @@ int START_NETWORKED_PARTICLE_FX_LOOPED_ON_ENTITY_BONE(char* effectName, Entity e
 ```
 Console Hash: 0xF478EFCF  
 network fx  
+UnknownDB additional arguments(s): Any p13, Any p14, Any p15, Any p16
 ```
 
 ## Parameters

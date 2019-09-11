@@ -5,7 +5,7 @@ ns: CAM
 
 ```c
 // 0xA516C198B7DCA1E1 0xFA3A16E7
-Any _CLAMP_GAMEPLAY_CAM_PITCH(float minimum, float maximum);
+void _CLAMP_GAMEPLAY_CAM_PITCH(float minimum, float maximum);
 ```
 
 ```
@@ -19,4 +19,3 @@ Eg. _CLAMP_GAMEPLAY_CAM_PITCH(0.0f, 0.0f) will set the vertical angle directly b
 * **minimum**: 
 * **maximum**: 
 
-## Return value

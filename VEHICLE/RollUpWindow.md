@@ -5,7 +5,7 @@ ns: VEHICLE
 
 ```c
 // 0x602E548F46E24D59 0x83B7E06A
-Any ROLL_UP_WINDOW(Vehicle vehicle, int windowIndex);
+void ROLL_UP_WINDOW(Vehicle vehicle, int windowIndex);
 ```
 
 ```
@@ -19,4 +19,3 @@ Any ROLL_UP_WINDOW(Vehicle vehicle, int windowIndex);
 * **vehicle**: 
 * **windowIndex**: 
 
-## Return value

@@ -25,6 +25,7 @@ if (((v_F == ${tanker}) || (v_F == ${armytanker})) || (v_F == ${tanker2})) {
         NETWORK::NETWORK_EXPLODE_VEHICLE(v_3, 1, 1, -1);  
     }  
 }  
+UnknownDB additional arguments(s): Any p1, Any p2, Any p3, Any p4, Any p5, Any p6
 ```
 
 ## Parameters

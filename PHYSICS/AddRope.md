@@ -28,6 +28,7 @@ float distance = abs(x1 - x2) + abs(y1 - y2) + abs(z1 - z2); // Rope length
 NOTES:  
 Rope does NOT interact with anything you attach it to, in some cases it make interact with the world AFTER it breaks (seems to occur if you set the type to -1).  
 Rope will sometimes contract and fall to the ground like you'd expect it to, but since it doesn't interact with the world the effect is just jaring.  
+UnknownDB return type: int
 ```
 
 ## Parameters

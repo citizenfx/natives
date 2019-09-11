@@ -5,7 +5,7 @@ ns: PLAYER
 
 ```c
 // 0xBEC7076D64130195 0x822BC992
-Any GIVE_ACHIEVEMENT_TO_PLAYER(int achId);
+BOOL GIVE_ACHIEVEMENT_TO_PLAYER(int achievement);
 ```
 
 ```
@@ -14,6 +14,6 @@ more achievements came with update 1.29 (freemode events update), I'd say that t
 ```
 
 ## Parameters
-* **achId**: 
+* **achievement**:
 
 ## Return value

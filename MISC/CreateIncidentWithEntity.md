@@ -5,7 +5,7 @@ ns: MISC
 
 ```c
 // 0x05983472F0494E60 0xBBC35B03
-BOOL CREATE_INCIDENT_WITH_ENTITY(int incidentType, Ped ped, int amountOfPeople, float radius, int* outIncidentID);
+BOOL CREATE_INCIDENT_WITH_ENTITY(int dispatchService, Ped ped, int numUnits, float radius, int* outIncidentID);
 ```
 
 ```
@@ -26,12 +26,13 @@ Side Note: It seems calling the pedsInCavalcades or Merryweather then removing i
 Side Note 2: I say it breaks as if you call this proper,  
 if(CREATE_INCIDENT) etc it will return false if you do as I said above.  
 =====================================================  
+UnknownDB additional arguments(s): Any p5, Any p6
 ```
 
 ## Parameters
-* **incidentType**: 
+* **dispatchService**:
 * **ped**: 
-* **amountOfPeople**: 
+* **numUnits**:
 * **radius**: 
 * **outIncidentID**: 
 

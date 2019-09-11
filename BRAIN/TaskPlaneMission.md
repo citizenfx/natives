@@ -50,6 +50,7 @@ Example C++
 AI::TASK_PLANE_MISSION(pilot, vehicle, 0, PLAYER::GET_PLAYER_PED(PLAYER::GET_PLAYER_INDEX()), 0, 0, 0, 6, 0.0, 0.0, 0.0, 2500.0, -1500.0);  
 [DEPRECATED] EXAMPLE USAGE:  
 pastebin.com/gx7Finsk  
+UnknownDB additional arguments(s): Any p13
 ```
 
 ## Parameters

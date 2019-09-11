@@ -11,6 +11,7 @@ void SET_ENTITY_ALPHA(Entity entity, int alphaLevel, int skin);
 ```
 skin - everything alpha except skin  
 Set entity alpha level. Ranging from 0 to 255 but chnages occur after every 20 percent (after every 51).  
+UnknownDB argument 3: BOOL skin
 ```
 
 ## Parameters

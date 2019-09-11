@@ -10,6 +10,7 @@ int GET_NUM_RESERVED_MISSION_OBJECTS(BOOL p0);
 
 ```
 p0 appears to be for MP  
+UnknownDB additional arguments(s): Any p1
 ```
 
 ## Parameters

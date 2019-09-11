@@ -5,11 +5,10 @@ ns: NETWORKCASH
 
 ```c
 // 0xED1517D3AF17C698 0x70A0ED62
-Any NETWORK_EARN_FROM_PICKUP(int amount);
+void NETWORK_EARN_FROM_PICKUP(int amount);
 ```
 
 
 ## Parameters
 * **amount**: 
 
-## Return value

@@ -5,11 +5,11 @@ ns: INTERIOR
 
 ```c
 // 0x92BAC8ACF88CEC26 0x18B17C80
-BOOL IS_INTERIOR_CAPPED(int interiorID);
+BOOL IS_INTERIOR_CAPPED(int interior);
 ```
 
 
 ## Parameters
-* **interiorID**: 
+* **interior**:
 
 ## Return value

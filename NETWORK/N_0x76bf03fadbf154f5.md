@@ -8,5 +8,6 @@ ns: NETWORK
 Any* _0x76BF03FADBF154F5();
 ```
 
+UnknownDB return type: Any
 
 ## Return value

@@ -8,6 +8,7 @@ ns: NETWORK
 void NETWORK_RESURRECT_LOCAL_PLAYER(float x, float y, float z, float heading, BOOL unk, BOOL changetime);
 ```
 
+UnknownDB additional arguments(s): Any p6
 
 ## Parameters
 * **x**: 

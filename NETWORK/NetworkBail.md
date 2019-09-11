@@ -10,5 +10,6 @@ void NETWORK_BAIL();
 
 ```
 This has arguments.. in PC scripts.  
+UnknownDB additional arguments(s): int p0, int p1, int p2
 ```
 

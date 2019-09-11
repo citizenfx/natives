@@ -6,7 +6,7 @@ aliases: ["0x42156508606DE65E"]
 
 ```c
 // 0x42156508606DE65E 0x71E9C63E
-void _SET_THIRD_PERSON_AIM_CAM_NEAR_CLIP(float distance);
+void _SET_THIRD_PERSON_AIM_CAM_NEAR_CLIP(float p0);
 ```
 
 ```
@@ -14,5 +14,5 @@ Sets the near clipping plane of the third person aim camera.
 ```
 
 ## Parameters
-* **distance**: 
+* **p0**:
 

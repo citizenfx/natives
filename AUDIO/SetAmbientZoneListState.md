@@ -8,6 +8,7 @@ ns: AUDIO
 void SET_AMBIENT_ZONE_LIST_STATE(char* p0, BOOL p1, BOOL p2);
 ```
 
+UnknownDB argument 1: Any* p0
 
 ## Parameters
 * **p0**: 

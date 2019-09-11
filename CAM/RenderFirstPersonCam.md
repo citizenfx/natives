@@ -21,6 +21,7 @@ This makes the camera zoom in to first person.
 3rd Param Options: 3, 2, 1 (Mostly 3);  
 Note for the 2nd param 10f (offroad_race.c) and 3rd param 20f (range_modern.c) are the only times those 2 high floats are called.  
 Note for the 3rd param 2 is only ever set in (franklin0.c), but it also sets it as 3. (0, 0, 3) ||(0, 0f, 2) || (0, 0, 3)  
+UnknownDB additional arguments(s): Any p3
 ```
 
 ## Parameters

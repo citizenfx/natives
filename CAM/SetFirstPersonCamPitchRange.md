@@ -6,7 +6,7 @@ aliases: ["0xBCFC632DB7673BF0"]
 
 ```c
 // 0xBCFC632DB7673BF0 0x76DAC96C
-void _SET_FIRST_PERSON_CAM_PITCH_RANGE(float minAngle, float maxAngle);
+void _SET_FIRST_PERSON_CAM_PITCH_RANGE(float p0, float p1);
 ```
 
 ```
@@ -14,6 +14,6 @@ Similar to _CLAMP_GAMEPLAY_CAM_PITCH except this is specifically for the FP came
 ```
 
 ## Parameters
-* **minAngle**: 
-* **maxAngle**: 
+* **p0**:
+* **p1**:
 

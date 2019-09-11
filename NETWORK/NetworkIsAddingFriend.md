@@ -8,5 +8,6 @@ ns: NETWORK
 BOOL NETWORK_IS_ADDING_FRIEND();
 ```
 
+UnknownDB return type: Any
 
 ## Return value

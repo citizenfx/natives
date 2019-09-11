@@ -8,6 +8,7 @@ ns: ENTITY
 BOOL IS_ENTITY_DEAD(Entity entity);
 ```
 
+UnknownDB additional arguments(s): BOOL p1
 
 ## Parameters
 * **entity**: 

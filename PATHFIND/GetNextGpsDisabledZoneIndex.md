@@ -10,6 +10,7 @@ int GET_NEXT_GPS_DISABLED_ZONE_INDEX(int index);
 ```
 
 Gets the next zone that has been disabled using SET_GPS_DISABLED_ZONE_AT_INDEX.
+UnknownDB removed arguments(s): int index
 
 ## Return value
 The disabled zone index

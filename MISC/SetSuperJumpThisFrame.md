@@ -8,6 +8,7 @@ ns: MISC
 int SET_SUPER_JUMP_THIS_FRAME(Player player);
 ```
 
+UnknownDB return type: void
 
 ## Parameters
 * **player**: 

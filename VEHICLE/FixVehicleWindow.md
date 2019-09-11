@@ -5,7 +5,7 @@ ns: VEHICLE
 
 ```c
 // 0x772282EBEB95E682 0x6B8E990D
-Any FIX_VEHICLE_WINDOW(Vehicle vehicle, int index);
+void FIX_VEHICLE_WINDOW(Vehicle vehicle, int index);
 ```
 
 
@@ -13,4 +13,3 @@ Any FIX_VEHICLE_WINDOW(Vehicle vehicle, int index);
 * **vehicle**: 
 * **index**: 
 
-## Return value

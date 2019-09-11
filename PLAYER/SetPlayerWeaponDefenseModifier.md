@@ -8,6 +8,7 @@ ns: PLAYER
 void SET_PLAYER_WEAPON_DEFENSE_MODIFIER(Player player, ScrHandle modifier);
 ```
 
+UnknownDB argument 2: float modifier
 
 ## Parameters
 * **player**: 

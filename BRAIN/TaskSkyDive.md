@@ -8,6 +8,7 @@ ns: BRAIN
 void TASK_SKY_DIVE(Ped ped);
 ```
 
+UnknownDB additional arguments(s): BOOL p1
 
 ## Parameters
 * **ped**: 

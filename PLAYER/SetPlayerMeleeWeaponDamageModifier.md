@@ -8,6 +8,7 @@ ns: PLAYER
 void SET_PLAYER_MELEE_WEAPON_DAMAGE_MODIFIER(Player player, float modifier);
 ```
 
+UnknownDB additional arguments(s): BOOL p2
 
 ## Parameters
 * **player**: 

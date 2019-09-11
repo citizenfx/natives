@@ -5,7 +5,7 @@ ns: CAM
 
 ```c
 // 0x8F993D26E0CA5E8E 0x749909AC
-Any _CLAMP_GAMEPLAY_CAM_YAW(float minimum, float maximum);
+void _CLAMP_GAMEPLAY_CAM_YAW(float minimum, float maximum);
 ```
 
 ```
@@ -19,4 +19,3 @@ Eg. _CLAMP_GAMEPLAY_CAM_YAW(0.0f, 0.0f) will set the horizontal angle directly b
 * **minimum**: 
 * **maximum**: 
 
-## Return value

@@ -10,6 +10,7 @@ void _SET_GAMEPLAY_CAM_RAW_YAW(float yaw);
 
 ```
 Does nothing  
+UnknownDB additional arguments(s): Any p1
 ```
 
 ## Parameters

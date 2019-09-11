@@ -8,6 +8,7 @@ ns: NETWORK
 void SET_NETWORK_VEHICLE_RESPOT_TIMER(int netId, int time);
 ```
 
+UnknownDB additional arguments(s): Any p2, Any p3
 
 ## Parameters
 * **netId**: 

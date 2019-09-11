@@ -8,6 +8,7 @@ ns: OBJECT
 BOOL HAS_OBJECT_BEEN_BROKEN(Object object);
 ```
 
+UnknownDB additional arguments(s): Any p1
 
 ## Parameters
 * **object**: 

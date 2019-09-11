@@ -11,6 +11,7 @@ void SET_TEXT_LEADING(BOOL p0);
 ```
 from script am_mp_yacht.c int?  
 ui::set_text_leading(2);  
+UnknownDB argument 1: int p0
 ```
 
 ## Parameters

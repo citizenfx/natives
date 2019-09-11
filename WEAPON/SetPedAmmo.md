@@ -8,6 +8,7 @@ ns: WEAPON
 void SET_PED_AMMO(Ped ped, Hash weaponHash, int ammo);
 ```
 
+UnknownDB additional arguments(s): BOOL p3
 
 ## Parameters
 * **ped**: 

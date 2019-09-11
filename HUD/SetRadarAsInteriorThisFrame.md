@@ -5,7 +5,7 @@ ns: HUD
 
 ```c
 // 0x59E727A1C9D3E31A 0x6F2626E1
-void SET_RADAR_AS_INTERIOR_THIS_FRAME(Hash interior, float x, float y, int heading, int zoom);
+void SET_RADAR_AS_INTERIOR_THIS_FRAME(Hash interior, float x, float y, int z, int zoom);
 ```
 
 ```
@@ -17,6 +17,6 @@ Not for every interior zoom > 0 available.
 * **interior**: 
 * **x**: 
 * **y**: 
-* **heading**: 
+* **z**:
 * **zoom**: 
 

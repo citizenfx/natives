@@ -5,7 +5,7 @@ ns: OBJECT
 
 ```c
 // 0x8A7391690F5AFD81 0x3F88CD86
-Any SET_OBJECT_TARGETTABLE(Object object, BOOL targettable);
+void SET_OBJECT_TARGETTABLE(Object object, BOOL targettable);
 ```
 
 
@@ -13,4 +13,3 @@ Any SET_OBJECT_TARGETTABLE(Object object, BOOL targettable);
 * **object**: 
 * **targettable**: 
 
-## Return value

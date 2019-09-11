@@ -18,6 +18,7 @@ ________________________
 6 - Scream (Short)  
 7 - Scared Scream (Kinda Long)  
 8 - On Fire  
+UnknownDB additional arguments(s): Any p3
 ```
 
 ## Parameters

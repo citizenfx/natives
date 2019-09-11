@@ -10,6 +10,7 @@ Vehicle CREATE_VEHICLE(Hash modelHash, float x, float y, float z, float heading,
 
 ```
 thisScriptCheck - can be destroyed if it belongs to the calling script.  
+UnknownDB additional arguments(s): BOOL p7
 ```
 
 ## Parameters

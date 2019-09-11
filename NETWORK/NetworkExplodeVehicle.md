@@ -5,7 +5,7 @@ ns: NETWORK
 
 ```c
 // 0x301A42153C9AD707 0x0E1B38AE
-Any NETWORK_EXPLODE_VEHICLE(Vehicle vehicle, BOOL isAudible, BOOL isInvisible, BOOL p3);
+void NETWORK_EXPLODE_VEHICLE(Vehicle vehicle, BOOL isAudible, BOOL isInvisible, BOOL p3);
 ```
 
 ```
@@ -30,4 +30,3 @@ Seems it's like ADD_EXPLOSION, etc. the first 2 params. The 3rd atm no need to w
 * **isInvisible**: 
 * **p3**: 
 
-## Return value

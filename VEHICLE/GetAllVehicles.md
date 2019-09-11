@@ -5,11 +5,11 @@ ns: VEHICLE
 
 ```c
 // 0x9B8E1BF04B51F2E8
-int _GET_ALL_VEHICLES(Any* vehArray);
+int _GET_ALL_VEHICLES(int* vehsStruct);
 ```
 
 
 ## Parameters
-* **vehArray**: 
+* **vehsStruct**:
 
 ## Return value

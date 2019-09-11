@@ -19,6 +19,7 @@ GET_CONTROL_INSTRUCTIONAL_BUTTON (2, 202, 1) /*INPUT_FRONTEND_CANCEL (e.g. ESC b
 GET_CONTROL_INSTRUCTIONAL_BUTTON (2, 51, 1) /*INPUT_CONTEXT (e.g. E button)*/  
 gtaforums.com/topic/819070-c-draw-instructional-buttons-scaleform-movie/#entry1068197378  
 0, 1 and 2 used in the scripts. 0 is by far the most common of them.  
+UnknownDB argument 3: BOOL p2
 ```
 
 ## Parameters

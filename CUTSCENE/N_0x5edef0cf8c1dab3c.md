@@ -8,5 +8,6 @@ ns: CUTSCENE
 BOOL _0x5EDEF0CF8C1DAB3C();
 ```
 
+UnknownDB return type: Any
 
 ## Return value

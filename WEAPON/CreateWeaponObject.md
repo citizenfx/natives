@@ -10,6 +10,7 @@ Object CREATE_WEAPON_OBJECT(Hash weaponHash, int ammoCount, float x, float y, fl
 
 ```
 Now has 8 params.  
+UnknownDB additional arguments(s): Any p8, Any p9
 ```
 
 ## Parameters

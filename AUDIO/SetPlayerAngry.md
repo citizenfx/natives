@@ -5,10 +5,11 @@ ns: AUDIO
 
 ```c
 // 0xEA241BB04110F091 0x782CA58D
-void SET_PLAYER_ANGRY(Ped playerPed, BOOL disabled);
+void SET_PLAYER_ANGRY(Ped ped, BOOL toggle);
 ```
 
+
 ## Parameters
-* **playerPed**: 
-* **disabled**: 
+* **ped**:
+* **toggle**:
 

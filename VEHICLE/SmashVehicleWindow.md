@@ -5,7 +5,7 @@ ns: VEHICLE
 
 ```c
 // 0x9E5B5E4D2CCD2259 0xDDD9A8C2
-Any SMASH_VEHICLE_WINDOW(Vehicle vehicle, int index);
+void SMASH_VEHICLE_WINDOW(Vehicle vehicle, int index);
 ```
 
 
@@ -13,4 +13,3 @@ Any SMASH_VEHICLE_WINDOW(Vehicle vehicle, int index);
 * **vehicle**: 
 * **index**: 
 
-## Return value

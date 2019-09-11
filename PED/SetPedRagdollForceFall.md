@@ -5,11 +5,10 @@ ns: PED
 
 ```c
 // 0x01F6594B923B9251 0x20A5BDE0
-Any SET_PED_RAGDOLL_FORCE_FALL(Ped ped);
+void SET_PED_RAGDOLL_FORCE_FALL(Ped ped);
 ```
 
 
 ## Parameters
 * **ped**: 
 
-## Return value

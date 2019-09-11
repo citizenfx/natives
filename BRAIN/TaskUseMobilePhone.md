@@ -13,6 +13,7 @@ Actually has 3 params, not 2.
 p0: Ped  
 p1: int (or bool?)  
 p2: int  
+UnknownDB additional arguments(s): Any p2
 ```
 
 ## Parameters

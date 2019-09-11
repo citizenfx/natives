@@ -10,6 +10,7 @@ void _SET_WARNING_MESSAGE_3(char* entryHeader, char* entryLine1, Any instruction
 
 ```
 You can only use text entries. No custom text.  
+UnknownDB additional arguments(s): Any p10
 ```
 
 ## Parameters

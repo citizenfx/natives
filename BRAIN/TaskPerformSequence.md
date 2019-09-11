@@ -5,12 +5,11 @@ ns: BRAIN
 
 ```c
 // 0x5ABA3986D90D8A3B 0x4D9FBD11
-Any TASK_PERFORM_SEQUENCE(Ped ped, Object taskSequence);
+void TASK_PERFORM_SEQUENCE(Ped ped, int taskSequenceId);
 ```
 
 
 ## Parameters
 * **ped**: 
-* **taskSequence**: 
+* **taskSequenceId**:
 
-## Return value

@@ -15,6 +15,7 @@ y: Position on the Y-axis to get ground elevation at.
 z: Position on the Z-axis to get ground elevation at.  
 groundZ: The ground elevation at the specified position.  
 unk: Nearly always 0, very rarely 1 in the scripts.  
+UnknownDB additional arguments(s): BOOL p5
 ```
 
 ## Parameters

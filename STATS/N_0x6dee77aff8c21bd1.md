@@ -5,12 +5,12 @@ ns: STATS
 
 ```c
 // 0x6DEE77AFF8C21BD1 0x489E27E7
-BOOL _0x6DEE77AFF8C21BD1(Any* p0, Any* p1);
+BOOL _0x6DEE77AFF8C21BD1(int* playerAccountId, int* posixTime);
 ```
 
 
 ## Parameters
-* **p0**: 
-* **p1**: 
+* **playerAccountId**:
+* **posixTime**:
 
 ## Return value

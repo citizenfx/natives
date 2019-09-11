@@ -65,6 +65,7 @@ public enum DecalTypes
     porousPool_water_ped_drip,  
     liquidTrail_water = 9050  
 }  
+UnknownDB return type: int
 ```
 
 ## Parameters

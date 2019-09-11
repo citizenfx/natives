@@ -13,6 +13,7 @@ Has an additional BOOL parameter since version [???].
 Check if a vehicle seat is free.  
 -1 being the driver seat.  
 Use GET_VEHICLE_MAX_NUMBER_OF_PASSENGERS(vehicle) - 1 for last seat index.  
+UnknownDB additional arguments(s): BOOL p2
 ```
 
 ## Parameters

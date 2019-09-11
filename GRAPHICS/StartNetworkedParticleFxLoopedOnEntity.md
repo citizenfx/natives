@@ -11,6 +11,7 @@ int START_NETWORKED_PARTICLE_FX_LOOPED_ON_ENTITY(char* effectName, Entity entity
 
 ```
 network fx  
+UnknownDB additional arguments(s): Any p12, Any p13, Any p14, Any p15
 ```
 
 ## Parameters
