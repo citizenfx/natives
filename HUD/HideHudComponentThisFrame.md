@@ -8,22 +8,21 @@ ns: HUD
 void HIDE_HUD_COMPONENT_THIS_FRAME(int id);
 ```
 
-```
-This function hides various HUD (Heads-up Display) components. 
+This function hides various HUD (Heads-up Display) components.
 
 Listed below are the integers and the corresponding HUD component.
-- 1 : WANTED_STARS 	
-- 2 : WEAPON_ICON 
-- 3 : CASH 
-- 4 : MP_CASH 
-- 5 : MP_MESSAGE 
-- 6 : VEHICLE_NAME 
-- 7 : AREA_NAME 
-- 8 : VEHICLE_CLASS 
-- 9 : STREET_NAME 
+- 1 : WANTED_STARS
+- 2 : WEAPON_ICON
+- 3 : CASH
+- 4 : MP_CASH
+- 5 : MP_MESSAGE
+- 6 : VEHICLE_NAME
+- 7 : AREA_NAME
+- 8 : VEHICLE_CLASS
+- 9 : STREET_NAME
 - 10 : HELP_TEXT
-- 11 : FLOATING_HELP_TEXT_1 
-- 12 : FLOATING_HELP_TEXT_2 
+- 11 : FLOATING_HELP_TEXT_1
+- 12 : FLOATING_HELP_TEXT_2
 - 13 : CASH_CHANGE
 - 14 : RETICLE
 - 15 : SUBTITLE_TEXT
@@ -35,8 +34,7 @@ Listed below are the integers and the corresponding HUD component.
 - 21 : HUD_COMPONENTS
 - 22 : HUD_WEAPONS
 
-These integers also work for the SHOW_HUD_COMPONENT_THIS_FRAME(); native, but instead shows the HUD Component.
-```
+These integers also work for the [`SHOW_HUD_COMPONENT_THIS_FRAME`](#_0x0B4DF1FA60C0E664) native, but instead shows the HUD Component.
 
 
 ## Parameters
