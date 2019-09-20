@@ -2,7 +2,7 @@
 ns: ENTITY
 aliases: ["0xCE6294A232D03786"]
 ---
-## _0xCE6294A232D03786
+## _GET_WORLD_ROTATION_OF_ENTITY_BONE
 
 ```c
 // GetWorldRotationOfEntityBone
