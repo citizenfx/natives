@@ -1,11 +1,11 @@
 ---
 ns: NETWORK
 ---
-## 0x45F35C0EDC33B03B
+## _0x45F35C0EDC33B03B
 
 ```c
-// N_0x45f35c0edc33b03b
-void 0x45F35C0EDC33B03B(Entity entity, Hash model, int netScene, char* animDict, char* animName, float speed, float speedMulitiplier, int flag);
+// 0x45F35C0EDC33B03B
+void _0x45F35C0EDC33B03B(Entity entity, Hash model, int netScene, char* animDict, char* animName, float speed, float speedMulitiplier, int flag);
 ```
 
 ## Parameters
