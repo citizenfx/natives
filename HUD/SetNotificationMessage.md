@@ -18,7 +18,7 @@ Example result:
 
 Old description with list of possible icons and texture names:
 
-```text
+```
 List of picNames: pastebin.com/XdpJVbHz  
 flash is a bool for fading in.  
 iconTypes:  
