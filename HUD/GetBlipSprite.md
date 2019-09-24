@@ -10,7 +10,7 @@ int GET_BLIP_SPRITE(Blip blip);
 
 ```
 Blips Images + IDs:  
-gtaxscripting.blogspot.com/2016/05/gta-v-blips-id-and-image.html  
+https://docs.fivem.net/game-references/blips/
 ```
 
 ## Parameters
