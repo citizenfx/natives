@@ -1,14 +1,16 @@
 ---
 ns: NETWORK
-aliases: ["0xCFEB8AF24FC1D0BB"]
+aliases: ["0x4A9FDE3A5A6D0437"]
 ---
 ## _NETWORK_BLOCK_INVITES_2
 
 ```c
-// 0xCFEB8AF24FC1D0BB 0x8AB4890B
-void _NETWORK_BLOCK_INVITES_2(BOOL toggle);
+// 0x4A9FDE3A5A6D0437 0x18F03AFD
+void _NETWORK_BLOCK_INVITES_2(BOOL p0);
 ```
 
+**This native does absolutely nothing, just a nullsub**
+
 ## Parameters
-* **toggle**:
+* **p0**: 
 

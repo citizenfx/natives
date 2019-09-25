@@ -1,5 +1,5 @@
 ---
-ns: PATHFIND
+ns: PED
 aliases: ["0xD3A6A0EF48823A8C"]
 ---
 ## GET_NEXT_GPS_DISABLED_ZONE_INDEX
