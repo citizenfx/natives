@@ -10,7 +10,7 @@ BOOL PLAY_SYNCHRONIZED_ENTITY_ANIM(Entity entity, int syncedScene, char* animati
 
 ```
 p4 and p7 are usually 1000.0f.  
-Animations list : www.los-santos-multiplayer.com/dev.airdancer?cxt=anim  
+Animations list: https://alexguirre.github.io/animations-list/  
 ```
 
 ## Parameters

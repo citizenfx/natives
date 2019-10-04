@@ -9,7 +9,7 @@ Vector3 GET_ANIM_INITIAL_OFFSET_POSITION(char* animDict, char* animName, float x
 ```
 
 ```
-Animations list : www.los-santos-multiplayer.com/dev.airdancer?cxt=anim  
+Animations list: https://alexguirre.github.io/animations-list/  
 ```
 
 ## Parameters

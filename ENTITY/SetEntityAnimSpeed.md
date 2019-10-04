@@ -9,7 +9,7 @@ void SET_ENTITY_ANIM_SPEED(Entity entity, char* animDictionary, char* animName, 
 ```
 
 ```
-Animations list : www.los-santos-multiplayer.com/dev.airdancer?cxt=anim  
+Animations list: https://alexguirre.github.io/animations-list/  
 ```
 
 ## Parameters

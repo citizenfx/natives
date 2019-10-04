@@ -9,7 +9,7 @@ void TASK_PLAY_ANIM(Ped ped, char* animDictionary, char* animationName, float bl
 ```
 
 ```
-Animations list : www.los-santos-multiplayer.com/dev.airdancer?cxt=anim  
+Animations list: https://alexguirre.github.io/animations-list/  
 float blendInSpeed > normal speed is 8.0f
 ----------------------  
 float blendOutSpeed > normal speed is 8.0f

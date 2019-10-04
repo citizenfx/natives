@@ -9,7 +9,7 @@ BOOL IS_CAM_PLAYING_ANIM(Cam cam, char* animName, char* animDictionary);
 ```
 
 ```
-Animations list : www.los-santos-multiplayer.com/dev.airdancer?cxt=anim  
+Animations list: https://alexguirre.github.io/animations-list/  
 ```
 
 ## Parameters

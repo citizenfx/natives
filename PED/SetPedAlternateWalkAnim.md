@@ -9,7 +9,7 @@ void SET_PED_ALTERNATE_WALK_ANIM(Ped ped, char* animDict, char* animName, float 
 ```
 
 ```
-Animations list : www.los-santos-multiplayer.com/dev.airdancer?cxt=anim  
+Animations list: https://alexguirre.github.io/animations-list/  
 ```
 
 ## Parameters
