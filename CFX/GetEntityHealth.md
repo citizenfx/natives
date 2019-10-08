@@ -8,7 +8,7 @@ apiset: server
 int GET_ENTITY_HEALTH(Entity entity);
 ```
 
-Currently it only works with peds.
+Currently it only works with peds. OneSync only.
 
 ## Parameters
 * **entity**: 
