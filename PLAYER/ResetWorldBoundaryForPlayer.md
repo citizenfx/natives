@@ -1,0 +1,14 @@
+---
+ns: PLAYER
+---
+## RESET_WORLD_BOUNDARY_FOR_PLAYER
+
+```c
+// 0xDA1DF03D5A315F4E 0xA97C2F6C
+void RESET_WORLD_BOUNDARY_FOR_PLAYER();
+```
+
+```
+NativeDB Introduced: v323
+```
+
