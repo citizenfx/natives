@@ -1,12 +1,12 @@
 ---
 ns: NETSHOP
-aliases: ["0xC2F7FE5309181C7D"]
+aliases: ["0xC2F7FE5309181C7D","_NETWORK_TRANSFER_WALLET_TO_BANK"]
 ---
-## _NETWORK_TRANSFER_WALLET_TO_BANK
+## _NET_GAMESERVER_TRANSFER_WALLET_TO_BANK
 
 ```c
 // 0xC2F7FE5309181C7D
-BOOL _NETWORK_TRANSFER_WALLET_TO_BANK(int charStatInt, int amount);
+BOOL _NET_GAMESERVER_TRANSFER_WALLET_TO_BANK(int charSlot, int amount);
 ```
 
 ```
@@ -18,7 +18,7 @@ used to withdraw money from bank into wallet, shows up in transaction log.
 ```
 
 ## Parameters
-* **charStatInt**: 
+* **charSlot**: 
 * **amount**: 
 
 ## Return value

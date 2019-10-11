@@ -1,12 +1,12 @@
 ---
 ns: VEHICLE
-aliases: ["0xDA62027C8BDB326E", "_GET_PLANE_HOVER_MODE_PERCENTAGE"]
+aliases: ["0xDA62027C8BDB326E","_GET_PLANE_HOVER_MODE_PERCENTAGE","_GET_VEHICLE_HOVER_MODE_PERCENTAGE"]
 ---
-## _GET_VEHICLE_HOVER_MODE_PERCENTAGE
+## _GET_PLANE_VTOL_DIRECTION
 
 ```c
 // 0xDA62027C8BDB326E
-float _GET_VEHICLE_HOVER_MODE_PERCENTAGE(Vehicle aircraft);
+float _GET_PLANE_VTOL_DIRECTION(Vehicle aircraft);
 ```
 
 A float indicating the percentage of the hover mode. 1.0 = in VTOL mode, 0.0 = in normal flying mode.

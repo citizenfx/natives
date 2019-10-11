@@ -1,12 +1,12 @@
 ---
 ns: VEHICLE
-aliases: ["0x438B3D7CA026FE91"]
+aliases: ["0x438B3D7CA026FE91","_SET_VEHICLE_TRANSFORM_STATE"]
 ---
-## _SET_VEHICLE_TRANSFORM_STATE
+## _SET_VEHICLE_HOVER_TRANSFORM_PERCENTAGE
 
 ```c
 // 0x438B3D7CA026FE91
-void _SET_VEHICLE_TRANSFORM_STATE(Vehicle vehicle, float state);
+void _SET_VEHICLE_HOVER_TRANSFORM_PERCENTAGE(Vehicle vehicle, float state);
 ```
 
 According to decompiled scripts this should work with the `deluxo` and `oppressor2` vehicles.

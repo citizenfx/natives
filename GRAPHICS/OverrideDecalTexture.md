@@ -1,12 +1,12 @@
 ---
 ns: GRAPHICS
-aliases: ["0x8A35C742130C6080"]
+aliases: ["0x8A35C742130C6080","_ADD_DECAL_TO_MARKER"]
 ---
-## _ADD_DECAL_TO_MARKER
+## _OVERRIDE_DECAL_TEXTURE
 
 ```c
 // 0x8A35C742130C6080 0x335695CF
-void _ADD_DECAL_TO_MARKER(int decalType, char* textureDict, char* textureName);
+void _OVERRIDE_DECAL_TEXTURE(int decalType, char* textureDict, char* textureName);
 ```
 
 ```

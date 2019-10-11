@@ -1,12 +1,12 @@
 ---
 ns: VEHICLE
-aliases: ["0xF4B2ED59DEB5D774", "_SET_VEHICLE_BOMBS"]
+aliases: ["0xF4B2ED59DEB5D774","_SET_VEHICLE_BOMBS","_SET_AIRCRAFT_BOMB_COUNT"]
 ---
-## _SET_AIRCRAFT_BOMB_COUNT
+## _SET_VEHICLE_BOMB_COUNT
 
 ```c
 // 0xF4B2ED59DEB5D774
-void _SET_AIRCRAFT_BOMB_COUNT(Vehicle aircraft, int bombCount);
+void _SET_VEHICLE_BOMB_COUNT(Vehicle aircraft, int bombCount);
 ```
 
 Sets the amount of bombs that this vehicle has. As far as I know, this does _not_ impact vehicle weapons or the ammo of those weapons in any way, it is just a way to keep track of the amount of bombs in a specific plane. 

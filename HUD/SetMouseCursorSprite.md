@@ -1,12 +1,12 @@
 ---
 ns: HUD
-aliases: ["0x8DB8CFFD58B62552"]
+aliases: ["0x8DB8CFFD58B62552","_SET_CURSOR_SPRITE"]
 ---
-## _SET_CURSOR_SPRITE
+## _SET_MOUSE_CURSOR_SPRITE
 
 ```c
 // 0x8DB8CFFD58B62552
-void _SET_CURSOR_SPRITE(int spriteId);
+void _SET_MOUSE_CURSOR_SPRITE(int spriteId);
 ```
 
 ```

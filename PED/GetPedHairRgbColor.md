@@ -1,12 +1,12 @@
 ---
 ns: PED
-aliases: ["0x4852FC386E2E1BB5"]
+aliases: ["0x4852FC386E2E1BB5","_GET_HAIR_RGB_COLOR"]
 ---
-## _GET_HAIR_RGB_COLOR
+## _GET_PED_HAIR_RGB_COLOR
 
 ```c
 // 0x4852FC386E2E1BB5
-void _GET_HAIR_RGB_COLOR(int hairColorIndex, int* outR, int* outG, int* outB);
+void _GET_PED_HAIR_RGB_COLOR(int hairColorIndex, int* outR, int* outG, int* outB);
 ```
 
 Input: Haircolor index, value between 0 and 63 (inclusive).

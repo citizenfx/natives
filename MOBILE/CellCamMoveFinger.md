@@ -1,11 +1,12 @@
 ---
 ns: MOBILE
+aliases: ["_MOVE_FINGER"]
 ---
-## _MOVE_FINGER
+## _CELL_CAM_MOVE_FINGER
 
 ```c
 // 0x95C9E72F3D7DEC9B
-void _MOVE_FINGER(int direction);
+void _CELL_CAM_MOVE_FINGER(int direction);
 ```
 
 ```

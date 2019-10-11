@@ -1,12 +1,12 @@
 ---
 ns: HUD
-aliases: ["0xDD6CB2CCE7C2735C"]
+aliases: ["0xDD6CB2CCE7C2735C","_DRAW_NOTIFICATION_WITH_BUTTON"]
 ---
-## _DRAW_NOTIFICATION_WITH_BUTTON
+## _END_TEXT_COMMAND_THEFEED_POST_REPLAY_INPUT
 
 ```c
 // 0xDD6CB2CCE7C2735C
-int _DRAW_NOTIFICATION_WITH_BUTTON(int type, char* button, char* text);
+int _END_TEXT_COMMAND_THEFEED_POST_REPLAY_INPUT(int eType, char* sIcon, char* sSubtitle);
 ```
 
 ```
@@ -24,8 +24,8 @@ l_D1[2/*1*/]=UI::_DD6CB2CCE7C2735C(1,"~INPUT_REPLAY_START_STOP_RECORDING_SECONDA
 ```
 
 ## Parameters
-* **type**: 
-* **button**: 
-* **text**: 
+* **eType**: 
+* **sIcon**: 
+* **sSubtitle**: 
 
 ## Return value

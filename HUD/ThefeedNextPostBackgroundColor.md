@@ -1,12 +1,12 @@
 ---
 ns: HUD
-aliases: ["0x92F0DA1E27DB96DC"]
+aliases: ["0x92F0DA1E27DB96DC","_SET_NOTIFICATION_BACKGROUND_COLOR"]
 ---
-## _SET_NOTIFICATION_BACKGROUND_COLOR
+## _THEFEED_NEXT_POST_BACKGROUND_COLOR
 
 ```c
-// 0x92F0DA1E27DB96DC
-void _SET_NOTIFICATION_BACKGROUND_COLOR(int hudIndex);
+// 0x92F0DA1E27DB96DC 0x07CE2EA4
+void _THEFEED_NEXT_POST_BACKGROUND_COLOR(int hudColorIndex);
 ```
 
 ```
@@ -23,5 +23,5 @@ this seems to set the alpha to 255 automatically, if you have a work around let 
 ```
 
 ## Parameters
-* **hudIndex**: 
+* **hudColorIndex**: 
 

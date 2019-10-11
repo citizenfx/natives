@@ -1,12 +1,12 @@
 ---
 ns: VEHICLE
-aliases: ["0x3DFF319A831E0CDB"]
+aliases: ["0x3DFF319A831E0CDB","_GET_VEHICLE_HEADLIGHTS_COLOUR"]
 ---
-## _GET_VEHICLE_HEADLIGHTS_COLOUR
+## _GET_VEHICLE_XENON_LIGHTS_COLOUR
 
 ```c
 // 0x3DFF319A831E0CDB
-int _GET_VEHICLE_HEADLIGHTS_COLOUR(Vehicle vehicle);
+int _GET_VEHICLE_XENON_LIGHTS_COLOUR(Vehicle vehicle);
 ```
 
 Returns the headlight color index from the vehicle. Value between 0, 12.

@@ -1,12 +1,12 @@
 ---
 ns: VEHICLE
-aliases: ["0x9BDA23BF666F0855"]
+aliases: ["0x9BDA23BF666F0855","_SET_AIRCRAFT_COUNTERMEASURE_COUNT"]
 ---
-## _SET_AIRCRAFT_COUNTERMEASURE_COUNT
+## _SET_VEHICLE_COUNTERMEASURE_COUNT
 
 ```c
 // 0x9BDA23BF666F0855
-void _SET_AIRCRAFT_COUNTERMEASURE_COUNT(Vehicle aircraft, int count);
+void _SET_VEHICLE_COUNTERMEASURE_COUNT(Vehicle aircraft, int count);
 ```
 
 Similar to [`_SET_AIRCRAFT_BOMB_COUNT`](#_0xF4B2ED59DEB5D774), this sets the amount of countermeasures that are present on this vehicle.

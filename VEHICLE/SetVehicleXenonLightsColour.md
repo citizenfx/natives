@@ -1,12 +1,12 @@
 ---
 ns: VEHICLE
-aliases: ["0xE41033B25D003A07"]
+aliases: ["0xE41033B25D003A07","_SET_VEHICLE_HEADLIGHTS_COLOUR"]
 ---
-## _SET_VEHICLE_HEADLIGHTS_COLOUR
+## _SET_VEHICLE_XENON_LIGHTS_COLOUR
 
 ```c
 // 0xE41033B25D003A07
-void _SET_VEHICLE_HEADLIGHTS_COLOUR(Vehicle vehicle, int color);
+void _SET_VEHICLE_XENON_LIGHTS_COLOUR(Vehicle vehicle, int color);
 ```
 
 color is the paint index for the vehicle.

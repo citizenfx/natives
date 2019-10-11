@@ -1,12 +1,12 @@
 ---
 ns: HUD
-aliases: ["0xD202B92CBF1D816F"]
+aliases: ["0xD202B92CBF1D816F","_DRAW_NOTIFICATION_WITH_ICON"]
 ---
-## _DRAW_NOTIFICATION_WITH_ICON
+## _END_TEXT_COMMAND_THEFEED_POST_REPLAY_ICON
 
 ```c
 // 0xD202B92CBF1D816F
-int _DRAW_NOTIFICATION_WITH_ICON(int type, int image, char* text);
+int _END_TEXT_COMMAND_THEFEED_POST_REPLAY_ICON(int eType, int iIcon, char* sTitle);
 ```
 
 ```
@@ -18,8 +18,8 @@ UI::_0xD202B92CBF1D816F(1, 20, "Who you trynna get crazy with, ese? Don't you kn
 ```
 
 ## Parameters
-* **type**: 
-* **image**: 
-* **text**: 
+* **eType**: 
+* **iIcon**: 
+* **sTitle**: 
 
 ## Return value
