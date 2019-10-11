@@ -8,5 +8,8 @@ ns: NETWORK
 Any NETWORK_IS_TRANSITION_HOST();
 ```
 
+```
+NativeDB Return Type: BOOL
+```
 
 ## Return value

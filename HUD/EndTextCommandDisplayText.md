@@ -14,6 +14,10 @@ After applying the properties to the text (See UI::SET_TEXT_), this will draw th
 Used to be known as _DRAW_TEXT  
 ```
 
+```
+NativeDB Added Parameter 3: int p2
+```
+
 ## Parameters
 * **x**: 
 * **y**: 

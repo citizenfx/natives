@@ -32,6 +32,10 @@ enum MpGamerTagComponent
 };  
 ```
 
+```
+NativeDB Added Parameter 4: Any p3
+```
+
 ## Parameters
 * **gamerTagId**: 
 * **component**: 

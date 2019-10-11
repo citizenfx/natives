@@ -6,7 +6,7 @@ aliases: ["0x55AA95F481D694D2"]
 
 ```c
 // 0x55AA95F481D694D2 0x331AEABF
-char* _GET_CONTENT_ID(Any p0);
+char* _GET_CONTENT_ID(int p0);
 ```
 
 ```

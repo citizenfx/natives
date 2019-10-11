@@ -8,6 +8,9 @@ ns: VEHICLE
 Any SET_VEHICLE_IS_STOLEN(Vehicle vehicle, BOOL isStolen);
 ```
 
+```
+NativeDB Return Type: void
+```
 
 ## Parameters
 * **vehicle**: 

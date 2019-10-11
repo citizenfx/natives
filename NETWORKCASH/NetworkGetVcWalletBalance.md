@@ -6,7 +6,7 @@ aliases: ["0xA40F9C2623F6A8B5"]
 
 ```c
 // 0xA40F9C2623F6A8B5 0x4F5B781C
-int NETWORK_GET_VC_WALLET_BALANCE(int character);
+int NETWORK_GET_VC_WALLET_BALANCE(int characterSlot);
 ```
 
 ```
@@ -14,6 +14,6 @@ From what I understand, it retrieves STAT_WALLET_BALANCE for the specified chara
 ```
 
 ## Parameters
-* **character**: 
+* **characterSlot**: 
 
 ## Return value

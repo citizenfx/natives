@@ -6,7 +6,7 @@ aliases: ["0x1C186837D0619335"]
 
 ```c
 // 0x1C186837D0619335
-int _GET_ACHIEVEMENT_PROGRESSION(int achId);
+int _GET_ACHIEVEMENT_PROGRESSION(int achievement);
 ```
 
 ```
@@ -16,6 +16,6 @@ This gets the progression of an achievement. Returns 0 if the achievement cannot
 ```
 
 ## Parameters
-* **achId**: 
+* **achievement**: 
 
 ## Return value

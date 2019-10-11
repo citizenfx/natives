@@ -8,8 +8,6 @@ ns: HUD
 Entity GET_BLIP_INFO_ID_ENTITY_INDEX(Blip blip);
 ```
 
-```
-```
 
 ## Parameters
 * **blip**: 

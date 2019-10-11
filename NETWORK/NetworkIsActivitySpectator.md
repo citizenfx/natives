@@ -8,5 +8,8 @@ ns: NETWORK
 Any NETWORK_IS_ACTIVITY_SPECTATOR();
 ```
 
+```
+NativeDB Return Type: BOOL
+```
 
 ## Return value

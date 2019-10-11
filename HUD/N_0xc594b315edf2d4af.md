@@ -8,9 +8,6 @@ ns: HUD
 void _0xC594B315EDF2D4AF(Ped ped);
 ```
 
-```
-Interesting fact: A hash collision for this is RESET_JETPACK_MODEL_SETTINGS  
-```
 
 ## Parameters
 * **ped**: 

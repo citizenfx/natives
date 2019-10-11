@@ -9,7 +9,7 @@ void USE_PLAYER_COLOUR_INSTEAD_OF_TEAM_COLOUR(BOOL toggle);
 ```
 
 ```
-hash collision?  
+NativeDB Added Parameter 2: BOOL p1
 ```
 
 ## Parameters

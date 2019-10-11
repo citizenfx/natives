@@ -54,6 +54,10 @@ enum ExplosionTypes
 };  
 ```
 
+```
+NativeDB Added Parameter 9: BOOL noDamage
+```
+
 ## Parameters
 * **x**: 
 * **y**: 

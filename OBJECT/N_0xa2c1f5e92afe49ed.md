@@ -8,4 +8,7 @@ ns: OBJECT
 void _0xA2C1F5E92AFE49ED();
 ```
 
+```
+CLEAR_*
+```
 

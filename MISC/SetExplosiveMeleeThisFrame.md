@@ -8,6 +8,9 @@ ns: MISC
 Any SET_EXPLOSIVE_MELEE_THIS_FRAME(Player player);
 ```
 
+```
+NativeDB Return Type: void
+```
 
 ## Parameters
 * **player**: 

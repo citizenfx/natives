@@ -8,6 +8,9 @@ ns: VEHICLE
 Any SET_GARBAGE_TRUCKS(BOOL toggle);
 ```
 
+```
+NativeDB Return Type: void
+```
 
 ## Parameters
 * **toggle**: 

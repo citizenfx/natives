@@ -6,11 +6,11 @@ aliases: ["0x3DA5ECD1A56CBA6D"]
 
 ```c
 // 0x3DA5ECD1A56CBA6D 0x66DA9935
-void NETWORK_INITIALIZE_CASH(int p0, int p1);
+void NETWORK_INITIALIZE_CASH(int wallet, int bank);
 ```
 
 
 ## Parameters
-* **p0**: 
-* **p1**: 
+* **wallet**: 
+* **bank**: 
 

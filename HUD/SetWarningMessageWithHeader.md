@@ -6,7 +6,7 @@ aliases: ["_SET_WARNING_MESSAGE_2"]
 
 ```c
 // 0xDC38CC1E35B6A5D7 0x2DB9EAB5
-void SET_WARNING_MESSAGE_WITH_HEADER(char* entryHeader, char* entryLine1, int instructionalKey, char* entryLine2, BOOL p4, Any p5, BOOL background, Any* p7, BOOL p8);
+void SET_WARNING_MESSAGE_WITH_HEADER(char* titleMsg, char* entryLine1, int flags, char* promptMsg, BOOL p4, Any p5, BOOL background, Any* p7, BOOL showBg);
 ```
 
 ```
@@ -18,14 +18,18 @@ you can recreate this easily with scaleforms
 Fixed native name, from before nativedb restoration.  
 ```
 
+```
+NativeDB Added Parameter 10: Any p9
+```
+
 ## Parameters
-* **entryHeader**: 
+* **titleMsg**: 
 * **entryLine1**: 
-* **instructionalKey**: 
-* **entryLine2**: 
+* **flags**: 
+* **promptMsg**: 
 * **p4**: 
 * **p5**: 
 * **background**: 
 * **p7**: 
-* **p8**: 
+* **showBg**: 
 

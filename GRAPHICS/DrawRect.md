@@ -21,6 +21,10 @@ Draws a rectangle on the screen.
 The total number of rectangles to be drawn in one frame is apparently limited to 399.  
 ```
 
+```
+NativeDB Added Parameter 9: BOOL p8
+```
+
 ## Parameters
 * **x**: 
 * **y**: 

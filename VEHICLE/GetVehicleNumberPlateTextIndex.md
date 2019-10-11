@@ -5,7 +5,7 @@ ns: VEHICLE
 
 ```c
 // 0xF11BC2DD9A3E7195 0x499747B6
-int GET_VEHICLE_NUMBER_PLATE_TEXT_INDEX(Vehicle elegy);
+int GET_VEHICLE_NUMBER_PLATE_TEXT_INDEX(Vehicle vehicle);
 ```
 
 ```
@@ -19,6 +19,6 @@ North_Yankton = 5,
 ```
 
 ## Parameters
-* **elegy**: 
+* **vehicle**: 
 
 ## Return value

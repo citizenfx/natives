@@ -5,7 +5,7 @@ ns: CAM
 
 ```c
 // 0x68B2B5F33BA63C41 0x09F47049
-void POINT_CAM_AT_PED_BONE(Cam cam, int ped, int boneIndex, float x, float y, float z, BOOL p6);
+void POINT_CAM_AT_PED_BONE(Cam cam, Ped ped, int boneIndex, float x, float y, float z, BOOL p6);
 ```
 
 ```
