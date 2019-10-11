@@ -1,11 +1,12 @@
 ---
 ns: GRAPHICS
+aliases: ["0xF44A5456AC3F4F97"]
 ---
-## _0xF44A5456AC3F4F97
+## REMOVE_SCALEFORM_SCRIPT_HUD_MOVIE
 
 ```c
 // 0xF44A5456AC3F4F97 0x03D87600
-void _0xF44A5456AC3F4F97(Any p0);
+void REMOVE_SCALEFORM_SCRIPT_HUD_MOVIE(int hudComponent);
 ```
 
 ```
@@ -13,5 +14,5 @@ Another function related to "HUD scaleforms"
 ```
 
 ## Parameters
-* **p0**: 
+* **hudComponent**: 
 

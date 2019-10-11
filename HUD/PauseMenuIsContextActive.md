@@ -1,15 +1,16 @@
 ---
 ns: HUD
+aliases: ["0x84698AB38D0C6636"]
 ---
-## _0x84698AB38D0C6636
+## PAUSE_MENU_IS_CONTEXT_ACTIVE
 
 ```c
 // 0x84698AB38D0C6636 0xC51BC42F
-BOOL _0x84698AB38D0C6636(Hash hash);
+BOOL PAUSE_MENU_IS_CONTEXT_ACTIVE(Hash contextHash);
 ```
 
 
 ## Parameters
-* **hash**: 
+* **contextHash**: 
 
 ## Return value

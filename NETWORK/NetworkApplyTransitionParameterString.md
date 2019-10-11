@@ -1,11 +1,12 @@
 ---
 ns: NETWORK
+aliases: ["0xEBEFC2E77084F599"]
 ---
-## _0xEBEFC2E77084F599
+## NETWORK_APPLY_TRANSITION_PARAMETER_STRING
 
 ```c
 // 0xEBEFC2E77084F599 0xE0C28DB5
-void _0xEBEFC2E77084F599(Any p0, char* p1, BOOL p2);
+void NETWORK_APPLY_TRANSITION_PARAMETER_STRING(int p0, char* string, BOOL p2);
 ```
 
 ```
@@ -17,6 +18,6 @@ no idea what this does does
 
 ## Parameters
 * **p0**: 
-* **p1**: 
+* **string**: 
 * **p2**: 
 

@@ -1,12 +1,12 @@
 ---
 ns: NETWORK
-aliases: ["0x6274C4712850841E"]
+aliases: ["0x6274C4712850841E","_SET_NETWORK_OBJECT_NON_CONTACT"]
 ---
-## _SET_NETWORK_OBJECT_NON_CONTACT
+## SET_NETWORK_VEHICLE_AS_GHOST
 
 ```c
 // 0x6274C4712850841E 0xEA235081
-void _SET_NETWORK_OBJECT_NON_CONTACT(Object object, BOOL toggle);
+void SET_NETWORK_VEHICLE_AS_GHOST(Vehicle vehicle, BOOL toggle);
 ```
 
 ```
@@ -17,6 +17,6 @@ Got my hopes up whoever put this as vehicle. I was hoping it was what R* used in
 ```
 
 ## Parameters
-* **object**: 
+* **vehicle**: 
 * **toggle**: 
 

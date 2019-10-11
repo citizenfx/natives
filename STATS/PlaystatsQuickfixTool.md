@@ -1,15 +1,16 @@
 ---
 ns: STATS
+aliases: ["0x90D0622866E80445"]
 ---
-## _0x90D0622866E80445
+## PLAYSTATS_QUICKFIX_TOOL
 
 ```c
 // 0x90D0622866E80445 0x66FEB701
-void _0x90D0622866E80445(int p0, char* p1);
+void PLAYSTATS_QUICKFIX_TOOL(int element, char* item);
 ```
 
 
 ## Parameters
-* **p0**: 
-* **p1**: 
+* **element**: 
+* **item**: 
 

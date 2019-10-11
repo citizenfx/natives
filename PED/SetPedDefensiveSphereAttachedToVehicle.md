@@ -1,20 +1,21 @@
 ---
 ns: PED
+aliases: ["0xE4723DB6E736CCFF"]
 ---
-## _0xE4723DB6E736CCFF
+## SET_PED_DEFENSIVE_SPHERE_ATTACHED_TO_VEHICLE
 
 ```c
 // 0xE4723DB6E736CCFF 0x4763B2C6
-void _0xE4723DB6E736CCFF(Ped ped, Any p1, float p2, float p3, float p4, float p5, BOOL p6);
+void SET_PED_DEFENSIVE_SPHERE_ATTACHED_TO_VEHICLE(Ped ped, Vehicle target, float xOffset, float yOffset, float zOffset, float radius, BOOL p6);
 ```
 
 
 ## Parameters
 * **ped**: 
-* **p1**: 
-* **p2**: 
-* **p3**: 
-* **p4**: 
-* **p5**: 
+* **target**: 
+* **xOffset**: 
+* **yOffset**: 
+* **zOffset**: 
+* **radius**: 
 * **p6**: 
 

@@ -1,11 +1,12 @@
 ---
 ns: VEHICLE
+aliases: ["_JITTER_VEHICLE"]
 ---
-## _JITTER_VEHICLE
+## SET_SUBMARINE_CRUSH_DEPTHS
 
 ```c
 // 0xC59872A5134879C7 0x4A46E814
-void _JITTER_VEHICLE(Vehicle vehicle, BOOL p1, float yaw, float pitch, float roll);
+void SET_SUBMARINE_CRUSH_DEPTHS(Vehicle submarine, BOOL toggle, float crushWarningDepth1, float crushWarningDepth2, float crushDepth);
 ```
 
 ```
@@ -14,9 +15,9 @@ This might have something to do with the physbox of the vehicle, but I'm not sur
 ```
 
 ## Parameters
-* **vehicle**: 
-* **p1**: 
-* **yaw**: 
-* **pitch**: 
-* **roll**: 
+* **submarine**: 
+* **toggle**: 
+* **crushWarningDepth1**: 
+* **crushWarningDepth2**: 
+* **crushDepth**: 
 

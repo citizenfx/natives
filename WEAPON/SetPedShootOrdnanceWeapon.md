@@ -1,11 +1,12 @@
 ---
 ns: WEAPON
+aliases: ["0xB4C8D77C80C0421E"]
 ---
-## _0xB4C8D77C80C0421E
+## SET_PED_SHOOT_ORDNANCE_WEAPON
 
 ```c
 // 0xB4C8D77C80C0421E 0xEC2E5304
-Entity _0xB4C8D77C80C0421E(Ped ped, float p1);
+Object SET_PED_SHOOT_ORDNANCE_WEAPON(Ped ped, float p1);
 ```
 
 ```

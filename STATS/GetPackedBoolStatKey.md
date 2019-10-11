@@ -1,12 +1,12 @@
 ---
 ns: STATS
-aliases: ["0x80C75307B1C42837"]
+aliases: ["0x80C75307B1C42837","_GET_PSTAT_BOOL_HASH"]
 ---
-## _GET_PSTAT_BOOL_HASH
+## GET_PACKED_BOOL_STAT_KEY
 
 ```c
 // 0x80C75307B1C42837 0xB5BF87B2
-Hash _GET_PSTAT_BOOL_HASH(int index, BOOL spStat, BOOL charStat, int character);
+Hash GET_PACKED_BOOL_STAT_KEY(int index, BOOL spStat, BOOL charStat, int character);
 ```
 
 

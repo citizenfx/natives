@@ -1,15 +1,16 @@
 ---
 ns: MISC
+aliases: ["0x17DF68D720AA77F8"]
 ---
-## _0x17DF68D720AA77F8
+## GET_TENNIS_SWING_ANIM_COMPLETE
 
 ```c
 // 0x17DF68D720AA77F8 0x8501E727
-BOOL _0x17DF68D720AA77F8(Any p0);
+BOOL GET_TENNIS_SWING_ANIM_COMPLETE(Ped ped);
 ```
 
 
 ## Parameters
-* **p0**: 
+* **ped**: 
 
 ## Return value

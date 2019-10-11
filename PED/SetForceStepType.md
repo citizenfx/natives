@@ -1,17 +1,18 @@
 ---
 ns: PED
+aliases: ["0xCB968B53FC7F916D"]
 ---
-## _0xCB968B53FC7F916D
+## SET_FORCE_STEP_TYPE
 
 ```c
 // 0xCB968B53FC7F916D 0xC0F1BC91
-void _0xCB968B53FC7F916D(Any p0, BOOL p1, Any p2, Any p3);
+void SET_FORCE_STEP_TYPE(Ped ped, BOOL p1, int type, int p3);
 ```
 
 
 ## Parameters
-* **p0**: 
+* **ped**: 
 * **p1**: 
-* **p2**: 
+* **type**: 
 * **p3**: 
 

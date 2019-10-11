@@ -1,20 +1,25 @@
 ---
 ns: HUD
+aliases: ["0xB6871B0555B02996"]
 ---
-## _0xB6871B0555B02996
+## END_TEXT_COMMAND_THEFEED_POST_VERSUS_TU
 
 ```c
 // 0xB6871B0555B02996 0x5E93FBFA
-Any _0xB6871B0555B02996(Any* p0, Any* p1, Any p2, Any* p3, Any* p4, Any p5);
+int END_TEXT_COMMAND_THEFEED_POST_VERSUS_TU(char* ch1TXD, char* ch1TXN, int val1, char* ch2TXD, char* ch2TXN, int val2);
 ```
 
+```
+NativeDB Added Parameter 7: int hudColorIndex1
+NativeDB Added Parameter 8: int hudColorIndex2
+```
 
 ## Parameters
-* **p0**: 
-* **p1**: 
-* **p2**: 
-* **p3**: 
-* **p4**: 
-* **p5**: 
+* **ch1TXD**: 
+* **ch1TXN**: 
+* **val1**: 
+* **ch2TXD**: 
+* **ch2TXN**: 
+* **val2**: 
 
 ## Return value

@@ -1,11 +1,12 @@
 ---
 ns: AUDIO
+aliases: ["0x774BD811F656A122"]
 ---
-## _0x774BD811F656A122
+## SET_RADIO_STATION_MUSIC_ONLY
 
 ```c
 // 0x774BD811F656A122 0xB1FF7137
-void _0x774BD811F656A122(char* radioStation, BOOL p1);
+void SET_RADIO_STATION_MUSIC_ONLY(char* radioStation, BOOL toggle);
 ```
 
 ```
@@ -17,5 +18,5 @@ AUDIO::_774BD811F656A122(AUDIO::GET_RADIO_STATION_NAME(10), 1);
 
 ## Parameters
 * **radioStation**: 
-* **p1**: 
+* **toggle**: 
 

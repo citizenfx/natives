@@ -1,20 +1,21 @@
 ---
 ns: HUD
+aliases: ["0x7AE0589093A2E088"]
 ---
-## _0x7AE0589093A2E088
+## END_TEXT_COMMAND_THEFEED_POST_UNLOCK_TU_WITH_COLOR
 
 ```c
 // 0x7AE0589093A2E088 0x8C90D22F
-Any _0x7AE0589093A2E088(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5);
+Any END_TEXT_COMMAND_THEFEED_POST_UNLOCK_TU_WITH_COLOR(char* chTitle, int iconType, char* chSubtitle, BOOL isImportant, int titleColor, BOOL p5);
 ```
 
 
 ## Parameters
-* **p0**: 
-* **p1**: 
-* **p2**: 
-* **p3**: 
-* **p4**: 
+* **chTitle**: 
+* **iconType**: 
+* **chSubtitle**: 
+* **isImportant**: 
+* **titleColor**: 
 * **p5**: 
 
 ## Return value

@@ -1,14 +1,15 @@
 ---
 ns: GRAPHICS
+aliases: ["0x2A2A52824DB96700"]
 ---
-## _0x2A2A52824DB96700
+## OVERRIDE_INTERIOR_SMOKE_NAME
 
 ```c
 // 0x2A2A52824DB96700 0x0F486429
-void _0x2A2A52824DB96700(Any* p0);
+void OVERRIDE_INTERIOR_SMOKE_NAME(char* name);
 ```
 
 
 ## Parameters
-* **p0**: 
+* **name**: 
 

@@ -1,18 +1,19 @@
 ---
 ns: HUD
+aliases: ["0xC8F3AAF93D0600BF"]
 ---
-## _0xC8F3AAF93D0600BF
+## END_TEXT_COMMAND_THEFEED_POST_UNLOCK_TU
 
 ```c
 // 0xC8F3AAF93D0600BF 0x4FA43BA4
-Any _0xC8F3AAF93D0600BF(Any p0, Any p1, Any p2, Any p3);
+Any END_TEXT_COMMAND_THEFEED_POST_UNLOCK_TU(char* chTitle, int iconType, char* chSubtitle, BOOL isImportant);
 ```
 
 
 ## Parameters
-* **p0**: 
-* **p1**: 
-* **p2**: 
-* **p3**: 
+* **chTitle**: 
+* **iconType**: 
+* **chSubtitle**: 
+* **isImportant**: 
 
 ## Return value

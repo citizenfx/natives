@@ -1,15 +1,19 @@
 ---
 ns: NETWORKCASH
+aliases: ["0xE260E0BB9CD995AC"]
 ---
-## _0xE260E0BB9CD995AC
+## DEPOSIT_VC
 
 ```c
 // 0xE260E0BB9CD995AC 0x8F266745
-BOOL _0xE260E0BB9CD995AC(Any p0);
+BOOL DEPOSIT_VC(int amount);
 ```
 
+```
+Does nothing and always returns false.
+```
 
 ## Parameters
-* **p0**: 
+* **amount**: 
 
 ## Return value

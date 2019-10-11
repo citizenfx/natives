@@ -1,11 +1,12 @@
 ---
 ns: AUDIO
+aliases: ["0x733ADF241531E5C2"]
 ---
-## _0x733ADF241531E5C2
+## SET_VARIABLE_ON_UNDER_WATER_STREAM
 
 ```c
 // 0x733ADF241531E5C2 0x62D026BE
-void _0x733ADF241531E5C2(char* name, float p1);
+void SET_VARIABLE_ON_UNDER_WATER_STREAM(char* variableName, float value);
 ```
 
 ```
@@ -15,6 +16,6 @@ I do not know as of yet what this does, but this was found in the scripts.
 ```
 
 ## Parameters
-* **name**: 
-* **p1**: 
+* **variableName**: 
+* **value**: 
 

@@ -1,19 +1,20 @@
 ---
 ns: OBJECT
+aliases: ["0xF0EED5A6BC7B237A"]
 ---
-## _0xF0EED5A6BC7B237A
+## IS_OBJECT_PARTIALLY_INSIDE_GARAGE
 
 ```c
 // 0xF0EED5A6BC7B237A 0x95A9AB2B
-BOOL _0xF0EED5A6BC7B237A(Any p0, Entity entity, int p2);
+BOOL IS_OBJECT_PARTIALLY_INSIDE_GARAGE(Any garageHash, Entity entity, int p2);
 ```
 
 ```
-IS_OBJECT_???  
+NativeDB Parameter 0: Hash garageHash
 ```
 
 ## Parameters
-* **p0**: 
+* **garageHash**: 
 * **entity**: 
 * **p2**: 
 

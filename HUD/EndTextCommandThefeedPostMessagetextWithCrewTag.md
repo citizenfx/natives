@@ -1,11 +1,12 @@
 ---
 ns: HUD
+aliases: ["_SET_NOTIFICATION_MESSAGE_CLAN_TAG"]
 ---
-## _SET_NOTIFICATION_MESSAGE_CLAN_TAG
+## END_TEXT_COMMAND_THEFEED_POST_MESSAGETEXT_WITH_CREW_TAG
 
 ```c
 // 0x5CBF7BADE20DB93E 0x3E807FE3
-int _SET_NOTIFICATION_MESSAGE_CLAN_TAG(char* picName1, char* picName2, BOOL flash, int iconType, char* sender, char* subject, float duration, char* clanTag);
+int END_TEXT_COMMAND_THEFEED_POST_MESSAGETEXT_WITH_CREW_TAG(char* picTxd, char* picTxn, BOOL flash, int iconType, char* nameStr, char* subtitleStr, float duration, char* crewPackedStr);
 ```
 
 ```
@@ -28,13 +29,13 @@ iconTypes:
 ```
 
 ## Parameters
-* **picName1**: 
-* **picName2**: 
+* **picTxd**: 
+* **picTxn**: 
 * **flash**: 
 * **iconType**: 
-* **sender**: 
-* **subject**: 
+* **nameStr**: 
+* **subtitleStr**: 
 * **duration**: 
-* **clanTag**: 
+* **crewPackedStr**: 
 
 ## Return value

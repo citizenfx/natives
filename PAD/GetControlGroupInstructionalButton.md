@@ -1,11 +1,12 @@
 ---
 ns: PAD
+aliases: ["0x80C2FD58D720C801"]
 ---
-## _0x80C2FD58D720C801
+## GET_CONTROL_GROUP_INSTRUCTIONAL_BUTTON
 
 ```c
 // 0x80C2FD58D720C801 0x3EE71F6A
-char* _0x80C2FD58D720C801(int inputGroup, int control, BOOL p2);
+char* GET_CONTROL_GROUP_INSTRUCTIONAL_BUTTON(int inputGroup, int control, BOOL p2);
 ```
 
 ```

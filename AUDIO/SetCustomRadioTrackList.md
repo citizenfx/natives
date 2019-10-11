@@ -1,11 +1,12 @@
 ---
 ns: AUDIO
+aliases: ["0x4E404A9361F75BB2"]
 ---
-## _0x4E404A9361F75BB2
+## SET_CUSTOM_RADIO_TRACK_LIST
 
 ```c
 // 0x4E404A9361F75BB2 0x128C3873
-void _0x4E404A9361F75BB2(char* radioStation, char* p1, BOOL p2);
+void SET_CUSTOM_RADIO_TRACK_LIST(char* radioStation, char* trackListName, BOOL p2);
 ```
 
 ```
@@ -22,6 +23,6 @@ AUDIO::_4E404A9361F75BB2("RADIO_01_CLASS_ROCK", "OFF_ROAD_RADIO_ROCK_LIST", 1);
 
 ## Parameters
 * **radioStation**: 
-* **p1**: 
+* **trackListName**: 
 * **p2**: 
 

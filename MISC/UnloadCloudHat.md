@@ -1,11 +1,12 @@
 ---
 ns: MISC
+aliases: ["0xA74802FB8D0B7814"]
 ---
-## _0xA74802FB8D0B7814
+## UNLOAD_CLOUD_HAT
 
 ```c
 // 0xA74802FB8D0B7814 0xC9FA6E07
-void _0xA74802FB8D0B7814(char* p0, float p1);
+void UNLOAD_CLOUD_HAT(char* name, float p1);
 ```
 
 ```
@@ -14,6 +15,6 @@ GAMEPLAY::_A74802FB8D0B7814("CONTRAILS", 0);
 ```
 
 ## Parameters
-* **p0**: 
+* **name**: 
 * **p1**: 
 

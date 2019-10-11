@@ -1,17 +1,18 @@
 ---
 ns: STATS
+aliases: ["0x121FB4DDDC2D5291"]
 ---
-## _0x121FB4DDDC2D5291
+## PLAYSTATS_ROS_BET
 
 ```c
 // 0x121FB4DDDC2D5291 0x413539BC
-void _0x121FB4DDDC2D5291(Any p0, Any p1, Any p2, float p3);
+void PLAYSTATS_ROS_BET(int amount, int act, Player player, float cm);
 ```
 
 
 ## Parameters
-* **p0**: 
-* **p1**: 
-* **p2**: 
-* **p3**: 
+* **amount**: 
+* **act**: 
+* **player**: 
+* **cm**: 
 

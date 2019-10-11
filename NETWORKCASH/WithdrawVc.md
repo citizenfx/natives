@@ -1,15 +1,19 @@
 ---
 ns: NETWORKCASH
+aliases: ["0xF70EFA14FE091429"]
 ---
-## _0xF70EFA14FE091429
+## WITHDRAW_VC
 
 ```c
 // 0xF70EFA14FE091429 0x8B755993
-Any _0xF70EFA14FE091429(Any p0);
+int WITHDRAW_VC(int amount);
 ```
 
+```
+Does nothing and always returns 0.
+```
 
 ## Parameters
-* **p0**: 
+* **amount**: 
 
 ## Return value

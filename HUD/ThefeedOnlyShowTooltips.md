@@ -1,14 +1,18 @@
 ---
 ns: HUD
+aliases: ["0x6F1554B0CC2089FA"]
 ---
-## _0x6F1554B0CC2089FA
+## THEFEED_ONLY_SHOW_TOOLTIPS
 
 ```c
 // 0x6F1554B0CC2089FA 0xA7C8594B
-void _0x6F1554B0CC2089FA(BOOL p0);
+void THEFEED_ONLY_SHOW_TOOLTIPS(BOOL toggle);
 ```
 
+```
+If true, disables the creation of all GAME_STREAM_ENUMS besides TOOLTIPS
+```
 
 ## Parameters
-* **p0**: 
+* **toggle**: 
 

@@ -1,11 +1,12 @@
 ---
 ns: HUD
+aliases: ["_SET_NOTIFICATION_MESSAGE"]
 ---
-## _SET_NOTIFICATION_MESSAGE
+## END_TEXT_COMMAND_THEFEED_POST_MESSAGETEXT
 
 ```c
 // 0x1CCD9A37359072CF 0xE7E3C98B
-int _SET_NOTIFICATION_MESSAGE(char* textureDict, char* textureName, BOOL flash, int iconType, char* sender, char* subject);
+int END_TEXT_COMMAND_THEFEED_POST_MESSAGETEXT(char* textureDict, char* textureName, BOOL flash, int iconType, char* sender, char* subject);
 ```
 
 Sets some extra options for a notification. It adds an image (or icon type) and sets a notification title (sender) and subtitle (subject).

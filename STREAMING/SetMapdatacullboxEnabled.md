@@ -1,11 +1,12 @@
 ---
 ns: STREAMING
+aliases: ["0xAF12610C644A35C9"]
 ---
-## _0xAF12610C644A35C9
+## SET_MAPDATACULLBOX_ENABLED
 
 ```c
 // 0xAF12610C644A35C9 0x403CD434
-void _0xAF12610C644A35C9(char* p0, BOOL p1);
+void SET_MAPDATACULLBOX_ENABLED(char* name, BOOL toggle);
 ```
 
 ```
@@ -15,6 +16,6 @@ Possible p0 values:
 ```
 
 ## Parameters
-* **p0**: 
-* **p1**: 
+* **name**: 
+* **toggle**: 
 

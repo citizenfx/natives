@@ -1,15 +1,16 @@
 ---
 ns: CAM
+aliases: ["0xD1B0F412F109EA5D"]
 ---
-## _0xD1B0F412F109EA5D
+## SET_CAM_SPLINE_SMOOTHING_STYLE
 
 ```c
 // 0xD1B0F412F109EA5D 0x15E141CE
-void _0xD1B0F412F109EA5D(Any p0, Any p1);
+void SET_CAM_SPLINE_SMOOTHING_STYLE(Cam cam, int smoothingStyle);
 ```
 
 
 ## Parameters
-* **p0**: 
-* **p1**: 
+* **cam**: 
+* **smoothingStyle**: 
 

@@ -1,12 +1,12 @@
 ---
 ns: HUD
-aliases: ["0x1E6611149DB3DB6B"]
+aliases: ["0x1E6611149DB3DB6B","_SET_NOTIFICATION_MESSAGE_4"]
 ---
-## _SET_NOTIFICATION_MESSAGE_4
+## END_TEXT_COMMAND_THEFEED_POST_MESSAGETEXT_TU
 
 ```c
 // 0x1E6611149DB3DB6B 0x0EB382B7
-int _SET_NOTIFICATION_MESSAGE_4(char* picName1, char* picName2, BOOL flash, int iconType, char* sender, char* subject, float duration);
+int END_TEXT_COMMAND_THEFEED_POST_MESSAGETEXT_TU(char* picTxd, char* picTxn, BOOL flash, int iconType, char* nameStr, char* subtitleStr, float duration);
 ```
 
 ```
@@ -16,12 +16,12 @@ v_8 = UI::_1E6611149DB3DB6B("CHAR_SOCIAL_CLUB", "CHAR_SOCIAL_CLUB", 0, 0, &v_9, 
 ```
 
 ## Parameters
-* **picName1**: 
-* **picName2**: 
+* **picTxd**: 
+* **picTxn**: 
 * **flash**: 
 * **iconType**: 
-* **sender**: 
-* **subject**: 
+* **nameStr**: 
+* **subtitleStr**: 
 * **duration**: 
 
 ## Return value

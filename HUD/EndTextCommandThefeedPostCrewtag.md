@@ -1,12 +1,12 @@
 ---
 ns: HUD
-aliases: ["0x97C9E4E7024A8F2C","_NOTIFICATION_SEND_APARTMENT_INVITE"]
+aliases: ["0x97C9E4E7024A8F2C","_NOTIFICATION_SEND_APARTMENT_INVITE","_DRAW_NOTIFICATION_APARTMENT_INVITE"]
 ---
-## _DRAW_NOTIFICATION_APARTMENT_INVITE
+## END_TEXT_COMMAND_THEFEED_POST_CREWTAG
 
 ```c
 // 0x97C9E4E7024A8F2C 0xA9CCEF66
-int _DRAW_NOTIFICATION_APARTMENT_INVITE(BOOL p0, BOOL p1, int* p2, int p3, BOOL isLeader, BOOL unk0, int clanDesc, int R, int G, int B);
+int END_TEXT_COMMAND_THEFEED_POST_CREWTAG(BOOL crewTypeIsPrivate, BOOL crewTagContainsRockstar, int* crewTag, int rank, BOOL hasFounderStatus, BOOL isImportant, int clanHandle, int r, int g, int b);
 ```
 
 ```
@@ -45,15 +45,15 @@ iVar3 = 1;
 ```
 
 ## Parameters
-* **p0**: 
-* **p1**: 
-* **p2**: 
-* **p3**: 
-* **isLeader**: 
-* **unk0**: 
-* **clanDesc**: 
-* **R**: 
-* **G**: 
-* **B**: 
+* **crewTypeIsPrivate**: 
+* **crewTagContainsRockstar**: 
+* **crewTag**: 
+* **rank**: 
+* **hasFounderStatus**: 
+* **isImportant**: 
+* **clanHandle**: 
+* **r**: 
+* **g**: 
+* **b**: 
 
 ## Return value

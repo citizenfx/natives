@@ -1,11 +1,12 @@
 ---
 ns: GRAPHICS
+aliases: ["0xBF59707B3E5ED531"]
 ---
-## _0xBF59707B3E5ED531
+## SET_NEXT_PLAYER_TCMODIFIER
 
 ```c
 // 0xBF59707B3E5ED531 0x554BA16E
-void _0xBF59707B3E5ED531(char* p0);
+void SET_NEXT_PLAYER_TCMODIFIER(char* modifierName);
 ```
 
 ```
@@ -13,5 +14,5 @@ Something to do with timecycles.
 ```
 
 ## Parameters
-* **p0**: 
+* **modifierName**: 
 

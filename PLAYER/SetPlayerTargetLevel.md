@@ -1,11 +1,12 @@
 ---
 ns: PLAYER
+aliases: ["0x5702B917B99DB1CD"]
 ---
-## _0x5702B917B99DB1CD
+## SET_PLAYER_TARGET_LEVEL
 
 ```c
-// 0x5702B917B99DB1CD
-void _0x5702B917B99DB1CD(int p0);
+// 0x5702B917B99DB1CD 0x772DA539
+void SET_PLAYER_TARGET_LEVEL(int targetLevel);
 ```
 
 ```
@@ -18,5 +19,5 @@ One uses globals, the other one uses a helper function that is passing in the ou
 ```
 
 ## Parameters
-* **p0**: 
+* **targetLevel**: 
 

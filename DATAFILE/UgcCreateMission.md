@@ -1,11 +1,12 @@
 ---
 ns: DATAFILE
+aliases: ["0xA5EFC3E847D60507"]
 ---
-## _0xA5EFC3E847D60507
+## UGC_CREATE_MISSION
 
 ```c
 // 0xA5EFC3E847D60507 0xD96860FC
-BOOL _0xA5EFC3E847D60507(char* p0, char* p1, char* p2, char* p3, BOOL p4);
+BOOL UGC_CREATE_MISSION(char* contentName, char* description, char* tagsCsv, char* contentTypeName, BOOL publish);
 ```
 
 ```
@@ -13,10 +14,10 @@ NOTE: 'p1' might be some kind of array.
 ```
 
 ## Parameters
-* **p0**: 
-* **p1**: 
-* **p2**: 
-* **p3**: 
-* **p4**: 
+* **contentName**: 
+* **description**: 
+* **tagsCsv**: 
+* **contentTypeName**: 
+* **publish**: 
 
 ## Return value

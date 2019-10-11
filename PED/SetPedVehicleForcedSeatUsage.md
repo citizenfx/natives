@@ -1,17 +1,18 @@
 ---
 ns: PED
+aliases: ["0x952F06BEECD775CC"]
 ---
-## _0x952F06BEECD775CC
+## SET_PED_VEHICLE_FORCED_SEAT_USAGE
 
 ```c
-// 0x952F06BEECD775CC
-void _0x952F06BEECD775CC(Any p0, Any p1, Any p2, Any p3);
+// 0x952F06BEECD775CC 0x79CA237B
+void SET_PED_VEHICLE_FORCED_SEAT_USAGE(Ped ped, Vehicle vehicle, int seatIndex, int flags);
 ```
 
 
 ## Parameters
-* **p0**: 
-* **p1**: 
-* **p2**: 
-* **p3**: 
+* **ped**: 
+* **vehicle**: 
+* **seatIndex**: 
+* **flags**: 
 

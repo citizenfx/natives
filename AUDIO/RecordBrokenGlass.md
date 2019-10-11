@@ -1,17 +1,18 @@
 ---
 ns: AUDIO
+aliases: ["0xFBE20329593DEC9D"]
 ---
-## _0xFBE20329593DEC9D
+## RECORD_BROKEN_GLASS
 
 ```c
 // 0xFBE20329593DEC9D 0x53FC3FEC
-void _0xFBE20329593DEC9D(Any p0, Any p1, Any p2, Any p3);
+void RECORD_BROKEN_GLASS(float x, float y, float z, float radius);
 ```
 
 
 ## Parameters
-* **p0**: 
-* **p1**: 
-* **p2**: 
-* **p3**: 
+* **x**: 
+* **y**: 
+* **z**: 
+* **radius**: 
 

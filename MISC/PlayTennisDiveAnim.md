@@ -1,16 +1,17 @@
 ---
 ns: MISC
+aliases: ["0x8FA9C42FC5D7C64B"]
 ---
-## _0x8FA9C42FC5D7C64B
+## PLAY_TENNIS_DIVE_ANIM
 
 ```c
 // 0x8FA9C42FC5D7C64B 0x0C8865DF
-void _0x8FA9C42FC5D7C64B(Any p0, Any p1, float p2, float p3, float p4, BOOL p5);
+void PLAY_TENNIS_DIVE_ANIM(Ped ped, int p1, float p2, float p3, float p4, BOOL p5);
 ```
 
 
 ## Parameters
-* **p0**: 
+* **ped**: 
 * **p1**: 
 * **p2**: 
 * **p3**: 

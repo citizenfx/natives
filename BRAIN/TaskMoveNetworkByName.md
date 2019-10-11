@@ -1,12 +1,12 @@
 ---
 ns: BRAIN
-aliases: ["0x2D537BA194896636"]
+aliases: ["0x2D537BA194896636","_TASK_MOVE_NETWORK"]
 ---
-## _TASK_MOVE_NETWORK
+## TASK_MOVE_NETWORK_BY_NAME
 
 ```c
 // 0x2D537BA194896636 0x6F5D215F
-void _TASK_MOVE_NETWORK(Ped ped, char* task, float multiplier, BOOL p3, char* animDict, int flags);
+void TASK_MOVE_NETWORK_BY_NAME(Ped ped, char* task, float multiplier, BOOL p3, char* animDict, int flags);
 ```
 
 ```

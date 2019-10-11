@@ -1,15 +1,16 @@
 ---
 ns: NETWORK
+aliases: ["0x2FC5650B0271CB57"]
 ---
-## _0x2FC5650B0271CB57
+## NETWORK_IS_IN_PLATFORM_PARTY
 
 ```c
 // 0x2FC5650B0271CB57 0xA812B6CB
-Any _0x2FC5650B0271CB57();
+BOOL NETWORK_IS_IN_PLATFORM_PARTY();
 ```
 
 ```
-NETWORK_IS_IN_???  
+Hardcoded to return false.
 ```
 
 ## Return value

@@ -1,11 +1,12 @@
 ---
 ns: GRAPHICS
+aliases: ["_ADD_CLAN_DECAL_TO_VEHICLE"]
 ---
-## _ADD_CLAN_DECAL_TO_VEHICLE
+## ADD_VEHICLE_CREW_EMBLEM
 
 ```c
 // 0x428BDCB9DA58DA53 0x12077738
-BOOL _ADD_CLAN_DECAL_TO_VEHICLE(Vehicle vehicle, Ped ped, int boneIndex, float x1, float x2, float x3, float y1, float y2, float y3, float z1, float z2, float z3, float scale, Any p13, int alpha);
+BOOL ADD_VEHICLE_CREW_EMBLEM(Vehicle vehicle, Ped ped, int boneIndex, float x1, float x2, float x3, float y1, float y2, float y3, float z1, float z2, float z3, float scale, Any p13, int alpha);
 ```
 
 ```

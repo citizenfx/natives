@@ -1,16 +1,22 @@
 ---
 ns: STATS
+aliases: ["0xE95C8A1875A02CA4"]
 ---
-## _0xE95C8A1875A02CA4
+## PLAYSTATS_WEAPON_MODE_CHANGE
 
 ```c
 // 0xE95C8A1875A02CA4 0x79716890
-void _0xE95C8A1875A02CA4(Any p0, Any p1, Any p2);
+void PLAYSTATS_WEAPON_MODE_CHANGE(Any weaponHash, Any componentHashTo, Any componentHashFrom);
 ```
 
+```
+NativeDB Parameter 0: Hash weaponHash
+NativeDB Parameter 1: Hash componentHashTo
+NativeDB Parameter 2: Hash componentHashFrom
+```
 
 ## Parameters
-* **p0**: 
-* **p1**: 
-* **p2**: 
+* **weaponHash**: 
+* **componentHashTo**: 
+* **componentHashFrom**: 
 

@@ -1,11 +1,12 @@
 ---
 ns: HUD
+aliases: ["0x9E778248D6685FE0"]
 ---
-## _0x9E778248D6685FE0
+## SET_SOCIAL_CLUB_TOUR
 
 ```c
 // 0x9E778248D6685FE0 0x7AD67C95
-void _0x9E778248D6685FE0(char* p0);
+void SET_SOCIAL_CLUB_TOUR(char* name);
 ```
 
 ```
@@ -16,5 +17,5 @@ UI::0x7AD67C95("Playlists");
 ```
 
 ## Parameters
-* **p0**: 
+* **name**: 
 

@@ -1,12 +1,12 @@
 ---
 ns: HUD
-aliases: ["0x39BBF623FC803EAC"]
+aliases: ["0x39BBF623FC803EAC","_SET_NOTIFICATION_COLOR_NEXT"]
 ---
-## _SET_NOTIFICATION_COLOR_NEXT
+## SET_COLOUR_OF_NEXT_TEXT_COMPONENT
 
 ```c
 // 0x39BBF623FC803EAC 0x6F1A1901
-void _SET_NOTIFICATION_COLOR_NEXT(int hudIndex);
+void SET_COLOUR_OF_NEXT_TEXT_COMPONENT(int hudColorIndex);
 ```
 
 ```
@@ -14,5 +14,5 @@ sets font color for the next notification
 ```
 
 ## Parameters
-* **hudIndex**: 
+* **hudColorIndex**: 
 

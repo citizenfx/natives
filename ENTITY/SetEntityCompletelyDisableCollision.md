@@ -1,16 +1,15 @@
 ---
 ns: ENTITY
-aliases: ["0x9EBC85ED0FFFE51C"]
+aliases: ["0x9EBC85ED0FFFE51C","_SET_ENTITY_COLLISION_2"]
 ---
-## _SET_ENTITY_COLLISION_2
+## SET_ENTITY_COMPLETELY_DISABLE_COLLISION
 
 ```c
-// 0x9EBC85ED0FFFE51C
-void _SET_ENTITY_COLLISION_2(Entity entity, BOOL p1, BOOL p2);
+// 0x9EBC85ED0FFFE51C 0xBD0D4831
+void SET_ENTITY_COMPLETELY_DISABLE_COLLISION(Entity entity, BOOL p1, BOOL p2);
 ```
 
 ```
-console hash: 0xBD0D4831  
 internally it calls the same function as 'SET_ENTITY_COLLISION'. but uses a hard coded parameter that only activates when p1 is set to true   
 =============================  
 Weirdly enough in the 3 scripts it's used in on PC,  

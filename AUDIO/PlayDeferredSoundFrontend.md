@@ -1,11 +1,12 @@
 ---
 ns: AUDIO
+aliases: ["0xCADA5A0D0702381E"]
 ---
-## _0xCADA5A0D0702381E
+## PLAY_DEFERRED_SOUND_FRONTEND
 
 ```c
 // 0xCADA5A0D0702381E 0xC70E6CFA
-void _0xCADA5A0D0702381E(char* p0, char* soundset);
+void PLAY_DEFERRED_SOUND_FRONTEND(char* soundName, char* soundsetName);
 ```
 
 ```
@@ -14,6 +15,6 @@ AUDIO::_CADA5A0D0702381E("BACK", "HUD_FREEMODE_SOUNDSET");
 ```
 
 ## Parameters
-* **p0**: 
-* **soundset**: 
+* **soundName**: 
+* **soundsetName**: 
 

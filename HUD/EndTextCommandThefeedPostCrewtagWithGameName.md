@@ -1,12 +1,12 @@
 ---
 ns: HUD
-aliases: ["0x137BC35589E34E1E","_NOTIFICATION_SEND_CLAN_INVITE"]
+aliases: ["0x137BC35589E34E1E","_NOTIFICATION_SEND_CLAN_INVITE","_DRAW_NOTIFICATION_CLAN_INVITE"]
 ---
-## _DRAW_NOTIFICATION_CLAN_INVITE
+## END_TEXT_COMMAND_THEFEED_POST_CREWTAG_WITH_GAME_NAME
 
 ```c
 // 0x137BC35589E34E1E 0x88B9B909
-int _DRAW_NOTIFICATION_CLAN_INVITE(BOOL p0, BOOL p1, int* p2, int p3, BOOL isLeader, BOOL unk0, int clanDesc, char* playerName, int R, int G, int B);
+int END_TEXT_COMMAND_THEFEED_POST_CREWTAG_WITH_GAME_NAME(BOOL crewTypeIsPrivate, BOOL crewTagContainsRockstar, int* crewTag, int rank, BOOL isLeader, BOOL isImportant, int clanHandle, char* gamerStr, int r, int g, int b);
 ```
 
 ```
@@ -32,16 +32,16 @@ if (NETWORK_CLAN_PLAYER_IS_ACTIVE(&netHandle.netHandle))
 ```
 
 ## Parameters
-* **p0**: 
-* **p1**: 
-* **p2**: 
-* **p3**: 
+* **crewTypeIsPrivate**: 
+* **crewTagContainsRockstar**: 
+* **crewTag**: 
+* **rank**: 
 * **isLeader**: 
-* **unk0**: 
-* **clanDesc**: 
-* **playerName**: 
-* **R**: 
-* **G**: 
-* **B**: 
+* **isImportant**: 
+* **clanHandle**: 
+* **gamerStr**: 
+* **r**: 
+* **g**: 
+* **b**: 
 
 ## Return value

@@ -1,15 +1,16 @@
 ---
 ns: MISC
+aliases: ["0xB129E447A2EDA4BF"]
 ---
-## _0xB129E447A2EDA4BF
+## REMOVE_POP_MULTIPLIER_AREA
 
 ```c
 // 0xB129E447A2EDA4BF 0xFBDBE374
-void _0xB129E447A2EDA4BF(Any p0, BOOL p1);
+void REMOVE_POP_MULTIPLIER_AREA(int id, BOOL p1);
 ```
 
 
 ## Parameters
-* **p0**: 
+* **id**: 
 * **p1**: 
 

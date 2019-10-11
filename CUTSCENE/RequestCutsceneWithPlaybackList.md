@@ -1,12 +1,12 @@
 ---
 ns: CUTSCENE
-aliases: ["0xC23DE0E91C30B58C"]
+aliases: ["0xC23DE0E91C30B58C","_REQUEST_CUTSCENE_EX"]
 ---
-## _REQUEST_CUTSCENE_EX
+## REQUEST_CUTSCENE_WITH_PLAYBACK_LIST
 
 ```c
 // 0xC23DE0E91C30B58C 0xD98F656A
-void _REQUEST_CUTSCENE_EX(char* cutsceneName, int p1, int p2);
+void REQUEST_CUTSCENE_WITH_PLAYBACK_LIST(char* cutsceneName, int playbackFlags, int flags);
 ```
 
 ```
@@ -17,6 +17,6 @@ Cutscene list: pastebin.com/Bbj7ANpQ
 
 ## Parameters
 * **cutsceneName**: 
-* **p1**: 
-* **p2**: 
+* **playbackFlags**: 
+* **flags**: 
 

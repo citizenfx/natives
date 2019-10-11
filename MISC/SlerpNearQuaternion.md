@@ -1,26 +1,27 @@
 ---
 ns: MISC
+aliases: ["0xF2F6A2FA49278625"]
 ---
-## _0xF2F6A2FA49278625
+## SLERP_NEAR_QUATERNION
 
 ```c
 // 0xF2F6A2FA49278625 0x87B92190
-void _0xF2F6A2FA49278625(float p0, float p1, float p2, float p3, float p4, float p5, float p6, float p7, float p8, Any* p9, Any* p10, Any* p11, Any* p12);
+void SLERP_NEAR_QUATERNION(float t, float x, float y, float z, float w, float x1, float y1, float z1, float w1, float* outX, float* outY, float* outZ, float* outW);
 ```
 
 
 ## Parameters
-* **p0**: 
-* **p1**: 
-* **p2**: 
-* **p3**: 
-* **p4**: 
-* **p5**: 
-* **p6**: 
-* **p7**: 
-* **p8**: 
-* **p9**: 
-* **p10**: 
-* **p11**: 
-* **p12**: 
+* **t**: 
+* **x**: 
+* **y**: 
+* **z**: 
+* **w**: 
+* **x1**: 
+* **y1**: 
+* **z1**: 
+* **w1**: 
+* **outX**: 
+* **outY**: 
+* **outZ**: 
+* **outW**: 
 

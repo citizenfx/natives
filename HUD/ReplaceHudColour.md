@@ -1,12 +1,12 @@
 ---
 ns: HUD
-aliases: ["0x1CCC708F0F850613"]
+aliases: ["0x1CCC708F0F850613","_SET_HUD_COLOURS_SWITCH"]
 ---
-## _SET_HUD_COLOURS_SWITCH
+## REPLACE_HUD_COLOUR
 
 ```c
 // 0x1CCC708F0F850613 0x3B216749
-void _SET_HUD_COLOURS_SWITCH(int hudColorIndex, int hudColorIndex2);
+void REPLACE_HUD_COLOUR(int hudColorIndex, int hudColorIndex2);
 ```
 
 ```

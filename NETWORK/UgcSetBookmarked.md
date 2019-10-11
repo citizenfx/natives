@@ -1,17 +1,18 @@
 ---
 ns: NETWORK
+aliases: ["0x274A1519DFC1094F"]
 ---
-## _0x274A1519DFC1094F
+## UGC_SET_BOOKMARKED
 
 ```c
 // 0x274A1519DFC1094F 0x980D45D7
-BOOL _0x274A1519DFC1094F(Any* p0, BOOL p1, Any* p2);
+BOOL UGC_SET_BOOKMARKED(char* contentId, BOOL bookmarked, char* contentTypeName);
 ```
 
 
 ## Parameters
-* **p0**: 
-* **p1**: 
-* **p2**: 
+* **contentId**: 
+* **bookmarked**: 
+* **contentTypeName**: 
 
 ## Return value

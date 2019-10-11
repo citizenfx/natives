@@ -1,17 +1,18 @@
 ---
 ns: DATAFILE
+aliases: ["0x692D808C34A82143"]
 ---
-## _0x692D808C34A82143
+## UGC_SET_PLAYER_DATA
 
 ```c
 // 0x692D808C34A82143 0xBB6321BD
-BOOL _0x692D808C34A82143(char* p0, float p1, char* type);
+BOOL UGC_SET_PLAYER_DATA(char* contentId, float rating, char* contentTypeName);
 ```
 
 
 ## Parameters
-* **p0**: 
-* **p1**: 
-* **type**: 
+* **contentId**: 
+* **rating**: 
+* **contentTypeName**: 
 
 ## Return value

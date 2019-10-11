@@ -1,11 +1,12 @@
 ---
 ns: NETWORK
+aliases: ["0x5A6FFA2433E2F14C"]
 ---
-## _0x5A6FFA2433E2F14C
+## NETWORK_START_RESPAWN_SEARCH_FOR_PLAYER
 
 ```c
 // 0x5A6FFA2433E2F14C 0xC62E77B3
-BOOL _0x5A6FFA2433E2F14C(Player player, float p1, float p2, float p3, float p4, float p5, float p6, float p7, int flags);
+BOOL NETWORK_START_RESPAWN_SEARCH_FOR_PLAYER(Player player, float p1, float p2, float p3, float p4, float p5, float p6, float p7, int flags);
 ```
 
 ```

@@ -1,11 +1,12 @@
 ---
 ns: PED
+aliases: ["_GET_TATTOO_ZONE"]
 ---
-## _GET_TATTOO_ZONE
+## GET_PED_DECORATION_ZONE_FROM_HASHES
 
 ```c
 // 0x9FD452BFBE7A7A8B 0x3543019E
-int _GET_TATTOO_ZONE(Hash collection, Hash overlay);
+int GET_PED_DECORATION_ZONE_FROM_HASHES(Hash collection, Hash overlay);
 ```
 
 ```

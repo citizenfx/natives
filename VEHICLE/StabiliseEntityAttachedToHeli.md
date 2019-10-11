@@ -1,16 +1,17 @@
 ---
 ns: VEHICLE
+aliases: ["0x374706271354CB18"]
 ---
-## _0x374706271354CB18
+## STABILISE_ENTITY_ATTACHED_TO_HELI
 
 ```c
 // 0x374706271354CB18 0x40C4763F
-void _0x374706271354CB18(Vehicle vehicle, Entity p1, float p2);
+void STABILISE_ENTITY_ATTACHED_TO_HELI(Vehicle vehicle, Entity entity, float p2);
 ```
 
 
 ## Parameters
 * **vehicle**: 
-* **p1**: 
+* **entity**: 
 * **p2**: 
 

@@ -1,15 +1,16 @@
 ---
 ns: STATS
+aliases: ["0x886913BBEACA68C1"]
 ---
-## _0x886913BBEACA68C1
+## STAT_GET_SAVE_MIGRATION_STATUS
 
 ```c
 // 0x886913BBEACA68C1 0xE3F0D62D
-Any _0x886913BBEACA68C1(Any* p0);
+int STAT_GET_SAVE_MIGRATION_STATUS(Any* data);
 ```
 
 
 ## Parameters
-* **p0**: 
+* **data**: 
 
 ## Return value

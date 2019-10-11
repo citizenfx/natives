@@ -1,12 +1,12 @@
 ---
 ns: HUD
-aliases: ["0x0C4BBF625CA98C4E"]
+aliases: ["0x0C4BBF625CA98C4E","_IS_AI_BLIP_ALWAYS_SHOWN"]
 ---
-## _IS_AI_BLIP_ALWAYS_SHOWN
+## SET_PED_AI_BLIP_FORCED_ON
 
 ```c
 // 0x0C4BBF625CA98C4E 0xFFDF46F0
-void _IS_AI_BLIP_ALWAYS_SHOWN(Ped ped, BOOL flag);
+void SET_PED_AI_BLIP_FORCED_ON(Ped ped, BOOL toggle);
 ```
 
 ```
@@ -16,5 +16,5 @@ If "flag" is false, the AI blip will only be displayed when the player is in com
 
 ## Parameters
 * **ped**: 
-* **flag**: 
+* **toggle**: 
 

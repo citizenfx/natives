@@ -1,11 +1,12 @@
 ---
 ns: GRAPHICS
+aliases: ["_CALL_SCALEFORM_MOVIE_FUNCTION_STRING_PARAMS"]
 ---
-## _CALL_SCALEFORM_MOVIE_FUNCTION_STRING_PARAMS
+## CALL_SCALEFORM_MOVIE_METHOD_WITH_STRING
 
 ```c
 // 0x51BC1ED3CC44E8F7 0x91A7FCEB
-void _CALL_SCALEFORM_MOVIE_FUNCTION_STRING_PARAMS(int scaleform, char* functionName, char* param1, char* param2, char* param3, char* param4, char* param5);
+void CALL_SCALEFORM_MOVIE_METHOD_WITH_STRING(int scaleform, char* methodName, char* param1, char* param2, char* param3, char* param4, char* param5);
 ```
 
 ```
@@ -15,7 +16,7 @@ The number of parameters passed to the function varies, so the end of the parame
 
 ## Parameters
 * **scaleform**: 
-* **functionName**: 
+* **methodName**: 
 * **param1**: 
 * **param2**: 
 * **param3**: 

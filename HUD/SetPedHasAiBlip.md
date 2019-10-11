@@ -1,12 +1,12 @@
 ---
 ns: HUD
-aliases: ["0xD30C50DF888D58B5","_SET_PED_ENEMY_AI_BLIP"]
+aliases: ["0xD30C50DF888D58B5","_SET_PED_ENEMY_AI_BLIP","_SET_PED_AI_BLIP"]
 ---
-## _SET_PED_AI_BLIP
+## SET_PED_HAS_AI_BLIP
 
 ```c
 // 0xD30C50DF888D58B5 0x96C4C4DD
-void _SET_PED_AI_BLIP(int pedHandle, BOOL showViewCones);
+void SET_PED_HAS_AI_BLIP(Ped ped, BOOL hasCone);
 ```
 
 ```
@@ -26,6 +26,6 @@ You can change an AI blip's type with UI::0xE52B8E7F85D39A08(Ped ped, int type) 
 ```
 
 ## Parameters
-* **pedHandle**: 
-* **showViewCones**: 
+* **ped**: 
+* **hasCone**: 
 

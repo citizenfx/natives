@@ -1,11 +1,12 @@
 ---
 ns: HUD
+aliases: ["0x8EFCCF6EC66D85E4"]
 ---
-## _0x8EFCCF6EC66D85E4
+## END_TEXT_COMMAND_THEFEED_POST_CREW_RANKUP
 
 ```c
-// 0x8EFCCF6EC66D85E4
-Any _0x8EFCCF6EC66D85E4(Any* p0, Any* p1, Any* p2, BOOL p3, BOOL p4);
+// 0x8EFCCF6EC66D85E4 0x76FB0F21
+int END_TEXT_COMMAND_THEFEED_POST_CREW_RANKUP(char* chTitle, char* clanTxd, char* clanTxn, BOOL isImportant, BOOL showSubtitle);
 ```
 
 ```
@@ -14,10 +15,10 @@ UI::_8EFCCF6EC66D85E4(&v_23, &v_13, &v_13, 1, v_34);
 ```
 
 ## Parameters
-* **p0**: 
-* **p1**: 
-* **p2**: 
-* **p3**: 
-* **p4**: 
+* **chTitle**: 
+* **clanTxd**: 
+* **clanTxn**: 
+* **isImportant**: 
+* **showSubtitle**: 
 
 ## Return value

@@ -1,11 +1,12 @@
 ---
 ns: AUDIO
+aliases: ["0xC15907D667F7CFB2"]
 ---
-## _0xC15907D667F7CFB2
+## ENABLE_STALL_WARNING_SOUNDS
 
 ```c
 // 0xC15907D667F7CFB2 0x563B635D
-void _0xC15907D667F7CFB2(Vehicle vehicle, BOOL toggle);
+void ENABLE_STALL_WARNING_SOUNDS(Vehicle vehicle, BOOL toggle);
 ```
 
 

@@ -1,11 +1,12 @@
 ---
 ns: HUD
+aliases: ["_DRAW_NOTIFICATION"]
 ---
-## _DRAW_NOTIFICATION
+## END_TEXT_COMMAND_THEFEED_POST_TICKER
 
 ```c
 // 0x2ED7843F8F801023 0x08F7AF78
-int _DRAW_NOTIFICATION(BOOL blink, BOOL showInBrief);
+int END_TEXT_COMMAND_THEFEED_POST_TICKER(BOOL isImportant, BOOL bHasTokens);
 ```
 
 ```
@@ -37,7 +38,7 @@ showInBrief==false: the notification will NOT appear in the pause menu.
 ```
 
 ## Parameters
-* **blink**: 
-* **showInBrief**: 
+* **isImportant**: 
+* **bHasTokens**: 
 
 ## Return value

@@ -1,12 +1,12 @@
 ---
 ns: VEHICLE
-aliases: ["0x755D6D5267CBBD7E"]
+aliases: ["0x755D6D5267CBBD7E","_ARE_PROPELLERS_UNDAMAGED"]
 ---
-## _ARE_PROPELLERS_UNDAMAGED
+## ARE_PLANE_PROPELLERS_INTACT
 
 ```c
 // 0x755D6D5267CBBD7E 0xABBDD5C6
-BOOL _ARE_PROPELLERS_UNDAMAGED(Vehicle vehicle);
+BOOL ARE_PLANE_PROPELLERS_INTACT(Vehicle plane);
 ```
 
 ```
@@ -20,6 +20,6 @@ if (!ENTITY::IS_ENTITY_DEAD(l_1911)) {
 ```
 
 ## Parameters
-* **vehicle**: 
+* **plane**: 
 
 ## Return value

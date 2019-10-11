@@ -1,14 +1,15 @@
 ---
 ns: GRAPHICS
+aliases: ["0x1600FD8CF72EBC12"]
 ---
-## _0x1600FD8CF72EBC12
+## OVERRIDE_INTERIOR_SMOKE_LEVEL
 
 ```c
 // 0x1600FD8CF72EBC12 0xD87CC710
-void _0x1600FD8CF72EBC12(float p0);
+void OVERRIDE_INTERIOR_SMOKE_LEVEL(float level);
 ```
 
 
 ## Parameters
-* **p0**: 
+* **level**: 
 

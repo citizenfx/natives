@@ -1,18 +1,16 @@
 ---
 ns: PLAYER
+aliases: ["0x65FAEE425DE637B0"]
 ---
-## _0x65FAEE425DE637B0
+## IS_PLAYER_BLUETOOTH_ENABLE
 
 ```c
 // 0x65FAEE425DE637B0 0xEA01BD4A
-BOOL _0x65FAEE425DE637B0(Player p0);
+BOOL IS_PLAYER_BLUETOOTH_ENABLE(Player player);
 ```
 
-```
-IS_PLAYER_*  
-```
 
 ## Parameters
-* **p0**: 
+* **player**: 
 
 ## Return value

@@ -1,11 +1,12 @@
 ---
 ns: VEHICLE
+aliases: ["0x428BACCDF5E26EAD"]
 ---
-## _0x428BACCDF5E26EAD
+## SET_VEHICLE_CAN_SAVE_IN_GARAGE
 
 ```c
 // 0x428BACCDF5E26EAD 0x1604C2F5
-void _0x428BACCDF5E26EAD(Vehicle vehicle, BOOL p1);
+void SET_VEHICLE_CAN_SAVE_IN_GARAGE(Vehicle vehicle, BOOL toggle);
 ```
 
 ```
@@ -23,5 +24,5 @@ return ;
 
 ## Parameters
 * **vehicle**: 
-* **p1**: 
+* **toggle**: 
 

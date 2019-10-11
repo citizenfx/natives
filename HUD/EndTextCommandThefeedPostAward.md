@@ -1,12 +1,12 @@
 ---
 ns: HUD
-aliases: ["0xAA295B6F28BD587D","_DRAW_NOTIFICATION_ICON"]
+aliases: ["0xAA295B6F28BD587D","_DRAW_NOTIFICATION_ICON","_DRAW_NOTIFICATION_AWARD"]
 ---
-## _DRAW_NOTIFICATION_AWARD
+## END_TEXT_COMMAND_THEFEED_POST_AWARD
 
 ```c
 // 0xAA295B6F28BD587D 0x02DED2B8
-int _DRAW_NOTIFICATION_AWARD(char* textureDict, char* textureName, int rpBonus, int colorOverlay, char* titleLabel);
+int END_TEXT_COMMAND_THEFEED_POST_AWARD(char* textureDict, char* textureName, int rpBonus, int colorOverlay, char* titleLabel);
 ```
 
 Shows an "award" notification above the minimap, lua example result:

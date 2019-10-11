@@ -1,11 +1,12 @@
 ---
 ns: HUD
+aliases: ["_SET_NOTIFICATION_MESSAGE_CLAN_TAG_2"]
 ---
-## _SET_NOTIFICATION_MESSAGE_CLAN_TAG_2
+## END_TEXT_COMMAND_THEFEED_POST_MESSAGETEXT_WITH_CREW_TAG_AND_ADDITIONAL_ICON
 
 ```c
 // 0x531B84E7DA981FB6 0xDEB491C8
-int _SET_NOTIFICATION_MESSAGE_CLAN_TAG_2(char* picName1, char* picName2, BOOL flash, int iconType1, char* sender, char* subject, float duration, char* clanTag, int iconType2, int p9);
+int END_TEXT_COMMAND_THEFEED_POST_MESSAGETEXT_WITH_CREW_TAG_AND_ADDITIONAL_ICON(char* picTxd, char* picTxn, BOOL flash, int iconType1, char* nameStr, char* subtitleStr, float duration, char* crewPackedStr, int iconType2, int textColor);
 ```
 
 ```
@@ -36,15 +37,15 @@ int IconNotification(char *text, char *text2, char *Subject)
 ```
 
 ## Parameters
-* **picName1**: 
-* **picName2**: 
+* **picTxd**: 
+* **picTxn**: 
 * **flash**: 
 * **iconType1**: 
-* **sender**: 
-* **subject**: 
+* **nameStr**: 
+* **subtitleStr**: 
 * **duration**: 
-* **clanTag**: 
+* **crewPackedStr**: 
 * **iconType2**: 
-* **p9**: 
+* **textColor**: 
 
 ## Return value

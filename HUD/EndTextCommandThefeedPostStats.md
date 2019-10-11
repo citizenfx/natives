@@ -1,25 +1,29 @@
 ---
 ns: HUD
-aliases: ["0x2B7E9A4EAAA93C89"]
+aliases: ["0x2B7E9A4EAAA93C89","_SET_NOTIFICATION_MESSAGE_2"]
 ---
-## _SET_NOTIFICATION_MESSAGE_2
+## END_TEXT_COMMAND_THEFEED_POST_STATS
 
 ```c
 // 0x2B7E9A4EAAA93C89 0xED130FA1
-int _SET_NOTIFICATION_MESSAGE_2(char* picName1, int picName2, BOOL flash, int iconType, BOOL p4, char* sender, char* subject);
+int END_TEXT_COMMAND_THEFEED_POST_STATS(char* statTitle, int iconEnum, BOOL stepVal, int barValue, BOOL isImportant, char* picTxd, char* picTxn);
 ```
 
 ```
 List of picNames: pastebin.com/XdpJVbHz  
 ```
 
+```
+NativeDB Parameter 2: int stepVal
+```
+
 ## Parameters
-* **picName1**: 
-* **picName2**: 
-* **flash**: 
-* **iconType**: 
-* **p4**: 
-* **sender**: 
-* **subject**: 
+* **statTitle**: 
+* **iconEnum**: 
+* **stepVal**: 
+* **barValue**: 
+* **isImportant**: 
+* **picTxd**: 
+* **picTxn**: 
 
 ## Return value

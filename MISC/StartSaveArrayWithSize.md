@@ -1,11 +1,12 @@
 ---
 ns: MISC
+aliases: ["_START_SAVE_ARRAY"]
 ---
-## _START_SAVE_ARRAY
+## START_SAVE_ARRAY_WITH_SIZE
 
 ```c
 // 0x60FE567DF1B1AF9D 0x893A342C
-void _START_SAVE_ARRAY(Any* p0, int p1, char* arrayName);
+void START_SAVE_ARRAY_WITH_SIZE(Any* p0, int size, char* arrayName);
 ```
 
 ```
@@ -14,6 +15,6 @@ Second parameter might be length.
 
 ## Parameters
 * **p0**: 
-* **p1**: 
+* **size**: 
 * **arrayName**: 
 

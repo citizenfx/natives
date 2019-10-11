@@ -1,11 +1,12 @@
 ---
 ns: HUD
+aliases: ["_REMOVE_NOTIFICATION"]
 ---
-## _REMOVE_NOTIFICATION
+## THEFEED_REMOVE_ITEM
 
 ```c
 // 0xBE4390CB40B3E627 0xECA8ACB9
-void _REMOVE_NOTIFICATION(int notificationId);
+void THEFEED_REMOVE_ITEM(int notificationId);
 ```
 
 ```

@@ -1,16 +1,15 @@
 ---
 ns: STREAMING
-aliases: ["0x8A7A40100EDFEC58"]
+aliases: ["0x8A7A40100EDFEC58","_REQUEST_INTERIOR_ROOM_BY_NAME"]
 ---
-## _REQUEST_INTERIOR_ROOM_BY_NAME
+## REQUEST_MODELS_IN_ROOM
 
 ```c
 // 0x8A7A40100EDFEC58 0x939243FB
-void _REQUEST_INTERIOR_ROOM_BY_NAME(int interiorID, char* roomName);
+void REQUEST_MODELS_IN_ROOM(int interiorID, char* roomName);
 ```
 
 ```
-REQUEST_*  
 Something to do with interiors that have been loaded.  
 STREAMING::_8A7A40100EDFEC58(l_13BC, "V_FIB01_cur_elev");  
 STREAMING::_8A7A40100EDFEC58(l_13BC, "limbo");  

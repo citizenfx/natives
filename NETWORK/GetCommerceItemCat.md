@@ -1,16 +1,20 @@
 ---
 ns: NETWORK
+aliases: ["0x6F44CBF56D79FAC0"]
 ---
-## _0x6F44CBF56D79FAC0
+## GET_COMMERCE_ITEM_CAT
 
 ```c
 // 0x6F44CBF56D79FAC0 0x16E53875
-Any _0x6F44CBF56D79FAC0(Any p0, Any p1);
+char* GET_COMMERCE_ITEM_CAT(int index, int index2);
 ```
 
+```
+index2 is unused
+```
 
 ## Parameters
-* **p0**: 
-* **p1**: 
+* **index**: 
+* **index2**: 
 
 ## Return value

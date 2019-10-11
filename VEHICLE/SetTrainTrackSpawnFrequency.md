@@ -1,11 +1,12 @@
 ---
 ns: VEHICLE
+aliases: ["0x21973BBF8D17EDFA"]
 ---
-## _0x21973BBF8D17EDFA
+## SET_TRAIN_TRACK_SPAWN_FREQUENCY
 
 ```c
 // 0x21973BBF8D17EDFA 0xD5774FB7
-void _0x21973BBF8D17EDFA(Any p0, Any p1);
+void SET_TRAIN_TRACK_SPAWN_FREQUENCY(int trackIndex, int frequency);
 ```
 
 ```
@@ -13,6 +14,6 @@ Only called once inside main_persitant with the parameters, 0
 ```
 
 ## Parameters
-* **p0**: 
-* **p1**: 
+* **trackIndex**: 
+* **frequency**: 
 

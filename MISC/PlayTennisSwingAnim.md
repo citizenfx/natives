@@ -1,18 +1,19 @@
 ---
 ns: MISC
+aliases: ["0xE266ED23311F24D4"]
 ---
-## _0xE266ED23311F24D4
+## PLAY_TENNIS_SWING_ANIM
 
 ```c
 // 0xE266ED23311F24D4 0xC20A7D2B
-void _0xE266ED23311F24D4(Any p0, Any* p1, Any* p2, float p3, float p4, BOOL p5);
+void PLAY_TENNIS_SWING_ANIM(Ped ped, char* animDict, char* animName, float p3, float p4, BOOL p5);
 ```
 
 
 ## Parameters
-* **p0**: 
-* **p1**: 
-* **p2**: 
+* **ped**: 
+* **animDict**: 
+* **animName**: 
 * **p3**: 
 * **p4**: 
 * **p5**: 

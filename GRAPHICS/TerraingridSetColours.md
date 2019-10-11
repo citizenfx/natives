@@ -1,11 +1,12 @@
 ---
 ns: GRAPHICS
+aliases: ["0x5CE62918F8D703C7"]
 ---
-## _0x5CE62918F8D703C7
+## TERRAINGRID_SET_COLOURS
 
 ```c
 // 0x5CE62918F8D703C7 0xDF552973
-void _0x5CE62918F8D703C7(int lowR, int lowG, int lowB, int lowAlpha, int R, int G, int B, int Alpha, int highR, int highG, int highB, int highAlpha);
+void TERRAINGRID_SET_COLOURS(int lowR, int lowG, int lowB, int lowAlpha, int R, int G, int B, int Alpha, int highR, int highG, int highB, int highAlpha);
 ```
 
 
@@ -17,18 +18,6 @@ Old description:
 Only called in golf and golf_mp  
 parameters used are   
 GRAPHICS::_0x5CE62918F8D703C7(255, 0, 0, 64, 255, 255, 255, 5, 255, 255, 0, 64);  
-
-## Examples
-```cs
-N_0xa356990e161c9e65(true); // toggle on/off
-
-// this native configures the location, size, rotation, normal height, and the difference ratio between min, normal and max.
-N_0x1c4fc5752bcd8e48(-1114.121f, 220.789f, 63.78f, -1f, 0.85f, 0f, 15f, 15f, -1f, 20f, 40f, 63.78f, 0.2f);
-
-// This native defines the colors (and alpha/opacity levels) for min, normal and max heights.
-// (in this case: red for lower, white for normal, yellow for higher)
-N_0x5ce62918f8d703c7(255, 0, 0, 64, 255, 255, 255, 5, 255, 255, 0, 64);
-```
 
 ## Parameters
 * **lowR**: red value for the lower level
@@ -43,3 +32,16 @@ N_0x5ce62918f8d703c7(255, 0, 0, 64, 255, 255, 255, 5, 255, 255, 0, 64);
 * **highG**: green value for the upper level
 * **highB**: blue value for the upper level
 * **highAlpha**: alpha value for the upper level
+
+## Examples
+```cs
+N_0xa356990e161c9e65(true); // toggle on/off
+
+// this native configures the location, size, rotation, normal height, and the difference ratio between min, normal and max.
+N_0x1c4fc5752bcd8e48(-1114.121f, 220.789f, 63.78f, -1f, 0.85f, 0f, 15f, 15f, -1f, 20f, 40f, 63.78f, 0.2f);
+
+// This native defines the colors (and alpha/opacity levels) for min, normal and max heights.
+// (in this case: red for lower, white for normal, yellow for higher)
+N_0x5ce62918f8d703c7(255, 0, 0, 64, 255, 255, 255, 5, 255, 255, 0, 64);
+```
+

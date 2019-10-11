@@ -1,12 +1,12 @@
 ---
 ns: PED
-aliases: ["_APPLY_PED_OVERLAY"]
+aliases: ["_APPLY_PED_OVERLAY","_SET_PED_DECORATION"]
 ---
-## _SET_PED_DECORATION
+## ADD_PED_DECORATION_FROM_HASHES
 
 ```c
 // 0x5F5D1665E352A839 0x70559AC7
-void _SET_PED_DECORATION(Ped ped, Hash collection, Hash overlay);
+void ADD_PED_DECORATION_FROM_HASHES(Ped ped, Hash collection, Hash overlay);
 ```
 
 ```

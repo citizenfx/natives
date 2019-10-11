@@ -1,12 +1,12 @@
 ---
 ns: HUD
-aliases: ["0x6DD05E9D83EFA4C9","_CREATE_MP_GAMER_TAG_COLOR", "_SET_MP_GAMER_TAG_COLOR"]
+aliases: ["0x6DD05E9D83EFA4C9","_CREATE_MP_GAMER_TAG_COLOR","_SET_MP_GAMER_TAG_COLOR","_CREATE_MP_GAMER_TAG_FOR_NET_PLAYER"]
 ---
-## _CREATE_MP_GAMER_TAG_FOR_NET_PLAYER
+## CREATE_MP_GAMER_TAG_WITH_CREW_COLOR
 
 ```c
 // 0x6DD05E9D83EFA4C9 0xC969F2D0
-void _CREATE_MP_GAMER_TAG_FOR_NET_PLAYER(int player, char* username, BOOL pointedClanTag, BOOL isRockstarClan, char* clanTag, int clanFlag, int r, int g, int b);
+void CREATE_MP_GAMER_TAG_WITH_CREW_COLOR(Player player, char* username, BOOL pointedClanTag, BOOL isRockstarClan, char* clanTag, int clanFlag, int r, int g, int b);
 ```
 
 
