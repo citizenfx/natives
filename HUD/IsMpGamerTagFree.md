@@ -1,15 +1,15 @@
 ---
 ns: HUD
+aliases: ["ADD_TREVOR_RANDOM_MODIFIER"]
 ---
-## ADD_TREVOR_RANDOM_MODIFIER
+## IS_MP_GAMER_TAG_FREE
 
 ```c
 // 0x595B5178E412E199 0x63959059
-BOOL ADD_TREVOR_RANDOM_MODIFIER(int gamerTagId);
+BOOL IS_MP_GAMER_TAG_FREE(int gamerTagId);
 ```
 
 ```
-Hash collision!  
 _IS_MP_GAMER_TAG_ACTIVE_2  
 ```
 

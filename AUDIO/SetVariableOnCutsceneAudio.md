@@ -1,11 +1,12 @@
 ---
 ns: AUDIO
+aliases: ["GET_PLAYER_HEADSET_SOUND_ALTERNATE"]
 ---
-## GET_PLAYER_HEADSET_SOUND_ALTERNATE
+## _SET_VARIABLE_ON_CUTSCENE_AUDIO
 
 ```c
 // 0xBCC29F935ED07688 0xD63CF33A
-void GET_PLAYER_HEADSET_SOUND_ALTERNATE(char* p0, float p1);
+void _SET_VARIABLE_ON_CUTSCENE_AUDIO(char* variableName, float value);
 ```
 
 ```
@@ -15,6 +16,6 @@ AUDIO::GET_PLAYER_HEADSET_SOUND_ALTERNATE("INOUT", 1.0);
 ```
 
 ## Parameters
-* **p0**: 
-* **p1**: 
+* **variableName**: 
+* **value**: 
 

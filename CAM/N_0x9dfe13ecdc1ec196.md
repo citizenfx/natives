@@ -1,16 +1,16 @@
 ---
 ns: CAM
-aliases: ["0x9DFE13ECDC1EC196"]
+aliases: ["0x9DFE13ECDC1EC196","SET_TIME_IDLE_DROP"]
 ---
-## SET_TIME_IDLE_DROP
+## _0x9DFE13ECDC1EC196
 
 ```c
 // 0x9DFE13ECDC1EC196 0x92302899
-void SET_TIME_IDLE_DROP(BOOL p0, BOOL p1);
+void _0x9DFE13ECDC1EC196(BOOL p0, BOOL p1);
 ```
 
 ```
-hash collision?  
+SET_FOLLOW_*
 ```
 
 ## Parameters
