@@ -1,16 +1,17 @@
 ---
 ns: NETCASH
+aliases: ["0xEDEAD9A91EC768B3"]
 ---
-## _0xEDEAD9A91EC768B3
+## _NETWORK_EARN_FROM_VEHICLE_EXPORT
 
 ```c
 // 0xEDEAD9A91EC768B3
-void _0xEDEAD9A91EC768B3(Any p0, Any p1, Any p2);
+void _NETWORK_EARN_FROM_VEHICLE_EXPORT(int amount, Any p1, Any p2);
 ```
 
 
 ## Parameters
-* **p0**: 
+* **amount**: 
 * **p1**: 
 * **p2**: 
 

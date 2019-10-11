@@ -1,16 +1,16 @@
 ---
 ns: VEHICLE
+aliases: ["0x45A561A9421AB6AD"]
 ---
-## _0x45A561A9421AB6AD
+## _SET_VEHICLE_UNK_DAMAGE_MULTIPLIER
 
 ```c
 // 0x45A561A9421AB6AD
-Any _0x45A561A9421AB6AD(Any p0, Any p1);
+void _SET_VEHICLE_UNK_DAMAGE_MULTIPLIER(Vehicle vehicle, float multiplier);
 ```
 
 
 ## Parameters
-* **p0**: 
-* **p1**: 
+* **vehicle**: 
+* **multiplier**: 
 
-## Return value

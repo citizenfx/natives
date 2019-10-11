@@ -1,15 +1,19 @@
 ---
 ns: WEAPON
+aliases: ["0x4757F00BC6323CFE"]
 ---
-## _0x4757F00BC6323CFE
+## _SET_WEAPON_DAMAGE_MODIFIER
 
 ```c
 // 0x4757F00BC6323CFE
-void _0x4757F00BC6323CFE(Any p0, Any p1);
+void _SET_WEAPON_DAMAGE_MODIFIER(Any weaponHash, float damageAmount);
 ```
 
+```
+NativeDB Parameter 0: Hash weaponHash
+```
 
 ## Parameters
-* **p0**: 
-* **p1**: 
+* **weaponHash**: 
+* **damageAmount**: 
 

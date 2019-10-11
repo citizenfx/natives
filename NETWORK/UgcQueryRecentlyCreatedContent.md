@@ -1,18 +1,19 @@
 ---
 ns: NETWORK
+aliases: ["0x6D4CB481FAC835E8"]
 ---
-## _0x6D4CB481FAC835E8
+## _UGC_QUERY_RECENTLY_CREATED_CONTENT
 
 ```c
 // 0x6D4CB481FAC835E8 0x40CF0783
-BOOL _0x6D4CB481FAC835E8(Any p0, Any p1, Any* p2, Any p3);
+BOOL _UGC_QUERY_RECENTLY_CREATED_CONTENT(int offset, int count, char* contentTypeName, int p3);
 ```
 
 
 ## Parameters
-* **p0**: 
-* **p1**: 
-* **p2**: 
+* **offset**: 
+* **count**: 
+* **contentTypeName**: 
 * **p3**: 
 
 ## Return value

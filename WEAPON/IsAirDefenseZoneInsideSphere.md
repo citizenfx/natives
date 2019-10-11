@@ -1,19 +1,20 @@
 ---
 ns: WEAPON
+aliases: ["0xDAB963831DBFD3F4"]
 ---
-## _0xDAB963831DBFD3F4
+## _IS_AIR_DEFENSE_ZONE_INSIDE_SPHERE
 
 ```c
 // 0xDAB963831DBFD3F4
-Any _0xDAB963831DBFD3F4(Any p0, Any p1, Any p2, Any p3, Any p4);
+BOOL _IS_AIR_DEFENSE_ZONE_INSIDE_SPHERE(float x, float y, float z, float radius, int zoneId);
 ```
 
 
 ## Parameters
-* **p0**: 
-* **p1**: 
-* **p2**: 
-* **p3**: 
-* **p4**: 
+* **x**: 
+* **y**: 
+* **z**: 
+* **radius**: 
+* **zoneId**: 
 
 ## Return value

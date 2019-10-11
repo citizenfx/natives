@@ -1,15 +1,19 @@
 ---
 ns: VEHICLE
+aliases: ["0xA1A9FC1C76A6730D"]
 ---
-## _0xA1A9FC1C76A6730D
+## _IS_THIS_MODEL_AN_AMPHIBIOUS_QUADBIKE
 
 ```c
 // 0xA1A9FC1C76A6730D
-Any _0xA1A9FC1C76A6730D(Any p0);
+BOOL _IS_THIS_MODEL_AN_AMPHIBIOUS_QUADBIKE(Any model);
 ```
 
+```
+NativeDB Parameter 0: Hash model
+```
 
 ## Parameters
-* **p0**: 
+* **model**: 
 
 ## Return value

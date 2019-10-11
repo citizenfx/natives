@@ -1,16 +1,20 @@
 ---
 ns: STATS
+aliases: ["0x11FF1C80276097ED"]
 ---
-## _0x11FF1C80276097ED
+## _UPDATE_STAT_INT
 
 ```c
 // 0x11FF1C80276097ED 0x4AC39C6C
-void _0x11FF1C80276097ED(char* p0, Any p1, Any p2);
+void _UPDATE_STAT_INT(char* statHash, int value, int p2);
 ```
 
+```
+NativeDB Parameter 0: Hash statHash
+```
 
 ## Parameters
-* **p0**: 
-* **p1**: 
+* **statHash**: 
+* **value**: 
 * **p2**: 
 

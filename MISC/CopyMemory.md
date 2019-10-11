@@ -1,16 +1,17 @@
 ---
 ns: MISC
+aliases: ["0x213AEB2B90CBA7AC"]
 ---
-## _0x213AEB2B90CBA7AC
+## _COPY_MEMORY
 
 ```c
 // 0x213AEB2B90CBA7AC
-void _0x213AEB2B90CBA7AC(Any p0, Any p1, Any p2);
+void _COPY_MEMORY(Any* dst, Any src, int size);
 ```
 
 
 ## Parameters
-* **p0**: 
-* **p1**: 
-* **p2**: 
+* **dst**: 
+* **src**: 
+* **size**: 
 

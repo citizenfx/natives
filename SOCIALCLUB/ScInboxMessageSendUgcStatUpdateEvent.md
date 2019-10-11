@@ -1,14 +1,15 @@
 ---
 ns: SOCIALCLUB
+aliases: ["0xA68D3D229F4F3B06"]
 ---
-## _0xA68D3D229F4F3B06
+## _SC_INBOX_MESSAGE_SEND_UGC_STAT_UPDATE_EVENT
 
 ```c
 // 0xA68D3D229F4F3B06 0x75324674
-void _0xA68D3D229F4F3B06(char* p0);
+void _SC_INBOX_MESSAGE_SEND_UGC_STAT_UPDATE_EVENT(char* data);
 ```
 
 
 ## Parameters
-* **p0**: 
+* **data**: 
 

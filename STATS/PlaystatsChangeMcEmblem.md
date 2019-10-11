@@ -1,11 +1,12 @@
 ---
 ns: STATS
+aliases: ["0x0A50D2604E05CB94"]
 ---
-## _0x0A50D2604E05CB94
+## _PLAYSTATS_CHANGE_MC_EMBLEM
 
 ```c
 // 0x0A50D2604E05CB94
-void _0x0A50D2604E05CB94(Any p0, Any p1, Any p2, Any p3, Any p4);
+void _PLAYSTATS_CHANGE_MC_EMBLEM(Any p0, Any p1, Any p2, Any p3, Any p4);
 ```
 
 

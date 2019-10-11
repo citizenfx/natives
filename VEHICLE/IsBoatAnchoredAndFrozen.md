@@ -1,15 +1,19 @@
 ---
 ns: VEHICLE
+aliases: ["0xB0AD1238A709B1A2"]
 ---
-## _0xB0AD1238A709B1A2
+## _IS_BOAT_ANCHORED_AND_FROZEN
 
 ```c
 // 0xB0AD1238A709B1A2
-Any _0xB0AD1238A709B1A2(Any p0);
+BOOL _IS_BOAT_ANCHORED_AND_FROZEN(Vehicle vehicle);
 ```
 
+```
+IS_*
+```
 
 ## Parameters
-* **p0**: 
+* **vehicle**: 
 
 ## Return value

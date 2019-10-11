@@ -1,11 +1,12 @@
 ---
 ns: MISC
+aliases: ["0x6F7794F28C6B2535"]
 ---
-## _0x6F7794F28C6B2535
+## _REGISTER_TEXT_LABEL_TO_SAVE_2
 
 ```c
 // 0x6F7794F28C6B2535 0xE2089749
-void _0x6F7794F28C6B2535(Any* p0, char* name);
+void _REGISTER_TEXT_LABEL_TO_SAVE_2(Any* p0, char* name);
 ```
 
 ```

@@ -1,15 +1,16 @@
 ---
 ns: PED
+aliases: ["0xB9496CE47546DB2C"]
 ---
-## _0xB9496CE47546DB2C
+## _IS_PED_HELMET_UNK
 
 ```c
 // 0xB9496CE47546DB2C
-Any _0xB9496CE47546DB2C(Any p0);
+BOOL _IS_PED_HELMET_UNK(Ped ped);
 ```
 
 
 ## Parameters
-* **p0**: 
+* **ped**: 
 
 ## Return value

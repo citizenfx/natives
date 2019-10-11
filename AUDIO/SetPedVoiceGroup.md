@@ -1,11 +1,12 @@
 ---
 ns: AUDIO
+aliases: ["0x7CDC8C3B89F661B3"]
 ---
-## _0x7CDC8C3B89F661B3
+## _SET_PED_VOICE_GROUP
 
 ```c
 // 0x7CDC8C3B89F661B3
-void _0x7CDC8C3B89F661B3(Ped playerPed, Hash p1);
+void _SET_PED_VOICE_GROUP(Ped ped, Hash voiceGroupHash);
 ```
 
 ```
@@ -17,6 +18,6 @@ AUDIO::_7CDC8C3B89F661B3(PLAYER::PLAYER_PED_ID(), GAMEPLAY::GET_HASH_KEY("PAIGE_
 ```
 
 ## Parameters
-* **playerPed**: 
-* **p1**: 
+* **ped**: 
+* **voiceGroupHash**: 
 

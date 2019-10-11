@@ -1,11 +1,12 @@
 ---
 ns: HUD
+aliases: ["0xCC3FDDED67BCFC63"]
 ---
-## _0xCC3FDDED67BCFC63
+## _ALLOW_PAUSE_MENU_WHEN_DEAD_THIS_FRAME
 
 ```c
 // 0xCC3FDDED67BCFC63 0x630CD8EE
-void _0xCC3FDDED67BCFC63();
+void _ALLOW_PAUSE_MENU_WHEN_DEAD_THIS_FRAME();
 ```
 
 Allows opening the pause menu this frame, when the player is dead.

@@ -1,15 +1,16 @@
 ---
 ns: WEAPON
+aliases: ["0xCD79A550999D7D4F"]
 ---
-## _0xCD79A550999D7D4F
+## _DOES_AIR_DEFENSE_ZONE_EXIST
 
 ```c
 // 0xCD79A550999D7D4F
-Any _0xCD79A550999D7D4F(Any p0);
+BOOL _DOES_AIR_DEFENSE_ZONE_EXIST(int zoneId);
 ```
 
 
 ## Parameters
-* **p0**: 
+* **zoneId**: 
 
 ## Return value

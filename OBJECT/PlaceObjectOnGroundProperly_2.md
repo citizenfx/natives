@@ -1,15 +1,16 @@
 ---
 ns: OBJECT
+aliases: ["0xD76EEEF746057FD6"]
 ---
-## _0xD76EEEF746057FD6
+## _PLACE_OBJECT_ON_GROUND_PROPERLY_2
 
 ```c
 // 0xD76EEEF746057FD6
-Any _0xD76EEEF746057FD6(Any p0);
+BOOL _PLACE_OBJECT_ON_GROUND_PROPERLY_2(Object object);
 ```
 
 
 ## Parameters
-* **p0**: 
+* **object**: 
 
 ## Return value

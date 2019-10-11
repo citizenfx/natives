@@ -1,18 +1,19 @@
 ---
 ns: VEHICLE
+aliases: ["0x8F719973E1445BA2"]
 ---
-## _0x8F719973E1445BA2
+## _SET_BOAT_EXPLODES_ON_WRECKED_ACTION
 
 ```c
 // 0x8F719973E1445BA2 0x35614622
-void _0x8F719973E1445BA2(Vehicle vehicle, Vehicle p1);
+void _SET_BOAT_EXPLODES_ON_WRECKED_ACTION(Vehicle vehicle, Vehicle toggle);
 ```
 
 ```
-No observed effect.  
+NativeDB Parameter 1: BOOL toggle
 ```
 
 ## Parameters
 * **vehicle**: 
-* **p1**: 
+* **toggle**: 
 

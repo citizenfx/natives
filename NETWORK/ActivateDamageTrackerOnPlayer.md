@@ -1,15 +1,16 @@
 ---
 ns: NETWORK
+aliases: ["0xBEC0816FF5ACBCDA"]
 ---
-## _0xBEC0816FF5ACBCDA
+## _ACTIVATE_DAMAGE_TRACKER_ON_PLAYER
 
 ```c
 // 0xBEC0816FF5ACBCDA
-void _0xBEC0816FF5ACBCDA(Any p0, Any p1);
+void _ACTIVATE_DAMAGE_TRACKER_ON_PLAYER(Player player, BOOL toggle);
 ```
 
 
 ## Parameters
-* **p0**: 
-* **p1**: 
+* **player**: 
+* **toggle**: 
 

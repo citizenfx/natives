@@ -1,15 +1,19 @@
 ---
 ns: WEAPON
+aliases: ["0x68F8BE6AF5CDF8A6"]
 ---
-## _0x68F8BE6AF5CDF8A6
+## _GIVE_LOADOUT_TO_PED
 
 ```c
 // 0x68F8BE6AF5CDF8A6
-void _0x68F8BE6AF5CDF8A6(Any p0, Any p1);
+void _GIVE_LOADOUT_TO_PED(Ped ped, Any loadoutHash);
 ```
 
+```
+NativeDB Parameter 1: Hash loadoutHash
+```
 
 ## Parameters
-* **p0**: 
-* **p1**: 
+* **ped**: 
+* **loadoutHash**: 
 

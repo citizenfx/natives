@@ -1,12 +1,12 @@
 ---
 ns: DLC
-aliases: ["_LOAD_SP_DLC_MAPS"]
+aliases: ["0xD7C10C4A637992C9"]
 ---
-## _0xD7C10C4A637992C9
+## _LOAD_SP_DLC_MAPS
 
 ```c
-// 0xD7C10C4A637992C9
-void _0xD7C10C4A637992C9();
+// 0xD7C10C4A637992C9 0x8BF60FC3
+void _LOAD_SP_DLC_MAPS();
 ```
 
 ```
@@ -14,6 +14,5 @@ Unloads GROUP_MAP (GTAO/MP) DLC data and loads GROUP_MAP_SP DLC. Neither are loa
 The original (and wrong) definition is below:  
 This unload the GTA:O DLC map parts (like high end garages/apartments).  
 Works in singleplayer.  
-console hash: 0x8BF60FC3  
 ```
 

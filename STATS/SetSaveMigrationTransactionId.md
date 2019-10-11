@@ -1,11 +1,12 @@
 ---
 ns: STATS
+aliases: ["0xF6792800AC95350D"]
 ---
-## _0xF6792800AC95350D
+## _SET_SAVE_MIGRATION_TRANSACTION_ID
 
 ```c
 // 0xF6792800AC95350D
-void _0xF6792800AC95350D(Any p0);
+void _SET_SAVE_MIGRATION_TRANSACTION_ID(int transactionId);
 ```
 
 ```
@@ -13,5 +14,5 @@ Set profile setting 501
 ```
 
 ## Parameters
-* **p0**: 
+* **transactionId**: 
 

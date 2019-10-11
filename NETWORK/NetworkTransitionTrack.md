@@ -1,19 +1,22 @@
 ---
 ns: NETWORK
+aliases: ["0xC3BFED92026A2AAD"]
 ---
-## _0xC3BFED92026A2AAD
+## _NETWORK_TRANSITION_TRACK
 
 ```c
 // 0xC3BFED92026A2AAD
-Any _0xC3BFED92026A2AAD(Any p0, Any p1, Any p2, Any p3, Any p4);
+void _NETWORK_TRANSITION_TRACK(Any hash, int p1, int p2, int state, int p4);
 ```
 
+```
+NativeDB Parameter 0: Hash hash
+```
 
 ## Parameters
-* **p0**: 
+* **hash**: 
 * **p1**: 
 * **p2**: 
-* **p3**: 
+* **state**: 
 * **p4**: 
 
-## Return value

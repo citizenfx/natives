@@ -1,16 +1,17 @@
 ---
 ns: NETCASH
+aliases: ["0xD99DB210089617FE"]
 ---
-## _0xD99DB210089617FE
+## _NETWORK_SPENT_WAGER
 
 ```c
 // 0xD99DB210089617FE
-void _0xD99DB210089617FE(Any p0, Any p1, Any p2);
+void _NETWORK_SPENT_WAGER(Any p0, Any p1, int amount);
 ```
 
 
 ## Parameters
 * **p0**: 
 * **p1**: 
-* **p2**: 
+* **amount**: 
 

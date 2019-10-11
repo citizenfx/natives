@@ -1,13 +1,17 @@
 ---
 ns: VEHICLE
+aliases: ["0x54B0F614960F4A5F"]
 ---
-## _0x54B0F614960F4A5F
+## _ADD_VEHICLE_COMBAT_AVOIDANCE_AREA
 
 ```c
 // 0x54B0F614960F4A5F 0x5AB26C2B
-Any _0x54B0F614960F4A5F(float p0, float p1, float p2, float p3, float p4, float p5, float p6);
+Any _ADD_VEHICLE_COMBAT_AVOIDANCE_AREA(float p0, float p1, float p2, float p3, float p4, float p5, float p6);
 ```
 
+```
+ADD_*
+```
 
 ## Parameters
 * **p0**: 

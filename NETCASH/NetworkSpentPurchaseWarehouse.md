@@ -1,17 +1,18 @@
 ---
 ns: NETCASH
+aliases: ["0x33981D6804E62F49"]
 ---
-## _0x33981D6804E62F49
+## _NETWORK_SPENT_PURCHASE_WAREHOUSE
 
 ```c
 // 0x33981D6804E62F49
-void _0x33981D6804E62F49(Any p0, Any p1, Any p2, Any p3);
+void _NETWORK_SPENT_PURCHASE_WAREHOUSE(int amount, Any data, BOOL p2, BOOL p3);
 ```
 
 
 ## Parameters
-* **p0**: 
-* **p1**: 
+* **amount**: 
+* **data**: 
 * **p2**: 
 * **p3**: 
 

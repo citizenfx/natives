@@ -1,11 +1,12 @@
 ---
 ns: GRAPHICS
+aliases: ["0xD2209BE128B5418C"]
 ---
-## _0xD2209BE128B5418C
+## _ANIMPOSTFX_STOP_AND_DO_UNK
 
 ```c
 // 0xD2209BE128B5418C
-void _0xD2209BE128B5418C(char* graphicsName);
+void _ANIMPOSTFX_STOP_AND_DO_UNK(char* effectName);
 ```
 
 ```
@@ -19,5 +20,5 @@ void _0xD2209BE128B5418C(char* graphicsName);
 ```
 
 ## Parameters
-* **graphicsName**: 
+* **effectName**: 
 

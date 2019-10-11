@@ -1,15 +1,19 @@
 ---
 ns: PHYSICS
+aliases: ["0x0C112765300C7E1E"]
 ---
-## _0x0C112765300C7E1E
+## _DOES_ENTITY_HAVE_FRAG_INST
 
 ```c
 // 0x0C112765300C7E1E
-Any _0x0C112765300C7E1E(Any p0);
+BOOL _DOES_ENTITY_HAVE_FRAG_INST(Object object);
 ```
 
+```
+GET_*
+```
 
 ## Parameters
-* **p0**: 
+* **object**: 
 
 ## Return value

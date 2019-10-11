@@ -1,11 +1,12 @@
 ---
 ns: NETCASH
+aliases: ["0x12D148D26538D0F9"]
 ---
-## _0x12D148D26538D0F9
+## _NETWORK_SPENT_BUY_BUNKER
 
 ```c
 // 0x12D148D26538D0F9
-void _0x12D148D26538D0F9(Any p0, Any p1, Any p2, Any p3);
+void _NETWORK_SPENT_BUY_BUNKER(Any p0, Any p1, Any p2, Any p3);
 ```
 
 

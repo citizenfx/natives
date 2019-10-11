@@ -1,15 +1,16 @@
 ---
 ns: GRAPHICS
+aliases: ["0xD80A80346A45D761"]
 ---
-## _0xD80A80346A45D761
+## _GET_SCALEFORM_MOVIE_METHOD_RETURN_VALUE_BOOL
 
 ```c
 // 0xD80A80346A45D761
-Any _0xD80A80346A45D761(Any p0);
+BOOL _GET_SCALEFORM_MOVIE_METHOD_RETURN_VALUE_BOOL(int returnValueData);
 ```
 
 
 ## Parameters
-* **p0**: 
+* **returnValueData**: 
 
 ## Return value

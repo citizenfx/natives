@@ -1,11 +1,12 @@
 ---
 ns: NETCASH
+aliases: ["0x0C82D21A77C22D49"]
 ---
-## _0x0C82D21A77C22D49
+## _NETWORK_SPENT_UPGRADE_BUNKER
 
 ```c
 // 0x0C82D21A77C22D49
-void _0x0C82D21A77C22D49(Any p0, Any p1, Any p2, Any p3);
+void _NETWORK_SPENT_UPGRADE_BUNKER(Any p0, Any p1, Any p2, Any p3);
 ```
 
 

@@ -1,15 +1,16 @@
 ---
 ns: NETCASH
+aliases: ["0xC8407624CEF2354B"]
 ---
-## _0xC8407624CEF2354B
+## _NETWORK_EARN_FROM_PREMIUM_JOB
 
 ```c
 // 0xC8407624CEF2354B
-void _0xC8407624CEF2354B(Any p0, Any p1);
+void _NETWORK_EARN_FROM_PREMIUM_JOB(int amount, char* p1);
 ```
 
 
 ## Parameters
-* **p0**: 
+* **amount**: 
 * **p1**: 
 

@@ -1,16 +1,17 @@
 ---
 ns: NETCASH
+aliases: ["0x5D97630A8A0EF123"]
 ---
-## _0x5D97630A8A0EF123
+## _NETWORK_SPENT_BALLISTIC_EQUIPMENT
 
 ```c
 // 0x5D97630A8A0EF123
-void _0x5D97630A8A0EF123(Any p0, Any p1, Any p2);
+void _NETWORK_SPENT_BALLISTIC_EQUIPMENT(int amount, BOOL p1, BOOL p2);
 ```
 
 
 ## Parameters
-* **p0**: 
+* **amount**: 
 * **p1**: 
 * **p2**: 
 

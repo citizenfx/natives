@@ -1,16 +1,20 @@
 ---
 ns: WEAPON
+aliases: ["0x5DA825A85D0EA6E6"]
 ---
-## _0x5DA825A85D0EA6E6
+## _SET_WEAPON_OBJECT_LIVERY_COLOR
 
 ```c
 // 0x5DA825A85D0EA6E6
-void _0x5DA825A85D0EA6E6(Any p0, Any p1, Any p2);
+void _SET_WEAPON_OBJECT_LIVERY_COLOR(Object weaponObject, Any camoComponentHash, int colorIndex);
 ```
 
+```
+NativeDB Parameter 1: Hash camoComponentHash
+```
 
 ## Parameters
-* **p0**: 
-* **p1**: 
-* **p2**: 
+* **weaponObject**: 
+* **camoComponentHash**: 
+* **colorIndex**: 
 

@@ -1,14 +1,15 @@
 ---
 ns: UNK
+aliases: ["0xC7E7181C09F33B69"]
 ---
-## _0xC7E7181C09F33B69
+## _LOADINGSCREEN_SET_IS_LOADING_FREEMODE
 
 ```c
 // 0xC7E7181C09F33B69 0x8C227332
-void _0xC7E7181C09F33B69(BOOL p0);
+void _LOADINGSCREEN_SET_IS_LOADING_FREEMODE(BOOL toggle);
 ```
 
 
 ## Parameters
-* **p0**: 
+* **toggle**: 
 

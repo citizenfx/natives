@@ -1,17 +1,21 @@
 ---
 ns: NETSHOP
+aliases: ["0x51F1A8E48C3D2F6D"]
 ---
-## _0x51F1A8E48C3D2F6D
+## _NET_GAMESERVER_DELETE_CHARACTER_SLOT
 
 ```c
 // 0x51F1A8E48C3D2F6D
-BOOL _0x51F1A8E48C3D2F6D(Any p0, BOOL p1, Any p2);
+BOOL _NET_GAMESERVER_DELETE_CHARACTER_SLOT(int slot, BOOL transfer, Any reason);
 ```
 
+```
+NativeDB Parameter 2: Hash reason
+```
 
 ## Parameters
-* **p0**: 
-* **p1**: 
-* **p2**: 
+* **slot**: 
+* **transfer**: 
+* **reason**: 
 
 ## Return value

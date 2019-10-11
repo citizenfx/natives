@@ -1,15 +1,19 @@
 ---
 ns: MISC
+aliases: ["0xD261BA3E7E998072"]
 ---
-## _0xD261BA3E7E998072
+## _SET_INCIDENT_UNK
 
 ```c
 // 0xD261BA3E7E998072 0x1F38102E
-void _0xD261BA3E7E998072(Any p0, float p1);
+void _SET_INCIDENT_UNK(int incidentId, float p1);
 ```
 
+```
+SET_INCIDENT_*
+```
 
 ## Parameters
-* **p0**: 
+* **incidentId**: 
 * **p1**: 
 

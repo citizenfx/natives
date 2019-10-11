@@ -1,17 +1,22 @@
 ---
 ns: NETWORK
+aliases: ["0x697F508861875B42"]
 ---
-## _0x697F508861875B42
+## _NETWORK_REGISTER_TUNABLE_BOOL_HASH
 
 ```c
 // 0x697F508861875B42
-Any _0x697F508861875B42(Any p0, Any p1, Any p2);
+BOOL _NETWORK_REGISTER_TUNABLE_BOOL_HASH(Any contextHash, Any nameHash, BOOL* value);
 ```
 
+```
+NativeDB Parameter 0: Hash contextHash
+NativeDB Parameter 1: Hash nameHash
+```
 
 ## Parameters
-* **p0**: 
-* **p1**: 
-* **p2**: 
+* **contextHash**: 
+* **nameHash**: 
+* **value**: 
 
 ## Return value

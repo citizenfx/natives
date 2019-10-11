@@ -1,15 +1,16 @@
 ---
 ns: NETWORK
+aliases: ["0x815F18AD865F057F"]
 ---
-## _0x815F18AD865F057F
+## _NETWORK_GET_ENTITY_NET_SCRIPT_ID
 
 ```c
 // 0x815F18AD865F057F
-Any _0x815F18AD865F057F(Any p0);
+int _NETWORK_GET_ENTITY_NET_SCRIPT_ID(Entity entity);
 ```
 
 
 ## Parameters
-* **p0**: 
+* **entity**: 
 
 ## Return value
