@@ -1,0 +1,14 @@
+---
+ns: HUD
+---
+## _GET_WARNING_MESSAGE_TITLE_HASH
+
+```c
+// 0x81DF9ABA6C83DFF9
+Hash _GET_WARNING_MESSAGE_TITLE_HASH();
+```
+
+```
+NativeDB Introduced: v1290
+```
+

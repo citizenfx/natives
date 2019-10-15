@@ -17,6 +17,10 @@ Fixed, definitely not a float and since it's such a big number obviously not a b
 Not all helicopters support rappelling.  
 ```
 
+```
+NativeDB Parameter 1: float unused
+```
+
 ## Parameters
 * **ped**: 
 * **unused**: 

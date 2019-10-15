@@ -5,7 +5,7 @@ ns: INTERIOR
 
 ```c
 // 0x261CCE7EED010641 0xFCFF792A
-void UNPIN_INTERIOR(int interiorID);
+void UNPIN_INTERIOR(int interior);
 ```
 
 ```
@@ -14,5 +14,5 @@ You don't fall through the floor but everything is invisible inside and looks th
 ```
 
 ## Parameters
-* **interiorID**: 
+* **interior**: 
 

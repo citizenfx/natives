@@ -6,10 +6,10 @@ aliases: ["0xA921DED15FDF28F5"]
 
 ```c
 // 0xA921DED15FDF28F5 0x19F0C471
-void NETWORK_CLEAR_CHARACTER_WALLET(Any p0);
+void NETWORK_CLEAR_CHARACTER_WALLET(int characterSlot);
 ```
 
 
 ## Parameters
-* **p0**: 
+* **characterSlot**: 
 

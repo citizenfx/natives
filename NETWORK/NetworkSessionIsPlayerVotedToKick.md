@@ -9,6 +9,9 @@ aliases: ["_NETWORK_SESSION_ARE_PLAYERS_VOTING_TO_KICK"]
 BOOL _NETWORK_SESSION_IS_PLAYER_VOTED_TO_KICK(Player player);
 ```
 
+```
+NETWORK_SESSION_GET_*
+```
 
 ## Parameters
 * **player**: 

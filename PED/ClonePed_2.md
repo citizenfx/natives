@@ -6,16 +6,22 @@ aliases: ["0x668FD40BCBA5DE48"]
 
 ```c
 // 0x668FD40BCBA5DE48
-Any _CLONE_PED_2(Ped ped, Any p1, Any p2, Any p3, Any p4);
+Ped _CLONE_PED_2(Ped ped, Any heading, Any isNetwork, Any thisScriptCheck, Any p4);
 ```
 
 Used one time in fmmc_launcher.c instead of ClonePed because ?
 
+```
+NativeDB Parameter 1: float heading
+NativeDB Parameter 2: BOOL isNetwork
+NativeDB Parameter 3: BOOL thisScriptCheck
+```
+
 ## Parameters
 * **ped**: 
-* **p1**: 
-* **p2**: 
-* **p3**: 
+* **heading**: 
+* **isNetwork**: 
+* **thisScriptCheck**: 
 * **p4**: 
 
 ## Return value

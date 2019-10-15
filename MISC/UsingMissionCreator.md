@@ -8,10 +8,6 @@ ns: MISC
 void USING_MISSION_CREATOR(BOOL toggle);
 ```
 
-```
-Hash collision  
-If this is a hash collision, it's a very lucky one. It does seem strangely named but it is used to toggle the mission creator mode.  
-```
 
 ## Parameters
 * **toggle**: 

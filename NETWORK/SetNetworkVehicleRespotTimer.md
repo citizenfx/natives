@@ -8,6 +8,10 @@ ns: NETWORK
 void SET_NETWORK_VEHICLE_RESPOT_TIMER(int netId, int time);
 ```
 
+```
+NativeDB Added Parameter 3: Any p2
+NativeDB Added Parameter 4: Any p3
+```
 
 ## Parameters
 * **netId**: 

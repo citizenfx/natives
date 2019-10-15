@@ -6,7 +6,7 @@ aliases: ["0x971DA0055324D033"]
 
 ```c
 // 0x971DA0055324D033
-void _SET_OBJECT_TEXTURE_VARIANT(Object object, int paintIndex);
+void _SET_OBJECT_TEXTURE_VARIANT(Object object, int textureVariation);
 ```
 
 ```
@@ -33,5 +33,5 @@ enum ObjectPaintVariants
 
 ## Parameters
 * **object**: 
-* **paintIndex**: 
+* **textureVariation**: 
 

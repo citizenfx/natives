@@ -5,7 +5,7 @@ ns: GRAPHICS
 
 ```c
 // 0xED3F346429CCD659 0xA4363188
-void REMOVE_DECAL(Object decal);
+void REMOVE_DECAL(int decal);
 ```
 
 

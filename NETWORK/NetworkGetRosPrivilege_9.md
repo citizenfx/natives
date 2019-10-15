@@ -1,0 +1,13 @@
+---
+ns: NETWORK
+aliases: ["0x66B59CFFD78467AF"]
+---
+## _NETWORK_GET_ROS_PRIVILEGE_9
+
+```c
+// 0x66B59CFFD78467AF 0x0CA1167F
+BOOL _NETWORK_GET_ROS_PRIVILEGE_9();
+```
+
+
+## Return value

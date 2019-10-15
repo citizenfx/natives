@@ -1,0 +1,13 @@
+---
+ns: HUD
+aliases: ["0xE0130B41D3CF4574"]
+---
+## _GET_MINIMAP_REVEAL_PERCENTAGE
+
+```c
+// 0xE0130B41D3CF4574 0xA4098ACC
+float _GET_MINIMAP_REVEAL_PERCENTAGE();
+```
+
+
+## Return value

@@ -5,7 +5,7 @@ ns: OBJECT
 
 ```c
 // 0x673966A0C0FD7171 0x17B99CE7
-Pickup CREATE_AMBIENT_PICKUP(Hash pickupHash, float posX, float posY, float posZ, int p4, int value, Hash modelHash, BOOL returnHandle, BOOL p8);
+Pickup CREATE_AMBIENT_PICKUP(Hash pickupHash, float posX, float posY, float posZ, int flags, int value, Hash modelHash, BOOL returnHandle, BOOL p8);
 ```
 
 ```
@@ -18,7 +18,7 @@ Pickup hashes: pastebin.com/8EuSv2r1
 * **posX**: 
 * **posY**: 
 * **posZ**: 
-* **p4**: 
+* **flags**: 
 * **value**: 
 * **modelHash**: 
 * **returnHandle**: 

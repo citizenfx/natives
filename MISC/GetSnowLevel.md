@@ -8,5 +8,8 @@ ns: MISC
 Any GET_SNOW_LEVEL();
 ```
 
+```
+NativeDB Return Type: float
+```
 
 ## Return value

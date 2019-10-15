@@ -6,7 +6,7 @@ aliases: ["0xA67F9C46D612B6F1"]
 
 ```c
 // 0xA67F9C46D612B6F1 0xB01A5434
-void _SET_MP_GAMER_TAG_ICONS(int headDisplayId, BOOL p1);
+void _SET_MP_GAMER_TAG_ICONS(int gamerTagId, BOOL p1);
 ```
 
 ```
@@ -14,6 +14,6 @@ Displays a bunch of icons above the players name, and level, and their name twic
 ```
 
 ## Parameters
-* **headDisplayId**: 
+* **gamerTagId**: 
 * **p1**: 
 

@@ -8,4 +8,7 @@ ns: GRAPHICS
 void _0xA44FF770DFBC5DAE();
 ```
 
+```
+REGISTER_*
+```
 

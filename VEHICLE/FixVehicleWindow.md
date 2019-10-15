@@ -8,6 +8,9 @@ ns: VEHICLE
 Any FIX_VEHICLE_WINDOW(Vehicle vehicle, int index);
 ```
 
+```
+NativeDB Return Type: void
+```
 
 ## Parameters
 * **vehicle**: 

@@ -8,6 +8,9 @@ ns: NETWORKCASH
 Any NETWORK_EARN_FROM_PICKUP(int amount);
 ```
 
+```
+NativeDB Return Type: void
+```
 
 ## Parameters
 * **amount**: 

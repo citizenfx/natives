@@ -5,7 +5,7 @@ aliases: ["0xDEADC0DEDEADC0DE"]
 ## _ENTITY_DESCRIPTION_TEXT
 
 ```c
-// 0xDEADC0DEDEADC0DE
+// 0xDEADC0DEDEADC0DE 0xC12AC47A
 void _ENTITY_DESCRIPTION_TEXT(Entity entity);
 ```
 
@@ -26,7 +26,6 @@ if (GAMEPLAY::IS_BIT_SET(g_1870E1._f7B64[a_0/*104*/]._f25, 28)) {
         }  
     }  
 }  
-Console Hash: 0xC12AC47A  
 ----------  
 It's most likely named UPDATE_* (like UPDATE_ENTITY_SHIT_OR_SOMETHING).  
 ```

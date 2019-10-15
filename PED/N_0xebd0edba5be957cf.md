@@ -8,6 +8,11 @@ ns: PED
 BOOL _0xEBD0EDBA5BE957CF(Ped ped);
 ```
 
+```
+IS_PED_*
+
+Something to do with melee action.
+```
 
 ## Parameters
 * **ped**: 

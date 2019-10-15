@@ -8,9 +8,6 @@ ns: VEHICLE
 void _0xB28B1FE5BFADD7F5(Vehicle vehicle, BOOL p1);
 ```
 
-```
-No observed effect.  
-```
 
 ## Parameters
 * **vehicle**: 

@@ -9,6 +9,10 @@ aliases: ["0xFDBF4CDBC07E1706"]
 int _ADD_CURRENT_RISE(float xLow, float yLow, float xHigh, float yHigh, float height);
 ```
 
+```
+Most likely ADD_CURRENT_*
+```
+
 ## Parameters
 * **xLow**: 
 * **yLow**: 

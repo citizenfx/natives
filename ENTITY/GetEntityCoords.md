@@ -1,6 +1,6 @@
 ---
-apiset: client
 ns: ENTITY
+apiset: client
 ---
 ## GET_ENTITY_COORDS
 

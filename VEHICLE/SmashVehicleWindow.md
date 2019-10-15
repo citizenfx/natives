@@ -8,6 +8,9 @@ ns: VEHICLE
 Any SMASH_VEHICLE_WINDOW(Vehicle vehicle, int index);
 ```
 
+```
+NativeDB Return Type: void
+```
 
 ## Parameters
 * **vehicle**: 
