@@ -1,11 +1,11 @@
 ---
 ns: WEAPON
 ---
-## _0x065D2AACAD8CF7A4
+## _GET_WEAPON_TIME_BETWEEN_SHOTS
 
 ```c
 // 0x065D2AACAD8CF7A4
-Any _0x065D2AACAD8CF7A4(Any p0);
+float _GET_WEAPON_TIME_BETWEEN_SHOTS(Hash weaponHash);
 ```
 
 ```
@@ -13,4 +13,4 @@ NativeDB Introduced: v1290
 ```
 
 ## Parameters
-* **p0**:
+* **weaponHash**:
