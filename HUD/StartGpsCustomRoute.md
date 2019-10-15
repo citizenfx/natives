@@ -6,7 +6,7 @@ aliases: ["0xDB34E8D56FC13B08"]
 
 ```c
 // 0xDB34E8D56FC13B08 0x7F93799B
-void START_GPS_CUSTOM_ROUTE(int hudColor, BOOL renderOnRadar, BOOL useColor);
+void START_GPS_CUSTOM_ROUTE(int hudColor, BOOL displayOnFoot, BOOL followPlayer);
 ```
 
 Starts a new GPS custom-route, allowing you to plot lines on the map.
