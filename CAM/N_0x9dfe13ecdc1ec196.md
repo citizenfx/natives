@@ -1,6 +1,6 @@
 ---
 ns: CAM
-aliases: ["0x9DFE13ECDC1EC196","SET_TIME_IDLE_DROP"]
+aliases: ["SET_TIME_IDLE_DROP"]
 ---
 ## _0x9DFE13ECDC1EC196
 
