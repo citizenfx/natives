@@ -1,12 +1,12 @@
 ---
 ns: HUD
-aliases: ["0xF9904D11F1ACBEC3"]
+aliases: ["0xF9904D11F1ACBEC3", "_GET_2D_COORD_FROM_3D_COORD"]
 ---
-## _GET_2D_COORD_FROM_3D_COORD
+## GET_HUD_SCREEN_POSITION_FROM_WORLD_POSITION
 
 ```c
 // 0xF9904D11F1ACBEC3 0xFE9A39F8
-BOOL _GET_2D_COORD_FROM_3D_COORD(float worldX, float worldY, float worldZ, float* screenX, float* screenY);
+BOOL GET_HUD_SCREEN_POSITION_FROM_WORLD_POSITION(float worldX, float worldY, float worldZ, float* screenX, float* screenY);
 ```
 
 ```
