@@ -1,12 +1,12 @@
 ---
 ns: OBJECT
-aliases: ["0xB6E6FBA95C7324AC"]
+aliases: ["0xB6E6FBA95C7324AC","_SET_DOOR_AJAR_ANGLE"]
 ---
-## _SET_DOOR_AJAR_ANGLE
+## DOOR_SYSTEM_SET_OPEN_RATIO
 
 ```c
 // 0xB6E6FBA95C7324AC 0x34883DE3
-void _SET_DOOR_AJAR_ANGLE(Hash doorHash, float ajar, BOOL p2, BOOL p3);
+void DOOR_SYSTEM_SET_OPEN_RATIO(Hash doorHash, float ajar, BOOL p2, BOOL p3);
 ```
 
 ```
