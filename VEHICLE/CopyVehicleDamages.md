@@ -10,7 +10,7 @@ void COPY_VEHICLE_DAMAGES(Vehicle sourceVehicle, Vehicle targetVehicle);
 ```
 
 ```
-Copy the damage like broken bumpers and broken lights from a vehicle and paste then on another vehicle.
+Copy the damage like broken bumpers and broken lights from a vehicle and paste them on another vehicle.
 ```
 
 ## Parameters
