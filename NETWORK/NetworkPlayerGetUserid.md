@@ -13,6 +13,10 @@ char* NETWORK_PLAYER_GET_USERID(Player player, char* userID);
 Sets [userID] to the user id of the given player. Returns "**Invalid**" if CPlayerInfo of the given player cannot be retrieved or the player doesn't exist.  
 ```
 
+```
+NativeDB Parameter 1: int* userID
+```
+
 ## Parameters
 * **player**: 
 * **userID**: 

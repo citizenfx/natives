@@ -5,10 +5,10 @@ ns: OBJECT
 
 ```c
 // 0xB252BC036B525623 0x46D06B9A
-void TRACK_OBJECT_VISIBILITY(Any p0);
+void TRACK_OBJECT_VISIBILITY(Object object);
 ```
 
 
 ## Parameters
-* **p0**: 
+* **object**: 
 

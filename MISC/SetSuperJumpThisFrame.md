@@ -8,6 +8,9 @@ ns: MISC
 int SET_SUPER_JUMP_THIS_FRAME(Player player);
 ```
 
+```
+NativeDB Return Type: void
+```
 
 ## Parameters
 * **player**: 

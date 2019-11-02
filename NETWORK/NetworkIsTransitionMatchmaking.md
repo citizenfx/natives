@@ -9,5 +9,8 @@ aliases: ["0x292564C735375EDF"]
 Any NETWORK_IS_TRANSITION_MATCHMAKING();
 ```
 
+```
+NativeDB Return Type: BOOL
+```
 
 ## Return value

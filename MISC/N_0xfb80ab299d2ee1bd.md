@@ -5,10 +5,13 @@ ns: MISC
 
 ```c
 // 0xFB80AB299D2EE1BD
-void _0xFB80AB299D2EE1BD(Any p0);
+void _0xFB80AB299D2EE1BD(BOOL toggle);
 ```
 
+```
+Toggles some stunt jump stuff.
+```
 
 ## Parameters
-* **p0**: 
+* **toggle**: 
 

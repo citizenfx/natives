@@ -1,0 +1,13 @@
+---
+ns: MISC
+aliases: ["0x996DD1E1E02F1008"]
+---
+## GET_NUM_SUCCESSFUL_STUNT_JUMPS
+
+```c
+// 0x996DD1E1E02F1008 0x006F9BA2
+int GET_NUM_SUCCESSFUL_STUNT_JUMPS();
+```
+
+
+## Return value

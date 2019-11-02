@@ -1,0 +1,12 @@
+---
+ns: HUD
+aliases: ["0x8817605C2BA76200"]
+---
+## _FORCE_CLOSE_TEXT_INPUT_BOX
+
+```c
+// 0x8817605C2BA76200
+void _FORCE_CLOSE_TEXT_INPUT_BOX();
+```
+
+

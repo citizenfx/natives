@@ -8,6 +8,9 @@ ns: ENTITY
 Any CLEAR_ENTITY_LAST_DAMAGE_ENTITY(Entity entity);
 ```
 
+```
+NativeDB Return Type: void
+```
 
 ## Parameters
 * **entity**: 

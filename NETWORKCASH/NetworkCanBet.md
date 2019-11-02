@@ -6,11 +6,11 @@ aliases: ["0x3A54E33660DED67F"]
 
 ```c
 // 0x3A54E33660DED67F 0xE3802533
-BOOL NETWORK_CAN_BET(Any p0);
+BOOL NETWORK_CAN_BET(int amount);
 ```
 
 
 ## Parameters
-* **p0**: 
+* **amount**: 
 
 ## Return value

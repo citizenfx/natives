@@ -1,0 +1,24 @@
+---
+ns: MOBILE
+aliases: ["0x247F0F73A182EA0B","_NETWORK_SHOP_IS_ITEM_UNLOCKED_HASH","_NETWORK_SHOP_DOES_ITEM_EXIST_HASH"]
+---
+## _NET_GAMESERVER_CATALOG_ITEM_EXISTS_HASH
+
+```c
+// 0x247F0F73A182EA0B
+BOOL _NET_GAMESERVER_CATALOG_ITEM_EXISTS_HASH(Hash hash);
+```
+
+```
+ex.:  
+v_15 = sub_10cc8(VEHICLE::GET_VEHICLE_WHEEL_TYPE(a_2));  
+if (!MOBILE::_247F0F73A182EA0B(v_15)) {  
+    return 1;  
+}  
+Belongs in UNK3, hashed version of 0xBD4D7EAF8A30F637  
+```
+
+## Parameters
+* **hash**: 
+
+## Return value

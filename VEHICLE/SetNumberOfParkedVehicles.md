@@ -8,6 +8,9 @@ ns: VEHICLE
 Any SET_NUMBER_OF_PARKED_VEHICLES(int value);
 ```
 
+```
+NativeDB Return Type: void
+```
 
 ## Parameters
 * **value**: 

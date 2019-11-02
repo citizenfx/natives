@@ -5,7 +5,7 @@ ns: PED
 
 ```c
 // 0xF9D9F7F2DB8E2FA0 0x9B9B7163
-Any GET_PED_COMBAT_RANGE(Ped ped);
+int GET_PED_COMBAT_RANGE(Ped ped);
 ```
 
 

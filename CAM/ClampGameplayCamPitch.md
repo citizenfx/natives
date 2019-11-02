@@ -15,6 +15,10 @@ Clamps the gameplay camera's current pitch.
 Eg. _CLAMP_GAMEPLAY_CAM_PITCH(0.0f, 0.0f) will set the vertical angle directly behind the player.  
 ```
 
+```
+NativeDB Return Type: void
+```
+
 ## Parameters
 * **minimum**: 
 * **maximum**: 

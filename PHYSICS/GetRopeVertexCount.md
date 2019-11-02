@@ -5,11 +5,11 @@ ns: PHYSICS
 
 ```c
 // 0x3655F544CD30F0B5 0x5131CD2C
-int GET_ROPE_VERTEX_COUNT(Object rope);
+int GET_ROPE_VERTEX_COUNT(int ropeId);
 ```
 
 
 ## Parameters
-* **rope**: 
+* **ropeId**: 
 
 ## Return value

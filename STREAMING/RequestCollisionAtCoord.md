@@ -8,6 +8,9 @@ ns: STREAMING
 Any REQUEST_COLLISION_AT_COORD(float x, float y, float z);
 ```
 
+```
+NativeDB Return Type: void
+```
 
 ## Parameters
 * **x**: 

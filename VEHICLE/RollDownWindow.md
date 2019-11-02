@@ -16,6 +16,10 @@ windowIndex:
 3 = Back Left Window  
 ```
 
+```
+NativeDB Return Type: void
+```
+
 ## Parameters
 * **vehicle**: 
 * **windowIndex**: 

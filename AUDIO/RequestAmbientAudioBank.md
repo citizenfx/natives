@@ -12,6 +12,10 @@ BOOL REQUEST_AMBIENT_AUDIO_BANK(char* p0, BOOL p1);
 All occurrences and usages found in b617d, sorted alphabetically and identical lines removed: pastebin.com/XZ1tmGEz  
 ```
 
+```
+NativeDB Added Parameter 3: int p2
+```
+
 ## Parameters
 * **p0**: 
 * **p1**: 

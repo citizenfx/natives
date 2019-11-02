@@ -5,7 +5,7 @@ ns: NETWORK
 
 ```c
 // 0x1D6A14F1F9A736FC 0x9C95D0BB
-int NETWORK_GET_HOST_OF_SCRIPT(char* scriptName, int p1, int p2);
+Player NETWORK_GET_HOST_OF_SCRIPT(char* scriptName, int p1, int p2);
 ```
 
 ```

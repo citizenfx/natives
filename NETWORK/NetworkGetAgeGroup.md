@@ -1,0 +1,13 @@
+---
+ns: NETWORK
+aliases: ["0x9614B71F8ADB982B"]
+---
+## NETWORK_GET_AGE_GROUP
+
+```c
+// 0x9614B71F8ADB982B 0xAB07CBBE
+int NETWORK_GET_AGE_GROUP();
+```
+
+
+## Return value

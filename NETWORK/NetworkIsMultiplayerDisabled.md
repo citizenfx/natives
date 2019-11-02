@@ -9,5 +9,8 @@ aliases: ["0x9747292807126EDA"]
 ScrHandle NETWORK_IS_MULTIPLAYER_DISABLED();
 ```
 
+```
+NativeDB Return Type: BOOL
+```
 
 ## Return value

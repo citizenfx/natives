@@ -8,9 +8,6 @@ ns: ENTITY
 Vector3 GET_ENTITY_ROTATION_VELOCITY(Entity entity);
 ```
 
-```
-ANGULAR_VELOCITY*  
-```
 
 ## Parameters
 * **entity**: 

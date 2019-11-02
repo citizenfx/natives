@@ -5,14 +5,17 @@ ns: NETWORKCASH
 
 ```c
 // 0x1C436FD11FFA692F 0xF8A07513
-void NETWORK_SPENT_BETTING(Any p0, Any p1, Any* p2, BOOL p3, BOOL p4);
+void NETWORK_SPENT_BETTING(int amount, int p1, Any* matchId, BOOL p3, BOOL p4);
 ```
 
+```
+NativeDB Parameter 2: char* matchId
+```
 
 ## Parameters
-* **p0**: 
+* **amount**: 
 * **p1**: 
-* **p2**: 
+* **matchId**: 
 * **p3**: 
 * **p4**: 
 

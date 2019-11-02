@@ -1,0 +1,13 @@
+---
+ns: NETWORK
+aliases: ["0x593570C289A77688"]
+---
+## _NETWORK_GET_ROS_PRIVILEGE_24
+
+```c
+// 0x593570C289A77688
+BOOL _NETWORK_GET_ROS_PRIVILEGE_24();
+```
+
+
+## Return value

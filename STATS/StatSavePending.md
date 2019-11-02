@@ -8,5 +8,8 @@ ns: STATS
 Any STAT_SAVE_PENDING();
 ```
 
+```
+NativeDB Return Type: BOOL
+```
 
 ## Return value

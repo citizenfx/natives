@@ -15,6 +15,11 @@ v678: Ped ped, bool unused, bool flag1, bool flag2
 flag1 = super jump, flag2 = do nothing if flag1 is false and doubles super jump height if flag1 is true.  
 ```
 
+```
+NativeDB Added Parameter 3: Any p2
+NativeDB Added Parameter 4: Any p3
+```
+
 ## Parameters
 * **ped**: 
 * **unused**: 

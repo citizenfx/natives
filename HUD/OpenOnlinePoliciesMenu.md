@@ -1,0 +1,15 @@
+---
+ns: HUD
+aliases: ["_SHOW_SOCIAL_CLUB_LEGAL_SCREEN"]
+---
+## OPEN_ONLINE_POLICIES_MENU
+
+```c
+// 0x805D7CBB36FD6C4C 0x19FCBBB2
+void OPEN_ONLINE_POLICIES_MENU();
+```
+
+```
+probs one frame  
+```
+

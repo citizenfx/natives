@@ -5,7 +5,7 @@ ns: AUDIO
 
 ```c
 // 0xDFEBD56D9BD1EB16 0x3F277B62
-Any PLAY_POLICE_REPORT(char* name, float p1);
+int PLAY_POLICE_REPORT(char* name, float p1);
 ```
 
 ```
