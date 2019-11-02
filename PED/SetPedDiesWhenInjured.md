@@ -8,6 +8,9 @@ ns: PED
 Any SET_PED_DIES_WHEN_INJURED(Ped ped, BOOL toggle);
 ```
 
+```
+NativeDB Return Type: void
+```
 
 ## Parameters
 * **ped**: 

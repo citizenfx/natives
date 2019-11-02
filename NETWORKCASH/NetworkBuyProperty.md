@@ -8,6 +8,9 @@ ns: NETWORKCASH
 void NETWORK_BUY_PROPERTY(float propertyCost, Hash propertyName, BOOL p2, BOOL p3);
 ```
 
+```
+NativeDB Parameter 0: int propertyCost
+```
 
 ## Parameters
 * **propertyCost**: 

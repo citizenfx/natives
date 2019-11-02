@@ -1,0 +1,13 @@
+---
+ns: MISC
+aliases: ["0x2B626A0150E4D449"]
+---
+## GET_REPLAY_STAT_MISSION_TYPE
+
+```c
+// 0x2B626A0150E4D449 0x710E5D1E
+int GET_REPLAY_STAT_MISSION_TYPE();
+```
+
+
+## Return value

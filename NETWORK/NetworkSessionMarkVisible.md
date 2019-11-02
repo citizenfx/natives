@@ -6,10 +6,10 @@ aliases: ["0x271CC6AB59EBF9A5"]
 
 ```c
 // 0x271CC6AB59EBF9A5 0x7017257D
-void NETWORK_SESSION_MARK_VISIBLE(BOOL p0);
+void NETWORK_SESSION_MARK_VISIBLE(BOOL toggle);
 ```
 
 
 ## Parameters
-* **p0**: 
+* **toggle**: 
 

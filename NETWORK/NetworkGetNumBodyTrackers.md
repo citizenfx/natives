@@ -1,0 +1,13 @@
+---
+ns: NETWORK
+aliases: ["0xD38C4A6D047C019D"]
+---
+## _NETWORK_GET_NUM_BODY_TRACKERS
+
+```c
+// 0xD38C4A6D047C019D 0x17CBC608
+int _NETWORK_GET_NUM_BODY_TRACKERS();
+```
+
+
+## Return value

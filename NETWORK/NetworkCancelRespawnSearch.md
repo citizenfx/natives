@@ -1,5 +1,6 @@
 ---
 ns: NETWORK
+aliases: ["0xFB8F2A6F3DF08CBE"]
 ---
 ## NETWORK_CANCEL_RESPAWN_SEARCH
 

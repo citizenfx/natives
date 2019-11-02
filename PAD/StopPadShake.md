@@ -5,10 +5,10 @@ ns: PAD
 
 ```c
 // 0x38C16A305E8CDC8D 0x8F75657E
-void STOP_PAD_SHAKE(Any p0);
+void STOP_PAD_SHAKE(int inputGroup);
 ```
 
 
 ## Parameters
-* **p0**: 
+* **inputGroup**: 
 

@@ -12,4 +12,8 @@ Any ROPE_UNLOAD_TEXTURES();
 Unloads rope textures for all ropes in the current scene.  
 ```
 
+```
+NativeDB Return Type: void
+```
+
 ## Return value

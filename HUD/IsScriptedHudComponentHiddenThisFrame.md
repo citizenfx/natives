@@ -1,0 +1,16 @@
+---
+ns: HUD
+aliases: ["0x09C0403ED9A751C2"]
+---
+## IS_SCRIPTED_HUD_COMPONENT_HIDDEN_THIS_FRAME
+
+```c
+// 0x09C0403ED9A751C2 0xE8C8E535
+BOOL IS_SCRIPTED_HUD_COMPONENT_HIDDEN_THIS_FRAME(int id);
+```
+
+
+## Parameters
+* **id**: 
+
+## Return value

@@ -6,7 +6,7 @@ aliases: ["0xDFB4138EEFED7B81"]
 
 ```c
 // 0xDFB4138EEFED7B81 0x6BDE5CE4
-BOOL _GET_PROJECTILE_NEAR_PED_COORDS(Ped ped, Hash projHash, float radius, Vector3* projPos, BOOL ownedByPlayer);
+BOOL _GET_PROJECTILE_NEAR_PED_COORDS(Ped ped, Hash weaponHash, float radius, Vector3* entity, BOOL ownedByPlayer);
 ```
 
 ```
@@ -19,11 +19,15 @@ p4 isn't an Entity*, it's actually a Vector3*, which outputs the position of the
 p5 is (most likely) ownedByPlayer. (see IS_PROJECTILE_IN_AREA for info)  
 ```
 
+```
+NativeDB Parameter 3: Entity* entity
+```
+
 ## Parameters
 * **ped**: 
-* **projHash**: 
+* **weaponHash**: 
 * **radius**: 
-* **projPos**: 
+* **entity**: 
 * **ownedByPlayer**: 
 
 ## Return value

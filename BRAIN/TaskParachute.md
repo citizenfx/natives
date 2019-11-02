@@ -14,6 +14,10 @@ Second parameter is unused.
 seconds parameter was for jetpack in the early stages of gta and the hard coded code is now removed  
 ```
 
+```
+NativeDB Added Parameter 3: BOOL p2
+```
+
 ## Parameters
 * **ped**: 
 * **p1**: 

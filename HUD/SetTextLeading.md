@@ -13,6 +13,10 @@ from script am_mp_yacht.c int?
 ui::set_text_leading(2);  
 ```
 
+```
+NativeDB Parameter 0: int p0
+```
+
 ## Parameters
 * **p0**: 
 

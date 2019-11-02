@@ -5,7 +5,7 @@ ns: FIRE
 
 ```c
 // 0x6B83617E04503888 0xE7529357
-int START_SCRIPT_FIRE(float X, float Y, float Z, int maxChildren, BOOL isGasFire);
+FireId START_SCRIPT_FIRE(float X, float Y, float Z, int maxChildren, BOOL isGasFire);
 ```
 
 ```

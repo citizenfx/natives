@@ -1,16 +1,16 @@
 ---
 ns: PED
+aliases: ["_GET_PED_HEAD_BLEND_DATA"]
 ---
-## _GET_PED_HEAD_BLEND_DATA
+## GET_PED_HEAD_BLEND_DATA
 
 ```c
-// 0x2746BD9D88C5C5D0
-BOOL _GET_PED_HEAD_BLEND_DATA(Ped ped, Any* headBlendData);
+// 0x2746BD9D88C5C5D0 0x44E1680C
+BOOL GET_PED_HEAD_BLEND_DATA(Ped ped, Any* headBlendData);
 ```
 
 ```
 The pointer is to a padded struct that matches the arguments to SET_PED_HEAD_BLEND_DATA(...). There are 4 bytes of padding after each field.  
-(Edit) Console Hash: 0x44E1680C  
 pass this struct in the second parameter   
 typedef struct  
 {  

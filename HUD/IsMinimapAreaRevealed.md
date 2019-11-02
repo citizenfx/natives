@@ -9,6 +9,9 @@ aliases: ["0x6E31B91145873922"]
 BOOL _IS_MINIMAP_AREA_REVEALED(float x, float y, float radius);
 ```
 
+```
+GET_MI*
+```
 
 ## Parameters
 * **x**: 

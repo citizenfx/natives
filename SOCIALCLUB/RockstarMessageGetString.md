@@ -1,0 +1,13 @@
+---
+ns: SOCIALCLUB
+aliases: ["0xDF649C4E9AFDD788"]
+---
+## _ROCKSTAR_MESSAGE_GET_STRING
+
+```c
+// 0xDF649C4E9AFDD788 0x468668F0
+char* _ROCKSTAR_MESSAGE_GET_STRING();
+```
+
+
+## Return value

@@ -6,7 +6,7 @@ aliases: ["_DISPLAY_HELP_TEXT_FROM_STRING_LABEL"]
 
 ```c
 // 0x238FFE5C7B0498A6 0xB59B530D
-void END_TEXT_COMMAND_DISPLAY_HELP(Any p0, BOOL loop, BOOL beep, int duration);
+void END_TEXT_COMMAND_DISPLAY_HELP(int p0, BOOL loop, BOOL beep, int shape);
 ```
 
 ```
@@ -34,5 +34,5 @@ Used to be known as _DISPLAY_HELP_TEXT_FROM_STRING_LABEL
 * **p0**: 
 * **loop**: 
 * **beep**: 
-* **duration**: 
+* **shape**: 
 

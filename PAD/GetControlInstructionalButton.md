@@ -21,6 +21,10 @@ gtaforums.com/topic/819070-c-draw-instructional-buttons-scaleform-movie/#entry10
 0, 1 and 2 used in the scripts. 0 is by far the most common of them.  
 ```
 
+```
+NativeDB Parameter 2: BOOL p2
+```
+
 ## Parameters
 * **inputGroup**: 
 * **control**: 

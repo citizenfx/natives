@@ -8,6 +8,9 @@ ns: ITEMSET
 Vehicle CREATE_ITEMSET(Vehicle distri);
 ```
 
+```
+NativeDB Parameter 0: BOOL distri
+```
 
 ## Parameters
 * **distri**: 

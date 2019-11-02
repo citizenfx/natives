@@ -8,9 +8,6 @@ ns: MOBILE
 BOOL CELL_CAM_IS_CHAR_VISIBLE_NO_FACE_CHECK(Entity entity);
 ```
 
-```
-hash collision???  
-```
 
 ## Parameters
 * **entity**: 

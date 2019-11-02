@@ -9,4 +9,7 @@ aliases: ["0xAE4E8157D9ECF087"]
 void _END_TEXT_COMMAND_SCALEFORM_STRING_2();
 ```
 
+```
+Same as END_TEXT_COMMAND_SCALEFORM_STRING but does not perform HTML conversion for text tokens.
+```
 

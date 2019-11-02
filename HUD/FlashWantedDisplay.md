@@ -8,6 +8,9 @@ ns: HUD
 Any FLASH_WANTED_DISPLAY(BOOL p0);
 ```
 
+```
+NativeDB Return Type: void
+```
 
 ## Parameters
 * **p0**: 

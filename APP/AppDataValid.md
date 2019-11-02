@@ -8,5 +8,8 @@ ns: APP
 int APP_DATA_VALID();
 ```
 
+```
+NativeDB Return Type: BOOL
+```
 
 ## Return value

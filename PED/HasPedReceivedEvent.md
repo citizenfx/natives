@@ -5,12 +5,12 @@ ns: PED
 
 ```c
 // 0x8507BCB710FA6DC0 0xECD73DB0
-BOOL HAS_PED_RECEIVED_EVENT(Ped ped, Any p1);
+BOOL HAS_PED_RECEIVED_EVENT(Ped ped, int eventId);
 ```
 
 
 ## Parameters
 * **ped**: 
-* **p1**: 
+* **eventId**: 
 
 ## Return value

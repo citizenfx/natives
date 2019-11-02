@@ -5,7 +5,7 @@ ns: PLAYER
 
 ```c
 // 0x477D5D63E63ECA5D 0x0D77CC34
-void SIMULATE_PLAYER_INPUT_GAIT(Player control, float amount, int gaitType, float speed, BOOL p4, BOOL p5);
+void SIMULATE_PLAYER_INPUT_GAIT(Player player, float amount, int gaitType, float speed, BOOL p4, BOOL p5);
 ```
 
 ```
@@ -17,7 +17,7 @@ Function.Call(Hash.SIMULATE_PLAYER_INPUT_GAIT, Game.Player, 1.0f, 100, 1.0f, 1, 
 ```
 
 ## Parameters
-* **control**: 
+* **player**: 
 * **amount**: 
 * **gaitType**: 
 * **speed**: 

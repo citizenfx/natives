@@ -24,6 +24,10 @@ Side note, setting the first parameter to 0 seems to mute sound or so?
 Seems it's like ADD_EXPLOSION, etc. the first 2 params. The 3rd atm no need to worry since it always seems to be 0.  
 ```
 
+```
+NativeDB Return Type: void
+```
+
 ## Parameters
 * **vehicle**: 
 * **isAudible**: 

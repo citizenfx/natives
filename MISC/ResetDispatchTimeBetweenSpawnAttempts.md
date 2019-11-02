@@ -1,0 +1,16 @@
+---
+ns: MISC
+---
+## RESET_DISPATCH_TIME_BETWEEN_SPAWN_ATTEMPTS
+
+```c
+// 0xEB2DB0CAD13154B3 0x1479E85A
+void RESET_DISPATCH_TIME_BETWEEN_SPAWN_ATTEMPTS(Any p0);
+```
+
+```
+NativeDB Introduced: v323
+```
+
+## Parameters
+* **p0**:

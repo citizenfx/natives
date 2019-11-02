@@ -6,12 +6,12 @@ aliases: ["0x81404F3DC124FE5B"]
 
 ```c
 // 0x81404F3DC124FE5B 0x8474E6F0
-BOOL NETWORK_MONEY_CAN_BET(Any p0, BOOL p1, BOOL p2);
+BOOL NETWORK_MONEY_CAN_BET(int amount, BOOL p1, BOOL p2);
 ```
 
 
 ## Parameters
-* **p0**: 
+* **amount**: 
 * **p1**: 
 * **p2**: 
 
