@@ -1,17 +1,17 @@
 ---
 ns: VEHICLE
+aliases: ["0xC24075310A8B9CD1"]
 ---
-## _0xC24075310A8B9CD1
+## _SET_HYDRAULIC_WHEEL_STATE_TRANSITION
 
 ```c
 // 0xC24075310A8B9CD1
-void _0xC24075310A8B9CD1(Any p0, Any p1, Any p2, Any p3, Any p4);
+void _SET_HYDRAULIC_WHEEL_STATE_TRANSITION(Vehicle vehicle, int wheelID, Any p2, float p3, float p4);
 ```
 
-
 ## Parameters
-* **p0**: 
-* **p1**: 
+* **vehicle**: 
+* **wheelID**: 
 * **p2**: 
 * **p3**: 
 * **p4**: 

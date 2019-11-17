@@ -1,15 +1,19 @@
 ---
 ns: VEHICLE
+aliases: ["0x28B18377EB6E25F6"]
 ---
-## _0x28B18377EB6E25F6
+## _SET_HYDRAULIC_RAISED
 
 ```c
 // 0x28B18377EB6E25F6
-void _0x28B18377EB6E25F6(Any p0, Any p1);
+void _SET_HYDRAULIC_RAISED(Vehicle vehicle, BOOL toggle);
 ```
 
+```
+Toggles between raised & lower hydraulics
+```
 
 ## Parameters
-* **p0**: 
-* **p1**: 
+* **vehicle**: 
+* **toggle**: 
 

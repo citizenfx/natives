@@ -1,16 +1,16 @@
 ---
 ns: VEHICLE
+aliases: ["0x84EA99C62CB3EF0C"]
 ---
-## _0x84EA99C62CB3EF0C
+## _SET_HYDRAULIC_STATE
 
 ```c
 // 0x84EA99C62CB3EF0C
-void _0x84EA99C62CB3EF0C(Any p0, Any p1, Any p2);
+void _SET_HYDRAULIC_STATE(Vehicle vehicle, int wheelID, float height);
 ```
 
-
 ## Parameters
-* **p0**: 
-* **p1**: 
-* **p2**: 
+* **vehicle**: 
+* **wheelID**: 
+* **height**: 
 

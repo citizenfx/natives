@@ -1,15 +1,15 @@
 ---
 ns: VEHICLE
+aliases: ["0x756AE6E962168A04"]
 ---
-## _0x756AE6E962168A04
+## _SET_VEHICLE_RAMP_UPWARDS_LAUNCH_MOTION
 
 ```c
 // 0x756AE6E962168A04
-void _0x756AE6E962168A04(Any p0, Any p1);
+void _SET_VEHICLE_RAMP_UPWARDS_LAUNCH_MOTION(Vehicle vehicle, BOOL toggle);
 ```
 
-
 ## Parameters
-* **p0**: 
-* **p1**: 
+* **vehicle**: 
+* **toggle**: 
 

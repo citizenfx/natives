@@ -1,14 +1,14 @@
 ---
 ns: VEHICLE
+aliases: ["0xBD32E46AA95C1DD2"]
 ---
-## _0xBD32E46AA95C1DD2
+## _SET_BOAT_SINKING
 
 ```c
 // 0xBD32E46AA95C1DD2
-void _0xBD32E46AA95C1DD2(Any p0);
+void _SET_BOAT_SINKING(Vehicle vehicle);
 ```
 
-
 ## Parameters
-* **p0**: 
+* **vehicle**: 
 

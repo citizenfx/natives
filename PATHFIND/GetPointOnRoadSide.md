@@ -1,19 +1,19 @@
 ---
 ns: PATHFIND
+aliases: ["0x16F46FB18C8009E4"]
 ---
-## _0x16F46FB18C8009E4
+## _GET_POINT_ON_ROAD_SIDE
 
 ```c
 // 0x16F46FB18C8009E4 0xF6422F9A
-Any _0x16F46FB18C8009E4(Any p0, Any p1, Any p2, Any p3, Any p4);
+BOOL _GET_POINT_ON_ROAD_SIDE(float x, float y, float z, int p3, Vector3* outPosition);
 ```
 
-
 ## Parameters
-* **p0**: 
-* **p1**: 
-* **p2**: 
+* **x**: 
+* **y**: 
+* **z**: 
 * **p3**: 
-* **p4**: 
+* **outPosition**: 
 
 ## Return value

@@ -1,15 +1,15 @@
 ---
 ns: VEHICLE
+aliases: ["0x99093F60746708CA"]
 ---
-## _0x99093F60746708CA
+## _GET_ENTITY_ATTACHED_TO_CARGOBOB
 
 ```c
 // 0x99093F60746708CA
-Any _0x99093F60746708CA(Any p0);
+Entity _GET_ENTITY_ATTACHED_TO_CARGOBOB(Vehicle vehicle);
 ```
 
-
 ## Parameters
-* **p0**: 
+* **vehicle**: 
 
 ## Return value

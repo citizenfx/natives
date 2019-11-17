@@ -1,15 +1,19 @@
 ---
 ns: VEHICLE
+aliases: ["0x1201E8A3290A3B98"]
 ---
-## _0x1201E8A3290A3B98
+## _SET_CAMBERED_WHEELS_DISABLED
 
 ```c
 // 0x1201E8A3290A3B98
-void _0x1201E8A3290A3B98(Any p0, Any p1);
+void _SET_CAMBERED_WHEELS_DISABLED(Vehicle vehicle, BOOL toggle);
 ```
 
+```
+Disables wheel cambering & hydraulics
+```
 
 ## Parameters
-* **p0**: 
-* **p1**: 
+* **vehicle**: 
+* **toggle**: 
 

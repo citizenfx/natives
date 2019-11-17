@@ -1,15 +1,15 @@
 ---
 ns: HUD
+aliases: ["0xF47E567B3630DD12"]
 ---
-## _0xF47E567B3630DD12
+## _OVERRIDE_MULTIPLAYER_CHAT_COLOUR
 
 ```c
 // 0xF47E567B3630DD12
-void _0xF47E567B3630DD12(Any p0, Any p1);
+void _OVERRIDE_MULTIPLAYER_CHAT_COLOUR(int p0, int hudColor);
 ```
-
 
 ## Parameters
 * **p0**: 
-* **p1**: 
+* **hudColor**: 
 

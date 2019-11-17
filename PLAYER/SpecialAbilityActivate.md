@@ -1,14 +1,14 @@
 ---
 ns: PLAYER
+aliases: ["0x821FDC827D6F4090"]
 ---
-## _0x821FDC827D6F4090
+## _SPECIAL_ABILITY_ACTIVATE
 
 ```c
 // 0x821FDC827D6F4090
-void _0x821FDC827D6F4090(Any p0);
+void _SPECIAL_ABILITY_ACTIVATE(Player player);
 ```
 
-
 ## Parameters
-* **p0**: 
+* **player**: 
 

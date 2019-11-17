@@ -1,22 +1,23 @@
 ---
 ns: MISC
+aliases: ["0x9E82F0F362881B29"]
 ---
-## _0x9E82F0F362881B29
+## _GET_GROUND_Z_FOR_3D_COORD_2
 
 ```c
 // 0x9E82F0F362881B29
-Any _0x9E82F0F362881B29(Any p0, Any p1, Any p2, Any p3, Any p4);
+BOOL _GET_GROUND_Z_FOR_3D_COORD_2(float x, float y, float z, float* groundZ, BOOL p4);
 ```
 
 ```
-NativeDB Added Parameter 6: Any p5
+NativeDB Added Parameter 6: BOOL p5
 ```
 
 ## Parameters
-* **p0**: 
-* **p1**: 
-* **p2**: 
-* **p3**: 
+* **x**: 
+* **y**: 
+* **z**: 
+* **groundZ**: 
 * **p4**: 
 
 ## Return value

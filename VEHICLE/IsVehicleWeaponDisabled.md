@@ -1,17 +1,21 @@
 ---
 ns: VEHICLE
+aliases: ["0x563B65A643ED072E"]
 ---
-## _0x563B65A643ED072E
+## _IS_VEHICLE_WEAPON_DISABLED
 
 ```c
 // 0x563B65A643ED072E
-Any _0x563B65A643ED072E(Any p0, Any p1, Any p2);
+Any _IS_VEHICLE_WEAPON_DISABLED(Any weaponHash, Vehicle vehicle, Ped owner);
 ```
 
+```
+NativeDB Parameter 0: Hash weaponHash
+```
 
 ## Parameters
-* **p0**: 
-* **p1**: 
-* **p2**: 
+* **weaponHash**: 
+* **vehicle**: 
+* **owner**: 
 
 ## Return value

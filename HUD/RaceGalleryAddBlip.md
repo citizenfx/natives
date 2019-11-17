@@ -1,17 +1,22 @@
 ---
 ns: HUD
+aliases: ["0x551DF99658DB6EE8"]
 ---
-## _0x551DF99658DB6EE8
+## _RACE_GALLERY_ADD_BLIP
 
 ```c
 // 0x551DF99658DB6EE8 0x786CA0A2
-Any _0x551DF99658DB6EE8(float p0, float p1, float p2);
+Any _RACE_GALLERY_ADD_BLIP(float x, float y, float z);
 ```
 
+```
+Add a BLIP_GALLERY at the specific coordinate.
+Used in fm_maintain_transition_players to display race track points.
+```
 
 ## Parameters
-* **p0**: 
-* **p1**: 
-* **p2**: 
+* **x**: 
+* **y**: 
+* **z**: 
 
 ## Return value

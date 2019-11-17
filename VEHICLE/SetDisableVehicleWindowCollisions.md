@@ -1,15 +1,19 @@
 ---
 ns: VEHICLE
+aliases: ["0x1087BC8EC540DAEB"]
 ---
-## _0x1087BC8EC540DAEB
+## _SET_DISABLE_VEHICLE_WINDOW_COLLISIONS
 
 ```c
 // 0x1087BC8EC540DAEB
-void _0x1087BC8EC540DAEB(Any p0, Any p1);
+void _SET_DISABLE_VEHICLE_WINDOW_COLLISIONS(Vehicle vehicle, BOOL p1);
 ```
 
+```
+Must be called each frame
+```
 
 ## Parameters
-* **p0**: 
+* **vehicle**: 
 * **p1**: 
 

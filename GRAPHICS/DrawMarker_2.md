@@ -1,41 +1,42 @@
 ---
 ns: GRAPHICS
+aliases: ["0xE82728F0DE75D13A"]
 ---
-## _0xE82728F0DE75D13A
+## _DRAW_MARKER_2
 
 ```c
 // 0xE82728F0DE75D13A
-void _0xE82728F0DE75D13A(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8, Any p9, Any p10, Any p11, Any p12, Any p13, Any p14, Any p15, Any p16, Any p17, Any p18, Any p19, Any p20, Any p21, Any p22, Any p23, Any p24);
+void _DRAW_MARKER_2(int type, float posX, float posY, float posZ, float dirX, float dirY, float dirZ, float rotX, float rotY, float rotZ, float scaleX, float scaleY, float scaleZ, int red, int green, int blue, int alpha, BOOL bobUpAndDown, BOOL faceCamera, int p19, BOOL rotate, char* textureDict, char* textureName, BOOL drawOnEnts, BOOL p24);
 ```
 
 ```
-NativeDB Added Parameter 26: Any p25
+NativeDB Added Parameter 26: BOOL p25
 ```
 
 ## Parameters
-* **p0**: 
-* **p1**: 
-* **p2**: 
-* **p3**: 
-* **p4**: 
-* **p5**: 
-* **p6**: 
-* **p7**: 
-* **p8**: 
-* **p9**: 
-* **p10**: 
-* **p11**: 
-* **p12**: 
-* **p13**: 
-* **p14**: 
-* **p15**: 
-* **p16**: 
-* **p17**: 
-* **p18**: 
+* **type**: 
+* **posX**: 
+* **posY**: 
+* **posZ**: 
+* **dirX**: 
+* **dirY**: 
+* **dirZ**: 
+* **rotX**: 
+* **rotY**: 
+* **rotZ**: 
+* **scaleX**: 
+* **scaleY**: 
+* **scaleZ**: 
+* **red**: 
+* **green**: 
+* **blue**: 
+* **alpha**: 
+* **bobUpAndDown**: 
+* **faceCamera**: 
 * **p19**: 
-* **p20**: 
-* **p21**: 
-* **p22**: 
-* **p23**: 
+* **rotate**: 
+* **textureDict**: 
+* **textureName**: 
+* **drawOnEnts**: 
 * **p24**: 
 

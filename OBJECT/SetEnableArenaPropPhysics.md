@@ -1,11 +1,16 @@
 ---
 ns: OBJECT
+aliases: ["0x911024442F4898F0"]
 ---
-## _0x911024442F4898F0
+## _SET_ENABLE_ARENA_PROP_PHYSICS
 
 ```c
 // 0x911024442F4898F0
-void _0x911024442F4898F0(Any p0, Any p1, Any p2);
+void _SET_ENABLE_ARENA_PROP_PHYSICS(Entity entity, BOOL p1, int p2);
+```
+
+```
+Activate the physics to: "xs_prop_arena_{flipper,wall,bollard,turntable,pit}"
 ```
 
 ```
@@ -13,6 +18,6 @@ NativeDB Introduced: v1604
 ```
 
 ## Parameters
-* **p0**:
+* **entity**:
 * **p1**:
 * **p2**:

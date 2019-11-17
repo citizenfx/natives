@@ -1,15 +1,16 @@
 ---
 ns: PATHFIND
+aliases: ["0x228E5C6AD4D74BFD"]
 ---
-## _0x228E5C6AD4D74BFD
+## _SET_ALL_PATHS_CACHE_BOUNDINGSTRUCT
 
 ```c
 // 0x228E5C6AD4D74BFD 0xD6A3B458
-void _0x228E5C6AD4D74BFD(BOOL toggle);
+void _SET_ALL_PATHS_CACHE_BOUNDINGSTRUCT(BOOL toggle);
 ```
 
 ```
-Probably the opposite of  0x80E4A6EDDB0BE8D9 / LOAD_ALL_PATH_NODES  
+Toggles a global boolean, name is probably a hash collision but describes its functionality.
 ```
 
 ## Parameters

@@ -1,19 +1,19 @@
 ---
 ns: PATHFIND
+aliases: ["0xA0F8A7517A273C05"]
 ---
-## _0xA0F8A7517A273C05
+## _GET_ROAD_SIDE_POINT_WITH_HEADING
 
 ```c
 // 0xA0F8A7517A273C05
-Any _0xA0F8A7517A273C05(Any p0, Any p1, Any p2, Any p3, Any p4);
+BOOL _GET_ROAD_SIDE_POINT_WITH_HEADING(float x, float y, float z, float heading, Vector3* outPosition);
 ```
 
-
 ## Parameters
-* **p0**: 
-* **p1**: 
-* **p2**: 
-* **p3**: 
-* **p4**: 
+* **x**: 
+* **y**: 
+* **z**: 
+* **heading**: 
+* **outPosition**: 
 
 ## Return value

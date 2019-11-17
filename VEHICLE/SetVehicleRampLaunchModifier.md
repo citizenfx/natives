@@ -1,15 +1,15 @@
 ---
 ns: VEHICLE
+aliases: ["0xEFC13B1CE30D755D"]
 ---
-## _0xEFC13B1CE30D755D
+## _SET_VEHICLE_RAMP_LAUNCH_MODIFIER
 
 ```c
 // 0xEFC13B1CE30D755D
-void _0xEFC13B1CE30D755D(Any p0, Any p1);
+void _SET_VEHICLE_RAMP_LAUNCH_MODIFIER(Vehicle vehicle, float p1);
 ```
 
-
 ## Parameters
-* **p0**: 
+* **vehicle**: 
 * **p1**: 
 

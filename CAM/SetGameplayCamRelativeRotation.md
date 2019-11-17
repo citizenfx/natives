@@ -1,16 +1,16 @@
 ---
 ns: CAM
+aliases: ["0x48608C3464F58AB4"]
 ---
-## _0x48608C3464F58AB4
+## _SET_GAMEPLAY_CAM_RELATIVE_ROTATION
 
 ```c
 // 0x48608C3464F58AB4
-void _0x48608C3464F58AB4(Any p0, Any p1, Any p2);
+void _SET_GAMEPLAY_CAM_RELATIVE_ROTATION(float roll, float pitch, float yaw);
 ```
 
-
 ## Parameters
-* **p0**: 
-* **p1**: 
-* **p2**: 
+* **roll**: 
+* **pitch**: 
+* **yaw**: 
 

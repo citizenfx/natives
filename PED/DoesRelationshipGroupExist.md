@@ -1,15 +1,19 @@
 ---
 ns: PED
+aliases: ["0xCC6E3B6BB69501F1"]
 ---
-## _0xCC6E3B6BB69501F1
+## _DOES_RELATIONSHIP_GROUP_EXIST
 
 ```c
 // 0xCC6E3B6BB69501F1
-Any _0xCC6E3B6BB69501F1(Any p0);
+BOOL _DOES_RELATIONSHIP_GROUP_EXIST(Any groupHash);
 ```
 
+```
+NativeDB Parameter 0: Hash groupHash
+```
 
 ## Parameters
-* **p0**: 
+* **groupHash**: 
 
 ## Return value

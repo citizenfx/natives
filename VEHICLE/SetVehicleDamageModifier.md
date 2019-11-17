@@ -1,11 +1,12 @@
 ---
 ns: VEHICLE
+aliases: ["0x4E20D2A627011E8E"]
 ---
-## _0x4E20D2A627011E8E
+## _SET_VEHICLE_DAMAGE_MODIFIER
 
 ```c
 // 0x4E20D2A627011E8E
-Any _0x4E20D2A627011E8E(Vehicle vehicle, float p1);
+Any _SET_VEHICLE_DAMAGE_MODIFIER(Vehicle vehicle, float p1);
 ```
 
 ```
