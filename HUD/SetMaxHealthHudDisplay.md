@@ -1,13 +1,13 @@
 ---
 ns: HUD
+aliases: ["0x975D66A0BC17064C"]
 ---
-## _0x975D66A0BC17064C
+## SET_MAX_HEALTH_HUD_DISPLAY
 
 ```c
 // 0x975D66A0BC17064C 0xF07D8CEF
-void _0x975D66A0BC17064C(Any p0);
+void SET_MAX_HEALTH_HUD_DISPLAY(int p0);
 ```
-
 
 ## Parameters
 * **p0**: 

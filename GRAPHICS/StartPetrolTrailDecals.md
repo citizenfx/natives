@@ -1,15 +1,12 @@
 ---
 ns: GRAPHICS
+aliases: ["0x99AC7F0D8B9C893D"]
 ---
-## _0x99AC7F0D8B9C893D
+## START_PETROL_TRAIL_DECALS
 
 ```c
 // 0x99AC7F0D8B9C893D 0xE3938B0B
-void _0x99AC7F0D8B9C893D(float p0);
-```
-
-```
-START_*
+void START_PETROL_TRAIL_DECALS(float p0);
 ```
 
 ## Parameters

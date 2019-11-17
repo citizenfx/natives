@@ -1,15 +1,12 @@
 ---
 ns: VEHICLE
+aliases: ["0x16B5E274BDE402F8"]
 ---
-## _0x16B5E274BDE402F8
+## ATTACH_VEHICLE_ON_TO_TRAILER
 
 ```c
 // 0x16B5E274BDE402F8 0x12AC1A16
-void _0x16B5E274BDE402F8(Vehicle vehicle, Vehicle trailer, float p2, float p3, float p4, float p5, float p6, float p7, float p8, float p9, float p10, float p11);
-```
-
-```
-only documented to be continued...  
+void ATTACH_VEHICLE_ON_TO_TRAILER(Vehicle vehicle, Vehicle trailer, float p2, float p3, float p4, float p5, float p6, float p7, float p8, float p9, float p10, float p11);
 ```
 
 ## Parameters

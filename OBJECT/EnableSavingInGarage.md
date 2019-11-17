@@ -1,17 +1,12 @@
 ---
 ns: OBJECT
+aliases: ["0xF2E1A7133DD356A6"]
 ---
-## _0xF2E1A7133DD356A6
+## ENABLE_SAVING_IN_GARAGE
 
 ```c
 // 0xF2E1A7133DD356A6 0x43BB7E48
-void _0xF2E1A7133DD356A6(Hash garageHash, BOOL toggle);
-```
-
-```
-ENABLE_*
-
-Enable distance checks for occupied check?
+void ENABLE_SAVING_IN_GARAGE(Hash garageHash, BOOL toggle);
 ```
 
 ## Parameters

@@ -1,15 +1,12 @@
 ---
 ns: GRAPHICS
+aliases: ["_TRANSITION_TO_BLURRED"]
 ---
-## _TRANSITION_TO_BLURRED
+## TRIGGER_SCREENBLUR_FADE_IN
 
 ```c
 // 0xA328A24AAA6B7FDC 0x5604B890
-BOOL _TRANSITION_TO_BLURRED(float transitionTime);
-```
-
-```
-time in ms to transition to fully blurred screen  
+BOOL TRIGGER_SCREENBLUR_FADE_IN(float transitionTime);
 ```
 
 ## Parameters

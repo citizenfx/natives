@@ -1,22 +1,17 @@
 ---
 ns: NETWORK
+aliases: ["0x1AD5B71586B94820"]
 ---
-## _0x1AD5B71586B94820
+## NETWORK_IS_PLAYER_A_PARTICIPANT_ON_SCRIPT
 
 ```c
 // 0x1AD5B71586B94820 0xCEA55F4C
-BOOL _0x1AD5B71586B94820(Player p0, Any* p1, Any p2);
-```
-
-```
-unk_0xCEA55F4C(uVar3, "AM_ROLLERCOASTER", -1))  
-Probably has to do with seeing if they are riding the roller coaster or ferris wheel  
-NETWORK_IS_PLAYER_???  
+BOOL NETWORK_IS_PLAYER_A_PARTICIPANT_ON_SCRIPT(Player p0, char* script, Player p2);
 ```
 
 ## Parameters
 * **p0**: 
-* **p1**: 
+* **script**: 
 * **p2**: 
 
 ## Return value

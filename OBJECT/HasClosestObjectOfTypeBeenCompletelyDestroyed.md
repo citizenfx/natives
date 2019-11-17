@@ -1,19 +1,19 @@
 ---
 ns: OBJECT
+aliases: ["0x46494A2475701343"]
 ---
-## _0x46494A2475701343
+## HAS_CLOSEST_OBJECT_OF_TYPE_BEEN_COMPLETELY_DESTROYED
 
 ```c
 // 0x46494A2475701343 0x7DB578DD
-BOOL _0x46494A2475701343(float p0, float p1, float p2, float p3, Hash modelHash, BOOL p5);
+BOOL HAS_CLOSEST_OBJECT_OF_TYPE_BEEN_COMPLETELY_DESTROYED(float x, float y, float z, float radius, Hash modelHash, BOOL p5);
 ```
 
-
 ## Parameters
-* **p0**: 
-* **p1**: 
-* **p2**: 
-* **p3**: 
+* **x**: 
+* **y**: 
+* **z**: 
+* **radius**: 
 * **modelHash**: 
 * **p5**: 
 

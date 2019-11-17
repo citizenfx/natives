@@ -1,16 +1,16 @@
 ---
 ns: HUD
+aliases: ["0x784BA7E0ECEB4178"]
 ---
-## _0x784BA7E0ECEB4178
+## SET_FLOATING_HELP_TEXT_WORLD_POSITION
 
 ```c
 // 0x784BA7E0ECEB4178 0x93045157
-void _0x784BA7E0ECEB4178(Any p0, float x, float y, float z);
+void SET_FLOATING_HELP_TEXT_WORLD_POSITION(int hudIndex, float x, float y, float z);
 ```
 
-
 ## Parameters
-* **p0**: 
+* **hudIndex**: 
 * **x**: 
 * **y**: 
 * **z**: 

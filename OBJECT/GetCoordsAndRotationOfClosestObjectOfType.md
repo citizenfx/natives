@@ -1,26 +1,22 @@
 ---
 ns: OBJECT
+aliases: ["0x163F8B586BC95F2A"]
 ---
-## _0x163F8B586BC95F2A
+## GET_COORDS_AND_ROTATION_OF_CLOSEST_OBJECT_OF_TYPE
 
 ```c
 // 0x163F8B586BC95F2A 0x65213FC3
-Any _0x163F8B586BC95F2A(Object object, float radius, Hash modelHash, float x, float y, float z, Vector3* p6, int p7);
-```
-
-```
-only documented params  
-dont know what this does.... To Be Continued...  
+Any GET_COORDS_AND_ROTATION_OF_CLOSEST_OBJECT_OF_TYPE(float x, float y, float z, float radius, Hash modelHash, Vector3* outPosition, Vector3* outRotation, int rotationOrder);
 ```
 
 ## Parameters
-* **object**: 
-* **radius**: 
-* **modelHash**: 
 * **x**: 
 * **y**: 
 * **z**: 
-* **p6**: 
-* **p7**: 
+* **radius**: 
+* **modelHash**: 
+* **outPosition**: 
+* **outRotation**: 
+* **rotationOrder**: 
 
 ## Return value

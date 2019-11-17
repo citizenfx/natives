@@ -1,15 +1,15 @@
 ---
 ns: AUDIO
+aliases: ["0x18EB48CFC41F2EA0"]
 ---
-## _0x18EB48CFC41F2EA0
+## REMOVE_ENTITY_FROM_AUDIO_MIX_GROUP
 
 ```c
 // 0x18EB48CFC41F2EA0 0x308ED0EC
-void _0x18EB48CFC41F2EA0(Any p0, float p1);
+void REMOVE_ENTITY_FROM_AUDIO_MIX_GROUP(Entity entity, float p1);
 ```
 
-
 ## Parameters
-* **p0**: 
+* **entity**: 
 * **p1**: 
 

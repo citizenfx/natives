@@ -1,15 +1,15 @@
 ---
 ns: VEHICLE
+aliases: ["0x9007A2F21DC108D4"]
 ---
-## _0x9007A2F21DC108D4
+## SET_VEHICLE_STEERING_BIAS_SCALAR
 
 ```c
 // 0x9007A2F21DC108D4 0x585E49B6
-void _0x9007A2F21DC108D4(Any p0, float p1);
+void SET_VEHICLE_STEERING_BIAS_SCALAR(Vehicle vehicle, float scalar);
 ```
 
-
 ## Parameters
-* **p0**: 
-* **p1**: 
+* **vehicle**: 
+* **scalar**: 
 

@@ -1,13 +1,13 @@
 ---
 ns: VEHICLE
+aliases: ["0x192547247864DFDD"]
 ---
-## _0x192547247864DFDD
+## SET_VEHICLE_CAN_LEAK_PETROL
 
 ```c
 // 0x192547247864DFDD 0x90D6EE57
-void _0x192547247864DFDD(Vehicle vehicle, BOOL p1);
+void SET_VEHICLE_CAN_LEAK_PETROL(Vehicle vehicle, BOOL p1);
 ```
-
 
 ## Parameters
 * **vehicle**: 

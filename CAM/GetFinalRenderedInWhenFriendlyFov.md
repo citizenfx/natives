@@ -1,15 +1,15 @@
 ---
 ns: CAM
+aliases: ["0x5F35F6732C3FBBA0"]
 ---
-## _0x5F35F6732C3FBBA0
+## GET_FINAL_RENDERED_IN_WHEN_FRIENDLY_FOV
 
 ```c
 // 0x5F35F6732C3FBBA0 0x23E3F106
-float _0x5F35F6732C3FBBA0(Any p0);
+float GET_FINAL_RENDERED_IN_WHEN_FRIENDLY_FOV(Player player);
 ```
 
-
 ## Parameters
-* **p0**: 
+* **player**: 
 
 ## Return value

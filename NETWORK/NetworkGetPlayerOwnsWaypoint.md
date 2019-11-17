@@ -1,18 +1,15 @@
 ---
 ns: NETWORK
+aliases: ["0x82377B65E943F72D"]
 ---
-## _0x82377B65E943F72D
+## NETWORK_GET_PLAYER_OWNS_WAYPOINT
 
 ```c
 // 0x82377B65E943F72D 0xB802B671
-BOOL _0x82377B65E943F72D(Any p0);
-```
-
-```
-"GET_OBJ_ENTITY" seems highly unlikely.  
+BOOL NETWORK_GET_PLAYER_OWNS_WAYPOINT(Player player);
 ```
 
 ## Parameters
-* **p0**: 
+* **player**: 
 
 ## Return value

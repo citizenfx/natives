@@ -1,14 +1,14 @@
 ---
 ns: PED
+aliases: ["0x570389D1C3DE3C6B"]
 ---
-## _0x570389D1C3DE3C6B
+## SET_PED_INCREASED_AVOIDANCE_RADIUS
 
 ```c
 // 0x570389D1C3DE3C6B 0x59C52BE6
-void _0x570389D1C3DE3C6B(Any p0);
+void SET_PED_INCREASED_AVOIDANCE_RADIUS(Ped ped);
 ```
 
-
 ## Parameters
-* **p0**: 
+* **ped**: 
 

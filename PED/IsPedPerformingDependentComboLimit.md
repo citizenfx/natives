@@ -1,17 +1,12 @@
 ---
 ns: PED
+aliases: ["0xEBD0EDBA5BE957CF"]
 ---
-## _0xEBD0EDBA5BE957CF
+## IS_PED_PERFORMING_DEPENDENT_COMBO_LIMIT
 
 ```c
 // 0xEBD0EDBA5BE957CF 0x9BE7C860
-BOOL _0xEBD0EDBA5BE957CF(Ped ped);
-```
-
-```
-IS_PED_*
-
-Something to do with melee action.
+BOOL IS_PED_PERFORMING_DEPENDENT_COMBO_LIMIT(Ped ped);
 ```
 
 ## Parameters

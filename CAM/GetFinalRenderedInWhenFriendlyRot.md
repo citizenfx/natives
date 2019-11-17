@@ -1,16 +1,16 @@
 ---
 ns: CAM
+aliases: ["0x26903D9CD1175F2C"]
 ---
-## _0x26903D9CD1175F2C
+## GET_FINAL_RENDERED_IN_WHEN_FRIENDLY_ROT
 
 ```c
 // 0x26903D9CD1175F2C 0xACADF916
-Vector3 _0x26903D9CD1175F2C(Any p0, Any p1);
+Vector3 GET_FINAL_RENDERED_IN_WHEN_FRIENDLY_ROT(Player player, int rotationOrder);
 ```
 
-
 ## Parameters
-* **p0**: 
-* **p1**: 
+* **player**: 
+* **rotationOrder**: 
 
 ## Return value

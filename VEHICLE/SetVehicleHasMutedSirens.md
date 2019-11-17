@@ -1,17 +1,12 @@
 ---
 ns: VEHICLE
-aliases: ["DISABLE_VEHICLE_IMPACT_EXPLOSION_ACTIVATION"]
+aliases: ["DISABLE_VEHICLE_IMPACT_EXPLOSION_ACTIVATION","_SET_DISABLE_VEHICLE_SIREN_SOUND"]
 ---
-## _SET_DISABLE_VEHICLE_SIREN_SOUND
+## SET_VEHICLE_HAS_MUTED_SIRENS
 
 ```c
 // 0xD8050E0EB60CF274 0xC54156A9
-void _SET_DISABLE_VEHICLE_SIREN_SOUND(Vehicle vehicle, BOOL toggle);
-```
-
-```
-if set to true, prevents vehicle sirens from having sound, leaving only the lights.  
------  
+void SET_VEHICLE_HAS_MUTED_SIRENS(Vehicle vehicle, BOOL toggle);
 ```
 
 ## Parameters

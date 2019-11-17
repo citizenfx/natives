@@ -1,15 +1,15 @@
 ---
 ns: VEHICLE
+aliases: ["0x0D5F65A8F4EBDAB5"]
 ---
-## _0x0D5F65A8F4EBDAB5
+## SET_CARGOBOB_PICKUP_ROPE_TYPE
 
 ```c
-// 0x0D5F65A8F4EBDAB5
-void _0x0D5F65A8F4EBDAB5(Any p0, Any p1);
+// 0x0D5F65A8F4EBDAB5 0xF258ADA1
+void SET_CARGOBOB_PICKUP_ROPE_TYPE(Vehicle vehicle, int state);
 ```
 
-
 ## Parameters
-* **p0**: 
-* **p1**: 
+* **vehicle**: 
+* **state**: 
 

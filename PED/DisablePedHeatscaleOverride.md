@@ -1,14 +1,14 @@
 ---
 ns: PED
+aliases: ["0x600048C60D5C2C51"]
 ---
-## _0x600048C60D5C2C51
+## DISABLE_PED_HEATSCALE_OVERRIDE
 
 ```c
 // 0x600048C60D5C2C51 0x0688DE64
-void _0x600048C60D5C2C51(Any p0);
+void DISABLE_PED_HEATSCALE_OVERRIDE(Ped ped);
 ```
 
-
 ## Parameters
-* **p0**: 
+* **ped**: 
 

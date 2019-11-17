@@ -1,19 +1,23 @@
 ---
 ns: OBJECT
+aliases: ["0x589F80B325CC82C5"]
 ---
-## _0x589F80B325CC82C5
+## DOOR_SYSTEM_FIND_EXISTING_DOOR
 
 ```c
 // 0x589F80B325CC82C5 0xE9AE494F
-BOOL _0x589F80B325CC82C5(float p0, float p1, float p2, Any p3, Any* p4);
+BOOL DOOR_SYSTEM_FIND_EXISTING_DOOR(float x, float y, float z, Any modelHash, Any* doorOutPointer);
 ```
 
+```
+NativeDB Parameter 3: Hash modelHash
+```
 
 ## Parameters
-* **p0**: 
-* **p1**: 
-* **p2**: 
-* **p3**: 
-* **p4**: 
+* **x**: 
+* **y**: 
+* **z**: 
+* **modelHash**: 
+* **doorOutPointer**: 
 
 ## Return value

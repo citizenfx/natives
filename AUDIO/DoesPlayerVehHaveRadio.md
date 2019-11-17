@@ -1,15 +1,12 @@
 ---
 ns: AUDIO
+aliases: ["0x109697E2FFBAC8A1"]
 ---
-## _0x109697E2FFBAC8A1
+## DOES_PLAYER_VEH_HAVE_RADIO
 
 ```c
 // 0x109697E2FFBAC8A1 0x46B0C696
-BOOL _0x109697E2FFBAC8A1();
-```
-
-```
-Not sure what this function does, but it's related to the audio of the local player's vehicle (Considering the surrounding natives, it's probably radio related).  
+BOOL DOES_PLAYER_VEH_HAVE_RADIO();
 ```
 
 ## Return value

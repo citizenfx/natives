@@ -1,16 +1,16 @@
 ---
 ns: HUD
+aliases: ["0x7679CC1BCEBE3D4C"]
 ---
-## _0x7679CC1BCEBE3D4C
+## SET_FLOATING_HELP_TEXT_SCREEN_POSITION
 
 ```c
 // 0x7679CC1BCEBE3D4C 0x198F32D7
-void _0x7679CC1BCEBE3D4C(Any p0, float p1, float p2);
+void SET_FLOATING_HELP_TEXT_SCREEN_POSITION(int hudIndex, float p1, float p2);
 ```
 
-
 ## Parameters
-* **p0**: 
+* **hudIndex**: 
 * **p1**: 
 * **p2**: 
 

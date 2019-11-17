@@ -1,13 +1,13 @@
 ---
 ns: VEHICLE
+aliases: ["0x634148744F385576"]
 ---
-## _0x634148744F385576
+## IS_HELI_LANDING_AREA_BLOCKED
 
 ```c
 // 0x634148744F385576 0x6346B7CC
-BOOL _0x634148744F385576(Vehicle vehicle);
+BOOL IS_HELI_LANDING_AREA_BLOCKED(Vehicle vehicle);
 ```
-
 
 ## Parameters
 * **vehicle**: 

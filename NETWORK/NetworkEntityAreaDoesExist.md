@@ -1,15 +1,15 @@
 ---
 ns: NETWORK
+aliases: ["0xE64A3CA08DFA37A9"]
 ---
-## _0xE64A3CA08DFA37A9
+## NETWORK_ENTITY_AREA_DOES_EXIST
 
 ```c
 // 0xE64A3CA08DFA37A9 0x69956127
-BOOL _0xE64A3CA08DFA37A9(Any p0);
+BOOL NETWORK_ENTITY_AREA_DOES_EXIST(int areaHandle);
 ```
 
-
 ## Parameters
-* **p0**: 
+* **areaHandle**: 
 
 ## Return value

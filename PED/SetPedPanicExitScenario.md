@@ -1,18 +1,18 @@
 ---
 ns: PED
+aliases: ["0xFE07FF6495D52E2A"]
 ---
-## _0xFE07FF6495D52E2A
+## SET_PED_PANIC_EXIT_SCENARIO
 
 ```c
 // 0xFE07FF6495D52E2A 0x59DE73AC
-Any _0xFE07FF6495D52E2A(Any p0, Any p1, Any p2, Any p3);
+Any SET_PED_PANIC_EXIT_SCENARIO(Ped ped, float x, float y, float z);
 ```
 
-
 ## Parameters
-* **p0**: 
-* **p1**: 
-* **p2**: 
-* **p3**: 
+* **ped**: 
+* **x**: 
+* **y**: 
+* **z**: 
 
 ## Return value

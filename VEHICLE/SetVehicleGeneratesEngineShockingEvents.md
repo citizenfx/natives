@@ -1,15 +1,16 @@
 ---
 ns: VEHICLE
+aliases: ["0x279D50DE5652D935"]
 ---
-## _0x279D50DE5652D935
+## SET_VEHICLE_GENERATES_ENGINE_SHOCKING_EVENTS
 
 ```c
 // 0x279D50DE5652D935 0xB3200F72
-void _0x279D50DE5652D935(Vehicle vehicle, BOOL toggle);
+void SET_VEHICLE_GENERATES_ENGINE_SHOCKING_EVENTS(Vehicle vehicle, BOOL toggle);
 ```
 
 ```
-SET_VEHICLE_*
+Allows creation of CEventShockingPlaneFlyby, CEventShockingHelicopterOverhead, and other(?) Shocking events
 ```
 
 ## Parameters

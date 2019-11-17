@@ -1,13 +1,13 @@
 ---
 ns: FILE
+aliases: ["0xE1CA84EBF72E691D"]
 ---
-## _0xE1CA84EBF72E691D
+## GET_FORCED_PROP
 
 ```c
 // 0xE1CA84EBF72E691D 0x22DAE257
-void _0xE1CA84EBF72E691D(Any p0, Any p1, Any* p2, Any* p3, Any* p4);
+void GET_FORCED_PROP(Any p0, Any p1, Any* p2, Any* p3, Any* p4);
 ```
-
 
 ## Parameters
 * **p0**: 

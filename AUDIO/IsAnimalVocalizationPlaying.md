@@ -1,15 +1,15 @@
 ---
 ns: AUDIO
+aliases: ["0xC265DF9FB44A9FBD"]
 ---
-## _0xC265DF9FB44A9FBD
+## IS_ANIMAL_VOCALIZATION_PLAYING
 
 ```c
 // 0xC265DF9FB44A9FBD 0x0CBAF2EF
-BOOL _0xC265DF9FB44A9FBD(Any p0);
+BOOL IS_ANIMAL_VOCALIZATION_PLAYING(Ped pedHandle);
 ```
 
-
 ## Parameters
-* **p0**: 
+* **pedHandle**: 
 
 ## Return value

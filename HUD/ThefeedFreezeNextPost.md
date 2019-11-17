@@ -1,17 +1,15 @@
 ---
 ns: HUD
-aliases: ["0xFDEC055AB549E328"]
+aliases: ["0xFDEC055AB549E328","_THEFEED_SET_NEXT_POST_PERSISTENT"]
 ---
-## _THEFEED_SET_NEXT_POST_PERSISTENT
+## THEFEED_FREEZE_NEXT_POST
 
 ```c
 // 0xFDEC055AB549E328 0xAFA1148B
-void _THEFEED_SET_NEXT_POST_PERSISTENT();
+void THEFEED_FREEZE_NEXT_POST();
 ```
 
 ```
-Requires manual management of game stream handles (e.g. _REMOVE_NOTIFICATION).
-
-Sets CGameStreamMgr + 15417 (1604) to 1
+Requires manual management of game stream handles (i.e., 0xBE4390CB40B3E627).
 ```
 

@@ -1,16 +1,16 @@
 ---
 ns: HUD
+aliases: ["0x3F5CC444DCAAA8F2"]
 ---
-## _0x3F5CC444DCAAA8F2
+## SET_HEALTH_HUD_DISPLAY_VALUES
 
 ```c
 // 0x3F5CC444DCAAA8F2 0x7FB6FB2A
-void _0x3F5CC444DCAAA8F2(Any p0, Any p1, BOOL p2);
+void SET_HEALTH_HUD_DISPLAY_VALUES(int health, int capacity, BOOL wasAdded);
 ```
 
-
 ## Parameters
-* **p0**: 
-* **p1**: 
-* **p2**: 
+* **health**: 
+* **capacity**: 
+* **wasAdded**: 
 
