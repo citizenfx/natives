@@ -1,11 +1,12 @@
 ---
 ns: MISC
+aliases: ["_SET_UNK_MAP_FLAG"]
 ---
-## _SET_UNK_MAP_FLAG
+## SET_INSTANCE_PRIORITY_HINT
 
 ```c
 // 0xC5F0A8EBD3F361CE 0xE202879D
-void _SET_UNK_MAP_FLAG(int flag);
+void SET_INSTANCE_PRIORITY_HINT(int flag);
 ```
 
 ```
