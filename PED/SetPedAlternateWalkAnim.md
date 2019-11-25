@@ -8,9 +8,7 @@ ns: PED
 void SET_PED_ALTERNATE_WALK_ANIM(Ped ped, char* animDict, char* animName, float p3, BOOL p4);
 ```
 
-```
-Animations list: https://alexguirre.github.io/animations-list/  
-```
+[Animations list](https://alexguirre.github.io/animations-list/)
 
 ## Parameters
 * **ped**: 
