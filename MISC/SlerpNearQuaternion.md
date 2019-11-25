@@ -1,5 +1,6 @@
 ---
 ns: MISC
+aliases: ["0xF2F6A2FA49278625"]
 ---
 ## SLERP_NEAR_QUATERNION
 
@@ -8,6 +9,7 @@ ns: MISC
 void SlerpNearQuaternion(float p0, float p1, float p2, float p3, float p4, float p5, float p6, float p7, float p8, float* p9, float* p10, float* p11, float* p12);
 ```
 
+This native always come right before SetEntityQuaternion where its final 4 parameters are SlerpNearQuaternion p9 to p12
 
 ## Parameters
 * **p0**: acceleration differenzial (am_rollercoaster.c func_134)
@@ -24,9 +26,11 @@ void SlerpNearQuaternion(float p0, float p1, float p2, float p3, float p4, float
 * **p11**: output value calculated (Z)
 * **p12**: output value calculated (W)
 
-This native always come right before SetEntityQuaternion where its final 4 parameters are SlerpNearQuaternion p9 to p12
-Example from am_rollercoaster.c
-```
+## Examples
+```cs
+// Example from am_rollercoaster.c
+// where func_136 calculates arctan of given values and func_135 calculates both sin and cos
+
 void func_134(int iParam0, int iParam1, float fParam2) cippalippo
 {
 	int iVar0;
@@ -63,5 +67,5 @@ void func_134(int iParam0, int iParam1, float fParam2) cippalippo
 	MISC::_0xF2F6A2FA49278625(fVar4, uVar5[0], uVar5[1], uVar5[2], uVar5[3], uVar6[0], uVar6[1], uVar6[2], uVar6[3], &(uVar7[0]), &(uVar7[1]), &(uVar7[2]), &(uVar7[3]));
 	ENTITY::SET_ENTITY_QUATERNION(iLocal_719[iParam0], uVar7[0], uVar7[1], uVar7[2], uVar7[3]);
 }
+
 ```
-where func_136 calculates arctan of given values and func_135 calculates both sin and cos
