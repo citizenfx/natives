@@ -13,8 +13,9 @@ Returns a float value representing animation's total playtime in milliseconds.
 Example:  
 GET_ENTITY_ANIM_TOTAL_TIME(PLAYER_ID(),"amb@world_human_yoga@female@base","base_b")   
 return 20800.000000  
-Animations list : www.los-santos-multiplayer.com/dev.airdancer?cxt=anim  
 ```
+
+[Animations list](https://alexguirre.github.io/animations-list/)
 
 ## Parameters
 * **entity**: 

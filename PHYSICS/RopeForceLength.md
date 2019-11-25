@@ -5,15 +5,19 @@ ns: PHYSICS
 
 ```c
 // 0xD009F759A723DB1B 0xABF3130F
-Any ROPE_FORCE_LENGTH(Object rope, float length);
+Any ROPE_FORCE_LENGTH(int ropeId, float length);
 ```
 
 ```
 Forces a rope to a certain length.  
 ```
 
+```
+NativeDB Return Type: void
+```
+
 ## Parameters
-* **rope**: 
+* **ropeId**: 
 * **length**: 
 
 ## Return value

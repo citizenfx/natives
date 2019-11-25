@@ -5,10 +5,15 @@ ns: MISC
 
 ```c
 // 0x65D2EBB47E1CEC21
-void _0x65D2EBB47E1CEC21(BOOL p0);
+void _0x65D2EBB47E1CEC21(BOOL toggle);
 ```
 
+```
+Sets GtaThread+0x14A
+
+SET_S*
+```
 
 ## Parameters
-* **p0**: 
+* **toggle**: 
 

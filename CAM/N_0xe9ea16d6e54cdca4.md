@@ -5,7 +5,7 @@ ns: CAM
 
 ```c
 // 0xE9EA16D6E54CDCA4 0x4B22C5CB
-Any _0xE9EA16D6E54CDCA4(Vehicle p0, int p1);
+void _0xE9EA16D6E54CDCA4(Vehicle p0, int p1);
 ```
 
 
@@ -13,4 +13,3 @@ Any _0xE9EA16D6E54CDCA4(Vehicle p0, int p1);
 * **p0**: 
 * **p1**: 
 
-## Return value

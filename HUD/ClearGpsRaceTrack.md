@@ -8,4 +8,7 @@ ns: HUD
 void CLEAR_GPS_RACE_TRACK();
 ```
 
+```
+Does the same as SET_RACE_TRACK_RENDER(false);
+```
 

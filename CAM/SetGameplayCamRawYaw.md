@@ -12,6 +12,10 @@ void _SET_GAMEPLAY_CAM_RAW_YAW(float yaw);
 Does nothing  
 ```
 
+```
+NativeDB Added Parameter 2: Any p1
+```
+
 ## Parameters
 * **yaw**: 
 

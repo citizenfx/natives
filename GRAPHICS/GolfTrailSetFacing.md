@@ -1,0 +1,15 @@
+---
+ns: GRAPHICS
+aliases: ["0x06F761EA47C1D3ED"]
+---
+## GOLF_TRAIL_SET_FACING
+
+```c
+// 0x06F761EA47C1D3ED 0x0D830DC7
+void GOLF_TRAIL_SET_FACING(BOOL p0);
+```
+
+
+## Parameters
+* **p0**: 
+

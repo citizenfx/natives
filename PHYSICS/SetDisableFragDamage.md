@@ -10,7 +10,6 @@ void SET_DISABLE_FRAG_DAMAGE(Object object, BOOL toggle);
 
 ```
 sometimes used used with NET_TO_OBJ  
-hash collision last 2 words  
 ```
 
 ## Parameters

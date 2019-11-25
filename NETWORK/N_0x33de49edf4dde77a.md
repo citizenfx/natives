@@ -5,11 +5,14 @@ ns: NETWORK
 
 ```c
 // 0x33DE49EDF4DDE77A
-Vector3 _0x33DE49EDF4DDE77A(Any p0);
+Vector3 _0x33DE49EDF4DDE77A(Entity entity);
 ```
 
+```
+NETWORK_GET_*
+```
 
 ## Parameters
-* **p0**: 
+* **entity**: 
 
 ## Return value

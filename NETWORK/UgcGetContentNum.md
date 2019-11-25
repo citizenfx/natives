@@ -1,0 +1,12 @@
+---
+ns: NETWORK
+aliases: ["0xE0A6138401BCB837"]
+---
+## UGC_GET_CONTENT_NUM
+
+```c
+// 0xE0A6138401BCB837 0x2DE69817
+Any UGC_GET_CONTENT_NUM();
+```
+
+## Return value

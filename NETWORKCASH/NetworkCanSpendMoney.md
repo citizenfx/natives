@@ -9,6 +9,9 @@ aliases: ["0xAB3CAA6B422164DA"]
 BOOL NETWORK_CAN_SPEND_MONEY(Any p0, BOOL p1, BOOL p2, BOOL p3, Any p4);
 ```
 
+```
+NativeDB Added Parameter 6: Any p5
+```
 
 ## Parameters
 * **p0**: 

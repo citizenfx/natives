@@ -1,0 +1,15 @@
+---
+ns: DATAFILE
+aliases: ["0x8F5EA1C01D65A100"]
+---
+## DATAFILE_DELETE_REQUESTED_FILE
+
+```c
+// 0x8F5EA1C01D65A100 0x9DB63CFF
+BOOL DATAFILE_DELETE_REQUESTED_FILE(Any p0);
+```
+
+## Parameters
+* **p0**: 
+
+## Return value

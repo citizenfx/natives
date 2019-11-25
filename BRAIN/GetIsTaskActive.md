@@ -5,7 +5,7 @@ ns: BRAIN
 
 ```c
 // 0xB0760331C7AA4155 0x86FDDF55
-BOOL GET_IS_TASK_ACTIVE(Ped ped, int taskNumber);
+BOOL GET_IS_TASK_ACTIVE(Ped ped, int taskIndex);
 ```
 
 ```
@@ -16,6 +16,6 @@ Known Tasks: pastebin.com/2gFqJ3Px
 
 ## Parameters
 * **ped**: 
-* **taskNumber**: 
+* **taskIndex**: 
 
 ## Return value

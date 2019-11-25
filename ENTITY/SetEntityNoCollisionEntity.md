@@ -5,7 +5,7 @@ ns: ENTITY
 
 ```c
 // 0xA53ED5520C07654A 0x1E11BFE9
-void SET_ENTITY_NO_COLLISION_ENTITY(Entity entity1, Entity entity2, BOOL thisFrame);
+void SET_ENTITY_NO_COLLISION_ENTITY(Entity entity1, Entity entity2, BOOL thisFrameOnly);
 ```
 
 ```
@@ -17,5 +17,5 @@ The third parameter, `thisFrame`, decides whether the collision is to be disable
 ## Parameters
 * **entity1**: 
 * **entity2**: 
-* **thisFrame**: 
+* **thisFrameOnly**: 
 

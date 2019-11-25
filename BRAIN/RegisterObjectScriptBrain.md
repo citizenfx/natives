@@ -5,7 +5,7 @@ ns: BRAIN
 
 ```c
 // 0x0BE84C318BA6EC22 0xB6BCC608
-void REGISTER_OBJECT_SCRIPT_BRAIN(char* scriptName, Hash objectName, int p2, float p3, int p4, int p5);
+void REGISTER_OBJECT_SCRIPT_BRAIN(char* scriptName, Hash modelHash, int p2, float activationRange, int p4, int p5);
 ```
 
 ```
@@ -15,9 +15,9 @@ BRAIN::REGISTER_OBJECT_SCRIPT_BRAIN("ob_telescope", ${prop_telescope_01}, 100, 4
 
 ## Parameters
 * **scriptName**: 
-* **objectName**: 
+* **modelHash**: 
 * **p2**: 
-* **p3**: 
+* **activationRange**: 
 * **p4**: 
 * **p5**: 
 

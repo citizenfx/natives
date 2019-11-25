@@ -6,7 +6,7 @@ aliases: ["_PUSH_SCALEFORM_MOVIE_FUNCTION"]
 
 ```c
 // 0xF6E48914C7A8694E 0x215ABBE8
-BOOL BEGIN_SCALEFORM_MOVIE_METHOD(int scaleform, char* functionName);
+BOOL BEGIN_SCALEFORM_MOVIE_METHOD(int scaleform, char* methodName);
 ```
 
 ```
@@ -15,6 +15,6 @@ Push a function from the Scaleform onto the stack
 
 ## Parameters
 * **scaleform**: 
-* **functionName**: 
+* **methodName**: 
 
 ## Return value

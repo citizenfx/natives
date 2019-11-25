@@ -8,6 +8,9 @@ ns: PED
 Any SET_PED_ENABLE_WEAPON_BLOCKING(Ped ped, BOOL toggle);
 ```
 
+```
+NativeDB Return Type: void
+```
 
 ## Parameters
 * **ped**: 
