@@ -1,0 +1,12 @@
+---
+ns: NETWORK
+aliases: ["0xFBC5E768C7A77A6A"]
+---
+## UGC_GET_CREATE_RESULT
+
+```c
+// 0xFBC5E768C7A77A6A 0xCE569932
+Any UGC_GET_CREATE_RESULT();
+```
+
+## Return value

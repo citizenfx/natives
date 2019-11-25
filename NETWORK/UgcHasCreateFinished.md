@@ -1,0 +1,12 @@
+---
+ns: NETWORK
+aliases: ["0x5E24341A7F92A74B"]
+---
+## UGC_HAS_CREATE_FINISHED
+
+```c
+// 0x5E24341A7F92A74B 0xE69E8D0D
+Any UGC_HAS_CREATE_FINISHED();
+```
+
+## Return value

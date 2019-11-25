@@ -1,0 +1,12 @@
+---
+ns: AUDIO
+aliases: ["0x109697E2FFBAC8A1"]
+---
+## DOES_PLAYER_VEH_HAVE_RADIO
+
+```c
+// 0x109697E2FFBAC8A1 0x46B0C696
+BOOL DOES_PLAYER_VEH_HAVE_RADIO();
+```
+
+## Return value

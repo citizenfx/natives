@@ -1,0 +1,15 @@
+---
+ns: NETWORK
+aliases: ["0x6C34F1208B8923FD"]
+---
+## NETWORK_GET_RESPAWN_RESULT_FLAGS
+
+```c
+// 0x6C34F1208B8923FD 0x03287FD2
+Any NETWORK_GET_RESPAWN_RESULT_FLAGS(Any p0);
+```
+
+## Parameters
+* **p0**: 
+
+## Return value
