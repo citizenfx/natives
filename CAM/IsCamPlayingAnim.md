@@ -8,9 +8,7 @@ ns: CAM
 BOOL IS_CAM_PLAYING_ANIM(Cam cam, char* animName, char* animDictionary);
 ```
 
-```
-Animations list: https://alexguirre.github.io/animations-list/  
-```
+[Animations list](https://alexguirre.github.io/animations-list/)
 
 ## Parameters
 * **cam**: 
