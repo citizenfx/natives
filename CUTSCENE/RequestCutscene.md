@@ -5,7 +5,7 @@ ns: CUTSCENE
 
 ```c
 // 0x7A86743F475D9E09 0xB5977853
-void REQUEST_CUTSCENE(char* cutsceneName, int p1);
+void REQUEST_CUTSCENE(char* cutsceneName, int flags);
 ```
 
 ```
@@ -15,5 +15,5 @@ Cutscene list: pastebin.com/Bbj7ANpQ
 
 ## Parameters
 * **cutsceneName**: 
-* **p1**: 
+* **flags**: 
 

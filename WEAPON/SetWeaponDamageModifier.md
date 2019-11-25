@@ -12,4 +12,3 @@ void _SET_WEAPON_DAMAGE_MODIFIER(Hash weaponHash, float damageAmount);
 ## Parameters
 * **weaponHash**: 
 * **damageAmount**: 
-

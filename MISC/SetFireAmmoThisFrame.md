@@ -8,6 +8,9 @@ ns: MISC
 Any SET_FIRE_AMMO_THIS_FRAME(Player player);
 ```
 
+```
+NativeDB Return Type: void
+```
 
 ## Parameters
 * **player**: 

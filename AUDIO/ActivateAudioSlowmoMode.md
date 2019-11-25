@@ -1,0 +1,14 @@
+---
+ns: AUDIO
+aliases: ["0xD01005D2BA2EB778"]
+---
+## ACTIVATE_AUDIO_SLOWMO_MODE
+
+```c
+// 0xD01005D2BA2EB778 0x59A3A17D
+void ACTIVATE_AUDIO_SLOWMO_MODE(char* p0);
+```
+
+## Parameters
+* **p0**: 
+

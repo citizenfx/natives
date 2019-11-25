@@ -15,6 +15,10 @@ Any ROLL_UP_WINDOW(Vehicle vehicle, int windowIndex);
 3 = Back Left Window  
 ```
 
+```
+NativeDB Return Type: void
+```
+
 ## Parameters
 * **vehicle**: 
 * **windowIndex**: 

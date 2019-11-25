@@ -5,12 +5,12 @@ ns: PHYSICS
 
 ```c
 // 0xD8FA3908D7B86904 0x59910AB2
-void SET_CGOFFSET(Object rope, float x, float y, float z);
+void SET_CGOFFSET(Entity entity, float x, float y, float z);
 ```
 
 
 ## Parameters
-* **rope**: 
+* **entity**: 
 * **x**: 
 * **y**: 
 * **z**: 

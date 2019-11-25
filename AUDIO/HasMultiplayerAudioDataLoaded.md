@@ -1,0 +1,16 @@
+---
+ns: AUDIO
+aliases: ["0x544810ED9DB6BBE6"]
+---
+## _HAS_MULTIPLAYER_AUDIO_DATA_LOADED
+
+```c
+// 0x544810ED9DB6BBE6
+BOOL _HAS_MULTIPLAYER_AUDIO_DATA_LOADED();
+```
+
+```
+HAS_*
+```
+
+## Return value

@@ -11,7 +11,7 @@ void ENABLE_CONTROL_ACTION(int inputGroup, int control, BOOL enable);
 ```
 control values and meaning: github.com/crosire/scripthookvdotnet/blob/dev_v3/source/scripting/Control.cs  
 and  
-wiki.fivem.net/wiki/Controls  
+https://docs.fivem.net/game-references/controls/
 0, 1 and 2 used in the scripts.  
 Control values from the decompiled scripts:   
 0,1,2,3,4,5,6,8,9,10,11,14,15,16,17,19,21,22,24,25,26,30,31,32,33,34,35,36,  

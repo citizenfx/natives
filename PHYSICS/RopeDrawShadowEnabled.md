@@ -5,11 +5,11 @@ ns: PHYSICS
 
 ```c
 // 0xF159A63806BB5BA8 0x51523B8C
-void ROPE_DRAW_SHADOW_ENABLED(Object* rope, BOOL toggle);
+void ROPE_DRAW_SHADOW_ENABLED(int* ropeId, BOOL toggle);
 ```
 
 
 ## Parameters
-* **rope**: 
+* **ropeId**: 
 * **toggle**: 
 

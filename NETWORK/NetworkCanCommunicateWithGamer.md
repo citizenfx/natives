@@ -5,11 +5,11 @@ ns: NETWORK
 
 ```c
 // 0xA150A4F065806B1F 0xD05EB7F6
-BOOL NETWORK_CAN_COMMUNICATE_WITH_GAMER(int* player);
+BOOL NETWORK_CAN_COMMUNICATE_WITH_GAMER(int* networkHandle);
 ```
 
 
 ## Parameters
-* **player**: 
+* **networkHandle**: 
 
 ## Return value

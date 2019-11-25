@@ -57,6 +57,11 @@ Alt = {
 
 **Result of the example code:** [https://i.imgur.com/TvmNF4k.png](https://i.imgur.com/TvmNF4k.png)
 
+```
+NativeDB Parameter 5: BOOL p5
+NativeDB Return Type: void
+```
+
 ## Parameters
 * **labelTitle**: Label of the alert's title. 
 * **labelMsg**: Label of the alert's message.

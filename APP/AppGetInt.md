@@ -8,6 +8,10 @@ ns: APP
 void APP_GET_INT(ScrHandle property);
 ```
 
+```
+NativeDB Parameter 0: char* property
+NativeDB Return Type: int
+```
 
 ## Parameters
 * **property**: 

@@ -6,7 +6,7 @@ aliases: ["0xC2AFFFDABBDC2C5C"]
 
 ```c
 // 0xC2AFFFDABBDC2C5C
-BOOL _SET_ACHIEVEMENT_PROGRESSION(int achId, int progression);
+BOOL _SET_ACHIEVEMENT_PROGRESSION(int achievement, int progress);
 ```
 
 ```
@@ -21,7 +21,7 @@ Steamworks also seems to not like reversing achievement progression.
 ```
 
 ## Parameters
-* **achId**: 
-* **progression**: 
+* **achievement**: 
+* **progress**: 
 
 ## Return value

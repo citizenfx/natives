@@ -5,7 +5,7 @@ ns: ENTITY
 
 ```c
 // 0x7239B21A38F536BA 0x3AC90869
-BOOL DOES_ENTITY_EXIST(Object entity);
+BOOL DOES_ENTITY_EXIST(Entity entity);
 ```
 
 

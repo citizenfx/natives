@@ -5,11 +5,11 @@ ns: BRAIN
 
 ```c
 // 0xF5134943EA29868C 0x80DD15DB
-BOOL IS_WAYPOINT_PLAYBACK_GOING_ON_FOR_VEHICLE(Any p0);
+BOOL IS_WAYPOINT_PLAYBACK_GOING_ON_FOR_VEHICLE(Vehicle vehicle);
 ```
 
 
 ## Parameters
-* **p0**: 
+* **vehicle**: 
 
 ## Return value
