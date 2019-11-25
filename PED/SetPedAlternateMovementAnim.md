@@ -14,8 +14,9 @@ stance:
 1 = walk  
 2 = running  
 p5 = usually set to true  
-Animations list: https://alexguirre.github.io/animations-list/  
 ```
+
+[Animations list](https://alexguirre.github.io/animations-list/)
 
 ## Parameters
 * **ped**: 
