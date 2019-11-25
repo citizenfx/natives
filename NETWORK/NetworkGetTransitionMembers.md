@@ -5,12 +5,15 @@ ns: NETWORK
 
 ```c
 // 0x73B000F7FBC55829 0x31F19263
-Any NETWORK_GET_TRANSITION_MEMBERS(Any* p0, Any p1);
+int NETWORK_GET_TRANSITION_MEMBERS(Any* data, int dataCount);
 ```
 
+```
+Returns count.
+```
 
 ## Parameters
-* **p0**: 
-* **p1**: 
+* **data**: 
+* **dataCount**: 
 
 ## Return value

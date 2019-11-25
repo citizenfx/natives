@@ -1,0 +1,12 @@
+---
+ns: HUD
+aliases: ["0xE1CD1E48E025E661"]
+---
+## THEFEED_RESUME
+
+```c
+// 0xE1CD1E48E025E661 0xD3F40140
+void THEFEED_RESUME();
+```
+
+

@@ -8,5 +8,8 @@ ns: NETWORK
 Any NETWORK_IS_IN_TUTORIAL_SESSION();
 ```
 
+```
+NativeDB Return Type: BOOL
+```
 
 ## Return value

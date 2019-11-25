@@ -13,6 +13,10 @@ Hash _GET_PICKUP_HASH(Pickup pickupHash);
 returns pickup hash.  
 ```
 
+```
+NativeDB Parameter 0: Hash pickupHash
+```
+
 ## Parameters
 * **pickupHash**: 
 

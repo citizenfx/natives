@@ -8,9 +8,7 @@ ns: BRAIN
 void PLAY_ANIM_ON_RUNNING_SCENARIO(Ped ped, char* animDict, char* animName);
 ```
 
-```
-Animations list : www.los-santos-multiplayer.com/dev.airdancer?cxt=anim  
-```
+[Animations list](https://alexguirre.github.io/animations-list/)
 
 ## Parameters
 * **ped**: 

@@ -9,7 +9,6 @@ aliases: ["0x2B7E9A4EAAA93C89", "_SET_NOTIFICATION_MESSAGE_2"]
 int END_TEXT_COMMAND_THEFEED_POST_STATS(char* statTitle, int iconEnum, BOOL stepVal, int barValue, BOOL isImportant, char* picTxd, char* picTxn);
 ```
 
-
 [List of picture names](https://pastebin.com/XdpJVbHz)
 
 
@@ -29,6 +28,7 @@ Example result:
 * **picTxn**: 
 
 ## Return value
+
 The notification handle.
 
 ## Examples

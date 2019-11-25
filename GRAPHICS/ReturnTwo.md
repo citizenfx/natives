@@ -6,7 +6,7 @@ aliases: ["0x40AFB081F8ADD4EE"]
 
 ```c
 // 0x40AFB081F8ADD4EE 0x762E5C5F
-int _RETURN_TWO(Any p0);
+int _RETURN_TWO(int p0);
 ```
 
 ```

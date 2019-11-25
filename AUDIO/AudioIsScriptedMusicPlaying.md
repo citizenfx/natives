@@ -8,5 +8,8 @@ ns: AUDIO
 Any AUDIO_IS_SCRIPTED_MUSIC_PLAYING();
 ```
 
+```
+NativeDB Return Type: BOOL
+```
 
 ## Return value

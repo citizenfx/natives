@@ -1,0 +1,13 @@
+---
+ns: NETWORK
+aliases: ["0xCF61D4B4702EE9EB"]
+---
+## NETWORK_GET_TOTAL_NUM_PLAYERS
+
+```c
+// 0xCF61D4B4702EE9EB 0xF4F13B06
+int NETWORK_GET_TOTAL_NUM_PLAYERS();
+```
+
+
+## Return value

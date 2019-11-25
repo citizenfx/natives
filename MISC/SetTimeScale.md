@@ -5,7 +5,7 @@ ns: MISC
 
 ```c
 // 0x1D408577D440E81E 0xA7F84694
-void SET_TIME_SCALE(float time);
+void SET_TIME_SCALE(float timeScale);
 ```
 
 ```
@@ -17,5 +17,5 @@ Slow Motion 3: 0.2
 ```
 
 ## Parameters
-* **time**: 
+* **timeScale**: 
 

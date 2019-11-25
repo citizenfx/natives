@@ -1,0 +1,13 @@
+---
+ns: RECORDING
+aliases: ["0x644546EC5287471B"]
+---
+## _SAVE_RECORDING_CLIP
+
+```c
+// 0x644546EC5287471B
+BOOL _SAVE_RECORDING_CLIP();
+```
+
+
+## Return value

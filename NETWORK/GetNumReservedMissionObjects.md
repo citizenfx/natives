@@ -12,6 +12,10 @@ int GET_NUM_RESERVED_MISSION_OBJECTS(BOOL p0);
 p0 appears to be for MP  
 ```
 
+```
+NativeDB Added Parameter 2: Any p1
+```
+
 ## Parameters
 * **p0**: 
 

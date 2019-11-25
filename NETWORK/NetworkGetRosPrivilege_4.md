@@ -1,0 +1,16 @@
+---
+ns: NETWORK
+aliases: ["0x422D396F80A96547"]
+---
+## _NETWORK_GET_ROS_PRIVILEGE_4
+
+```c
+// 0x422D396F80A96547 0xC6EA802E
+BOOL _NETWORK_GET_ROS_PRIVILEGE_4();
+```
+
+```
+NETWORK_HAVE_*
+```
+
+## Return value

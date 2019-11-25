@@ -8,6 +8,9 @@ ns: PED
 Any SET_PED_RAGDOLL_FORCE_FALL(Ped ped);
 ```
 
+```
+NativeDB Return Type: void
+```
 
 ## Parameters
 * **ped**: 

@@ -20,6 +20,10 @@ indexes:
 Can use GET_VEHICLE_MAX_NUMBER_OF_PASSENGERS(vehicle) to help get max index
 ```
 
+```
+NativeDB Added Parameter 3: Any p2
+```
+
 ## Parameters
 * **vehicle**: 
 * **index**: 

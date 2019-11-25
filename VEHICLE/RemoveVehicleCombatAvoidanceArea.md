@@ -1,0 +1,15 @@
+---
+ns: VEHICLE
+aliases: ["0xE30524E1871F481D"]
+---
+## REMOVE_VEHICLE_COMBAT_AVOIDANCE_AREA
+
+```c
+// 0xE30524E1871F481D 0xEF05F807
+void REMOVE_VEHICLE_COMBAT_AVOIDANCE_AREA(Any p0);
+```
+
+
+## Parameters
+* **p0**: 
+

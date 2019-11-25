@@ -8,6 +8,9 @@ ns: AUDIO
 void OVERRIDE_TREVOR_RAGE(Any* p0);
 ```
 
+```
+NativeDB Parameter 0: char* p0
+```
 
 ## Parameters
 * **p0**: 

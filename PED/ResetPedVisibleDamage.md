@@ -8,6 +8,9 @@ ns: PED
 Any RESET_PED_VISIBLE_DAMAGE(Ped ped);
 ```
 
+```
+NativeDB Return Type: void
+```
 
 ## Parameters
 * **ped**: 

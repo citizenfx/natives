@@ -5,7 +5,7 @@ ns: AUDIO
 
 ```c
 // 0x95D9F4BC443956E7 0xF8D5EB86
-void ADD_PED_TO_CONVERSATION(Any p0, Any ped, char* p2);
+void ADD_PED_TO_CONVERSATION(int index, Ped ped, char* p2);
 ```
 
 ```
@@ -17,7 +17,7 @@ Based on it asking if does_entity_exist for the global I have determined that p1
 ```
 
 ## Parameters
-* **p0**: 
+* **index**: 
 * **ped**: 
 * **p2**: 
 

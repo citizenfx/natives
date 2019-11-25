@@ -5,7 +5,7 @@ ns: PED
 
 ```c
 // 0x70A2D1137C8ED7C9 0xA717A875
-void SET_PED_FLEE_ATTRIBUTES(Ped ped, int attributes, BOOL p2);
+void SET_PED_FLEE_ATTRIBUTES(Ped ped, int attributeFlags, BOOL enable);
 ```
 
 ```
@@ -16,6 +16,6 @@ jedijosh920: Setting attribute "2" to true will make the ped steal a vehicle.
 
 ## Parameters
 * **ped**: 
-* **attributes**: 
-* **p2**: 
+* **attributeFlags**: 
+* **enable**: 
 

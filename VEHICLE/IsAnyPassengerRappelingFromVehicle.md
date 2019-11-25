@@ -1,0 +1,16 @@
+---
+ns: VEHICLE
+aliases: ["0x291E373D483E7EE7","_ANY_PASSENGERS_RAPPELING"]
+---
+## _IS_ANY_PASSENGER_RAPPELING_FROM_VEHICLE
+
+```c
+// 0x291E373D483E7EE7 0xD656E7E5
+BOOL _IS_ANY_PASSENGER_RAPPELING_FROM_VEHICLE(Vehicle vehicle);
+```
+
+
+## Parameters
+* **vehicle**: 
+
+## Return value

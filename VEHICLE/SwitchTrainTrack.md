@@ -8,6 +8,9 @@ ns: VEHICLE
 Any SWITCH_TRAIN_TRACK(int intersectionId, BOOL state);
 ```
 
+```
+NativeDB Return Type: void
+```
 
 ## Parameters
 * **intersectionId**: 

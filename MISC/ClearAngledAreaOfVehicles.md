@@ -8,6 +8,9 @@ ns: MISC
 void CLEAR_ANGLED_AREA_OF_VEHICLES(float p0, float p1, float p2, float p3, float p4, float p5, float p6, BOOL p7, BOOL p8, BOOL p9, BOOL p10, BOOL p11);
 ```
 
+```
+NativeDB Added Parameter 13: Any p12
+```
 
 ## Parameters
 * **p0**: 

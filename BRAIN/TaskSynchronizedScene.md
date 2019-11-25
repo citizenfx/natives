@@ -5,7 +5,7 @@ ns: BRAIN
 
 ```c
 // 0xEEA929141F699854 0x4F217E7B
-void TASK_SYNCHRONIZED_SCENE(Ped ped, int scene, char* animDictionary, char* animationName, float speed, float speedMultiplier, int duration, int flag, float playbackRate, Any p9);
+void TASK_SYNCHRONIZED_SCENE(Ped ped, int scene, char* animDictionary, char* animationName, float blendInSpeed, float blendOutSpeed, int duration, int flag, float playbackRate, Any p9);
 ```
 
 ```
@@ -18,8 +18,8 @@ Animations List : www.ls-multiplayer.com/dev/index.php?section=3
 * **scene**: 
 * **animDictionary**: 
 * **animationName**: 
-* **speed**: 
-* **speedMultiplier**: 
+* **blendInSpeed**: 
+* **blendOutSpeed**: 
 * **duration**: 
 * **flag**: 
 * **playbackRate**: 

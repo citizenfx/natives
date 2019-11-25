@@ -5,7 +5,7 @@ ns: HUD
 
 ```c
 // 0x7B1776B3B53F8D74 0xBE699BDE
-void SET_WARNING_MESSAGE(char* entryLine1, int instructionalKey, char* entryLine2, BOOL p3, Any p4, Any* background, Any* p6, BOOL p7, Any p8);
+void SET_WARNING_MESSAGE(char* entryLine1, int instructionalKey, char* entryLine2, BOOL p3, int p4, Any* background, Any* p6, BOOL showBg, Any p8);
 ```
 
 **instructionalKey enum list**:
@@ -76,6 +76,11 @@ Note: this list is definitely NOT complete, but these are the ones I've been abl
 **Result of the example code:**
 [https://i.imgur.com/imwoimm.png](https://i.imgur.com/imwoimm.png)
 
+```
+NativeDB Parameter 5: char* background
+NativeDB Parameter 6: char* p6
+```
+
 ## Parameters
 * **entryLine1**: The text label to display as the first line of the warning message.
 * **instructionalKey**: This is an enum, check the description for a list.
@@ -84,7 +89,7 @@ Note: this list is definitely NOT complete, but these are the ones I've been abl
 * **p4**: Purpose unknown.
 * **background**: Set to anything other than 0 or false (even any string) and it will draw a background. Setting it to 0 or false will draw no background.
 * **p6**: Purpose unknown.
-* **p7**: Purpose unknown.
+* **showBg**: Purpose unknown.
 * **p8**: Purpose unknown.
 
 

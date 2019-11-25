@@ -14,8 +14,9 @@ Example:
 0.000000 - mark the starting of animation.  
 0.500000 - mark the midpoint of the animation.  
 1.000000 - mark the end of animation.  
-Animations list : www.los-santos-multiplayer.com/dev.airdancer?cxt=anim  
 ```
+
+[Animations list](https://alexguirre.github.io/animations-list/)
 
 ## Parameters
 * **entity**: 

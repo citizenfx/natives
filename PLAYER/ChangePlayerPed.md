@@ -5,7 +5,7 @@ ns: PLAYER
 
 ```c
 // 0x048189FAC643DEEE 0xBE515485
-void CHANGE_PLAYER_PED(Player Player, Ped ped, BOOL b2, BOOL b3);
+void CHANGE_PLAYER_PED(Player player, Ped ped, BOOL b2, BOOL resetDamage);
 ```
 
 ```
@@ -13,8 +13,8 @@ b2 and/or b3 maybe got something to do with keeping values from the last ped. Bo
 ```
 
 ## Parameters
-* **Player**: 
+* **player**: 
 * **ped**: 
 * **b2**: 
-* **b3**: 
+* **resetDamage**: 
 

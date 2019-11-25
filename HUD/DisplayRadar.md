@@ -5,14 +5,18 @@ ns: HUD
 
 ```c
 // 0xA0EBB943C300E693 0x52816BD4
-Any DISPLAY_RADAR(BOOL Toggle);
+Any DISPLAY_RADAR(BOOL toggle);
 ```
 
 ```
 If Minimap / Radar should be displayed.  
 ```
 
+```
+NativeDB Return Type: void
+```
+
 ## Parameters
-* **Toggle**: 
+* **toggle**: 
 
 ## Return value
