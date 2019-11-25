@@ -8,10 +8,6 @@ ns: VEHICLE
 void SET_VEHICLE_LIVERY(Vehicle vehicle, int livery);
 ```
 
-```
-NativeDB Parameter 1: Hash livery
-```
-
 ## Parameters
 * **vehicle**: 
 * **livery**: 
