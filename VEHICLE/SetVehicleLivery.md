@@ -8,14 +8,6 @@ ns: VEHICLE
 void SET_VEHICLE_LIVERY(Vehicle vehicle, int livery);
 ```
 
-```
-Note: Only seems to work on Emergency Vehicles  
-```
-
-```
-NativeDB Parameter 1: Hash livery
-```
-
 ## Parameters
 * **vehicle**: 
 * **livery**: 
