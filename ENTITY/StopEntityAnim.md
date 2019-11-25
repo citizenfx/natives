@@ -9,9 +9,10 @@ Any STOP_ENTITY_ANIM(Entity entity, char* animation, char* animGroup, float p3);
 ```
 
 ```
-Animations list: https://alexguirre.github.io/animations-list/  
 RAGEPluginHook list: docs.ragepluginhook.net/html/62951c37-a440-478c-b389-c471230ddfc5.htm  
 ```
+
+[Animations list](https://alexguirre.github.io/animations-list/)
 
 ## Parameters
 * **entity**: 
