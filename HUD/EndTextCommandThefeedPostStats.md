@@ -1,28 +1,32 @@
 ---
 ns: HUD
-aliases: ["0x2B7E9A4EAAA93C89"]
+aliases: ["0x2B7E9A4EAAA93C89", "_SET_NOTIFICATION_MESSAGE_2"]
 ---
-## _SET_NOTIFICATION_MESSAGE_2
+## END_TEXT_COMMAND_THEFEED_POST_STATS
 
 ```c
 // 0x2B7E9A4EAAA93C89 0xED130FA1
-int _SET_NOTIFICATION_MESSAGE_2(char* title, int p1, int newProgress, int lastProgress, BOOL p4, char* picName1, char* picName2);
+int END_TEXT_COMMAND_THEFEED_POST_STATS(char* statTitle, int iconEnum, BOOL stepVal, int barValue, BOOL isImportant, char* picTxd, char* picTxn);
 ```
 
-```
+
+[List of picture names](https://pastebin.com/XdpJVbHz)
+
+
 Example result:
 
+
 ![](https://i.imgur.com/SdEZ22m.png)
-```
+
 
 ## Parameters
-* **title**: 
-* **p1**: 
-* **newProgress**: 
-* **lastProgress**: 
-* **p4**: 
-* **picName1**: 
-* **picName2**: 
+* **statTitle**: 
+* **iconEnum**: 
+* **stepVal**: 
+* **barValue**: 
+* **isImportant**: 
+* **picTxd**: 
+* **picTxn**: 
 
 ## Return value
 The notification handle.
@@ -38,7 +42,7 @@ Citizen.CreateThread(function()
     local txd = GetPedheadshotTxdString(handle)
 
     -- Add the notification text
-    SetNotificationTextEntry("PS_UPDATE")
+    BeginTextCommandThefeedPost("PS_UPDATE")
     AddTextComponentInteger(50)
 
     -- Set the notification title and progress
@@ -47,12 +51,12 @@ Citizen.CreateThread(function()
     local lastProgress = 25
     local newProgress = 50
     local unknownBool = false
-    SetNotificationMessage_2(title, p1, newProgress, lastProgress, unknownBool, txd, txd)
+    EndTextCommandThefeedPostStats(title, p1, newProgress, lastProgress, unknownBool, txd, txd)
 
     -- Draw the notification
     local showInBrief = true
     local blink = false -- blink doesn't work when using icon notifications.
-    DrawNotification(blink, showInBrief)
+    EndTextCommandThefeedPostTicker(blink, showInBrief)
     
     -- Cleanup after yourself!
     UnregisterPedheadshot(handle)
