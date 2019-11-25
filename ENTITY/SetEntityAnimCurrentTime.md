@@ -8,9 +8,7 @@ ns: ENTITY
 void SET_ENTITY_ANIM_CURRENT_TIME(Entity entity, char* animDictionary, char* animName, float time);
 ```
 
-```
-Animations list: https://alexguirre.github.io/animations-list/  
-```
+[Animations list](https://alexguirre.github.io/animations-list/)
 
 ## Parameters
 * **entity**: 
