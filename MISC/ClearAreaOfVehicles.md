@@ -12,6 +12,10 @@ void CLEAR_AREA_OF_VEHICLES(float x, float y, float z, float radius, BOOL p4, BO
 Example: 		CLEAR_AREA_OF_VEHICLES(0, 0, 0, 10000, false, false, false, false, false);  
 ```
 
+```
+NativeDB Added Parameter 10: BOOL p9
+```
+
 ## Parameters
 * **x**: 
 * **y**: 

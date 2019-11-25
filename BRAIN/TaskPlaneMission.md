@@ -52,6 +52,10 @@ AI::TASK_PLANE_MISSION(pilot, vehicle, 0, PLAYER::GET_PLAYER_PED(PLAYER::GET_PLA
 pastebin.com/gx7Finsk  
 ```
 
+```
+NativeDB Added Parameter 14: Any p13
+```
+
 ## Parameters
 * **pilot**: 
 * **aircraft**: 

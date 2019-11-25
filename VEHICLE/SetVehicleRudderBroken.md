@@ -5,11 +5,11 @@ ns: VEHICLE
 
 ```c
 // 0x09606148B6C71DEF 0x3FAC3CD4
-void SET_VEHICLE_RUDDER_BROKEN(Vehicle vehicle, BOOL p1);
+void SET_VEHICLE_RUDDER_BROKEN(Vehicle vehicle, BOOL toggle);
 ```
 
 
 ## Parameters
 * **vehicle**: 
-* **p1**: 
+* **toggle**: 
 

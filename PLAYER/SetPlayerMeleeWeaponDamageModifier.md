@@ -8,6 +8,9 @@ ns: PLAYER
 void SET_PLAYER_MELEE_WEAPON_DAMAGE_MODIFIER(Player player, float modifier);
 ```
 
+```
+NativeDB Added Parameter 3: BOOL p2
+```
 
 ## Parameters
 * **player**: 

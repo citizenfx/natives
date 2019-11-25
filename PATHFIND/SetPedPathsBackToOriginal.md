@@ -8,6 +8,9 @@ ns: PATHFIND
 void SET_PED_PATHS_BACK_TO_ORIGINAL(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5);
 ```
 
+```
+NativeDB Added Parameter 7: Any p6
+```
 
 ## Parameters
 * **p0**: 

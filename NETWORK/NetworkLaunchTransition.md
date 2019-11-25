@@ -8,5 +8,8 @@ ns: NETWORK
 Any NETWORK_LAUNCH_TRANSITION();
 ```
 
+```
+NativeDB Return Type: BOOL
+```
 
 ## Return value

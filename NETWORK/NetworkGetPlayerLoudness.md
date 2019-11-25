@@ -5,11 +5,11 @@ ns: NETWORK
 
 ```c
 // 0x21A1684A25C2867F 0xF2F67014
-float NETWORK_GET_PLAYER_LOUDNESS(Any p0);
+float NETWORK_GET_PLAYER_LOUDNESS(Player player);
 ```
 
 
 ## Parameters
-* **p0**: 
+* **player**: 
 
 ## Return value

@@ -13,6 +13,10 @@ Makes the specified ped shuffle to the next vehicle seat.
 The ped MUST be in a vehicle and the vehicle parameter MUST be the ped's current vehicle.  
 ```
 
+```
+NativeDB Added Parameter 3: Any p2
+```
+
 ## Parameters
 * **ped**: 
 * **vehicle**: 

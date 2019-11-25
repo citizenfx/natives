@@ -5,7 +5,7 @@ ns: AUDIO
 
 ```c
 // 0x3B4BF5F0859204D9 0xCE1332B7
-void SET_CUTSCENE_AUDIO_OVERRIDE(char* p0);
+void SET_CUTSCENE_AUDIO_OVERRIDE(char* name);
 ```
 
 ```
@@ -16,5 +16,5 @@ AUDIO::SET_CUTSCENE_AUDIO_OVERRIDE("_TOOTHLESS");
 ```
 
 ## Parameters
-* **p0**: 
+* **name**: 
 

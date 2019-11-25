@@ -8,6 +8,9 @@ ns: VEHICLE
 Any SET_PLAYERS_LAST_VEHICLE(Vehicle vehicle);
 ```
 
+```
+NativeDB Return Type: void
+```
 
 ## Parameters
 * **vehicle**: 

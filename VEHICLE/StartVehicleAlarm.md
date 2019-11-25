@@ -8,6 +8,9 @@ ns: VEHICLE
 Any START_VEHICLE_ALARM(Vehicle vehicle);
 ```
 
+```
+NativeDB Return Type: void
+```
 
 ## Parameters
 * **vehicle**: 

@@ -5,13 +5,16 @@ ns: NETWORK
 
 ```c
 // 0xB8322EEB38BE7C26 0x22C33603
-BOOL SET_BALANCE_ADD_MACHINES(Any* p0, Any p1, Any* p2);
+BOOL SET_BALANCE_ADD_MACHINES(Any* data, int dataCount, Any* contentTypeName);
 ```
 
+```
+NativeDB Parameter 2: char* contentTypeName
+```
 
 ## Parameters
-* **p0**: 
-* **p1**: 
-* **p2**: 
+* **data**: 
+* **dataCount**: 
+* **contentTypeName**: 
 
 ## Return value

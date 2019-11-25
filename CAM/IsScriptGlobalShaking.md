@@ -14,7 +14,6 @@ In drunk_controller.c4, sub_309
 if (CAM::_C912AF078AF19212()) {  
     CAM::_1C9D7949FA533490(0);  
 }  
-What does "IS_SCRIPT_GLOBAL_SHAKING" mean..? :/ Is this a hash collision?  
 ```
 
 ## Return value

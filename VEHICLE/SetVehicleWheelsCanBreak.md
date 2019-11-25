@@ -8,6 +8,9 @@ ns: VEHICLE
 Any SET_VEHICLE_WHEELS_CAN_BREAK(Vehicle vehicle, BOOL enabled);
 ```
 
+```
+NativeDB Return Type: void
+```
 
 ## Parameters
 * **vehicle**: 

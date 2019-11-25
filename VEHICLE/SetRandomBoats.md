@@ -8,6 +8,9 @@ ns: VEHICLE
 Any SET_RANDOM_BOATS(BOOL toggle);
 ```
 
+```
+NativeDB Return Type: void
+```
 
 ## Parameters
 * **toggle**: 

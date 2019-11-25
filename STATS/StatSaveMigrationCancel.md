@@ -1,0 +1,13 @@
+---
+ns: STATS
+aliases: ["0x4FEF53183C3C6414"]
+---
+## _STAT_SAVE_MIGRATION_CANCEL
+
+```c
+// 0x4FEF53183C3C6414
+BOOL _STAT_SAVE_MIGRATION_CANCEL();
+```
+
+
+## Return value

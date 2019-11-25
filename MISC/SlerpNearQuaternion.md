@@ -6,25 +6,25 @@ aliases: ["0xF2F6A2FA49278625"]
 
 ```c
 // 0xF2F6A2FA49278625 0x87B92190
-void SlerpNearQuaternion(float p0, float p1, float p2, float p3, float p4, float p5, float p6, float p7, float p8, float* p9, float* p10, float* p11, float* p12);
+void SlerpNearQuaternion(float t, float x, float y, float z, float w, float x1, float y1, float z1, float w1, float* outX, float* outY, float* outZ, float* outW);
 ```
 
 This native always come right before SetEntityQuaternion where its final 4 parameters are SlerpNearQuaternion p9 to p12
 
 ## Parameters
-* **p0**: acceleration differenzial (am_rollercoaster.c func_134)
-* **p1**: rotation parameter (maybe X axys)
-* **p2**: rotation parameter (maybe X axys)
-* **p3**: rotation parameter (maybe X axys)
-* **p4**: rotation parameter (maybe X axys)
-* **p5**: rotation parameter (maybe Y axys)
-* **p6**: rotation parameter (maybe Y axys)
-* **p7**: rotation parameter (maybe Y axys)
-* **p8**: rotation parameter (maybe Y axys)
-* **p9**: output value calculated (X)
-* **p10**: output value calculated (Y)
-* **p11**: output value calculated (Z)
-* **p12**: output value calculated (W)
+* **t**: acceleration differenzial (am_rollercoaster.c func_134)
+* **x**: rotation parameter (maybe X axys)
+* **y**: rotation parameter (maybe X axys)
+* **z**: rotation parameter (maybe X axys)
+* **w**: rotation parameter (maybe X axys)
+* **x1**: rotation parameter (maybe Y axys)
+* **y1**: rotation parameter (maybe Y axys)
+* **z1**: rotation parameter (maybe Y axys)
+* **w1**: rotation parameter (maybe Y axys)
+* **outX**: output value calculated (X)
+* **outY**: output value calculated (Y)
+* **outZ**: output value calculated (Z)
+* **outW**: output value calculated (W)
 
 ## Examples
 ```cs

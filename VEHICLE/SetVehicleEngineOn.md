@@ -5,7 +5,7 @@ ns: VEHICLE
 
 ```c
 // 0x2497C4717C8B881E 0x7FBC86F1
-void SET_VEHICLE_ENGINE_ON(Vehicle vehicle, BOOL value, BOOL instantly, BOOL otherwise);
+void SET_VEHICLE_ENGINE_ON(Vehicle vehicle, BOOL value, BOOL instantly, BOOL noAutoTurnOn);
 ```
 
 ```
@@ -23,5 +23,5 @@ And what's with BOOL otherwise, what does it do???
 * **vehicle**: 
 * **value**: 
 * **instantly**: 
-* **otherwise**: 
+* **noAutoTurnOn**: 
 

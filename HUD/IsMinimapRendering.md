@@ -1,0 +1,13 @@
+---
+ns: HUD
+aliases: ["0xAF754F20EB5CD51A","_IS_RADAR_ENABLED"]
+---
+## IS_MINIMAP_RENDERING
+
+```c
+// 0xAF754F20EB5CD51A 0x9CD18314
+BOOL IS_MINIMAP_RENDERING();
+```
+
+
+## Return value

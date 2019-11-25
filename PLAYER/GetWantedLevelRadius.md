@@ -12,6 +12,10 @@ Any GET_WANTED_LEVEL_RADIUS(Player player);
 Remnant from GTA IV. Does nothing in GTA V.  
 ```
 
+```
+NativeDB Return Type: float
+```
+
 ## Parameters
 * **player**: 
 

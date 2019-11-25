@@ -1,0 +1,12 @@
+---
+ns: NETWORK
+aliases: ["0xEDF7F927136C224B"]
+---
+## UGC_GET_QUERY_RESULT
+
+```c
+// 0xEDF7F927136C224B 0xCC2356E3
+Any UGC_GET_QUERY_RESULT();
+```
+
+## Return value

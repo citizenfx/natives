@@ -29,6 +29,10 @@ char descLabel[64];
 };  
 ```
 
+```
+NativeDB Parameter 2: int* ComponentDataPtr
+```
+
 ## Parameters
 * **dlcWeaponIndex**: 
 * **dlcWeapCompIndex**: 

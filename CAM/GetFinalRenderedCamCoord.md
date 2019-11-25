@@ -1,0 +1,12 @@
+---
+ns: CAM
+aliases: ["_GET_GAMEPLAY_CAM_COORDS"]
+---
+## GET_FINAL_RENDERED_CAM_COORD
+
+```c
+// 0xA200EB1EE790F448 0x9C84BDA0
+Vector3 GET_FINAL_RENDERED_CAM_COORD();
+```
+
+## Return value

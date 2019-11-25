@@ -5,11 +5,11 @@ ns: NETWORK
 
 ```c
 // 0xCE60DE011B6C7978 0x001B4046
-BOOL NETWORK_IS_GAMER_MUTED_BY_ME(int* p0);
+BOOL NETWORK_IS_GAMER_MUTED_BY_ME(int* networkHandle);
 ```
 
 
 ## Parameters
-* **p0**: 
+* **networkHandle**: 
 
 ## Return value

@@ -5,7 +5,7 @@ ns: AUDIO
 
 ```c
 // 0xC5EF963405593646 0x96CD0513
-void ADD_LINE_TO_CONVERSATION(int p0, char* p1, char* p2, int p3, int p4, BOOL p5, BOOL p6, BOOL p7, BOOL p8, int p9, BOOL p10, BOOL p11, BOOL p12);
+void ADD_LINE_TO_CONVERSATION(int index, char* p1, char* p2, int p3, int p4, BOOL p5, BOOL p6, BOOL p7, BOOL p8, int p9, BOOL p10, BOOL p11, BOOL p12);
 ```
 
 ```
@@ -27,7 +27,7 @@ p12 is unknown as in TU27 X360 scripts it only goes to p11.
 ```
 
 ## Parameters
-* **p0**: 
+* **index**: 
 * **p1**: 
 * **p2**: 
 * **p3**: 

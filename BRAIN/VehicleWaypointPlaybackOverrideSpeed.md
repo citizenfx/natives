@@ -5,11 +5,11 @@ ns: BRAIN
 
 ```c
 // 0x121F0593E0A431D7 0xBE1E7BB4
-void VEHICLE_WAYPOINT_PLAYBACK_OVERRIDE_SPEED(Any p0, float p1);
+void VEHICLE_WAYPOINT_PLAYBACK_OVERRIDE_SPEED(Vehicle vehicle, float speed);
 ```
 
 
 ## Parameters
-* **p0**: 
-* **p1**: 
+* **vehicle**: 
+* **speed**: 
 
