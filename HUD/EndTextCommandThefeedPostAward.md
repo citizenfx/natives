@@ -44,11 +44,11 @@ Citizen.CreateThread(function()
 
     -- Add the notification text, the more text you add the smaller the font
     -- size will become (text is forced on 1 line only), so keep this short!
-    SetNotificationTextEntry("STRING")
+    BeginTextCommandThefeedPost("STRING")
     AddTextComponentSubstringPlayerName("You won the match!")
 
     -- Draw the notification
-    DrawNotificationAward(txd, txd, 200, 0, "FM_GEN_UNLOCK")
+    EndTextCommandThefeedPostAward(txd, txd, 200, 0, "FM_GEN_UNLOCK")
     
     -- Cleanup after yourself!
     UnregisterPedheadshot(handle)

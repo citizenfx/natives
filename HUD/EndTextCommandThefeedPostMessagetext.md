@@ -40,7 +40,7 @@ iconTypes:
 * **textureDict**: The texture dictionary for the icon.
 * **textureName**: The texture name for the icon.
 * **flash**: Flash, doesn't seem to work no matter what.
-* **iconType**: The icon type, see the list above in the description.
+* **iconType**: The icon type, see the list in the description below.
 * **sender**: The notification title.
 * **subject**: The notification subtitle.
 
@@ -58,7 +58,7 @@ Citizen.CreateThread(function()
     local txd = GetPedheadshotTxdString(handle)
 
     -- Add the notification text
-    SetNotificationTextEntry("STRING")
+    BeginTextCommandThefeedPost("STRING")
     AddTextComponentSubstringPlayerName("This is the private message :o")
 
     -- Set the notification icon, title and subtitle.
@@ -66,12 +66,12 @@ Citizen.CreateThread(function()
     local subtitle = "Private Message"
     local iconType = 0
     local flash = false -- Flash doesn't seem to work no matter what.
-    SetNotificationMessage(txd, txd, flash, iconType, title, subtitle)
+    EndTextCommandThefeedPostMessagetext(txd, txd, flash, iconType, title, subtitle)
 
     -- Draw the notification
     local showInBrief = true
     local blink = false -- blink doesn't work when using icon notifications.
-    DrawNotification(blink, showInBrief)
+    EndTextCommandThefeedPostTicker(blink, showInBrief)
     
     -- Cleanup after yourself!
     UnregisterPedheadshot(handle)
