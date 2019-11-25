@@ -8,9 +8,6 @@ ns: HUD
 void ADD_NEXT_MESSAGE_TO_PREVIOUS_BRIEFS(BOOL p0);
 ```
 
-```
-hash collision?  
-```
 
 ## Parameters
 * **p0**: 

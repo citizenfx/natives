@@ -1,0 +1,16 @@
+---
+ns: CAM
+aliases: ["0x74BD83EA840F6BC9"]
+---
+## _IS_AIM_CAM_THIRD_PERSON_ACTIVE
+
+```c
+// 0x74BD83EA840F6BC9 0x8F320DE4
+BOOL _IS_AIM_CAM_THIRD_PERSON_ACTIVE();
+```
+
+```
+IS_A*
+```
+
+## Return value

@@ -13,6 +13,10 @@ skin - everything alpha except skin
 Set entity alpha level. Ranging from 0 to 255 but chnages occur after every 20 percent (after every 51).  
 ```
 
+```
+NativeDB Parameter 2: BOOL skin
+```
+
 ## Parameters
 * **entity**: 
 * **alphaLevel**: 

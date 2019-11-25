@@ -1,0 +1,16 @@
+---
+ns: INTERIOR
+aliases: ["0xA6575914D2A0B450","_GET_ROOM_KEY_FROM_GAMEPLAY_CAM"]
+---
+## GET_ROOM_KEY_FOR_GAME_VIEWPORT
+
+```c
+// 0xA6575914D2A0B450 0x4FF3D3F5
+Hash GET_ROOM_KEY_FOR_GAME_VIEWPORT();
+```
+
+```
+Returns the room hash key from the current gameplay cam.  
+```
+
+## Return value

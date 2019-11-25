@@ -1,0 +1,13 @@
+---
+ns: NETWORK
+aliases: ["0x01ABCE5E7CBDA196"]
+---
+## _NETWORK_GET_PLATFORM_PARTY_UNK
+
+```c
+// 0x01ABCE5E7CBDA196
+int _NETWORK_GET_PLATFORM_PARTY_UNK();
+```
+
+
+## Return value

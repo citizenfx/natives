@@ -5,10 +5,10 @@ ns: VEHICLE
 
 ```c
 // 0xAB8E2EDA0C0A5883 0x8DEA18C8
-void SKIP_TO_END_AND_STOP_PLAYBACK_RECORDED_VEHICLE(Any p0);
+void SKIP_TO_END_AND_STOP_PLAYBACK_RECORDED_VEHICLE(Vehicle vehicle);
 ```
 
 
 ## Parameters
-* **p0**: 
+* **vehicle**: 
 

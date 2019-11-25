@@ -8,8 +8,9 @@ ns: BRAIN
 void TASK_PLAY_ANIM(Ped ped, char* animDictionary, char* animationName, float blendInSpeed, float blendOutSpeed, int duration, int flag, float playbackRate, BOOL lockX, BOOL lockY, BOOL lockZ);
 ```
 
+[Animations list](https://alexguirre.github.io/animations-list/)
+
 ```
-Animations list : www.los-santos-multiplayer.com/dev.airdancer?cxt=anim  
 float blendInSpeed > normal speed is 8.0f
 ----------------------  
 float blendOutSpeed > normal speed is 8.0f

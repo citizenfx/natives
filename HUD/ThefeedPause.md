@@ -1,0 +1,12 @@
+---
+ns: HUD
+aliases: ["0xFDB423997FA30340"]
+---
+## THEFEED_PAUSE
+
+```c
+// 0xFDB423997FA30340 0x4D0449C6
+void THEFEED_PAUSE();
+```
+
+

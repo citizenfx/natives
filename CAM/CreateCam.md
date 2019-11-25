@@ -5,7 +5,7 @@ ns: CAM
 
 ```c
 // 0xC3981DCE61D9E13F 0xE9BF2A7D
-Cam CREATE_CAM(char* Gippo, BOOL p1);
+Cam CREATE_CAM(char* camName, BOOL p1);
 ```
 
 ```
@@ -17,7 +17,7 @@ Cam CREATE_CAM(char* Gippo, BOOL p1);
 ```
 
 ## Parameters
-* **Gippo**: 
+* **camName**: 
 * **p1**: 
 
 ## Return value

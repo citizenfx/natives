@@ -8,4 +8,7 @@ ns: GRAPHICS
 void _0xEFABC7722293DA7C();
 ```
 
+```
+AD*
+```
 

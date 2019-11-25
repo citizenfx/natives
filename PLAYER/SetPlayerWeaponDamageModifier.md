@@ -5,7 +5,7 @@ ns: PLAYER
 
 ```c
 // 0xCE07B9F7817AADA3 0xB02C2F39
-void SET_PLAYER_WEAPON_DAMAGE_MODIFIER(Player player, float damageAmount);
+void SET_PLAYER_WEAPON_DAMAGE_MODIFIER(Player player, float modifier);
 ```
 
 ```
@@ -15,5 +15,5 @@ Based on tests, it is unlikely to be a multiplier.
 
 ## Parameters
 * **player**: 
-* **damageAmount**: 
+* **modifier**: 
 

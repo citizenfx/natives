@@ -5,11 +5,14 @@ ns: BRAIN
 
 ```c
 // 0x39E72BC99E6360CB 0x1A7CEBD0
-Any CLOSE_SEQUENCE_TASK(Object taskSequence);
+Any CLOSE_SEQUENCE_TASK(int taskSequenceId);
 ```
 
+```
+NativeDB Return Type: void
+```
 
 ## Parameters
-* **taskSequence**: 
+* **taskSequenceId**: 
 
 ## Return value

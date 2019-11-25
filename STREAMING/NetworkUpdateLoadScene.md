@@ -8,4 +8,7 @@ ns: STREAMING
 void NETWORK_UPDATE_LOAD_SCENE();
 ```
 
+```
+NativeDB Return Type: BOOL
+```
 

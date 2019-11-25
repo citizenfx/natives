@@ -11,8 +11,9 @@ BOOL PLAY_ENTITY_ANIM(Entity entity, char* animName, char* animDict, float p3, B
 ```
 delta and bitset are guessed fields. They are based on the fact that most of the calls have 0 or nil field types passed in.  
 The only time bitset has a value is 0x4000 and the only time delta has a value is during stealth with usually <1.0f values.  
-Animations list : www.los-santos-multiplayer.com/dev.airdancer?cxt=anim  
 ```
+
+[Animations list](https://alexguirre.github.io/animations-list/)
 
 ## Parameters
 * **entity**: 

@@ -1,0 +1,13 @@
+---
+ns: MISC
+aliases: ["0x075F1D57402C93BA"]
+---
+## HAVE_CREDITS_REACHED_END
+
+```c
+// 0x075F1D57402C93BA 0x2569C9A7
+BOOL HAVE_CREDITS_REACHED_END();
+```
+
+
+## Return value

@@ -1,0 +1,11 @@
+---
+ns: NETWORK
+aliases: ["0xE9B99B6853181409"]
+---
+## UGC_CANCEL_QUERY
+
+```c
+// 0xE9B99B6853181409 0x021D5A94
+void UGC_CANCEL_QUERY();
+```
+

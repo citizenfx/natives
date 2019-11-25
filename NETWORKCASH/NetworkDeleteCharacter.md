@@ -5,7 +5,7 @@ ns: NETWORKCASH
 
 ```c
 // 0x05A50AF38947EB8D 0xA9F7E9C3
-void NETWORK_DELETE_CHARACTER(int characterIndex, BOOL p1, BOOL p2);
+void NETWORK_DELETE_CHARACTER(int characterSlot, BOOL p1, BOOL p2);
 ```
 
 ```
@@ -13,7 +13,7 @@ Note the 2nd parameters are always 1, 0. I have a feeling it deals with your mon
 ```
 
 ## Parameters
-* **characterIndex**: 
+* **characterSlot**: 
 * **p1**: 
 * **p2**: 
 

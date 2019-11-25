@@ -5,7 +5,7 @@ ns: MOBILE
 
 ```c
 // 0xA4E8E696C532FBC7 0x5BBC5E23
-void CREATE_MOBILE_PHONE(int p3);
+void CREATE_MOBILE_PHONE(int phoneType);
 ```
 
 ```
@@ -19,5 +19,5 @@ These values represent bit flags, so a value of '3' would toggle Trevor and Fran
 ```
 
 ## Parameters
-* **p3**: 
+* **phoneType**: 
 

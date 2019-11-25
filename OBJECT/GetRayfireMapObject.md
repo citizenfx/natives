@@ -6,7 +6,7 @@ aliases: ["0xB48FCED898292E52", "_GET_DES_OBJECT"]
 
 ```c
 // 0xB48FCED898292E52 0xA286DE96
-int GET_RAYFIRE_MAP_OBJECT(float x, float y, float z, float rotation, char* name);
+Object GET_RAYFIRE_MAP_OBJECT(float x, float y, float z, float radius, char* name);
 ```
 
 ```
@@ -20,7 +20,7 @@ All found arguments for p4 starts with "des_" like "DES_FIB_Floor" and "des_ship
 * **x**: 
 * **y**: 
 * **z**: 
-* **rotation**: 
+* **radius**: 
 * **name**: 
 
 ## Return value

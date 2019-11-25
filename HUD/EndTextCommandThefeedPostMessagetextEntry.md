@@ -6,7 +6,7 @@ aliases: ["0xC6F580E4C94926AC", "_SET_NOTIFICATION_MESSAGE_3"]
 
 ```c
 // 0xC6F580E4C94926AC
-int _END_TEXT_COMMAND_THEFEED_POST_MESSAGETEXT_ENTRY(char* picName1, char* picName2, BOOL p2, Any p3, char* p4, char* p5);
+int _END_TEXT_COMMAND_THEFEED_POST_MESSAGETEXT_ENTRY(char* picTxd, char* picTxn, BOOL flash, int iconType, char* entryText, char* text);
 ```
 
 Needs more research.
@@ -23,11 +23,11 @@ Example result:
 
 
 ## Parameters
-* **picName1**: 
-* **picName2**: 
-* **p2**: 
-* **p3**: 
-* **p4**: 
-* **p5**: 
+* **picTxd**: 
+* **picTxn**: 
+* **flash**: 
+* **iconType**: 
+* **entryText**: 
+* **text**: 
 
 ## Return value

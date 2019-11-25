@@ -8,6 +8,9 @@ ns: OBJECT
 Any SET_OBJECT_TARGETTABLE(Object object, BOOL targettable);
 ```
 
+```
+NativeDB Return Type: void
+```
 
 ## Parameters
 * **object**: 

@@ -1,0 +1,16 @@
+---
+ns: HUD
+aliases: ["0xA9CBFD40B3FA3010"]
+---
+## THEFEED_IS_PAUSED
+
+```c
+// 0xA9CBFD40B3FA3010 0xC5223796
+BOOL THEFEED_IS_PAUSED();
+```
+
+```
+Getter for 0xFDB423997FA30340
+```
+
+## Return value

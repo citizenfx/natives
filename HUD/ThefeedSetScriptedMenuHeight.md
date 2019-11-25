@@ -1,0 +1,14 @@
+---
+ns: HUD
+aliases: ["0x55598D21339CB998","_CLEAR_NOTIFICATIONS_POS"]
+---
+## THEFEED_SET_SCRIPTED_MENU_HEIGHT
+
+```c
+// 0x55598D21339CB998 0x1DA7E41A
+void THEFEED_SET_SCRIPTED_MENU_HEIGHT(float pos);
+```
+
+## Parameters
+* **pos**: 
+

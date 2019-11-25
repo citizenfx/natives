@@ -20,6 +20,10 @@ red,green,blue - Sprite color (default = 255/255/255)
 alpha - opacity level  
 ```
 
+```
+NativeDB Added Parameter 12: BOOL p11
+```
+
 ## Parameters
 * **textureDict**: 
 * **textureName**: 

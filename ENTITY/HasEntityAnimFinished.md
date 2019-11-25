@@ -10,8 +10,9 @@ BOOL HAS_ENTITY_ANIM_FINISHED(Entity entity, char* animDict, char* animName, int
 
 ```
 P3 is always 3 as far as i cant tell  
-Animations List : www.los-santos-multiplayer.com/dev.airdancer?cxt=anim  
 ```
+
+[Animations list](https://alexguirre.github.io/animations-list/)
 
 ## Parameters
 * **entity**: 

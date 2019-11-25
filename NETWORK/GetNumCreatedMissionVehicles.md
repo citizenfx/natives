@@ -1,0 +1,15 @@
+---
+ns: NETWORK
+aliases: ["0x0CD9AB83489430EA"]
+---
+## GET_NUM_CREATED_MISSION_VEHICLES
+
+```c
+// 0x0CD9AB83489430EA 0x20527695
+int GET_NUM_CREATED_MISSION_VEHICLES(BOOL p0);
+```
+
+## Parameters
+* **p0**: 
+
+## Return value

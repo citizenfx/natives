@@ -13,6 +13,13 @@ int START_NETWORKED_PARTICLE_FX_LOOPED_ON_ENTITY(char* effectName, Entity entity
 network fx  
 ```
 
+```
+NativeDB Added Parameter 13: Any p12
+NativeDB Added Parameter 14: Any p13
+NativeDB Added Parameter 15: Any p14
+NativeDB Added Parameter 16: Any p15
+```
+
 ## Parameters
 * **effectName**: 
 * **entity**: 

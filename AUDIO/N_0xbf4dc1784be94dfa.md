@@ -5,12 +5,15 @@ ns: AUDIO
 
 ```c
 // 0xBF4DC1784BE94DFA
-void _0xBF4DC1784BE94DFA(Any p0, BOOL p1, Any p2);
+void _0xBF4DC1784BE94DFA(Ped ped, BOOL p1, Any hash);
 ```
 
+```
+NativeDB Parameter 2: Hash hash
+```
 
 ## Parameters
-* **p0**: 
+* **ped**: 
 * **p1**: 
-* **p2**: 
+* **hash**: 
 

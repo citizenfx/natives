@@ -1,0 +1,15 @@
+---
+ns: VEHICLE
+aliases: ["0x30D779DE7C4F6DD3","_SET_DESIRED_VERTICAL_FLIGHT_PHASE","_SET_PLANE_VTOL_DESIRED_DIRECTION"]
+---
+## SET_VEHICLE_FLIGHT_NOZZLE_POSITION
+
+```c
+// 0x30D779DE7C4F6DD3 0xA7DF64D7
+void SET_VEHICLE_FLIGHT_NOZZLE_POSITION(Vehicle vehicle, float direction);
+```
+
+## Parameters
+* **vehicle**: 
+* **direction**: 
+

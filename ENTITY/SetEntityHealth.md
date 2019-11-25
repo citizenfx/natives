@@ -12,6 +12,10 @@ void SET_ENTITY_HEALTH(Entity entity, int health);
 health >= 0  
 ```
 
+```
+NativeDB Added Parameter 3: int p2
+```
+
 ## Parameters
 * **entity**: 
 * **health**: 

@@ -1,0 +1,11 @@
+---
+ns: HUD
+aliases: ["0xD8E694757BCEA8E9"]
+---
+## _DELETE_WAYPOINT
+
+```c
+// 0xD8E694757BCEA8E9 0x62BABF2C
+void _DELETE_WAYPOINT();
+```
+
