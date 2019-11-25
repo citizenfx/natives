@@ -8,7 +8,6 @@ ns: VEHICLE
 Any SMASH_VEHICLE_WINDOW(Vehicle vehicle, int index);
 ```
 
-```
 int index = 0 to 13
 
 0 = front right window
@@ -25,7 +24,7 @@ int index = 0 to 13
 11 = unsure
 12 = unsure
 13 = unsure
-```
+
 
 ## Parameters
 * **vehicle**: 
