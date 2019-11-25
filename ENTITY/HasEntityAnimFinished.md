@@ -10,8 +10,9 @@ BOOL HAS_ENTITY_ANIM_FINISHED(Entity entity, char* animDict, char* animName, int
 
 ```
 P3 is always 3 as far as i cant tell  
-Animations list: https://alexguirre.github.io/animations-list/  
 ```
+
+[Animations list](https://alexguirre.github.io/animations-list/)
 
 ## Parameters
 * **entity**: 
