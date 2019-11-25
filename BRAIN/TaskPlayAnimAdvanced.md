@@ -11,8 +11,9 @@ void TASK_PLAY_ANIM_ADVANCED(Ped ped, char* animDict, char* animName, float posX
 ```
 It's similar to the one above, except the first 6 floats let you specify the initial position and rotation of the task. (Ped gets teleported to the position). animTime is a float from 0.0 -> 1.0, lets you start an animation from given point. The rest as in AI::TASK_PLAY_ANIM.   
 Rotation information : rotX and rotY don't seem to have any effect, only rotZ works.  
-Animations list : www.los-santos-multiplayer.com/dev.airdancer?cxt=anim  
 ```
+
+[Animations list](https://alexguirre.github.io/animations-list/)
 
 ## Parameters
 * **ped**: 

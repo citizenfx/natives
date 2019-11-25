@@ -9,9 +9,7 @@ aliases: ["_GET_ANIM_DURATION"]
 float GET_ANIM_DURATION(char* animDict, char* animName);
 ```
 
-```
-Animations list : www.los-santos-multiplayer.com/dev.airdancer?cxt=anim  
-```
+[Animations list](https://alexguirre.github.io/animations-list/)
 
 ## Parameters
 * **animDict**: 
