@@ -6,14 +6,9 @@ aliases: ["0x4757F00BC6323CFE"]
 
 ```c
 // 0x4757F00BC6323CFE
-void _SET_WEAPON_DAMAGE_MODIFIER(Any weaponHash, float damageAmount);
-```
-
-```
-NativeDB Parameter 0: Hash weaponHash
+void _SET_WEAPON_DAMAGE_MODIFIER(Hash weaponHash, float damageAmount);
 ```
 
 ## Parameters
 * **weaponHash**: 
 * **damageAmount**: 
-
