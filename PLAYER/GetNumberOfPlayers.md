@@ -8,5 +8,9 @@ ns: PLAYER
 int GET_NUMBER_OF_PLAYERS();
 ```
 
+```
+Gets the number of players in the current session.
+If not multiplayer, always returns 1.
+```
 
 ## Return value

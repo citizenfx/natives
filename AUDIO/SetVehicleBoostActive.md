@@ -5,7 +5,7 @@ ns: AUDIO
 
 ```c
 // 0x4A04DE7CAB2739A1 0x072F15F2
-void SET_VEHICLE_BOOST_ACTIVE(Vehicle vehicle, BOOL Toggle);
+void SET_VEHICLE_BOOST_ACTIVE(Vehicle vehicle, BOOL toggle);
 ```
 
 ```
@@ -16,5 +16,5 @@ Will give a boost-soundeffect.
 
 ## Parameters
 * **vehicle**: 
-* **Toggle**: 
+* **toggle**: 
 

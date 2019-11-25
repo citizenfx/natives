@@ -5,11 +5,11 @@ ns: PHYSICS
 
 ```c
 // 0x8214A4B5A7A33612 0x49A11F0D
-Vector3 GET_CGOFFSET(Object rope);
+Vector3 GET_CGOFFSET(Entity entity);
 ```
 
 
 ## Parameters
-* **rope**: 
+* **entity**: 
 
 ## Return value

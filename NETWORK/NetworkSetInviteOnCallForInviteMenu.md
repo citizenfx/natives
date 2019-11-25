@@ -1,0 +1,15 @@
+---
+ns: NETWORK
+aliases: ["0x66F010A4B031A331"]
+---
+## _NETWORK_SET_INVITE_ON_CALL_FOR_INVITE_MENU
+
+```c
+// 0x66F010A4B031A331
+void _NETWORK_SET_INVITE_ON_CALL_FOR_INVITE_MENU(Any* p0);
+```
+
+
+## Parameters
+* **p0**: 
+

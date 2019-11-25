@@ -5,10 +5,10 @@ ns: PHYSICS
 
 ```c
 // 0xFFF3A50779EFBBB3 0x2EEDB18F
-void STOP_ROPE_UNWINDING_FRONT(Object rope);
+void STOP_ROPE_UNWINDING_FRONT(int ropeId);
 ```
 
 
 ## Parameters
-* **rope**: 
+* **ropeId**: 
 

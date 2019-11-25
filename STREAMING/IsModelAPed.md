@@ -5,11 +5,11 @@ ns: STREAMING
 
 ```c
 // 0x75816577FEA6DAD5
-BOOL _IS_MODEL_A_PED(Hash modelHash);
+BOOL _IS_MODEL_A_PED(Hash model);
 ```
 
 
 ## Parameters
-* **modelHash**: 
+* **model**: 
 
 ## Return value

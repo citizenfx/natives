@@ -5,7 +5,7 @@ ns: BRAIN
 
 ```c
 // 0x7285951DBF6B5A51 0xF65C20A7
-void TASK_THROW_PROJECTILE(int ped, float x, float y, float z);
+void TASK_THROW_PROJECTILE(Ped ped, float x, float y, float z);
 ```
 
 ```
@@ -16,6 +16,11 @@ It seems that - in the decompiled scripts - this native was used on a ped who wa
 It is possible, however, that this is how SWAT throws smoke grenades at the player when in cover.  
 ----------------------------------------------------  
 The first comment is right it definately is the ped as if you look in script finale_heist2b.c line 59628 in Xbox Scripts atleast you will see task_throw_projectile and the first param is Local_559[2 <14>] if you look above it a little bit line 59622 give_weapon_to_ped uses the same exact param Local_559[2 <14>] and we all know the first param of that native is ped. So it guaranteed has to be ped. 0 just may mean to use your ped by default for some reason.  
+```
+
+```
+NativeDB Added Parameter 5: Any p4
+NativeDB Added Parameter 6: Any p5
 ```
 
 ## Parameters

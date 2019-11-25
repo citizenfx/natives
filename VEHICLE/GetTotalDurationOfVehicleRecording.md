@@ -8,6 +8,9 @@ ns: VEHICLE
 Any GET_TOTAL_DURATION_OF_VEHICLE_RECORDING(Any p0, Any p1);
 ```
 
+```
+NativeDB Return Type: float
+```
 
 ## Parameters
 * **p0**: 

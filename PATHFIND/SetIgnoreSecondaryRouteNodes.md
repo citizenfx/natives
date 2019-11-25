@@ -1,0 +1,18 @@
+---
+ns: PATHFIND
+aliases: ["0x1FC289A0C3FF470F"]
+---
+## _SET_IGNORE_SECONDARY_ROUTE_NODES
+
+```c
+// 0x1FC289A0C3FF470F 0x90DF7A4C
+void _SET_IGNORE_SECONDARY_ROUTE_NODES(BOOL toggle);
+```
+
+```
+See: SET_BLIP_ROUTE
+```
+
+## Parameters
+* **toggle**: 
+

@@ -1,0 +1,11 @@
+---
+ns: CAM
+aliases: ["0x6493CF69859B116A"]
+---
+## _USE_STUNT_CAMERA_THIS_FRAME
+
+```c
+// 0x6493CF69859B116A
+void _USE_STUNT_CAMERA_THIS_FRAME();
+```
+

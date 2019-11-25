@@ -8,6 +8,9 @@ ns: BRAIN
 Any SET_PED_PATH_CAN_USE_LADDERS(Ped ped, BOOL Toggle);
 ```
 
+```
+NativeDB Return Type: void
+```
 
 ## Parameters
 * **ped**: 

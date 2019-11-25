@@ -1,0 +1,13 @@
+---
+ns: NETWORK
+aliases: ["0x2EAC52B4019E2782"]
+---
+## IS_COMMERCE_STORE_OPEN
+
+```c
+// 0x2EAC52B4019E2782 0x25E2DBA9
+BOOL IS_COMMERCE_STORE_OPEN();
+```
+
+
+## Return value

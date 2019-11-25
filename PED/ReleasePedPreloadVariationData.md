@@ -1,0 +1,14 @@
+---
+ns: PED
+aliases: ["0x5AAB586FFEC0FD96"]
+---
+## RELEASE_PED_PRELOAD_VARIATION_DATA
+
+```c
+// 0x5AAB586FFEC0FD96 0x6435F67F
+void RELEASE_PED_PRELOAD_VARIATION_DATA(Ped ped);
+```
+
+## Parameters
+* **ped**: 
+

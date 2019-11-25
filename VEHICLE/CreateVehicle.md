@@ -12,6 +12,10 @@ Vehicle CREATE_VEHICLE(Hash modelHash, float x, float y, float z, float heading,
 thisScriptCheck - can be destroyed if it belongs to the calling script.  
 ```
 
+```
+NativeDB Added Parameter 8: BOOL p7
+```
+
 ## Parameters
 * **modelHash**: 
 * **x**: 

@@ -5,12 +5,12 @@ ns: PHYSICS
 
 ```c
 // 0xEEA3B200A6FEB65B 0xCFB37773
-void SET_DAMPING(Object rope, int vertex, float value);
+void SET_DAMPING(Entity entity, int vertex, float value);
 ```
 
 
 ## Parameters
-* **rope**: 
+* **entity**: 
 * **vertex**: 
 * **value**: 
 

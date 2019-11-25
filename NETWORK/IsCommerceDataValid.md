@@ -1,0 +1,13 @@
+---
+ns: NETWORK
+aliases: ["0xEA14EEF5B7CD2C30"]
+---
+## IS_COMMERCE_DATA_VALID
+
+```c
+// 0xEA14EEF5B7CD2C30 0xEEFC8A55
+BOOL IS_COMMERCE_DATA_VALID();
+```
+
+
+## Return value

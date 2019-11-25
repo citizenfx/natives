@@ -5,7 +5,7 @@ ns: MISC
 
 ```c
 // 0x3F892CAF67444AE7 0xFC5FF7B3
-BOOL CREATE_INCIDENT(int incidentType, float x, float y, float z, int p5, float radius, int* outIncidentID);
+BOOL CREATE_INCIDENT(int dispatchService, float x, float y, float z, int numUnits, float radius, int* outIncidentID);
 ```
 
 ```
@@ -24,12 +24,17 @@ if(CREATE_INCIDENT) etc it will return false if you do as I said above.
 =====================================================  
 ```
 
+```
+NativeDB Added Parameter 8: Any p7
+NativeDB Added Parameter 9: Any p8
+```
+
 ## Parameters
-* **incidentType**: 
+* **dispatchService**: 
 * **x**: 
 * **y**: 
 * **z**: 
-* **p5**: 
+* **numUnits**: 
 * **radius**: 
 * **outIncidentID**: 
 

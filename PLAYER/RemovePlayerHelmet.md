@@ -8,6 +8,9 @@ ns: PLAYER
 Any REMOVE_PLAYER_HELMET(Player player, BOOL p2);
 ```
 
+```
+NativeDB Return Type: void
+```
 
 ## Parameters
 * **player**: 

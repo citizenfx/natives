@@ -5,7 +5,7 @@ ns: GRAPHICS
 
 ```c
 // 0x5F0C4B5B1C393BE2 0x1CBC1373
-void SET_PARTICLE_FX_LOOPED_EVOLUTION(int ptfxHandle, char* propertyName, float amount, BOOL Id);
+void SET_PARTICLE_FX_LOOPED_EVOLUTION(int ptfxHandle, char* propertyName, float amount, BOOL noNetwork);
 ```
 
 ```
@@ -24,5 +24,5 @@ if (!GRAPHICS::DOES_PARTICLE_FX_LOOPED_EXIST(l_25C7)) {
 * **ptfxHandle**: 
 * **propertyName**: 
 * **amount**: 
-* **Id**: 
+* **noNetwork**: 
 

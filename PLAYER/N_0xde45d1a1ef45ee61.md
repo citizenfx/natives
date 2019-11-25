@@ -9,8 +9,6 @@ aliases: ["SET_HUD_ANIM_STOP_LEVEL"]
 void _0xDE45D1A1EF45EE61(Player player, BOOL toggle);
 ```
 
-```
-```
 
 ## Parameters
 * **player**: 

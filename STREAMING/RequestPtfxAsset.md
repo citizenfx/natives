@@ -12,4 +12,8 @@ Any REQUEST_PTFX_ASSET();
 maps script name (thread + 0xD0) by lookup via scriptfx.dat - does nothing when script name is empty  
 ```
 
+```
+NativeDB Return Type: void
+```
+
 ## Return value

@@ -1,0 +1,16 @@
+---
+ns: HUD
+aliases: ["0xA277800A9EAE340E"]
+---
+## _HAS_DIRECTOR_MODE_BEEN_TRIGGERED
+
+```c
+// 0xA277800A9EAE340E
+BOOL _HAS_DIRECTOR_MODE_BEEN_TRIGGERED();
+```
+
+```
+HAS_*
+```
+
+## Return value

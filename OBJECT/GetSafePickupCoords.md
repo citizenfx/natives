@@ -8,6 +8,10 @@ ns: OBJECT
 Vector3 GET_SAFE_PICKUP_COORDS(float x, float y, float z, Any p3, Any p4);
 ```
 
+```
+NativeDB Parameter 3: float p3
+NativeDB Parameter 4: float p4
+```
 
 ## Parameters
 * **x**: 

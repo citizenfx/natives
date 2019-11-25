@@ -8,7 +8,4 @@ ns: NETWORK
 void NETWORK_RESET_BODY_TRACKER();
 ```
 
-```
-hash collision?? - Not sure, but fits alphabetically  
-```
 

@@ -5,8 +5,11 @@ ns: STREAMING
 
 ```c
 // 0x933BBEEB8C61B5F4 0x74C16879
-Any _0x933BBEEB8C61B5F4();
+BOOL _0x933BBEEB8C61B5F4();
 ```
 
+```
+Probably IS_SWITCH_*
+```
 
 ## Return value

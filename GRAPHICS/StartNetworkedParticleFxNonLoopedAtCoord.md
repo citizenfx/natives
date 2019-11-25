@@ -13,6 +13,10 @@ BOOL START_NETWORKED_PARTICLE_FX_NON_LOOPED_AT_COORD(char* effectName, float xPo
 network fx  
 ```
 
+```
+NativeDB Added Parameter 12: BOOL p11
+```
+
 ## Parameters
 * **effectName**: 
 * **xPos**: 

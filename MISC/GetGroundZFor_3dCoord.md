@@ -17,6 +17,10 @@ groundZ: The ground elevation at the specified position.
 unk: Nearly always 0, very rarely 1 in the scripts.  
 ```
 
+```
+NativeDB Added Parameter 6: BOOL p5
+```
+
 ## Parameters
 * **x**: 
 * **y**: 

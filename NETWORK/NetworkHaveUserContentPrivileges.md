@@ -1,0 +1,15 @@
+---
+ns: NETWORK
+aliases: ["0x72D918C99BCACC54"]
+---
+## NETWORK_HAVE_USER_CONTENT_PRIVILEGES
+
+```c
+// 0x72D918C99BCACC54 0x1F88819D
+BOOL NETWORK_HAVE_USER_CONTENT_PRIVILEGES(int p0);
+```
+
+## Parameters
+* **p0**: 
+
+## Return value

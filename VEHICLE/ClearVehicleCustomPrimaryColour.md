@@ -8,6 +8,9 @@ ns: VEHICLE
 Any CLEAR_VEHICLE_CUSTOM_PRIMARY_COLOUR(Vehicle vehicle);
 ```
 
+```
+NativeDB Return Type: void
+```
 
 ## Parameters
 * **vehicle**: 

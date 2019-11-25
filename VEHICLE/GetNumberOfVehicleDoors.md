@@ -5,7 +5,7 @@ ns: VEHICLE
 
 ```c
 // 0x92922A607497B14D
-Any _GET_NUMBER_OF_VEHICLE_DOORS(Vehicle vehicle);
+int _GET_NUMBER_OF_VEHICLE_DOORS(Vehicle vehicle);
 ```
 
 

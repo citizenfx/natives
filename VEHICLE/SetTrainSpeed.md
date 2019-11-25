@@ -8,6 +8,9 @@ ns: VEHICLE
 Any SET_TRAIN_SPEED(Vehicle train, float speed);
 ```
 
+```
+NativeDB Return Type: void
+```
 
 ## Parameters
 * **train**: 

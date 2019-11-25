@@ -1,0 +1,16 @@
+---
+ns: HUD
+aliases: ["0xAF42195A42C63BBA"]
+---
+## _IS_WARNING_MESSAGE_ACTIVE_2
+
+```c
+// 0xAF42195A42C63BBA
+BOOL _IS_WARNING_MESSAGE_ACTIVE_2();
+```
+
+```
+IS_WARNING_MESSAGE_*
+```
+
+## Return value

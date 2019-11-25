@@ -6,10 +6,10 @@ aliases: ["0xA73667484D7037C3"]
 
 ```c
 // 0xA73667484D7037C3 0xE6EEF8AF
-void NETWORK_SESSION_BLOCK_JOIN_REQUESTS(BOOL p0);
+void NETWORK_SESSION_BLOCK_JOIN_REQUESTS(BOOL toggle);
 ```
 
 
 ## Parameters
-* **p0**: 
+* **toggle**: 
 
