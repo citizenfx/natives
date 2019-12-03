@@ -5,7 +5,7 @@ ns: MISC
 
 ```c
 // 0xADCDE75E1C60F32D 0x452E8D9E
-BOOL IS_POSITION_OCCUPIED(float x, float y, float z, float range, BOOL p4, BOOL checkPeds, BOOL checkVehicles, BOOL p7, BOOL p8, Any p9, BOOL p10);
+BOOL IS_POSITION_OCCUPIED(float x, float y, float z, float range, BOOL p4, BOOL p5, BOOL checkEntities, BOOL p7, BOOL p8, Any p9, BOOL p10);
 ```
 
 The BOOL parameters that are documented have not been confirmed. They are just documented from what I've found during testing. They may not work as expected in all cases.
@@ -16,8 +16,8 @@ The BOOL parameters that are documented have not been confirmed. They are just d
 * **z**: Z coordinate of the position to check.
 * **range**: The range, seems to not be very accurate during testing.
 * **p4**: Unknown, when set to true it seems to always return true no matter what I try.
-* **checkPeds**: Most likely checks if any peds are in the area when set to true.
-* **checkVehicles**: Most likely checks if any vehicles are in the area when set to true.
+* **p5**: Unknown.
+* **checkEntities**: Most likely check for any entity in the area.
 * **p7**: Unknown.
 * **p8**: Unknown.
 * **p9**: Unknown.
