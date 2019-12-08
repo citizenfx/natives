@@ -6,7 +6,7 @@ aliases: ["0xBBB45C3CF5C8AA85"]
 
 ```c
 // 0xBBB45C3CF5C8AA85 0x4B770634
-float GET_GPS_BLIP_ROUTE_LENGTH();
+int GET_GPS_BLIP_ROUTE_LENGTH();
 ```
 
 ## Return value
