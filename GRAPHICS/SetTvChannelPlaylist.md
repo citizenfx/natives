@@ -32,6 +32,10 @@ Restart
 1=sequence restarts from beginning every time that channel is selected  
 ```
 
+The above playlists work as intended, and are commonly used, but there are many more playlists, as seen in `tvplaylists.xml`. A pastebin below outlines all playlists, they will be surronded by the name tag I.E. (<Name>PL_STD_CNT</Name> = PL_STD_CNT).
+
+https://pastebin.com/zUzGB6h7
+
 ## Parameters
 * **tvChannel**: 
 * **playlistName**: 
