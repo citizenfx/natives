@@ -22,7 +22,6 @@ Example : Function.Call(Hash.ACTIVATE_FRONTEND_MENU,-1171018317, 0, 42);
 Result : Opens the "Online" tab without pausing the menu, with -1 it opens the map.  
 ```
 
-```
 Below is a list of all known Frontend Menu Hashes.
 
 - FE_MENU_VERSION_SP_PAUSE
@@ -50,7 +49,7 @@ Below is a list of all known Frontend Menu Hashes.
 - FE_MENU_VERSION_JOINING_SCREEN
 - FE_MENU_VERSION_LANDING_MENU
 - FE_MENU_VERSION_LANDING_KEYMAPPING_MENU
-```
+
 
 ## Parameters
 * **menuhash**: 
