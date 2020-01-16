@@ -1,6 +1,7 @@
 ---
 ns: ENTITY
 ---
+
 ## GET_ENTITY_FORWARD_VECTOR
 
 ```c
@@ -9,10 +10,13 @@ Vector3 GET_ENTITY_FORWARD_VECTOR(Entity entity);
 ```
 
 ```
-Gets the entity's forward vector.  
+Gets the entity's forward vector.
 ```
 
 ## Parameters
-* **entity**: 
+
+- **entity**: The entity to get the forward vector for.
 
 ## Return value
+
+The forward vector.
