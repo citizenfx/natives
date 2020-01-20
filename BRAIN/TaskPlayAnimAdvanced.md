@@ -9,7 +9,7 @@ void TASK_PLAY_ANIM_ADVANCED(Ped ped, char* animDict, char* animName, float posX
 ```
 
 ```
-It's similar to the one above, except the first 6 floats let you specify the initial position and rotation of the task. (Ped gets teleported to the position). animTime is a float from 0.0 -> 1.0, lets you start an animation from given point. The rest as in AI::TASK_PLAY_ANIM.   
+It's similar to the one above, except the first 6 floats let you specify the initial position and rotation of the task. (Ped gets teleported to the position). animEnterSpeed is a float from 0.0 -> 1.0, adjust character speed to fully enter animation. animExitSpeed is the same as animEnterSpeed except during animation exit. animTime is a float from 0.0 -> 1.0, lets you start an animation from given point. The rest as in AI::TASK_PLAY_ANIM.   
 Rotation information : rotX and rotY don't seem to have any effect, only rotZ works.  
 ```
 
@@ -25,8 +25,8 @@ Rotation information : rotX and rotY don't seem to have any effect, only rotZ wo
 * **rotX**: 
 * **rotY**: 
 * **rotZ**: 
-* **speed**: 
-* **speedMultiplier**: 
+* **animEnterSpeed**: 
+* **animExitSpeed**: 
 * **duration**: 
 * **flag**: 
 * **animTime**: 
