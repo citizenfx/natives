@@ -10,7 +10,8 @@ int GET_NETWORK_TIME_ACCURATE();
 ```
 
 ```
-returns the same value as NETWORK::GET_NETWORK_TIME in freemode.  
+returns the same value as NETWORK::GET_NETWORK_TIME in freemode, but as opposed to GetNetworkTime it always gets the most recent time, instead of once per tick.
+Could be used for benchmarking since it can return times in ticks.
 ```
 
 ## Return value
