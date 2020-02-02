@@ -14,6 +14,10 @@ See _PLAY_AMBIENT_SPEECH1 for parameter specifications.
 Full list of speeches and voices names: gist.github.com/alexguirre/0af600eb3d4c91ad4f900120a63b8992  
 ```
 
+```
+NativeDB Added Parameter 4: Any p3
+```
+
 ## Parameters
 * **ped**: 
 * **speechName**: 

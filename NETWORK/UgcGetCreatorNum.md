@@ -1,0 +1,12 @@
+---
+ns: NETWORK
+aliases: ["0x597F8DBA9B206FC7"]
+---
+## UGC_GET_CREATOR_NUM
+
+```c
+// 0x597F8DBA9B206FC7 0x410C61D1
+Any UGC_GET_CREATOR_NUM();
+```
+
+## Return value

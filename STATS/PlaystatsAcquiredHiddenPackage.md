@@ -1,0 +1,15 @@
+---
+ns: STATS
+aliases: ["0x79AB33F0FBFAC40C"]
+---
+## PLAYSTATS_ACQUIRED_HIDDEN_PACKAGE
+
+```c
+// 0x79AB33F0FBFAC40C 0x8D5C7B37
+void PLAYSTATS_ACQUIRED_HIDDEN_PACKAGE(Any p0);
+```
+
+
+## Parameters
+* **p0**: 
+

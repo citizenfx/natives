@@ -8,6 +8,9 @@ ns: VEHICLE
 int _GET_ALL_VEHICLES(Any* vehArray);
 ```
 
+```
+NativeDB Parameter 0: int* vehArray
+```
 
 ## Parameters
 * **vehArray**: 

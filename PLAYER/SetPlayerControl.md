@@ -5,7 +5,7 @@ ns: PLAYER
 
 ```c
 // 0x8D32347D6D4C40A2 0xD17AFCD8
-void SET_PLAYER_CONTROL(Player player, BOOL toggle, int flags);
+void SET_PLAYER_CONTROL(Player player, BOOL bHasControl, int flags);
 ```
 
 ```
@@ -19,6 +19,6 @@ Flags(256, 260, 384, 768, 896, 900, 952, 1280)
 
 ## Parameters
 * **player**: 
-* **toggle**: 
+* **bHasControl**: 
 * **flags**: 
 

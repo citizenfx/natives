@@ -5,13 +5,7 @@ ns: NETWORK
 
 ```c
 // 0x7CD6BC4C2BBDD526 0xB06FE3FE
-int NETWORK_CREATE_SYNCHRONISED_SCENE(float x, float y, float z, float xRot, float yRot, float zRot, int p6, int p7, int p8, float p9);
-```
-
-```
-returns netScene  
-this native is missing 2 params  
-float p10, float p11  
+int NETWORK_CREATE_SYNCHRONISED_SCENE(float x, float y, float z, float xRot, float yRot, float zRot, int rotationOrder, BOOL useOcclusionPortal, BOOL looped, float p9, float animTime, float p11);
 ```
 
 ## Parameters
@@ -21,9 +15,12 @@ float p10, float p11
 * **xRot**: 
 * **yRot**: 
 * **zRot**: 
-* **p6**: 
-* **p7**: 
-* **p8**: 
+* **rotationOrder**: 
+* **useOcclusionPortal**: 
+* **looped**: 
 * **p9**: 
+* **animTime**: 
+* **p11**: 
 
 ## Return value
+netScene id

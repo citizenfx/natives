@@ -1,0 +1,12 @@
+---
+ns: NETWORK
+aliases: ["0x02ADA21EA2F6918F"]
+---
+## UGC_HAS_GET_FINISHED
+
+```c
+// 0x02ADA21EA2F6918F 0x50296140
+Any UGC_HAS_GET_FINISHED();
+```
+
+## Return value

@@ -1,0 +1,12 @@
+---
+ns: PATHFIND
+aliases: ["0xBBB45C3CF5C8AA85"]
+---
+## GET_GPS_BLIP_ROUTE_LENGTH
+
+```c
+// 0xBBB45C3CF5C8AA85 0x4B770634
+int GET_GPS_BLIP_ROUTE_LENGTH();
+```
+
+## Return value

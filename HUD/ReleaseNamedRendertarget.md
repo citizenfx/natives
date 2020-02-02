@@ -5,11 +5,11 @@ ns: HUD
 
 ```c
 // 0xE9F6FFE837354DD4 0xD3F6C892
-BOOL RELEASE_NAMED_RENDERTARGET(Any* p0);
+BOOL RELEASE_NAMED_RENDERTARGET(char* name);
 ```
 
 
 ## Parameters
-* **p0**: 
+* **name**: 
 
 ## Return value

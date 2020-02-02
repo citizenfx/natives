@@ -5,7 +5,7 @@ ns: NETWORK
 
 ```c
 // 0x742A637471BCECD9 0xB386713E
-void NETWORK_ADD_PED_TO_SYNCHRONISED_SCENE(Ped ped, int netScene, char* animDict, char* animnName, float speed, float speedMultiplier, int duration, int flag, float playbackRate, Any p9);
+void NETWORK_ADD_PED_TO_SYNCHRONISED_SCENE(Ped ped, int netScene, char* animDict, char* animnName, float blendInSpeed, float blendOutSpeed, int duration, int flag, float playbackRate, Any p9);
 ```
 
 
@@ -14,8 +14,8 @@ void NETWORK_ADD_PED_TO_SYNCHRONISED_SCENE(Ped ped, int netScene, char* animDict
 * **netScene**: 
 * **animDict**: 
 * **animnName**: 
-* **speed**: 
-* **speedMultiplier**: 
+* **blendInSpeed**: 
+* **blendOutSpeed**: 
 * **duration**: 
 * **flag**: 
 * **playbackRate**: 

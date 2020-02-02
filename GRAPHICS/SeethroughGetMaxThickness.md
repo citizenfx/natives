@@ -1,0 +1,14 @@
+---
+ns: GRAPHICS
+---
+## _SEETHROUGH_GET_MAX_THICKNESS
+
+```c
+// 0x43DBAE39626CE83F
+float _SEETHROUGH_GET_MAX_THICKNESS();
+```
+
+```
+NativeDB Introduced: v1290
+```
+

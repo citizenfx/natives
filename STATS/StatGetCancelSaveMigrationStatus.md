@@ -1,0 +1,13 @@
+---
+ns: STATS
+aliases: ["0x567384DFA67029E6"]
+---
+## _STAT_GET_CANCEL_SAVE_MIGRATION_STATUS
+
+```c
+// 0x567384DFA67029E6
+int _STAT_GET_CANCEL_SAVE_MIGRATION_STATUS();
+```
+
+
+## Return value

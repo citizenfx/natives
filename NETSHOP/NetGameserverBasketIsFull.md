@@ -1,0 +1,16 @@
+---
+ns: NETSHOP
+aliases: ["0x27F76CC6C55AD30E","_NETWORK_SHOP_BASKET_IS_FULL"]
+---
+## _NET_GAMESERVER_BASKET_IS_FULL
+
+```c
+// 0x27F76CC6C55AD30E
+Any _NET_GAMESERVER_BASKET_IS_FULL();
+```
+
+```
+NativeDB Return Type: BOOL
+```
+
+## Return value

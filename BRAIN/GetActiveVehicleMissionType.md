@@ -5,11 +5,11 @@ ns: BRAIN
 
 ```c
 // 0x534AEBA6E5ED4CAB 0xAFA914EF
-int GET_ACTIVE_VEHICLE_MISSION_TYPE(Vehicle veh);
+int GET_ACTIVE_VEHICLE_MISSION_TYPE(Vehicle vehicle);
 ```
 
 
 ## Parameters
-* **veh**: 
+* **vehicle**: 
 
 ## Return value

@@ -12,8 +12,9 @@ BOOL PLAY_CAM_ANIM(Cam cam, char* animName, char* animDictionary, float x, float
 Atleast one time in a script for the zRot Rockstar uses GET_ENTITY_HEADING to help fill the parameter.  
 p9 is unknown at this time.  
 p10 throughout all the X360 Scripts is always 2.  
-Animations list : www.los-santos-multiplayer.com/dev.airdancer?cxt=anim  
 ```
+
+[Animations list](https://alexguirre.github.io/animations-list/)
 
 ## Parameters
 * **cam**: 

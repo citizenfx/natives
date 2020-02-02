@@ -1,0 +1,12 @@
+---
+ns: AUDIO
+aliases: ["0xD57AAAE0E2214D11"]
+---
+## FREEZE_MICROPHONE
+
+```c
+// 0xD57AAAE0E2214D11 0x2B9D91E8
+void FREEZE_MICROPHONE();
+```
+
+

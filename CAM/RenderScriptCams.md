@@ -16,6 +16,10 @@ character (gameplay) camera, call this native with render set to 0.
 Setting ease to 1 will smooth the transition.  
 ```
 
+```
+NativeDB Added Parameter 6: Any p5
+```
+
 ## Parameters
 * **render**: 
 * **ease**: 

@@ -8,6 +8,9 @@ ns: OBJECT
 BOOL HAS_OBJECT_BEEN_BROKEN(Object object);
 ```
 
+```
+NativeDB Added Parameter 2: Any p1
+```
 
 ## Parameters
 * **object**: 

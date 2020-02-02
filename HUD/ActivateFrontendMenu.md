@@ -5,7 +5,7 @@ ns: HUD
 
 ```c
 // 0xEF01D36B9C9D0C7B 0x01D83872
-void ACTIVATE_FRONTEND_MENU(Hash menuhash, BOOL Toggle_Pause, int component);
+void ACTIVATE_FRONTEND_MENU(Hash menuhash, BOOL togglePause, int component);
 ```
 
 ```
@@ -24,6 +24,6 @@ Result : Opens the "Online" tab without pausing the menu, with -1 it opens the m
 
 ## Parameters
 * **menuhash**: 
-* **Toggle_Pause**: 
+* **togglePause**: 
 * **component**: 
 

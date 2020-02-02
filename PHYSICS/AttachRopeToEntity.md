@@ -5,7 +5,7 @@ ns: PHYSICS
 
 ```c
 // 0x4B490A6832559A65 0xB25D9536
-void ATTACH_ROPE_TO_ENTITY(Object rope, Entity entity, float x, float y, float z, BOOL p5);
+void ATTACH_ROPE_TO_ENTITY(int ropeId, Entity entity, float x, float y, float z, BOOL p5);
 ```
 
 ```
@@ -13,7 +13,7 @@ The position supplied can be anywhere, and the entity should anchor relative to 
 ```
 
 ## Parameters
-* **rope**: 
+* **ropeId**: 
 * **entity**: 
 * **x**: 
 * **y**: 

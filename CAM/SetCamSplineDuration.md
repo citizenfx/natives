@@ -5,7 +5,7 @@ ns: CAM
 
 ```c
 // 0x1381539FEE034CDA 0x3E91FC8A
-void SET_CAM_SPLINE_DURATION(int cam, int timeDuration);
+void SET_CAM_SPLINE_DURATION(Cam cam, int timeDuration);
 ```
 
 ```

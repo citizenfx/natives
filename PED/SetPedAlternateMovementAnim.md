@@ -14,8 +14,9 @@ stance:
 1 = walk  
 2 = running  
 p5 = usually set to true  
-Animations list : www.los-santos-multiplayer.com/dev.airdancer?cxt=anim  
 ```
+
+[Animations list](https://alexguirre.github.io/animations-list/)
 
 ## Parameters
 * **ped**: 

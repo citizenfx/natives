@@ -1,11 +1,12 @@
 ---
 ns: VEHICLE
+aliases: ["_GET_HELI_TAIL_ROTOR_HEALTH"]
 ---
-## _GET_HELI_TAIL_ROTOR_HEALTH
+## GET_HELI_TAIL_ROTOR_HEALTH
 
 ```c
 // 0xAE8CE82A4219AC8C 0xA41BC13D
-float _GET_HELI_TAIL_ROTOR_HEALTH(Vehicle vehicle);
+float GET_HELI_TAIL_ROTOR_HEALTH(Vehicle vehicle);
 ```
 
 ```

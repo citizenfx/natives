@@ -5,11 +5,16 @@ ns: MISC
 
 ```c
 // 0xE95B0C7D5BA3B96B
-BOOL _0xE95B0C7D5BA3B96B(Any p0);
+BOOL _0xE95B0C7D5BA3B96B(Ped ped);
 ```
 
+```
+Related to tennis mode.
+
+GET_TENNIS_*
+```
 
 ## Parameters
-* **p0**: 
+* **ped**: 
 
 ## Return value

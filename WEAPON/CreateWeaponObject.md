@@ -12,6 +12,11 @@ Object CREATE_WEAPON_OBJECT(Hash weaponHash, int ammoCount, float x, float y, fl
 Now has 8 params.  
 ```
 
+```
+NativeDB Added Parameter 9: Any p8
+NativeDB Added Parameter 10: Any p9
+```
+
 ## Parameters
 * **weaponHash**: 
 * **ammoCount**: 

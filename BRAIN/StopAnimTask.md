@@ -8,9 +8,7 @@ ns: BRAIN
 void STOP_ANIM_TASK(Ped ped, char* animDictionary, char* animationName, float p3);
 ```
 
-```
-Animations list : www.los-santos-multiplayer.com/dev.airdancer?cxt=anim  
-```
+[Animations list](https://alexguirre.github.io/animations-list/)
 
 ## Parameters
 * **ped**: 

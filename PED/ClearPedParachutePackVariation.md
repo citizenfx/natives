@@ -1,0 +1,14 @@
+---
+ns: PED
+aliases: ["0x1280804F7CFD2D6C"]
+---
+## CLEAR_PED_PARACHUTE_PACK_VARIATION
+
+```c
+// 0x1280804F7CFD2D6C 0x7BCD8991
+void CLEAR_PED_PARACHUTE_PACK_VARIATION(Ped ped);
+```
+
+## Parameters
+* **ped**: 
+

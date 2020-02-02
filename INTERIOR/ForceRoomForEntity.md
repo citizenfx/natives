@@ -5,7 +5,7 @@ ns: INTERIOR
 
 ```c
 // 0x52923C4710DD9907 0x10BD4435
-void FORCE_ROOM_FOR_ENTITY(Entity entity, int interiorID, Hash roomHashKey);
+void FORCE_ROOM_FOR_ENTITY(Entity entity, int interior, Hash roomHashKey);
 ```
 
 ```
@@ -14,6 +14,6 @@ Forces the particular room in an interior to load incase not teleporting into th
 
 ## Parameters
 * **entity**: 
-* **interiorID**: 
+* **interior**: 
 * **roomHashKey**: 
 

@@ -1,0 +1,20 @@
+---
+ns: NETWORK
+---
+## _0x45F35C0EDC33B03B
+
+```c
+// 0x45F35C0EDC33B03B
+void _0x45F35C0EDC33B03B(Entity entity, Hash model, int netScene, char* animDict, char* animName, float speed, float speedMulitiplier, int flag);
+```
+
+## Parameters
+* **entity**: 
+* **model**: 
+* **netScene**: 
+* **animDict**: 
+* **animName**: 
+* **speed**: 
+* **speedMulitiplier**: 
+* **flag**: 
+

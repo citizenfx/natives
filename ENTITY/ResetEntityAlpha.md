@@ -8,6 +8,9 @@ ns: ENTITY
 Any RESET_ENTITY_ALPHA(Entity entity);
 ```
 
+```
+NativeDB Return Type: void
+```
 
 ## Parameters
 * **entity**: 
