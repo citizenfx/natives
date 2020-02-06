@@ -17,3 +17,5 @@ PED::SET_PED_RESET_FLAG(PLAYER::PLAYER_PED_ID(), 240, 1);
 * **flagId**: 
 * **doReset**: 
 
+## Known Values
+PRF_PreventGoingIntoStillInVehicleState = 236 *(fanatic2.c)*
