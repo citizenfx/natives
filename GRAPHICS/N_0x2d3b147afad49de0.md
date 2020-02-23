@@ -44,6 +44,3 @@ NativeD B Introduced: v1290
 * **p10**: blue color
 * **p11**: alpha
 * **p12**: 0 every time
-
-## Where to find them?
-
