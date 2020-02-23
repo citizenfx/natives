@@ -5,7 +5,7 @@ ns: GRAPHICS
 
 ```c
 // 0x2D3B147AFAD49DE0
-void _0x2D3B147AFAD49DE0(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8, Any p9, Any p10, Any p11);
+void _0x2D3B147AFAD49DE0(char*  textureDict, char* textureName, float p2, float p3, float p4, float p5, float p6, float p7, int red, int green, int blue, int alpha, BOOL p12);
 ```
 
 ```
@@ -31,9 +31,9 @@ NativeD B Introduced: v1290
 ```
 
 ## Parameters
-* **p0**: Seems like the name of the minigame ?
-* **p1**: This one looks like the "part" of the minigame ?
-* **p2**: float
+* **textureDict**: inside script_txds.rpf, browse it with OpenIV
+* **textureName**: textureName
+* **p2**: float seems to be always returning 0.0 but not quite sure
 * **p3**: mostly -1 float
 * **p4**: something related to aspect ratio and looks like integer but can be float too ?
 * **p5**: float
@@ -44,3 +44,6 @@ NativeD B Introduced: v1290
 * **p10**: blue color
 * **p11**: alpha
 * **p12**: 0 every time
+
+## Where to find them?
+
