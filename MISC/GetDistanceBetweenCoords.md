@@ -28,7 +28,21 @@ The distance between the passed points in units.
 ```lua
 local dist = GetDistanceBetweenCoords(0.0, 0.0, 0.0, 5.0, 5.0, 5.0, true)
 
--- equivalent:
+-- language faster equivalent:
+local firstVec = vector3(0.0, 0.0, 0.0)
+local secondVec = vector3(5.0, 5.0, 5.0)
 
-dist = #(vector3(0.0, 0.0, 0.0) - vector3(5.0, 5.0, 5.0))
+local dist = #(firstVec - secondVec) -- Use Z
+local dist = #(firstVec.xy - secondVec.xy) -- Do not use Z
+```
+```cs
+float dist = GetDistanceBetweenCoords(0f, 0f, 0f, 5f, 5f, 5f, true)
+
+// language faster equivalent:
+
+Vector3 firstVec = new Vector3(0f, 0f, 0f);
+Vector3 secondVec = new Vector3(5f, 5f, 5f);
+
+float dist = firstVec.DistanceToSquared(secondVec); -- Use Z
+float dist = firstVec.DistanceToSquared2D(secondVec); -- Do not use Z
 ```
