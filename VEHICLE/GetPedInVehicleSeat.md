@@ -10,8 +10,8 @@ Ped GET_PED_IN_VEHICLE_SEAT(Vehicle vehicle, int index);
 
 ```
 indexes:
--1 = Driver
-0 = Front Right Passenger
+-1 = Front Right Passenger
+0 = Driver
 1 = Back Left Passenger
 2 = Back Right Passenger
 3 = Further Back Left Passenger (vehicles > 4 seats)
