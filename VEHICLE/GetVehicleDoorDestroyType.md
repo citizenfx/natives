@@ -8,7 +8,7 @@ ns: VEHICLE
 int _GET_VEHICLE_DOOR_DESTROY_TYPE(Vehicle vehicle, int doorIndex);
 ```
 
-A getter for [_SET_VEHICLE_DOOR_DESTROY_TYPE](#_0x48F44967FA05CC1E).
+A getter for [_SET_VEHICLE_DOOR_DESTROY_TYPE](#_0xBE70724027F85BCD).
 
 ## Parameters
 * **vehicle**: 
