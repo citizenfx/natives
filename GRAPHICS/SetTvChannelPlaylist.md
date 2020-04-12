@@ -9,7 +9,7 @@ aliases: ["0xF7B38B8305F1FE8B","_LOAD_TV_CHANNEL_SEQUENCE"]
 void SET_TV_CHANNEL_PLAYLIST(int tvChannel, char* playlistName, BOOL restart);
 ```
 
-```
+
 Loads specified video sequence into the TV Channel  
 TV_Channel ranges from 0-2  
 VideoSequence can be any of the following:  
@@ -30,7 +30,11 @@ VideoSequence can be any of the following:
 Restart   
 0=video sequence continues as normal  
 1=sequence restarts from beginning every time that channel is selected  
-```
+
+
+The above playlists work as intended, and are commonly used, but there are many more playlists, as seen in `tvplaylists.xml`. A pastebin below outlines all playlists, they will be surronded by the name tag I.E. (<Name>PL_STD_CNT</Name> = PL_STD_CNT).
+
+https://pastebin.com/zUzGB6h7
 
 ## Parameters
 * **tvChannel**: 
