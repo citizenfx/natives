@@ -8,16 +8,14 @@ ns: VEHICLE
 Any ROLL_UP_WINDOW(Vehicle vehicle, int windowIndex);
 ```
 
-```
-0 = Front Right Window  
-1 = Front Left Window  
-2 = Back Right Window  
-3 = Back Left Window  
-```
+0 = Front Left Window  
+1 = Front Right Window  
+2 = Back Left Window  
+3 = Back Right Window  
 
-```
+
 NativeDB Return Type: void
-```
+
 
 ## Parameters
 * **vehicle**: 
