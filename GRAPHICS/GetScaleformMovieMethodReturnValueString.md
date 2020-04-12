@@ -18,3 +18,23 @@ Returns a string in the same way GET_SCALEFORM_MOVIE_METHOD_RETURN_VALUE_INT ret
 
 ## Return value
 Returns a string in the same way `GET_SCALEFORM_MOVIE_METHOD_RETURN_VALUE_INT` returns an int.
+
+## Examples
+
+```lua
+local a = RequestScaleformMovie("translate") --scaleform gfx
+while not HasScaleformMovieLoaded(a) do
+    Citizen.Wait(0)
+end
+BeginScaleformMovieMethod(a,"EnglishToChinese") --call function
+ScaleformMovieMethodAddParamPlayerNameString("Good") --input
+local b = EndScaleformMovieMethodReturnValue()
+while true do
+    if IsScaleformMovieMethodReturnValueReady(b) then
+       local c = GetScaleformMovieMethodReturnValueString(b) --output
+       print(c)
+       break
+    end
+    Citizen.Wait(0)
+end
+```
