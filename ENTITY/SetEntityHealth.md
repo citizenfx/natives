@@ -8,16 +8,14 @@ ns: ENTITY
 void SET_ENTITY_HEALTH(Entity entity, int health);
 ```
 
-```
 health >= 0
-male ped ~= 100 - 200
-female ped ~= 0 - 100
-becuase something.
-```
 
-```
-NativeDB Added Parameter 3: int p2
-```
+male ped ~= 100 - 200
+
+female ped ~= 0 - 100
+
+
+because something.
 
 ## Parameters
 * **entity**: 
