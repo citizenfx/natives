@@ -8,7 +8,7 @@ ns: HUD
 void ACTIVATE_FRONTEND_MENU(Hash menuhash, BOOL togglePause, int component);
 ```
 
-```
+
 Does stuff like this:  
 gyazo.com/7fcb78ea3520e3dbc5b2c0c0f3712617  
 Example:  
@@ -20,7 +20,7 @@ int p2 is unknown but -1 always works, not sure why though.
 the int p2 is actually a component variable. When the pause menu is visible, it opens the tab related to it.  
 Example : Function.Call(Hash.ACTIVATE_FRONTEND_MENU,-1171018317, 0, 42);  
 Result : Opens the "Online" tab without pausing the menu, with -1 it opens the map.  
-```
+
 
 Below is a list of all known Frontend Menu Hashes.
 
