@@ -8,9 +8,14 @@ ns: PATHFIND
 void SET_ROADS_IN_AREA(float x1, float y1, float z1, float x2, float y2, float z2, BOOL nodeEnabled, BOOL unknown2);
 ```
 
-```
-/* Corrected conflicting parameter names */  
-```
+When this is set to false, all nodes in the area get disabled.
+
+`GET_VEHICLE_NODE_IS_SWITCHED_OFF` returns true afterwards.
+
+If it's true,
+
+`GET_VEHICLE_NODE_IS_SWITCHED_OFF` returns false.
+
 
 ## Parameters
 * **x1**: 
