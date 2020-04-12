@@ -9,8 +9,11 @@ aliases: ["0x89023FBBF9200E9F"]
 int GET_NETWORK_TIME_ACCURATE();
 ```
 
-```
-returns the same value as NETWORK::GET_NETWORK_TIME in freemode.  
-```
+
+Returns the same value as [`GetNetworkTime`](#_0x7A5487FE9FAA6B48) in freemode, but as opposed to `GetNetworkTime` it always gets the most recent time, instead of once per tick.
+
+Could be used for benchmarking since it can return times in ticks.
+
 
 ## Return value
+Returns the network time as an integer
