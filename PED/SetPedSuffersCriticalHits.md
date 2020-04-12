@@ -8,11 +8,11 @@ ns: PED
 void SET_PED_SUFFERS_CRITICAL_HITS(Ped ped, BOOL toggle);
 ```
 
-```
+
 Ped no longer takes critical damage modifiers if set to FALSE.
 
-Example: Headshotting a player no longer one shots them. Instead they will take the same damage as a torso shot. 
-```
+Example: Headshotting a player no longer one shots them. Instead they will take the same damage as a torso shot.
+
 
 ## Parameters
 * **ped**: 
