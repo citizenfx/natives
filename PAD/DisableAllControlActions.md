@@ -9,7 +9,10 @@ void DISABLE_ALL_CONTROL_ACTIONS(int inputGroup);
 ```
 
 ```
-inputGroup: 0 (PLAYER_CONTROL), 1 (unk) and 2 (unk) used in the scripts.
+You can find inputGroup possible values here:
+https://docs.fivem.net/docs/game-references/controls/#input-groups
+
+inputGroup: 0 (INPUTGROUP_MOVE), 1 (INPUTGROUP_LOOK) and 2 (INPUTGROUP_WHEEL) used in the scripts.
 ```
 
 ## Parameters
