@@ -8,6 +8,9 @@ ns: PED
 void SET_PED_MODEL_IS_SUPPRESSED(Ped ped, BOOL toggle);
 ```
 
+```
+NativeDB Parameter 0: Hash modelHash
+```
 
 ## Parameters
 * **ped**: 

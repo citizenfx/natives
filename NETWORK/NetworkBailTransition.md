@@ -8,4 +8,9 @@ ns: NETWORK
 void NETWORK_BAIL_TRANSITION();
 ```
 
+```
+NativeDB Parameter 0: int p0
+NativeDB Parameter 1: int p1
+NativeDB Parameter 2: int p2
+```
 

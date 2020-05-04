@@ -8,6 +8,9 @@ ns: WEAPON
 int GET_PED_AMMO_BY_TYPE(Ped ped, Any ammoType);
 ```
 
+```
+NativeDB Parameter 1: Hash ammoType
+```
 
 ## Parameters
 * **ped**: 
