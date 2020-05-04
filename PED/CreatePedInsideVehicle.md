@@ -5,13 +5,10 @@ ns: PED
 
 ```c
 // 0x7DD959874C1FD534 0x3000F092
-Ped CREATE_PED_INSIDE_VEHICLE(Vehicle vehicle, int pedType, Hash modelHash, int seat, BOOL isNetwork, BOOL thisScriptCheck);
+Ped CREATE_PED_INSIDE_VEHICLE(Vehicle vehicle, int pedType, Hash modelHash, int seat, BOOL isNetwork, BOOL netMissionEntity);
 ```
 
 ```
-thisScriptCheck - can be destroyed if it belongs to the calling script.  
-p5 - last parameter does not mean ped handle is returned  
-maybe a quick view in disassembly will tell us what is actually does  
 Ped Types:  
 enum ePedType  
 {  
@@ -41,6 +38,6 @@ enum ePedType
 * **modelHash**: 
 * **seat**: 
 * **isNetwork**: 
-* **thisScriptCheck**: 
+* **netMissionEntity**: 
 
 ## Return value
