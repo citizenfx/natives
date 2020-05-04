@@ -5,12 +5,9 @@ ns: VEHICLE
 
 ```c
 // 0xAF35D0D2583051B0 0xDD75460A
-Vehicle CREATE_VEHICLE(Hash modelHash, float x, float y, float z, float heading, BOOL isNetwork, BOOL thisScriptCheck);
+Vehicle CREATE_VEHICLE(Hash modelHash, float x, float y, float z, float heading, BOOL isNetwork, BOOL netMissionEntity);
 ```
 
-```
-thisScriptCheck - can be destroyed if it belongs to the calling script.  
-```
 
 ```
 NativeDB Added Parameter 8: BOOL p7
@@ -23,6 +20,6 @@ NativeDB Added Parameter 8: BOOL p7
 * **z**: 
 * **heading**: 
 * **isNetwork**: 
-* **thisScriptCheck**: 
+* **netMissionEntity**: 
 
 ## Return value

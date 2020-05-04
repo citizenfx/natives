@@ -1,11 +1,12 @@
 ---
 ns: GRAPHICS
+aliases: ["0x799017F9E3B10112"]
 ---
 ## _0x799017F9E3B10112
 
 ```c
 // 0x799017F9E3B10112
-void _0x799017F9E3B10112(float x, float y, float z, float radius, int r, int g, int b, float opacity);
+void _DRAW_SPHERE(float x, float y, float z, float radius, int r, int g, int b, float opacity);
 ```
 Draws the sphere typically seen in the GTA:O freemode event, Penned In. Example: [Image](https://images.illusivetea.me/6654p9.png)
 

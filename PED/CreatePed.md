@@ -5,13 +5,10 @@ ns: PED
 
 ```c
 // 0xD49F9B0955C367DE 0x0389EF71
-Ped CREATE_PED(int pedType, Hash modelHash, float x, float y, float z, float heading, BOOL isNetwork, BOOL thisScriptCheck);
+Ped CREATE_PED(int pedType, Hash modelHash, float x, float y, float z, float heading, BOOL isNetwork, BOOL netMissionEntity);
 ```
 
 ```
-thisScriptCheck - can be destroyed if it belongs to the calling script.  
-p7 - last parameter does not mean ped handle is returned  
-maybe a quick view in disassembly will tell us what is actually does  
 *Heading*: 0.0  
 *Heading* is the Z axis spawn rotation of the ped 0->5th parameter.  
 Ped Types:  
@@ -58,6 +55,6 @@ enum PedTypes
 * **z**: 
 * **heading**: 
 * **isNetwork**: 
-* **thisScriptCheck**: 
+* **netMissionEntity**: 
 
 ## Return value

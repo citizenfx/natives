@@ -6,13 +6,19 @@ aliases: ["0xD81B7F27BC773E66"]
 
 ```c
 // 0xD81B7F27BC773E66
-void _GET_VARIANT_PROP(Any p0, Any p1, Any p2, Any p3, Any p4);
+void _GET_VARIANT_PROP(Any componentHash, Any variantPropIndex, Any nameHash, Any enumValue, Any anchorPoint);
+```
+
+```
+NativeDB Parameter 2: Hash* nameHash
+NativeDB Parameter 3: int* enumValue
+NativeDB Parameter 4: int* componentType
 ```
 
 ## Parameters
-* **p0**: 
-* **p1**: 
-* **p2**: 
-* **p3**: 
-* **p4**: 
+* **componentHash**: 
+* **variantPropIndex**: 
+* **nameHash**: 
+* **enumValue**: 
+* **anchorPoint**: 
 
