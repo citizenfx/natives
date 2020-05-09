@@ -15,6 +15,5 @@ pushd "$BUILDER_ROOT"
 node index.js "$repo_root"
 cp -a natives_test.json "$repo_root/out/natives.json"
 node build-template.js lua > "$repo_root/out/natives.lua"
-node build-template.js lua CFX > "$repo_root/out/natives_cfx.lua"
 node build-template.js reference > "$repo_root/out/natives.html"
 popd
