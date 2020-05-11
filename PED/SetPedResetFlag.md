@@ -10,7 +10,7 @@ void SET_PED_RESET_FLAG(Ped ped, int flagId, BOOL doReset);
 
 **Known values**
 
-PRF_PreventGoingIntoStillInVehicleState = 236 *(fanatic2.c)*
+`PRF_PreventGoingIntoStillInVehicleState` = 236 *(fanatic2.c)*
 
 
 ## Parameters
