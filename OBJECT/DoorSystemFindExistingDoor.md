@@ -10,14 +10,16 @@ BOOL DOOR_SYSTEM_FIND_EXISTING_DOOR(float x, float y, float z, Any modelHash, An
 ```
 
 ```
+Search radius: 0.5
+
 NativeDB Parameter 3: Hash modelHash
 ```
 
 ## Parameters
-* **x**: 
-* **y**: 
-* **z**: 
-* **modelHash**: 
+* **x**: The X coordinate of the door object
+* **y**: The Y coordinate of the door object
+* **z**: The Z coordinate of the door object
+* **modelHash**: Entity model hash
 * **doorOutPointer**: 
 
 ## Return value

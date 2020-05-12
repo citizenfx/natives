@@ -9,7 +9,9 @@ aliases: ["0xD9B71952F78A2640"]
 void DOOR_SYSTEM_SET_HOLD_OPEN(Hash doorHash, BOOL p1);
 ```
 
+Includes networking check: ownership vs. or the door itself **isn't** networked.
+
 ## Parameters
-* **doorHash**: 
+* **doorHash**: Door system identifier
 * **p1**: 
 

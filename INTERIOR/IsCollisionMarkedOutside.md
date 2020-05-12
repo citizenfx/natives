@@ -1,16 +1,16 @@
 ---
 ns: INTERIOR
-aliases: ["0xEEA5AC2EDA7C33E8"]
+aliases: ["0xEEA5AC2EDA7C33E8","_ARE_COORDS_COLLIDING_WITH_EXTERIOR"]
 ---
-## _ARE_COORDS_COLLIDING_WITH_EXTERIOR
+## IS_COLLISION_MARKED_OUTSIDE
 
 ```c
 // 0xEEA5AC2EDA7C33E8 0x7762249C
-BOOL _ARE_COORDS_COLLIDING_WITH_EXTERIOR(float x, float y, float z);
+BOOL IS_COLLISION_MARKED_OUTSIDE(float x, float y, float z);
 ```
 
 ```
-Returns true if the coords are colliding with the outdoors, and false if they collide with an interior.  
+Returns true if the collision at the specified coords is marked as being outside (false if there's an interior)
 ```
 
 ## Parameters
