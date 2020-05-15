@@ -11,7 +11,7 @@ void SET_ENTITY_ALPHA(Entity entity, int alphaLevel, bool skin);
 
 ```
 skin - everything alpha except skin
-Set entity alpha level. Ranging from 0 to 255 but changes occur after every 20 percent (after every 51).
+This native sets the entity's alpha level.
 ```
 
 ```
