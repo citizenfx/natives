@@ -8,7 +8,6 @@ ns: CAM
 void SET_GAMEPLAY_CAM_RELATIVE_PITCH(float x, float scalingFactor);
 ```
 
-```
 Sets the camera pitch.  
 Parameters:  
 x = pitches the camera on the x axis.  
