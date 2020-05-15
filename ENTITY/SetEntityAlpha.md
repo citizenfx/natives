@@ -9,8 +9,6 @@ ns: ENTITY
 void SET_ENTITY_ALPHA(Entity entity, int alphaLevel, bool skin);
 ```
 
-```
-skin - everything alpha except skin
 This native sets the entity's alpha level.
 ```
 
