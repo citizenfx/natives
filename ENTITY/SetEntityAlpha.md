@@ -21,7 +21,7 @@ NativeDB Parameter 2: BOOL skin
 ## Parameters
 
 - **entity**: The entity to change the alpha for.
-- **alphaLevel**: The alpha level between 0-255.
+- **alphaLevel**: The alpha level ranges from 0 to 255, but changes occur every 20% (every 51).
 - **skin**: Whether or not to change the alpha of the entity's skin.
 
 ## Examples
