@@ -10,7 +10,6 @@ void SET_ENTITY_ALPHA(Entity entity, int alphaLevel, bool skin);
 ```
 
 This native sets the entity's alpha level.
-```
 
 ```
 NativeDB Parameter 2: BOOL skin
