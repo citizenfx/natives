@@ -15,5 +15,5 @@ scalingFactor = always seems to be hex 0x3F800000 in native calls (1.000000 floa
 ```
 
 ## Parameters
-* **x**: 
+* **angle**: the angle to rotate the camera by
 * **scalingFactor**: always seems to be set to 1.0 in native calls
