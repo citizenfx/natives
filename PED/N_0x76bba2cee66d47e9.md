@@ -1,6 +1,5 @@
 ---
 ns: PED
-apiset: client
 ---
 ## _0x76BBA2CEE66D47E9
 
@@ -8,8 +7,14 @@ apiset: client
 // 0x76BBA2CEE66D47E9
 int _0x76BBA2CEE66D47E9(Ped ped);
 ```
+## Examples
 
-
+```lua
+local pedEyeColour = N_0x76bba2cee66d47e9(PlayerPedId())
+if pedEyeColour == 7 then
+  print("Gray eyes!")
+end
+```
 ## Parameters
 * **ped**: The target ped
 
