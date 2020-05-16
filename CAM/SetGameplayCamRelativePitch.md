@@ -9,8 +9,6 @@ void SET_GAMEPLAY_CAM_RELATIVE_PITCH(float angle, float scalingFactor);
 ```
 
 This native sets the camera's pitch (rotation on the x-axis).
-Parameters:  
-x = pitches the camera on the x axis.  
 
 ## Parameters
 * **angle**: the angle to rotate the camera by
