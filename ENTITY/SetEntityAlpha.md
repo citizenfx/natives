@@ -6,14 +6,12 @@ ns: ENTITY
 
 ```c
 // 0x44A0870B7E92D7C0 0xAE667CB0
-void SET_ENTITY_ALPHA(Entity entity, int alphaLevel, bool skin);
+void SET_ENTITY_ALPHA(Entity entity, int alphaLevel, int skin);
 ```
 
 This native sets the entity's alpha level.
 
-```
-NativeDB Parameter 2: BOOL skin
-```
+The skin parameter is actually a BOOL, but can't be changed due to backwards compatibility issues for C# scripts.
 
 ## Parameters
 
@@ -35,7 +33,7 @@ SetEntityAlpha(PlayerPedId(), 51, false);
 using static CitizenFX.Core.Native.API;
 // ...
 
-SetEntityAlpha(PlayerPedId(), 51, false);
+SetEntityAlpha(PlayerPedId(), 51, 0);
 
 // or the preferred use of C# wrapper
 Game.PlayerPed.Opacity = 51;
