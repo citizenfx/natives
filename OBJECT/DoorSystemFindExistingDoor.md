@@ -9,11 +9,8 @@ aliases: ["0x589F80B325CC82C5"]
 BOOL DOOR_SYSTEM_FIND_EXISTING_DOOR(float x, float y, float z, Any modelHash, Any* doorOutPointer);
 ```
 
-```
 Search radius: 0.5
 
-NativeDB Parameter 3: Hash modelHash
-```
 
 ## Parameters
 * **x**: The X coordinate of the door object
