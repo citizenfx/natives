@@ -8,18 +8,7 @@ ns: VEHICLE
 void SET_VEHICLE_DAMAGE(Vehicle vehicle, float xOffset, float yOffset, float zOffset, float damage, float radius, BOOL focusOnModel);
 ```
 
-```
-Apply damage to vehicle at a location. Location is relative to vehicle model (not world).  
-Radius of effect damage applied in a sphere at impact location.
-The last parameter, FocusOnModel is a boolean. At true your damage vector will travel until it hits the body of the car,
-at false, it can hit nothing. 
-For exemple :
-  // for an average sized car 
-  SetVehicleDamage(vehicle, 0.0, -.0, 0.33, 200.0, 100.0, false) // nothing will be hit
-  SetVehicleDamage(vehicle, 0.0, -.0, 0.33, 200.0, 100.0, true) // will hit the first hitbox on your Z index line
-
-It's recommended to set the boolean to true if you absolutely want to hit your car   
-```
+This native applies damage to a specific point on a vehicle.
 
 ## Parameters
 * **vehicle**: 
@@ -27,6 +16,18 @@ It's recommended to set the boolean to true if you absolutely want to hit your c
 * **yOffset**: 
 * **zOffset**: 
 * **damage**: 
-* **radius**: 
-* **focusOnModel**: 
+* **radius**: the size of the damage sphere to apply
+* **focusOnModel**: when set to `true`, the damage sphere will travel towards the vehicle from the given point, thus guaranteeing an impact
+
+## Examples
+
+```lua
+-- Both of these are for an average sized car
+
+-- nothing will be hit
+SetVehicleDamage(vehicle, 0.0, 0.0, 0.33, 200.0, 100.0, false)
+
+-- will hit the first hitbox on your Z index line
+SetVehicleDamage(vehicle, 0.0, 0.0, 0.33, 200.0, 100.0, true)
+```
 
