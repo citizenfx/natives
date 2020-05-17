@@ -27,7 +27,7 @@ local vehicle = GetVehiclePedIsIn(PlayerPedId(), false)
 
 if GetEntityModel(vehicle) == `NIGHTSHARK` then
     -- Mod index 5 = armored window plates
-    if GetVehicleMod(vehicle, 5) != -1 then
+    if GetVehicleMod(vehicle, 5) ~= -1 then
         -- The nightshark has armored plates in front of the windows
         -- so we disable the window collisions
         SetDisableVehicleWindowCollisions(vehicle, true)
