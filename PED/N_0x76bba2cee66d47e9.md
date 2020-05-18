@@ -7,6 +7,8 @@ ns: PED
 // 0x76BBA2CEE66D47E9
 int _0x76BBA2CEE66D47E9(Ped ped);
 ```
+A getter for [_SET_PED_EYE_COLOR](#_0x50B56988B170AFDF). Returns -1 if fails to get.
+
 ## Examples
 
 ```lua
