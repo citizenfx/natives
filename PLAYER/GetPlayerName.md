@@ -8,9 +8,7 @@ ns: PLAYER
 char* GET_PLAYER_NAME(int playerSrc);
 ```
 
-```
 Returns the players name from a specified player index
-```
 
 ## Parameters
 * **playerSrc**: The player index, or -1 to get the local player ped.
