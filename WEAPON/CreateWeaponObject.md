@@ -36,17 +36,33 @@ To be able to create a weapon object you'll need to request the weapon asset wit
 ## Examples
 
 ```lua
-RequestWeaponAsset('WEAPON_ASSAULTRIFLE')
+local weapon = `WEAPON_ASSAULTRIFLE`
+
+RequestWeaponAsset(weapon)
+
+while not HasWeaponAssetLoaded(weapon) do
+    Wait(0)
+end
 
 local coords = GetEntityCoords(PlayerPedId())
 
-CreateWeaponObject('WEAPON_ASSAULTRIFLE', 0, coords[0], coords[1], coords[2])
+CreateWeaponObject(weapon, 0, coords.xyz)
 ```
 
 ```js
-RequestWeaponAsset('WEAPON_ASSAULTRIFLE');
+let weapon = 'WEAPON_ASSAULTRIFLE';
 
-let coords = GetEntityCoords(PlayerPedId());
+Delay = (ms) => new Promise(res => setTimeout(res, ms));
 
-CreateWeaponObject('WEAPON_ASSAULTRIFLE', 0, coords[0], coords[1], coords[2]);
+RequestWeaponAsset(weapon);
+
+(async () => {
+    while (!HasWeaponAssetLoaded(weapon)) {
+        await Delay(10);
+    }
+
+    let coords = GetEntityCoords(PlayerPedId());
+
+    CreateWeaponObject(weapon, 0, coords[0], coords[1], coords[2]);
+})();
 ```
