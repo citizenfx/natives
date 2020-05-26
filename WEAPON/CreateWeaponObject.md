@@ -17,9 +17,7 @@ NativeDB Added Parameter 9: Any p8
 NativeDB Added Parameter 10: Any p9
 ```
 
-```
 To be able to create a weapon object you'll need to request the weapon asset with the REQUEST_WEAPON_ASSET native
-```
 
 ## Parameters
 * **weaponHash**: 
