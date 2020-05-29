@@ -10,13 +10,6 @@ BOOL _GET_PROJECTILE_NEAR_PED(Ped ped, Hash weaponhash, float radius, Vector3* p
 ```
 
 ```
-only documented to be continued...  
-Dr. Underscore (1/6/18):  
-Exactly like _GET_PROJECTILE_NEAR_PED_COORDS (_0xDFB4138EEFED7B81), but it gives us the Entity that was found aswell.  
-p6 is (most likely) ownedByPlayer. (see IS_PROJECTILE_IN_AREA for info)  
-```
-
-```
 NativeDB Parameter 3: float projPos
 NativeDB Parameter 4: float projEnt
 ```

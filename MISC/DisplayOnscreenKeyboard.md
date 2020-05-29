@@ -9,10 +9,6 @@ void DISPLAY_ONSCREEN_KEYBOARD(int p0, char* windowTitle, char* p2, char* defaul
 ```
 
 ```
-note, p0 is set to 6 for PC platform in at least 1 script, or to `unk::_get_ui_language_id() == 0` otherwise.  
-NOTE: windowTitle uses text labels, and an invalid value will display nothing.  
-Dr. Underscore: `UNK::_GET_UI_LANGUAGE_ID()` is now `UNK::_GET_CURRENT_LANGUAGE_ID()`  
-www.gtaforums.com/topic/788343-vrel-script-hook-v/?p=1067380474  
 windowTitle's  
 -----------------  
 CELL_EMAIL_BOD	=	"Enter your Eyefind message"  

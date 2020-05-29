@@ -8,8 +8,5 @@ ns: MISC
 BOOL IS_PS3_VERSION();
 ```
 
-```
-MulleDK19: This function is hard-coded to always return 0.  
-```
-
 ## Return value
+Hard-coded to always return 0.
