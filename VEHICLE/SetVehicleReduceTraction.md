@@ -1,17 +1,20 @@
 ---
 ns: VEHICLE
+aliases: ["0x6DEE944E1EE90CFB"]
 ---
-## _0x6DEE944E1EE90CFB
+## _SET_VEHICLE_REDUCE_TRACTION
 
 ```c
 // 0x6DEE944E1EE90CFB
-void _0x6DEE944E1EE90CFB(Any p0, Any p1);
+void _SET_VEHICLE_REDUCE_TRACTION(Vehicle vehicle, BOOL toggle);
 ```
+
+Often used in conjunction with: [SET_VEHICLE_REDUCE_GRIP](#_0x222FF6A823D122E2).
 
 ```
 NativeDB Introduced: v1604
 ```
 
 ## Parameters
-* **p0**:
-* **p1**:
+* **vehicle**: 
+* **toggle**: 

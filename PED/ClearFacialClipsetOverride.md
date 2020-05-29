@@ -1,11 +1,12 @@
 ---
 ns: PED
+aliases: ["0x637822DC2AFEEBF8"]
 ---
-## _0x637822DC2AFEEBF8
+## _CLEAR_FACIAL_CLIPSET_OVERRIDE
 
 ```c
 // 0x637822DC2AFEEBF8
-void _0x637822DC2AFEEBF8(Any p0);
+void _CLEAR_FACIAL_CLIPSET_OVERRIDE(Ped ped);
 ```
 
 ```
@@ -13,4 +14,4 @@ NativeDB Introduced: v1493
 ```
 
 ## Parameters
-* **p0**:
+* **ped**:

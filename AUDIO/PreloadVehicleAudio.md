@@ -1,11 +1,12 @@
 ---
 ns: AUDIO
+aliases: ["0xCA4CEA6AE0000A7E"]
 ---
-## _0xCA4CEA6AE0000A7E
+## _PRELOAD_VEHICLE_AUDIO
 
 ```c
 // 0xCA4CEA6AE0000A7E
-void _0xCA4CEA6AE0000A7E(Any p0);
+void _PRELOAD_VEHICLE_AUDIO(Hash model);
 ```
 
 ```
@@ -13,4 +14,4 @@ NativeDB Introduced: v1180
 ```
 
 ## Parameters
-* **p0**:
+* **model**:
