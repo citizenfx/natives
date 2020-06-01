@@ -1,16 +1,17 @@
 ---
 ns: MISC
+aliases: ["0x8EF5573A1F801A5C"]
 ---
-## _0x8EF5573A1F801A5C
+## SCRIPT_RACE_GET_PLAYER_SPLIT_TIME
 
 ```c
 // 0x8EF5573A1F801A5C 0x07FF553F
-BOOL _0x8EF5573A1F801A5C(Any p0, Any* p1, Any* p2);
+BOOL SCRIPT_RACE_GET_PLAYER_SPLIT_TIME(Player player, int* p1, int* p2);
 ```
 
 
 ## Parameters
-* **p0**: 
+* **player**: 
 * **p1**: 
 * **p2**: 
 

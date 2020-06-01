@@ -1,16 +1,17 @@
 ---
 ns: MISC
-aliases: ["0xDFB4138EEFED7B81"]
+aliases: ["0xDFB4138EEFED7B81","_GET_PROJECTILE_NEAR_PED_COORDS"]
 ---
-## _GET_PROJECTILE_NEAR_PED_COORDS
+## GET_COORDS_OF_PROJECTILE_TYPE_WITHIN_DISTANCE
 
 ```c
 // 0xDFB4138EEFED7B81 0x6BDE5CE4
-BOOL _GET_PROJECTILE_NEAR_PED_COORDS(Ped ped, Hash weaponHash, float radius, Vector3* entity, BOOL ownedByPlayer);
+BOOL GET_COORDS_OF_PROJECTILE_TYPE_WITHIN_DISTANCE(Ped ped, Hash weaponHash, float radius, Vector3* entity, BOOL ownedByPlayer);
 ```
 
 ```
 NativeDB Parameter 3: Entity* entity
+NativeDB Return Type: Vector3
 ```
 
 ## Parameters
