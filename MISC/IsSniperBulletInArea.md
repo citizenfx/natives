@@ -9,7 +9,7 @@ BOOL IS_SNIPER_BULLET_IN_AREA(float x1, float y1, float z1, float x2, float y2, 
 ```
 
 ```
-Determines whether there is a sniper bullet within the specified coordinates. The coordinates form a rectangle.  
+Determines whether there is a sniper bullet within the specified coordinates. The coordinates form an axis-aligned bounding box.  
 ```
 
 ## Parameters

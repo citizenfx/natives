@@ -5,17 +5,16 @@ ns: MISC
 
 ```c
 // 0xDE0F6D7450D37351 0xAB73ED26
-BOOL IS_BULLET_IN_BOX(float p0, float p1, float p2, float p3, float p4, float p5, BOOL p6);
+BOOL IS_BULLET_IN_BOX(float x1, float y1, float z1, float x2, float y2, float z2, BOOL ownedByPlayer);
 ```
 
-
 ## Parameters
-* **p0**: 
-* **p1**: 
-* **p2**: 
-* **p3**: 
-* **p4**: 
-* **p5**: 
-* **p6**: 
+* **x1**: 
+* **y1**: 
+* **z1**: 
+* **x2**: 
+* **y2**: 
+* **z2**: 
+* **ownedByPlayer**: 
 
 ## Return value
