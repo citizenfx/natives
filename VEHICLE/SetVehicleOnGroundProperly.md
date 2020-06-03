@@ -10,7 +10,6 @@ BOOL SET_VEHICLE_ON_GROUND_PROPERLY(Vehicle vehicle);
 
 ```
 Sets a vehicle on the ground on all wheels.  Returns whether or not the operation was successful.  
-sfink: This has an additional param(Vehicle vehicle, float p1) which is always set to 5.0f in the b944 scripts.  
 ```
 
 ```

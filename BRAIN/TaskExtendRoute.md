@@ -8,10 +8,9 @@ ns: BRAIN
 void TASK_EXTEND_ROUTE(float x, float y, float z);
 ```
 
-```
-MulleKD19: Adds a new point to the current point route. Call TASK_FLUSH_ROUTE before the first call to this. Call TASK_FOLLOW_POINT_ROUTE to make the Ped go the route.  
-A maximum of 8 points can be added.  
-```
+Adds a new point to the current point route; a maximum of 8 points can be added.
+
+Call [TASK_FLUSH_ROUTE](#_0x841142A1376E9006) before the first call to this. Call [TASK_FOLLOW_POINT_ROUTE](#_0x595583281858626E) to make the Ped go the route.  
 
 ## Parameters
 * **x**: 

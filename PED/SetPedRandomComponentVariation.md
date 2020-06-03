@@ -9,9 +9,9 @@ void SET_PED_RANDOM_COMPONENT_VARIATION(Ped ped, BOOL p1);
 ```
 
 ```
-p1 is always false in R* scripts.  
-Quick disassembly seems to indicate that p1 is unused.  
-List of component/props ID  
+p1 is always false in R* scripts; and a quick disassembly seems to indicate that p1 is unused.  
+
+List of component/props ID:
 gtaxscripting.blogspot.com/2016/04/gta-v-peds-component-and-props.html  
 ```
 

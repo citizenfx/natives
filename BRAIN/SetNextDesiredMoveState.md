@@ -10,11 +10,6 @@ void SET_NEXT_DESIRED_MOVE_STATE(float p0);
 
 **This native does absolutely nothing, just a nullsub**
 
-```
-Not used in the scripts.  
-Bullshit! It's used in spawn_activities  
-```
-
 ## Parameters
 * **p0**: 
 

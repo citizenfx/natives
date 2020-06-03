@@ -24,11 +24,6 @@ FOGGY	0xAE737644
 XMAS	0xAAC9C895  
 SNOWLIGHT	0x23FB812B  
 BLIZZARD	0x27EA2814  
-/* OLD INVALID INFO BELOW */  
-Not tested. Based purely on disassembly. Instantly sets the weather to sourceWeather, then transitions to targetWeather over the specified transitionTime in seconds.  
-If an invalid hash is specified for sourceWeather, the current weather type will be used.  
-If an invalid hash is specified for targetWeather, the next weather type will be used.  
-If an invalid hash is specified for both sourceWeather and targetWeather, the function just changes the transition time of the current transition.  
 ```
 
 ## Parameters

@@ -8,11 +8,5 @@ ns: MISC
 BOOL IS_ORBIS_VERSION();
 ```
 
-```
-PS4  
-MulleDK19: This function is hard-coded to always return 0.  
-Force67: I patched return result and got this : i.imgur.com/hUn7zSj.jpg  
-translate please?  
-```
-
 ## Return value
+Hard-coded to always return 0.

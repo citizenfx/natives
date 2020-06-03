@@ -9,7 +9,7 @@ void REMOVE_PED_ELEGANTLY(Ped* ped);
 ```
 
 ```
-Judging purely from a quick disassembly, if the ped is in a vehicle, the ped will be deleted immediately. If not, it'll be marked as no longer needed. - very elegant..  
+Judging purely from a quick disassembly, if the ped is in a vehicle, the ped will be deleted immediately. If not, it'll be marked as no longer needed. 
 ```
 
 ## Parameters
