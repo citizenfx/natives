@@ -5,28 +5,24 @@ ns: ENTITY
 
 ```c
 // 0x51210CED3DA1C78A 0x883622FA
-BOOL IS_ENTITY_IN_ANGLED_AREA(Entity entity, float originX, float originY, float originZ, float edgeX, float edgeY, float edgeZ, float angle, BOOL p8, BOOL p9, Any p10);
+BOOL IS_ENTITY_IN_ANGLED_AREA(Entity entity, float x1, float y1, float z1, float x2, float y2, float z2, float width, BOOL p8, BOOL includez, Any p10);
 ```
 
-```
-Creates a spherical cone at origin that extends to surface with the angle specified. Then returns true if the entity is inside the spherical cone  
-Angle is measured in degrees.  
-These values are constant, most likely bogus:  
-p8 = 0, p9 = 1, p10 = 0  
-This method can also take two float<3> instead of 6 floats.  
-```
+p10 is some entity flag check, also used in ``IS_ENTITY_AT_ENTITY``, ``IS_ENTITY_IN_AREA``, and ``IS_ENTITY_AT_COORD``.
+
+See [IS_POINT_IN_ANGLED_AREA](#_0x2A70BAE8883E4C81) for the definition of an angled area.
 
 ## Parameters
 * **entity**: 
-* **originX**: 
-* **originY**: 
-* **originZ**: 
-* **edgeX**: 
-* **edgeY**: 
-* **edgeZ**: 
-* **angle**: 
-* **p8**: 
-* **p9**: 
+* **x1**: X dimension of the angled area 'origin'
+* **y1**: Y dimension of the angled area 'origin'
+* **z1**: Z dimension of the angled area 'origin'
+* **x2**: X dimension of the angled area 'extent'
+* **y2**: Y dimension of the angled area 'extent'
+* **z2**: Z dimension of the angled area 'extent'
+* **width**: Width of the angled area
+* **p8**: a debug flag invoking functions in the same path as ``DRAW_MARKER``
+* **includez**: If true, include the Z dimension when doing the height check; otherwise the query becomes two-dimensional
 * **p10**: 
 
 ## Return value

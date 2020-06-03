@@ -5,19 +5,24 @@ ns: MISC
 
 ```c
 // 0xF0BC12401061DEA0 0xD1AE2681
-BOOL IS_PROJECTILE_TYPE_IN_ANGLED_AREA(float p0, float p1, float p2, float p3, float p4, float p5, float p6, Any p7, BOOL p8);
+BOOL IS_PROJECTILE_TYPE_IN_ANGLED_AREA(float x1, float y1, float z1, float x2, float y2, float z2, float width, float p6, Any p7, BOOL ownedByPlayer);
 ```
 
+See [IS_POINT_IN_ANGLED_AREA](#_0x2A70BAE8883E4C81) for the definition of an angled area.
+
+```
+NativeDB Parameter 7: Hash weaponHash
+```
 
 ## Parameters
-* **p0**: 
-* **p1**: 
-* **p2**: 
-* **p3**: 
-* **p4**: 
-* **p5**: 
-* **p6**: 
+* **x1**: X dimension of the angled area 'origin'
+* **y1**: Y dimension of the angled area 'origin'
+* **z1**: Z dimension of the angled area 'origin'
+* **x2**: X dimension of the angled area 'extent'
+* **y2**: Y dimension of the angled area 'extent'
+* **z2**: Z dimension of the angled area 'extent'
+* **width**: Width of the angled area
 * **p7**: 
-* **p8**: 
+* **ownedByPlayer**: 
 
 ## Return value
