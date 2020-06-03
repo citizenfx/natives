@@ -8,16 +8,6 @@ ns: MISC
 void SHOOT_SINGLE_BULLET_BETWEEN_COORDS(float x1, float y1, float z1, float x2, float y2, float z2, int damage, BOOL p7, Hash weaponHash, Ped ownerPed, BOOL isAudible, BOOL isInvisible, float speed);
 ```
 
-```
-this is what p7 does in disassembly  
-__int8 var = 32;  
-if (isInvisible)  
-{  
-   var = 16;  
-}  
-int v110 = var | 2 * p7;  
-```
-
 ## Parameters
 * **x1**: 
 * **y1**: 

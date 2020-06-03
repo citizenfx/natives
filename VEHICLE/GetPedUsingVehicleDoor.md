@@ -9,10 +9,6 @@ aliases: ["0x218297BF0CFD853B","_GET_PED_USING_VEHICLE_DOOR"]
 Ped GET_PED_USING_VEHICLE_DOOR(Vehicle vehicle, int doorIndex);
 ```
 
-```
-Quick disassembly and test seems to indicate that this native gets the Ped currently using the specified door.  
-```
-
 ## Parameters
 * **vehicle**: 
 * **doorIndex**: 

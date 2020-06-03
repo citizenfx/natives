@@ -16,22 +16,12 @@ doorIndex:
 3 = Back Right Door  
 4 = Hood  
 5 = Trunk  
-6 = Trunk2  
-p2:  
-mostly use 0 and 1, very rare using 3 and 5  
-p3:  
-It seems it is an angle  
-Example in VB:   
-    Public Shared Sub Set_Vehicle_Door_Angle(Vehicle As Vehicle, Door As VehicleDoor, Angle As Single)  
-        Native.Function.Call(Hash.SET_VEHICLE_DOOR_CONTROL, Vehicle.Handle, Door, 1, Angle)  
-    End Sub  
-I'm Not MentaL  
-sfink: p2 is speed, 5 is fast, 1 is slow 3 is medium  
+6 = Trunk2
 ```
 
 ## Parameters
 * **vehicle**: 
 * **doorIndex**: 
-* **speed**: 
+* **speed**: 5 is fast, 1 is slow 3 is medium
 * **angle**: 
 
