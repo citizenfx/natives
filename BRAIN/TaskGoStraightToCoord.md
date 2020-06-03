@@ -8,14 +8,14 @@ ns: BRAIN
 void TASK_GO_STRAIGHT_TO_COORD(Ped ped, float x, float y, float z, float speed, int timeout, float targetHeading, float distanceToSlide);
 ```
 
+This native will make the ped move straight to a coordinate.
 
 ## Parameters
-* **ped**: 
-* **x**: 
-* **y**: 
-* **z**: 
-* **speed**: 
-* **timeout**: 
-* **targetHeading**: 
-* **distanceToSlide**: 
-
+* **ped**: The ped handle.
+* **x**: The x coordinate.
+* **y**: The y coordinate.
+* **z**: The z coordinate.
+* **speed**: The ped movement speed.
+* **timeout**: -1 , other values appear to break the ped movement.
+* **targetHeading**: The heading you want the ped to be on x,y,z coord.
+* **distanceToSlide**: The distance from x,y,z where the ped will start sliding.
