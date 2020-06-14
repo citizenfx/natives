@@ -8,8 +8,8 @@ ns: NETWORK
 BOOL NETWORK_DOES_ENTITY_EXIST_WITH_NETWORK_ID(int netID);
 ```
 
-Gets wether the network ID exists and if this belongs to a game object.
+Gets if the network ID exists and if this belongs to a game object.
 ## Parameters
-* **netId**: 
+* **netID**: 
 
 ## Return value
