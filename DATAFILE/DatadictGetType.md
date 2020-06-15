@@ -1,11 +1,12 @@
 ---
 ns: DATAFILE
+aliases: ["_OBJECT_VALUE_GET_TYPE"]
 ---
-## _OBJECT_VALUE_GET_TYPE
+## DATADICT_GET_TYPE
 
 ```c
 // 0x031C55ED33227371 0x2678342A
-int _OBJECT_VALUE_GET_TYPE(Any* objectData, char* key);
+int DATADICT_GET_TYPE(Any* objectData, char* key);
 ```
 
 ```

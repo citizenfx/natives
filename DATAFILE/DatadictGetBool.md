@@ -1,11 +1,12 @@
 ---
 ns: DATAFILE
+aliases: ["_OBJECT_VALUE_GET_BOOLEAN"]
 ---
-## _OBJECT_VALUE_GET_BOOLEAN
+## DATADICT_GET_BOOL
 
 ```c
 // 0x1186940ED72FFEEC 0x8876C872
-BOOL _OBJECT_VALUE_GET_BOOLEAN(Any* objectData, char* key);
+BOOL DATADICT_GET_BOOL(Any* objectData, char* key);
 ```
 
 

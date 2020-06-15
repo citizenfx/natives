@@ -1,11 +1,12 @@
 ---
 ns: DATAFILE
+aliases: ["_OBJECT_VALUE_GET_OBJECT"]
 ---
-## _OBJECT_VALUE_GET_OBJECT
+## DATADICT_GET_DICT
 
 ```c
 // 0xB6B9DDC412FCEEE2 0xC9C13D8D
-Any* _OBJECT_VALUE_GET_OBJECT(Any* objectData, char* key);
+Any* DATADICT_GET_DICT(Any* objectData, char* key);
 ```
 
 

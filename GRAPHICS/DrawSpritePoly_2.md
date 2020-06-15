@@ -1,45 +1,51 @@
 ---
 ns: GRAPHICS
+aliases: ["0x736D7AA1B750856B"]
 ---
-## _0x736D7AA1B750856B
+## _DRAW_SPRITE_POLY_2
 
 ```c
 // 0x736D7AA1B750856B
-void _0x736D7AA1B750856B(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8, Any p9, Any p10, Any p11, Any p12, Any p13, Any p14, Any p15, Any p16, Any p17, Any p18, Any p19, Any p20, Any p21, Any p22, Any p23, Any p24, Any p25, Any p26, Any p27, Any p28, Any p29, Any p30, Any p31);
+void _DRAW_SPRITE_POLY_2(float x1, float y1, float z1, float x2, float y2, float z2, float x3, float y3, float z3, float red1, float green1, float blue1, int alpha1, float red2, float green2, float blue2, int alpha2, float red3, float green3, float blue3, int alpha3, char* textureDict, char* textureName, float p23, float p24, float p25, float p26, float p27, float p28, float p29, float p30, float p31);
 ```
 
+```
+Used for drawling Deadline trailing lights, see deadline.ytd 
+
+Each vertex has its own colour that is blended/illuminated on the texture. Additionally, the R, G, and B components are floats that are int-casted internally.
+```
 
 ## Parameters
-* **p0**: 
-* **p1**: 
-* **p2**: 
-* **p3**: 
-* **p4**: 
-* **p5**: 
-* **p6**: 
-* **p7**: 
-* **p8**: 
-* **p9**: 
-* **p10**: 
-* **p11**: 
-* **p12**: 
-* **p13**: 
-* **p14**: 
-* **p15**: 
-* **p16**: 
-* **p17**: 
-* **p18**: 
-* **p19**: 
-* **p20**: 
-* **p21**: 
-* **p22**: 
-* **p23**: 
-* **p24**: 
-* **p25**: 
-* **p26**: 
-* **p27**: 
-* **p28**: 
-* **p29**: 
-* **p30**: 
-* **p31**: 
+* **x1**:
+* **y1**:
+* **z1**:
+* **x2**:
+* **y2**:
+* **z2**:
+* **x3**:
+* **y3**:
+* **z3**:
+* **red1**:
+* **green1**:
+* **blue1**:
+* **alpha1**:
+* **red2**:
+* **green2**:
+* **blue2**:
+* **alpha2**:
+* **red3**:
+* **green3**:
+* **blue3**:
+* **alpha3**:
+* **textureDict**: 
+* **textureName**: 
+* **p23**:
+* **p24**:
+* **p25**:
+* **p26**:
+* **p27**:
+* **p28**:
+* **p29**:
+* **p30**:
+* **p31**:
 

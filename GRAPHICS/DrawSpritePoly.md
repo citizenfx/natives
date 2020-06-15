@@ -1,33 +1,36 @@
 ---
 ns: GRAPHICS
+aliases: ["0x29280002282F1928"]
 ---
-## _0x29280002282F1928
+## _DRAW_SPRITE_POLY
 
 ```c
 // 0x29280002282F1928
-void _0x29280002282F1928(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8, Any p9, Any p10, Any p11, Any p12, Any p13, Any p14, Any p15, Any p16, Any p17, Any p18, Any p19, Any p20, Any p21, Any p22, Any p23);
+void _DRAW_SPRITE_POLY(float x1, float y1, float z1, float x2, float y2, float z2, float x3, float y3, float z3, int red, int green, int blue, int alpha, char* textureDict, char* textureName, float p15, float p16, float p17, float p18, float p19, float p20, float p21, float p22, float p23);
 ```
 
 ```
-DRAW_*
+Used for drawling Deadline trailing lights, see deadline.ytd 
+
+p15 through p23 are values that appear to be related to illiumation, scaling, and rotation; more testing required.
 ```
 
 ## Parameters
-* **p0**: 
-* **p1**: 
-* **p2**: 
-* **p3**: 
-* **p4**: 
-* **p5**: 
-* **p6**: 
-* **p7**: 
-* **p8**: 
-* **p9**: 
-* **p10**: 
-* **p11**: 
-* **p12**: 
-* **p13**: 
-* **p14**: 
+* **x1**: 
+* **y1**: 
+* **z1**: 
+* **x2**: 
+* **y2**: 
+* **z2**: 
+* **x3**: 
+* **y3**: 
+* **z3**: 
+* **red**: 
+* **green**: 
+* **blue**: 
+* **alpha**: 
+* **textureDict**: 
+* **textureName**: 
 * **p15**: 
 * **p16**: 
 * **p17**: 
