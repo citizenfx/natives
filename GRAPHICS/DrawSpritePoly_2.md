@@ -6,13 +6,15 @@ aliases: ["0x736D7AA1B750856B"]
 
 ```c
 // 0x736D7AA1B750856B
-void _DRAW_SPRITE_POLY_2(float x1, float y1, float z1, float x2, float y2, float z2, float x3, float y3, float z3, float red1, float green1, float blue1, int alpha1, float red2, float green2, float blue2, int alpha2, float red3, float green3, float blue3, int alpha3, char* textureDict, char* textureName, float p23, float p24, float p25, float p26, float p27, float p28, float p29, float p30, float p31);
+void _DRAW_SPRITE_POLY_2(float x1, float y1, float z1, float x2, float y2, float z2, float x3, float y3, float z3, float red1, float green1, float blue1, int alpha1, float red2, float green2, float blue2, int alpha2, float red3, float green3, float blue3, int alpha3, char* textureDict, char* textureName, float u1, float v1, float w1, float u2, float v2, float w2, float u3, float v3, float w3);
 ```
 
 ```
 Used for drawling Deadline trailing lights, see deadline.ytd 
 
 Each vertex has its own colour that is blended/illuminated on the texture. Additionally, the R, G, and B components are floats that are int-casted internally.
+
+For UVW mapping (u,v,w parameters), reference your favourite internet resource for more details.
 ```
 
 ## Parameters
@@ -39,13 +41,13 @@ Each vertex has its own colour that is blended/illuminated on the texture. Addit
 * **alpha3**:
 * **textureDict**: 
 * **textureName**: 
-* **p23**:
-* **p24**:
-* **p25**:
-* **p26**:
-* **p27**:
-* **p28**:
-* **p29**:
-* **p30**:
-* **p31**:
+* **u1**: 
+* **v1**: 
+* **w1**: 
+* **u2**: 
+* **v2**: 
+* **w2**: 
+* **u3**: 
+* **v3**: 
+* **w3**: 
 

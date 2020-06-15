@@ -6,13 +6,13 @@ aliases: ["0x29280002282F1928"]
 
 ```c
 // 0x29280002282F1928
-void _DRAW_SPRITE_POLY(float x1, float y1, float z1, float x2, float y2, float z2, float x3, float y3, float z3, int red, int green, int blue, int alpha, char* textureDict, char* textureName, float p15, float p16, float p17, float p18, float p19, float p20, float p21, float p22, float p23);
+void _DRAW_SPRITE_POLY(float x1, float y1, float z1, float x2, float y2, float z2, float x3, float y3, float z3, int red, int green, int blue, int alpha, char* textureDict, char* textureName, float u1, float v1, float w1, float u2, float v2, float w2, float u3, float v3, float w3);
 ```
 
 ```
 Used for drawling Deadline trailing lights, see deadline.ytd 
 
-p15 through p23 are values that appear to be related to illiumation, scaling, and rotation; more testing required.
+For UVW mapping (u,v,w parameters), reference your favourite internet resource for more details.
 ```
 
 ## Parameters
@@ -31,13 +31,13 @@ p15 through p23 are values that appear to be related to illiumation, scaling, an
 * **alpha**: 
 * **textureDict**: 
 * **textureName**: 
-* **p15**: 
-* **p16**: 
-* **p17**: 
-* **p18**: 
-* **p19**: 
-* **p20**: 
-* **p21**: 
-* **p22**: 
-* **p23**: 
+* **u1**: 
+* **v1**: 
+* **w1**: 
+* **u2**: 
+* **v2**: 
+* **w2**: 
+* **u3**: 
+* **v3**: 
+* **w3**: 
 
