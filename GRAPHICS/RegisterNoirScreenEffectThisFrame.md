@@ -1,0 +1,12 @@
+---
+ns: GRAPHICS
+aliases: ["0xA44FF770DFBC5DAE"]
+---
+## _REGISTER_NOIR_SCREEN_EFFECT_THIS_FRAME
+
+```c
+// 0xA44FF770DFBC5DAE
+void _REGISTER_NOIR_SCREEN_EFFECT_THIS_FRAME();
+```
+
+Used with ``NG_filmnoir_BW{01,02}`` timecycles and the ``NOIR_FILTER_SOUNDS`` audioref.
