@@ -5,11 +5,12 @@ ns: VEHICLE
 
 ```c
 // 0xA549C3B37EA28131 0xB536CCD7
-void SET_PLAYBACK_TO_USE_AI(Vehicle vehicle, int flag);
+void SET_PLAYBACK_TO_USE_AI(Vehicle vehicle, int drivingStyle);
 ```
 
+Identical to [SET_PLAYBACK_TO_USE_AI_TRY_TO_REVERT_BACK_LATER](#_0x6E63860BBB190730) with 0 as arguments for p1 and p3.
 
 ## Parameters
 * **vehicle**: 
-* **flag**: 
+* **drivingStyle**: 
 

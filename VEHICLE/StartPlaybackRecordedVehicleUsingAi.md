@@ -5,14 +5,21 @@ ns: VEHICLE
 
 ```c
 // 0x29DE5FA52D00428C 0x8DE8E24E
-void START_PLAYBACK_RECORDED_VEHICLE_USING_AI(Any p0, Any p1, Any* p2, float p3, Any p4);
+void START_PLAYBACK_RECORDED_VEHICLE_USING_AI(Vehicle vehicle, int recording, Any* script, float speed, int drivingStyle);
 ```
 
+AI abides by the provided driving style (e.g., stopping at red lights or waiting behind traffic) while executing the specificed vehicle recording. 
+
+[0x1F2E4E06DEA8992B](#_0x6E63860BBB190730) is a related native that deals with the AI physics for such recordings.
+
+```
+NativeDB Parameter 2: char* script 
+```
 
 ## Parameters
-* **p0**: 
-* **p1**: 
-* **p2**: 
-* **p3**: 
-* **p4**: 
+* **vehicle**: 
+* **recording**: 
+* **script**: 
+* **speed**: 
+* **drivingStyle**: 
 
