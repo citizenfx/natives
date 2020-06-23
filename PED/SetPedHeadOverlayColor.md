@@ -21,3 +21,5 @@ Called after SET_PED_HEAD_OVERLAY().
 * **colorID**: 
 * **secondColorID**: 
 
+List for all Colors in HEX
+https://pastebin.com/0CUsJ32G
