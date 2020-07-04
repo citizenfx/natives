@@ -5,13 +5,13 @@ ns: GRAPHICS
 
 ```c
 // 0x2D3B147AFAD49DE0
-void _0x2D3B147AFAD49DE0(char*  textureDict, char* textureName, float p2, float p3, float p4, float p5, float p6, float p7, int red, int green, int blue, int alpha);
+void _0x2D3B147AFAD49DE0(char*  textureDict, char* textureName, float x, float y, float width, float height, float p6, int red, int green, int blue, int alpha, int p11);
 ```
 
 
 Used in arcade games and Beam hack minigame in Doomsday Heist. I will most certainly dive into this to try replicate arcade games.
-
-It has 12 paramaters not 11.
+Update: I did dived into this, and I haven't noticed any difference between this and DrawSprite.
+Here is the result; arcade game I made: [Penetrator Arcade Game](https://streamable.com/8igrzw)
 
 _NativeD B Introduced: v1290_
 
@@ -19,27 +19,20 @@ _NativeD B Introduced: v1290_
 ## Parameters
 * **textureDict**: inside script_txds.rpf, browse it with OpenIV
 * **textureName**: textureName
-* **p2**: float seems to be always returning 0.0 but not quite sure
-* **p3**: mostly -1 float
-* **p4**: something related to aspect ratio and looks like integer but can be float too ?
-* **p5**: float
-* **p6**: float
-* **p7**: float
+* **x**: x position must be between 0.0 and 1.0 (1.0 being the most bottom side of the screen)
+* **y**: y posiyion must be between 0.0 and 1.0 (1.0 being the most left side of the screen)
+* **width**: width 0.0 - 1.0 is the reasonable amount generally
+* **height**: height 0.0 - 1.0 is the reasonable amount generally
+* **p6**: almost always 0.0
 * **red**: red color
 * **green**: green color
 * **blue**: blue color
 * **alpha**: alpha
+* **p11**: unknow but almost always 0 int
 
 ## Examples
 
 ```lua
--- _0x2D3B147AFAD49DE0("MPBeamHack", "Beam_Glow_Tapered", func_11081(Var11), Var11.f_1, (0.064f / fLocal_564), fVar12, (fVar13 + 90f), iVar0, iVar1, iVar2, iVar7, 0)
-
-N_0x2d3b147afad49de0("MPInvPersMessages", "facade", MathStuff(0.5), 0.0, 0.0, 1.0, 0.0, arg1, arg2, arg3, arg4, 0)
-
-function MathStuff(number)
-  number = (((number * 1920) - ((1920 - 1080) / 2)) / 1080)
-  number = (0.5 - ((0.5 - number) / 0))
-  return number
-end
+-- drawing the game area for penetrator arcade game
+N_0x2d3b147afad49de0("MPArcadeDegenatron", "penetrator_scene_frame", 0.5, 0.5, 0.4, 0.6, 0.0, 255, 0, 0, 255, 0)
 ```
