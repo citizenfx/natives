@@ -1,11 +1,12 @@
 ---
 ns: NETWORK
+aliases: ["0x58C21165F6545892"]
 ---
-## _0x58C21165F6545892
+## OPEN_COMMERCE_STORE
 
 ```c
 // 0x58C21165F6545892 0x365C50EE
-void _0x58C21165F6545892(char* p0, char* p1);
+void OPEN_COMMERCE_STORE(char* p0, char* p1);
 ```
 
 ```

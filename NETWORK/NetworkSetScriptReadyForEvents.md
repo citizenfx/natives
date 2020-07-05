@@ -1,14 +1,15 @@
 ---
 ns: NETWORK
+aliases: ["0x7AC752103856FB20"]
 ---
-## _0x7AC752103856FB20
+## NETWORK_SET_SCRIPT_READY_FOR_EVENTS
 
 ```c
 // 0x7AC752103856FB20 0xA639DCA2
-void _0x7AC752103856FB20(BOOL p0);
+void NETWORK_SET_SCRIPT_READY_FOR_EVENTS(BOOL toggle);
 ```
 
 
 ## Parameters
-* **p0**: 
+* **toggle**: 
 

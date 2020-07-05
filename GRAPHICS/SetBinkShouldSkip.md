@@ -1,11 +1,12 @@
 ---
 ns: GRAPHICS
+aliases: ["_0x6805D58CAA427B72"]
 ---
-## _0x6805D58CAA427B72
+## _SET_BINK_SHOULD_SKIP
 
 ```c
 // 0x6805D58CAA427B72
-void _0x6805D58CAA427B72(Any p0, Any p1);
+void _SET_BINK_SHOULD_SKIP(int binkMovie, BOOL shouldSkip);
 ```
 
 ```
@@ -13,5 +14,5 @@ NativeDB Introduced: v1290
 ```
 
 ## Parameters
-* **p0**:
-* **p1**:
+* **binkMovie**:
+* **shouldSkip**:

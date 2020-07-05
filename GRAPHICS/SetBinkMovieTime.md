@@ -1,11 +1,12 @@
 ---
 ns: GRAPHICS
+aliases: ["_SET_BINK_MOVIE_PROGRESS"]
 ---
-## _SET_BINK_MOVIE_PROGRESS
+## _SET_BINK_MOVIE_TIME
 
 ```c
 // 0x0CB6B3446855B57A
-void _SET_BINK_MOVIE_PROGRESS(int binkMovie, float progress);
+void _SET_BINK_MOVIE_TIME(int binkMovie, float progress);
 ```
 
 ```

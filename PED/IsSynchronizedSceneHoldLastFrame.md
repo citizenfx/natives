@@ -1,18 +1,16 @@
 ---
 ns: PED
+aliases: ["0x7F2F4F13AC5257EF"]
 ---
-## _0x7F2F4F13AC5257EF
+## IS_SYNCHRONIZED_SCENE_HOLD_LAST_FRAME
 
 ```c
 // 0x7F2F4F13AC5257EF 0x72CF2514
-BOOL _0x7F2F4F13AC5257EF(Any p0);
+BOOL IS_SYNCHRONIZED_SCENE_HOLD_LAST_FRAME(int sceneID);
 ```
 
-```
-IS_S*
-```
 
 ## Parameters
-* **p0**: 
+* **sceneID**: 
 
 ## Return value

@@ -8,6 +8,11 @@ ns: HUD
 void SET_BLIP_SECONDARY_COLOUR(Blip blip, float r, float g, float b);
 ```
 
+```
+NativeDB Added Parameter 1: int r
+NativeDB Added Parameter 2: int g
+NativeDB Added Parameter 3: int b
+```
 
 ## Parameters
 * **blip**: 

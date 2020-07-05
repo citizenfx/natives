@@ -1,15 +1,16 @@
 ---
 ns: OBJECT
+aliases: ["0x0378C08504160D0D"]
 ---
-## _0x0378C08504160D0D
+## IS_OBJECT_A_PICKUP
 
 ```c
-// 0x0378C08504160D0D
-BOOL _0x0378C08504160D0D(Any p0);
+// 0x0378C08504160D0D 0x93D23399
+BOOL IS_OBJECT_A_PICKUP(Object object);
 ```
 
 
 ## Parameters
-* **p0**: 
+* **object**: 
 
 ## Return value

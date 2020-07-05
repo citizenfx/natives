@@ -1,24 +1,16 @@
 ---
 ns: UNK
+aliases: ["_GET_USER_LANGUAGE_ID"]
 ---
-## _GET_USER_LANGUAGE_ID
+## _LOCALIZATION_GET_SYSTEM_DATE_FORMAT
 
 ```c
 // 0xA8AE43AEC1A61314
-int _GET_USER_LANGUAGE_ID();
+int _LOCALIZATION_GET_SYSTEM_DATE_FORMAT();
 ```
 
 ```
-Returns the user's defined langauge as ID   
-english: 12  
-french = 7  
-german = 22  
-italian = 21  
-japanese = 9  
-korean = 17  
-portuguese = 16  
-spanish = 10  
-russian = 25  
+Possible return values: 0, 1, 2
 ```
 
 ## Return value
