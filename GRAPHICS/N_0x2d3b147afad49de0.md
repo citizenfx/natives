@@ -13,6 +13,7 @@ Used in arcade games and Beam hack minigame in Doomsday Heist. I will most certa
 Update: I did dived into this, and I haven't noticed any difference between this and DrawSprite.
 Here is the result; arcade game I made: [Penetrator Arcade Game](https://streamable.com/8igrzw)
 
+To draw something with this on screen, first you must request the texture dictionary. After that you need to create a loop that runs every ms or less. Look at the example for better understanding.
 _NativeD B Introduced: v1290_
 
 
@@ -34,5 +35,12 @@ _NativeD B Introduced: v1290_
 
 ```lua
 -- drawing the game area for penetrator arcade game
-N_0x2d3b147afad49de0("MPArcadeDegenatron", "penetrator_scene_frame", 0.5, 0.5, 0.4, 0.6, 0.0, 255, 0, 0, 255, 0)
+Citizen.CreateThread(function()
+    RequestStreamedTextureDict("MPArcadeDegenatron", false)
+    while not HasStreamedTextureDictLoaded("MPArcadeDegenatron") do Citizen.Wait(1) end
+    while true do
+        N_0x2d3b147afad49de0("MPArcadeDegenatron", "penetrator_scene_frame", 0.5, 0.5, 0.4, 0.6, 0.0, 255, 0, 0, 255, 0)
+        Citizen.Wait(1)
+    end
+end)
 ```
