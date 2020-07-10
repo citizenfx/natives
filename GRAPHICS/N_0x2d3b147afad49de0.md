@@ -20,8 +20,8 @@ _NativeD B Introduced: v1290_
 ## Parameters
 * **textureDict**: inside script_txds.rpf, browse it with OpenIV
 * **textureName**: textureName
-* **x**: x position must be between 0.0 and 1.0 (1.0 being the most bottom side of the screen)
-* **y**: y position must be between 0.0 and 1.0 (1.0 being the most right side of the screen)
+* **x**: x position must be between 0.0 and 1.0 (1.0 being the most right side of the screen)
+* **y**: y position must be between 0.0 and 1.0 (1.0 being the most bottom side of the screen)
 * **width**: width 0.0 - 1.0 is the reasonable amount generally
 * **height**: height 0.0 - 1.0 is the reasonable amount generally
 * **p6**: almost always 0.0
