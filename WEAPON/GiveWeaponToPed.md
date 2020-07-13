@@ -5,10 +5,12 @@ ns: WEAPON
 
 ```c
 // 0xBF0FD6E56C964FCB 0xC4D88A85
-void GIVE_WEAPON_TO_PED(Ped ped, Hash weaponHash, int ammoCount, BOOL isHidden, BOOL equipNow);
+int GIVE_WEAPON_TO_PED(Ped ped, Hash weaponHash, int ammoCount, BOOL isHidden, BOOL equipNow);
 ```
 
 ```
+also returns the given weapon handle
+
 isHidden - ????  
 All weapon names (add to the list if something is missing), use GAMEPLAY::GET_HASH_KEY((char *)weaponNames[i]) to get get the hash:  
 static LPCSTR weaponNames[] = {  
@@ -40,3 +42,6 @@ pastebin.com/a39K8Nz8
 * **isHidden**: 
 * **equipNow**: 
 
+## Return value
+
+Handle of the given weapon (you can use it to set clip in weapon etc.)
