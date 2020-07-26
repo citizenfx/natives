@@ -13,3 +13,5 @@ int GET_SEAT_PED_IS_TRYING_TO_ENTER(Ped ped);
 * **ped**: 
 
 ## Return value
+Not in vehicle / is in vehicle returns -3
+At any seat returns -1
