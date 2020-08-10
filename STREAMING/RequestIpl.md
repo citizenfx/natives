@@ -9,7 +9,8 @@ void REQUEST_IPL(char* iplName);
 ```
 
 ```
-IPL list: pastebin.com/iNGLY32D  
+IPL list: pastebin.com/iNGLY32D
+IPL list + Coords: https://pastebin.com/FyV5mMma  
 ```
 
 ## Parameters
