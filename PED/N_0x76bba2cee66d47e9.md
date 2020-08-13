@@ -1,11 +1,11 @@
 ---
 ns: PED
 ---
-## _0x76BBA2CEE66D47E9
+## _GET_PED_EYE_COLOR
 
 ```c
-// 0x76BBA2CEE66D47E9
-int _0x76BBA2CEE66D47E9(Ped ped);
+// _GET_PED_EYE_COLOR
+int _GET_PED_EYE_COLOR(Ped ped);
 ```
 A getter for [_SET_PED_EYE_COLOR](#_0x50B56988B170AFDF). Returns -1 if fails to get.
 
