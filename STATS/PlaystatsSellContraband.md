@@ -1,14 +1,15 @@
 ---
 ns: STATS
+aliases: ["0xC729991A9065376E"]
 ---
-## _0xC729991A9065376E
+## _PLAYSTATS_SELL_CONTRABAND
 
 ```c
 // 0xC729991A9065376E
-void _0xC729991A9065376E(Any p0);
+void _PLAYSTATS_SELL_CONTRABAND(Any* data);
 ```
 
 
 ## Parameters
-* **p0**: 
+* **data**: 
 

@@ -1,11 +1,12 @@
 ---
 ns: AUDIO
+aliases: ["0x0350E7E17BA767D0"]
 ---
-## _0x0350E7E17BA767D0
+## _SET_VEHICLE_HORN_VARIATION
 
 ```c
 // 0x0350E7E17BA767D0
-void _0x0350E7E17BA767D0(Vehicle vehicle, int value);
+void _SET_VEHICLE_HORN_VARIATION(Vehicle vehicle, int value);
 ```
 
 ```
