@@ -15,3 +15,5 @@ This native sets a maximum speed for a vehicle.
 * **vehicle**: The vehicle handle.
 * **speed**: The speed limit in meters per second.
 
+##**Notes**
+Setting it to -1 to return its normal max speed
