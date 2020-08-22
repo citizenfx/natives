@@ -5,7 +5,7 @@ ns: PAD
 
 ```c
 // 0xEC3C9B8D5327B563 0x5DE226A5
-float GET_CONTROL_NORMAL(int inputGroup, int control);
+float GET_CONTROL_NORMAL(int padIndex, int control);
 ```
 
 ```
@@ -14,7 +14,7 @@ Returns the value of CONTROLS::GET_CONTROL_VALUE Normalized (ie a real number va
 ```
 
 ## Parameters
-* **inputGroup**: 
+* **padIndex**: 
 * **control**: 
 
 ## Return value

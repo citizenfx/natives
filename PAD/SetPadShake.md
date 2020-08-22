@@ -5,7 +5,7 @@ ns: PAD
 
 ```c
 // 0x48B3886C1358D0D5 0x5D38BD2F
-void SET_PAD_SHAKE(int inputGroup, int duration, int frequency);
+void SET_PAD_SHAKE(int padIndex, int duration, int frequency);
 ```
 
 ```
@@ -17,7 +17,7 @@ SET_PAD_SHAKE(0, 100, 200);
 ```
 
 ## Parameters
-* **inputGroup**: 
+* **padIndex**: 
 * **duration**: 
 * **frequency**: 
 

@@ -5,10 +5,10 @@ ns: PAD
 
 ```c
 // 0xCB0360EFEFB2580D
-void _0xCB0360EFEFB2580D(int inputGroup);
+void _0xCB0360EFEFB2580D(int padIndex);
 ```
 
 
 ## Parameters
-* **inputGroup**: 
+* **padIndex**: 
 
