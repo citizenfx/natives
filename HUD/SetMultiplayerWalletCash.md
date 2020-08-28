@@ -11,7 +11,7 @@ void SET_MULTIPLAYER_WALLET_CASH();
 
 * This shows the bank Native Money HUD for the wallet.
 * To make it work you need to use N_0x170f541e1cadd1de(bool p1) with it
-* Usually used with `SetMultiplayerBankCash()` in R* scritps
+* Usually used with `SetMultiplayerBankCash()` in R* scripts
 * Use RemoveMultiplayerWalletCash() to hide it
 * To change money value just use `StatSetInt` and set "MP0_WALLET_BALANCE" to whatever value you need to,
 * Changing money value with StatSetInt will trigger the HUD changing money notification
