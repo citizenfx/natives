@@ -8,6 +8,16 @@ ns: ENTITY
 void SET_ENTITY_MAX_SPEED(Entity entity, float speed);
 ```
 
+```
+speed is in meters per second
+To convert for example, 40mph/kmh you would do something like this
+float mphToMs = 40.0 / 2.236936;
+float kmhToMs = 40.0 / 3.6;
+
+SET_ENTITY_MAX_SPEED(veh, mphToMs);
+SET_ENTITY_MAX_SPEED(veh, kmhToMs);
+```
+
 
 ## Parameters
 * **entity**: 
