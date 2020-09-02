@@ -12,7 +12,9 @@ FireId START_SCRIPT_FIRE(float X, float Y, float Z, int maxChildren, BOOL isGasF
 Starts a fire:  
 xyz: Location of fire  
 maxChildren: The max amount of times a fire can spread to other objects. Must be 25 or less, or the function will do nothing.  
-isGasFire: Whether or not the fire is powered by gasoline.  
+isGasFire: Whether or not the fire is powered by gasoline. 
+
+Note: It seems that sometimes this function stops the execution of a script until you are near the fire.
 ```
 
 ## Parameters
