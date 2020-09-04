@@ -19,3 +19,7 @@ If 'atGetIn' is false, the function will not return true until the ped is sittin
 * **atGetIn**: 
 
 ## Return value
+
+```
+Doesn't appear to work, use GET_VEHICLE_PED_IS_IN instead
+```
