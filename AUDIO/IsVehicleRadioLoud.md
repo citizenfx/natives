@@ -13,3 +13,8 @@ BOOL _IS_VEHICLE_RADIO_LOUD(Vehicle vehicle);
 * **vehicle**: 
 
 ## Return value
+
+```
+Looks like this native doesnt work.
+Always return false
+```
