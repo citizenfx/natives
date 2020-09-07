@@ -1,5 +1,6 @@
 ---
 ns: ENTITY
+apiset: shared
 ---
 
 ## DELETE_ENTITY
