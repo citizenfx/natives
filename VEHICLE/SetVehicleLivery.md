@@ -8,6 +8,11 @@ ns: VEHICLE
 void SET_VEHICLE_LIVERY(Vehicle vehicle, int livery);
 ```
 
+```
+This native does nothing use:
+VEHICLE::SET_VEHICLE_MOD(veh, 48, index)
+```
+
 ## Parameters
 * **vehicle**: 
 * **livery**: 
