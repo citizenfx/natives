@@ -9,8 +9,9 @@ void SET_VEHICLE_LIVERY(Vehicle vehicle, int livery);
 ```
 
 ```
-This native does nothing use:
-VEHICLE::SET_VEHICLE_MOD(veh, 48, index)
+This native does for most vehicles nothing, some vehicle that use this are (Sanchez, Windsor,...)
+Use GetVehicleLiveryCount(veh) to differentiate between vehicles that use this native.
+For other vehicles use GetNumVehicleMods(veh, 48) and SetVehicleMod(veh, 48, index) to differentiate.
 ```
 
 ## Parameters
