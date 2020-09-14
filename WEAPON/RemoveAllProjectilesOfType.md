@@ -5,14 +5,14 @@ ns: WEAPON
 
 ```c
 // 0xFC52E0F37E446528 0xA5F89919
-void REMOVE_ALL_PROJECTILES_OF_TYPE(Hash weaponHash, BOOL p1);
+void REMOVE_ALL_PROJECTILES_OF_TYPE(Hash weaponHash, BOOL Explode);
 ```
 
 ```
-p1 seems always to be 0  
+if Explode true, then removal is done through Exploding the Projectile basilcy the same as (EXPLODE_PROJECTILES) but without defining the ped owner
 ```
 
 ## Parameters
 * **weaponHash**: 
-* **p1**: 
+* **Explode**: 
 
