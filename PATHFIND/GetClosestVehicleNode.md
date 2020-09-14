@@ -23,6 +23,8 @@ The node types follows a pattern. For example, every fourth node is of the type 
 Starting at 2, every fourth node is under the map, always same coords.  
 Same with only asphalt road (0, 4, 8, etc) and simple path/asphalt road (1, 5, 9, etc).   
 gtaforums.com/topic/843561-pathfind-node-types  
+
+Setting p4 to 0 does not spawn the vehicle in the middle of the closest asphalt road. Seems to be the closest major road, doesn't matter the type.
 ```
 
 ## Parameters
