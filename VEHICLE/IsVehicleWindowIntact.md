@@ -8,6 +8,9 @@ ns: VEHICLE
 BOOL IS_VEHICLE_WINDOW_INTACT(Vehicle vehicle, int windowIndex);
 ```
 
+```
+This native will hard fail if the window index does not exist on the vehicle.
+```
 
 ## Parameters
 * **vehicle**: 
