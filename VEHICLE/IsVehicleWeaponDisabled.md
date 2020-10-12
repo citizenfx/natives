@@ -6,7 +6,7 @@ aliases: ["0x563B65A643ED072E"]
 
 ```c
 // 0x563B65A643ED072E
-Any _IS_VEHICLE_WEAPON_DISABLED(Any weaponHash, Vehicle vehicle, Ped owner);
+BOOL _IS_VEHICLE_WEAPON_DISABLED(Any weaponHash, Vehicle vehicle, Ped owner);
 ```
 
 ```
