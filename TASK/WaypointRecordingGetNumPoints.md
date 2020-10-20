@@ -1,5 +1,5 @@
 ---
-ns: BRAIN
+ns: TASK
 ---
 ## WAYPOINT_RECORDING_GET_NUM_POINTS
 

@@ -1,5 +1,5 @@
 ---
-ns: NETCASH
+ns: MONEY
 aliases: ["0xECA658CE2A4E5A72"]
 ---
 ## _NETWORK_EARN_FROM_CONTRABAND

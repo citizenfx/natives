@@ -1,5 +1,5 @@
 ---
-ns: FILE
+ns: FILES
 aliases: ["0xA9F9C2E0FDE11CBB"]
 ---
 ## GET_SHOP_PED_OUTFIT_PROP_VARIANT

@@ -1,5 +1,5 @@
 ---
-ns: NETSHOP
+ns: NETSHOPPING
 aliases: ["_NETWORK_SHOP_GET_PRICE"]
 ---
 ## _NET_GAMESERVER_GET_PRICE

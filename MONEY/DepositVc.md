@@ -1,5 +1,5 @@
 ---
-ns: NETWORKCASH
+ns: MONEY
 aliases: ["0xE260E0BB9CD995AC"]
 ---
 ## DEPOSIT_VC

@@ -1,5 +1,5 @@
 ---
-ns: NETWORKCASH
+ns: MONEY
 ---
 ## _0x2A93C46AAB1EACC9
 

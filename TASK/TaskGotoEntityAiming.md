@@ -1,5 +1,5 @@
 ---
-ns: BRAIN
+ns: TASK
 ---
 ## TASK_GOTO_ENTITY_AIMING
 

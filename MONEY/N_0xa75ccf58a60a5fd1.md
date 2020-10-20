@@ -1,5 +1,5 @@
 ---
-ns: NETCASH
+ns: MONEY
 ---
 ## _0xA75CCF58A60A5FD1
 

@@ -1,5 +1,5 @@
 ---
-ns: NETWORKCASH
+ns: MONEY
 aliases: ["0x5CBAD97E059E1B94"]
 ---
 ## NETWORK_GET_VC_BALANCE

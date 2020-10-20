@@ -1,5 +1,5 @@
 ---
-ns: BRAIN
+ns: TASK
 ---
 ## TASK_COMBAT_HATED_TARGETS_AROUND_PED
 

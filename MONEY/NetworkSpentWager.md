@@ -1,5 +1,5 @@
 ---
-ns: NETCASH
+ns: MONEY
 aliases: ["0xD99DB210089617FE"]
 ---
 ## _NETWORK_SPENT_WAGER

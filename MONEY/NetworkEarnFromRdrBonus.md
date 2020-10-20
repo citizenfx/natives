@@ -1,5 +1,5 @@
 ---
-ns: NETWORKCASH
+ns: MONEY
 ---
 ## _NETWORK_EARN_FROM_RDR_BONUS
 

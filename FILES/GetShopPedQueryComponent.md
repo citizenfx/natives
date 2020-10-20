@@ -1,5 +1,5 @@
 ---
-ns: FILE
+ns: FILES
 ---
 ## GET_SHOP_PED_QUERY_COMPONENT
 

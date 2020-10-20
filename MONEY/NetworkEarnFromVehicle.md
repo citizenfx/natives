@@ -1,5 +1,5 @@
 ---
-ns: NETWORKCASH
+ns: MONEY
 ---
 ## NETWORK_EARN_FROM_VEHICLE
 

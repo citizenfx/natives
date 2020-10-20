@@ -1,5 +1,5 @@
 ---
-ns: NETWORKCASH
+ns: MONEY
 ---
 ## NETWORK_BUY_SMOKES
 

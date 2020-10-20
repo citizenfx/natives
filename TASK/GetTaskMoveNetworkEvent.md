@@ -1,5 +1,5 @@
 ---
-ns: BRAIN
+ns: TASK
 aliases: ["0xB4F47213DF45A64C"]
 ---
 ## GET_TASK_MOVE_NETWORK_EVENT

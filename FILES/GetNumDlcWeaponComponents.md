@@ -1,5 +1,5 @@
 ---
-ns: FILE
+ns: FILES
 ---
 ## GET_NUM_DLC_WEAPON_COMPONENTS
 

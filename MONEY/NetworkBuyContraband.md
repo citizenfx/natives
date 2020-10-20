@@ -1,5 +1,5 @@
 ---
-ns: NETCASH
+ns: MONEY
 aliases: ["0x30FD873ECE50E9F6"]
 ---
 ## _NETWORK_BUY_CONTRABAND

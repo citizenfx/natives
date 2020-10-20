@@ -1,5 +1,5 @@
 ---
-ns: NETWORKCASH
+ns: MONEY
 aliases: ["0x3A54E33660DED67F"]
 ---
 ## NETWORK_CAN_BET

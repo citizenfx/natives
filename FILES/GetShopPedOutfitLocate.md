@@ -1,5 +1,5 @@
 ---
-ns: FILE
+ns: FILES
 aliases: ["0x073CA26B079F956E"]
 ---
 ## GET_SHOP_PED_OUTFIT_LOCATE

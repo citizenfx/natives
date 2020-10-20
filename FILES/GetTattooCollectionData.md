@@ -1,5 +1,5 @@
 ---
-ns: FILE
+ns: FILES
 aliases: ["0xFF56381874F82086"]
 ---
 ## _GET_TATTOO_COLLECTION_DATA

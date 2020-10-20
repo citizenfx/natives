@@ -1,5 +1,5 @@
 ---
-ns: NETWORKCASH
+ns: MONEY
 ---
 ## NETWORK_SPENT_BULL_SHARK
 

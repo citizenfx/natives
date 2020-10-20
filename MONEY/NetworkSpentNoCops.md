@@ -1,5 +1,5 @@
 ---
-ns: NETWORKCASH
+ns: MONEY
 aliases: ["0xD5BB406F4E04019F"]
 ---
 ## NETWORK_SPENT_NO_COPS

@@ -1,5 +1,5 @@
 ---
-ns: RENDERING
+ns: REPLAY
 aliases: ["0x49DA8145672B2725"]
 ---
 ## _ACTIVATE_ROCKSTAR_EDITOR

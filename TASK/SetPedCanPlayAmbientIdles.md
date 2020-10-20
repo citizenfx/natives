@@ -1,5 +1,5 @@
 ---
-ns: BRAIN
+ns: TASK
 aliases: ["0x8FD89A6240813FD0"]
 ---
 ## SET_PED_CAN_PLAY_AMBIENT_IDLES

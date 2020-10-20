@@ -1,5 +1,5 @@
 ---
-ns: BRAIN
+ns: TASK
 ---
 ## GET_CLIP_SET_FOR_SCRIPTED_GUN_TASK
 

@@ -1,5 +1,5 @@
 ---
-ns: NETWORKCASH
+ns: MONEY
 aliases: ["0xF70EFA14FE091429"]
 ---
 ## WITHDRAW_VC

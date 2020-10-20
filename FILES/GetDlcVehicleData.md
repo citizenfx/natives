@@ -1,5 +1,5 @@
 ---
-ns: FILE
+ns: FILES
 ---
 ## GET_DLC_VEHICLE_DATA
 

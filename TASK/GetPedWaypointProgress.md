@@ -1,5 +1,5 @@
 ---
-ns: BRAIN
+ns: TASK
 ---
 ## GET_PED_WAYPOINT_PROGRESS
 

@@ -1,5 +1,5 @@
 ---
-ns: NETCASH
+ns: MONEY
 aliases: ["0x9251B6ABF2D0A5B4"]
 ---
 ## _NETWORK_EARN_FROM_SELL_BUNKER

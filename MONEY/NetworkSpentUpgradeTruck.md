@@ -1,5 +1,5 @@
 ---
-ns: NETCASH
+ns: MONEY
 aliases: ["0x365E877C61D6988B"]
 ---
 ## _NETWORK_SPENT_UPGRADE_TRUCK

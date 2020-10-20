@@ -1,5 +1,5 @@
 ---
-ns: NETWORKCASH
+ns: MONEY
 ---
 ## _NETWORK_GET_IS_HIGH_EARNER
 

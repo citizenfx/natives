@@ -1,5 +1,5 @@
 ---
-ns: NETSHOP
+ns: NETWORK
 aliases: ["_GET_GAME_VERSION"]
 ---
 ## _GET_ONLINE_VERSION

@@ -1,5 +1,5 @@
 ---
-ns: BRAIN
+ns: TASK
 ---
 ## UPDATE_TASK_AIM_GUN_SCRIPTED_TARGET
 

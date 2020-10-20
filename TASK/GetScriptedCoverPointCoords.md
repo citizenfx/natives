@@ -1,5 +1,5 @@
 ---
-ns: BRAIN
+ns: TASK
 ---
 ## GET_SCRIPTED_COVER_POINT_COORDS
 

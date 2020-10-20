@@ -1,5 +1,5 @@
 ---
-ns: FILE
+ns: FILES
 ---
 ## _GET_NUM_PROPS_FROM_OUTFIT
 

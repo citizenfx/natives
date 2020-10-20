@@ -1,5 +1,5 @@
 ---
-ns: BRAIN
+ns: TASK
 aliases: ["0xA7FFBA498E4AAF67"]
 ---
 ## GET_TASK_MOVE_NETWORK_SIGNAL_BOOL

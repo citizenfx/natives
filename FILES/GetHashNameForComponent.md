@@ -1,5 +1,5 @@
 ---
-ns: FILE
+ns: FILES
 ---
 ## GET_HASH_NAME_FOR_COMPONENT
 

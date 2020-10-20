@@ -1,5 +1,5 @@
 ---
-ns: NETWORKCASH
+ns: MONEY
 ---
 ## _NETWORK_SPENT_UPGRADE_BASE
 

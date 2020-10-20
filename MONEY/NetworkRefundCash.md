@@ -1,5 +1,5 @@
 ---
-ns: NETWORKCASH
+ns: MONEY
 aliases: ["0xF9C812CD7C46E817"]
 ---
 ## NETWORK_REFUND_CASH

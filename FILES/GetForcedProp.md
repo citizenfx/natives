@@ -1,5 +1,5 @@
 ---
-ns: FILE
+ns: FILES
 aliases: ["0xE1CA84EBF72E691D"]
 ---
 ## GET_FORCED_PROP

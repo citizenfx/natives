@@ -1,5 +1,5 @@
 ---
-ns: FILE
+ns: FILES
 aliases: ["0x0564B9FF9631B82C"]
 ---
 ## IS_DLC_VEHICLE_MOD

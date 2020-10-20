@@ -1,5 +1,5 @@
 ---
-ns: BRAIN
+ns: TASK
 ---
 ## GET_NAVMESH_ROUTE_RESULT
 

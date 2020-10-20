@@ -1,5 +1,5 @@
 ---
-ns: FILE
+ns: FILES
 aliases: ["0xC098810437312FFF"]
 ---
 ## GET_DLC_VEHICLE_MOD_LOCK_HASH

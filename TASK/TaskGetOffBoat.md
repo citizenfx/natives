@@ -1,5 +1,5 @@
 ---
-ns: BRAIN
+ns: TASK
 aliases: ["_TASK_GET_OFF_BOAT"]
 ---
 ## TASK_GET_OFF_BOAT

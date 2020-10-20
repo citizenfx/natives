@@ -1,5 +1,5 @@
 ---
-ns: FILE
+ns: FILES
 ---
 ## _0xF3FBE2D50A6A8C28
 

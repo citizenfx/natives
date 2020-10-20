@@ -1,5 +1,5 @@
 ---
-ns: NETCASH
+ns: MONEY
 aliases: ["0x3E4ADAFF1830F146"]
 ---
 ## _NETWORK_EARN_FROM_WAREHOUSE

@@ -1,5 +1,5 @@
 ---
-ns: NETCASH
+ns: MONEY
 aliases: ["0x9777734DAD16992F"]
 ---
 ## _CAN_PAY_GOON

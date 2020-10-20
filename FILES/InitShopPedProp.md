@@ -1,5 +1,5 @@
 ---
-ns: FILE
+ns: FILES
 ---
 ## INIT_SHOP_PED_PROP
 

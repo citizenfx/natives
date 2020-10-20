@@ -1,5 +1,5 @@
 ---
-ns: BRAIN
+ns: TASK
 aliases: ["0x88E32DB8C1A4AA4B"]
 ---
 ## SET_PED_PATH_CLIMB_COST_MODIFIER

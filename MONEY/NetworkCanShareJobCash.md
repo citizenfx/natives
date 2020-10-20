@@ -1,5 +1,5 @@
 ---
-ns: NETWORKCASH
+ns: MONEY
 aliases: ["0x1C2473301B1C66BA"]
 ---
 ## NETWORK_CAN_SHARE_JOB_CASH

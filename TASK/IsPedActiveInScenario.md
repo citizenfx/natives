@@ -1,5 +1,5 @@
 ---
-ns: BRAIN
+ns: TASK
 ---
 ## IS_PED_ACTIVE_IN_SCENARIO
 

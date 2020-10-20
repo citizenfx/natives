@@ -1,5 +1,5 @@
 ---
-ns: BRAIN
+ns: TASK
 ---
 ## REQUEST_WAYPOINT_RECORDING
 

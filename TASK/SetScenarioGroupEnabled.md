@@ -1,5 +1,5 @@
 ---
-ns: BRAIN
+ns: TASK
 ---
 ## SET_SCENARIO_GROUP_ENABLED
 

@@ -1,5 +1,5 @@
 ---
-ns: NETWORKCASH
+ns: MONEY
 aliases: ["0xAFE08B35EC0C9EAE"]
 ---
 ## NETWORK_PAY_UTILITY_BILL

@@ -1,5 +1,5 @@
 ---
-ns: NETCASH
+ns: MONEY
 aliases: ["0x12D148D26538D0F9"]
 ---
 ## _NETWORK_SPENT_BUY_BUNKER

@@ -1,5 +1,5 @@
 ---
-ns: NETSHOP
+ns: NETSHOPPING
 ---
 ## _0x85F6C9ABA1DE2BCF
 

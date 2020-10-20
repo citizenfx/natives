@@ -1,5 +1,5 @@
 ---
-ns: BRAIN
+ns: TASK
 ---
 ## PLAY_ENTITY_SCRIPTED_ANIM
 

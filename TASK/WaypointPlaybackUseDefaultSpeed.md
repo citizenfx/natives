@@ -1,5 +1,5 @@
 ---
-ns: BRAIN
+ns: TASK
 ---
 ## WAYPOINT_PLAYBACK_USE_DEFAULT_SPEED
 

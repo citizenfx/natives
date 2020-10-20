@@ -1,5 +1,5 @@
 ---
-ns: BRAIN
+ns: TASK
 aliases: ["SET_PED_PATHS_WIDTH_PLANT"]
 ---
 ## SET_PED_PATH_MAY_ENTER_WATER

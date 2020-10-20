@@ -1,5 +1,5 @@
 ---
-ns: NETWORKCASH
+ns: MONEY
 aliases: ["0x20194D48EAEC9A41"]
 ---
 ## PROCESS_CASH_GIFT

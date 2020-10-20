@@ -1,5 +1,5 @@
 ---
-ns: NETCASH
+ns: MONEY
 aliases: ["0xFFBE02CD385356BD"]
 ---
 ## _NETWORK_SPENT_BOSS

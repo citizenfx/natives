@@ -1,5 +1,5 @@
 ---
-ns: BRAIN
+ns: TASK
 ---
 ## TASK_GO_TO_COORD_WHILE_AIMING_AT_COORD
 

@@ -1,5 +1,5 @@
 ---
-ns: NETCASH
+ns: MONEY
 aliases: ["0xC8407624CEF2354B"]
 ---
 ## _NETWORK_EARN_FROM_PREMIUM_JOB

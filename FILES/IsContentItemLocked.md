@@ -1,5 +1,5 @@
 ---
-ns: FILE
+ns: FILES
 aliases: ["_IS_OUTFIT_EMPTY","_IS_DLC_DATA_EMPTY"]
 ---
 ## IS_CONTENT_ITEM_LOCKED

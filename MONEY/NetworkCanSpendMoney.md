@@ -1,5 +1,5 @@
 ---
-ns: NETWORKCASH
+ns: MONEY
 aliases: ["0xAB3CAA6B422164DA"]
 ---
 ## NETWORK_CAN_SPEND_MONEY

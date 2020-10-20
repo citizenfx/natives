@@ -1,5 +1,5 @@
 ---
-ns: BRAIN
+ns: TASK
 ---
 ## PLAY_ANIM_ON_RUNNING_SCENARIO
 

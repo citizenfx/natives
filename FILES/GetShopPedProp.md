@@ -1,5 +1,5 @@
 ---
-ns: FILE
+ns: FILES
 aliases: ["0x5D5CAFF661DDF6FC"]
 ---
 ## GET_SHOP_PED_PROP

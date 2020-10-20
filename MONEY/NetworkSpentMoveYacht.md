@@ -1,5 +1,5 @@
 ---
-ns: NETCASH
+ns: MONEY
 aliases: ["0xE7DF4E0545DFB56E"]
 ---
 ## _NETWORK_SPENT_MOVE_YACHT

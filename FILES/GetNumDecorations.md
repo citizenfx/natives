@@ -1,5 +1,5 @@
 ---
-ns: FILE
+ns: FILES
 aliases: ["0x278F76C3B0A8F109"]
 ---
 ## _GET_NUM_DECORATIONS

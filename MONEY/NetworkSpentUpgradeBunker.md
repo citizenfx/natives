@@ -1,5 +1,5 @@
 ---
-ns: NETCASH
+ns: MONEY
 aliases: ["0x0C82D21A77C22D49"]
 ---
 ## _NETWORK_SPENT_UPGRADE_BUNKER
