@@ -1,17 +1,14 @@
-sudo: required
-dist: trusty
+dist: focal
+os: linux
+arch: arm64 # so we can use auto-spinup containers
 language: node_js
 node_js:
-- '8'
+- '12'
 cache: yarn
 before_install:
-- sudo add-apt-repository ppa:ubuntu-toolchain-r/test -y
-- echo "deb http://apt.llvm.org/trusty/ llvm-toolchain-trusty-7 main" | sudo tee -a
-  /etc/apt/sources.list
-- curl https://apt.llvm.org/llvm-snapshot.gpg.key | sudo apt-key add -
 - sudo apt-get update -qq
 - sudo apt-get install libclang1-7 -y
-- sudo ln -s /usr/lib/x86_64-linux-gnu/libclang-7.so.1 /usr/lib/x86_64-linux-gnu/libclang.so
+- sudo ln -s /usr/lib/aarch64-linux-gnu/libclang-7.so.1 /usr/lib/aarch64-linux-gnu/libclang.so
 install:
 - bash .travis/setup-builder
 script:
@@ -21,7 +18,7 @@ notifications:
   email: false
 
 addons:
-  ssh_known_hosts: updater.fivereborn.com
+  ssh_known_hosts: native-deploy-host.live.fivem.net
 
 before_deploy:
   - openssl aes-256-cbc -K $encrypted_2b6ad88e47ae_key -iv $encrypted_2b6ad88e47ae_iv -in .travis/deploy_rsa.enc -out /tmp/deploy_rsa -d
@@ -31,7 +28,7 @@ before_deploy:
 
 deploy:
   provider: script
-  skip_cleanup: true
-  script: rsync -r --delete-after --quiet $TRAVIS_BUILD_DIR/out/ travis@updater.fivereborn.com:/home/travis/natives/
+  cleanup: true
+  script: rsync -r --delete-after --quiet $TRAVIS_BUILD_DIR/out/ travis@native-deploy-host.live.fivem.net:/home/travis/natives/
   on:
     branch: master
