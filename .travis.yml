@@ -28,7 +28,7 @@ before_deploy:
 
 deploy:
   provider: script
-  cleanup: true
+  edge: true
   script: rsync -r --delete-after --quiet $TRAVIS_BUILD_DIR/out/ travis@native-deploy-host.live.fivem.net:/home/travis/natives/
   on:
     branch: master
