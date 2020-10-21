@@ -8,18 +8,23 @@ https://runtime.fivem.net/doc/natives/
 Contributing
 ------------
 
-- Document how a native works and what it does
-- Fix function parameter and return types
-- Appropriately name some unknown natives
-- Add simple example code
-- Review existing pull requests
+Contributions are greatly appreciated! Before you submit a pull request, please read [CONTRIBUTING.md][contributing].
 
-Before you create a pull request, please keep the following in mind:
+Some topics to contribute on:
 
-- Custom named natives (where the name does not match the hash) must have a `_` prefix before the name. See naming conventions on the [Native DB topic](https://gtaforums.com/topic/717612-v-scriptnative-documentation-and-research/).
-- Rename the file if a native was renamed.
-- Keep an alias of the old name if a native was renamed. This is necessary for backwards compatibility.
-- Provide a well tested example to validate your change. We want to avoid untested and wrong information. This is preferably a small code snippet that shows how your change is correct.
-- Avoid external links. External links may be removed over time. If you do need to link externally, make sure its as permanent as possible. We welcome additional documentation in the [fivem-docs](https://github.com/citizenfx/fivem-docs) repository.
-- Only GTA V natives live in this repository. Natives in the CFX namespace can be found in the [FiveM source](https://github.com/citizenfx/fivem) repository.
-- Mind your grammar. Correct English is preferred.
+- Documenting functionality of natives
+- Documenting parameter and return types
+- Naming unnamed natives appropriately
+- Adding example code to natives
+- Reviewing existing pull requests
+
+### Where are the CFX natives?
+This repository only contains original GTA V natives.
+Natives from the CFX namespace can be found in the [FiveM source][cfx-natives].
+
+### FiveM documentation
+FiveM specific docs can be found [here][fivem-docs].
+
+[contributing]: ./.github/CONTRIBUTING.md
+[cfx-natives]: https://github.com/citizenfx/fivem/tree/master/ext/native-decls
+[fivem-docs]: https://github.com/citizenfx/fivem-docs
