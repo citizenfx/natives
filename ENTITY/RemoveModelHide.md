@@ -5,15 +5,15 @@ ns: ENTITY
 
 ```c
 // 0xD9E3006FB3CBD765 0x993DBC10
-void REMOVE_MODEL_HIDE(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5);
+void REMOVE_MODEL_HIDE(float x, float y, float z, float radius, Hash model, BOOL p5);
 ```
 
 
 ## Parameters
-* **p0**: 
-* **p1**: 
-* **p2**: 
-* **p3**: 
-* **p4**: 
+* **x**: 
+* **y**: 
+* **z**: 
+* **radius**: 
+* **model**: 
 * **p5**: 
 
