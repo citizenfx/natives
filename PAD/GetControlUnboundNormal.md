@@ -6,7 +6,7 @@ aliases: ["0x5B84D09CEC5209C5"]
 
 ```c
 // 0x5B84D09CEC5209C5 0xC49343BB
-float GET_CONTROL_UNBOUND_NORMAL(int inputGroup, int control);
+float GET_CONTROL_UNBOUND_NORMAL(int padIndex, int control);
 ```
 
 ```
@@ -15,7 +15,7 @@ Seems to return values between -1 and 1 for controls like gas and steering.
 ```
 
 ## Parameters
-* **inputGroup**: 
+* **padIndex**: 
 * **control**: 
 
 ## Return value

@@ -1,0 +1,14 @@
+---
+ns: MONEY
+---
+## NETWORK_GET_STRING_BANK_WALLET_BALANCE
+
+```c
+// 0x700AF71AE615E6DD 0x7D4FD28C
+char* NETWORK_GET_STRING_BANK_WALLET_BALANCE();
+```
+
+```
+NativeDB Introduced: v323
+```
+

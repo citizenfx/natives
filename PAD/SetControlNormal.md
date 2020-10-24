@@ -6,7 +6,7 @@ aliases: ["0xE8A25867FBA3B05E"]
 
 ```c
 // 0xE8A25867FBA3B05E
-BOOL _SET_CONTROL_NORMAL(int inputGroup, int control, float amount);
+BOOL _SET_CONTROL_NORMAL(int padIndex, int control, float amount);
 ```
 
 ```
@@ -16,7 +16,7 @@ amount is a float value from 0
 ```
 
 ## Parameters
-* **inputGroup**: 
+* **padIndex**: 
 * **control**: 
 * **amount**: 
 

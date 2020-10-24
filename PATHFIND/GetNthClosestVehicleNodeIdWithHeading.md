@@ -9,7 +9,8 @@ Any GET_NTH_CLOSEST_VEHICLE_NODE_ID_WITH_HEADING(float x, float y, float z, int 
 ```
 
 ```
-NativeDB Return Type: BOOL
+NativeDB Parameter 5: float* outHeading
+NativeDB Return Type: int
 ```
 
 ## Parameters

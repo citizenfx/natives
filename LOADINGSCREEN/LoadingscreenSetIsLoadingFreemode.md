@@ -1,0 +1,15 @@
+---
+ns: LOADINGSCREEN
+aliases: ["0xC7E7181C09F33B69"]
+---
+## _LOADINGSCREEN_SET_IS_LOADING_FREEMODE
+
+```c
+// 0xC7E7181C09F33B69 0x8C227332
+void _LOADINGSCREEN_SET_IS_LOADING_FREEMODE(BOOL toggle);
+```
+
+
+## Parameters
+* **toggle**: 
+

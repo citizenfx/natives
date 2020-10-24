@@ -1,0 +1,15 @@
+---
+ns: TASK
+---
+## IS_WAYPOINT_PLAYBACK_GOING_ON_FOR_PED
+
+```c
+// 0xE03B3F2D3DC59B64 0x85B7725F
+BOOL IS_WAYPOINT_PLAYBACK_GOING_ON_FOR_PED(Any p0);
+```
+
+
+## Parameters
+* **p0**: 
+
+## Return value

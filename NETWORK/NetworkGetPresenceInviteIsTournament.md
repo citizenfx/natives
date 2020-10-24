@@ -1,0 +1,16 @@
+---
+ns: NETWORK
+aliases: ["0x8806CEBFABD3CE05"]
+---
+## NETWORK_GET_PRESENCE_INVITE_IS_TOURNAMENT
+
+```c
+// 0x8806CEBFABD3CE05 0x7D593B4C
+BOOL NETWORK_GET_PRESENCE_INVITE_IS_TOURNAMENT(Any p0);
+```
+
+
+## Parameters
+* **p0**: 
+
+## Return value

@@ -1,0 +1,12 @@
+---
+ns: NETSHOPPING
+---
+## _0x85F6C9ABA1DE2BCF
+
+```c
+// 0x85F6C9ABA1DE2BCF
+Any _0x85F6C9ABA1DE2BCF();
+```
+
+
+## Return value

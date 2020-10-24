@@ -5,7 +5,7 @@ ns: PAD
 
 ```c
 // 0x11E65974A982637C 0x66FF4FAA
-float GET_DISABLED_CONTROL_NORMAL(int inputGroup, int control);
+float GET_DISABLED_CONTROL_NORMAL(int padIndex, int control);
 ```
 
 ```
@@ -14,7 +14,7 @@ control - c# works with (int)GTA.Control.CursorY / (int)GTA.Control.CursorX and 
 ```
 
 ## Parameters
-* **inputGroup**: 
+* **padIndex**: 
 * **control**: 
 
 ## Return value

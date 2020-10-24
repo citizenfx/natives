@@ -1,0 +1,16 @@
+---
+ns: NETWORK
+aliases: ["0xD39B3FFF8FFDD5BF"]
+---
+## NETWORK_GET_PRESENCE_INVITE_PLAYLIST_LENGTH
+
+```c
+// 0xD39B3FFF8FFDD5BF 0x51B2D848
+Any NETWORK_GET_PRESENCE_INVITE_PLAYLIST_LENGTH(Any p0);
+```
+
+
+## Parameters
+* **p0**: 
+
+## Return value

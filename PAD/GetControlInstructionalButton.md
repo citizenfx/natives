@@ -6,7 +6,7 @@ aliases: ["0x0499D7B09FC9B407"]
 
 ```c
 // 0x0499D7B09FC9B407 0x3551727A
-char* GET_CONTROL_INSTRUCTIONAL_BUTTON(int inputGroup, int control, Player p2);
+char* GET_CONTROL_INSTRUCTIONAL_BUTTON(int padIndex, int control, Player p2);
 ```
 
 ```
@@ -26,7 +26,7 @@ NativeDB Parameter 2: BOOL p2
 ```
 
 ## Parameters
-* **inputGroup**: 
+* **padIndex**: 
 * **control**: 
 * **p2**: 
 

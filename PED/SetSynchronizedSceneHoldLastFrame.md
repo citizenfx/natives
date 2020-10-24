@@ -1,0 +1,16 @@
+---
+ns: PED
+aliases: ["0x394B9CD12435C981","_SET_SYNCHRONIZED_SCENE_OCCLUSION_PORTAL"]
+---
+## SET_SYNCHRONIZED_SCENE_HOLD_LAST_FRAME
+
+```c
+// 0x394B9CD12435C981 0x2DE48DA1
+void SET_SYNCHRONIZED_SCENE_HOLD_LAST_FRAME(int sceneID, BOOL toggle);
+```
+
+
+## Parameters
+* **sceneID**: 
+* **toggle**: 
+

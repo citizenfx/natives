@@ -1,0 +1,16 @@
+---
+ns: NETWORK
+aliases: ["0x728C4CC7920CD102"]
+---
+## NETWORK_GET_PRESENCE_INVITE_PLAYLIST_CURRENT
+
+```c
+// 0x728C4CC7920CD102 0x4677C656
+Any NETWORK_GET_PRESENCE_INVITE_PLAYLIST_CURRENT(Any p0);
+```
+
+
+## Parameters
+* **p0**: 
+
+## Return value

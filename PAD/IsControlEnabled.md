@@ -5,7 +5,7 @@ ns: PAD
 
 ```c
 // 0x1CEA6BFDF248E5D9 0x9174AF84
-BOOL IS_CONTROL_ENABLED(int inputGroup, int control);
+BOOL IS_CONTROL_ENABLED(int padIndex, int control);
 ```
 
 ```
@@ -51,7 +51,7 @@ enum InputGroups
 ```
 
 ## Parameters
-* **inputGroup**: 
+* **padIndex**: 
 * **control**: 
 
 ## Return value

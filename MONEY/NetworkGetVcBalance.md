@@ -1,0 +1,13 @@
+---
+ns: MONEY
+aliases: ["0x5CBAD97E059E1B94"]
+---
+## NETWORK_GET_VC_BALANCE
+
+```c
+// 0x5CBAD97E059E1B94 0xADF8F882
+int NETWORK_GET_VC_BALANCE();
+```
+
+
+## Return value

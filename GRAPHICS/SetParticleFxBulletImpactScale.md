@@ -1,0 +1,15 @@
+---
+ns: GRAPHICS
+aliases: ["0x27E32866E9A5C416"]
+---
+## SET_PARTICLE_FX_BULLET_IMPACT_SCALE
+
+```c
+// 0x27E32866E9A5C416 0xC1AD5DDF
+void SET_PARTICLE_FX_BULLET_IMPACT_SCALE(float p0);
+```
+
+
+## Parameters
+* **p0**: 
+

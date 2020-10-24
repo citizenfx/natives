@@ -1,0 +1,14 @@
+---
+ns: MONEY
+---
+## _NETWORK_GET_IS_HIGH_EARNER
+
+```c
+// 0xFB2456B2040A6A67 0x63F093A6
+BOOL _NETWORK_GET_IS_HIGH_EARNER();
+```
+
+```
+NativeDB Introduced: v323
+```
+

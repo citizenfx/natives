@@ -9,4 +9,8 @@ aliases: ["NETWORK_ENABLE_MOTION_DRUGGED","0x0B0CC10720653F3B"]
 int CLOUD_GET_AVAILABILITY_CHECK_RESULT();
 ```
 
+```
+NativeDB Return Type: BOOL
+```
+
 ## Return value

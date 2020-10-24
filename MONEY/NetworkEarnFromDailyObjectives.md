@@ -1,0 +1,17 @@
+---
+ns: MONEY
+aliases: ["0x6EA318C91C1A8786","_NETWORK_EARN_FROM_DAILY_OBJECTIVE"]
+---
+## NETWORK_EARN_FROM_DAILY_OBJECTIVES
+
+```c
+// 0x6EA318C91C1A8786 0xAB6BD72F
+void NETWORK_EARN_FROM_DAILY_OBJECTIVES(int p0, char* p1, int p2);
+```
+
+
+## Parameters
+* **p0**: 
+* **p1**: 
+* **p2**: 
+

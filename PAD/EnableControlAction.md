@@ -5,7 +5,7 @@ ns: PAD
 
 ```c
 // 0x351220255D64C155 0xD2753551
-void ENABLE_CONTROL_ACTION(int inputGroup, int control, BOOL enable);
+void ENABLE_CONTROL_ACTION(int padIndex, int control, BOOL enable);
 ```
 
 ```
@@ -56,7 +56,7 @@ Took those in IDA Pro.Not sure in which order they go
 ```
 
 ## Parameters
-* **inputGroup**: 
+* **padIndex**: 
 * **control**: 
 * **enable**: 
 

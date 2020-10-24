@@ -1,0 +1,16 @@
+---
+ns: NETSHOPPING
+aliases: ["0xB24F0944DA203D9E","_NETWORK_SHOP_GET_TRANSACTIONS_ENABLED_FOR_CHARACTER"]
+---
+## _NET_GAMESERVER_IS_SESSION_VALID
+
+```c
+// 0xB24F0944DA203D9E
+BOOL _NET_GAMESERVER_IS_SESSION_VALID(int charSlot);
+```
+
+
+## Parameters
+* **charSlot**: 
+
+## Return value
