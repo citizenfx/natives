@@ -5,14 +5,10 @@ ns: VEHICLE
 
 ```c
 // 0xFD813BB7DB977F20 0x68BFDD61
-void SWITCH_TRAIN_TRACK(int trackId, BOOL state);
+Any SWITCH_TRAIN_TRACK(int trackId, BOOL state);
 ```
 
-## Parameters
-* **trackId**: The internal id of the train track to switch
-* **state**: Whether ambient trains can spawn or not
-
-Toggles whether ambient trains can spawn on the specified track or not
+Toggles whether ambient trains can spawn on the specified track or not.
 
 | trackId | File | Description |
 | --- | --- | --- |
@@ -30,3 +26,11 @@ Toggles whether ambient trains can spawn on the specified track or not
 | 11 | `trains12.dat` | Yankton prologue mission train |
 
 Tracks IDs `0` and `3` are the main tracks you find trains on during normal gameplay, all the others are used during missions and are not complete tracks.
+
+
+## Parameters
+* **trackId**: The internal id of the train track to switch
+* **state**: Whether ambient trains can spawn or not
+
+## Return value
+None. The original return type is `void`, but ABI compatibility makes this impossible.
