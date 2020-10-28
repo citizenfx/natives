@@ -5,7 +5,7 @@ ns: ENTITY
 
 ```c
 // 0xBE8CD9BE829BBEBF
-BOOL _GET_ENTITY_PROOFS(Entity entity, BOOL* bulletProof, BOOL* fireProof, BOOL* explosionProof, BOOL* collisionProof, BOOL* meleeProof, BOOL* p6, BOOL* p7, BOOL* drownProof);
+BOOL _GET_ENTITY_PROOFS(Entity entity, BOOL* bulletProof, BOOL* fireProof, BOOL* explosionProof, BOOL* collisionProof, BOOL* meleeProof, BOOL* steamProof, BOOL* p7, BOOL* drownProof);
 ```
 
 ```
@@ -19,6 +19,6 @@ NativeDB Introduced: v1604
 * **explosionProof**:
 * **collisionProof**:
 * **meleeProof**:
-* **p6**:
+* **steamProof**:
 * **p7**:
 * **drownProof**:
