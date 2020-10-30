@@ -1,14 +1,15 @@
 ---
 ns: MISC
+aliases: ["0x7C9C0B1EEB1F9072"]
 ---
-## _0x7C9C0B1EEB1F9072
+## WATER_OVERRIDE_SET_RIPPLEBUMPINESS
 
 ```c
 // 0x7C9C0B1EEB1F9072 0x98C9138B
-void _0x7C9C0B1EEB1F9072(float p0);
+void WATER_OVERRIDE_SET_RIPPLEBUMPINESS(float bumpiness);
 ```
 
 
 ## Parameters
-* **p0**: 
+* **bumpiness**: 
 

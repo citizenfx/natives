@@ -1,14 +1,15 @@
 ---
 ns: MISC
+aliases: ["0xB8F87EAD7533B176"]
 ---
-## _0xB8F87EAD7533B176
+## WATER_OVERRIDE_SET_SHOREWAVEAMPLITUDE
 
 ```c
 // 0xB8F87EAD7533B176 0x625181DC
-void _0xB8F87EAD7533B176(float p0);
+void WATER_OVERRIDE_SET_SHOREWAVEAMPLITUDE(float amplitude);
 ```
 
 
 ## Parameters
-* **p0**: 
+* **amplitude**: 
 
