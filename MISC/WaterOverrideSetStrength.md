@@ -1,11 +1,12 @@
 ---
 ns: MISC
+aliases: ["0xC54A08C85AE4D410"]
 ---
-## _0xC54A08C85AE4D410
+## WATER_OVERRIDE_SET_STRENGTH
 
 ```c
 // 0xC54A08C85AE4D410 0xDA02F415
-void _0xC54A08C85AE4D410(float p0);
+void WATER_OVERRIDE_SET_STRENGTH(float strength);
 ```
 
 ```
@@ -16,5 +17,5 @@ This seems to edit the water wave, intensity around your current location.
 ```
 
 ## Parameters
-* **p0**: 
+* **strength**: 
 
