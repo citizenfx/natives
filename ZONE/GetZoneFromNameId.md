@@ -73,6 +73,7 @@ PALHIGH = Palomino Highlands
 PALMPOW = Palmer-Taylor Power Station  
 PBLUFF = Pacific Bluffs  
 PBOX = Pillbox Hill  
+PRLG = North Yankton
 PROCOB = Procopio Beach  
 RANCHO = Rancho  
 RGLEN = Richman Glen  
