@@ -8,11 +8,9 @@ ns: PED
 void _SET_PED_EYE_COLOR(Ped ped, int index);
 ```
 
-```
 Used for freemode (online) characters.  
-For some reason, the scripts use a rounded float for the index.
 
-indices:
+Indices:
   1. black
   2. very light blue/green
   3. dark blue
@@ -43,7 +41,6 @@ indices:
   29. devil blue/black
   30. white small pupil
   31. glossed over
-```
 
 ## Parameters
 * **ped**: 
