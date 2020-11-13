@@ -8,9 +8,7 @@ ns: TASK
 void TASK_LEAVE_ANY_VEHICLE(Ped ped, int p1, int flags);
 ```
 
-```
-Flags seem to be the same flags used in TaskLeaveVehicle
-```
+Flags are the same flags used in [TaskLeaveVehicle](#0xD3DBCE61A490BE02)
 
 ## Parameters
 * **ped**: 
