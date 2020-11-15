@@ -21,11 +21,11 @@ Sets a gamer tag's component colour
 local playerPed = PlayerPedId() --get our players ped
 local playerName = GetPlayerName(PlayerId()) --get our players name
 local gamerTagId = CreateFakeMpGamerTag(playerPed, playerName, 0, 0, "", 0) --create a gamer tag
-SetMpGamerTagColour(gamerTagId, 0, 129) --set component 0(GAMER_NAME) colour to 129(HUD_COLOUR_YOGA) 
+SetMpGamerTagColour(gamerTagId, 0, 129) --set component 0(GAMER_NAME) color to 129(HUD_COLOUR_YOGA) 
 ```
 
 ```cs
 Player player = Game.Player; //get our player
 int gamerTagId = CreateFakeMpGamerTag(player.Character.Handle, player.Name, false, false, null, 0); //create a gamer tag
-SetMpGamerTagColour(gamerTagId, 0, 129); //set component 0(GAMER_NAME) colour to 129(HUD_COLOUR_YOGA) 
+SetMpGamerTagColour(gamerTagId, 0, 129); //set component 0(GAMER_NAME) color to 129(HUD_COLOUR_YOGA) 
 ```
