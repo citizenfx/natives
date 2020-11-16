@@ -16,14 +16,15 @@ BOOL NEW_LOAD_SCENE_START(float posX, float posY, float posZ, float offsetX, flo
 * **offsetX**: Offset `x` coordinate.
 * **offsetY**: Offset `y` coordinate.
 * **offsetZ**: Offset `z` coordinate.
-* **radius**: Action radius, value is 99% of the time hard coded by the scripts between `3f` and `7000f`.
+* **radius**: Action radius, value is usually between `3f` and `7000f` in original 1868 scripts.
 * **p7**: 0, 1, 2, 3 or 4 used in decompiled scripts, 0 is by far the most common.
 
 ## Return value
-true if success, used only 7 times in decompiled scripts of 1868 (https://github.com/root-cause/v-decompiled-scripts), doesn't matter that much.
+True if success, used only 7 times in decompiled scripts of 1868 (https://github.com/root-cause/v-decompiled-scripts).
 
 ## Examples
-part of `stunt_plane_races.c` gta v script, adapted in lua below.
+Part of the `stunt_plane_races.c` script, adapted in Lua:
+
 ```lua
 function func_8(vParam0)
     return (-(Sin(vParam0.z)) * Cos(vParam0.x)), (Cos(vParam0.z) * Cos(vParam0.x)), Sin(vParam0.x)
