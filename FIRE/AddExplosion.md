@@ -5,14 +5,13 @@ ns: FIRE
 
 ```c
 // 0xE3AD2BDBAEE269AC 0x10AF5258
-void ADD_EXPLOSION(float x, float y, float z, int explosionType, float damageScale, BOOL isAudible, BOOL isInvisible, float cameraShake);
+void ADD_EXPLOSION(float x, float y, float z, int explosionType, float damageScale, BOOL isAudible, BOOL isInvisible, float cameraShake, BOOL noDamage);
 ```
 
 ```
 BOOL isAudible = If explosion makes a sound.  
-BOOL isInvisible = If the explosion is invisible or not.  
-this native is missing a new argument: noDamage  
-nodamage = false: damage || nodamage = true: no damage  
+BOOL isInvisible = If the explosion is invisible or not.
+BOOL noDamage = false: damage || nodamage = true: no damage  
 enum ExplosionTypes  
 {  
 	EXPLOSION_GRENADE,  
@@ -50,12 +49,9 @@ enum ExplosionTypes
 	EXPLOSION_PLANE_ROCKET,  
 	EXPLOSION_VEHICLE_BULLET,  
 	EXPLOSION_GAS_TANK,  
-	EXPLOSION_BIRD_CRAP  
+	EXPLOSION_BIRD_CRAP,
+	EXPLOSION_FIREWORK = 38
 };  
-```
-
-```
-NativeDB Added Parameter 9: BOOL noDamage
 ```
 
 ## Parameters
@@ -67,4 +63,5 @@ NativeDB Added Parameter 9: BOOL noDamage
 * **isAudible**: 
 * **isInvisible**: 
 * **cameraShake**: 
+* **noDamage**: 
 
