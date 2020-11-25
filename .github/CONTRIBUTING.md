@@ -31,12 +31,12 @@ When renaming a native, remember to:
 ### Descriptions
 The description of a native should be clear. Avoid descriptions such as "unsure what this does" or "needs research". Minimize incomplete information. Shortly describe what the native does, or what it's used for.
 
-> Descriptions should not be code fenced.
+> Descriptions should not be code fenced. They are only used for NativeDB imports.
 
 ### Parameter and return types
-Parameter and return type annotations are in C syntax. Each parameter and return type can be individually documented. See below for an [example](#example-documentation) on how to do so.
+Parameter and return type annotations are in C syntax. Each parameter and return type can be individually documented. See below for an [example](#example-documentation).
 
-<!-- > Keep backwards compatibility in mind when changing types. -->
+<!-- > Changes **must** be backwards compatible. Due to a limitation in ABI compatibility, types should currently not be changed unless they keep the same underlying type. For example, changing `Any` to `void` is not backwards compatible, but since vehicles are integers, changing `int` to `Vehicle` is supported. -->
 
 ### Adding examples
 When adding example code, start out with Lua. It's possible to add extra examples for JavaScript and C# as well. See below for an [example](#example-documentation) on how to do so. Examples in different languages must be functionally identical.
