@@ -18,8 +18,8 @@ In most cases the ped moves backwards then fall on the ground or collapse with a
 - If p2 = 2, p3 = 2 the ped just ragdolls.
 
 Good combinations tested:
-p2: 100 p3: 1000
-p2: 100 p3: 1
+p2: 100, p3: 1000
+p2: 100, p3: 1
 Even numbers appear to work best.
 
 
