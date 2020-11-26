@@ -23,7 +23,7 @@ This repository only contains original GTA V natives.
 Natives from the CFX namespace can be found in the [FiveM source][cfx-natives].
 
 ### FiveM documentation
-FiveM specific docs can be found [here][fivem-docs].
+Documentation for FiveM can be found [here][fivem-docs].
 
 [contributing]: ./.github/CONTRIBUTING.md
 [cfx-natives]: https://github.com/citizenfx/fivem/tree/master/ext/native-decls
