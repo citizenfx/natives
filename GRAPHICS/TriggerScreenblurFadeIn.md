@@ -9,6 +9,8 @@ aliases: ["_TRANSITION_TO_BLURRED"]
 BOOL TRIGGER_SCREENBLUR_FADE_IN(float transitionTime);
 ```
 
+Time in milliseconds to transition into full blurred screen
+
 ## Parameters
 * **transitionTime**: 
 
