@@ -12,3 +12,19 @@ void _SET_WEAPON_DAMAGE_MODIFIER(Hash weaponHash, float damageAmount);
 ## Parameters
 * **weaponHash**: 
 * **damageAmount**: 
+
+```
+Changes the weapon damage output by a given multiplier value
+weaponHash: Hash of the weapon
+damageAmount: Damage Multiplier
+```
+## Example
+
+```lua
+Citizen.CreateThread(function()
+    while true do
+        SetWeaponDamageModifier(GetHashKey("WEAPON_CARBINERIFLE"), 0.8) 
+        Wait(0)
+    end
+end)
+```
