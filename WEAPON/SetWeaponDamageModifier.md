@@ -6,20 +6,14 @@ aliases: ["0x4757F00BC6323CFE"]
 
 ```c
 // 0x4757F00BC6323CFE
-void _SET_WEAPON_DAMAGE_MODIFIER(Hash weaponHash, float damageAmount);
-```
+void _SET_WEAPON_DAMAGE_MODIFIER(Hash weaponHash, float damageMultiplier);
 ```
 Changes the weapon damage output by a given multiplier value. Must be ran every frame.
-```
 
 ## Parameters
-* **weaponHash**: 
-* **damageAmount**: 
+* **weaponHash**: Hash of the weapon
+* **damageMultiplier**: Damage Multiplier
 
-```
-weaponHash: Hash of the weapon
-damageAmount: Damage Multiplier
-```
 ## Example
 
 ```lua
