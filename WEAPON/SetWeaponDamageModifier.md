@@ -8,7 +8,7 @@ aliases: ["0x4757F00BC6323CFE"]
 // 0x4757F00BC6323CFE
 void _SET_WEAPON_DAMAGE_MODIFIER(Hash weaponHash, float damageMultiplier);
 ```
-Changes the weapon damage output by a given multiplier value. Must be ran every frame.
+Changes the weapon damage output by the given multiplier value. Must be run every frame.
 
 ## Parameters
 * **weaponHash**: Hash of the weapon
