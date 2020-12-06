@@ -19,13 +19,13 @@ Makes the provided entity visible for yourself for the current frame.
 -- Any random entity should work
 local entity = PlayerPedId()
 
--- Make the entity invisible
-SetEntityVisible(entity, false, false)
+-- Make the entity visible for all players
+SetEntityVisible(entity, true)
 
 CreateThread(function()
   while true do
     Wait(0)
-    -- Make the entity visible for the current player only.
+    -- Make the entity invisible for the current player only.
     SetEntityLocallyInvisible(entity)
   end
 end)
