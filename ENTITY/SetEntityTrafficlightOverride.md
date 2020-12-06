@@ -13,6 +13,7 @@ Example here: www.gtaforums.com/topic/830463-help-with-turning-lights-green-and-
 0 = green  
 1 = red  
 2 = yellow  
+3 = reset changes
 changing lights may not change the behavior of vehicles  
 ```
 
