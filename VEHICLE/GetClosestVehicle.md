@@ -25,7 +25,7 @@ At exactly 16384 which is 0100000000000000 in binary and 4000 in hexadecimal onl
 It's probably more convenient to use worldGetAllVehicles(int *arr, int arrSize) and check the shortest distance yourself and sort if you want by checking the vehicle type with for example VEHICLE::IS_THIS_MODEL_A_BOAT  
 -------------------------------------------------------------------------  
 Conclusion: This native is not worth trying to use. Use something like this instead: pastebin.com/xiFdXa7h
-Using flag 127 worked to return police cars for me
+Use flag 127 to return police cars
 ```
 
 ## Parameters
