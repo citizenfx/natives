@@ -10,6 +10,6 @@ BOOL TRIGGER_SCREENBLUR_FADE_IN(float transitionTime);
 ```
 
 ## Parameters
-* **transitionTime**: 
+* **transitionTime**: Time in milliseconds to transition into a fully blurred screen
 
 ## Return value
