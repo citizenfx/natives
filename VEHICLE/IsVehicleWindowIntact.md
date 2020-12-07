@@ -12,6 +12,14 @@ BOOL IS_VEHICLE_WINDOW_INTACT(Vehicle vehicle, int windowIndex);
 This will return false if the window is broken, or rolled down.
 ```
 
+```
+windowIndex:  
+0 = Front Right Window  
+1 = Front Left Window  
+2 = Back Right Window  
+3 = Back Left Window  
+```
+
 ## Parameters
 * **vehicle**: 
 * **windowIndex**: 
