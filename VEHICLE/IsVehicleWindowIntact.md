@@ -8,6 +8,9 @@ ns: VEHICLE
 BOOL IS_VEHICLE_WINDOW_INTACT(Vehicle vehicle, int windowIndex);
 ```
 
+```
+This will return false if the window is broken, or rolled down.
+```
 
 ## Parameters
 * **vehicle**: 
