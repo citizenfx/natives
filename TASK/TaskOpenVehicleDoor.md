@@ -16,6 +16,8 @@ void TASK_OPEN_VEHICLE_DOOR(Ped ped, Vehicle vehicle, int timeOut, int seat, flo
 * **speed**:
 
 ```
+Seems to be tied to TASK_ENTER_VEHICLE. When a ped is in the specified seat the native won't do anything.
+
 seat:
 -1 = driver  
 0 = passenger  
