@@ -42,3 +42,20 @@ AddPointToGpsMultiRoute(1638.2155761719, -2344.685546875, 95.610511779785)
 -- Set the route to render
 SetGpsMultiRouteRender(true)
 ```
+```C#
+-- Clear any old route first
+API.ClearGpsMultiRoute();
+
+-- Start a new route
+API.StartGpsMultiRoute(6, false, true);
+
+-- Add the points
+API.AddPointToGpsMultiRoute(1638.2155761719, -2344.685546875, 95.610511779785);
+API.AddPointToGpsMultiRoute(1653.0858154297, -2068.8654785156, 96.737915039063);
+API.AddPointToGpsMultiRoute(1451.9561767578, -2113.5344238281, 56.082130432129);
+API.AddPointToGpsMultiRoute(1540.6088867188, -2514.4519042969, 58.842422485352);
+API.AddPointToGpsMultiRoute(1638.2155761719, -2344.685546875, 95.610511779785);
+
+-- Set the route to render
+API.SetGpsMultiRouteRender(true);
+```
