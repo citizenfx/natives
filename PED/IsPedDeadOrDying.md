@@ -9,16 +9,12 @@ BOOL IS_PED_DEAD_OR_DYING(Ped ped, BOOL p1);
 ```
 
 ```
-Seems to consistently return true if the ped is dead.  
-p1 is always passed 1 in the scripts.  
-I suggest to remove "OR_DYING" part, because it does not detect dying phase.  
-That's what the devs call it, cry about it.  
-lol  
-that's a good meme right there.  
+Seems to consistently return true if the ped is dead, however, it does not detect the dying phase.
 ```
 
 ## Parameters
-* **ped**: 
-* **p1**: 
+* **ped**: the ped
+* **p1**: always passed 1 in the scripts
 
 ## Return value
+Whether the ped is dead.
