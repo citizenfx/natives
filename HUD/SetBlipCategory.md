@@ -25,6 +25,7 @@ Any other value behaves like `index = 1`, `index` wraps around after 255
 
 Blips with categories `7`, `10` or `11` will all show under the specific categories listing in the map legend, regardless of sprite or name.
 
+Category needs to be `7` in order for blip names to show on the expanded minimap when using [0x82CEDC33687E1F50](https://runtime.fivem.net/doc/natives/?_0x82CEDC33687E1F50).
 
 **Legend entries**
 
