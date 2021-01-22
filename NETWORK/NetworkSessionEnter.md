@@ -5,7 +5,7 @@ ns: NETWORK
 
 ```c
 // 0x330ED4D05491934F 0x543CD2BE
-Any NETWORK_SESSION_ENTER(Any p0, Any p1, Any p2, int maxPlayers, Any p4, Any p5);
+BOOL NETWORK_SESSION_ENTER(Any p0, Any p1, Any p2, int maxPlayers, Any p4, Any p5);
 ```
 
 ```
@@ -29,3 +29,4 @@ Global_1315318 = 0 or Global_1315323 = 9 or 12 or (Global_1312629 = 0 && Global_
 * **p5**: 
 
 ## Return value
+BOOL
