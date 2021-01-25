@@ -8,18 +8,34 @@ ns: VEHICLE
 Vehicle CREATE_VEHICLE(Hash modelHash, float x, float y, float z, float heading, BOOL isNetwork, BOOL netMissionEntity);
 ```
 
-
-```
-NativeDB Added Parameter 8: BOOL p7
-```
+Creates a vehicle at the specified coords
 
 ## Parameters
-* **modelHash**: 
-* **x**: 
-* **y**: 
-* **z**: 
-* **heading**: 
-* **isNetwork**: 
-* **netMissionEntity**: 
+* **modelHash**: The model hash of the vehicle you are trying to create.
+* **x**: The x coords of the vehicle.
+* **y**: The y coords of the vehicle.
+* **z**: The z coords of the vehicle.
+* **heading**: The heading of the vehicle.
+* **isNetwork**: Whether the vehicle is networked or not.
+* **netMissionEntity**: Whether the vehicle is mission entity or not.
 
 ## Return value
+The created vehicle.
+
+## Examples
+```lua
+local ModelHash = `adder` -- Use Compile-time hashes to get the hash of this model
+RequestModel(ModelHash) -- Request the model
+local i = 0
+while not HasModelLoaded(ModelHash) and i < 50 do -- Waits for the model to load with a check so it does not get stuck in an infinite loop
+  Citizen.Wait(10)
+  i = i + 1
+end
+if i >= 50 then -- if i got this far the model failed to load
+  print("Model failed to load")
+  return
+end
+local MyPed = PlayerPedId()
+local Vehicle = CreateVehicle(ModelHash, GetEntityCoords(MyPed), GetEntityHeading(MyPed), true, false) -- Spawns a networked vehicle on your current coords
+SetModelAsNoLongerNeeded(ModelHash) -- removes model from game memory as we no longer need it
+```
