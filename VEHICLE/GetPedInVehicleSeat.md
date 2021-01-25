@@ -34,7 +34,8 @@ A handle to a ped in the specified vehicle seat, or 0 if no such ped existed.
 
 ## Examples
 ```lua
-if GetPedInVehicleSeat(GetVehiclePedIsIn(PlayerPedId()), -1) == PlayerPedId() then -- Checks if the player ped is in the drivers seat of the vehicle they are in.
+-- Checks if the player ped is in the drivers seat of the vehicle they are in.
+if GetPedInVehicleSeat(GetVehiclePedIsIn(PlayerPedId()), -1) == PlayerPedId() then 
   print("The player is the driver of this vehicle.")
 else
   print("The player is not the driver of this vehicle.")
