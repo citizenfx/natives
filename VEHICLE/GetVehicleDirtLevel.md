@@ -8,7 +8,8 @@ ns: VEHICLE
 float GET_VEHICLE_DIRT_LEVEL(Vehicle vehicle);
 ```
 
-Gets the dirt level of the passed vehicle 0.0-15.0
+Gets the dirt level of the passed vehicle.
+A getter for [`SET_VEHICLE_DIRT_LEVEL`](#_0x79D3B596FE44EE8B).
 
 ## Parameters
 * **vehicle**: The vehicle to check.
