@@ -8,13 +8,14 @@ ns: VEHICLE
 void SET_VEHICLE_DIRT_LEVEL(Vehicle vehicle, float dirtLevel);
 ```
 
-```
-You can't use values greater than 15.0  
-You can see why here: pastebin.com/Wbn34fGD  
-Also, R* does (float)(rand() % 15) to get a random dirt level when generating a vehicle.  
-```
+Sets the dirt level of the passed vehicle 0.0-15.0
 
 ## Parameters
-* **vehicle**: 
-* **dirtLevel**: 
+* **vehicle**: The vehicle to set.
+* **dirtLevel**: A number between 0.0 and 15.0 representing the vehicles dirt level.
 
+## Examples
+```lua
+local Vehicle = GetVehiclePedIsUsing(PlayerPedId())
+SetVehicleDirtLevel(Vehicle, 0.0) -- set the vehicle dirt level to 0.0
+```
