@@ -8,7 +8,8 @@ ns: VEHICLE
 void SET_VEHICLE_DIRT_LEVEL(Vehicle vehicle, float dirtLevel);
 ```
 
-Sets the dirt level of the passed vehicle 0.0-15.0
+Sets the dirt level of the passed vehicle.
+A setter for [`GET_VEHICLE_DIRT_LEVEL`](#_0x8F17BC8BA08DA62B).
 
 ## Parameters
 * **vehicle**: The vehicle to set.
