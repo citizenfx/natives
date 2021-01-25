@@ -10,6 +10,8 @@ void SET_VEHICLE_DOOR_OPEN(Vehicle vehicle, int doorIndex, BOOL loose, BOOL open
 
 Sets the specified door index open on the passed vehicle.
 
+A setter for [`IS_VEHICLE_DOOR_FULLY_OPEN`](#_0x3E933CFF7B111C22).
+
 doorIndex:  
 0 = Front Left Door  
 1 = Front Right Door  
