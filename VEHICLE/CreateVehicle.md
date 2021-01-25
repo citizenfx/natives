@@ -25,15 +25,10 @@ The created vehicle.
 ## Examples
 ```lua
 local ModelHash = `adder` -- Use Compile-time hashes to get the hash of this model
+if not IsModelInCdimage(ModelHash) then return end
 RequestModel(ModelHash) -- Request the model
-local i = 0
-while not HasModelLoaded(ModelHash) and i < 50 do -- Waits for the model to load with a check so it does not get stuck in an infinite loop
+while not HasModelLoaded(ModelHash) do -- Waits for the model to load with a check so it does not get stuck in an infinite loop
   Citizen.Wait(10)
-  i = i + 1
-end
-if i >= 50 then -- if i got this far the model failed to load
-  print("Model failed to load")
-  return
 end
 local MyPed = PlayerPedId()
 local Vehicle = CreateVehicle(ModelHash, GetEntityCoords(MyPed), GetEntityHeading(MyPed), true, false) -- Spawns a networked vehicle on your current coords
