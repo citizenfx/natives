@@ -8,11 +8,18 @@ ns: VEHICLE
 float GET_VEHICLE_DIRT_LEVEL(Vehicle vehicle);
 ```
 
-```
-Dirt level 0..15  
-```
+Gets the dirt level of the passed vehicle 0.0-15.0
 
 ## Parameters
-* **vehicle**: 
+* **vehicle**: The vehicle to check.
 
 ## Return value
+A number between 0.0 and 15.0 representing the vehicles dirt level.
+
+## Examples
+```lua
+local Vehicle = GetVehiclePedIsUsing(PlayerPedId())
+if GetVehicleDirtLevel(Vehicle) > 0.0 then -- if the cars dirt level is more than 0.0 then clean it.
+  SetVehicleDirtLevel(Vehicle, 0.0) -- set the vehicle dirt level to 0.0
+end
+```
