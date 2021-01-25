@@ -31,3 +31,12 @@ One can use GET_VEHICLE_MAX_NUMBER_OF_PASSENGERS(vehicle) to get the amount of s
 
 ## Return value
 A handle to a ped in the specified vehicle seat, or 0 if no such ped existed.
+
+## Examples
+```lua
+if GetPedInVehicleSeat(GetVehiclePedIsIn(PlayerPedId()), -1) == PlayerPedId() then -- Checks if the player ped is in the drivers seat of the vehicle they are in.
+  print("The player is the driver of this vehicle.")
+else
+  print("The player is not the driver of this vehicle.")
+end
+```
