@@ -10,7 +10,8 @@ void ATTACH_VEHICLE_TO_TRAILER(Vehicle vehicle, Vehicle trailer, float radius);
 
 
 ## Parameters
-* **vehicle**: 
-* **trailer**: 
-* **radius**: 
+* **vehicle**: The car to which the trailer is getting attached to
+* **trailer**: The trailer which is getting attached
+* **radius**: Set this always to 1f
+
 
