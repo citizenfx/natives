@@ -16,7 +16,9 @@ void SET_VEHICLE_WHEEL_TYPE(Vehicle vehicle, int WheelType);
 4: Offroad  
 5: Tuner  
 6: Bike Wheels  
-7: High End  
+7: High End
+8: Bespoke Wheels
+9: Benny's Wheels
 ```
 
 ## Parameters
