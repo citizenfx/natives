@@ -20,7 +20,7 @@ Maximum: 1000.0
 300.0: Engine is smoking and losing functionality  
 1000.0: Engine is perfect
 
-It must be entered as a minority. If integer, the engine health is set to 0.0
+Health must be entered as a floating point. If a whole integer is passed, the engine health is set to 0.0
 ```
 
 ## Parameters
