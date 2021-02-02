@@ -5,17 +5,18 @@ ns: GRAPHICS
 
 ```c
 // 0xD77EDADB0420E6E0 0xF81E884A
-void FADE_DECALS_IN_RANGE(Any p0, Any p1, Any p2, Any p3, Any p4);
+void FADE_DECALS_IN_RANGE(float x, float y, float z, float radius, float duration);
 ```
 
 ```
-Fades nearby decals within the range specified  
+Fades nearby decals within the range specified. 
+Duration is in seconds.
 ```
 
 ## Parameters
-* **p0**: 
-* **p1**: 
-* **p2**: 
-* **p3**: 
-* **p4**: 
+* **x**: 
+* **y**: 
+* **z**: 
+* **radius**: 
+* **duration**: 
 
