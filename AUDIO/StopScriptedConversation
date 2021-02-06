@@ -9,11 +9,11 @@ int STOP_SCRIPTED_CONVERSATION(Bool stopNow);
 ```
 
 ```
-    Used for Stopping scripted conversations
+    Used for stopping scripted conversations
     
 ```
 
 ## Parameters
-* **stopNow**: The Bool controls weather the current conversation line should finish before stopping the conversation. 
+* **stopNow**: Bool controlling weather the current conversation line should finish before stopping the conversation. 
 ## Return value
-Returns the conversation line that the conversation was on when stopped.
+The conversation line that the conversation was on when stopped.
