@@ -9,8 +9,8 @@ int STOP_SCRIPTED_CONVERSATION(Bool stopNow);
 ```
 
 ```
-    The Bool controls weather the current conversation line should finish before stopping the conversation
-    Returns the conversation line that was stopped
+    The Bool controls weather the current conversation line should finish before stopping the conversation.
+    Returns the conversation line that the conversation was on when stopped.
 ```
 
 ## Parameters
