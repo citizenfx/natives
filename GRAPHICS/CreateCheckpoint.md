@@ -18,7 +18,7 @@ Parameters:
 * radius - The radius of the checkpoint.  
 * color - The color of the checkpoint.  
 * reserved - Special parameter, see below for details. Usually set to 0 in the scripts.  
-Checkpoint types:  
+Checkpoint types (prior to game build 2189):  
 0-4---------Cylinder: 1 arrow, 2 arrow, 3 arrows, CycleArrow, Checker  
 5-9---------Cylinder: 1 arrow, 2 arrow, 3 arrows, CycleArrow, Checker  
 10-14-------Ring: 1 arrow, 2 arrow, 3 arrows, CycleArrow, Checker  
@@ -44,6 +44,8 @@ If using type 42-44, reserved sets number / number and shape to display
 170-179-------Perforated ring (0-9)  
 180-189----------------Sphere (0-9)  
 ```
+
+[Checkpoint Types](https://docs.fivem.net/docs/game-references/checkpoints/) as of game build 2189
 
 ## Parameters
 * **type**: 
