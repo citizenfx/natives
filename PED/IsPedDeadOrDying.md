@@ -8,17 +8,15 @@ ns: PED
 BOOL IS_PED_DEAD_OR_DYING(Ped ped, BOOL p1);
 ```
 
+Returns true if the ped is dying, p1 seems to always be passed 1.
+
 ```
-Seems to consistently return true if the ped is dead.  
-p1 is always passed 1 in the scripts.  
 I suggest to remove "OR_DYING" part, because it does not detect dying phase.  
-That's what the devs call it, cry about it.  
-lol  
-that's a good meme right there.  
 ```
 
 ## Parameters
-* **ped**: 
+* **ped**: the ped to check
 * **p1**: 
 
 ## Return value
+Returns true if the player is dead, false otherwise.
