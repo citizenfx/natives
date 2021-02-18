@@ -1,15 +1,15 @@
 ---
 ns: CAM
-aliases: ["0xF4F2C0D4EE209E20"]
+aliases: ["0x9E4CFFF989258472"]
 ---
-## INVALIDATE_IDLE_CAM
+## _INVALIDATE_VEHICLE_IDLE_CAM
 
 ```c
-// 0xF4F2C0D4EE209E20 0xD75CDD75
-void INVALIDATE_IDLE_CAM();
+// 0x9E4CFFF989258472 0x65DDE8AF
+void _INVALIDATE_VEHICLE_IDLE_CAM();
 ```
 
-Resets the idle camera timer, calling this in a loop will disable it.
+Resets the vehicle idle camera timer, calling this in a loop will disable it.
 
 ## Examples
 ```lua
