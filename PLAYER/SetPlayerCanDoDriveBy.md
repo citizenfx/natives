@@ -8,12 +8,16 @@ ns: PLAYER
 void SET_PLAYER_CAN_DO_DRIVE_BY(Player player, BOOL toggle);
 ```
 
-```
-Set whether this player should be able to do drive-bys.  
-"A drive-by is when a ped is aiming/shooting from vehicle. This includes middle finger taunts. By setting this value to false I confirm the player is unable to do all that. Tested on tick."  
+Sets whether the player is able to do drive-bys in vehicle (shooting & aiming in vehicles), this also includes middle finger taunts.
+
+This is a toggle, it does not have to be ran every frame.
+
+Example:
+```lua
+SetPlayerCanDoDriveBy(PlayerId(), false)
 ```
 
 ## Parameters
-* **player**: 
-* **toggle**: 
+* **player**: The player to disable drive bys for.
+* **toggle**: Whether or not to disable.
 
