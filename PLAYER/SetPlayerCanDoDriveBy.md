@@ -18,6 +18,6 @@ SetPlayerCanDoDriveBy(PlayerId(), false)
 ```
 
 ## Parameters
-* **player**: The player to disable drive bys for.
-* **toggle**: Whether or not to disable.
+* **player**: The player to target.
+* **toggle**: If set to false, disables the players ability to do drive bys.
 
