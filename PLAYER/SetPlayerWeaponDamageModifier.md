@@ -9,6 +9,7 @@ void SET_PLAYER_WEAPON_DAMAGE_MODIFIER(Player player, float modifier);
 ```
 
 ```
+The multiplier var has to be 0.1 or more!
 This modifies the damage value of your weapon. Whether it is a multiplier or base damage is unknown.   
 Based on tests, it is unlikely to be a multiplier.  
 ```
