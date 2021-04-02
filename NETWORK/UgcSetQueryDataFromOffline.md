@@ -1,0 +1,14 @@
+---
+ns: NETWORK
+aliases: ["0xF98DDE0A8ED09323"]
+---
+## UGC_SET_QUERY_DATA_FROM_OFFLINE
+
+```c
+// 0xF98DDE0A8ED09323 0x213C6D36
+void UGC_SET_QUERY_DATA_FROM_OFFLINE(BOOL p0);
+```
+
+## Parameters
+* **p0**: 
+

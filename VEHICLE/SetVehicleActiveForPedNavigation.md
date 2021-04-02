@@ -1,0 +1,15 @@
+---
+ns: VEHICLE
+aliases: ["0x21115BCD6E44656A","_SET_VEHICLE_CLOSE_DOOR_DEFERED_ACTION"]
+---
+## SET_VEHICLE_ACTIVE_FOR_PED_NAVIGATION
+
+```c
+// 0x21115BCD6E44656A 0xEBC225C1
+void SET_VEHICLE_ACTIVE_FOR_PED_NAVIGATION(Vehicle vehicle, BOOL toggle);
+```
+
+## Parameters
+* **vehicle**: 
+* **toggle**: 
+
