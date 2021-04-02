@@ -10,10 +10,7 @@ void _REMOVE_STEALTH_KILL(Hash hash, BOOL p1);
 ```
 
 ```
-Appears to remove stealth kill action from memory.  
-------------------------------------  
-I agree with the above statement.  
-p1 is unknown, my best guess would be if false it marks the stealth kill for immediate deletion, or if true marks it for deletion later.  
+Appears to remove stealth kill action from memory
 ```
 
 ## Parameters

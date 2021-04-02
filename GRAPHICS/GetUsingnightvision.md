@@ -9,9 +9,4 @@ aliases: ["_IS_NIGHTVISION_INACTIVE","_IS_NIGHTVISION_ACTIVE"]
 BOOL GET_USINGNIGHTVISION();
 ```
 
-```
-Gets whether or not NIGHTVISION is Active.  
-Note:  When nightvision is actually active, this native will return TRUE!  
-```
-
 ## Return value

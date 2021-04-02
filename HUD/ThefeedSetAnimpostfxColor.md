@@ -9,10 +9,6 @@ aliases: ["0x17430B918701C342","_SET_NOTIFICATION_FLASH_COLOR"]
 void _THEFEED_SET_ANIMPOSTFX_COLOR(int red, int green, int blue, int alpha);
 ```
 
-```
-sets color for notification flash  
-```
-
 ## Parameters
 * **red**: 
 * **green**: 

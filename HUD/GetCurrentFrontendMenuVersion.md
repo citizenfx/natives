@@ -10,8 +10,7 @@ Hash GET_CURRENT_FRONTEND_MENU_VERSION();
 ```
 
 ```
-if (UI::_2309595AD6145265() == ${fe_menu_version_empty_no_background})  
-Seems to get the current frontend menu  
+if (HUD::GET_CURRENT_FRONTEND_MENU_VERSION() == joaat("fe_menu_version_empty_no_background"))
 ```
 
 ## Return value

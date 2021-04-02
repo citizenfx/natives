@@ -10,9 +10,7 @@ void _SET_VARIABLE_ON_CUTSCENE_AUDIO(char* variableName, float value);
 ```
 
 ```
-Called 5 times in the scripts. All occurrences found in b617d, sorted alphabetically and identical lines removed:   
-AUDIO::GET_PLAYER_HEADSET_SOUND_ALTERNATE("INOUT", 0.0);  
-AUDIO::GET_PLAYER_HEADSET_SOUND_ALTERNATE("INOUT", 1.0);  
+SET_VARIABLE_ON_*
 ```
 
 ## Parameters

@@ -8,11 +8,6 @@ ns: CAM
 int GET_CAM_SPLINE_NODE_INDEX(Cam cam);
 ```
 
-```
-I named the beginning from Any to BOOL as this native is used in an if statement as well.   
-Big surprise it returns an int.  
-```
-
 ## Parameters
 * **cam**: 
 

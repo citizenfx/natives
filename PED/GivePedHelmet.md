@@ -9,13 +9,13 @@ void GIVE_PED_HELMET(Ped ped, BOOL cannotRemove, int helmetFlag, int textureInde
 ```
 
 ```
-PoliceMotorcycleHelmet	1024	  
-RegularMotorcycleHelmet	4096	  
-FiremanHelmet	16384	  
-PilotHeadset	32768	  
-PilotHelmet	65536  
---  
-p2 is generally 4096 or 16384 in the scripts. p1 varies between 1 and 0.  
+PoliceMotorcycleHelmet   1024
+RegularMotorcycleHelmet   4096
+FiremanHelmet 16384
+PilotHeadset  32768
+PilotHelmet   65536
+--
+p2 is generally 4096 or 16384 in the scripts. p1 varies between 1 and 0.
 ```
 
 ## Parameters

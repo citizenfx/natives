@@ -6,14 +6,10 @@ aliases: ["0x3E802F11FBE27674"]
 
 ```c
 // 0x3E802F11FBE27674
-BOOL _IS_PED_LIPSTICK_COLOR_VALID_2(int colorID);
-```
-
-```
-Used in hairdo_shop*.ysc and maintransition.ysc
+BOOL _IS_PED_LIPSTICK_COLOR_VALID_2(int colorId);
 ```
 
 ## Parameters
-* **colorID**: 
+* **colorId**: 
 
 ## Return value

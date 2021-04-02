@@ -9,10 +9,6 @@ aliases: ["0x49EC8030F5015F8B","_NETWORK_SCTV_SLOTS"]
 void NETWORK_SESSION_SET_MATCHMAKING_GROUP(int matchmakingGroup);
 ```
 
-```
-p0 = 0 or 4  
-```
-
 ## Parameters
 * **matchmakingGroup**: 
 

@@ -10,8 +10,7 @@ int GET_VEHICLE_MODEL_NUMBER_OF_SEATS(Hash modelHash);
 ```
 
 ```
-Returns max number of passengers (including the driver) for the specified vehicle model.  
-For a full list, see here: pastebin.com/MdETCS1j  
+Returns max number of passengers (including the driver) for the specified vehicle model.
 ```
 
 ## Parameters

@@ -9,10 +9,6 @@ aliases: ["0xDC57A637A20006ED"]
 void ROPE_SET_UPDATE_ORDER(int ropeId, Any p1);
 ```
 
-```
-ROPE_*
-```
-
 ## Parameters
 * **ropeId**: 
 * **p1**: 

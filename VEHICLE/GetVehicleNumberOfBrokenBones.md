@@ -9,10 +9,6 @@ aliases: ["0x2C8CBFE1EA5FC631"]
 int _GET_VEHICLE_NUMBER_OF_BROKEN_BONES(Vehicle vehicle);
 ```
 
-```
-GET_VEHICLE_NUMBER_*
-```
-
 ## Parameters
 * **vehicle**: 
 

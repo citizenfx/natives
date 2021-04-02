@@ -9,13 +9,20 @@ void SET_PLAYER_CONTROL(Player player, BOOL bHasControl, int flags);
 ```
 
 ```
-Flags used in the scripts: 0,4,16,24,32,56,60,64,128,134,256,260,384,512,640,768,896,900,952,1024,1280,2048,2560  
-Note to people who needs this with camera mods, etc.:   
-Flags(0, 4, 16, 24, 32, 56, 60, 64, 128, 134, 512, 640, 1024, 2048, 2560)  
-- Disables camera rotation as well.  
-Flags(256, 260, 384, 768, 896, 900, 952, 1280)  
-
-cameraRotation = flags & (1 << 8)
+Flags:
+SPC_AMBIENT_SCRIPT = (1 << 1),
+SPC_CLEAR_TASKS = (1 << 2),
+SPC_REMOVE_FIRES = (1 << 3),
+SPC_REMOVE_EXPLOSIONS = (1 << 4),
+SPC_REMOVE_PROJECTILES = (1 << 5),
+SPC_DEACTIVATE_GADGETS = (1 << 6),
+SPC_REENABLE_CONTROL_ON_DEATH = (1 << 7),
+SPC_LEAVE_CAMERA_CONTROL_ON = (1 << 8),
+SPC_ALLOW_PLAYER_DAMAGE = (1 << 9),
+SPC_DONT_STOP_OTHER_CARS_AROUND_PLAYER = (1 << 10),
+SPC_PREVENT_EVERYBODY_BACKOFF = (1 << 11),
+SPC_ALLOW_PAD_SHAKE = (1 << 12)
+See: https://alloc8or.re/gta5/doc/enums/eSetPlayerControlFlag.txt
 ```
 
 ## Parameters

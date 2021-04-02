@@ -9,12 +9,12 @@ void TASK_BOAT_MISSION(Ped pedDriver, Vehicle boat, Any p2, Any p3, float x, flo
 ```
 
 ```
-You need to call PED::SET_BLOCKING_OF_NON_TEMPORARY_EVENTS after TASK_BOAT_MISSION in order for the task to execute.  
-Working example  
-float vehicleMaxSpeed = VEHICLE::_GET_VEHICLE_MAX_SPEED(ENTITY::GET_ENTITY_MODEL(pedVehicle));  
-AI::TASK_BOAT_MISSION(pedDriver, pedVehicle, 0, 0, waypointCoord.x, waypointCoord.y, waypointCoord.z, 4, vehicleMaxSpeed, 786469, -1.0, 7);  
-PED::SET_BLOCKING_OF_NON_TEMPORARY_EVENTS(pedDriver, 1);  
-P8 appears to be driving style flag - see gtaforums.com/topic/822314-guide-driving-styles/ for documentation  
+You need to call PED::SET_BLOCKING_OF_NON_TEMPORARY_EVENTS after TASK_BOAT_MISSION in order for the task to execute.
+Working example
+float vehicleMaxSpeed = VEHICLE::_GET_VEHICLE_MAX_SPEED(ENTITY::GET_ENTITY_MODEL(pedVehicle));
+TASK::TASK_BOAT_MISSION(pedDriver, pedVehicle, 0, 0, waypointCoord.x, waypointCoord.y, waypointCoord.z, 4, vehicleMaxSpeed, 786469, -1.0, 7);
+PED::SET_BLOCKING_OF_NON_TEMPORARY_EVENTS(pedDriver, 1);
+P8 appears to be driving style flag - see gtaforums.com/topic/822314-guide-driving-styles/ for documentation
 ```
 
 ## Parameters

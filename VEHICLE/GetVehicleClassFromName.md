@@ -9,10 +9,10 @@ int GET_VEHICLE_CLASS_FROM_NAME(Hash modelHash);
 ```
 
 ```
-For a full enum, see here : pastebin.com/i2GGAjY0  
-char buffer[128];  
-std::sprintf(buffer, "VEH_CLASS_%i", VEHICLE::GET_VEHICLE_CLASS_FROM_NAME (hash));  
-char* className = UI::_GET_LABEL_TEXT(buffer);  
+For a full enum, see here : pastebin.com/i2GGAjY0
+char buffer[128];
+std::sprintf(buffer, "VEH_CLASS_%i", VEHICLE::GET_VEHICLE_CLASS_FROM_NAME (hash));
+const char* className = HUD::_GET_LABEL_TEXT(buffer);
 ```
 
 ## Parameters

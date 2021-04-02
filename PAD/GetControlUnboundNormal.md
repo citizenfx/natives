@@ -10,8 +10,8 @@ float GET_CONTROL_UNBOUND_NORMAL(int padIndex, int control);
 ```
 
 ```
-Seems to return values between -1 and 1 for controls like gas and steering.  
-0, 1 and 2 used in the scripts. 0 is by far the most common of them.  
+Seems to return values between -1 and 1 for controls like gas and steering.
+padIndex: 0 (PLAYER_CONTROL), 1 (unk) and 2 (unk) used in the scripts.
 ```
 
 ## Parameters

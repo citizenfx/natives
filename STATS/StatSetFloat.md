@@ -8,6 +8,10 @@ ns: STATS
 BOOL STAT_SET_FLOAT(Hash statName, float value, BOOL save);
 ```
 
+```
+Example:
+ STATS::STAT_SET_FLOAT(MISC::GET_HASH_KEY("MP0_WEAPON_ACCURACY"), 66.6f, true);
+```
 
 ## Parameters
 * **statName**: 

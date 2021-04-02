@@ -9,7 +9,7 @@ void START_CUTSCENE(int flags);
 ```
 
 ```
-some kind of flag. Usually 0.  
+flags: Usually 0.
 ```
 
 ## Parameters

@@ -8,10 +8,6 @@ ns: GRAPHICS
 void _DRAW_SPOT_LIGHT_WITH_SHADOW(float posX, float posY, float posZ, float dirX, float dirY, float dirZ, int colorR, int colorG, int colorB, float distance, float brightness, float roundness, float radius, float falloff, int shadowId);
 ```
 
-```
-shadowId: each call to this native in the same tick should have a different value passed to this parameter, if two or more calls have the same values, only the first one will render its shadow properly  
-```
-
 ## Parameters
 * **posX**: 
 * **posY**: 

@@ -8,10 +8,6 @@ ns: VEHICLE
 void SET_VEHICLE_TIMED_EXPLOSION(Vehicle vehicle, Ped ped, BOOL toggle);
 ```
 
-```
-VEHICLE::SET_VEHICLE_TIMED_EXPLOSION(v_3, PLAYER::GET_PLAYER_PED(v_5), 1);  
-```
-
 ## Parameters
 * **vehicle**: 
 * **ped**: 

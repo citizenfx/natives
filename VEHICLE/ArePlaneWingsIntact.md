@@ -9,10 +9,6 @@ aliases: ["0x5991A01434CE9677","ADD_A_MARKER_OVER_VEHICLE","_ARE_VEHICLE_WINGS_I
 BOOL _ARE_PLANE_WINGS_INTACT(Vehicle plane);
 ```
 
-```
-Can be used for planes only!  
-```
-
 ## Parameters
 * **plane**: 
 

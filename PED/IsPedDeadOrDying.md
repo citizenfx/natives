@@ -8,7 +8,11 @@ ns: PED
 BOOL IS_PED_DEAD_OR_DYING(Ped ped, BOOL p1);
 ```
 
-Returns true if the ped is dying or dead. Some users report this function does _not_ detect the dying phase, and only the dead phase.
+Seems to consistently return true if the ped is dead.
+p1 is always passed 1 in the scripts.
+I suggest to remove "OR_DYING" part, because it does not detect dying phase.
+That's what the devs call it, cry about it.
+lol
 
 ## Parameters
 * **ped**: The ped to check

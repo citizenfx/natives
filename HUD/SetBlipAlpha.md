@@ -9,11 +9,11 @@ void SET_BLIP_ALPHA(Blip blip, int alpha);
 ```
 
 ```
-Sets alpha-channel for blip color.  
-Example:  
-Blip blip = UI::ADD_BLIP_FOR_ENTITY(entity);  
-UI::SET_BLIP_COLOUR(blip , 3);  
-UI::SET_BLIP_ALPHA(blip , 64);  
+Sets alpha-channel for blip color.
+Example:
+Blip blip = HUD::ADD_BLIP_FOR_ENTITY(entity);
+HUD::SET_BLIP_COLOUR(blip , 3);
+HUD::SET_BLIP_ALPHA(blip , 64);
 ```
 
 ## Parameters

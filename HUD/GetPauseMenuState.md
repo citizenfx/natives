@@ -9,14 +9,15 @@ int GET_PAUSE_MENU_STATE();
 ```
 
 ```
-Returns:  
-5  
-10  
-15  
-20  
-25  
-30  
-35  
+Returns:
+0
+5
+10
+15
+20
+25
+30
+35
 ```
 
 ## Return value

@@ -1,7 +1,6 @@
 ---
 ns: ENTITY
 ---
-
 ## GET_ENTITY_ROTATION
 
 ```c
@@ -19,16 +18,16 @@ www.allstar.fiu.edu/aero/images/pic5-1.gif
 ```
 
 ### Rotation Orders
-**0**: ZYX - Rotate around the z-axis, then the y-axis and finally the x-axis.
-**1**: YZX - Rotate around the y-axis, then the z-axis and finally the x-axis.
-**2**: ZXY - Rotate around the z-axis, then the x-axis and finally the y-axis.
-**3**: XZY - Rotate around the x-axis, then the z-axis and finally the y-axis.
-**4**: YXZ - Rotate around the y-axis, then the x-axis and finally the z-axis.
-**5**: XYZ - Rotate around the x-axis, then the y-axis and finally the z-axis.
+* **0**: ZYX - Rotate around the z-axis, then the y-axis and finally the x-axis.
+* **1**: YZX - Rotate around the y-axis, then the z-axis and finally the x-axis.
+* **2**: ZXY - Rotate around the z-axis, then the x-axis and finally the y-axis.
+* **3**: XZY - Rotate around the x-axis, then the z-axis and finally the y-axis.
+* **4**: YXZ - Rotate around the y-axis, then the x-axis and finally the z-axis.
+* **5**: XYZ - Rotate around the x-axis, then the y-axis and finally the z-axis.
 
 ## Parameters
-- **entity**: The entity to get the rotation for.
-- **rotationOrder**: The order yaw, pitch and roll is applied. Usually 2.
+* **entity**: The entity to get the rotation for.
+* **rotationOrder**: The order yaw, pitch and roll is applied. Usually 2.
 
 ## Return value
 

@@ -10,19 +10,19 @@ int GET_CURRENT_LANGUAGE();
 ```
 
 ```
-american = 0  
-french = 1   
-german = 2  
-italian =3  
-spanish = 4  
-portuguese = 5  
-polish = 6  
-russian = 7  
-korean = 8  
-chinesetraditional = 9  
-japanese = 10  
-mexican = 11  
-chinesesimplified = 12
+0 = american (en-US)
+1 = french (fr-FR)
+2 = german (de-DE)
+3 = italian (it-IT)
+4 = spanish (es-ES)
+5 = brazilian (pt-BR)
+6 = polish (pl-PL)
+7 = russian (ru-RU)
+8 = korean (ko-KR)
+9 = chinesetrad (zh-TW)
+10 = japanese (ja-JP)
+11 = mexican (es-MX)
+12 = chinesesimp (zh-CN)
 ```
 
 ## Return value

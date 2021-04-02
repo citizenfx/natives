@@ -5,9 +5,14 @@ ns: STREAMING
 
 ```c
 // 0x212A8D0D2BABFAC2 0xDF9C38B6
-BOOL NEW_LOAD_SCENE_START(float posX, float posY, float posZ, float offsetX, float offsetY, float offsetZ, float radius, integer p7);
+BOOL NEW_LOAD_SCENE_START(float posX, float posY, float posZ, float offsetX, float offsetY, float offsetZ, float radius, int p7);
 ```
 
+```
+`radius` value is usually between `3f` and `7000f` in original 1868 scripts.
+`p7` is 0, 1, 2, 3 or 4 used in decompiled scripts, 0 is by far the most common.
+Returns True if success, used only 7 times in decompiled scripts of 1868
+```
 
 ## Parameters
 * **posX**: World `x` coordinate.

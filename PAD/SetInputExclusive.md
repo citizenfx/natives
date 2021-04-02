@@ -9,7 +9,7 @@ void SET_INPUT_EXCLUSIVE(int padIndex, int control);
 ```
 
 ```
-inputGroup: 0 (PLAYER_CONTROL), 1 (unk) and 2 (unk) used in the scripts.
+padIndex: 0 (PLAYER_CONTROL), 1 (unk) and 2 (unk) used in the scripts.
 ```
 
 ## Parameters

@@ -9,10 +9,6 @@ aliases: ["0x500873A45724C863"]
 void _DISABLE_PLANE_PROPELLER(Vehicle vehicle, int propeller);
 ```
 
-```
-Disables propeller animation. Used in pilot_school_mp for the Titan's timed engine detonation.
-```
-
 ## Parameters
 * **vehicle**: 
 * **propeller**: 

@@ -9,9 +9,6 @@ aliases: ["_START_PARTICLE_FX_NON_LOOPED_ON_ENTITY_2"]
 BOOL START_NETWORKED_PARTICLE_FX_NON_LOOPED_ON_ENTITY(char* effectName, Entity entity, float offsetX, float offsetY, float offsetZ, float rotX, float rotY, float rotZ, float scale, BOOL axisX, BOOL axisY, BOOL axisZ);
 ```
 
-```
-network fx  
-```
 
 ## Parameters
 * **effectName**: 

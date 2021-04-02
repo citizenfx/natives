@@ -10,10 +10,7 @@ void SET_AUDIO_SPECIAL_EFFECT_MODE(int mode);
 ```
 
 Needs to be called every frame.
-
-Modes:
-1: Applies some effect to collisions (for instance when crashing into stuff with a car or punching something), sounds kind of like underwater. Also mutes vehicle radio.
-2: Adds an echo to every sound effect, used by game scripts when you are drunk. Also mutes vehicle radio.
+Audio mode to apply this frame: https://alloc8or.re/gta5/doc/enums/audSpecialEffectMode.txt
 
 ## Parameters
 * **mode**: Audio mode to apply this frame

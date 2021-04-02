@@ -5,13 +5,14 @@ ns: PAD
 
 ```c
 // 0xF3A21BCD95725A4A 0x517A4384
-BOOL IS_CONTROL_PRESSED(int inputGroup, int control);
+BOOL IS_CONTROL_PRESSED(int padIndex, int control);
 ```
 
-Returns whether a [control](https://docs.fivem.net/game-references/controls/) is currently pressed.
+Returns whether a control is currently pressed.
+padIndex: 0 (PLAYER_CONTROL), 1 (unk) and 2 (unk) used in the scripts.
 
 ## Parameters
-* **inputGroup**: The control system instance to use. Usually set to 0.
+* **padIndex**: The control system instance to use. Usually set to 0.
 * **control**: The control ID to check.
 
 ## Return value

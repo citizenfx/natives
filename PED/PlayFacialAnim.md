@@ -8,12 +8,6 @@ ns: PED
 void PLAY_FACIAL_ANIM(Ped ped, char* animName, char* animDict);
 ```
 
-```
-Look at facials@gen_male@base and facials@gen_female@base for some common facial animations.   
-!!!NOTE!!!  
-Unlike most animation natives, the animation comes BEFORE the animation dictionary here. So you could call e.g.   
-PLAY_FACIAL_ANIM(ped, "dead_1", "facials@gen_male@base")  
-```
 
 ## Parameters
 * **ped**: 

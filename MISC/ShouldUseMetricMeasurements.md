@@ -9,8 +9,7 @@ aliases: ["0xD3D15555431AB793", "_IS_GAME_USING_METRIC_MEASUREMENT_SYSTEM"]
 BOOL SHOULD_USE_METRIC_MEASUREMENTS();
 ```
 
-Returns true if the game is using the metric measurement system, false if imperial is used.
-This is what r* uses for the different label types (either ones with miles in them or with km, as well as some other measurement related labels).
+Returns true if the game is using the metric measurement system (profile setting 227), false if imperial is used.
 
 ## Return value
 Returns true if the game is using the metric measurement system, false if imperial is used.

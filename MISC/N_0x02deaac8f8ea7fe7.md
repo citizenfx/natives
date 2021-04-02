@@ -9,8 +9,8 @@ void _0x02DEAAC8F8EA7FE7(char* p0);
 ```
 
 ```
-Found in the scripts:  
-GAMEPLAY::_02DEAAC8F8EA7FE7("");  
+Found in the scripts:
+MISC::_02DEAAC8F8EA7FE7("");
 ```
 
 ## Parameters

@@ -9,7 +9,7 @@ aliases: ["0xE44A982368A4AF23"]
 void COPY_VEHICLE_DAMAGES(Vehicle sourceVehicle, Vehicle targetVehicle);
 ```
 
-Copy the damage like broken bumpers and broken lights from a vehicle and paste them on another vehicle.
+Copies sourceVehicle's damage (broken bumpers, broken lights, etc.) to targetVehicle.
 
 ## Parameters
 * **sourceVehicle**: The source to copy the vehicle damage.

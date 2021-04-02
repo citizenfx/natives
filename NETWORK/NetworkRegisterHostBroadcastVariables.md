@@ -8,10 +8,6 @@ ns: NETWORK
 void NETWORK_REGISTER_HOST_BROADCAST_VARIABLES(int* vars, int numVars);
 ```
 
-```
-sizeofVars is in bytes  
-```
-
 ## Parameters
 * **vars**: 
 * **numVars**: 

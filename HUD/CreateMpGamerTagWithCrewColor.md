@@ -9,6 +9,9 @@ aliases: ["0x6DD05E9D83EFA4C9","_CREATE_MP_GAMER_TAG_COLOR","_SET_MP_GAMER_TAG_C
 void CREATE_MP_GAMER_TAG_WITH_CREW_COLOR(Player player, char* username, BOOL pointedClanTag, BOOL isRockstarClan, char* clanTag, int clanFlag, int r, int g, int b);
 ```
 
+```
+clanFlag: takes a number 0-5
+```
 
 ## Parameters
 * **player**: the headDisplayId for the net players is the same as the local id of the ped

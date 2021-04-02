@@ -9,10 +9,6 @@ aliases: ["0x5C707A667DF8B9FA"]
 void NETWORK_SET_CHOICE_MIGRATE_OPTIONS(BOOL toggle, Player player);
 ```
 
-```
-NETWORK_SET_*
-```
-
 ## Parameters
 * **toggle**: 
 * **player**: 

@@ -8,11 +8,6 @@ ns: HUD
 void SET_MISSION_NAME(BOOL p0, char* name);
 ```
 
-```
-Takes a text label, gets the string (must not be longer than 600 chars, should not exceed 64 chars) and sets the name to that string.  
-p0 must be true.  
-```
-
 ## Parameters
 * **p0**: 
 * **name**: 

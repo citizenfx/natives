@@ -10,8 +10,8 @@ void TASK_MOVE_NETWORK_ADVANCED_BY_NAME(Ped ped, char* p1, float p2, float p3, f
 ```
 
 ```
-Example:  
-AI::_D5B35BEA41919ACB(PLAYER::PLAYER_PED_ID(), "minigame_tattoo_michael_parts", 324.13, 181.29, 102.6, 0.0, 0.0, 22.32, 2, 0, 0, 0, 0);  
+Example:
+TASK::TASK_MOVE_NETWORK_ADVANCED_BY_NAME(PLAYER::PLAYER_PED_ID(), "minigame_tattoo_michael_parts", 324.13f, 181.29f, 102.6f, 0.0f, 0.0f, 22.32f, 2, 0, false, 0, 0);
 ```
 
 ## Parameters

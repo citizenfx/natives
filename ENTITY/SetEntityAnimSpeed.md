@@ -8,7 +8,6 @@ ns: ENTITY
 void SET_ENTITY_ANIM_SPEED(Entity entity, char* animDictionary, char* animName, float speedMultiplier);
 ```
 
-[Animations list](https://alexguirre.github.io/animations-list/)
 
 ## Parameters
 * **entity**: 

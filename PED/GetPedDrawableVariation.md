@@ -9,18 +9,19 @@ int GET_PED_DRAWABLE_VARIATION(Ped ped, int componentId);
 ```
 
 ```
-Ids  
-1   
-2   
-3   
-4   
-5   
-6   
-7 - ------  
-8 - Accessories 1  
-9 - Accessories 2  
-10  
-11 - Auxiliary parts for torso  
+Ids
+0 - Head
+1 - Beard
+2 - Hair
+3 - Torso
+4 - Legs
+5 - Hands
+6 - Foot
+7 - ------
+8 - Accessories 1
+9 - Accessories 2
+10- Decals
+11 - Auxiliary parts for torso
 ```
 
 ## Parameters

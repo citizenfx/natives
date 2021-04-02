@@ -6,15 +6,17 @@ aliases: ["0x613ED644950626AE"]
 
 ```c
 // 0x613ED644950626AE 0x7E3AA40A
-void SET_MP_GAMER_TAG_COLOUR(int gamerTagId, int flag, int color);
+void SET_MP_GAMER_TAG_COLOUR(int gamerTagId, int component, int hudColorIndex);
 ```
 
 ```
-Ranges from 0 to 255. 0 is grey health bar, ~50 yellow, 200 purple.  
+Sets a gamer tag's component colour
+gamerTagId is obtained using for example CREATE_FAKE_MP_GAMER_TAG
+Ranges from 0 to 255. 0 is grey health bar, ~50 yellow, 200 purple.
 ```
 
 ## Parameters
 * **gamerTagId**: 
-* **flag**: 
-* **color**: 
+* **component**: 
+* **hudColorIndex**: 
 

@@ -9,8 +9,7 @@ float GET_VEHICLE_MODEL_ACCELERATION(Hash modelHash);
 ```
 
 ```
-Returns the acceleration of the specified model.  
-For a full list, see here: pastebin.com/GaN6vT4R  
+Returns the acceleration of the specified model.
 ```
 
 ## Parameters

@@ -9,7 +9,7 @@ BOOL GET_VEHICLE_MOD_VARIATION(Vehicle vehicle, int modType);
 ```
 
 ```
-Returns true if the wheels are custom wheels  
+Only used for wheels(ModType = 23/24) Returns true if the wheels are custom wheels
 ```
 
 ## Parameters

@@ -9,10 +9,6 @@ aliases: ["0x7A73D05A607734C7","_SET_PED_MUTE"]
 void STOP_CURRENT_PLAYING_SPEECH(Ped ped);
 ```
 
-```
-Stops speech.  
-```
-
 ## Parameters
 * **ped**: 
 

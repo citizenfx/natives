@@ -9,12 +9,6 @@ aliases: ["_GET_VEHICLE_OWNER"]
 BOOL GET_VEHICLE_LOCK_ON_TARGET(Vehicle vehicle, Entity* entity);
 ```
 
-```
-The resulting entity can be a Vehicle or Ped.  
-=========================  
-on a side note watching changes in memory this will only store your ped's entityPoolAddress if it's your personal vehicle. So seems to be related to personal vehicles or atleast a specific decor of it maybe.  
-```
-
 ## Parameters
 * **vehicle**: 
 * **entity**: 

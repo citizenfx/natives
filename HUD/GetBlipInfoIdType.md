@@ -9,14 +9,14 @@ int GET_BLIP_INFO_ID_TYPE(Blip blip);
 ```
 
 ```
-Returns a value based on what the blip is attached to  
-1   
-2   
-3   
-4   
-5   
-6   
-7  
+Returns a value based on what the blip is attached to
+1 - Vehicle
+2 - Ped
+3 - Object
+4 - Coord
+5 - unk
+6 - Pickup
+7 - Radius
 ```
 
 ## Parameters

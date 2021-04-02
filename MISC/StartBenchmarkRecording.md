@@ -10,8 +10,6 @@ void _START_BENCHMARK_RECORDING();
 ```
 
 ```
-I can 100% confirm this is some kind of START_* native.  
-Next character in the name is either C, D or E.  
-Used only once in the scripts (benchmark.ysc).  
+Begins with START_*. Next character in the name is either D or E.
 ```
 

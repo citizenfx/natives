@@ -10,8 +10,8 @@ void UNLOAD_CLOUD_HAT(char* name, float p1);
 ```
 
 ```
-Called 4 times in the b617d scripts:  
-GAMEPLAY::_A74802FB8D0B7814("CONTRAILS", 0);  
+Called 4 times in the b617d scripts:
+MISC::_A74802FB8D0B7814("CONTRAILS", 0);
 ```
 
 ## Parameters

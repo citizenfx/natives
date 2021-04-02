@@ -9,8 +9,7 @@ BOOL WAYPOINT_RECORDING_GET_CLOSEST_WAYPOINT(char* name, float x, float y, float
 ```
 
 ```
-For a full list, see here: pastebin.com/Tp0XpBMN  
-For a full list of the points, see here: goo.gl/wIH0vn  
+For a full list of the points, see here: goo.gl/wIH0vn
 ```
 
 ## Parameters

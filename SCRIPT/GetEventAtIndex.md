@@ -9,7 +9,7 @@ int GET_EVENT_AT_INDEX(int eventGroup, int eventIndex);
 ```
 
 ```
-eventGroup: 0 = CEventGroupScriptAI, 1 = CEventGroupScriptNetwork  
+eventGroup: 0 = SCRIPT_EVENT_QUEUE_AI (CEventGroupScriptAI), 1 = SCRIPT_EVENT_QUEUE_NETWORK (CEventGroupScriptNetwork)
 ```
 
 ## Parameters

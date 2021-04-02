@@ -8,5 +8,8 @@ ns: PAD
 int GET_LOCAL_PLAYER_AIM_STATE();
 ```
 
+```
+Returns the local player's targeting mode. See PLAYER::SET_PLAYER_TARGETING_MODE.
+```
 
 ## Return value

@@ -9,17 +9,8 @@ BOOL STAT_SET_INT(Hash statName, int value, BOOL save);
 ```
 
 ```
-Add Cash example:  
-for (int i = 0; i < 3; i++)  
-{  
-char statNameFull[32];  
-sprintf_s(statNameFull, "SP%d_TOTAL_CASH", i);  
-Hash hash = GAMEPLAY::GET_HASH_KEY(statNameFull);  
-int val;  
-STATS::STAT_GET_INT(hash, &val, -1);  
-val += 1000000;  
-STATS::STAT_SET_INT(hash, val, 1);  
-}  
+Example:
+ STATS::STAT_SET_INT(MISC::GET_HASH_KEY("MPPLY_KILLS_PLAYERS"), 1337, true);
 ```
 
 ## Parameters

@@ -8,10 +8,6 @@ ns: MISC
 float TAN(float p0);
 ```
 
-```
-Returns tangent value of p0.  
-```
-
 ## Parameters
 * **p0**: 
 

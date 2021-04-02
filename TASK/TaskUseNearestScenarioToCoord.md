@@ -9,8 +9,8 @@ void TASK_USE_NEAREST_SCENARIO_TO_COORD(Ped ped, float x, float y, float z, floa
 ```
 
 ```
-Updated variables  
-An alternative to AI::TASK_USE_NEAREST_SCENARIO_TO_COORD_WARP. Makes the ped walk to the scenario instead.  
+Updated variables
+An alternative to TASK::TASK_USE_NEAREST_SCENARIO_TO_COORD_WARP. Makes the ped walk to the scenario instead.
 ```
 
 ## Parameters
