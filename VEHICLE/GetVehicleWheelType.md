@@ -18,7 +18,11 @@ Wheel Types:
 4: Offroad  
 5: Tuner  
 6: Bike Wheels  
-7: High End  
+7: High End
+8: Benny's Original
+9: Benny's Bespoke
+10: Open Wheel
+11: Street
 Tested in Los Santos Customs  
 ```
 
