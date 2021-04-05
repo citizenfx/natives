@@ -1,5 +1,5 @@
 ---
-ns: BRAIN
+ns: TASK
 ---
 ## _TASK_SUBMARINE_GOTO_AND_STOP
 
