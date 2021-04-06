@@ -8,7 +8,7 @@ ns: NETWORK
 void SET_ENTITY_LOCALLY_INVISIBLE(Entity entity);
 ```
 
-Makes the provided entity visible for yourself for the current frame.
+Sets the provided entity not visible for yourself but visible to others, for the current frame.
 
 ## Parameters
 * **entity**: 
