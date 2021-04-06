@@ -8,10 +8,17 @@ ns: CAM
 void POINT_CAM_AT_COORD(Cam cam, float x, float y, float z);
 ```
 
+Point a given camera to specific coords.
 
 ## Parameters
-* **cam**: 
+* **cam**:
 * **x**: 
 * **y**: 
 * **z**: 
 
+## Examples
+```lua
+local coords = vector3(402.99, -998.02, -99.00)
+local cam = CreateCamWithParams("DEFAULT_SCRIPTED_CAMERA", coords.x, coords.y, coords.z, 0.00, 0.00, 0.00, 50.00, false, 0)
+PointCamAtCoord(cam, coords.x, coords.y, coords.z)
+```
