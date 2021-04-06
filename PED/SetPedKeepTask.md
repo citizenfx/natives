@@ -7,9 +7,14 @@ ns: PED
 // 0x971D38760FBC02EF 0xA7EC79CE
 void SET_PED_KEEP_TASK(Ped ped, BOOL toggle);
 ```
-
+Keep the task of a given ped
 
 ## Parameters
-* **ped**: 
-* **toggle**: 
+* **ped**: The given ped
+* **toggle**: Whether or not the ped will keep his task
 
+## Examples
+```lua
+local ped = CreatePed("PED_TYPE_CIVMALE", "cs_solomon", -1027.192, -2730.865, 12.75, 110.0, false, true)
+SetPedKeepTask(ped, true)
+```
