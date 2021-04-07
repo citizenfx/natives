@@ -15,6 +15,12 @@ Keep the task of a given ped
 
 ## Examples
 ```lua
+local hash = GetHashKey("cs_solomon")
+while not HasModelLoaded(hash) do
+    RequestModel(hash)
+    Wait(20)
+end
+
 local ped = CreatePed("PED_TYPE_CIVMALE", "cs_solomon", -1027.192, -2730.865, 12.75, 110.0, false, true)
 SetPedKeepTask(ped, true)
 ```
