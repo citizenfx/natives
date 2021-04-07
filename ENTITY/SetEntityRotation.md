@@ -11,7 +11,7 @@ void SET_ENTITY_ROTATION(Entity entity, float pitch, float roll, float yaw, int 
 ```
 rotationOrder refers to the order yaw pitch roll is applied, see [GET_ENTITY_ROTATION](#_0xAFBD61CC738D9EB9)
 
-p5 is usually set as true
+p5 is the option to invert the axes! 
 ```
 
 ## Parameters
