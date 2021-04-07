@@ -8,13 +8,11 @@ ns: VEHICLE
 void GET_VEHICLE_COLOR(Vehicle vehicle, int* r, int* g, int* b);
 ```
 
-```
-What's this for? Primary and Secondary RGB have their own natives and this one doesn't seem specific.  
-```
+This is used to get the RGB color of the vehicle.
+Can be used in conjunction with SetVehicleCustomPrimaryColour and SetVehicleCustomSecondaryColour
 
 ## Parameters
-* **vehicle**: 
-* **r**: 
-* **g**: 
-* **b**: 
-
+* **vehicle**: The target vehicle
+* **r**: Red value
+* **g**: Green value
+* **b**: Blue value
