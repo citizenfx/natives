@@ -21,6 +21,6 @@ while not HasModelLoaded(hash) do
     Wait(20)
 end
 
-local ped = CreatePed("PED_TYPE_CIVMALE", "cs_solomon", -1027.192, -2730.865, 12.75, 110.0, false, true)
+local ped = CreatePed(4, hash, -1027.192, -2730.865, 12.75, 110.0, false, true)
 SetPedKeepTask(ped, true)
 ```
