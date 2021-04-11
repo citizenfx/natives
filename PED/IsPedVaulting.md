@@ -8,10 +8,6 @@ ns: PED
 BOOL IS_PED_VAULTING(Ped ped);
 ```
 
-```
-Definition of vaulting?  
-```
-
 ## Parameters
 * **ped**: 
 

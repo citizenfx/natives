@@ -10,10 +10,8 @@ float GET_VEHICLE_ENVEFF_SCALE(Vehicle vehicle);
 ```
 
 ```
-formerly known as _GET_VEHICLE_PAINT_FADE  
-The result is a value from 0-1, where 0 is fresh paint.  
------------------------------------------------------------------------  
-The actual value isn't stored as a float but as an unsigned char (BYTE).  
+formerly known as _GET_VEHICLE_PAINT_FADE
+The result is a value from 0-1, where 0 is fresh paint.
 ```
 
 ## Parameters

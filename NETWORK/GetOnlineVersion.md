@@ -10,12 +10,11 @@ char* _GET_ONLINE_VERSION();
 ```
 
 ```
-Online version is defined here: update\update.rpf\common\data\version.txt  
-Example:  
-[ONLINE_VERSION_NUMBER]  
-1.33  
-_GET_ONLINE_VERSION() will return "1.33"  
-Belongs in NETWORK  
+Online version is defined here: update\update.rpf\common\data\version.txt
+Example:
+[ONLINE_VERSION_NUMBER]
+1.33
+_GET_ONLINE_VERSION() will return "1.33"
 ```
 
 ## Return value

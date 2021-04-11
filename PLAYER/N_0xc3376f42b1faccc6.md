@@ -10,8 +10,7 @@ void _0xC3376F42B1FACCC6(Player player);
 ```
 
 ```
-- This is called after SET_ALL_RANDOM_PEDS_FLEE_THIS_FRAME  
-0xc3376f42b1faccc6, 0xd5d0d2853191399c, // set_areas_generator_orientation  
+- This is called after SET_ALL_RANDOM_PEDS_FLEE_THIS_FRAME
 ```
 
 ## Parameters

@@ -9,12 +9,12 @@ BOOL IS_DLC_PRESENT(Hash dlcHash);
 ```
 
 ```
-Example:  
-DLC2::IS_DLC_PRESENT($\mpbusiness2\);  
-($ = gethashkey)  
-bruteforce these:  
-0xB119F6D  
-0x96F02EE6  
+Example:
+DLC::IS_DLC_PRESENT($\mpbusiness2\);
+($ = gethashkey)
+bruteforce these:
+0xB119F6D
+0x96F02EE6
 ```
 
 ## Parameters

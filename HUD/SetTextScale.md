@@ -9,7 +9,8 @@ void SET_TEXT_SCALE(float scale, float size);
 ```
 
 ```
-Size range : 0f to 1.0f  
+Size range : 0F to 1.0F
+p0 is unknown and doesn't seem to have an effect, yet in the game scripts it changes to 1.0F sometimes.
 ```
 
 ## Parameters

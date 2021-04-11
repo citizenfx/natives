@@ -8,10 +8,6 @@ ns: TASK
 BOOL IS_PED_CUFFED(Ped ped);
 ```
 
-```
-l  
-```
-
 ## Parameters
 * **ped**: 
 

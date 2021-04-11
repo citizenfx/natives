@@ -8,12 +8,6 @@ ns: VEHICLE
 void DETACH_VEHICLE_FROM_TRAILER(Vehicle vehicle);
 ```
 
-```
-Public Sub detatchTrailer(vh1 As Vehicle)  
-Native.Function.Call(Hash.DETACH_VEHICLE_FROM_TRAILER, vh1)  
-		    End Sub  
-```
-
 ## Parameters
 * **vehicle**: 
 

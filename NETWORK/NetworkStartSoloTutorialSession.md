@@ -9,7 +9,3 @@ aliases: ["0x17E0198B3882C2CB"]
 void NETWORK_START_SOLO_TUTORIAL_SESSION();
 ```
 
-```
-NETWORK_START_R/S*
-```
-

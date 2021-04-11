@@ -1,0 +1,16 @@
+---
+ns: NETWORK
+---
+## _NETWORK_OVERRIDE_CLOCK_MILLISECONDS_PER_GAME_MINUTE
+
+```c
+// 0x42BF1D2E723B6D7E
+void _NETWORK_OVERRIDE_CLOCK_MILLISECONDS_PER_GAME_MINUTE(int ms);
+```
+
+```
+NativeDB Introduced: v2189
+```
+
+## Parameters
+* **ms**:

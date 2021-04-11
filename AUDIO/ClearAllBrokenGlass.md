@@ -8,7 +8,3 @@ ns: AUDIO
 void CLEAR_ALL_BROKEN_GLASS();
 ```
 
-```
-Removes broken glass particles.  
-```
-

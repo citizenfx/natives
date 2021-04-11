@@ -9,10 +9,6 @@ aliases: ["_START_SAVE_STRUCT"]
 void START_SAVE_STRUCT_WITH_SIZE(Any* p0, int size, char* structName);
 ```
 
-```
-Second parameter might be length.  
-```
-
 ## Parameters
 * **p0**: 
 * **size**: 

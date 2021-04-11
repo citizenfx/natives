@@ -9,9 +9,10 @@ void DISABLE_POLICE_RESTART(int policeIndex, BOOL toggle);
 ```
 
 ```
-Disables the spawn point at the police house on the specified index.  
-policeIndex: The police house index.  
-toggle: true to enable the spawn point, false to disable.  
+Disables the spawn point at the police house on the specified index.
+policeIndex: The police house index.
+toggle: true to enable the spawn point, false to disable.
+- Nacorpio
 ```
 
 ## Parameters

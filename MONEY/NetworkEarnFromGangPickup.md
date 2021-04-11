@@ -9,10 +9,6 @@ aliases: ["0xA03D4ACE0A3284CE"]
 void _NETWORK_EARN_FROM_GANG_PICKUP(int amount);
 ```
 
-```
-MONEY_EARN_PICKED_UP  
-```
-
 ## Parameters
 * **amount**: 
 

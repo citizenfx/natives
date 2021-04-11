@@ -10,6 +10,6 @@ void _SET_MOUSE_CURSOR_ACTIVE_THIS_FRAME();
 ```
 
 ```
-Shows the cursor on screen for the frame its called.  
+Shows the cursor on screen for one frame.
 ```
 

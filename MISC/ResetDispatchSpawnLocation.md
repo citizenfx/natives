@@ -1,0 +1,14 @@
+---
+ns: MISC
+---
+## _RESET_DISPATCH_SPAWN_LOCATION
+
+```c
+// 0x5896F2BD5683A4E1
+void _RESET_DISPATCH_SPAWN_LOCATION();
+```
+
+```
+NativeDB Introduced: v1868
+```
+

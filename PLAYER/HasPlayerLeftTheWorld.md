@@ -8,11 +8,6 @@ ns: PLAYER
 BOOL HAS_PLAYER_LEFT_THE_WORLD(Player player);
 ```
 
-```
-Gets the player's info and calls a function that checks the player's ped position.  
-Here's the decompiled function that checks the position: pastebin.com/ZdHG2E7n  
-```
-
 ## Parameters
 * **player**: 
 

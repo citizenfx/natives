@@ -9,7 +9,3 @@ aliases: ["_END_TEXT_COMPONENT"]
 void END_TEXT_COMMAND_SCALEFORM_STRING();
 ```
 
-```
-Previously called _END_TEXT_COMPONENT  
-```
-

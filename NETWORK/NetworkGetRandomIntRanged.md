@@ -10,7 +10,7 @@ int NETWORK_GET_RANDOM_INT_RANGED(int rangeStart, int rangeEnd);
 ```
 
 ```
-Same as GAMEPLAY::GET_RANDOM_INT_IN_RANGE  
+Same as GET_RANDOM_INT_IN_RANGE
 ```
 
 ## Parameters

@@ -1,7 +1,6 @@
 ---
 ns: ENTITY
 ---
-
 ## IS_ENTITY_ATTACHED
 
 ```c
@@ -10,11 +9,9 @@ BOOL IS_ENTITY_ATTACHED(Entity entity);
 ```
 
 ## Parameters
-
-- **entity**: The entity to check if it is attached to another entity.
+* **entity**: The entity to check if it is attached to another entity.
 
 ## Return value
-
 Whether the entity is attached to another entity.
 
 ## Examples

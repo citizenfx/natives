@@ -9,8 +9,8 @@ void REGISTER_OBJECT_SCRIPT_BRAIN(char* scriptName, Hash modelHash, int p2, floa
 ```
 
 ```
-Registers a script for any object with a specific model hash.  
-BRAIN::REGISTER_OBJECT_SCRIPT_BRAIN("ob_telescope", ${prop_telescope_01}, 100, 4.0, -1, 9);  
+Registers a script for any object with a specific model hash.
+BRAIN::REGISTER_OBJECT_SCRIPT_BRAIN("ob_telescope", ${prop_telescope_01}, 100, 4.0, -1, 9);
 ```
 
 ## Parameters

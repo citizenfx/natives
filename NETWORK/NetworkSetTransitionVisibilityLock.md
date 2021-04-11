@@ -9,10 +9,6 @@ aliases: ["0x0C978FDA19692C2C"]
 void NETWORK_SET_TRANSITION_VISIBILITY_LOCK(BOOL p0, BOOL p1);
 ```
 
-```
-x360 Hash: 0x4AF0ADF5  
-```
-
 ## Parameters
 * **p0**: 
 * **p1**: 

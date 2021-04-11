@@ -1,7 +1,6 @@
 ---
 ns: ENTITY
 ---
-
 ## GET_ENTITY_MODEL
 
 ```c
@@ -11,12 +10,10 @@ Hash GET_ENTITY_MODEL(Entity entity);
 
 ```
 Returns the model hash from the entity
-Sometimes throws an exception, idk what causes it though.
 ```
 
 ## Parameters
-
-- **entity**: The entity to get the model for.
+* **entity**: The entity to get the model for.
 
 ## Return value
 

@@ -9,8 +9,4 @@ aliases: ["0xDC48473142545431"]
 BOOL _FACEBOOK_SET_CREATE_CHARACTER_COMPLETE();
 ```
 
-```
-GTA Online character creation  
-```
-
 ## Return value

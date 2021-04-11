@@ -10,12 +10,7 @@ BOOL ADD_VEHICLE_CREW_EMBLEM(Vehicle vehicle, Ped ped, int boneIndex, float x1, 
 ```
 
 ```
-Now has 15 parameters, previous declaration:  
-BOOL _0x428BDCB9DA58DA53(Any p0, Any p1, Any p2, float p3, float p4, float p5, float p6, float p7, float p8, float p9, float p10, float p11, float p12, Any p13)  
-boneIndex is always chassis_dummy in the scripts. The x/y/z params are location relative to the chassis bone. They are usually rotations and measurements. Haven't reversed which are what yet.  
-Scale is how big the decal will be.  
-p13 is always 0.  
-For alpha, 200 seems to match what the game is doing, I think. I don't have access to the new scripts to see what this parameter is, but based on guessing this seems (kind of) accurate.  
+boneIndex is always chassis_dummy in the scripts. The x/y/z params are location relative to the chassis bone.
 ```
 
 ## Parameters

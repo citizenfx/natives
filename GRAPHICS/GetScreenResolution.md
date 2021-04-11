@@ -9,9 +9,8 @@ void GET_SCREEN_RESOLUTION(int* x, int* y);
 ```
 
 ```
-int screenresx,screenresy;  
-GET_SCREEN_RESOLUTION(&screenresx,&screenresy);  
-Hardcoded to always return 1280 x 720  
+int screenresx,screenresy;
+GET_SCREEN_RESOLUTION(&screenresx,&screenresy);
 ```
 
 ## Parameters

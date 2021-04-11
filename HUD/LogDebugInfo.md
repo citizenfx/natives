@@ -10,8 +10,8 @@ void _LOG_DEBUG_INFO(char* p0);
 ```
 
 ```
-Not present in retail version of the game, actual definiton seems to be  
-_LOG_DEBUG_INFO(char* category, char* debugText);  
+Not present in retail version of the game, actual definiton seems to be
+_LOG_DEBUG_INFO(const char* category, const char* debugText);
 ```
 
 ## Parameters

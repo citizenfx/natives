@@ -8,9 +8,6 @@ ns: TASK
 BOOL GET_IS_WAYPOINT_RECORDING_LOADED(char* name);
 ```
 
-```
-For a full list, see here: pastebin.com/Tp0XpBMN  
-```
 
 ## Parameters
 * **name**: 

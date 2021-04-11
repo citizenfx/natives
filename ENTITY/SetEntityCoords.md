@@ -1,7 +1,6 @@
 ---
 ns: ENTITY
 ---
-
 ## SET_ENTITY_COORDS
 
 ```c
@@ -11,22 +10,20 @@ void SET_ENTITY_COORDS(Entity entity, float xPos, float yPos, float zPos, BOOL x
 
 ```
 p7 is always 1 in the scripts. Set to 1, an area around the destination coords for the moved entity is cleared from other entities.
+
 Often ends with 1, 0, 0, 1); in the scripts. It works.
 Axis - Invert Axis Flags
 ```
 
-Sets an entity's coordinates in world space.
-
 ## Parameters
-
-- **entity**: The entity to change coordinates for.
-- **xPos**: The x coordinate.
-- **yPos**: The y coordinate.
-- **zPos**: The z coordinate.
-- **xAxis**: Whether to invert x axis.
-- **yAxis**: Whether to invert y axis.
-- **zAxis**: Whether to invert z axis.
-- **clearArea**: Whether to clear other entities in area around entity.
+* **entity**: The entity to change coordinates for.
+* **xPos**: The x coordinate.
+* **yPos**: The y coordinate.
+* **zPos**: The z coordinate.
+* **xAxis**: Whether to invert x axis.
+* **yAxis**: Whether to invert y axis.
+* **zAxis**: Whether to invert z axis.
+* **clearArea**: Whether to clear other entities in area around entity.
 
 ## Examples
 

@@ -8,10 +8,6 @@ ns: PHYSICS
 void SET_DISABLE_FRAG_DAMAGE(Object object, BOOL toggle);
 ```
 
-```
-sometimes used used with NET_TO_OBJ  
-```
-
 ## Parameters
 * **object**: 
 * **toggle**: 

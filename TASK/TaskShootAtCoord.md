@@ -8,6 +8,9 @@ ns: TASK
 void TASK_SHOOT_AT_COORD(Ped ped, float x, float y, float z, int duration, Hash firingPattern);
 ```
 
+```
+Firing Pattern Hash Information: https://pastebin.com/Px036isB
+```
 
 ## Parameters
 * **ped**: 

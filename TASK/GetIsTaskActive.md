@@ -9,9 +9,7 @@ BOOL GET_IS_TASK_ACTIVE(Ped ped, int taskIndex);
 ```
 
 ```
-from docks_heistb.c4:  
-AI::GET_IS_TASK_ACTIVE(PLAYER::PLAYER_PED_ID(), 2))  
-Known Tasks: pastebin.com/2gFqJ3Px  
+Task index enum: https://alloc8or.re/gta5/doc/enums/eTaskTypeIndex.txt
 ```
 
 ## Parameters

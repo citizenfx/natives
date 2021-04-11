@@ -8,8 +8,7 @@ ns: MISC
 Hash GET_HASH_KEY(char* string);
 ```
 
-Gets the (case-insensitive, lower-cased) hash value for the passed string. This uses the 'Jenkins one-at-a-time' hashing
-algorithm.
+This native converts its past string to hash. It is hashed using jenkins one at a time method.
 
 ## Parameters
 * **string**: The string to hash.

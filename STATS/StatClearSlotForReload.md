@@ -9,12 +9,10 @@ Any STAT_CLEAR_SLOT_FOR_RELOAD(int statSlot);
 ```
 
 ```
-Please change to "void"!  
----------------------------------  
-Example:  
-for (v_2 = 0; v_2 <= 4; v_2 += 1) {  
-    STATS::STAT_CLEAR_SLOT_FOR_RELOAD(v_2);  
-}  
+Example:
+for (v_2 = 0; v_2 <= 4; v_2 += 1) {
+    STATS::STAT_CLEAR_SLOT_FOR_RELOAD(v_2);
+}
 ```
 
 ## Parameters

@@ -9,10 +9,6 @@ aliases: ["0x4645DE9980999E93"]
 BOOL UGC_UPDATE_MISSION(char* contentId, char* contentName, char* description, char* tagsCsv, char* contentTypeName);
 ```
 
-```
-NOTE: 'p2' might be some kind of array.  
-```
-
 ## Parameters
 * **contentId**: 
 * **contentName**: 

@@ -8,10 +8,6 @@ ns: MISC
 float ACOS(float p0);
 ```
 
-```
-Returns arccos value of p0.  
-```
-
 ## Parameters
 * **p0**: 
 

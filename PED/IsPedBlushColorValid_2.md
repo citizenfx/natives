@@ -6,14 +6,10 @@ aliases: ["0xF41B5D290C99A3D6"]
 
 ```c
 // 0xF41B5D290C99A3D6
-BOOL _IS_PED_BLUSH_COLOR_VALID_2(int colorID);
-```
-
-```
-Used in hairdo_shop*.ysc and maintransition.ysc
+BOOL _IS_PED_BLUSH_COLOR_VALID_2(int colorId);
 ```
 
 ## Parameters
-* **colorID**: 
+* **colorId**: 
 
 ## Return value

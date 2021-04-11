@@ -9,10 +9,6 @@ aliases: ["0x6D03BFBD643B2A02","_NETWORK_GET_SERVER_TIME"]
 void NETWORK_GET_GLOBAL_MULTIPLAYER_CLOCK(int* hours, int* minutes, int* seconds);
 ```
 
-```
-NETWORK_GET_*
-```
-
 ## Parameters
 * **hours**: 
 * **minutes**: 

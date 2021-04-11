@@ -1,0 +1,15 @@
+---
+ns: GRAPHICS
+aliases: ["0x1072F115DAB0717E"]
+---
+## DRAW_LOW_QUALITY_PHOTO_TO_PHONE
+
+```c
+// 0x1072F115DAB0717E 0xE9F2B68F
+void DRAW_LOW_QUALITY_PHOTO_TO_PHONE(BOOL p0, BOOL p1);
+```
+
+## Parameters
+* **p0**: 
+* **p1**: 
+

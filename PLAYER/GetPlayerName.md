@@ -8,10 +8,6 @@ ns: PLAYER
 char* GET_PLAYER_NAME(Player player);
 ```
 
-```
-Returns the players name  
-```
-
 ## Parameters
 * **player**: 
 

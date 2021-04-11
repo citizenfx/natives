@@ -10,6 +10,6 @@ void BUSYSPINNER_OFF();
 ```
 
 ```
-Removes the loading prompt at the bottom right of the screen, created by the UI::_SHOW_LOADING_PROMPT native.  
+Removes the loading prompt at the bottom right of the screen.
 ```
 

@@ -8,11 +8,6 @@ ns: ENTITY
 Vector3 GET_ENTITY_VELOCITY(Entity entity);
 ```
 
-```
-the unit is m/s along each axis  
-GET_ENTITY_VELOCITY(aEntity) is the same as GET_ENTITY_SPEED_VECTOR(aEntity,false)  
-```
-
 ## Parameters
 * **entity**: 
 

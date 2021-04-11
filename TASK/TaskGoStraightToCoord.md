@@ -8,8 +8,6 @@ ns: TASK
 void TASK_GO_STRAIGHT_TO_COORD(Ped ped, float x, float y, float z, float speed, int timeout, float targetHeading, float distanceToSlide);
 ```
 
-This native will make the ped move straight to a coordinate.
-
 ## Parameters
 * **ped**: The ped handle.
 * **x**: The x coordinate.

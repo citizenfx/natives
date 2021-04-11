@@ -10,7 +10,7 @@ BOOL IS_EXPLOSION_IN_AREA(int explosionType, float x1, float y1, float z1, float
 
 
 ## Parameters
-* **explosionType**: 
+* **explosionType**: See ADD_EXPLOSION.
 * **x1**: 
 * **y1**: 
 * **z1**: 

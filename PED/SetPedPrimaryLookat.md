@@ -9,10 +9,10 @@ void SET_PED_PRIMARY_LOOKAT(Ped ped, Ped lookAt);
 ```
 
 ```
-This is only called once in the scripts.  
-sub_1CD9(&l_49, 0, getElem(3, &l_34, 4), "MICHAEL", 0, 1);  
-                    sub_1CA8("WORLD_HUMAN_SMOKING", 2);  
-                    PED::SET_PED_PRIMARY_LOOKAT(getElem(3, &l_34, 4), PLAYER::PLAYER_PED_ID());  
+This is only called once in the scripts.
+sub_1CD9(&l_49, 0, getElem(3, &l_34, 4), "MICHAEL", 0, 1);
+                    sub_1CA8("WORLD_HUMAN_SMOKING", 2);
+                    PED::SET_PED_PRIMARY_LOOKAT(getElem(3, &l_34, 4), PLAYER::PLAYER_PED_ID());
 ```
 
 ## Parameters

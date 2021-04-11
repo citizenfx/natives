@@ -10,7 +10,8 @@ void DISTANT_COP_CAR_SIRENS(BOOL value);
 ```
 
 ```
-if value is set to true, and ambient siren sound will be played.
+If value is set to true, and ambient siren sound will be played.
+Appears to enable/disable an audio flag.
 ```
 
 ## Parameters

@@ -5,7 +5,7 @@ ns: TASK
 
 ```c
 // 0xF7F9DCCA89E7505B
-void _TASK_PLANE_GOTO_PRECISE_VTOL(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8, Any p9);
+void _TASK_PLANE_GOTO_PRECISE_VTOL(Ped ped, Vehicle vehicle, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8, Any p9);
 ```
 
 ```
@@ -13,8 +13,8 @@ NativeDB Introduced: v1290
 ```
 
 ## Parameters
-* **p0**:
-* **p1**:
+* **ped**:
+* **vehicle**:
 * **p2**:
 * **p3**:
 * **p4**:

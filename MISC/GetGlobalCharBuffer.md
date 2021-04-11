@@ -10,7 +10,8 @@ char* _GET_GLOBAL_CHAR_BUFFER();
 ```
 
 ```
-it returns a reference to an empty string, the same empty string that's used by 1687 internal gta functions.   if it was used in a script (and i cannot find an instance of it being used), it would be as the source for a StringCopy or somesuch.  
+Returns pointer to an empty string.
+GET_C*
 ```
 
 ## Return value

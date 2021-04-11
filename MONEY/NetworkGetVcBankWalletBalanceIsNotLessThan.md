@@ -10,7 +10,7 @@ BOOL _NETWORK_GET_VC_BANK_WALLET_BALANCE_IS_NOT_LESS_THAN(int amount, int charac
 ```
 
 ```
-probably 0x3461981 on console  
+Returns true if bank balance + wallet balance >= amount.
 ```
 
 ## Parameters

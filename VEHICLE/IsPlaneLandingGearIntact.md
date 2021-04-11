@@ -9,10 +9,6 @@ aliases: ["0x4198AB0022B15F87","_VEHICLE_HAS_LANDING_GEAR"]
 BOOL IS_PLANE_LANDING_GEAR_INTACT(Vehicle plane);
 ```
 
-```
-Vehicle has landing gear?  
-```
-
 ## Parameters
 * **plane**: 
 

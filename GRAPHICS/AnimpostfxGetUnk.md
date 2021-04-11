@@ -9,6 +9,9 @@ aliases: ["0xE35B38A27E8E7179"]
 float _ANIMPOSTFX_GET_UNK(char* effectName);
 ```
 
+```
+See ANIMPOSTFX_PLAY
+```
 
 ## Parameters
 * **effectName**: 

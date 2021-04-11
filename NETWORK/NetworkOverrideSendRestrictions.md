@@ -10,9 +10,8 @@ void NETWORK_OVERRIDE_SEND_RESTRICTIONS(Player player, BOOL toggle);
 ```
 
 ```
-"NETWORK_OVERRIDE_SEND_RESTRICTIONS" is right, but dev-c put a _ by default.  
-This is used alongside the native,  
-'NETWORK_OVERRIDE_RECEIVE_RESTRICTIONS'. Read it's description for more info.  
+This is used alongside the native,
+'NETWORK_OVERRIDE_RECEIVE_RESTRICTIONS'. Read its description for more info.
 ```
 
 ## Parameters

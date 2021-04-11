@@ -9,10 +9,6 @@ aliases: ["0x6F1554B0CC2089FA"]
 void THEFEED_ONLY_SHOW_TOOLTIPS(BOOL toggle);
 ```
 
-```
-If true, disables the creation of all GAME_STREAM_ENUMS besides TOOLTIPS
-```
-
 ## Parameters
 * **toggle**: 
 

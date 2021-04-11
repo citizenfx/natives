@@ -10,7 +10,7 @@ void HUD_FORCE_WEAPON_WHEEL(BOOL show);
 ```
 
 ```
-Forces the weapon wheel to appear on screen.  
+Forces the weapon wheel to show/hide.
 ```
 
 ## Parameters
