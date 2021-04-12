@@ -20,7 +20,7 @@ This object will initially be owned by the creating script as a mission entity, 
 * **z**: Spawn coordinate Z component, 'ground level'.
 * **isNetwork**: Whether to create a network object for the object. If false, the object exists only locally.
 * **netMissionEntity**: Whether to register the object as pinned to the script host in the R* network model.
-* **doorFlag**: Whether or not to create a door archetype (archetype flag bit 26 set) as a door. Required to create door models in network mode.
+* **doorFlag**: False to create a door archetype (archetype flag bit 26 set) as a door. Required to be set to true to create door models in network mode.
 
 ## Return value
 A script handle (fwScriptGuid index) for the object, or `0` if the object failed to be created.
