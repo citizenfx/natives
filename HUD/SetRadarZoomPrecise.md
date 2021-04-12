@@ -9,10 +9,6 @@ aliases: ["RESPONDING_AS_TEMP"]
 void SET_RADAR_ZOOM_PRECISE(float zoom);
 ```
 
-```
-actual native starts with SET_RADAR_ZOOM_...  
-```
-
 ## Parameters
 * **zoom**: 
 

@@ -10,6 +10,6 @@ void _HUD_WEAPON_WHEEL_IGNORE_SELECTION();
 ```
 
 ```
-calling this each frame, it stops the player from receiving a weapon via the weapon wheel.
+Calling this each frame, stops the player from receiving a weapon via the weapon wheel.
 ```
 

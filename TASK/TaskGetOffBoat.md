@@ -9,10 +9,6 @@ aliases: ["_TASK_GET_OFF_BOAT"]
 void TASK_GET_OFF_BOAT(Ped ped, Vehicle boat);
 ```
 
-```
-Jenkins of this native is 0x4293601F. This is the actual name.  
-```
-
 ## Parameters
 * **ped**: 
 * **boat**: 

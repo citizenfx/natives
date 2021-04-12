@@ -8,8 +8,7 @@ ns: AUDIO
 void OVERRIDE_TREVOR_RAGE(char* voiceEffect);
 ```
 
-This native enables the audio flag "TrevorRageIsOverridden" and sets the voice effect to `p0`.
-
+This native enables the audio flag "TrevorRageIsOverridden" and sets the voice effect to `voiceEffect`
 
 ## Parameters
 * **voiceEffect**: 

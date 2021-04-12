@@ -10,10 +10,9 @@ BOOL GET_VEHICLE_NODE_IS_GPS_ALLOWED(int nodeID);
 ```
 
 ```
-p0 = VEHICLE_NODE_ID  
-Returns false for nodes that aren't used for GPS routes.  
-Example:  
-Nodes in Fort Zancudo and LSIA are false  
+Returns false for nodes that aren't used for GPS routes.
+Example:
+Nodes in Fort Zancudo and LSIA are false
 ```
 
 ## Parameters

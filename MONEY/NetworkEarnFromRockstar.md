@@ -8,12 +8,6 @@ ns: MONEY
 void NETWORK_EARN_FROM_ROCKSTAR(int amount);
 ```
 
-```
-This merely adds an entry in the Network Transaction Log;   
-it does not grant cash to the player (on PC).  
-Max value for amount is 9999999.  
-```
-
 ## Parameters
 * **amount**: 
 

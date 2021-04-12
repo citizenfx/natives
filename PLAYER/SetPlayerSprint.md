@@ -8,10 +8,6 @@ ns: PLAYER
 void SET_PLAYER_SPRINT(Player player, BOOL toggle);
 ```
 
-```
-77  
-```
-
 ## Parameters
 * **player**: 
 * **toggle**: 

@@ -9,10 +9,6 @@ aliases: ["_GET_ROPE_LENGTH"]
 float ROPE_GET_DISTANCE_BETWEEN_ENDS(int ropeId);
 ```
 
-```
-Get a rope's length.  Can be modified with ROPE_FORCE_LENGTH  
-```
-
 ## Parameters
 * **ropeId**: 
 

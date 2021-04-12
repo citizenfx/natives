@@ -8,10 +8,6 @@ ns: SCRIPT
 BOOL DOES_SCRIPT_EXIST(char* scriptName);
 ```
 
-```
-For a full list, see here: pastebin.com/yLNWicUi  
-```
-
 ## Parameters
 * **scriptName**: 
 

@@ -9,5 +9,8 @@ aliases: ["0x497420E022796B3F"]
 int _LOCALIZATION_GET_SYSTEM_LANGUAGE();
 ```
 
+```
+Same return values as GET_CURRENT_LANGUAGE
+```
 
 ## Return value

@@ -10,7 +10,8 @@ void _SET_LOCAL_PLAYER_CAN_USE_PICKUPS_WITH_THIS_MODEL(Hash modelHash, BOOL togg
 ```
 
 ```
-SET_LOCAL_PLAYER_*  
+Maximum amount of pickup models that can be disallowed is 30.
+SET_LOCAL_PLAYER_*
 ```
 
 ## Parameters

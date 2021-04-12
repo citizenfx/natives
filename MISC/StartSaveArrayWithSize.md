@@ -9,10 +9,6 @@ aliases: ["_START_SAVE_ARRAY"]
 void START_SAVE_ARRAY_WITH_SIZE(Any* p0, int size, char* arrayName);
 ```
 
-```
-Second parameter might be length.  
-```
-
 ## Parameters
 * **p0**: 
 * **size**: 

@@ -9,7 +9,3 @@ aliases: ["_ABORT_TEXT_CHAT"]
 void _CLOSE_MULTIPLAYER_CHAT();
 ```
 
-```
-Aborts the current message in the text chat.  
-```
-

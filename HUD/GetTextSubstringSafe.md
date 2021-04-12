@@ -9,23 +9,23 @@ char* _GET_TEXT_SUBSTRING_SAFE(char* text, int position, int length, int maxLeng
 ```
 
 ```
-Returns a substring of a specified length starting at a specified position. The result is guaranteed not to exceed the specified max length.  
-NOTE: The 'maxLength' parameter might actually be the size of the buffer that is returned. More research is needed. -CL69  
-Example:  
-// Condensed example of how Rockstar uses this function  
-strLen = UI::GET_LENGTH_OF_LITERAL_STRING(GAMEPLAY::GET_ONSCREEN_KEYBOARD_RESULT());  
-subStr = UI::_GET_TEXT_SUBSTRING_SAFE(GAMEPLAY::GET_ONSCREEN_KEYBOARD_RESULT(), 0, strLen, 63);  
---  
-"fm_race_creator.ysc", line 85115:  
-// parameters modified for clarity  
-BOOL sub_8e5aa(char *text, int length) {  
-    for (i = 0; i <= (length - 2); i += 1) {  
-        if (!GAMEPLAY::ARE_STRINGS_EQUAL(UI::_GET_TEXT_SUBSTRING_SAFE(text, i, i + 1, 1), " ")) {  
-            return FALSE;  
-        }  
-    }  
-    return TRUE;  
-}  
+Returns a substring of a specified length starting at a specified position. The result is guaranteed not to exceed the specified max length.
+NOTE: The 'maxLength' parameter might actually be the size of the buffer that is returned. More research is needed. -CL69
+Example:
+// Condensed example of how Rockstar uses this function
+strLen = HUD::GET_LENGTH_OF_LITERAL_STRING(MISC::GET_ONSCREEN_KEYBOARD_RESULT());
+subStr = HUD::_GET_TEXT_SUBSTRING_SAFE(MISC::GET_ONSCREEN_KEYBOARD_RESULT(), 0, strLen, 63);
+--
+"fm_race_creator.ysc", line 85115:
+// parameters modified for clarity
+BOOL sub_8e5aa(char *text, int length) {
+    for (i = 0; i <= (length - 2); i += 1) {
+        if (!MISC::ARE_STRINGS_EQUAL(HUD::_GET_TEXT_SUBSTRING_SAFE(text, i, i + 1, 1), " ")) {
+            return FALSE;
+        }
+    }
+    return TRUE;
+}
 ```
 
 ## Parameters

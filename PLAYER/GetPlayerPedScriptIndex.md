@@ -9,7 +9,7 @@ Ped GET_PLAYER_PED_SCRIPT_INDEX(Player player);
 ```
 
 ```
-Does the same like PLAYER::GET_PLAYER_PED<br/>  
+Does the same like PLAYER::GET_PLAYER_PED
 ```
 
 ## Parameters

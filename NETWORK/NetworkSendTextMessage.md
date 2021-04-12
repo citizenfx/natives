@@ -8,6 +8,10 @@ ns: NETWORK
 BOOL NETWORK_SEND_TEXT_MESSAGE(char* message, int* networkHandle);
 ```
 
+```
+Message is limited to 64 characters.
+```
+
 ## Parameters
 * **message**: 
 * **networkHandle**: 

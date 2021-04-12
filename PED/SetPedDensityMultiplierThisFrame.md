@@ -8,14 +8,6 @@ ns: PED
 void SET_PED_DENSITY_MULTIPLIER_THIS_FRAME(float multiplier);
 ```
 
-```
-• Usage  
-→ Use this native inside a looped function.  
-→ Values:  
-→ 0.0 = no peds on streets  
-→ 1.0 = normal peds on streets  
-```
-
 ## Parameters
 * **multiplier**: 
 

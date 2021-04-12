@@ -8,9 +8,7 @@ ns: VEHICLE
 float GET_VEHICLE_MODEL_ACCELERATION(Hash modelHash);
 ```
 
-```
-Returns the acceleration of the specified model.  
-```
+Returns the acceleration of the specified model.
 
 ## Parameters
 * **modelHash**: 

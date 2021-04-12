@@ -1,0 +1,16 @@
+---
+ns: VEHICLE
+aliases: ["0x91D6DD290888CBAB"]
+---
+## _HAS_FILLED_VEHICLE_POPULATION
+
+```c
+// 0x91D6DD290888CBAB 0x71D898EF
+BOOL _HAS_FILLED_VEHICLE_POPULATION();
+```
+
+```
+HAS_*
+```
+
+## Return value

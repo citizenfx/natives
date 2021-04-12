@@ -8,6 +8,9 @@ ns: TASK
 int GET_ACTIVE_VEHICLE_MISSION_TYPE(Vehicle vehicle);
 ```
 
+```
+https://alloc8or.re/gta5/doc/enums/eVehicleMissionType.txt
+```
 
 ## Parameters
 * **vehicle**: 

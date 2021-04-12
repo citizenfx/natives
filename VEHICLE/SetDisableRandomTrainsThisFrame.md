@@ -9,10 +9,6 @@ aliases: ["0xD4B8E3D1917BC86B","_SET_SOMETHING_MULTIPLIER_THIS_FRAME"]
 void SET_DISABLE_RANDOM_TRAINS_THIS_FRAME(BOOL toggle);
 ```
 
-```
-SET_*_MULTIPLIER_THIS_FRAME  
-```
-
 ## Parameters
 * **toggle**: 
 

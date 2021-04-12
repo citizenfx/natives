@@ -10,9 +10,10 @@ float _END_TEXT_COMMAND_GET_WIDTH(BOOL p0);
 ```
 
 ```
-Used with _BEGIN_TEXT_COMMAND_WIDTH.  
-In scripts, p0 is false when used in combination with "ESMINDOLLA" or "ESDOLLA", otherwise it's true.  
-Returns from range 0 to 1.  
+END_TEXT_COMMAND_*
+In scripts font most of the time is passed as 1.
+Use _BEGIN_TEXT_GET_COMMAND_GET_WIDTH
+param is not font from what i've tested
 ```
 
 ## Parameters

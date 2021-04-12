@@ -8,7 +8,3 @@ ns: STREAMING
 void LOAD_ALL_OBJECTS_NOW();
 ```
 
-```
-1  
-```
-

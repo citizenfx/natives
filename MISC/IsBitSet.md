@@ -9,12 +9,12 @@ BOOL IS_BIT_SET(int address, int offset);
 ```
 
 ```
-Returns bit's boolean state from [offset] of [address].  
-Example:  
-GAMEPLAY::IS_BIT_SET(bitAddress, 1);  
-To enable and disable bits, see:  
-GAMEPLAY::SET_BIT(&bitAddress, 1);   // enable  
-GAMEPLAY::CLEAR_BIT(&bitAddress, 1); // disable  
+Returns bit's boolean state from [offset] of [address].
+Example:
+MISC::IS_BIT_SET(bitAddress, 1);
+To enable and disable bits, see:
+MISC::SET_BIT(&bitAddress, 1);   // enable
+MISC::CLEAR_BIT(&bitAddress, 1); // disable
 ```
 
 ## Parameters

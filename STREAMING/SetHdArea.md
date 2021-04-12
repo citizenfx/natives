@@ -8,10 +8,6 @@ ns: STREAMING
 void SET_HD_AREA(float x, float y, float z, float radius);
 ```
 
-```
-Harcoded limit for radius is 30.0f  
-```
-
 ## Parameters
 * **x**: 
 * **y**: 

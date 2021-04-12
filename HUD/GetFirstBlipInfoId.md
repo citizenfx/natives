@@ -8,10 +8,6 @@ ns: HUD
 Blip GET_FIRST_BLIP_INFO_ID(int blipSprite);
 ```
 
-```
-8 = waypoint  
-```
-
 ## Parameters
 * **blipSprite**: 
 

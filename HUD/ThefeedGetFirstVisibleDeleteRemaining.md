@@ -10,8 +10,7 @@ int THEFEED_GET_FIRST_VISIBLE_DELETE_REMAINING();
 ```
 
 ```
-Returns the handle for the notification currently displayed on the screen.
-Name may be a hash collision, but describes the function accurately.
+Returns the handle for the notification currently displayed on the screen. Name may be a hash collision, but describes the function accurately.
 ```
 
 ## Return value

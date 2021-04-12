@@ -10,8 +10,7 @@ BOOL _TRIGGER_SCRIPT_CRC_CHECK_ON_PLAYER(Player player, int p1, Hash scriptHash)
 ```
 
 ```
-p1 = 6  
-NETWORK_CRC_HASH_CHECK?  
+p1 = 6
 ```
 
 ## Parameters

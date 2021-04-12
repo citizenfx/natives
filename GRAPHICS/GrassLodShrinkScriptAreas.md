@@ -10,8 +10,7 @@ void _GRASS_LOD_SHRINK_SCRIPT_AREAS(float x, float y, float z, float radius, flo
 ```
 
 ```
-Wraps 0xAAE9BE70EC7C69AB with FLT_MAX as p7
-Jenkins: 0x73E96210?
+Wraps 0xAAE9BE70EC7C69AB with FLT_MAX as p7, Jenkins: 0x73E96210?
 ```
 
 ## Parameters

@@ -9,7 +9,7 @@ void SET_BLIP_ROTATION(Blip blip, int rotation);
 ```
 
 ```
-After some testing, looks like you need to use UI:CEIL() on the rotation (vehicle/ped heading) before using it there.  
+After some testing, looks like you need to use CEIL() on the rotation (vehicle/ped heading) before using it there.
 ```
 
 ## Parameters

@@ -9,7 +9,7 @@ void SET_SAVE_MENU_ACTIVE(BOOL ignoreVehicle);
 ```
 
 ```
-The bool is not a toggle!!!  
+ignoreVehicle - bypasses vehicle check of the local player (it will not open if you are in a vehicle and this is set to false)
 ```
 
 ## Parameters

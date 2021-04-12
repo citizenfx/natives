@@ -9,7 +9,7 @@ int GET_NUM_DLC_WEAPONS();
 ```
 
 ```
-Gets the total number of DLC weapons.  
+Returns the total number of DLC weapons.
 ```
 
 ## Return value

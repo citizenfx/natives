@@ -1,25 +1,29 @@
 ---
 ns: VEHICLE
-aliases: ["0x41062318F23ED854"]
+aliases: ["SET_VEHICLE_EXCLUSIVE_DRIVER"]
 ---
-## SET_VEHICLE_EXCLUSIVE_DRIVER
+## _0x41062318F23ED854
 
 ```c
-// 0x41062318F23ED854 0xAA8BD440
-void SET_VEHICLE_EXCLUSIVE_DRIVER(Vehicle vehicle, Ped toggle);
+// 0x41062318F23ED854 0xFF62D324
+void _0x41062318F23ED854(Vehicle vehicle, Ped ped, int index);
 ```
 
 ```
-Seems according to TU27 X360 Scripts, this has 3 arguments as well.  
-SET_VEHICLE_EXCLUSIVE_DRIVER(vehicle, 0, 0); in freemode.c  
-In case 5 of a switch case, is the only time it shows Arg2 being PLAYER_PED_ID(), otherwise it's 0. Arg3 always seems to be 0.  
+Used to be incorrectly named SET_VEHICLE_EXCLUSIVE_DRIVER; likely SET_VEHICLE_ALLOW_*: 
+
+Toggles a flag related to SET_VEHICLE_EXCLUSIVE_DRIVER, however, doesn't enable that feature (or trigger script events related to it).
+
+See _SET_VEHICLE_EXCLUSIVE_DRIVER_2.
 ```
 
 ```
 NativeDB Parameter 1: BOOL toggle
+NativeDB Removed Parameter 2: int index
 ```
 
 ## Parameters
 * **vehicle**: 
-* **toggle**: 
+* **ped**: 
+* **index**:
 

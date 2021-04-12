@@ -9,10 +9,6 @@ aliases: ["0xA5EFC3E847D60507"]
 BOOL UGC_CREATE_MISSION(char* contentName, char* description, char* tagsCsv, char* contentTypeName, BOOL publish);
 ```
 
-```
-NOTE: 'p1' might be some kind of array.  
-```
-
 ## Parameters
 * **contentName**: 
 * **description**: 

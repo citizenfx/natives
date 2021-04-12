@@ -8,10 +8,6 @@ ns: MISC
 BOOL IS_TENNIS_MODE(Ped ped);
 ```
 
-```
-Return whether tennis mode is active or not.  
-```
-
 ## Parameters
 * **ped**: 
 

@@ -9,8 +9,4 @@ aliases: ["_IS_SEETHROUGH_ACTIVE"]
 BOOL GET_USINGSEETHROUGH();
 ```
 
-```
-Returns whether or not SEETHROUGH is active.  
-```
-
 ## Return value

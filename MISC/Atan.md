@@ -8,10 +8,6 @@ ns: MISC
 float ATAN(float p0);
 ```
 
-```
-Returns arctan value of p0.  
-```
-
 ## Parameters
 * **p0**: 
 

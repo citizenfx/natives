@@ -10,7 +10,7 @@ BOOL IS_EXPLOSION_IN_SPHERE(int explosionType, float x, float y, float z, float 
 
 
 ## Parameters
-* **explosionType**: 
+* **explosionType**: See ADD_EXPLOSION. 
 * **x**: 
 * **y**: 
 * **z**: 

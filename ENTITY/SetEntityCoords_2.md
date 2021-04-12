@@ -8,10 +8,6 @@ ns: ENTITY
 void _SET_ENTITY_COORDS_2(Entity entity, float xPos, float yPos, float zPos, BOOL xAxis, BOOL yAxis, BOOL zAxis, BOOL clearArea);
 ```
 
-```
-does the same as SET_ENTITY_COORDS.  
-```
-
 ## Parameters
 * **entity**: 
 * **xPos**: 

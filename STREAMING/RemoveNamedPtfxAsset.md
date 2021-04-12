@@ -9,10 +9,6 @@ aliases: ["_REMOVE_NAMED_PTFX_ASSET"]
 void REMOVE_NAMED_PTFX_ASSET(char* fxName);
 ```
 
-```
-assetName = For example "core"  
-```
-
 ## Parameters
 * **fxName**: 
 

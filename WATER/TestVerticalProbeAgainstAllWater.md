@@ -8,10 +8,6 @@ ns: WATER
 BOOL TEST_VERTICAL_PROBE_AGAINST_ALL_WATER(float x, float y, float z, Any p3, float* height);
 ```
 
-```
-I guess p3 is shape test flags?  
-```
-
 ## Parameters
 * **x**: 
 * **y**: 

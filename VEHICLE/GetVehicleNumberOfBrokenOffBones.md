@@ -10,8 +10,7 @@ int _GET_VEHICLE_NUMBER_OF_BROKEN_OFF_BONES(Vehicle vehicle);
 ```
 
 ```
-GET_VEHICLE_NUMBER_*
-Also includes 'turnOffBones' when vehicle mods are installed.
+Also includes some "turnOffBones" when vehicle mods are installed.
 ```
 
 ## Parameters

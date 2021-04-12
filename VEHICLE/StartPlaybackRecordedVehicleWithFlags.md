@@ -5,15 +5,19 @@ ns: VEHICLE
 
 ```c
 // 0x7D80FD645D4DA346 0x4E721AD2
-void START_PLAYBACK_RECORDED_VEHICLE_WITH_FLAGS(Vehicle vehicle, Any p1, char* playback, Any p3, Any p4, Any p5);
+void START_PLAYBACK_RECORDED_VEHICLE_WITH_FLAGS(Vehicle vehicle, int recording, char* script, int flags, int time, int drivingStyle);
 ```
 
+```
+flags requires further research, e.g., 0x4/0x8 are related to the AI driving task and 0x20 is internally set and interacts with dynamic entity components.
+time, often zero and capped at 500, is related to SET_PLAYBACK_TO_USE_AI_TRY_TO_REVERT_BACK_LATER
+```
 
 ## Parameters
 * **vehicle**: 
-* **p1**: 
-* **playback**: 
-* **p3**: 
-* **p4**: 
-* **p5**: 
+* **recording**: 
+* **script**: 
+* **flags**: 
+* **time**: 
+* **drivingStyle**: 
 

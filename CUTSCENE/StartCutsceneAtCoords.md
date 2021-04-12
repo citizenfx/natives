@@ -9,7 +9,7 @@ void START_CUTSCENE_AT_COORDS(float x, float y, float z, int flags);
 ```
 
 ```
-p3: some kind of flag. Usually 0.  
+flags: Usually 0.
 ```
 
 ## Parameters

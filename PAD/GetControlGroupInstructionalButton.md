@@ -10,7 +10,7 @@ char* GET_CONTROL_GROUP_INSTRUCTIONAL_BUTTON(int padIndex, int controlGroup, BOO
 ```
 
 ```
-0, 1 and 2 used in the scripts. 0 is by far the most common of them.  
+padIndex: 0 (PLAYER_CONTROL), 1 (unk) and 2 (unk) used in the scripts.
 ```
 
 ## Parameters

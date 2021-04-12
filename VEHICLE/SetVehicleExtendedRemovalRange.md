@@ -9,6 +9,9 @@ aliases: ["0x79DF7E806202CE01"]
 void SET_VEHICLE_EXTENDED_REMOVAL_RANGE(Vehicle vehicle, int range);
 ```
 
+```
+Max value is 32767
+```
 
 ## Parameters
 * **vehicle**: 

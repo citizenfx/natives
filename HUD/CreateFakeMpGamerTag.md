@@ -10,9 +10,7 @@ int CREATE_FAKE_MP_GAMER_TAG(Ped ped, char* username, BOOL pointedClanTag, BOOL 
 ```
 
 ```
-p0 was the return of NET_TO_PED in fm_mission_controler.  
-p4 was always "".  
-returns headDisplayId  
+clanFlag: takes a number 0-5
 ```
 
 ## Parameters

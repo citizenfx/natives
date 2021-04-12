@@ -9,10 +9,6 @@ aliases: ["ADD_TREVOR_RANDOM_MODIFIER"]
 BOOL IS_MP_GAMER_TAG_FREE(int gamerTagId);
 ```
 
-```
-_IS_MP_GAMER_TAG_ACTIVE_2  
-```
-
 ## Parameters
 * **gamerTagId**: 
 

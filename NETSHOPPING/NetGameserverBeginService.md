@@ -10,16 +10,6 @@ BOOL _NET_GAMESERVER_BEGIN_SERVICE(int* transactionId, Hash categoryHash, Hash i
 ```
 
 ```
-No longer works if you hook it as a stealth money method  
-Modes------------------  
-1: Wallet  
-2: Bank  
-4: Bank  
-8: Wallet  
-Only difference I noticed.  
-```
-
-```
 NativeDB Parameter 3: Hash actionTypeHash
 ```
 

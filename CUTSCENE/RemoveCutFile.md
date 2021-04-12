@@ -10,7 +10,7 @@ void REMOVE_CUT_FILE(char* cutsceneName);
 ```
 
 ```
-Unloads the cutscene and doesn't do extra stuff that REMOVE_CUTSCENE does.
+Simply unloads the cutscene and doesn't do extra stuff that REMOVE_CUTSCENE does.
 ```
 
 ## Parameters

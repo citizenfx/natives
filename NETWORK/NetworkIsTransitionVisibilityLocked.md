@@ -9,8 +9,4 @@ aliases: ["0xD0A484CB2F829FBE"]
 BOOL NETWORK_IS_TRANSITION_VISIBILITY_LOCKED();
 ```
 
-```
-x360 Hash: 0xF637166E  
-```
-
 ## Return value

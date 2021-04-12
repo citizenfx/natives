@@ -9,7 +9,7 @@ int GET_CONTROL_VALUE(int padIndex, int control);
 ```
 
 ```
-0, 1 and 2 used in the scripts. 0 is by far the most common of them.  
+padIndex: 0 (PLAYER_CONTROL), 1 (unk) and 2 (unk) used in the scripts.
 ```
 
 ## Parameters

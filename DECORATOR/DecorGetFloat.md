@@ -9,10 +9,6 @@ aliases: ["_DECOR_GET_FLOAT"]
 float DECOR_GET_FLOAT(Entity entity, char* propertyName);
 ```
 
-```
-The native name is correct but the db automatically prefixes "_" to unknown natives when changed.  
-```
-
 ## Parameters
 * **entity**: 
 * **propertyName**: 

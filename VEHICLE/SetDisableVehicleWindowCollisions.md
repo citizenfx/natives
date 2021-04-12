@@ -6,20 +6,14 @@ aliases: ["0x1087BC8EC540DAEB"]
 
 ```c
 // 0x1087BC8EC540DAEB
-void _SET_DISABLE_VEHICLE_WINDOW_COLLISIONS(Vehicle vehicle, BOOL p1);
+void _SET_DISABLE_VEHICLE_WINDOW_COLLISIONS(Vehicle vehicle, BOOL toggle);
 ```
 
-Disables collision for all windows.
-
-This is a toggle, so it does not need to be looped each frame.
-
-This is used for vehicles like the nightshark,
-where there is a vehicle mod option (mod index 5) that adds armor
-plating in front of the windows.
+R* used it to "remove" vehicle windows when "nightshark" had some mod, which adding some kind of armored windows. When enabled, you can't break vehicles glass. All your bullets wiil shoot through glass. You also will not able to break the glass with any other way (hitting and etc)
 
 ## Parameters
 * **vehicle**: The vehicle to toggle this for.
-* **p1**: True disables the collision, false enables the collision
+* **toggle**: True disables the collision, false enables the collision
 
 ## Examples
 ```lua

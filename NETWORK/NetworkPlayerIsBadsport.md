@@ -8,9 +8,4 @@ ns: NETWORK
 BOOL NETWORK_PLAYER_IS_BADSPORT();
 ```
 
-```
-Returns whether the player has been reported too often or not.  
-Example : griefing.  
-```
-
 ## Return value

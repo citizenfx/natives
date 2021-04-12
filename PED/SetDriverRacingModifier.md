@@ -10,7 +10,7 @@ void SET_DRIVER_RACING_MODIFIER(Ped driver, float modifier);
 ```
 
 ```
-Scripts use 0.2, 0.5 and 1.0.  
+Scripts use 0.2, 0.5 and 1.0. Value must be >= 0.0 && <= 1.0
 ```
 
 ## Parameters

@@ -9,8 +9,7 @@ void DELETE_OBJECT(Object* object);
 ```
 
 ```
-Deletes the specified object, then sets the handle pointed to by the pointer to NULL.  
-meme.  
+Deletes the specified object, then sets the handle pointed to by the pointer to NULL.
 ```
 
 ## Parameters

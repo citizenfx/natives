@@ -8,10 +8,6 @@ ns: PLAYER
 void GET_PLAYER_RGB_COLOUR(Player player, int* r, int* g, int* b);
 ```
 
-```
-Returns RGB color of the player  
-```
-
 ## Parameters
 * **player**: 
 * **r**: 

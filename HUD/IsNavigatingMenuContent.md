@@ -1,0 +1,12 @@
+---
+ns: HUD
+aliases: ["0x4E3CD0EF8A489541"]
+---
+## IS_NAVIGATING_MENU_CONTENT
+
+```c
+// 0x4E3CD0EF8A489541 0xDA7951A2
+Any IS_NAVIGATING_MENU_CONTENT();
+```
+
+## Return value
