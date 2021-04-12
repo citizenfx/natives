@@ -9,7 +9,7 @@ apiset: client
 Vector3 GET_ENTITY_COORDS(Entity entity, BOOL alive);
 ```
 
-Gets the current coordinates for a specified entity.
+Gets the current coordinates (world position) for a specified entity.
 
 ## Parameters
 * **entity**: The entity to get the coordinates from.
