@@ -12,6 +12,7 @@ void _NETWORK_SET_ENTITY_GHOSTED_WITH_OWNER(Entity entity, BOOL value);
 
 
 ## Parameters
-* **alpha**:
+* **entity**:
+* **value**:
 
 ## Return value
