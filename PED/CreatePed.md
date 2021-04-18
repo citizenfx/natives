@@ -23,4 +23,4 @@ This ped will initially be owned by the creating script as a mission entity, and
 * **bScriptHostPed**: Whether to register the ped as pinned to the script host in the R* network model.
 
 ## Return value
-A script handle (fwScriptGuid index) for the ped, or `0` if the vehicle failed to be created.
+A script handle (fwScriptGuid index) for the ped, or `0` if the ped failed to be created.
