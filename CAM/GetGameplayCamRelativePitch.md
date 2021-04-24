@@ -8,5 +8,11 @@ ns: CAM
 float GET_GAMEPLAY_CAM_RELATIVE_PITCH();
 ```
 
-
 ## Return value
+Returns the gameplay camera pitch
+
+## Examples
+```lua
+local pitch = GetGameplayCamRelativePitch()
+print("LocalPlayer pitch: " .. pitch)
+```
