@@ -18,7 +18,9 @@ To make this work in most menu bases at least in C++ do it like so,
 -----------------------------------  
 Example: gtaforums.com/topic/789788-function-args-to-pedget-ped-nearby-peds/?p=1067386687  
 Here's the right way to do it (console and pc):  
-pastebin.com/SsFej963  
+pastebin.com/SsFej963
+-----------------------------------  
+This function is not supported in Fivem and will not work
 ```
 
 ## Parameters
