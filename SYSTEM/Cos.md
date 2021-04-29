@@ -8,8 +8,23 @@ ns: SYSTEM
 float COS(float value);
 ```
 
+```
+Returns the cosine of the given number.
+
+```
 
 ## Parameters
-* **value**: 
+* **value**: The number of degrees (in degrees, not radians)
 
 ## Return value
+
+
+## Examples
+```lua
+-- Get the heading
+local heading = GetEntityHeading(PlayerPedId())
+local cos = Cos(heading)
+
+-- equivalent in lua
+local cosLua = math.cos(heading * (math.pi / 180))
+```
