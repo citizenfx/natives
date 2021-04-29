@@ -17,7 +17,7 @@ Returns the cosine of the given number.
 * **value**: The number of degrees (in degrees, not radians)
 
 ## Return value
-
+The cosine of the given number
 
 ## Examples
 ```lua
