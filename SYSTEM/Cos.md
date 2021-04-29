@@ -10,7 +10,6 @@ float COS(float value);
 
 ```
 Returns the cosine of the given number.
-
 ```
 
 ## Parameters
