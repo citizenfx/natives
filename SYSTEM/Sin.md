@@ -10,6 +10,17 @@ float SIN(float value);
 
 
 ## Parameters
-* **value**: 
+* **value**: The number of degrees (in degrees, not radians)
 
 ## Return value
+The sine of the given number
+
+## Examples
+```lua
+-- Get the heading
+local heading = GetEntityHeading(PlayerPedId())
+local cos = Sin(heading)
+
+-- equivalent in lua
+local cosLua = math.sin(heading * (math.pi / 180))
+```
