@@ -19,3 +19,6 @@ local localPlayerPed = GetPlayerPed(-1)
 local localVehicle = GetVehiclePedIsIn(localPlayerPed, false)
 SetVehicleFixed(localVehicle)
 ```
+
+## Potential issues
+Looping this on a monster truck will eventually crash the game (memory leak). Needs further investigation.
