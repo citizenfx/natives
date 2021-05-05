@@ -8,9 +8,7 @@ ns: SYSTEM
 float SIN(float value);
 ```
 
-```
 Returns the sine of the given number.
-```
 
 ## Parameters
 * **value**: The number of degrees (in degrees, not radians)
@@ -22,8 +20,8 @@ The sine of the given number
 ```lua
 -- Get the heading
 local heading = GetEntityHeading(PlayerPedId())
-local cos = Sin(heading)
+local sin = Sin(heading)
 
 -- equivalent in lua
-local cosLua = math.sin(heading * (math.pi / 180))
+local sinLua = math.sin(heading * (math.pi / 180))
 ```
