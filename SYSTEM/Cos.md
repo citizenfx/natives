@@ -8,9 +8,7 @@ ns: SYSTEM
 float COS(float value);
 ```
 
-```
 Returns the cosine of the given number.
-```
 
 ## Parameters
 * **value**: The number of degrees (in degrees, not radians)
