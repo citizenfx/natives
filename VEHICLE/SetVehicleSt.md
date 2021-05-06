@@ -25,9 +25,8 @@ void func_1338(int iParam0)//Position
 SET_DISABLE_*
 Disables a vehicle flag when p1 is true.
 It appears that the CTrain constructor has the flag NOT set.
-This is much like as if the native was called like _SET_VEHICLE_ST(train, true), which disables the bit.
-Most vehicles do actually have this bit set by default, unlike trains. It modifies the same byte (x360) as SET_DISABLE_PRETEND_OCCUPANTS, SET_DISABLE_VEHICLE_PETROL_TANK_FIRES, SET_DISABLE_VEHICLE_PETROL_TANK_DAMAGE, SET_DISABLE_VEHICLE_ENGINE_FIRES, 0x847F1304, 0x486C1280, and 0x40C323AE. although it is not the same bit.
-I was unable to find where this was being used, to manipulate vehicle behaviour.
+This is much like as if the native was called like _SET_VEHICLE_ST(train, true), which clears the bit.
+Most vehicles do actually have this bit set by default, unlike trains. It modifies the same byte (xbox360) as SET_DISABLE_PRETEND_OCCUPANTS, SET_DISABLE_VEHICLE_PETROL_TANK_FIRES, SET_DISABLE_VEHICLE_PETROL_TANK_DAMAGE, SET_DISABLE_VEHICLE_ENGINE_FIRES, 0x847F1304, 0x486C1280, and 0x40C323AE. although it is not the same bit.
 ```
 
 ## Parameters
