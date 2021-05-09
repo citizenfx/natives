@@ -8,9 +8,9 @@ ns: MISC
 BOOL IS_BULLET_IN_ANGLED_AREA(float x1, float y1, float z1, float x2, float y2, float z2, float width, BOOL ownedByPlayer);
 ```
 
-See [IS_POINT_IN_ANGLED_AREA](#_0x2A70BAE8883E4C81) for the definition of an angled area.
+See [`IS_POINT_IN_ANGLED_AREA`](#_0x2A70BAE8883E4C81) for the definition of an angled area.
 
-For projectiles, see: [IS_PROJECTILE_TYPE_IN_ANGLED_AREA](#_0xF0BC12401061DEA0)
+For projectiles, see: [`IS_PROJECTILE_TYPE_IN_ANGLED_AREA`](#_0xF0BC12401061DEA0)
 
 ## Parameters
 * **x1**: X dimension of the angled area 'origin'

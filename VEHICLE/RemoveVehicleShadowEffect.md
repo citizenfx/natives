@@ -9,7 +9,7 @@ aliases: ["0xF87D9F2301F7D206"]
 void _REMOVE_VEHICLE_SHADOW_EFFECT(Vehicle vehicle);
 ```
 
-Remove the weird shadow applied by [0xF0E4BA16D1DB546C](#_0xF0E4BA16D1DB546C).
+Remove the weird shadow applied by [_SET_VEHICLE_SHADOW_EFFECT](#_0x2A70BAE8883E4C81)
 
 ## Parameters
 * **vehicle**: 

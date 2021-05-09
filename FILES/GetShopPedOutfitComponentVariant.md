@@ -10,14 +10,12 @@ BOOL GET_SHOP_PED_OUTFIT_COMPONENT_VARIANT(Any outfit, int slot, Any* item);
 ```
 
 ```
-outfit = a structure passing though it - see GET_SHOP_PED_QUERY_OUTFIT  
-slot - outfit slot  
 item - hold 3 ints in a struct, you can use Vector3 structure  
 ```
 
 ## Parameters
-* **outfit**: 
-* **slot**: 
+* **outfit**: A structure, see [`GET_SHOP_PED_QUERY_OUTFIT`](#_0x6D793F03A631FE56).
+* **slot**: outfit slot.
 * **item**: 
 
 ## Return value

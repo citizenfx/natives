@@ -8,12 +8,8 @@ ns: DECORATOR
 BOOL DECOR_IS_REGISTERED_AS_TYPE(char* propertyName, int type);
 ```
 
-```
-type: see DECOR_REGISTER
-```
-
 ## Parameters
 * **propertyName**: 
-* **type**: 
+* **type**: See [`DECOR_REGISTER`](#_0x9FD90732F56403CE).
 
 ## Return value

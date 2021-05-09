@@ -14,7 +14,7 @@ Returns a handle to the first entity within the a circle spawned inside the 2 po
 ```
 
 ## Parameters
-* **explosionType**: See ADD_EXPLOSION.
+* **explosionType**: See [`ADD_EXPLOSION`](#_0xE3AD2BDBAEE269AC).
 * **x1**: 
 * **y1**: 
 * **z1**: 

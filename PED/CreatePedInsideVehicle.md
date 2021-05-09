@@ -8,13 +8,9 @@ ns: PED
 Ped CREATE_PED_INSIDE_VEHICLE(Vehicle vehicle, int pedType, Hash modelHash, int seat, BOOL isNetwork, BOOL bScriptHostPed);
 ```
 
-```
-pedType: see CREATE_PED
-```
-
 ## Parameters
 * **vehicle**: 
-* **pedType**: 
+* **pedType**: See [`CREATE_PED`](#_0xD49F9B0955C367DE)
 * **modelHash**: 
 * **seat**: 
 * **isNetwork**: 
