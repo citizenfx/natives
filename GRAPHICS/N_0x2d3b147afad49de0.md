@@ -5,30 +5,26 @@ ns: GRAPHICS
 
 ```c
 // 0x2D3B147AFAD49DE0
-void _0x2D3B147AFAD49DE0(char*  textureDict, char* textureName, float p2, float p3, float p4, float p5, float p6, float p7, int red, int green, int blue, int alpha);
+void _0x2D3B147AFAD49DE0(char* textureDict, char* textureName, float x, float y, float width, float height, float p6, int red, int green, int blue, int alpha, int p11);
 ```
 
-
-Used in arcade games and Beam hack minigame in Doomsday Heist. I will most certainly dive into this to try replicate arcade games.
-
-It has 12 paramaters not 11.
-
-_NativeD B Introduced: v1290_
-
+```
+NativeDB Introduced: v1290
+```
 
 ## Parameters
 * **textureDict**: inside script_txds.rpf, browse it with OpenIV
 * **textureName**: textureName
-* **p2**: float seems to be always returning 0.0 but not quite sure
-* **p3**: mostly -1 float
-* **p4**: something related to aspect ratio and looks like integer but can be float too ?
-* **p5**: float
+* **x**: a value between 0.0 and 1.0 (1.0 being the most right side of the screen)
+* **y**: a value between 0.0 and 1.0 (1.0 being the most bottom side of the screen)
+* **width**: 0.0 - 1.0 is the reasonable amount generally
+* **height**: 0.0 - 1.0 is the reasonable amount generally
 * **p6**: float
-* **p7**: float
 * **red**: red color
 * **green**: green color
 * **blue**: blue color
 * **alpha**: alpha
+* **p11**:
 
 ## Examples
 
