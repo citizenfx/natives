@@ -1,14 +1,14 @@
 ---
 ns: NETWORK
+aliases: ["0xF1B84178F8674195"]
 ---
-## _0xF1B84178F8674195
+## NETWORK_SEED_RANDOM_NUMBER_GENERATOR
 
 ```c
 // 0xF1B84178F8674195 0x41702C8A
-void _0xF1B84178F8674195(Any p0);
+void NETWORK_SEED_RANDOM_NUMBER_GENERATOR(int seed);
 ```
 
-
 ## Parameters
-* **p0**: 
+* **seed**: 
 

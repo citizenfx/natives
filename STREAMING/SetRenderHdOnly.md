@@ -1,14 +1,14 @@
 ---
 ns: STREAMING
+aliases: ["0x40AEFD1A244741F2"]
 ---
-## _0x40AEFD1A244741F2
+## SET_RENDER_HD_ONLY
 
 ```c
 // 0x40AEFD1A244741F2 0x9FA4AF99
-void _0x40AEFD1A244741F2(BOOL p0);
+void SET_RENDER_HD_ONLY(BOOL toggle);
 ```
 
-
 ## Parameters
-* **p0**: 
+* **toggle**: 
 

@@ -1,15 +1,15 @@
 ---
 ns: STREAMING
+aliases: ["0x07C313F94746702C"]
 ---
-## _0x07C313F94746702C
+## STREAMVOL_IS_VALID
 
 ```c
 // 0x07C313F94746702C 0x42CFE9C0
-Any _0x07C313F94746702C(Any p0);
+BOOL STREAMVOL_IS_VALID(Any unused);
 ```
 
-
 ## Parameters
-* **p0**: 
+* **unused**: 
 
 ## Return value

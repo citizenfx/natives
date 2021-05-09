@@ -1,15 +1,15 @@
 ---
 ns: STREAMING
+aliases: ["0x7D41E9D2D17C5B2D"]
 ---
-## _0x7D41E9D2D17C5B2D
+## STREAMVOL_HAS_LOADED
 
 ```c
 // 0x7D41E9D2D17C5B2D 0x1B3521F4
-Any _0x7D41E9D2D17C5B2D(Any p0);
+BOOL STREAMVOL_HAS_LOADED(Any unused);
 ```
 
-
 ## Parameters
-* **p0**: 
+* **unused**: 
 
 ## Return value
