@@ -1,15 +1,15 @@
 ---
 ns: NETWORK
+aliases: ["0x4BA166079D658ED4"]
 ---
-## _0x4BA166079D658ED4
+## _NETWORK_SET_ENTITY_GHOSTED_WITH_OWNER
 
 ```c
 // 0x4BA166079D658ED4
-void _0x4BA166079D658ED4(Any p0, Any p1);
+void _NETWORK_SET_ENTITY_GHOSTED_WITH_OWNER(Entity entity, BOOL p1);
 ```
 
-
 ## Parameters
-* **p0**: 
+* **entity**: 
 * **p1**: 
 

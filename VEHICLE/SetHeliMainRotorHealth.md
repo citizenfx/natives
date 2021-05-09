@@ -1,15 +1,15 @@
 ---
 ns: VEHICLE
+aliases: ["0x4056EA1105F5ABD7"]
 ---
-## _0x4056EA1105F5ABD7
+## _SET_HELI_MAIN_ROTOR_HEALTH
 
 ```c
 // 0x4056EA1105F5ABD7
-void _0x4056EA1105F5ABD7(Any p0, Any p1);
+void _SET_HELI_MAIN_ROTOR_HEALTH(Vehicle vehicle, float health);
 ```
 
-
 ## Parameters
-* **p0**: 
-* **p1**: 
+* **vehicle**: 
+* **health**: 
 

@@ -1,20 +1,17 @@
 ---
 ns: PED
+aliases: ["0xF60165E1D2C5370B"]
 ---
-## _0xF60165E1D2C5370B
+## _GET_PED_CURRENT_MOVEMENT_SPEED
 
 ```c
 // 0xF60165E1D2C5370B
-BOOL _0xF60165E1D2C5370B(Ped ped, Any* p1, Any* p2);
-```
-
-```
-seems very related to aiming but GET_PED_CONFIG* to GET_PED_DECORATIONS* and no clue what it might be + no joaat to confirm
+BOOL _GET_PED_CURRENT_MOVEMENT_SPEED(Ped ped, float* speedX, float* speedY);
 ```
 
 ## Parameters
 * **ped**: 
-* **p1**: 
-* **p2**: 
+* **speedX**: 
+* **speedY**: 
 
 ## Return value

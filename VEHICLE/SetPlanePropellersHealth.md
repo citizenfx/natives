@@ -1,16 +1,16 @@
 ---
 ns: VEHICLE
+aliases: ["0x4C815EB175086F84"]
 ---
-## _0x4C815EB175086F84
+## _SET_PLANE_PROPELLERS_HEALTH
 
 ```c
 // 0x4C815EB175086F84
-Any _0x4C815EB175086F84(Any p0, Any p1);
+void _SET_PLANE_PROPELLERS_HEALTH(Vehicle plane, float health);
 ```
 
-
 ## Parameters
-* **p0**: 
-* **p1**: 
+* **plane**: 
+* **health**: 
 
 ## Return value
