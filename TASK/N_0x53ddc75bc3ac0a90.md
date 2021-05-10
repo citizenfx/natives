@@ -8,7 +8,7 @@ ns: TASK
 void _0x53DDC75BC3AC0A90(Vehicle vehicle);
 ```
 
-Related to [`_CLEAR_VEHICLE_TASKS`](#_0xDBBC7A2432524127) and requires more research(e.g., _CLEAR_VEHICLE_SECONDARY_TASKS).
+Related to [`_CLEAR_VEHICLE_TASKS`](#_0xDBBC7A2432524127) and requires more research (e.g., _CLEAR_VEHICLE_SECONDARY_TASKS).
 
 ```
 CLEAR_*

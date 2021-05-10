@@ -16,7 +16,7 @@ Sets the wind direction.
 ## Examples
 ```lua
 -- 180 degrees, wind will blow from the south
-SetWindDirection(3.1415)
+SetWindDirection(math.rad(180.0))
 ```
 
 ```cs
