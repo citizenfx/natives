@@ -8,12 +8,17 @@ ns: CAM
 int GET_FOLLOW_PED_CAM_VIEW_MODE();
 ```
 
-```
-Returns  
-0 - Third Person Close  
-1 - Third Person Mid  
-2 - Third Person Far  
-4 - First Person  
+```c
+// view mode enumeration
+enum _0xA11D7CA8
+{
+	THIRD_PERSON_NEAR = 0,
+	THIRD_PERSON_MEDIUM = 1,
+	THIRD_PERSON_FAR = 2,
+	CINEMATIC = 3,
+	FIRST_PERSON = 4,
+};
 ```
 
 ## Return value
+Returns a value from the view mode enumeration
