@@ -9,9 +9,7 @@ aliases: ["0x44A0BDC559B35F6E"]
 BOOL QUEUE_MISSION_REPEAT_SAVE();
 ```
 
-```
 Shows the screen which is visible before you redo a mission? The game will make a restoration point where you will cameback when the mission is over.
-Returns 1 if the message isn't currently on screen
-```
 
 ## Return value
+Returns 1 if the message isn't currently on screen.

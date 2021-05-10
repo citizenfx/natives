@@ -8,17 +8,7 @@ ns: VEHICLE
 void REMOVE_VEHICLE_WINDOW(Vehicle vehicle, int windowIndex);
 ```
 
-```
-windowIndex:
-0 = Front Right Window
-1 = Front Left Window
-2 = Back Right Window
-3 = Back Left Window
-4 = Unknown
-5 = Unknown
-6 = Windscreen
-7 = Rear Windscreen
-```
+See eWindowId declared in [`IS_VEHICLE_WINDOW_INTACT`](#_0x46E571A0E20D01F1).
 
 ## Parameters
 * **vehicle**: 

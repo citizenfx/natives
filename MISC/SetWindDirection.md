@@ -8,11 +8,18 @@ ns: MISC
 void SET_WIND_DIRECTION(float direction);
 ```
 
-```
-The wind direction in radians
-180 degrees, wind will blow from the south
-```
+Sets the wind direction.
 
 ## Parameters
-* **direction**: 
+* **direction**: the [wind direction](https://en.wikipedia.org/wiki/Wind_direction) in radians
 
+## Examples
+```lua
+-- 180 degrees, wind will blow from the south
+SetWindDirection(3.1415)
+```
+
+```cs
+// 180 degrees, wind will blow from the south
+SetWindDirection(3.1415f);
+```

@@ -9,10 +9,13 @@ void ADD_EXPLOSION(float x, float y, float z, int explosionType, float damageSca
 ```
 
 ```
+NativeDB Added Parameter 9: BOOL noDamage
+```
+
+```
 BOOL isAudible = If explosion makes a sound.  
-BOOL isInvisible = If the explosion is invisible or not.  
-this native is missing a new argument: noDamage  
-nodamage = false: damage || nodamage = true: no damage  
+BOOL isInvisible = If the explosion is invisible or not.
+BOOL noDamage = false: damage || nodamage = true: no damage
 enum ExplosionTypes  
 {  
 	EXPLOSION_GRENADE,  
@@ -50,12 +53,11 @@ enum ExplosionTypes
 	EXPLOSION_PLANE_ROCKET,  
 	EXPLOSION_VEHICLE_BULLET,  
 	EXPLOSION_GAS_TANK,  
-	EXPLOSION_BIRD_CRAP  
+	EXPLOSION_BIRD_CRAP,
+	EXPLOSION_FIREWORK = 38,
+	EXPLOSION_PROXIMINE = 40,
+	EXPLOSION_PIPEBOMB = 43
 };  
-```
-
-```
-NativeDB Added Parameter 9: BOOL noDamage
 ```
 
 ## Parameters

@@ -8,15 +8,7 @@ ns: VEHICLE
 BOOL IS_VEHICLE_DOOR_FULLY_OPEN(Vehicle vehicle, int doorIndex);
 ```
 
-doorIndex:
-0 = Front Left Door  
-1 = Front Right Door  
-2 = Back Left Door  
-3 = Back Right Door  
-4 = Hood  
-5 = Trunk  
-6 = Trunk2  
-
+See eDoorId declared in [`SET_VEHICLE_DOOR_SHUT`](#_0x93D9BD300D7789E5)
 
 ## Parameters
 * **vehicle**: The vehicle to check.

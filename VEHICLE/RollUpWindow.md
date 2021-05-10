@@ -8,14 +8,11 @@ ns: VEHICLE
 Any ROLL_UP_WINDOW(Vehicle vehicle, int windowIndex);
 ```
 
-0 = Front Left Window  
-1 = Front Right Window  
-2 = Back Left Window  
-3 = Back Right Window  
+See eWindowId declared in [`IS_VEHICLE_WINDOW_INTACT`](#_0x46E571A0E20D01F1).
 
-
+```
 NativeDB Return Type: void
-
+```
 
 ## Parameters
 * **vehicle**: 

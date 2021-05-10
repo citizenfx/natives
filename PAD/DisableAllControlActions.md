@@ -8,10 +8,6 @@ ns: PAD
 void DISABLE_ALL_CONTROL_ACTIONS(int padIndex);
 ```
 
-```
-padIndex: 0 (PLAYER_CONTROL), 1 (unk) and 2 (unk) used in the scripts.
-```
-
 ## Parameters
-* **padIndex**: 
+* **padIndex**: The control system instance to use. See [`ENABLE_ALL_CONTROL_ACTIONS`](#_0xA5FFE9B05F199DE7).
 

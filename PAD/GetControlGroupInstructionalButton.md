@@ -9,12 +9,8 @@ aliases: ["0x80C2FD58D720C801"]
 char* GET_CONTROL_GROUP_INSTRUCTIONAL_BUTTON(int padIndex, int controlGroup, BOOL p2);
 ```
 
-```
-padIndex: 0 (PLAYER_CONTROL), 1 (unk) and 2 (unk) used in the scripts.
-```
-
 ## Parameters
-* **padIndex**: 
+* **padIndex**: The control system instance to use. See [`ENABLE_ALL_CONTROL_ACTIONS`](#_0xA5FFE9B05F199DE7).
 * **controlGroup**: 
 * **p2**: 
 
