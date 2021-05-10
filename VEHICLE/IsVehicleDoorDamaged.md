@@ -8,9 +8,7 @@ ns: VEHICLE
 BOOL IS_VEHICLE_DOOR_DAMAGED(Vehicle veh, int doorID);
 ```
 
-```
-doorID starts at 0, not seeming to skip any numbers. Four door vehicles intuitively range from 0 to 3.  
-```
+See eDoorId declared in [`SET_VEHICLE_DOOR_SHUT`](#_0x93D9BD300D7789E5)
 
 ## Parameters
 * **veh**: 

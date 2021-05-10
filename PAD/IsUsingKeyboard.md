@@ -9,12 +9,7 @@ aliases: ["_GET_LAST_INPUT_METHOD","_IS_INPUT_DISABLED"]
 BOOL _IS_USING_KEYBOARD(int padIndex);
 ```
 
-```
-padIndex: 0 (PLAYER_CONTROL), 1 (unk) and 2 (unk) used in the scripts.
-Used to be known as _GET_LAST_INPUT_METHOD & _IS_INPUT_DISABLED
-```
-
 ## Parameters
-* **padIndex**: 
+* **padIndex**: The control system instance to use. See [`ENABLE_ALL_CONTROL_ACTIONS`](#_0xA5FFE9B05F199DE7).
 
 ## Return value

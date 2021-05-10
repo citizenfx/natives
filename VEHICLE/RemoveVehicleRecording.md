@@ -8,9 +8,7 @@ ns: VEHICLE
 void REMOVE_VEHICLE_RECORDING(int recording, char* script);
 ```
 
-```
-See REQUEST_VEHICLE_RECORDING
-```
+See [REQUEST_VEHICLE_RECORDING](#_0xAF514CABE74CBF15)
 
 ## Parameters
 * **recording**: 

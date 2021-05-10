@@ -8,7 +8,7 @@ ns: MISC
 BOOL IS_PROJECTILE_TYPE_IN_ANGLED_AREA(float x1, float y1, float z1, float x2, float y2, float z2, float width, float p6, Any p7, BOOL ownedByPlayer);
 ```
 
-See [IS_POINT_IN_ANGLED_AREA](#_0x2A70BAE8883E4C81) for the definition of an angled area.
+See [`IS_POINT_IN_ANGLED_AREA`](#_0x2A70BAE8883E4C81) for the definition of an angled area.
 
 ```
 NativeDB Parameter 7: Hash weaponHash

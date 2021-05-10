@@ -8,8 +8,9 @@ ns: ENTITY
 BOOL IS_ENTITY_PLAYING_ANIM(Entity entity, char* animDict, char* animName, int taskFlag);
 ```
 
+See also [`IS_SCRIPTED_SCENARIO_PED_USING_CONDITIONAL_ANIM`](#_0x6EC47A344923E1ED)
+
 ```
-See also PED::IS_SCRIPTED_SCENARIO_PED_USING_CONDITIONAL_ANIM 0x6EC47A344923E1ED 0x3C30B447  
 Taken from ENTITY::IS_ENTITY_PLAYING_ANIM(PLAYER::PLAYER_PED_ID(), "creatures@shark@move", "attack_player", 3)  
 p4 is always 3 in the scripts.  
 taskFlag:  

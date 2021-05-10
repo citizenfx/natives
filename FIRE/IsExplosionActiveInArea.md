@@ -11,7 +11,7 @@ BOOL IS_EXPLOSION_ACTIVE_IN_AREA(int explosionType, float x1, float y1, float z1
 
 
 ## Parameters
-* **explosionType**: See ADD_EXPLOSION. 
+* **explosionType**: See [`ADD_EXPLOSION`](#_0xE3AD2BDBAEE269AC).
 * **x1**: 
 * **y1**: 
 * **z1**: 

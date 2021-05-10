@@ -16,4 +16,4 @@ NativeDB Introduced: v1290
 ```
 
 ## Parameters
-* **vehicle**:
+* **vehicle**: The vehicle to have tasks cleared

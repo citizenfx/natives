@@ -8,17 +8,11 @@ ns: ENTITY
 void SET_ENTITY_ROTATION(Entity entity, float pitch, float roll, float yaw, int rotationOrder, BOOL p5);
 ```
 
-```
-rotationOrder refers to the order yaw pitch roll is applied, see [GET_ENTITY_ROTATION](#_0xAFBD61CC738D9EB9)
-
-p5 is usually set as true
-```
-
 ## Parameters
 * **entity**: 
 * **pitch**: 
 * **roll**: 
 * **yaw**: 
-* **rotationOrder**: 
+* **rotationOrder**: The order yaw pitch roll are applied, see [`GET_ENTITY_ROTATION`](#_0xAFBD61CC738D9EB9).
 * **p5**: 
 

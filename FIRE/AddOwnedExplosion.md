@@ -13,7 +13,7 @@ void ADD_OWNED_EXPLOSION(Ped ped, float x, float y, float z, int explosionType, 
 * **x**: 
 * **y**: 
 * **z**: 
-* **explosionType**:  See ADD_EXPLOSION.
+* **explosionType**: See [`ADD_EXPLOSION`](#_0xE3AD2BDBAEE269AC).
 * **damageScale**: 
 * **isAudible**:  If explosion makes a sound.
 * **isInvisible**: If the explosion is invisible or not.

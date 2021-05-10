@@ -9,9 +9,7 @@ aliases: ["_STOP_SCREEN_EFFECT"]
 void ANIMPOSTFX_STOP(char* effectName);
 ```
 
-```
-See ANIMPOSTFX_PLAY
-```
+See [`ANIMPOSTFX_PLAY`](#_0x2206BF9A37B7F724).
 
 ## Parameters
 * **effectName**: 

@@ -8,13 +8,8 @@ ns: PAD
 float GET_DISABLED_CONTROL_NORMAL(int padIndex, int control);
 ```
 
-```
-control - c# works with (int)GTA.Control.CursorY / (int)GTA.Control.CursorX and returns the mouse movement (additive).
-padIndex: 0 (PLAYER_CONTROL), 1 (unk) and 2 (unk) used in the scripts.
-```
-
 ## Parameters
-* **padIndex**: 
-* **control**: 
+* **padIndex**: The control system instance to use. See [`ENABLE_ALL_CONTROL_ACTIONS`](#_0xA5FFE9B05F199DE7).
+* **control**: The [control ID](https://docs.fivem.net/docs/game-references/controls/#controls) to check.
 
 ## Return value

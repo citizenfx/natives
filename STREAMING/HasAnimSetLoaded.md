@@ -8,12 +8,11 @@ ns: STREAMING
 BOOL HAS_ANIM_SET_LOADED(char* animSet);
 ```
 
-```
-Gets whether the specified animation set has finished loading. An animation set provides movement animations for a ped. See SET_PED_MOVEMENT_CLIPSET.  
-Animation set and clip set are synonymous.  
-```
+Gets whether the specified animation set has finished loading. An animation set provides movement animations for a ped.
+
+Animation set and clip set are synonymous. See [`SET_PED_MOVEMENT_CLIPSET`](#_0xAF8A94EDE7712BEF).
 
 ## Parameters
-* **animSet**: 
+* **animSet**:
 
 ## Return value

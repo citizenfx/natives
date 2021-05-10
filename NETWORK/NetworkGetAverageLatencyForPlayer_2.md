@@ -1,0 +1,21 @@
+---
+ns: NETWORK
+aliases: ["0x0E3A041ED6AC2B45"]
+---
+## _NETWORK_GET_AVERAGE_LATENCY_FOR_PLAYER_2
+
+```c
+// 0x0E3A041ED6AC2B45
+float _NETWORK_GET_AVERAGE_LATENCY_FOR_PLAYER_2(Player player);
+```
+
+```
+Same as _NETWORK_GET_AVERAGE_LATENCY_FOR_PLAYER (0xD414BE129BB81B32)
+```
+
+```
+NativeDB Introduced: v323
+```
+
+## Parameters
+* **player**:

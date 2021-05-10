@@ -8,13 +8,7 @@ ns: CAM
 void SET_FOLLOW_PED_CAM_VIEW_MODE(int viewMode);
 ```
 
-```
-Sets the type of Player camera:  
-0 - Third Person Close  
-1 - Third Person Mid  
-2 - Third Person Far  
-4 - First Person  
-```
+See [`GET_FOLLOW_PED_CAM_VIEW_MODE`](#_0x8D4D46230B2C353A) for the follow mode enum.
 
 ## Parameters
 * **viewMode**: 

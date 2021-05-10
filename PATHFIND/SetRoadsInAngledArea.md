@@ -10,7 +10,7 @@ void SET_ROADS_IN_ANGLED_AREA(float x1, float y1, float z1, float x2, float y2, 
 
 unknown3 is related to ``SEND_SCRIPT_WORLD_STATE_EVENT > CNetworkRoadNodeWorldStateData`` in networked environments.
 
-See [IS_POINT_IN_ANGLED_AREA](#_0x2A70BAE8883E4C81) for the definition of an angled area.
+See [`IS_POINT_IN_ANGLED_AREA`](#_0x2A70BAE8883E4C81) for the definition of an angled area.
 
 ## Parameters
 * **x1**: X dimension of the angled area 'origin'

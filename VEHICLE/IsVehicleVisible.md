@@ -8,10 +8,6 @@ ns: VEHICLE
 BOOL IS_VEHICLE_VISIBLE(Vehicle vehicle);
 ```
 
-```
-must be called after TRACK_VEHICLE_VISIBILITY   
-it's not instant so probabilly must pass an 'update' to see correct result.  
-```
 
 ## Parameters
 * **vehicle**: 

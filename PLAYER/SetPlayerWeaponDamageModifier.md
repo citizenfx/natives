@@ -8,10 +8,7 @@ ns: PLAYER
 void SET_PLAYER_WEAPON_DAMAGE_MODIFIER(Player player, float modifier);
 ```
 
-```
-This modifies the damage value of your weapon. Whether it is a multiplier or base damage is unknown.   
-Based on tests, it is unlikely to be a multiplier.  
-```
+The native ensures the 'modifier' parameter is 0.1 or greater.
 
 ## Parameters
 * **player**: 

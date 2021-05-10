@@ -1,0 +1,19 @@
+---
+ns: NETWORK
+aliases: ["0x16D3D49902F697BB"]
+---
+## _NETWORK_IS_CONNECTION_ENDPOINT_RELAY_SERVER
+
+```c
+// 0x16D3D49902F697BB
+BOOL _NETWORK_IS_CONNECTION_ENDPOINT_RELAY_SERVER(Player player);
+```
+
+```
+NETWORK_IS_*
+
+NativeDB Introduced: v323
+```
+
+## Parameters
+* **player**:
