@@ -15,7 +15,7 @@ Landing gear states:
 1: Closing (Retracting)
 3: Opening (Deploying)
 4: Retracted  
-5: Closed
+5: Broken
 ```
 
 Landing gear state 2 is never used.
