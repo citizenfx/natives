@@ -9,10 +9,9 @@ int GET_TIMECYCLE_MODIFIER_INDEX();
 ```
 
 ```
-Only use for this in the PC scripts is:  
-if (GRAPHICS::GET_TIMECYCLE_MODIFIER_INDEX() != -1)  
-For a full list, see here: pastebin.com/cnk7FTF2  
-can someone update this pastebin???  
+Only use for this in the PC scripts is:
+if (GRAPHICS::GET_TIMECYCLE_MODIFIER_INDEX() != -1)
+For a full list, see here: pastebin.com/cnk7FTF2
 ```
 
 ## Return value

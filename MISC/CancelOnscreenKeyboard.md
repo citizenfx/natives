@@ -10,5 +10,7 @@ void _CANCEL_ONSCREEN_KEYBOARD();
 ```
 
 ```
-Cancels an onscreen keyboard, if available.
+DO NOT use this as it doesn't clean up the text input box properly and your script will get stuck in the UPDATE_ONSCREEN_KEYBOARD() loop.
+Use _FORCE_CLOSE_TEXT_INPUT_BOX instead.
+CANCEL_*
 ```

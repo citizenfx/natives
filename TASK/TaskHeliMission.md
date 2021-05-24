@@ -9,39 +9,23 @@ void TASK_HELI_MISSION(Ped pilot, Vehicle aircraft, Vehicle targetVehicle, Ped t
 ```
 
 ```
-EDITED (8/16/2017)  
-DESCRIPTION:  
-Allow a ped to fly to a specific destination.  
-USAGE:  
--- REQUIRED --  
-• pilot = The ped flying the aircraft.  
-• aircraft = The aircraft the pilot is flying.  
--- OPTIONAL -- [atleast 1 must be assigned]  
-• targetVehicle = The vehicle the pilot will target.  
-• targetPed = The ped the pilot will target.  
-• destinationX, destinationY, destinationZ = The location the pilot will target.  
--- LOGIC --  
-• missionFlag = The type of mission.  
-• maxSpeed = The speed in mph that the pilot will limit his/her self to while flying.  
-• landingRadius = The distance from the destination that the pilot must be to land.  
-• targetHeading = The heading that the pilot will try to achieve while flying.  
-• unk1, unk2 = Set to -1 and it will be okay.  
-• unk3 = I'm almost sure this is a vehicle record/waypoint recording hash. A value of -1 is for none. Maybe it's a float? Idk.  
-• landingFlags = Bit flags used for landing. All I know is:  
-0 = Hover over the destination.  
-32 = Land on destination.  
-1024 = Erratic, crash into nearby obstacles.  
-4096 = Rushed movement + Hover over destination  
-Known Mission Types:  
-4 = FlyToCoord  
-8 = FleeFromPed  
-9 = CircleAroundTarget  
-10 = CopyTargetHeading  
-20 = LandNearPed  
-21 = Crash  
-Example C#:  
-Function.Call(Hash.TASK_HELI_MISSION, driver, heli, 0, 0, position.X, position.Y, position.Z, 4, 50.0, 10.0, (position - heli.Position).ToHeading(), -1, -1, -1, 32);  
-OLD USAGE: pastebin.com/ndkSjaaW  
+Needs more research.
+Default value of p13 is -1.0 or 0xBF800000.
+Default value of p14 is 0.
+Modified examples from "fm_mission_controller.ysc", line ~203551:
+TASK::TASK_HELI_MISSION(ped, vehicle, 0, 0, posX, posY, posZ, 4, 1.0, -1.0, -1.0, 10, 10, 5.0, 0);
+TASK::TASK_HELI_MISSION(ped, vehicle, 0, 0, posX, posY, posZ, 4, 1.0, -1.0, -1.0, 0, ?, 5.0, 4096);
+int mode seams to set mission type 4 = coords target, 23 = ped target.
+int 14 set to 32 = ped will land at destination.
+My findings:
+mode 4 or 7 forces heli to snap to the heading set
+8 makes the heli flee from the ped.
+9 circles around ped with angle set
+10, 11 normal + imitate ped heading
+20 makes the heli land when he's near the ped. It won't resume chasing.
+21 emulates an helicopter crash
+23 makes the heli circle erratically around ped
+I change p2 to 'vehicleToFollow' as it seems to work like the task natives to set targets. In the heli_taxi script where as the merryweather heli takes you to your waypoint it has no need to follow a vehicle or a ped, so of course both have 0 set.
 ```
 
 ## Parameters

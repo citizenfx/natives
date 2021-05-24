@@ -10,12 +10,11 @@ float GET_CONTROL_UNBOUND_NORMAL(int padIndex, int control);
 ```
 
 ```
-Seems to return values between -1 and 1 for controls like gas and steering.  
-0, 1 and 2 used in the scripts. 0 is by far the most common of them.  
+Seems to return values between -1 and 1 for controls like gas and steering.
 ```
 
 ## Parameters
-* **padIndex**: 
-* **control**: 
+* **padIndex**: The control system instance to use. See [`ENABLE_ALL_CONTROL_ACTIONS`](#_0xA5FFE9B05F199DE7).
+* **control**: The [control ID](https://docs.fivem.net/docs/game-references/controls/#controls) to check.
 
 ## Return value

@@ -1,0 +1,14 @@
+---
+ns: GRAPHICS
+aliases: ["0x15E33297C3E8DC60"]
+---
+## REMOVE_TCMODIFIER_OVERRIDE
+
+```c
+// 0x15E33297C3E8DC60 0x805BAB08
+void REMOVE_TCMODIFIER_OVERRIDE(char* p0);
+```
+
+## Parameters
+* **p0**: 
+

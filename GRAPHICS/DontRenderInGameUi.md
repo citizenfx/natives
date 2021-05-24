@@ -1,0 +1,14 @@
+---
+ns: GRAPHICS
+aliases: ["0x22A249A53034450A"]
+---
+## DONT_RENDER_IN_GAME_UI
+
+```c
+// 0x22A249A53034450A 0x932FDB81
+void DONT_RENDER_IN_GAME_UI(BOOL p0);
+```
+
+## Parameters
+* **p0**: 
+

@@ -8,11 +8,10 @@ ns: PLAYER
 char* GET_PLAYER_NAME(Player player);
 ```
 
-```
-Returns the players name  
-```
+Returns the players name from a specified player index
 
 ## Parameters
-* **player**: 
+* **player**: The player index, or -1 to get the local player ped.
 
 ## Return value
+The name of the queried player. "**Invalid**" if the player does not exist.

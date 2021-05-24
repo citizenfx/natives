@@ -9,10 +9,6 @@ aliases: ["0x71B74D2AE19338D0"]
 BOOL IS_CUTSCENE_PLAYBACK_FLAG_SET(int flag);
 ```
 
-```
-It's 100% an IS_CUTSCENE_* native.  
-```
-
 ## Parameters
 * **flag**: 
 

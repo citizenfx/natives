@@ -10,7 +10,7 @@ void GET_UTC_TIME(int* year, int* month, int* day, int* hour, int* minute, int* 
 ```
 
 ```
-gets current UTC time  
+Gets current UTC time
 ```
 
 ## Parameters

@@ -9,8 +9,7 @@ void SET_VEHICLE_SEARCHLIGHT(Vehicle heli, BOOL toggle, BOOL canBeUsedByAI);
 ```
 
 ```
-Only works during nighttime.  
-And only if there is a driver in heli.  
+Only works during nighttime.
 ```
 
 ## Parameters

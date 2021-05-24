@@ -9,10 +9,6 @@ aliases: ["0xE43A13C9E4CCCBCF"]
 void _BLOCK_PED_DEAD_BODY_SHOCKING_EVENTS(Ped ped, BOOL toggle);
 ```
 
-```
-Related toggling CEventShockingDeadBody
-```
-
 ## Parameters
 * **ped**: 
 * **toggle**: 

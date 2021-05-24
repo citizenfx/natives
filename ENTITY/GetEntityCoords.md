@@ -2,7 +2,6 @@
 ns: ENTITY
 apiset: client
 ---
-
 ## GET_ENTITY_COORDS
 
 ```c
@@ -10,12 +9,11 @@ apiset: client
 Vector3 GET_ENTITY_COORDS(Entity entity, BOOL alive);
 ```
 
-Gets the current coordinates for a specified entity.
+Gets the current coordinates (world position) for a specified entity.
 
 ## Parameters
-
-- **entity**: The entity to get the coordinates from.
-- **alive**: Unused by the game, potentially used by debug builds of GTA in order to assert whether or not an entity was alive.
+* **entity**: The entity to get the coordinates from.
+* **alive**: Unused by the game, potentially used by debug builds of GTA in order to assert whether or not an entity was alive.
 
 ## Return value
 

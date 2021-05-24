@@ -1,0 +1,15 @@
+---
+ns: VEHICLE
+aliases: ["0x1AA8A837D2169D94","_SET_VEHICLE_LIGHTS_CAN_BE_VISIBLY_DAMAGED"]
+---
+## SET_VEHICLE_HAS_UNBREAKABLE_LIGHTS
+
+```c
+// 0x1AA8A837D2169D94 0x009AB49E
+void SET_VEHICLE_HAS_UNBREAKABLE_LIGHTS(Vehicle vehicle, BOOL p1);
+```
+
+## Parameters
+* **vehicle**: 
+* **p1**: 
+

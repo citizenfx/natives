@@ -8,20 +8,8 @@ ns: DECORATOR
 BOOL DECOR_IS_REGISTERED_AS_TYPE(char* propertyName, int type);
 ```
 
-```
-Is property of that type.  
-enum eDecorType  
-{  
-	DECOR_TYPE_FLOAT = 1,  
-	DECOR_TYPE_BOOL,  
-	DECOR_TYPE_INT,  
-	DECOR_TYPE_UNK,  
-	DECOR_TYPE_TIME  
-};  
-```
-
 ## Parameters
 * **propertyName**: 
-* **type**: 
+* **type**: See [`DECOR_REGISTER`](#_0x9FD90732F56403CE).
 
 ## Return value

@@ -1,0 +1,12 @@
+---
+ns: STREAMING
+aliases: ["0xBC9823AB80A3DCAC"]
+---
+## IS_STREAMVOL_ACTIVE
+
+```c
+// 0xBC9823AB80A3DCAC 0x56253356
+BOOL IS_STREAMVOL_ACTIVE();
+```
+
+## Return value

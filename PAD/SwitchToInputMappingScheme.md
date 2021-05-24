@@ -10,7 +10,8 @@ BOOL _SWITCH_TO_INPUT_MAPPING_SCHEME(char* name);
 ```
 
 ```
-Used in carsteal3 script with p0 = "Carsteal4_spycar".  
+Used in carsteal3 script with p0 = "Carsteal4_spycar".
+S*
 ```
 
 ## Parameters

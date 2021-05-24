@@ -9,7 +9,3 @@ aliases: ["0xA8FDB297A8D25FBA"]
 void THEFEED_FLUSH_QUEUE();
 ```
 
-```
-Requires _GAMESTREAM_SHOW_CONTENT to be set.
-```
-

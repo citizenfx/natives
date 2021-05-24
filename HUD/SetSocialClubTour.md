@@ -10,10 +10,10 @@ void SET_SOCIAL_CLUB_TOUR(char* name);
 ```
 
 ```
-UI::0x7AD67C95("Gallery");  
-UI::0x7AD67C95("Missions");  
-UI::0x7AD67C95("General");  
-UI::0x7AD67C95("Playlists");  
+HUD::SET_SOCIAL_CLUB_TOUR("Gallery");
+HUD::SET_SOCIAL_CLUB_TOUR("Missions");
+HUD::SET_SOCIAL_CLUB_TOUR("General");
+HUD::SET_SOCIAL_CLUB_TOUR("Playlists");
 ```
 
 ## Parameters

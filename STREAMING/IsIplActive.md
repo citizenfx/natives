@@ -8,9 +8,6 @@ ns: STREAMING
 BOOL IS_IPL_ACTIVE(char* iplName);
 ```
 
-```
-List of all IPLs: pastebin.com/iNGLY32D  
-```
 
 ## Parameters
 * **iplName**: 

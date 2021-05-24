@@ -9,7 +9,7 @@ void REQUEST_MODEL(Hash model);
 ```
 
 ```
-Request a model to be loaded into memory  
+Request a model to be loaded into memory.
 ```
 
 ## Parameters

@@ -9,7 +9,7 @@ void CLEAR_AREA_OF_PEDS(float x, float y, float z, float radius, int flags);
 ```
 
 ```
-Example: 		CLEAR_AREA_OF_PEDS(0, 0, 0, 10000, 1);  
+Example:       CLEAR_AREA_OF_PEDS(0, 0, 0, 10000, 1);
 ```
 
 ## Parameters

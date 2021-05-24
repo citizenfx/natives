@@ -8,10 +8,6 @@ ns: PHYSICS
 BOOL DOES_ROPE_EXIST(int* ropeId);
 ```
 
-```
-Ptr is correct  
-```
-
 ## Parameters
 * **ropeId**: 
 

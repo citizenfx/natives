@@ -8,9 +8,7 @@ ns: TASK
 int GET_NAVMESH_ROUTE_RESULT(Ped ped);
 ```
 
-```
-See GET_NAVMESH_ROUTE_DISTANCE_REMAINING for more details.  
-```
+See [`GET_NAVMESH_ROUTE_DISTANCE_REMAINING`](#_0xC6F5C0BCDC74D62D) for more details.  
 
 ## Parameters
 * **ped**: 

@@ -10,8 +10,7 @@ void SHAKE_SCRIPT_GLOBAL(char* p0, float p1);
 ```
 
 ```
-Something to do with shake:  
-CAM::_F4C8CF9E353AFECA("HAND_SHAKE", 0.2);  
+CAM::SHAKE_SCRIPT_GLOBAL("HAND_SHAKE", 0.2);
 ```
 
 ## Parameters

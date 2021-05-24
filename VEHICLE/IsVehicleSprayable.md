@@ -10,7 +10,7 @@ BOOL IS_VEHICLE_SPRAYABLE(Vehicle vehicle);
 ```
 
 ```
-Checks for FLAG_NO_RESPRAY  
+Returns false if the vehicle has the FLAG_NO_RESPRAY flag set.
 ```
 
 ## Parameters

@@ -9,11 +9,11 @@ void DELETE_PATROL_ROUTE(char* patrolRoute);
 ```
 
 ```
-From the b617d scripts:  
-AI::DELETE_PATROL_ROUTE("miss_merc0");  
-AI::DELETE_PATROL_ROUTE("miss_merc1");  
-AI::DELETE_PATROL_ROUTE("miss_merc2");  
-AI::DELETE_PATROL_ROUTE("miss_dock");  
+From the b617d scripts:
+TASK::DELETE_PATROL_ROUTE("miss_merc0");
+TASK::DELETE_PATROL_ROUTE("miss_merc1");
+TASK::DELETE_PATROL_ROUTE("miss_merc2");
+TASK::DELETE_PATROL_ROUTE("miss_dock");
 ```
 
 ## Parameters

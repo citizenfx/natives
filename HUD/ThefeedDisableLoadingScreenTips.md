@@ -1,0 +1,13 @@
+---
+ns: HUD
+aliases: ["0x32888337579A5970","_THEFEED_DISABLE"]
+---
+## _THEFEED_DISABLE_LOADING_SCREEN_TIPS
+
+```c
+// 0x32888337579A5970
+void _THEFEED_DISABLE_LOADING_SCREEN_TIPS();
+```
+
+Stops loading screen tips shown by invoking either `0x488043841BBE156F` or `0x15CFA549788D35EF`
+

@@ -9,8 +9,8 @@ float GET_DISTANCE_BETWEEN_COORDS(float x1, float y1, float z1, float x2, float 
 ```
 
 Returns the distance between two three-dimensional points, optionally ignoring the Z values.
-
-You'll most likely want to use your language's native vector functionality instead.
+If useZ is false, only the 2D plane (X-Y) will be considered for calculating the distance.
+Consider using this faster native instead: SYSTEM::VDIST - DVIST always takes in consideration the 3D coordinates.
 
 ## Parameters
 * **x1**: The X coordinate of the first point.

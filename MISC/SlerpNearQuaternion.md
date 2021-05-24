@@ -9,7 +9,7 @@ aliases: ["0xF2F6A2FA49278625"]
 void SLERP_NEAR_QUATERNION(float t, float x, float y, float z, float w, float x1, float y1, float z1, float w1, float* outX, float* outY, float* outZ, float* outW);
 ```
 
-This native always come right before SetEntityQuaternion where its final 4 parameters are SlerpNearQuaternion p9 to p12
+This native always come right before SET_ENTITY_QUATERNION where its final 4 parameters are SLERP_NEAR_QUATERNION p9 to p12
 
 ## Parameters
 * **t**: acceleration differenzial (am_rollercoaster.c func_134)

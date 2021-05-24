@@ -9,11 +9,11 @@ Blip ADD_BLIP_FOR_ENTITY(Entity entity);
 ```
 
 ```
-Returns red ( default ) blip attached to entity.  
-Example:  
-Blip blip; //Put this outside your case or option  
-blip = UI::ADD_BLIP_FOR_ENTITY(YourPedOrBodyguardName);  
-UI::SET_BLIP_AS_FRIENDLY(blip, true);  
+Returns red ( default ) blip attached to entity.
+Example:
+Blip blip; //Put this outside your case or option
+blip = HUD::ADD_BLIP_FOR_ENTITY(YourPedOrBodyguardName);
+HUD::SET_BLIP_AS_FRIENDLY(blip, true);
 ```
 
 ## Parameters

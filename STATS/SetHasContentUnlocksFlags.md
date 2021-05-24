@@ -10,7 +10,8 @@ void _SET_HAS_CONTENT_UNLOCKS_FLAGS(int value);
 ```
 
 ```
-Set profile setting 866  
+Sets profile setting 866
+SET_*
 ```
 
 ## Parameters

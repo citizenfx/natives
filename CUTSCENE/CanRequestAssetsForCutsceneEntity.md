@@ -9,8 +9,4 @@ aliases: ["0xB56BBBCC2955D9CB"]
 BOOL CAN_REQUEST_ASSETS_FOR_CUTSCENE_ENTITY();
 ```
 
-```
-"Can request assets for cutscene entity"? (found in decompiled scripts)  
-```
-
 ## Return value

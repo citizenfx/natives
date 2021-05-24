@@ -9,8 +9,8 @@ void PLAY_SOUND_FRONTEND(int soundId, char* audioName, char* audioRef, BOOL p3);
 ```
 
 ```
-list: pastebin.com/DCeRiaLJ  
-All found occurrences in b617d, sorted alphabetically and identical lines removed: pastebin.com/0neZdsZ5  
+List: https://pastebin.com/DCeRiaLJ
+All occurrences as of Cayo Perico Heist DLC (b2189), sorted alphabetically and identical lines removed: https://git.io/JtLxM
 ```
 
 ## Parameters

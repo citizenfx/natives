@@ -9,10 +9,6 @@ aliases: ["0xBF59707B3E5ED531"]
 void SET_NEXT_PLAYER_TCMODIFIER(char* modifierName);
 ```
 
-```
-Something to do with timecycles.  
-```
-
 ## Parameters
 * **modifierName**: 
 

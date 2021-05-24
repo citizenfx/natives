@@ -10,7 +10,7 @@ void _ADD_TACTICAL_ANALYSIS_POINT(float x, float y, float z);
 ```
 
 ```
-Add a point related to CTacticalAnalysis
+Adds a point related to CTacticalAnalysis
 ```
 
 ## Parameters

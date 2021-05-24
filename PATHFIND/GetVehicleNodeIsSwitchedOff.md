@@ -10,9 +10,8 @@ BOOL GET_VEHICLE_NODE_IS_SWITCHED_OFF(int nodeID);
 ```
 
 ```
-p0 = VEHICLE_NODE_ID  
-Returns true when the node is Offroad. Alleys, some dirt roads, and carparks return true.  
-Normal roads where plenty of Peds spawn will return false  
+Returns true when the node is Offroad. Alleys, some dirt roads, and carparks return true.
+Normal roads where plenty of Peds spawn will return false
 ```
 
 ## Parameters

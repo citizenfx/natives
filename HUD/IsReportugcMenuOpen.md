@@ -9,8 +9,4 @@ aliases: ["0x9135584D09A3437E"]
 BOOL IS_REPORTUGC_MENU_OPEN();
 ```
 
-```
-return bool according to scripts  
-```
-
 ## Return value

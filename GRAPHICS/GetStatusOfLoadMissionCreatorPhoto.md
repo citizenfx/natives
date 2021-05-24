@@ -1,0 +1,15 @@
+---
+ns: GRAPHICS
+aliases: ["0x1670F8D05056F257"]
+---
+## GET_STATUS_OF_LOAD_MISSION_CREATOR_PHOTO
+
+```c
+// 0x1670F8D05056F257 0x226B08EA
+int GET_STATUS_OF_LOAD_MISSION_CREATOR_PHOTO(char* p0);
+```
+
+## Parameters
+* **p0**: 
+
+## Return value

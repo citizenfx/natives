@@ -10,8 +10,8 @@ void PRELOAD_CLOUD_HAT(char* name);
 ```
 
 ```
-Found in the scripts:  
-GAMEPLAY::_11B56FBBF7224868("CONTRAILS");  
+Found in the scripts:
+MISC::_11B56FBBF7224868("CONTRAILS");
 ```
 
 ## Parameters

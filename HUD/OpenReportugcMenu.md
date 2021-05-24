@@ -10,6 +10,6 @@ void OPEN_REPORTUGC_MENU();
 ```
 
 ```
-Shows a hud element for reporting jobs  
+Shows a menu for reporting UGC content.
 ```
 

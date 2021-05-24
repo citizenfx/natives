@@ -10,8 +10,7 @@ void ADD_TEXT_COMPONENT_SUBSTRING_PHONE_NUMBER(char* p0, int p1);
 ```
 
 ```
-p1 was always -1.  
-used for phone applications; scaleform  
+p1 was always -1
 ```
 
 ## Parameters

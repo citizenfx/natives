@@ -9,8 +9,7 @@ BOOL IS_VEHICLE_IN_GARAGE_AREA(char* garageName, Vehicle vehicle);
 ```
 
 ```
-garageName example "Michael - Beverly Hills"  
-For a full list, see here: pastebin.com/73VfwsmS  
+garageName example "Michael - Beverly Hills"
 ```
 
 ## Parameters

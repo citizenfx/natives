@@ -9,9 +9,7 @@ void SET_PED_FLEE_ATTRIBUTES(Ped ped, int attributeFlags, BOOL enable);
 ```
 
 ```
-Bool probably has something to do with vehicles, maybe if the ped can use vehicle to flee?  
-Values used as attributes are those in sequence of powers of two, 1, 2, 4, 8, 16, 32, 64.... 65536.  
-jedijosh920: Setting attribute "2" to true will make the ped steal a vehicle.  
+bit 15 (0x8000) = force cower
 ```
 
 ## Parameters

@@ -10,9 +10,8 @@ float _GET_VEHICLE_MODEL_MOVE_RESISTANCE(Hash modelHash);
 ```
 
 ```
-GET_VEHICLE_MODEL_*  
-called if the vehicle is a boat -- returns vecMoveResistanceX?  
-For a full list, see here: pastebin.com/Pyb2RhZ9  
+GET_VEHICLE_MODEL_*
+called if the vehicle is a boat -- returns vecMoveResistanceX?
 ```
 
 ## Parameters

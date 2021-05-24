@@ -10,14 +10,14 @@ void USE_PARTICLE_FX_ASSET(char* name);
 ```
 
 ```
-From the b678d decompiled scripts:  
-GRAPHICS::_SET_PTFX_ASSET_NEXT_CALL("FM_Mission_Controler");  
-GRAPHICS::_SET_PTFX_ASSET_NEXT_CALL("scr_apartment_mp");  
-GRAPHICS::_SET_PTFX_ASSET_NEXT_CALL("scr_indep_fireworks");  
-GRAPHICS::_SET_PTFX_ASSET_NEXT_CALL("scr_mp_cig_plane");  
-GRAPHICS::_SET_PTFX_ASSET_NEXT_CALL("scr_mp_creator");  
-GRAPHICS::_SET_PTFX_ASSET_NEXT_CALL("scr_ornate_heist");  
-GRAPHICS::_SET_PTFX_ASSET_NEXT_CALL("scr_prison_break_heist_station");  
+From the b678d decompiled scripts:
+ GRAPHICS::_SET_PTFX_ASSET_NEXT_CALL("FM_Mission_Controler");
+ GRAPHICS::_SET_PTFX_ASSET_NEXT_CALL("scr_apartment_mp");
+ GRAPHICS::_SET_PTFX_ASSET_NEXT_CALL("scr_indep_fireworks");
+ GRAPHICS::_SET_PTFX_ASSET_NEXT_CALL("scr_mp_cig_plane");
+ GRAPHICS::_SET_PTFX_ASSET_NEXT_CALL("scr_mp_creator");
+ GRAPHICS::_SET_PTFX_ASSET_NEXT_CALL("scr_ornate_heist");
+ GRAPHICS::_SET_PTFX_ASSET_NEXT_CALL("scr_prison_break_heist_station");
 ```
 
 ## Parameters

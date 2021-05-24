@@ -9,10 +9,6 @@ aliases: ["0x784002A632822099"]
 BOOL HAS_PED_PRELOAD_PROP_DATA_FINISHED(Ped ped);
 ```
 
-```
-Normally returns true. Returns false briefly whilst putting on a helmet after getting onto a motorbike. Not sure what that's about.
-```
-
 ## Parameters
 * **ped**: 
 

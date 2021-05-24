@@ -9,7 +9,8 @@ BOOL _0x6FDDF453C0C756EC();
 ```
 
 ```
-- if (GAMEPLAY::_6FDDF453C0C756EC() || GAMEPLAY::IS_PC_VERSION()) {  
+HAS_*
+Probably something like "has game been started for the first time".
 ```
 
 ## Return value

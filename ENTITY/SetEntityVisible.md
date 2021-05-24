@@ -8,12 +8,14 @@ ns: ENTITY
 void SET_ENTITY_VISIBLE(Entity entity, BOOL toggle, BOOL unk);
 ```
 
-```
-unk was always 0.  
-```
+Toggle the visibility of a given entity.
 
 ## Parameters
-* **entity**: 
-* **toggle**: 
-* **unk**: 
+* **entity**: The entity to change the visibility of
+* **toggle**: Whether or not the entity will be visible
+* **unk**: Always 0 in scripts
 
+## Examples
+```lua
+SetEntityVisible(PlayerPedId(), false, 0)
+```

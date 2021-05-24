@@ -8,10 +8,6 @@ ns: MISC
 float ASIN(float p0);
 ```
 
-```
-Returns arcsin value of p0.  
-```
-
 ## Parameters
 * **p0**: 
 

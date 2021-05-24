@@ -16,25 +16,6 @@ It sometimes doesn't return true when the vehicle engine has been on fire, and h
 
 This usually returns true even if there are no visible flames yet (engine health > 0). However if you monitor engine health you'll see that it starts decreasing as soon as this returns true.
 
-```
-if (((ENTITY::DOES_ENTITY_EXIST(Global_1281959) && !ENTITY::IS_ENTITY_DEAD(Global_1281959, 0)) && func_1545(Global_1281959)) && !func_205(PLAYER::PLAYER_ID()))
-{
-    if (VEHICLE::GET_VEHICLE_ENGINE_HEALTH(Global_1281959) > 0f && VEHICLE::GET_IS_VEHICLE_ENGINE_RUNNING(Global_1281959))
-    {
-        bVar0 = true;
-    }
-    else
-    {
-        bVar0 = false;
-    }
-    if (VEHICLE::_0xEC69ADF931AAE0C3(Global_1281959)) // _IS_VEHICLE_ENGINE_ON_FIRE
-    {
-        bVar0 = false;
-    }
-}
-```
-
-
 ## Parameters
 * **vehicle**: The vehicle to check.
 

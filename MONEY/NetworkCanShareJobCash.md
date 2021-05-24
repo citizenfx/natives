@@ -9,8 +9,4 @@ aliases: ["0x1C2473301B1C66BA"]
 BOOL NETWORK_CAN_SHARE_JOB_CASH();
 ```
 
-```
-NETWORK_CAN_R??? or NETWORK_CAN_S???  
-```
-
 ## Return value

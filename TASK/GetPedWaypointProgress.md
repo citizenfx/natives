@@ -8,10 +8,6 @@ ns: TASK
 int GET_PED_WAYPOINT_PROGRESS(Ped ped);
 ```
 
-```
-Returns the progress percent to current waypoint.  
-```
-
 ## Parameters
 * **ped**: 
 

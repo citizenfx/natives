@@ -9,8 +9,7 @@ void DISABLE_HOSPITAL_RESTART(int hospitalIndex, BOOL toggle);
 ```
 
 ```
-The game by default has 5 hospital respawn points. Disabling them all will cause the player to respawn at the last position they were.  
-Doesn't work....  
+The game by default has 5 hospital respawn points. Disabling them all will cause the player to respawn at the last position they were.
 ```
 
 ## Parameters

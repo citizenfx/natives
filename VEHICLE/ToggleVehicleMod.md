@@ -9,13 +9,13 @@ void TOGGLE_VEHICLE_MOD(Vehicle vehicle, int modType, BOOL toggle);
 ```
 
 ```
-Toggles:  
-UNK17   
-Turbo   
-UNK19   
-Tire Smoke   
-UNK21   
-Xenon Headlights  
+Toggles:
+UNK17 - 17
+Turbo - 18
+UNK19 - 19
+Tire Smoke - 20
+UNK21 - 21
+Xenon Headlights - 22
 ```
 
 ## Parameters

@@ -9,8 +9,7 @@ void ATTACH_VEHICLE_TO_TOW_TRUCK(Vehicle towTruck, Vehicle vehicle, BOOL rear, f
 ```
 
 ```
-HookOffset defines where the hook is attached. leave at 0 for default attachment.  
-When using the tow truck online, this is not used (set a breakpoint and never called during tow truck attachment)  
+HookOffset defines where the hook is attached. leave at 0 for default attachment.
 ```
 
 ## Parameters

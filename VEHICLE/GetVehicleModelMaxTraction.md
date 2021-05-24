@@ -9,8 +9,7 @@ float GET_VEHICLE_MODEL_MAX_TRACTION(Hash modelHash);
 ```
 
 ```
-Returns max traction of the specified vehicle model.  
-For a full list, see here: pastebin.com/ERnntVjK  
+Returns max traction of the specified vehicle model.
 ```
 
 ## Parameters

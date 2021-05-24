@@ -1,5 +1,6 @@
 ---
 ns: AUDIO
+aliases: ["0x3D120012440E6683"]
 ---
 ## AUDIO_IS_SCRIPTED_MUSIC_PLAYING
 

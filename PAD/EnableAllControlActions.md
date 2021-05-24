@@ -9,9 +9,12 @@ void ENABLE_ALL_CONTROL_ACTIONS(int padIndex);
 ```
 
 ```
-inputGroup: 0 (PLAYER_CONTROL), 1 (unk) and 2 (unk) used in the scripts.
+padIndex: 
+0 - PLAYER_CONTROL
+1 - Unknown 
+2 - FRONTEND_CONTROL
 ```
 
 ## Parameters
-* **padIndex**: 
+* **padIndex**: The control system instance to use.
 

@@ -9,10 +9,10 @@ char* _GET_TEXT_SUBSTRING(char* text, int position, int length);
 ```
 
 ```
-Returns a substring of a specified length starting at a specified position.  
-Example:  
-// Get "STRING" text from "MY_STRING"  
-subStr = UI::_GET_TEXT_SUBSTRING("MY_STRING", 3, 6);  
+Returns a substring of a specified length starting at a specified position.
+Example:
+// Get "STRING" text from "MY_STRING"
+subStr = HUD::_GET_TEXT_SUBSTRING("MY_STRING", 3, 6);
 ```
 
 ## Parameters

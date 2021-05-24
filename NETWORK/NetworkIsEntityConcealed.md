@@ -8,7 +8,7 @@ ns: NETWORK
 BOOL _NETWORK_IS_ENTITY_CONCEALED(Entity entity);
 ```
 
-This only works with vehicles.
+Note: This only works for vehicles, which appears to be a bug (since the setter _does_ work for every entity type and the name is 99% correct).
 
 ## Parameters
 * **entity**: 
