@@ -12,15 +12,3 @@ Keep the task of a given ped
 ## Parameters
 * **ped**: The given ped
 * **toggle**: Whether or not the ped will keep his task
-
-## Examples
-```lua
-local hash = GetHashKey("cs_solomon")
-while not HasModelLoaded(hash) do
-    RequestModel(hash)
-    Wait(20)
-end
-
-local ped = CreatePed(4, hash, -1027.192, -2730.865, 12.75, 110.0, false, true)
-SetPedKeepTask(ped, true)
-```
