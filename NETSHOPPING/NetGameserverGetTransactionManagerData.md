@@ -6,11 +6,7 @@ aliases: ["0x897433D292B44130"]
 
 ```c
 // 0x897433D292B44130
-BOOL _NET_GAMESERVER_GET_TRANSACTION_MANAGER_DATA(Any* p0, BOOL* p1);
-```
-
-```
-NativeDB Parameter 0: int* p0
+BOOL _NET_GAMESERVER_GET_TRANSACTION_MANAGER_DATA(cs_type(AnyPtr) int* p0, BOOL* p1);
 ```
 
 ## Parameters

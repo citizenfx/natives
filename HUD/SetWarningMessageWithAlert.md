@@ -6,7 +6,7 @@ aliases: ["0x15803FEC3B9A872B","_DRAW_FRONTEND_ALERT"]
 
 ```c
 // 0x15803FEC3B9A872B
-Any _SET_WARNING_MESSAGE_WITH_ALERT(char* labelTitle, char* labelMsg, int p2, int p3, char* labelMsg2, int p5, int p6, int p7, char* p8, char* p9, BOOL background, int errorCode);
+Any _SET_WARNING_MESSAGE_WITH_ALERT(char* labelTitle, char* labelMsg, int p2, int p3, char* labelMsg2, cs_type(int) BOOL p5, int p6, int p7, char* p8, char* p9, BOOL background, int errorCode);
 ```
 
 instructionalKey enum list:
@@ -58,7 +58,6 @@ Alt = {
 **Result of the example code:** [https://i.imgur.com/TvmNF4k.png](https://i.imgur.com/TvmNF4k.png)
 
 ```
-NativeDB Parameter 5: BOOL p5
 NativeDB Return Type: void
 ```
 

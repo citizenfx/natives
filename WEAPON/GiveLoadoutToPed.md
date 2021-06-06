@@ -6,12 +6,9 @@ aliases: ["0x68F8BE6AF5CDF8A6"]
 
 ```c
 // 0x68F8BE6AF5CDF8A6
-void _GIVE_LOADOUT_TO_PED(Ped ped, Any loadoutHash);
+void _GIVE_LOADOUT_TO_PED(Ped ped, cs_type(Any) Hash loadoutHash);
 ```
 
-```
-NativeDB Parameter 1: Hash loadoutHash
-```
 
 ## Parameters
 * **ped**: 

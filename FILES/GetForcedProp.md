@@ -6,16 +6,9 @@ aliases: ["0xE1CA84EBF72E691D"]
 
 ```c
 // 0xE1CA84EBF72E691D 0x22DAE257
-void GET_FORCED_PROP(Any componentHash, Any forcedPropIndex, Any* nameHash, Any* enumValue, Any* anchorPoint);
+void GET_FORCED_PROP(cs_type(Any) Hash componentHash, int forcedPropIndex, cs_type(AnyPtr) Hash* nameHash, cs_type(AnyPtr) int* enumValue, cs_type(AnyPtr) int* anchorPoint);
 ```
 
-```
-NativeDB Parameter 0: Hash componentHash
-NativeDB Parameter 1: int forcedPropIndex
-NativeDB Parameter 2: Hash* nameHash
-NativeDB Parameter 3: int* enumValue
-NativeDB Parameter 4: int* anchorPoint
-```
 
 ## Parameters
 * **componentHash**: 

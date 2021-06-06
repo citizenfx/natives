@@ -6,11 +6,7 @@ aliases: ["0xCC6E3B6BB69501F1"]
 
 ```c
 // 0xCC6E3B6BB69501F1
-BOOL _DOES_RELATIONSHIP_GROUP_EXIST(Any groupHash);
-```
-
-```
-NativeDB Parameter 0: Hash groupHash
+BOOL _DOES_RELATIONSHIP_GROUP_EXIST(cs_type(Any) Hash groupHash);
 ```
 
 ## Parameters

@@ -6,11 +6,7 @@ aliases: ["0xDF97CDD4FC08FD34"]
 
 ```c
 // 0xDF97CDD4FC08FD34 0x17FF9393
-BOOL DOOR_SYSTEM_GET_IS_PHYSICS_LOADED(Any doorHash);
-```
-
-```
-NativeDB Parameter 0: Hash doorHash
+BOOL DOOR_SYSTEM_GET_IS_PHYSICS_LOADED(cs_type(Any) Hash doorHash);
 ```
 
 ## Parameters

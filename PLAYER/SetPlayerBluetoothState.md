@@ -6,12 +6,7 @@ aliases: ["0x5DC40A8869C22141"]
 
 ```c
 // 0x5DC40A8869C22141 0x7A6B0EF8
-void SET_PLAYER_BLUETOOTH_STATE(BOOL player, ScrHandle state);
-```
-
-```
-NativeDB Parameter 0: Player player
-NativeDB Parameter 1: BOOL state
+void SET_PLAYER_BLUETOOTH_STATE(cs_type(BOOL) Player player, cs_type(ScrHandle) BOOL state);
 ```
 
 ## Parameters

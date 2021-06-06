@@ -10,11 +10,6 @@ BOOL SET_HELI_TAIL_EXPLODE_THROW_DASHBOARD(Vehicle vehicle, BOOL p1);
 ```
 
 ```
-If false the tail to the helicopter stays attached to the helicopter on explosion.
-```
-
-```
-NativeDB Parameter 1: BOOL p1
 NativeDB Return Type: void
 ```
 

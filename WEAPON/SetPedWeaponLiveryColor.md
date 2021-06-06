@@ -6,13 +6,9 @@ aliases: ["0x9FE5633880ECD8ED"]
 
 ```c
 // 0x9FE5633880ECD8ED
-void _SET_PED_WEAPON_LIVERY_COLOR(Ped ped, Any weaponHash, Any camoComponentHash, int colorIndex);
+void _SET_PED_WEAPON_LIVERY_COLOR(Ped ped, cs_type(Any) Hash weaponHash, cs_type(Any) Hash camoComponentHash, int colorIndex);
 ```
 
-```
-NativeDB Parameter 1: Hash weaponHash
-NativeDB Parameter 2: Hash camoComponentHash
-```
 
 ## Parameters
 * **ped**: 

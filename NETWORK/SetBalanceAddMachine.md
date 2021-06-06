@@ -5,12 +5,7 @@ ns: NETWORK
 
 ```c
 // 0x815E5E3073DA1D67 0xE123C7AC
-BOOL SET_BALANCE_ADD_MACHINE(Any* contentId, Any* contentTypeName);
-```
-
-```
-NativeDB Parameter 0: char* contentId
-NativeDB Parameter 1: char* contentTypeName
+BOOL SET_BALANCE_ADD_MACHINE(cs_type(AnyPtr) char* contentId, cs_type(AnyPtr) char* contentTypeName);
 ```
 
 ## Parameters

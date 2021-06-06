@@ -5,11 +5,7 @@ ns: ITEMSET
 
 ```c
 // 0x35AD299F50D91B24 0x0A113B2C
-Vehicle CREATE_ITEMSET(Vehicle distri);
-```
-
-```
-NativeDB Parameter 0: BOOL distri
+Vehicle CREATE_ITEMSET(cs_type(Vehicle) BOOL distri);
 ```
 
 ## Parameters

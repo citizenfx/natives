@@ -6,12 +6,9 @@ aliases: ["0x9DA58CDBF6BDBC08"]
 
 ```c
 // 0x9DA58CDBF6BDBC08
-int _CREATE_AIR_DEFENSE_AREA(float p0, float p1, float p2, float p3, float p4, float p5, float p6, float p7, float p8, float p9, Any weaponHash);
+int _CREATE_AIR_DEFENSE_AREA(float p0, float p1, float p2, float p3, float p4, float p5, float p6, float p7, float p8, float p9, cs_type(Any) Hash weaponHash);
 ```
 
-```
-NativeDB Parameter 10: Hash weaponHash
-```
 
 ## Parameters
 * **p0**: 

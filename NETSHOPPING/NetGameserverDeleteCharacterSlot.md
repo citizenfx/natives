@@ -6,11 +6,7 @@ aliases: ["0x51F1A8E48C3D2F6D"]
 
 ```c
 // 0x51F1A8E48C3D2F6D
-BOOL _NET_GAMESERVER_DELETE_CHARACTER_SLOT(int slot, BOOL transfer, Any reason);
-```
-
-```
-NativeDB Parameter 2: Hash reason
+BOOL _NET_GAMESERVER_DELETE_CHARACTER_SLOT(int slot, BOOL transfer, cs_type(Any) Hash reason);
 ```
 
 ## Parameters

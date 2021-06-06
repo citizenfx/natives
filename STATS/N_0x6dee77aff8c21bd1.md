@@ -5,13 +5,9 @@ ns: STATS
 
 ```c
 // 0x6DEE77AFF8C21BD1 0x489E27E7
-BOOL _0x6DEE77AFF8C21BD1(Any* playerAccountId, Any* posixTime);
+BOOL _0x6DEE77AFF8C21BD1(cs_type(AnyPtr) int* playerAccountId, cs_type(AnyPtr) int* posixTime);
 ```
 
-```
-NativeDB Parameter 0: int* playerAccountId
-NativeDB Parameter 1: int* posixTime
-```
 
 ## Parameters
 * **playerAccountId**: 

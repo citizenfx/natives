@@ -6,12 +6,9 @@ aliases: ["0xF0EED5A6BC7B237A"]
 
 ```c
 // 0xF0EED5A6BC7B237A 0x95A9AB2B
-BOOL IS_OBJECT_PARTIALLY_INSIDE_GARAGE(Any garageHash, Entity entity, int p2);
+BOOL IS_OBJECT_PARTIALLY_INSIDE_GARAGE(cs_type(Any) Hash garageHash, Entity entity, int p2);
 ```
 
-```
-NativeDB Parameter 0: Hash garageHash
-```
 
 ## Parameters
 * **garageHash**: 

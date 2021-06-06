@@ -6,12 +6,7 @@ aliases: ["0x36C1451A88A09630"]
 
 ```c
 // 0x36C1451A88A09630 0x8543AAC8
-void _GET_PAUSE_MENU_SELECTION(Any* lastItemMenuId, Any* selectedItemUniqueId);
-```
-
-```
-NativeDB Parameter 0: int* lastItemMenuId
-NativeDB Parameter 1: int* selectedItemUniqueId
+void _GET_PAUSE_MENU_SELECTION(cs_type(AnyPtr) int* lastItemMenuId, cs_type(AnyPtr) int* selectedItemUniqueId);
 ```
 
 ## Parameters

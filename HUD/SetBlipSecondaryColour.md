@@ -5,14 +5,9 @@ ns: HUD
 
 ```c
 // 0x14892474891E09EB 0xC6384D32
-void SET_BLIP_SECONDARY_COLOUR(Blip blip, float r, float g, float b);
+void SET_BLIP_SECONDARY_COLOUR(Blip blip, cs_type(float) int r, cs_type(float) int g, cs_type(float) int b);
 ```
 
-```
-NativeDB Added Parameter 1: int r
-NativeDB Added Parameter 2: int g
-NativeDB Added Parameter 3: int b
-```
 
 ## Parameters
 * **blip**: 

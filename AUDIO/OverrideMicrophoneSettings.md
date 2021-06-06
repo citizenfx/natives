@@ -6,12 +6,10 @@ aliases: ["0x75773E11BA459E90"]
 
 ```c
 // 0x75773E11BA459E90
-void _OVERRIDE_MICROPHONE_SETTINGS(Any hash, BOOL toggle);
+void _OVERRIDE_MICROPHONE_SETTINGS(cs_type(Any) Hash hash, BOOL toggle);
 ```
 
-```
-NativeDB Parameter 0: Hash hash
-```
+Sets audio flag "OverrideMicrophoneSettings"
 
 ## Parameters
 * **hash**: 
