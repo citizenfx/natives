@@ -5,11 +5,7 @@ ns: PED
 
 ```c
 // 0x5BA7919BED300023 0xE94E24D4
-Any SET_PED_DIES_WHEN_INJURED(Ped ped, BOOL toggle);
-```
-
-```
-NativeDB Return Type: void
+cs_type(Any) void SET_PED_DIES_WHEN_INJURED(Ped ped, BOOL toggle);
 ```
 
 ## Parameters

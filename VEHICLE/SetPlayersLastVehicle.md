@@ -5,11 +5,7 @@ ns: VEHICLE
 
 ```c
 // 0xBCDF8BAF56C87B6A 0xDE86447D
-Any SET_PLAYERS_LAST_VEHICLE(Vehicle vehicle);
-```
-
-```
-NativeDB Return Type: void
+cs_type(Any) void SET_PLAYERS_LAST_VEHICLE(Vehicle vehicle);
 ```
 
 ## Parameters

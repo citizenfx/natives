@@ -5,11 +5,7 @@ ns: APP
 
 ```c
 // 0xD3A58A12C77D9D4B 0x2942AAD2
-void APP_GET_INT(cs_type(ScrHandle) char* property);
-```
-
-```
-NativeDB Return Type: int
+cs_type(void) int APP_GET_INT(cs_type(ScrHandle) char* property);
 ```
 
 ## Parameters

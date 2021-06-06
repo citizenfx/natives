@@ -5,11 +5,7 @@ ns: VEHICLE
 
 ```c
 // 0x16469284DB8C62B5 0xB507F51D
-Any SET_TRAIN_CRUISE_SPEED(Vehicle train, float speed);
-```
-
-```
-NativeDB Return Type: void
+cs_type(Any) void SET_TRAIN_CRUISE_SPEED(Vehicle train, float speed);
 ```
 
 ## Parameters

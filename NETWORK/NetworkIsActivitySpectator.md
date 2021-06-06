@@ -5,11 +5,7 @@ ns: NETWORK
 
 ```c
 // 0x12103B9E0C9F92FB 0xAF329720
-Any NETWORK_IS_ACTIVITY_SPECTATOR();
-```
-
-```
-NativeDB Return Type: BOOL
+cs_type(Any) BOOL NETWORK_IS_ACTIVITY_SPECTATOR();
 ```
 
 ## Return value

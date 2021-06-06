@@ -6,7 +6,7 @@ aliases: ["0x09E7ECA981D9B210"]
 
 ```c
 // 0x09E7ECA981D9B210
-Any _IS_PED_BODY_BLEMISH_VALID(int colorID);
+cs_type(Any) BOOL _IS_PED_BODY_BLEMISH_VALID(int colorID);
 ```
 
 ```

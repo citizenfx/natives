@@ -5,11 +5,7 @@ ns: STATS
 
 ```c
 // 0xBBB6AD006F1BBEA3 0xA3407CA3
-Any STAT_SAVE_PENDING_OR_REQUESTED();
-```
-
-```
-NativeDB Return Type: BOOL
+cs_type(Any) BOOL STAT_SAVE_PENDING_OR_REQUESTED();
 ```
 
 ## Return value

@@ -5,11 +5,7 @@ ns: MISC
 
 ```c
 // 0xD2D57F1D764117B1 0x794CC92C
-Any GET_RANDOM_EVENT_FLAG();
-```
-
-```
-NativeDB Return Type: BOOL
+cs_type(Any) BOOL GET_RANDOM_EVENT_FLAG();
 ```
 
 ## Return value

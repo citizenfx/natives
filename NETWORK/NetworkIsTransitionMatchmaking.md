@@ -6,11 +6,7 @@ aliases: ["0x292564C735375EDF"]
 
 ```c
 // 0x292564C735375EDF 0x8262C70E
-Any NETWORK_IS_TRANSITION_MATCHMAKING();
-```
-
-```
-NativeDB Return Type: BOOL
+cs_type(Any) BOOL NETWORK_IS_TRANSITION_MATCHMAKING();
 ```
 
 ## Return value

@@ -5,15 +5,11 @@ ns: PED
 
 ```c
 // 0x7AEFB85C1D49DEB6 0x6C17122E
-Any SET_PED_ACCURACY(Ped ped, int accuracy);
+cs_type(Any) void SET_PED_ACCURACY(Ped ped, int accuracy);
 ```
 
 ```
-accuracy = 0-100, 100 being perfectly accurate  
-```
-
-```
-NativeDB Return Type: void
+accuracy = 0-100, 100 being perfectly accurate
 ```
 
 ## Parameters

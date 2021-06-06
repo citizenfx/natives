@@ -5,10 +5,6 @@ ns: STREAMING
 
 ```c
 // 0xC4582015556D1C46 0xC76E023C
-void NETWORK_UPDATE_LOAD_SCENE();
-```
-
-```
-NativeDB Return Type: BOOL
+cs_type(void) BOOL NETWORK_UPDATE_LOAD_SCENE();
 ```
 

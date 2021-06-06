@@ -5,11 +5,7 @@ ns: PHYSICS
 
 ```c
 // 0xAA5D6B1888E4DB20 0xB19B4706
-Any DELETE_CHILD_ROPE(int ropeId);
-```
-
-```
-NativeDB Return Type: void
+cs_type(Any) void DELETE_CHILD_ROPE(int ropeId);
 ```
 
 ## Parameters

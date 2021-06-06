@@ -5,11 +5,7 @@ ns: PHYSICS
 
 ```c
 // 0x5CEC1A84620E7D5B 0xEE77C326
-Any SET_DISABLE_BREAKING(Object object, BOOL toggle);
-```
-
-```
-NativeDB Return Type: void
+cs_type(Any) void SET_DISABLE_BREAKING(Object object, BOOL toggle);
 ```
 
 ## Parameters

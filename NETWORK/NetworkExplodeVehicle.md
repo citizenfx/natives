@@ -5,7 +5,7 @@ ns: NETWORK
 
 ```c
 // 0x301A42153C9AD707 0x0E1B38AE
-Any NETWORK_EXPLODE_VEHICLE(Vehicle vehicle, BOOL isAudible, BOOL isInvisible, BOOL p3);
+cs_type(Any) void NETWORK_EXPLODE_VEHICLE(Vehicle vehicle, BOOL isAudible, BOOL isInvisible, BOOL p3);
 ```
 
 ```
@@ -22,10 +22,6 @@ network_explode_vehicle(net_to_veh(*uParam0), 1, 0, *uParam0);
 fm_mission_controller.c, has 6 hits so not going to list them.  
 Side note, setting the first parameter to 0 seems to mute sound or so?  
 Seems it's like ADD_EXPLOSION, etc. the first 2 params. The 3rd atm no need to worry since it always seems to be 0.  
-```
-
-```
-NativeDB Return Type: void
 ```
 
 ## Parameters

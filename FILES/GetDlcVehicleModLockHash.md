@@ -6,11 +6,7 @@ aliases: ["0xC098810437312FFF"]
 
 ```c
 // 0xC098810437312FFF 0x59352658
-int GET_DLC_VEHICLE_MOD_LOCK_HASH(cs_type(int) Hash hash);
-```
-
-```
-NativeDB Return Type: Hash
+cs_type(int) Hash GET_DLC_VEHICLE_MOD_LOCK_HASH(cs_type(int) Hash hash);
 ```
 
 ## Parameters

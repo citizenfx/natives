@@ -20,10 +20,6 @@ p5 is reset to 0 if,
 Global_1315318 = 0 or Global_1315323 = 9 or 12 or (Global_1312629 = 0 && Global_1312631 = true/1) those are passed.  
 ```
 
-```
-NativeDB Return Type: BOOL
-```
-
 ## Parameters
 * **p0**: 
 * **p1**: 

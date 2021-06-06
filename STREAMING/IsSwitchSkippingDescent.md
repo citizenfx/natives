@@ -6,11 +6,7 @@ aliases: ["DESTROY_PLAYER_IN_PAUSE_MENU"]
 
 ```c
 // 0x5B74EA8CFD5E3E7E 0x90F64284
-Any IS_SWITCH_SKIPPING_DESCENT();
-```
-
-```
-NativeDB Return Type: BOOL
+cs_type(Any) BOOL IS_SWITCH_SKIPPING_DESCENT();
 ```
 
 ## Return value
