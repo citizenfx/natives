@@ -19,3 +19,20 @@ All occurrences as of Cayo Perico Heist DLC (b2189), sorted alphabetically and i
 * **audioRef**: 
 * **p3**: 
 
+```lua
+local successSound = {
+  soundID = -1, --this should work for most uses
+  audioName = "BASE_JUMP_PASSED", --mission/task success sound
+  audioRef = "HUD_AWARDS",
+}
+PlaySoundFrontend(successSound.soundID, successSound.audioName, successSound.audioRef, 1)
+-------------------
+local loseSound = {
+  soundID = -1,
+  audioName = "LOSER",
+  audioRef = "HUD_AWARDS",
+}
+PlaySoundFrontend(loseSound.soundID, loseSound.audioName, loseSound.audioRef, 1)
+-------------------
+PlaySoundFrontend(-1, "Bed", "WastedSounds", false) --Wasted sound
+```
