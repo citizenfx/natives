@@ -9,11 +9,11 @@ void CLEAR_BIT(int* address, int offset);
 ```
 
 ```
-This sets bit [offset] of [address] to off.  
-Example:  
-GAMEPLAY::CLEAR_BIT(&bitAddress, 1);  
-To check if this bit has been enabled:  
-GAMEPLAY::IS_BIT_SET(bitAddress, 1); // will return 0 afterwards  
+This sets bit [offset] of [address] to off.
+Example:
+MISC::CLEAR_BIT(&bitAddress, 1);
+To check if this bit has been enabled:
+MISC::IS_BIT_SET(bitAddress, 1); // will return 0 afterwards
 ```
 
 ## Parameters

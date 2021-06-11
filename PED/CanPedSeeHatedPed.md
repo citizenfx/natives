@@ -9,10 +9,6 @@ aliases: ["0x6CD5A433374D4CFB","_CAN_PED_SEE_PED"]
 BOOL CAN_PED_SEE_HATED_PED(Ped ped1, Ped ped2);
 ```
 
-```
-Returns true if ped1 can see ped2 in their line of vision  
-```
-
 ## Parameters
 * **ped1**: 
 * **ped2**: 

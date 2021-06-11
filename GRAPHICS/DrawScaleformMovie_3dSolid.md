@@ -9,10 +9,6 @@ aliases: ["0x1CE592FDC749D6F5","_DRAW_SCALEFORM_MOVIE_3D_NON_ADDITIVE"]
 void DRAW_SCALEFORM_MOVIE_3D_SOLID(int scaleform, float posX, float posY, float posZ, float rotX, float rotY, float rotZ, float p7, float p8, float p9, float scaleX, float scaleY, float scaleZ, Any p13);
 ```
 
-```
-what the heck does this one do differently from the one above?  
-```
-
 ## Parameters
 * **scaleform**: 
 * **posX**: 

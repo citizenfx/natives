@@ -8,10 +8,6 @@ ns: PED
 BOOL GET_PED_LAST_DAMAGE_BONE(Ped ped, int* outBone);
 ```
 
-```
-Pretty sure outBone is an int.  
-```
-
 ## Parameters
 * **ped**: 
 * **outBone**: 

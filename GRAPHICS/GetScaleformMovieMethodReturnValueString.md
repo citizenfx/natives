@@ -9,9 +9,7 @@ aliases: ["SITTING_TV", "_GET_SCALEFORM_MOVIE_FUNCTION_RETURN_STRING"]
 char* GET_SCALEFORM_MOVIE_METHOD_RETURN_VALUE_STRING(int method_return);
 ```
 
-Used to get a return value from a scaleform function.
-Returns a string in the same way GET_SCALEFORM_MOVIE_METHOD_RETURN_VALUE_INT returns an int.
-
+Used to get a return value from a scaleform function. Returns a string in the same way GET_SCALEFORM_MOVIE_METHOD_RETURN_VALUE_INT returns an int.
 
 ## Parameters
 * **method_return**: The return value of this native: `EndScaleformMovieMethodReturn`

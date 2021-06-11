@@ -9,10 +9,6 @@ aliases: ["0xCFDBDF5AE59BA0F4"]
 void _END_TEXT_COMMAND_OBJECTIVE(BOOL p0);
 ```
 
-```
-p0 is always false in scripts.  
-```
-
 ## Parameters
 * **p0**: 
 

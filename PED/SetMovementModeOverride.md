@@ -10,7 +10,7 @@ void SET_MOVEMENT_MODE_OVERRIDE(Ped ped, char* name);
 ```
 
 ```
-p1: "MP_FEMALE_ACTION" found multiple times in the b617d scripts.  
+name: "MP_FEMALE_ACTION" found multiple times in the b617d scripts.
 ```
 
 ## Parameters

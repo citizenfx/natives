@@ -8,7 +8,9 @@ ns: VEHICLE
 void SET_VEHICLE_DAMAGE(Vehicle vehicle, float xOffset, float yOffset, float zOffset, float damage, float radius, BOOL focusOnModel);
 ```
 
-This native applies damage to a specific point on a vehicle.
+Apply damage to vehicle at a location. Location is relative to vehicle model (not world).
+Radius of effect damage applied in a sphere at impact location
+When `focusOnModel` set to `true`, the damage sphere will travel towards the vehicle from the given point, thus guaranteeing an impact
 
 ## Parameters
 * **vehicle**: 

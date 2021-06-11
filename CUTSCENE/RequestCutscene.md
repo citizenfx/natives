@@ -9,8 +9,7 @@ void REQUEST_CUTSCENE(char* cutsceneName, int flags);
 ```
 
 ```
-p1: usually 8  
-Cutscene list: pastebin.com/Bbj7ANpQ  
+flags: Usually 8
 ```
 
 ## Parameters

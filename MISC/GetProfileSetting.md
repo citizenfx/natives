@@ -8,10 +8,6 @@ ns: MISC
 int GET_PROFILE_SETTING(int profileSetting);
 ```
 
-```
-gtaforums.com/topic/799843-stats-profile-settings/  
-```
-
 ## Parameters
 * **profileSetting**: 
 

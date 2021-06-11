@@ -26,16 +26,6 @@ List of possible hashes (found in decompiled scripts):
 | `-1815146967` | `2479820329` | `0x93CF0E29` |
 |  `-339919356` | `3955047940` | `0xEBBD3E04` |
 
-
-
-Old description:
-
-```
-vehicle - the vehicle whose horn should be overwritten  
-mute - p1 seems to be an option for muting the horn  
-p2 - maybe a horn id, since the function AUDIO::GET_VEHICLE_DEFAULT_HORN(veh) exists?  
-```
-
 ## Parameters
 * **vehicle**: The vehicle you want to change the horn on.
 * **override**: Must be set to true. If set to false, the default horn hash will be restored.

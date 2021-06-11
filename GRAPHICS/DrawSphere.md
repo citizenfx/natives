@@ -2,12 +2,13 @@
 ns: GRAPHICS
 aliases: ["0x799017F9E3B10112"]
 ---
-## _0x799017F9E3B10112
+## _DRAW_SPHERE
 
 ```c
 // 0x799017F9E3B10112
 void _DRAW_SPHERE(float x, float y, float z, float radius, int r, int g, int b, float opacity);
 ```
+
 Draws a 3D sphere, typically seen in the GTA:O freemode event "Penned In".
 
 Example [image](https://imgur.com/nCbtS4H):

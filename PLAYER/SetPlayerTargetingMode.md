@@ -9,11 +9,11 @@ void SET_PLAYER_TARGETING_MODE(int targetMode);
 ```
 
 ```
-Sets your targeting mode.  
-0 = Traditional GTA  
-1 = Assisted Aiming  
-2 = Free Aim  
-Even tho gtaforums nor Alexander B supports this, if you're online in freemode already it's nice to have this since retail or otherwise you have to go to SP to change it.  
+Sets your targeting mode.
+0 = Assisted Aim - Full
+1 = Assisted Aim - Partial
+2 = Free Aim - Assisted
+3 = Free Aim
 ```
 
 ## Parameters

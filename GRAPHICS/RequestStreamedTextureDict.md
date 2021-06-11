@@ -9,7 +9,12 @@ void REQUEST_STREAMED_TEXTURE_DICT(char* textureDict, BOOL p1);
 ```
 
 ```
-last param seems to be unused in disassembly  
+This function can requests texture dictonaries from following RPFs:
+scaleform_generic.rpf
+scaleform_minigames.rpf
+scaleform_minimap.rpf
+scaleform_web.rpf
+last param isnt a toggle
 ```
 
 ## Parameters

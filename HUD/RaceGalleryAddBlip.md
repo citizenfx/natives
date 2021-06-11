@@ -10,8 +10,7 @@ Any _RACE_GALLERY_ADD_BLIP(float x, float y, float z);
 ```
 
 ```
-Add a BLIP_GALLERY at the specific coordinate.
-Used in fm_maintain_transition_players to display race track points.
+Add a BLIP_GALLERY at the specific coordinate. Used in fm_maintain_transition_players to display race track points.
 ```
 
 ## Parameters

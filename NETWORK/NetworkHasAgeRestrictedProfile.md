@@ -9,8 +9,4 @@ aliases: ["0x1353F87E89946207"]
 BOOL _NETWORK_HAS_AGE_RESTRICTED_PROFILE();
 ```
 
-```
-Returns some kind of banned state  
-```
-
 ## Return value

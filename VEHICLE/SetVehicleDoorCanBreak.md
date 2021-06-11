@@ -9,9 +9,7 @@ aliases: ["_SET_VEHICLE_DOOR_BREAKABLE"]
 void _SET_VEHICLE_DOOR_CAN_BREAK(Vehicle vehicle, int doorIndex, BOOL isBreakable);
 ```
 
-```
-Keeps Vehicle Doors/Hood/Trunk from breaking off  
-```
+See eDoorId declared in [`SET_VEHICLE_DOOR_SHUT`](#_0x93D9BD300D7789E5)
 
 ## Parameters
 * **vehicle**: 

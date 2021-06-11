@@ -8,10 +8,6 @@ ns: VEHICLE
 BOOL IS_THIS_MODEL_A_BIKE(Hash model);
 ```
 
-```
-Returns true if the model is motorcycle or bycicle.  
-```
-
 ## Parameters
 * **model**: 
 

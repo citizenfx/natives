@@ -8,10 +8,6 @@ ns: AUDIO
 void STOP_CURRENT_PLAYING_AMBIENT_SPEECH(Ped ped);
 ```
 
-```
-Needs to be called every frame.  
-```
-
 ## Parameters
 * **ped**: 
 

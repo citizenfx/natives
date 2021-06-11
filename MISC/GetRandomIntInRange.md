@@ -8,12 +8,6 @@ ns: MISC
 int GET_RANDOM_INT_IN_RANGE(int startRange, int endRange);
 ```
 
-```
-Another extremely useful native.  
-You can use it simply like:  
-if (GAMEPLAY::GET_RANDOM_INT_IN_RANGE(0, 2))  
-```
-
 ## Parameters
 * **startRange**: 
 * **endRange**: 

@@ -10,7 +10,7 @@ void ANIMATED_SHAKE_SCRIPT_GLOBAL(char* p0, char* p1, char* p2, float p3);
 ```
 
 ```
-CAM::_C2EAE3FB8CDBED31("SHAKE_CAM_medium", "medium", "", 0.5f);  
+CAM::ANIMATED_SHAKE_SCRIPT_GLOBAL("SHAKE_CAM_medium", "medium", "", 0.5f);
 ```
 
 ## Parameters

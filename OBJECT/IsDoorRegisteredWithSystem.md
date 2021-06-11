@@ -10,11 +10,10 @@ BOOL IS_DOOR_REGISTERED_WITH_SYSTEM(Hash doorHash);
 ```
 
 ```
-Example:  
-if (OBJECT::_DOES_DOOR_EXIST(doorHash))  
-{  
-    OBJECT::REMOVE_DOOR_FROM_SYSTEM(doorHash);  
-}  
+if (OBJECT::IS_DOOR_REGISTERED_WITH_SYSTEM(doorHash))
+{
+    OBJECT::REMOVE_DOOR_FROM_SYSTEM(doorHash);
+}
 ```
 
 ## Parameters

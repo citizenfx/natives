@@ -8,10 +8,6 @@ ns: MISC
 BOOL ARE_STRINGS_EQUAL(char* string1, char* string2);
 ```
 
-```
-is this like strcmp??  
-```
-
 ## Parameters
 * **string1**: 
 * **string2**: 

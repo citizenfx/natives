@@ -6,10 +6,10 @@ aliases: ["0xE12ABE5E3A389A6C"]
 
 ```c
 // 0xE12ABE5E3A389A6C 0x44767B31
-void SET_CAN_AUTO_VAULT_ON_ENTITY(Entity entity, BOOL p1);
+void SET_CAN_AUTO_VAULT_ON_ENTITY(Entity entity, BOOL toggle);
 ```
 
 ## Parameters
 * **entity**: 
-* **p1**: 
+* **toggle**: 
 

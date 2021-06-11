@@ -9,7 +9,7 @@ BOOL HAS_ANIM_EVENT_FIRED(Entity entity, Hash actionHash);
 ```
 
 ```
-if (ENTITY::HAS_ANIM_EVENT_FIRED(PLAYER::PLAYER_PED_ID(), GAMEPLAY::GET_HASH_KEY("CreateObject")))  
+if (ENTITY::HAS_ANIM_EVENT_FIRED(PLAYER::PLAYER_PED_ID(), MISC::GET_HASH_KEY("CreateObject")))
 ```
 
 ## Parameters

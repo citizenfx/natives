@@ -10,6 +10,6 @@ void SET_ENTITY_MAX_SPEED(Entity entity, float speed);
 
 
 ## Parameters
-* **entity**: 
-* **speed**: 
+* **entity**: Entity to apply a maximum speed on
+* **speed**: Speed in meters per second
 

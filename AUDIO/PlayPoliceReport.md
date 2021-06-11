@@ -9,9 +9,8 @@ int PLAY_POLICE_REPORT(char* name, float p1);
 ```
 
 ```
-Please change to void. (Does not return anything!)  
-Plays the given police radio message.  
-All found occurrences in b617d, sorted alphabetically and identical lines removed: pastebin.com/GBnsQ5hr  
+Plays the given police radio message.
+All found occurrences in b617d, sorted alphabetically and identical lines removed: pastebin.com/GBnsQ5hr
 ```
 
 ## Parameters

@@ -17,8 +17,6 @@ Examples with a besra:
 
 The parameter fade is a value from 0-1, where 0 is fresh paint.
 
-The actual value isn't stored as a float but as an unsigned char (BYTE).
-
 ## Parameters
 * **vehicle**: Target vehicle
 * **fade**: The paint fade effect strength

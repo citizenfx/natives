@@ -8,10 +8,6 @@ ns: AUDIO
 void UNLOCK_MISSION_NEWS_STORY(int newsStory);
 ```
 
-```
-I see this as a native that would of been used back in GTA III when you finally unlocked the bridge to the next island and such.  
-```
-
 ## Parameters
 * **newsStory**: 
 

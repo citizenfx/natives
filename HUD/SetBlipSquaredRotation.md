@@ -6,14 +6,14 @@ aliases: ["0xA8B6AFDAC320AC87"]
 
 ```c
 // 0xA8B6AFDAC320AC87
-void _SET_BLIP_SQUARED_ROTATION(Blip p0, float heading);
+void _SET_BLIP_SQUARED_ROTATION(Blip blip, float heading);
 ```
 
 ```
-Does not require whole whole number/integer rotations.
+Does not require whole number/integer rotations.
 ```
 
 ## Parameters
-* **p0**: 
+* **blip**: 
 * **heading**: 
 

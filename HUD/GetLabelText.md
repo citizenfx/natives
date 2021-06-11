@@ -9,7 +9,8 @@ char* _GET_LABEL_TEXT(char* labelName);
 ```
 
 ```
-Gets a string literal from a label name.  
+Gets a string literal from a label name.
+GET_F*
 ```
 
 ## Parameters

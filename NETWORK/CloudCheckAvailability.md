@@ -10,6 +10,6 @@ void CLOUD_CHECK_AVAILABILITY();
 ```
 
 ```
-Downloads prod.cloud.rockstargames.com/titles/gta5/<platform>/check.json  
+Downloads prod.cloud.rockstargames.com/titles/gta5/[platform]/check.json
 ```
 

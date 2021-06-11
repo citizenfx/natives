@@ -9,10 +9,6 @@ aliases: ["0x1201E8A3290A3B98"]
 void _SET_CAMBERED_WHEELS_DISABLED(Vehicle vehicle, BOOL toggle);
 ```
 
-```
-Disables wheel cambering & hydraulics
-```
-
 ## Parameters
 * **vehicle**: 
 * **toggle**: 

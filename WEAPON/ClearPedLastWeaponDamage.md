@@ -8,8 +8,7 @@ ns: WEAPON
 void CLEAR_PED_LAST_WEAPON_DAMAGE(Ped ped);
 ```
 
-Does NOT seem to work with HasPedBeenDamagedByWeapon.
-Use ClearEntityLastWeaponDamage and HasEntityBeenDamagedByWeapon instead.
+Does NOT seem to work with HAS_PED_BEEN_DAMAGED_BY_WEAPON. Use CLEAR_ENTITY_LAST_WEAPON_DAMAGE and HAS_ENTITY_BEEN_DAMAGED_BY_WEAPON instead.
 
 ## Parameters
 * **ped**: 

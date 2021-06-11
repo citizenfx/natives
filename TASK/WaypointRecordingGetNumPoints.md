@@ -9,8 +9,7 @@ BOOL WAYPOINT_RECORDING_GET_NUM_POINTS(char* name, int* points);
 ```
 
 ```
-For a full list, see here: pastebin.com/Tp0XpBMN  
-For a full list of the points, see here: goo.gl/wIH0vn  
+For a full list of the points, see here: goo.gl/wIH0vn
 ```
 
 ## Parameters

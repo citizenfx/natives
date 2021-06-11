@@ -8,10 +8,6 @@ ns: SCRIPT
 void REQUEST_SCRIPT(char* scriptName);
 ```
 
-```
-For a full list, see here: pastebin.com/yLNWicUi  
-```
-
 ## Parameters
 * **scriptName**: 
 

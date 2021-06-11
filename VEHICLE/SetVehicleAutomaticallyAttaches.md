@@ -8,10 +8,6 @@ ns: VEHICLE
 Any SET_VEHICLE_AUTOMATICALLY_ATTACHES(Vehicle vehicle, BOOL p1, Any p2);
 ```
 
-```
-Please change to void.  
-```
-
 ## Parameters
 * **vehicle**: 
 * **p1**: 

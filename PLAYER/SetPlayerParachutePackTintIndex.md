@@ -9,11 +9,12 @@ void SET_PLAYER_PARACHUTE_PACK_TINT_INDEX(Player player, int tintIndex);
 ```
 
 ```
-tints 0  
-1   
-2   
-3   
-4  
+tints 0- 13
+0 - unkown
+1 - unkown
+2 - unkown
+3 - unkown
+4 - unkown
 ```
 
 ## Parameters

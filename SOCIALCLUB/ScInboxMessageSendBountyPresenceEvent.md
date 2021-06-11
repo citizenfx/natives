@@ -9,10 +9,6 @@ aliases: ["0x6AFD2CD753FEEF83"]
 BOOL _SC_INBOX_MESSAGE_SEND_BOUNTY_PRESENCE_EVENT(char* data);
 ```
 
-```
-I put the argument as 'playerName' as when it's called in freemode.c TU27 X360 scripts. It's given a var that has GET_PLAYER_NAME stored in it via StringCopy.  
-```
-
 ## Parameters
 * **data**: 
 

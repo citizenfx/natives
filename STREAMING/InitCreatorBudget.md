@@ -9,7 +9,3 @@ aliases: ["0xB5A4DB34FE89B88A","_LOAD_MISSION_CREATOR_DATA"]
 void INIT_CREATOR_BUDGET();
 ```
 
-```
-Loads "common:/data/missioncreatordata" data and sets some values.  
-```
-

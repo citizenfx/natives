@@ -10,7 +10,7 @@ void SET_TRAILER_LEGS_RAISED(Vehicle vehicle);
 ```
 
 ```
-Also related to the attachment strength of the trailer (e.g., only detaching on negative health).
+in the decompiled scripts, seems to be always called on the vehicle right after being attached to a trailer.
 ```
 
 ## Parameters

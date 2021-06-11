@@ -8,12 +8,8 @@ ns: PAD
 BOOL IS_DISABLED_CONTROL_JUST_RELEASED(int padIndex, int control);
 ```
 
-```
-0, 1 and 2 used in the scripts. 0 is by far the most common of them.  
-```
-
 ## Parameters
-* **padIndex**: 
-* **control**: 
+* **padIndex**: The control system instance to use. See [`ENABLE_ALL_CONTROL_ACTIONS`](#_0xA5FFE9B05F199DE7).
+* **control**: The [control ID](https://docs.fivem.net/docs/game-references/controls/#controls) to check.
 
 ## Return value

@@ -10,11 +10,11 @@ void SET_CUTSCENE_PED_PROP_VARIATION(char* cutsceneEntName, int p1, int p2, int 
 ```
 
 ```
-Thanks R*! ;)  
-if ((l_161 == 0) || (l_161 == 2)) {  
-    sub_2ea27("Trying to set Jimmy prop variation");  
-    CUTSCENE::_0546524ADE2E9723("Jimmy_Boston", 1, 0, 0, 0);  
-}  
+Thanks R*! ;)
+if ((l_161 == 0) || (l_161 == 2)) {
+    sub_2ea27("Trying to set Jimmy prop variation");
+    CUTSCENE::_0546524ADE2E9723("Jimmy_Boston", 1, 0, 0, 0);
+}
 ```
 
 ## Parameters

@@ -9,10 +9,6 @@ aliases: ["_FORMAT_TIME"]
 char* GET_TIME_AS_STRING(int time);
 ```
 
-```
-Previously named, '_FORMAT_TIME' for people who can't find it's uses in decompiled scripts.  
-```
-
 ## Parameters
 * **time**: 
 

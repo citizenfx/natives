@@ -9,9 +9,8 @@ void REQUEST_WAYPOINT_RECORDING(char* name);
 ```
 
 ```
-For a full list, see here: pastebin.com/Tp0XpBMN  
-For a full list of the points, see here: goo.gl/wIH0vn  
-Max number of loaded recordings is 32.  
+For a full list of the points, see here: goo.gl/wIH0vn
+Max number of loaded recordings is 32.
 ```
 
 ## Parameters

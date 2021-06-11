@@ -9,8 +9,7 @@ float GET_VEHICLE_MODEL_MAX_BRAKING(Hash modelHash);
 ```
 
 ```
-Returns max braking of the specified vehicle model.  
-For a full list, see here: pastebin.com/3N8DVbpG  
+Returns max braking of the specified vehicle model.
 ```
 
 ## Parameters

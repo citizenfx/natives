@@ -1,0 +1,14 @@
+---
+ns: CUTSCENE
+aliases: ["0x41FAA8FB2ECE8720"]
+---
+## SET_CUTSCENE_CAN_BE_SKIPPED
+
+```c
+// 0x41FAA8FB2ECE8720 0x28D54A7F
+void SET_CUTSCENE_CAN_BE_SKIPPED(BOOL p0);
+```
+
+## Parameters
+* **p0**: 
+

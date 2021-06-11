@@ -9,7 +9,7 @@ aliases: ["0xF4F2C0D4EE209E20"]
 void INVALIDATE_IDLE_CAM();
 ```
 
-Resets the idle camera timer, calling this in a loop will disable it.
+Resets the idle camera timer. Calling that in a loop once every few seconds is enough to disable the idle cinematic camera.
 
 ## Examples
 ```lua

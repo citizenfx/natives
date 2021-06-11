@@ -9,7 +9,3 @@ aliases: ["0x80FE4F3AB4E1B62A","_THEFEED_FLUSH_PERSISTENT"]
 void THEFEED_CLEAR_FROZEN_POST();
 ```
 
-```
-Nulls out the elements stored in CGameStreamMgr + 673, a value inherited from CGameStreamMgr + 15417 (1604)
-```
-

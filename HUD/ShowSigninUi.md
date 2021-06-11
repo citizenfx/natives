@@ -9,7 +9,3 @@ aliases: ["0x60E892BA4F5BDCA4"]
 void _SHOW_SIGNIN_UI();
 ```
 
-```
-Something with Social Club or online.  
-```
-

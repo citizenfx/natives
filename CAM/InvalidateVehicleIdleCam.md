@@ -9,7 +9,7 @@ aliases: ["0x9E4CFFF989258472"]
 void _INVALIDATE_VEHICLE_IDLE_CAM();
 ```
 
-Resets the vehicle idle camera timer, calling this in a loop will disable it.
+Resets the vehicle idle camera timer. Calling this in a loop will disable the idle camera.
 
 ## Examples
 ```lua

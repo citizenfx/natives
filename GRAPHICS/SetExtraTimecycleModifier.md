@@ -8,7 +8,6 @@ ns: GRAPHICS
 void _SET_EXTRA_TIMECYCLE_MODIFIER(char* modifierName);
 ```
 
-Sets a secondary timecycle modifier.
 
 ## Parameters
 * **modifierName**: 

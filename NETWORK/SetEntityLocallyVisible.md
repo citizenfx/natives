@@ -8,10 +8,23 @@ ns: NETWORK
 void SET_ENTITY_LOCALLY_VISIBLE(Entity entity);
 ```
 
-```
-I tried using this and I see nothing happening, what is this suppose to do?  
-```
+Sets the provided entity visible for yourself for the current frame.
 
 ## Parameters
-* **entity**: 
+* **entity**: The entity to set locally visible.
 
+## Examples
+
+```lua
+CreateThread(function()
+  -- Any random entity should work
+  local entity = GetVehiclePedIsIn(PlayerPedId(), false)
+  while true do
+    Wait(0)
+    -- Sets the entity not visible to other players
+    SetEntityVisible(entity, false, false)
+    -- Sets the entity as visible for yourself
+    SetEntityLocallyVisible(entity)
+  end
+end)
+```

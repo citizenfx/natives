@@ -8,16 +8,7 @@ ns: VEHICLE
 void SET_VEHICLE_DOOR_CONTROL(Vehicle vehicle, int doorIndex, int speed, float angle);
 ```
 
-```
-doorIndex:  
-0 = Front Left Door (driver door)  
-1 = Front Right Door  
-2 = Back Left Door  
-3 = Back Right Door  
-4 = Hood  
-5 = Trunk  
-6 = Trunk2
-```
+See eDoorId declared in [`SET_VEHICLE_DOOR_SHUT`](#_0x93D9BD300D7789E5)
 
 ## Parameters
 * **vehicle**: 

@@ -10,17 +10,14 @@ void END_TEXT_COMMAND_BUSYSPINNER_ON(int busySpinnerType);
 ```
 
 ```
-This does NOT get called per frame. Call it once to show, then use UI::_REMOVE_LOADING_PROMPT to remove it  
-Changes the the above native's (UI::_SET_LOADING_PROMPT_TEXT_ENTRY) spinning circle type.  
-Types:  
-enum LoadingPromptTypes  
-{  
-	LOADING_PROMPT_LEFT,  
-	LOADING_PROMPT_LEFT_2,  
-	LOADING_PROMPT_LEFT_3,  
-	SAVE_PROMPT_LEFT,  
-	LOADING_PROMPT_RIGHT,  
-};  
+enum eBusySpinnerType
+{
+	BUSY_SPINNER_LEFT,
+	BUSY_SPINNER_LEFT_2,
+	BUSY_SPINNER_LEFT_3,
+	BUSY_SPINNER_SAVE,
+	BUSY_SPINNER_RIGHT,
+};
 ```
 
 ## Parameters

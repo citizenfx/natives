@@ -8,10 +8,7 @@ ns: SCRIPT
 BOOL HAS_SCRIPT_LOADED(char* scriptName);
 ```
 
-```
-Returns if a script has been loaded into the game. Used to see if a script was loaded after requesting.  
-For a full list, see here: pastebin.com/yLNWicUi  
-```
+Returns if a script has been loaded into the game. Used to see if a script was loaded after requesting.
 
 ## Parameters
 * **scriptName**: 

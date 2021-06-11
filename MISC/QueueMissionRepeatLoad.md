@@ -1,0 +1,13 @@
+---
+ns: MISC
+aliases: ["0x72DE52178C291CB5"]
+---
+## QUEUE_MISSION_REPEAT_LOAD
+
+```c
+// 0x72DE52178C291CB5 0xF62B3C48
+Any QUEUE_MISSION_REPEAT_LOAD();
+```
+
+
+## Return value

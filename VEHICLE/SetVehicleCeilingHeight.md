@@ -10,8 +10,9 @@ void SET_VEHICLE_CEILING_HEIGHT(Vehicle vehicle, float height);
 ```
 
 ```
-from Decrypted Scripts I found  
-VEHICLE::SET_VEHICLE_CEILING_HEIGHT(l_BD9[2/*2*/], 420.0);  
+Previously named GET_VEHICLE_DEFORMATION_GET_TREE (hash collision)
+from Decrypted Scripts I found
+VEHICLE::SET_VEHICLE_CEILING_HEIGHT(l_BD9[2/*2*/], 420.0);
 ```
 
 ## Parameters

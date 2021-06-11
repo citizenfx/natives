@@ -1,0 +1,14 @@
+---
+ns: NETWORK
+aliases: ["0xC505036A35AFD01B"]
+---
+## NETWORK_DISABLE_LEAVE_REMOTE_PED_BEHIND
+
+```c
+// 0xC505036A35AFD01B 0xA100CC97
+void NETWORK_DISABLE_LEAVE_REMOTE_PED_BEHIND(BOOL toggle);
+```
+
+## Parameters
+* **toggle**: 
+

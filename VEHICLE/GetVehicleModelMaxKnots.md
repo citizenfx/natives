@@ -10,9 +10,8 @@ float _GET_VEHICLE_MODEL_MAX_KNOTS(Hash modelHash);
 ```
 
 ```
-GET_VEHICLE_MODEL_*  
-Function pertains only to aviation vehicles.  
-For a full list, see here: pastebin.com/JwuGNp2K  
+GET_VEHICLE_MODEL_*
+Function pertains only to aviation vehicles.
 ```
 
 ## Parameters

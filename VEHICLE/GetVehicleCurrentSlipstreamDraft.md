@@ -10,7 +10,8 @@ float _GET_VEHICLE_CURRENT_SLIPSTREAM_DRAFT(Vehicle vehicle);
 ```
 
 ```
-Returns a float value between 0.0 and 3.0 related to its slipstream draft (boost/speedup).  
+Returns a float value between 0.0 and 3.0 related to its slipstream draft (boost/speedup).
+GET_VEHICLE_*
 ```
 
 ## Parameters

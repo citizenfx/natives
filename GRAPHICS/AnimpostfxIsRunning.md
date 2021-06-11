@@ -9,13 +9,10 @@ aliases: ["_GET_SCREEN_EFFECT_IS_ACTIVE"]
 BOOL ANIMPOSTFX_IS_RUNNING(char* effectName);
 ```
 
-```
-Returns whether the specified screen effect is active.  
-See the effects list in _START_SCREEN_EFFECT  
-Example and list of screen FX: www.pastebin.com/dafBAjs0  
-```
+See [`ANIMPOSTFX_PLAY`](#_0x2206BF9A37B7F724).
 
 ## Parameters
 * **effectName**: 
 
 ## Return value
+Whether the specified effect is active

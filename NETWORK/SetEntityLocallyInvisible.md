@@ -8,21 +8,19 @@ ns: NETWORK
 void SET_ENTITY_LOCALLY_INVISIBLE(Entity entity);
 ```
 
-Makes the provided entity visible for yourself for the current frame.
+Sets the provided entity not visible for yourself for the current frame.
 
 ## Parameters
-* **entity**: 
+* **entity**:
 
 ## Examples
 
 ```lua
--- Any random entity should work
-local entity = PlayerPedId()
-
--- Make the entity visible for all players
-SetEntityVisible(entity, true)
-
 CreateThread(function()
+  -- Any random entity should work
+  local entity = PlayerPedId()
+  -- Make the entity visible for all players
+  SetEntityVisible(entity, true)
   while true do
     Wait(0)
     -- Make the entity invisible for the current player only.
