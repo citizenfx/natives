@@ -6,7 +6,7 @@ aliases: ["0xD53ACDBEF24A46E8"]
 
 ```c
 // 0xD53ACDBEF24A46E8 0x4908A514
-Any UGC_IS_GETTING();
+cs_type(Any) BOOL UGC_IS_GETTING();
 ```
 
 ## Return value

@@ -6,12 +6,7 @@ aliases: ["0x1950DAE9848A4739"]
 
 ```c
 // 0x1950DAE9848A4739
-BOOL _NETWORK_REGISTER_TUNABLE_FLOAT_HASH(Any contextHash, Any nameHash, float* value);
-```
-
-```
-NativeDB Parameter 0: Hash contextHash
-NativeDB Parameter 1: Hash nameHash
+BOOL _NETWORK_REGISTER_TUNABLE_FLOAT_HASH(cs_type(Any) Hash contextHash, cs_type(Any) Hash nameHash, float* value);
 ```
 
 ## Parameters

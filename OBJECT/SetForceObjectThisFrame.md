@@ -5,14 +5,7 @@ ns: OBJECT
 
 ```c
 // 0xF538081986E49E9D 0x3DA41C1A
-void SET_FORCE_OBJECT_THIS_FRAME(Any x, Any y, Any z, Any p3);
-```
-
-```
-NativeDB Parameter 0: float x
-NativeDB Parameter 1: float y
-NativeDB Parameter 2: float z
-NativeDB Parameter 3: float p3
+void SET_FORCE_OBJECT_THIS_FRAME(cs_type(Any) float x, cs_type(Any) float y, cs_type(Any) float z, cs_type(Any) float p3);
 ```
 
 ## Parameters

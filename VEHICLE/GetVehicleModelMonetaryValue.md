@@ -6,15 +6,11 @@ aliases: ["0x5873C14A52D74236"]
 
 ```c
 // 0x5873C14A52D74236
-int _GET_VEHICLE_MODEL_MONETARY_VALUE(Any vehicleModel);
+int _GET_VEHICLE_MODEL_MONETARY_VALUE(cs_type(Any) Hash vehicleModel);
 ```
 
 ```
 Returns `nMonetaryValue` from handling.meta for specific model.
-```
-
-```
-NativeDB Parameter 0: Hash vehicleModel
 ```
 
 ## Parameters

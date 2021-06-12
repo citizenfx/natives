@@ -5,11 +5,7 @@ ns: PLAYER
 
 ```c
 // 0xF3AC26D3CC576528 0x6255F3B4
-Any REMOVE_PLAYER_HELMET(Player player, BOOL p2);
-```
-
-```
-NativeDB Return Type: void
+cs_type(Any) void REMOVE_PLAYER_HELMET(Player player, BOOL p2);
 ```
 
 ## Parameters

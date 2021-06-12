@@ -5,11 +5,7 @@ ns: NETWORK
 
 ```c
 // 0xD23A1A815D21DB19 0x3A3599B7
-Any NETWORK_LEAVE_TRANSITION();
-```
-
-```
-NativeDB Return Type: BOOL
+cs_type(Any) BOOL NETWORK_LEAVE_TRANSITION();
 ```
 
 ## Return value

@@ -6,11 +6,7 @@ aliases: ["0x11FF1C80276097ED"]
 
 ```c
 // 0x11FF1C80276097ED 0x4AC39C6C
-void _UPDATE_STAT_INT(char* statHash, int value, int p2);
-```
-
-```
-NativeDB Parameter 0: Hash statHash
+void _UPDATE_STAT_INT(cs_type(charPtr) Hash statHash, int value, int p2);
 ```
 
 ## Parameters

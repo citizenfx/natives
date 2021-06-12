@@ -6,11 +6,7 @@ aliases: ["0x6A1738B4323FE2D9"]
 
 ```c
 // 0x6A1738B4323FE2D9
-void _OVERRIDE_MULTIPLAYER_CHAT_PREFIX(Any gxtEntryHash);
-```
-
-```
-NativeDB Parameter 0: Hash gxtEntryHash
+void _OVERRIDE_MULTIPLAYER_CHAT_PREFIX(cs_type(Any) Hash gxtEntryHash);
 ```
 
 ## Parameters

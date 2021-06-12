@@ -5,7 +5,7 @@ ns: PED
 
 ```c
 // 0xF28965D04F570DCA 0x164DDEFF
-BOOL FORCE_PED_MOTION_STATE(Ped ped, Hash motionStateHash, BOOL p2, BOOL p3, BOOL p4);
+BOOL FORCE_PED_MOTION_STATE(Ped ped, Hash motionStateHash, BOOL p2, cs_type(BOOL) int p3, BOOL p4);
 ```
 
 ```
@@ -28,10 +28,6 @@ Regarding p2, p3 and p4: Most common is 0, 0, 0); followed by 0, 1, 0); and 1, 1
             Unknown1 = 1063765679,  
             Unknown2 = -633298724,  
         }  
-```
-
-```
-NativeDB Parameter 3: int p3
 ```
 
 ## Parameters

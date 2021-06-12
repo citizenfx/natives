@@ -5,18 +5,9 @@ ns: GRAPHICS
 
 ```c
 // 0xD77EDADB0420E6E0 0xF81E884A
-void FADE_DECALS_IN_RANGE(Any x, Any y, Any z, Any radius, Any duration);
+void FADE_DECALS_IN_RANGE(cs_type(Any) float x, cs_type(Any) float y, cs_type(Any) float z, cs_type(Any) float radius, cs_type(Any) float duration);
 ```
 
-Fades nearby decals within the range specified. 
-
-```
-NativeDB Parameter 0: float x
-NativeDB Parameter 1: float y
-NativeDB Parameter 2: float z
-NativeDB Parameter 3: float radius
-NativeDB Parameter 4: float duration
-```
 
 ## Parameters
 * **x**: 

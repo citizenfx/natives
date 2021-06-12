@@ -5,11 +5,7 @@ ns: MISC
 
 ```c
 // 0x57FFF03E423A4C0B 0x86745EF3
-int SET_SUPER_JUMP_THIS_FRAME(Player player);
-```
-
-```
-NativeDB Return Type: void
+cs_type(int) void SET_SUPER_JUMP_THIS_FRAME(Player player);
 ```
 
 ## Parameters

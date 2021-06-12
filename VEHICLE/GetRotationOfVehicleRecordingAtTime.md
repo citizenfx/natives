@@ -5,12 +5,9 @@ ns: VEHICLE
 
 ```c
 // 0x2058206FBE79A8AD 0xD96DEC68
-int GET_ROTATION_OF_VEHICLE_RECORDING_AT_TIME(Any p0, float p1, Any* p2);
+cs_type(int) Vector3 GET_ROTATION_OF_VEHICLE_RECORDING_AT_TIME(int p0, float p1, cs_type(AnyPtr) char* p2);
 ```
 
-```
-NativeDB Return Type: Vector3
-```
 
 ## Parameters
 * **p0**: 

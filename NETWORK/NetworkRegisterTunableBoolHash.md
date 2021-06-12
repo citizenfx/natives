@@ -6,12 +6,7 @@ aliases: ["0x697F508861875B42"]
 
 ```c
 // 0x697F508861875B42
-BOOL _NETWORK_REGISTER_TUNABLE_BOOL_HASH(Any contextHash, Any nameHash, BOOL* value);
-```
-
-```
-NativeDB Parameter 0: Hash contextHash
-NativeDB Parameter 1: Hash nameHash
+BOOL _NETWORK_REGISTER_TUNABLE_BOOL_HASH(cs_type(Any) Hash contextHash, cs_type(Any) Hash nameHash, BOOL* value);
 ```
 
 ## Parameters

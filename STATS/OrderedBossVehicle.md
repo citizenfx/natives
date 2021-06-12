@@ -6,11 +6,7 @@ aliases: ["0xCEA553E35C2246E1"]
 
 ```c
 // 0xCEA553E35C2246E1
-void _ORDERED_BOSS_VEHICLE(Any p0, Any p1, Any vehicleHash);
-```
-
-```
-NativeDB Parameter 2: Hash vehicleHash
+void _ORDERED_BOSS_VEHICLE(Any p0, Any p1, cs_type(Any) Hash vehicleHash);
 ```
 
 ## Parameters

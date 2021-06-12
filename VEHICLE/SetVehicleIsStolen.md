@@ -5,11 +5,7 @@ ns: VEHICLE
 
 ```c
 // 0x67B2C79AA7FF5738 0x70912E42
-Any SET_VEHICLE_IS_STOLEN(Vehicle vehicle, BOOL isStolen);
-```
-
-```
-NativeDB Return Type: void
+cs_type(Any) void SET_VEHICLE_IS_STOLEN(Vehicle vehicle, BOOL isStolen);
 ```
 
 ## Parameters

@@ -6,12 +6,9 @@ aliases: ["0xB3EA4FEABF41464B"]
 
 ```c
 // 0xB3EA4FEABF41464B
-int _GET_WEAPON_OBJECT_LIVERY_COLOR(Object weaponObject, Any camoComponentHash);
+int _GET_WEAPON_OBJECT_LIVERY_COLOR(Object weaponObject, cs_type(Any) Hash camoComponentHash);
 ```
 
-```
-NativeDB Parameter 1: Hash camoComponentHash
-```
 
 ## Parameters
 * **weaponObject**: 

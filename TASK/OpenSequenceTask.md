@@ -5,11 +5,7 @@ ns: TASK
 
 ```c
 // 0xE8854A4326B9E12B 0xABA6923E
-Any OPEN_SEQUENCE_TASK(int* taskSequenceId);
-```
-
-```
-NativeDB Return Type: void
+cs_type(Any) void OPEN_SEQUENCE_TASK(int* taskSequenceId);
 ```
 
 ## Parameters

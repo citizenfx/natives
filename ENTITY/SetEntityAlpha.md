@@ -1,23 +1,19 @@
 ---
 ns: ENTITY
 ---
-
 ## SET_ENTITY_ALPHA
 
 ```c
 // 0x44A0870B7E92D7C0 0xAE667CB0
-void SET_ENTITY_ALPHA(Entity entity, int alphaLevel, int skin);
+void SET_ENTITY_ALPHA(Entity entity, int alphaLevel, cs_type(int) BOOL skin);
 ```
 
 This native sets the entity's alpha level.
 
-The skin parameter is actually a BOOL, but can't be changed due to backwards compatibility issues for C# scripts.
-
 ## Parameters
-
-- **entity**: The entity to change the alpha for.
-- **alphaLevel**: The alpha level ranges from 0 to 255, but changes occur every 20% (every 51).
-- **skin**: Whether or not to change the alpha of the entity's skin.
+* **entity**: The entity to change the alpha for.
+* **alphaLevel**: The alpha level ranges from 0 to 255, but changes occur every 20% (every 51).
+* **skin**: Whether or not to change the alpha of the entity's skin.
 
 ## Examples
 

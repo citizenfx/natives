@@ -6,15 +6,11 @@ aliases: ["0x5EAAD83F8CFB4575"]
 
 ```c
 // 0x5EAAD83F8CFB4575 0x6AE36192
-Hash _GET_PICKUP_HASH(Pickup pickupHash);
+Hash _GET_PICKUP_HASH(cs_type(Pickup) Hash pickupHash);
 ```
 
 ```
-returns pickup hash.  
-```
-
-```
-NativeDB Parameter 0: Hash pickupHash
+returns pickup hash.
 ```
 
 ## Parameters

@@ -5,7 +5,7 @@ ns: FILES
 
 ```c
 // 0x6CF598A2957C2BF8 0x4B83FCAF
-BOOL GET_DLC_WEAPON_COMPONENT_DATA(int dlcWeaponIndex, int dlcWeapCompIndex, Any* ComponentDataPtr);
+BOOL GET_DLC_WEAPON_COMPONENT_DATA(int dlcWeaponIndex, int dlcWeapCompIndex, cs_type(AnyPtr) int* ComponentDataPtr);
 ```
 
 ```
@@ -27,10 +27,6 @@ int padding6;
 char nameLabel[64];  
 char descLabel[64];  
 };  
-```
-
-```
-NativeDB Parameter 2: int* ComponentDataPtr
 ```
 
 ## Parameters

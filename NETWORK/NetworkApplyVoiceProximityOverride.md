@@ -6,11 +6,7 @@ aliases: ["IS_NETWORK_VEHICLE_BEEN_DAMAGED_BY_ANY_OBJECT"]
 
 ```c
 // 0xDBD2056652689917 0xF1E84832
-BOOL NETWORK_APPLY_VOICE_PROXIMITY_OVERRIDE(float x, float y, float z);
-```
-
-```
-NativeDB Return Type: void
+cs_type(BOOL) void NETWORK_APPLY_VOICE_PROXIMITY_OVERRIDE(float x, float y, float z);
 ```
 
 ## Parameters

@@ -6,7 +6,7 @@ aliases: ["0x299EF3C576773506"]
 
 ```c
 // 0x299EF3C576773506 0x611E0BE2
-Any UGC_HAS_MODIFY_FINISHED();
+cs_type(Any) BOOL UGC_HAS_MODIFY_FINISHED();
 ```
 
 ## Return value

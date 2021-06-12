@@ -6,7 +6,7 @@ aliases: ["0xCA94551B50B4932C"]
 
 ```c
 // 0xCA94551B50B4932C 0x37877757
-Any GET_COMMERCE_PRODUCT_PRICE(int index);
+cs_type(Any) char* GET_COMMERCE_PRODUCT_PRICE(int index);
 ```
 
 ## Parameters

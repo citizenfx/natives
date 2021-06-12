@@ -6,12 +6,7 @@ aliases: ["0xF7F203E31F96F6A1"]
 
 ```c
 // 0xF7F203E31F96F6A1 0x769E5CF2
-BOOL IS_SEAT_WARP_ONLY(Vehicle vehicle, BOOL seatIndex);
-```
-
-
-```
-NativeDB Parameter 1: int seatIndex
+BOOL IS_SEAT_WARP_ONLY(Vehicle vehicle, cs_type(BOOL) int seatIndex);
 ```
 
 ## Parameters

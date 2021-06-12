@@ -6,11 +6,7 @@ aliases: ["0x30FD873ECE50E9F6"]
 
 ```c
 // 0x30FD873ECE50E9F6
-void _NETWORK_BUY_CONTRABAND(int p0, int p1, Any p2, BOOL p3, BOOL p4);
-```
-
-```
-NativeDB Parameter 2: Hash p2
+void _NETWORK_BUY_CONTRABAND(int p0, int p1, cs_type(Any) Hash p2, BOOL p3, BOOL p4);
 ```
 
 ## Parameters

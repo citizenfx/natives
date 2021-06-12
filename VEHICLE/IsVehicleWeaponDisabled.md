@@ -6,11 +6,7 @@ aliases: ["0x563B65A643ED072E"]
 
 ```c
 // 0x563B65A643ED072E
-BOOL _IS_VEHICLE_WEAPON_DISABLED(Any weaponHash, Vehicle vehicle, Ped owner);
-```
-
-```
-NativeDB Parameter 0: Hash weaponHash
+BOOL _IS_VEHICLE_WEAPON_DISABLED(cs_type(Any) Hash weaponHash, Vehicle vehicle, Ped owner);
 ```
 
 ## Parameters

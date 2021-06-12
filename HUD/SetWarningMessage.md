@@ -5,7 +5,7 @@ ns: HUD
 
 ```c
 // 0x7B1776B3B53F8D74 0xBE699BDE
-void SET_WARNING_MESSAGE(char* entryLine1, int instructionalKey, char* entryLine2, BOOL p3, int p4, Any* background, Any* p6, BOOL showBg, Any p8);
+void SET_WARNING_MESSAGE(char* entryLine1, int instructionalKey, char* entryLine2, BOOL p3, int p4, cs_type(AnyPtr) char* background, cs_type(AnyPtr) char* p6, BOOL showBg, Any p8);
 ```
 
 **instructionalKey enum list**:
@@ -76,10 +76,6 @@ Note: this list is definitely NOT complete, but these are the ones I've been abl
 **Result of the example code:**
 [https://i.imgur.com/imwoimm.png](https://i.imgur.com/imwoimm.png)
 
-```
-NativeDB Parameter 5: char* background
-NativeDB Parameter 6: char* p6
-```
 
 ## Parameters
 * **entryLine1**: The text label to display as the first line of the warning message.

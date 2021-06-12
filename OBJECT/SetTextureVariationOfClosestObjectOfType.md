@@ -6,11 +6,7 @@ aliases: ["0xF12E33034D887F66"]
 
 ```c
 // 0xF12E33034D887F66
-BOOL _SET_TEXTURE_VARIATION_OF_CLOSEST_OBJECT_OF_TYPE(float x, float y, float z, float radius, Any modelHash, int textureVariation);
-```
-
-```
-NativeDB Parameter 4: Hash modelHash
+BOOL _SET_TEXTURE_VARIATION_OF_CLOSEST_OBJECT_OF_TYPE(float x, float y, float z, float radius, cs_type(Any) Hash modelHash, int textureVariation);
 ```
 
 ## Parameters
