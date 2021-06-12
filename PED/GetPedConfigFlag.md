@@ -8,11 +8,7 @@ ns: PED
 BOOL GET_PED_CONFIG_FLAG(Ped ped, int flagId, BOOL p2);
 ```
 
-```
-p2 is always 1 in the scripts.  
-if (GET_PED_CONFIG_FLAG(ped, 78, 1))  
-= returns true if ped is aiming/shooting a gun  
-```
+See [`SET_PED_CONFIG_FLAG`](#_0x1913FE4CBF41C463).
 
 ## Parameters
 * **ped**: 
