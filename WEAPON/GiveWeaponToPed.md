@@ -15,3 +15,7 @@ void GIVE_WEAPON_TO_PED(Ped ped, Hash weaponHash, int ammoCount, BOOL isHidden, 
 * **isHidden**: 
 * **bForceInHand**: 
 
+for example
+GiveWeaponToPed(PlayerPedId(), -270015777,100,true,true)
+this gives your character Assault SMG
+
