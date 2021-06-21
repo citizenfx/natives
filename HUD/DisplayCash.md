@@ -9,8 +9,8 @@ void DISPLAY_CASH(BOOL toggle);
 ```
 
 ```
-"DISPLAY_CASH(false);" makes the cash amount render on the screen when appropriate  
-"DISPLAY_CASH(true);" disables cash amount rendering  
+"DISPLAY_CASH(true);" makes the cash amount render on the screen when appropriate  
+"DISPLAY_CASH(false);" disables cash amount rendering  
 ```
 
 ## Parameters
