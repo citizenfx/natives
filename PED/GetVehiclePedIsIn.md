@@ -17,3 +17,9 @@ If the Ped is not in a vehicle and includeLastVehicle is true, the vehicle they 
 
 ## Return value
 The vehicle id. Returns 0 if the ped is/was not in a vehicle.
+
+
+You might want to use this with GetEntityModel, as the example below:
+```
+GetEntityModel(GetVehiclePedIsIn(PlayerPedId()))
+```
