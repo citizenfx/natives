@@ -27,3 +27,4 @@ NativeDB Added Parameter 6: Any p5
 * **p3**: 
 * **p4**: 
 
+Note: if you are having issues with weird camera ease start positions, try setting p3 and p4 to `true`.
