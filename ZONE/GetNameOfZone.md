@@ -1,5 +1,6 @@
 ---
 ns: ZONE
+apiset: client
 ---
 ## GET_NAME_OF_ZONE
 
@@ -106,3 +107,13 @@ ZQ_UAR = Davis Quartz
 * **z**: 
 
 ## Return value
+Returns the name of the zone the ped is currently in
+
+## Examples
+```lua
+-- A short example getting the zone name ped is currently in with Lua
+local playerPed = PlayerPedId()
+local pos = GetEntityCoords(playerPed) 
+
+print(GetNameOfZone(pos.x, pos.y, pos.z))
+```
