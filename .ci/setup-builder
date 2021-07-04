@@ -5,6 +5,8 @@ set -eu
 # include common script
 . "$(dirname "$0")"/common.sh
 
+sudo ln -s libclang-10.so.1 /usr/lib/x86_64-linux-gnu/libclang.so
+
 mkdir -p $BUILDER_ROOT
 cd $BUILDER_ROOT
 

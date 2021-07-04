@@ -1,0 +1,28 @@
+name: Validate pull request
+on: [pull_request]
+
+jobs:
+  validate:
+    runs-on: ubuntu-20.04
+    name: Validate PR
+    steps:
+      - name: Get PR commits
+        id: 'get-pr-commits'
+        uses: tim-actions/get-pr-commits@v1.1.0
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/checkout@v2
+        with: 
+          path: './'
+          fetch-depth: 0
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '12' # while 14+ technically works, it's 25-50x slower at running native-doc-tooling
+      - name: Validate build
+        id: 'validate'
+        env:
+          COMMIT_LIST: ${{ steps.get-pr-commits.outputs.commits }}
+        run: |
+          set -xe
+          bash ./.ci/setup-builder
+          bash ./.ci/run-pr

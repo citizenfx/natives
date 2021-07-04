@@ -1,0 +1,32 @@
+name: Deploy natives
+on:
+  push:
+    branches:
+     - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-20.04
+    name: Build & Deploy
+    steps:
+      - uses: actions/checkout@v2
+        with: 
+          path: './'
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '12' # while 14+ technically works, it's 25-50x slower at running native-doc-tooling
+      - name: Run build
+        run: |
+          set -xe
+          bash ./.ci/setup-builder
+          bash ./.ci/run-deploy
+      - name: Install SSH key
+        uses: shimataro/ssh-key-action@v2
+        with:
+          key: ${{ secrets.NATIVE_DEPLOY_KEY }}
+          known_hosts: ${{ secrets.NATIVE_DEPLOY_KNOWN_HOSTS }}
+      - name: Deploy
+        env:
+          NATIVE_DEPLOY_URL: ${{ secrets.NATIVE_DEPLOY_URL }}
+        run: |
+          rsync -r --delete-after --quiet ./out/ $NATIVE_DEPLOY_URL

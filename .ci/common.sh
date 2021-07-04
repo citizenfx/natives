@@ -26,7 +26,7 @@ title() {
 }
 
 die() {
-	print -s1 -c1 "$@\n" 1>&2
+	printf "\n::error::$@\n" 1>&2
 	exit 1
 }
 
@@ -35,13 +35,12 @@ fold_start() {
 	local name="$1"
 	local title="$2"
 
-	printf "\ntravis_fold:start:$name "
-	print -s1 -c6 "> $title\n"
+	printf "\n::group::$title \n"
 }
 
 # Marks end of the named folding section.
 fold_end() {
 	local name="$1"
 
-	printf "travis_fold:end:$name\n"
+	printf "::endgroup::\n"
 }

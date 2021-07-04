@@ -15,9 +15,9 @@ changed_docs() {
 }
 
 # determine commit range
-commit_range="$(echo "${TRAVIS_COMMIT_RANGE:-}" | sed -E 's/\.{3}/../')"
+commit_range="$(echo "${COMMIT_LIST}" | jq -r '(. | first | .sha) + "~1.." + (. | last | .sha)')"
 if ! git rev-parse "$commit_range" >/dev/null 2>&1; then
-	commit_range="$(git rev-parse HEAD^1)..HEAD"
+	commit_range="$(git rev-parse HEAD~1)..HEAD"
 fi
 
 # begin
