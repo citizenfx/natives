@@ -17,3 +17,12 @@ When switching with a controller, the icons update and become the controller's i
 ## Parameters
 * **string**: 
 
+```lua
+--You can push Control names directly.
+ScaleformMovieMethodAddParamPlayerNameString("~INPUT_ENTER~")
+
+--Works with custom keybinds too:
+ScaleformMovieMethodAddParamPlayerNameString("~INPUT_F53DC64D~") --+handsup command, added with RegisterKeyMapping()
+
+```
+
