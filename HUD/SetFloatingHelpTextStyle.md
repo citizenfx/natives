@@ -6,7 +6,7 @@ aliases: ["0x788E7FD431BD67F1"]
 
 ```c
 // 0x788E7FD431BD67F1 0x97852A82
-void SET_FLOATING_HELP_TEXT_STYLE(Any p0, Any p1, hudColorIndex --[[ integer ]], Any p3, placement --[[ integer ]], Any p5);
+void SET_FLOATING_HELP_TEXT_STYLE(Any p0, Any p1, hudColorIndex --[[ integer ]], Any p3, placement --[[ integer ]], ArrowPosition --[[ integer ]]);
 ```
 
 ```
