@@ -1,5 +1,6 @@
 ---
 ns: MOBILE
+aliases: ["0x53F4892D18EC90A4"]
 ---
 ## CELL_CAM_SET_DISTANCE
 
