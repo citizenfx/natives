@@ -1,7 +1,8 @@
 ---
 ns: MOBILE
+aliases: ["0x15E69E2802C24B8D"]
 ---
-## CELL_CAM_SET_ROLL
+## _CELL_CAM_SET_ROLL
 
 ```c
 // 0x15E69E2802C24B8D
