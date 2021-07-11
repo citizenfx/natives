@@ -18,6 +18,6 @@ void START_PLAYER_TELEPORT(Player player, float x, float y, float z, float headi
 * **y**: 
 * **z**: 
 * **heading**: 
-* **p5**: 
+* **teleportWithVehicle**: When true this allow to teleports the player with is vehicle when he is currently in.
 * **findCollisionLand**: This teleports the player to land when set to true and will not consider the Z coordinate parameter provided by you. It will automatically put the Z coordinate so that you don't fall from sky.
 * **p7**: 
