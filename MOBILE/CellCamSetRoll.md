@@ -1,0 +1,18 @@
+---
+ns: MOBILE
+aliases: ["0x15E69E2802C24B8D"]
+---
+## _CELL_CAM_SET_ROLL
+
+```c
+// 0x15E69E2802C24B8D
+void CELL_CAM_SET_ROLL(float p0);
+```
+
+```
+p0 from -1.0 to 1.0
+```
+
+## Parameters
+* **p0**: 
+
