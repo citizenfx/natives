@@ -48,3 +48,12 @@ These are some localized strings used in the loading spinner.
 ## Parameters
 * **string**: 
 
+```lua
+function showBusySpinnerNoScaleform(_text)
+    BeginTextCommandBusyspinnerOn("STRING")
+    AddTextComponentSubstringPlayerName(_text)
+    EndTextCommandBusyspinnerOn(1)
+end
+
+```
+
