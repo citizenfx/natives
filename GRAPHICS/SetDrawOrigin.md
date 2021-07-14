@@ -23,6 +23,8 @@ Result: www11.pic-upload.de/19.06.15/bkqohvil2uao.jpg
 If the pedestrian starts walking around now, the sprites are always around her head, no matter where the head is displayed on the screen.  
 This function also effects the drawing of texts and other UI-elements.  
 The effect can be reset by calling GRAPHICS::CLEAR_DRAW_ORIGIN().  
+
+There seems to be a limit to how many different screen positions we can grab within one frame. Calling this more then 20 times in a loop returns 0,0.
 ```
 
 ## Parameters
