@@ -13,7 +13,7 @@ Checks if entity1 has a clear line of sight to entity2. So a simple raycast whic
 The direction of the check matters with for example bushes, so checking from inside to outside a bush with traceType 256 returns true, but the other way around returns false.
 
 ```
-flags is always 17 in the scripts (object | map).
+Most commonly used type in GTA scripts is 17 (object | map)
 There is other codes used for traceType:
 19 - in jewelry_prep1a (object | map | vehicle)
 126 - in am_hunt_the_beast (Unknown)
