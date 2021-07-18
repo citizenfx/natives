@@ -14,7 +14,9 @@ info about driving modes: HTTP://gtaforums.com/topic/822314-guide-driving-styles
 Passing P6 value as floating value didn't throw any errors, though unsure what is it exactly, looks like radius or something.  
 P10 though, it is mentioned as float, however, I used bool and set it to true, that too worked.  
 Here the e.g. code I used  
-Function.Call(Hash.TASK_VEHICLE_DRIVE_TO_COORD, Ped, Vehicle, Cor X, Cor Y, Cor Z, 30f, 1f, Vehicle.GetHashCode(), 16777216, 1f, true);  
+Function.Call(Hash.TASK_VEHICLE_DRIVE_TO_COORD, Ped, Vehicle, Cor X, Cor Y, Cor Z, 30f, 1f, Vehicle.GetHashCode(), 16777216, 1f, true); 
+
+seems like p6 = brake strength when reaching stopRange | float 0-1, not sure
 ```
 
 ## Parameters
