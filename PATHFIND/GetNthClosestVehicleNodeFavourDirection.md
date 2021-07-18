@@ -12,6 +12,10 @@ BOOL GET_NTH_CLOSEST_VEHICLE_NODE_FAVOUR_DIRECTION(float x, float y, float z, fl
 See gtaforums.com/topic/843561-pathfind-node-types for node type info. 0 = paved road only, 1 = any road, 3 = water  
 p10 always equal 0x40400000  
 p11 always equal 0  
+
+So far the best result I could get was by passing (x,y,z position + direction vector) as desired vector.
+Desired vector could be position of another node.
+
 ```
 
 ## Parameters
