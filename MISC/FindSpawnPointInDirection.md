@@ -13,11 +13,10 @@ Finds a position ahead of the player by predicting the players next actions.
 The positions match path finding node positions.  
 When roads diverge, the position may rapidly change between two or more positions. This is due to the engine not being certain of which path the player will take.  
 =======================================================  
-I may sort this with alter research, but if someone  
-already knows please tell what the difference in   
-X2, Y2, Z2 is. I doubt it's rotation. Is it like   
-checkpoints where X1, Y1, Z1 is your/a position and  
-X2, Y2, Z2 is a given position ahead of that position?  
+1st vector = center position
+2nd vector = heading vector
+Works great when you pass ENTITY::GET_ENTITY_VELOCITY() as the second vector.
+ 
 =======================================================  
 ```
 
