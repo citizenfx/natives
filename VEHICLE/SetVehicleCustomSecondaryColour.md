@@ -9,7 +9,7 @@ void SET_VEHICLE_CUSTOM_SECONDARY_COLOUR(Vehicle vehicle, int r, int g, int b);
 ```
 
 ```
-p1, p2, p3 are RGB values for color (255,0,0 for Red, ect)  
+RGB color values only ([255, 0, 0] for Red, etc...)  
 ```
 
 ## Parameters
@@ -17,4 +17,3 @@ p1, p2, p3 are RGB values for color (255,0,0 for Red, ect)
 * **r**: 
 * **g**: 
 * **b**: 
-
