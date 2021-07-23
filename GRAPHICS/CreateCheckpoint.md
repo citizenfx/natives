@@ -15,7 +15,7 @@ Parameters:
 * type - The type of checkpoint to create. See below for a list of checkpoint types.  
 * pos1 - The position of the checkpoint.  
 * pos2 - The position of the next checkpoint to point to.  
-* diameter - The diameter of the checkpoint. This was previously incorrectly documented as radius.
+* diameter - The diameter of the checkpoint.
 * color - The color of the checkpoint.  
 * reserved - Special parameter, see below for details. Usually set to 0 in the scripts.  
 Checkpoint types (prior to game build 2189):  
