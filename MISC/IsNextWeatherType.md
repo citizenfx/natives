@@ -8,6 +8,7 @@ ns: MISC
 BOOL IS_NEXT_WEATHER_TYPE(char* weatherType);
 ```
 
+Refer to [`SET_WEATHER_TYPE_NOW_PERSIST`](#_0xED712CA327900C8A) for weather types.
 
 ## Parameters
 * **weatherType**: 

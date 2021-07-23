@@ -8,10 +8,7 @@ ns: MISC
 void SET_OVERRIDE_WEATHER(char* weatherType);
 ```
 
-```
-Appears to have an optional bool parameter that is unused in the scripts.  
-If you pass true, something will be set to zero.  
-```
+Refer to [`SET_WEATHER_TYPE_NOW_PERSIST`](#_0xED712CA327900C8A) for weather types.
 
 ## Parameters
 * **weatherType**: 
