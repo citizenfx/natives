@@ -9,7 +9,11 @@ void SPECIAL_ABILITY_CHARGE_LARGE(Player player, BOOL p1, BOOL p2);
 ```
 
 ```
-2 matches. p1 was always true.  
+2 matches. p1 was always true.
+```
+
+```
+NativeDB Added Parameter 4: Any p3
 ```
 
 ## Parameters

@@ -8,6 +8,9 @@ ns: PLAYER
 BOOL IS_SPECIAL_ABILITY_ENABLED(Player player);
 ```
 
+```
+NativeDB Added Parameter 2: Any p1
+```
 
 ## Parameters
 * **player**: 

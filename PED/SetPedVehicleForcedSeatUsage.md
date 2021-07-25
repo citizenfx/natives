@@ -9,6 +9,9 @@ aliases: ["0x952F06BEECD775CC"]
 void SET_PED_VEHICLE_FORCED_SEAT_USAGE(Ped ped, Vehicle vehicle, int seatIndex, int flags);
 ```
 
+```
+NativeDB Added Parameter 5: Any p4
+```
 
 ## Parameters
 * **ped**: 

@@ -8,6 +8,9 @@ ns: WEAPON
 Entity GET_CURRENT_PED_WEAPON_ENTITY_INDEX(Ped ped);
 ```
 
+```
+NativeDB Added Parameter 2: Any p1
+```
 
 ## Parameters
 * **ped**: 

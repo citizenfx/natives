@@ -8,6 +8,9 @@ ns: STATS
 BOOL STAT_SAVE(int p0, BOOL p1, int p2);
 ```
 
+```
+NativeDB Added Parameter 4: Any p3
+```
 
 ## Parameters
 * **p0**: 

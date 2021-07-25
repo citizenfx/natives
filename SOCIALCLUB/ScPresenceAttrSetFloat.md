@@ -11,7 +11,7 @@ BOOL SC_PRESENCE_ATTR_SET_FLOAT();
 
 ```
 NativeDB Introduced: v323
-NativeDB Added Parameter 0: Hash attrHash
-NativeDB Added Parameter 1: float value
+NativeDB Added Parameter 1: Hash attrHash
+NativeDB Added Parameter 2: float value
 ```
 

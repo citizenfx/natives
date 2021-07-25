@@ -9,6 +9,10 @@ aliases: ["0x4645DE9980999E93"]
 BOOL UGC_UPDATE_MISSION(char* contentId, char* contentName, char* description, char* tagsCsv, char* contentTypeName);
 ```
 
+```
+NativeDB Added Parameter 6: Any p5
+```
+
 ## Parameters
 * **contentId**: 
 * **contentName**: 

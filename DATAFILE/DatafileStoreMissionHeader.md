@@ -9,3 +9,7 @@ aliases: ["0x2ED61456317B8178"]
 void DATAFILE_STORE_MISSION_HEADER();
 ```
 
+```
+NativeDB Added Parameter 1: int p0
+```
+

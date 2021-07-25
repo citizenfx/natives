@@ -9,7 +9,11 @@ void SPECIAL_ABILITY_DEPLETE_METER(Player player, BOOL p1);
 ```
 
 ```
-p1 was always true.  
+p1 was always true.
+```
+
+```
+NativeDB Added Parameter 3: Any p2
 ```
 
 ## Parameters

@@ -8,6 +8,9 @@ ns: PLAYER
 void SPECIAL_ABILITY_UNLOCK(Hash playerModel);
 ```
 
+```
+NativeDB Added Parameter 2: Any p1
+```
 
 ## Parameters
 * **playerModel**: 

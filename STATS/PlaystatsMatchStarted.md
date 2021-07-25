@@ -9,10 +9,10 @@ void PLAYSTATS_MATCH_STARTED(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any
 ```
 
 ```
-NativeDB Removed Parameter 3: Any p3
-NativeDB Removed Parameter 4: Any p4
-NativeDB Removed Parameter 5: Any p5
-NativeDB Removed Parameter 6: Any p6
+NativeDB Removed Parameter 4: Any p3
+NativeDB Removed Parameter 5: Any p4
+NativeDB Removed Parameter 6: Any p5
+NativeDB Removed Parameter 7: Any p6
 ```
 
 ## Parameters

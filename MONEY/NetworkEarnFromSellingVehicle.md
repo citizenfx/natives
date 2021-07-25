@@ -9,6 +9,8 @@ void _NETWORK_EARN_FROM_SELLING_VEHICLE(int amount);
 ```
 
 ```
+NativeDB Added Parameter 2: Any p1
+NativeDB Added Parameter 3: Any p2
 NativeDB Introduced: v1734
 ```
 

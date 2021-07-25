@@ -14,7 +14,7 @@ Argument must be 0.0f or above 38.0f, or it will be ignored.
 ```
 
 ```
-NativeDB Added Parameter 3: int p2
+NativeDB Added Parameter 3: Any p2
 ```
 
 ## Parameters

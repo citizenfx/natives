@@ -9,6 +9,9 @@ aliases: ["0x692D808C34A82143"]
 BOOL UGC_SET_PLAYER_DATA(char* contentId, float rating, char* contentTypeName);
 ```
 
+```
+NativeDB Added Parameter 4: Any p3
+```
 
 ## Parameters
 * **contentId**: 

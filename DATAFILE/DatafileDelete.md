@@ -8,4 +8,7 @@ ns: DATAFILE
 void DATAFILE_DELETE();
 ```
 
+```
+NativeDB Added Parameter 1: int p0
+```
 

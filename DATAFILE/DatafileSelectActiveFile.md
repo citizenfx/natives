@@ -9,6 +9,10 @@ aliases: ["0x22DA66936E0FFF37"]
 BOOL DATAFILE_SELECT_ACTIVE_FILE(Any p0);
 ```
 
+```
+NativeDB Added Parameter 2: Any p1
+```
+
 ## Parameters
 * **p0**: 
 
