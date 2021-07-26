@@ -11,7 +11,7 @@ float GET_VEHICLE_MOD_MODIFIER_VALUE(Vehicle vehicle, int modType, int modIndex)
 
 ## Parameters
 * **vehicle**: 
-* **modType**: 
+* **modType**: Refer to eVehicleModType in [`SET_VEHICLE_MOD`](#_0x6AF0636DDEDCB6DD).
 * **modIndex**: 
 
 ## Return value

@@ -14,6 +14,6 @@ Only used for wheels(ModType = 23/24) Returns true if the wheels are custom whee
 
 ## Parameters
 * **vehicle**: 
-* **modType**: 
+* **modType**: Refer to eVehicleModType in [`SET_VEHICLE_MOD`](#_0x6AF0636DDEDCB6DD).
 
 ## Return value
