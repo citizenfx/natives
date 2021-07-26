@@ -9,6 +9,10 @@ aliases: ["0xA5EFC3E847D60507"]
 BOOL UGC_CREATE_MISSION(char* contentName, char* description, char* tagsCsv, char* contentTypeName, BOOL publish);
 ```
 
+```
+NativeDB Added Parameter 6: Any p5
+```
+
 ## Parameters
 * **contentName**: 
 * **description**: 

@@ -9,5 +9,8 @@ aliases: ["0x906B778CA1DC72B6"]
 char* DATAFILE_GET_FILE_DICT();
 ```
 
+```
+NativeDB Added Parameter 1: int p0
+```
 
 ## Return value

@@ -10,7 +10,7 @@ void TASK_STOP_PHONE_GESTURE_ANIMATION(Ped ped);
 ```
 
 ```
-NativeDB Added Parameter 2: float p1
+NativeDB Added Parameter 2: Any p1
 ```
 
 ## Parameters

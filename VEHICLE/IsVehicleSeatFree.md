@@ -9,14 +9,12 @@ BOOL IS_VEHICLE_SEAT_FREE(Vehicle vehicle, int seatIndex);
 ```
 
 ```
-Has an additional BOOL parameter since version [???].  
-Check if a vehicle seat is free.  
--1 being the driver seat.  
-Use GET_VEHICLE_MAX_NUMBER_OF_PASSENGERS(vehicle) - 1 for last seat index.  
+Use GET_VEHICLE_MAX_NUMBER_OF_PASSENGERS(vehicle) - 1 for last seat index.
+isTaskRunning = on true the function returns already false while a task on the target seat is running (TASK_ENTER_VEHICLE/TASK_SHUFFLE_TO_NEXT_VEHICLE_SEAT) - on false only when a ped is finally sitting in the seat.
 ```
 
 ```
-NativeDB Added Parameter 3: BOOL p2
+NativeDB Added Parameter 3: BOOL isTaskRunning
 ```
 
 ## Parameters

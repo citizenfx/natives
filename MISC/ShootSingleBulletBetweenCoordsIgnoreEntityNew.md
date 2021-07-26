@@ -10,13 +10,9 @@ void SHOOT_SINGLE_BULLET_BETWEEN_COORDS_IGNORE_ENTITY_NEW(float x1, float y1, fl
 ```
 
 ```
-Since latest patches has 18 parameters.  
-entity - entity to ignore  
-```
-
-```
 NativeDB Added Parameter 19: Any p18
 NativeDB Added Parameter 20: Any p19
+NativeDB Added Parameter 21: Any p20
 ```
 
 ## Parameters

@@ -8,6 +8,9 @@ ns: PLAYER
 void _0xFFEE8FA29AB9A18E(Player player);
 ```
 
+```
+NativeDB Added Parameter 2: Any p1
+```
 
 ## Parameters
 * **player**: 

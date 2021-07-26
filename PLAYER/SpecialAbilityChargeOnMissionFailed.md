@@ -10,13 +10,6 @@ void SPECIAL_ABILITY_CHARGE_ON_MISSION_FAILED(Player player);
 ```
 
 ```
-Seems to be called before SPECIAL_ABILITY_DEACTIVATE. Needs more research.
-
-
-SPECIAL_ABILITY_CHARGE_ON_MISSION_FAILED ?
-```
-
-```
 NativeDB Added Parameter 2: Any p1
 ```
 

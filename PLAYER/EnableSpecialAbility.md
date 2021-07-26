@@ -8,6 +8,9 @@ ns: PLAYER
 void ENABLE_SPECIAL_ABILITY(Player player, BOOL toggle);
 ```
 
+```
+NativeDB Added Parameter 3: Any p2
+```
 
 ## Parameters
 * **player**: 

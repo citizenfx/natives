@@ -9,6 +9,10 @@ aliases: ["0x01095C95CD46B624"]
 BOOL DATAFILE_SELECT_CREATOR_STATS(int p0);
 ```
 
+```
+NativeDB Added Parameter 2: Any p1
+```
+
 ## Parameters
 * **p0**: 
 

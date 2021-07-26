@@ -9,7 +9,11 @@ void SPECIAL_ABILITY_FILL_METER(Player player, BOOL p1);
 ```
 
 ```
-Also known as _RECHARGE_SPECIAL_ABILITY  
+Also known as _RECHARGE_SPECIAL_ABILITY
+```
+
+```
+NativeDB Added Parameter 3: Any p2
 ```
 
 ## Parameters

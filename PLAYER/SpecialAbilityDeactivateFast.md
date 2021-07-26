@@ -8,6 +8,9 @@ ns: PLAYER
 void SPECIAL_ABILITY_DEACTIVATE_FAST(Player player);
 ```
 
+```
+NativeDB Added Parameter 2: Any p1
+```
 
 ## Parameters
 * **player**: 

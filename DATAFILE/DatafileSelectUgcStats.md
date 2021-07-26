@@ -9,6 +9,10 @@ aliases: ["0x9CB0BFA7A9342C3D"]
 BOOL DATAFILE_SELECT_UGC_STATS(int p0, BOOL p1);
 ```
 
+```
+NativeDB Added Parameter 3: Any p2
+```
+
 ## Parameters
 * **p0**: 
 * **p1**: 

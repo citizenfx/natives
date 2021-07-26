@@ -10,8 +10,12 @@ void SPECIAL_ABILITY_CHARGE_NORMALIZED(Player player, float normalizedValue, BOO
 ```
 
 ```
-normalizedValue is from 0.0 - 1.0  
-p2 is always 1  
+normalizedValue is from 0.0 - 1.0
+p2 is always 1
+```
+
+```
+NativeDB Added Parameter 4: Any p3
 ```
 
 ## Parameters

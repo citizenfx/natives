@@ -8,6 +8,9 @@ ns: HUD
 void SET_BLIP_SHOW_CONE(Blip blip, BOOL toggle);
 ```
 
+```
+NativeDB Added Parameter 3: Any p2
+```
 
 ## Parameters
 * **blip**: 
