@@ -8,7 +8,7 @@ ns: VEHICLE
 int GET_VEHICLE_WHEEL_TYPE(Vehicle vehicle);
 ```
 
-```
+```c
 Returns an int
 
 enum eVehicleWheelType
