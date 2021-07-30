@@ -8,21 +8,7 @@ ns: MISC
 void SET_WEATHER_TYPE_PERSIST(char* weatherType);
 ```
 
-```
-The following weatherTypes are used in the scripts:  
-"CLEAR"  
-"EXTRASUNNY"  
-"CLOUDS"  
-"OVERCAST"  
-"RAIN"  
-"CLEARING"  
-"THUNDER"  
-"SMOG"  
-"FOGGY"  
-"XMAS"  
-"SNOWLIGHT"  
-"BLIZZARD"  
-```
+Refer to [`SET_WEATHER_TYPE_NOW_PERSIST`](#_0xED712CA327900C8A) for weather types.
 
 ## Parameters
 * **weatherType**: 
