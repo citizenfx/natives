@@ -5,7 +5,7 @@ ns: HUD
 
 ```c
 // 0x7B1776B3B53F8D74 0xBE699BDE
-void SET_WARNING_MESSAGE(char* entryLine1, int instructionalKey, char* entryLine2, BOOL p3, int p4, cs_type(AnyPtr) char* background, cs_type(AnyPtr) char* p6, BOOL showBg, Any p8);
+void SET_WARNING_MESSAGE(char* entryLine1, int instructionalKey, char* entryLine2, BOOL p3, int p4, cs_type(AnyPtr) char* background, cs_type(AnyPtr) char* p6, BOOL showBg, int errorCode);
 ```
 
 **instructionalKey enum list**:
@@ -86,7 +86,7 @@ Note: this list is definitely NOT complete, but these are the ones I've been abl
 * **background**: Set to anything other than 0 or false (even any string) and it will draw a background. Setting it to 0 or false will draw no background.
 * **p6**: Purpose unknown.
 * **showBg**: Purpose unknown.
-* **p8**: Purpose unknown.
+* **errorCode**: When not 0, adds a field displaying the value as 'error code' to the warning message.
 
 
 
