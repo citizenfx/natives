@@ -19,7 +19,7 @@ Enables spawning random trains on the preset tracks. However to be able to use t
 * **toggle**: 
 
 
-**Example (Lua)**
+## Example (Lua)
 The example snippet bellow will activate the 'large train tracks' around LS and into Sandy Shores etc, and the Metro in Los Santos.
 This 'piece of code' **only needs to be called once** (client sided!) and **not** looped.
 
