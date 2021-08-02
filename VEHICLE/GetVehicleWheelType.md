@@ -9,8 +9,6 @@ int GET_VEHICLE_WHEEL_TYPE(Vehicle vehicle);
 ```
 
 ```c
-Returns an int
-
 enum eVehicleWheelType
 {
     VWT_SPORT = 0,
@@ -33,3 +31,4 @@ enum eVehicleWheelType
 * **vehicle**:
 
 ## Return value
+Returns an integer of eVehicleWheelType
