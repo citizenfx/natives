@@ -16,6 +16,6 @@ NativeDB Added Parameter 5: Any p4
 ## Parameters
 * **ped**: 
 * **vehicle**: 
-* **seatIndex**: 
+* **seatIndex**: See eSeatPosition declared in [`IS_VEHICLE_SEAT_FREE`](#_0x22AC59A870E6A669).
 * **flags**: 
 

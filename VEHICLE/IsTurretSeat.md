@@ -11,7 +11,7 @@ BOOL IS_TURRET_SEAT(Vehicle vehicle, int seatIndex);
 
 
 ## Parameters
-* **vehicle**: 
-* **seatIndex**: 
+* **vehicle**: The vehicle to check.
+* **seatIndex**: See eSeatPosition declared in [`IS_VEHICLE_SEAT_FREE`](#_0x22AC59A870E6A669).
 
 ## Return value
