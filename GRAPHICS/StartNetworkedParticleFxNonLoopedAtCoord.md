@@ -10,9 +10,7 @@ BOOL START_NETWORKED_PARTICLE_FX_NON_LOOPED_AT_COORD(char* effectName, float xPo
 ```
 
 ```
-At a minimum the function UseParticleFxAsset() needs to be called before calling this function (see example below).
-
-NOTE: the UseParticleFxAsset() needs to be called before EVERY StartNetworkedParticleFxNonLoopedAtCoord(....) call!
+NOTE: the [USE_PARTICLE_FX_ASSET](#__0x6C38AF3693A69A91) needs to be called before EVERY StartNetworkedParticleFxNonLoopedAtCoord(....) call!
 ```
 
 ```
