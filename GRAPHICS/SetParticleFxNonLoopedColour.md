@@ -9,9 +9,9 @@ void SET_PARTICLE_FX_NON_LOOPED_COLOUR(float r, float g, float b);
 ```
 
 ## Parameters
-* **r**: 
-* **g**: 
-* **b**: 
+* **r**: Red (0.0 - 1.0)
+* **g**: Green (0.0 - 1.0)
+* **b**: Blue (0.0 - 1.0)
 
 Only works on some fx's, while on others it might SEEM to work "properly", but the colors can be "strange" or even completly different from what you've expected. Reason for this is that those fx's might already have colors "baked into them" which then start to act as a "mixing palette", resulting in a different color than expected. A hypothetical example of this would be if the fx itself is already full (bright) red (RGB: 1.0, 0.0, 0.0) and you then set the color to (bright) green (RGB: 0.0, 1.0, 0.0), that it MIGHT result in Yellow (RGB: 1.0, 1.0, 0.0).
 
