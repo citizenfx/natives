@@ -5,7 +5,7 @@ ns: CAM
 
 ```c
 // 0xE32EFE9AB4A9AA0C 0x9458459E
-BOOL PLAY_SYNCHRONIZED_CAM_ANIM(Camera camera,Scene scene, char* animName, char* animDictionary);
+BOOL PLAY_SYNCHRONIZED_CAM_ANIM(Cam camera,int scene, char* animName, char* animDictionary);
 ```
 
 ```
