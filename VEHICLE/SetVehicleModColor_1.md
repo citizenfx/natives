@@ -5,7 +5,7 @@ ns: VEHICLE
 
 ```c
 // 0x43FEB945EE7F85B8 0xCBE9A54D
-void SET_VEHICLE_MOD_COLOR_1(Vehicle vehicle, int paintType, int color, int p3);
+void SET_VEHICLE_MOD_COLOR_1(Vehicle vehicle, int paintType, int color, int pearlescentColor);
 ```
 
 ```
@@ -24,5 +24,5 @@ p3 seems to always be 0.
 * **vehicle**: 
 * **paintType**: 
 * **color**: 
-* **p3**: 
+* **pearlescentColor**: 
 

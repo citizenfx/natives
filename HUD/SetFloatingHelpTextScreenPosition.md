@@ -6,11 +6,11 @@ aliases: ["0x7679CC1BCEBE3D4C"]
 
 ```c
 // 0x7679CC1BCEBE3D4C 0x198F32D7
-void SET_FLOATING_HELP_TEXT_SCREEN_POSITION(int hudIndex, float p1, float p2);
+void SET_FLOATING_HELP_TEXT_SCREEN_POSITION(int hudIndex, float x, float y);
 ```
 
 ## Parameters
 * **hudIndex**: 
-* **p1**: 
-* **p2**: 
+* **x**: 
+* **y**: 
 

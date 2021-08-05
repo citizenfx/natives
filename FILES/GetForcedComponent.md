@@ -5,12 +5,12 @@ ns: FILES
 
 ```c
 // 0x6C93ED8C2F74859B 0x382C70BE
-void GET_FORCED_COMPONENT(Hash componentHash, int componentId, cs_type(AnyPtr) Hash* nameHash, cs_type(AnyPtr) int* enumValue, cs_type(AnyPtr) int* componentType);
+void GET_FORCED_COMPONENT(Hash componentHash, int forcedComponentIndex, cs_type(AnyPtr) Hash* nameHash, cs_type(AnyPtr) int* enumValue, cs_type(AnyPtr) int* componentType);
 ```
 
 ## Parameters
 * **componentHash**: 
-* **componentId**: 
+* **forcedComponentIndex**: 
 * **nameHash**: 
 * **enumValue**: 
 * **componentType**: 

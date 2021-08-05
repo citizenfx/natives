@@ -5,12 +5,12 @@ ns: VEHICLE
 
 ```c
 // 0x300D614A4C785FC4 0xF52CD7F5
-BOOL HAS_VEHICLE_RECORDING_BEEN_LOADED(int p0, cs_type(AnyPtr) char* p1);
+BOOL HAS_VEHICLE_RECORDING_BEEN_LOADED(int recording, cs_type(AnyPtr) char* script);
 ```
 
 
 ## Parameters
-* **p0**: 
-* **p1**: 
+* **recording**: 
+* **script**: 
 
 ## Return value
