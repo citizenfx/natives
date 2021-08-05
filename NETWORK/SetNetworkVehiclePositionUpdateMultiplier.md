@@ -1,15 +1,19 @@
 ---
 ns: NETWORK
+aliases: ["0xA2A707979FE754DC","_SET_NETWORK_VEHICLE_BLENDER_DISTANCE_MULTIPLIER"]
 ---
-## _0xA2A707979FE754DC
+## _SET_NETWORK_VEHICLE_POSITION_UPDATE_MULTIPLIER
 
 ```c
 // 0xA2A707979FE754DC
-void _0xA2A707979FE754DC(Any p0, Any p1);
+void _SET_NETWORK_VEHICLE_POSITION_UPDATE_MULTIPLIER(Vehicle vehicle, float multiplier);
 ```
 
+```
+rage::netBlenderLinInterp::GetPositionMaxForUpdateLevel
+```
 
 ## Parameters
-* **p0**: 
-* **p1**: 
+* **vehicle**: 
+* **multiplier**: 
 
