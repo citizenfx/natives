@@ -1,11 +1,12 @@
 ---
 ns: STATS
+aliases: ["0x1187CB58D7F3BED7"]
 ---
-## _0x1187CB58D7F3BED7
+## _PLAYSTATS_CARCLUB_CHALLENGE
 
 ```c
 // 0x1187CB58D7F3BED7
-void _0x1187CB58D7F3BED7(Any p0, Any p1, Any p2, Any p3);
+void _PLAYSTATS_CARCLUB_CHALLENGE(Any p0, Any p1, Any p2, Any p3);
 ```
 
 ```

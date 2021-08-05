@@ -1,11 +1,12 @@
 ---
 ns: MONEY
+aliases: ["0x925227803A0EAA1B"]
 ---
-## _0x925227803A0EAA1B
+## _NETWORK_SPENT_CARCLUB
 
 ```c
 // 0x925227803A0EAA1B
-void _0x925227803A0EAA1B(Any p0, BOOL p1, BOOL p2, Any p3);
+void _NETWORK_SPENT_CARCLUB(Any p0, BOOL p1, BOOL p2, Any p3);
 ```
 
 ```

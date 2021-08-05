@@ -1,15 +1,15 @@
 ---
 ns: NETWORK
+aliases: ["0x7242F8B741CE1086"]
 ---
-## _0x7242F8B741CE1086
+## _NETWORK_IS_NETWORK_ID_A_CLONE
 
 ```c
 // 0x7242F8B741CE1086
-BOOL _0x7242F8B741CE1086(int netId);
+BOOL _NETWORK_IS_NETWORK_ID_A_CLONE(int netId);
 ```
 
-Probably a bool, returns true if the specified network id is controlled by someone else. 
-If you have control over the entity corresponding to the netId then this will return false (0);
+Returns true if the specified network id is controlled by someone else.
 
 ## Parameters
 * **netId**: The network id for an object or entity.

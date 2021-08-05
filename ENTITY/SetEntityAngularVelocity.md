@@ -1,11 +1,12 @@
 ---
 ns: ENTITY
+aliases: ["0x8339643499D1222E"]
 ---
-## _0x8339643499D1222E
+## _SET_ENTITY_ANGULAR_VELOCITY
 
 ```c
 // 0x8339643499D1222E
-void _0x8339643499D1222E(Any p0, Any p1, Any p2, Any p3);
+void _SET_ENTITY_ANGULAR_VELOCITY(Entity entity, float x, float y, float z);
 ```
 
 ```
@@ -13,7 +14,7 @@ NativeDB Introduced: v2372
 ```
 
 ## Parameters
-* **p0**:
-* **p1**:
-* **p2**:
-* **p3**:
+* **entity**:
+* **x**:
+* **y**:
+* **z**:

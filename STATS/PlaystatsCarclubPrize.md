@@ -1,11 +1,12 @@
 ---
 ns: STATS
+aliases: ["0x69C922B677621428"]
 ---
-## _0x69C922B677621428
+## _PLAYSTATS_CARCLUB_PRIZE
 
 ```c
 // 0x69C922B677621428
-void _0x69C922B677621428(Any p0, Any p1);
+void _PLAYSTATS_CARCLUB_PRIZE(Any p0, Any p1);
 ```
 
 ```

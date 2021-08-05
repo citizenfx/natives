@@ -1,11 +1,12 @@
 ---
 ns: MONEY
+aliases: ["0x89049A84065CE68E"]
 ---
-## _0x89049A84065CE68E
+## _NETWORK_SPENT_UPGRADE_SUB
 
 ```c
 // 0x89049A84065CE68E
-void _0x89049A84065CE68E(Any p0, Any p1, Any p2, Any p3);
+void _NETWORK_SPENT_UPGRADE_SUB(Any p0, Any p1, Any p2, Any p3);
 ```
 
 ```

@@ -1,11 +1,12 @@
 ---
 ns: AUDIO
+aliases: ["0x4E0AF9114608257C"]
 ---
-## _0x4E0AF9114608257C
+## _FORCE_RADIO_TRACK_LIST_POSITION
 
 ```c
 // 0x4E0AF9114608257C
-void _0x4E0AF9114608257C(Any p0, Any p1, Any p2);
+void _FORCE_RADIO_TRACK_LIST_POSITION(char* radioStation, char* trackListName, int milliseconds);
 ```
 
 ```
@@ -13,6 +14,6 @@ NativeDB Introduced: v2372
 ```
 
 ## Parameters
-* **p0**:
-* **p1**:
-* **p2**:
+* **radioStation**:
+* **trackListName**:
+* **milliseconds**:

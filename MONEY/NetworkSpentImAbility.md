@@ -1,11 +1,12 @@
 ---
 ns: MONEY
+aliases: ["0x93AA4165CB67E925"]
 ---
-## _0x93AA4165CB67E925
+## _NETWORK_SPENT_IM_ABILITY
 
 ```c
 // 0x93AA4165CB67E925
-void _0x93AA4165CB67E925(Any p0, Any p1, Any p2, Any p3);
+void _NETWORK_SPENT_IM_ABILITY(Any p0, Any p1, Any p2, Any p3);
 ```
 
 ```

@@ -1,14 +1,14 @@
 ---
 ns: HUD
+aliases: ["0x7B21E0BB01E8224A"]
 ---
-## _0x7B21E0BB01E8224A
+## _SET_MAIN_PLAYER_BLIP_COLOUR
 
 ```c
 // 0x7B21E0BB01E8224A
-void _0x7B21E0BB01E8224A(Any p0);
+void _SET_MAIN_PLAYER_BLIP_COLOUR(int color);
 ```
 
-
 ## Parameters
-* **p0**: 
+* **color**: 
 

@@ -1,11 +1,12 @@
 ---
 ns: MONEY
+aliases: ["0x9BEA350D7C48061B"]
 ---
-## _0x9BEA350D7C48061B
+## _NETWORK_SPENT_AUTOSHOP_MODIFICATIONS
 
 ```c
 // 0x9BEA350D7C48061B
-void _0x9BEA350D7C48061B(Any p0, Any p1, Any p2, Any p3, Any p4);
+void _NETWORK_SPENT_AUTOSHOP_MODIFICATIONS(Any p0, Any p1, Any p2, Any p3, Any p4);
 ```
 
 ```

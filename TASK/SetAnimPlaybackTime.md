@@ -1,11 +1,12 @@
 ---
 ns: TASK
+aliases: ["0xDDF3CB5A0A4C0B49"]
 ---
-## _0xDDF3CB5A0A4C0B49
+## _SET_ANIM_PLAYBACK_TIME
 
 ```c
 // 0xDDF3CB5A0A4C0B49
-void _0xDDF3CB5A0A4C0B49(Any p0, Any p1, Any p2, Any p3);
+void _SET_ANIM_PLAYBACK_TIME(Entity entity, float p1, Any p2, BOOL p3);
 ```
 
 ```
@@ -13,7 +14,7 @@ NativeDB Introduced: v2372
 ```
 
 ## Parameters
-* **p0**:
+* **entity**:
 * **p1**:
 * **p2**:
 * **p3**:
