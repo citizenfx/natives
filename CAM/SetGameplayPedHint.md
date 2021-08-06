@@ -5,7 +5,7 @@ ns: CAM
 
 ```c
 // 0x2B486269ACD548D3 0x7C27343E
-void SET_GAMEPLAY_PED_HINT(Ped p0, float x1, float y1, float z1, BOOL p4, Any duration, Any blendOutDuration, Any blendInDuration);
+void SET_GAMEPLAY_PED_HINT(Ped p0, float x1, float y1, float z1, BOOL p4, int duration, int blendOutDuration, int blendInDuration);
 ```
 
 
