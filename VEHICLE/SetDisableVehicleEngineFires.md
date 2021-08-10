@@ -6,10 +6,10 @@ aliases: ["0x91A0BD635321F145"]
 
 ```c
 // 0x91A0BD635321F145 0x1784BA1A
-void SET_DISABLE_VEHICLE_ENGINE_FIRES(Vehicle vehicle, BOOL p1);
+void SET_DISABLE_VEHICLE_ENGINE_FIRES(Vehicle vehicle, BOOL toggle);
 ```
 
 ## Parameters
 * **vehicle**: 
-* **p1**: 
+* **toggle**: 
 

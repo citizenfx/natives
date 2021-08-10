@@ -6,9 +6,9 @@ aliases: ["0x2C96CDB04FCA358E"]
 
 ```c
 // 0x2C96CDB04FCA358E 0xC8B514E2
-void SET_RADIO_FRONTEND_FADE_TIME(float p0);
+void SET_RADIO_FRONTEND_FADE_TIME(float fadeTime);
 ```
 
 ## Parameters
-* **p0**: 
+* **fadeTime**: 
 

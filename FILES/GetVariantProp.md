@@ -6,7 +6,7 @@ aliases: ["0xD81B7F27BC773E66"]
 
 ```c
 // 0xD81B7F27BC773E66
-void _GET_VARIANT_PROP(cs_type(Any) Hash componentHash, int variantPropIndex, cs_type(Any) Hash* nameHash, cs_type(Any) int* enumValue, cs_type(Any) int* componentType);
+void _GET_VARIANT_PROP(cs_type(Any) Hash componentHash, int variantPropIndex, cs_type(Any) Hash* nameHash, cs_type(Any) int* enumValue, cs_type(Any) int* anchorPoint);
 ```
 
 
@@ -15,5 +15,5 @@ void _GET_VARIANT_PROP(cs_type(Any) Hash componentHash, int variantPropIndex, cs
 * **variantPropIndex**: 
 * **nameHash**: 
 * **enumValue**: 
-* **componentType**: 
+* **anchorPoint**: 
 

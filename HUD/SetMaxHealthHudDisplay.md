@@ -6,9 +6,9 @@ aliases: ["0x975D66A0BC17064C"]
 
 ```c
 // 0x975D66A0BC17064C 0xF07D8CEF
-void SET_MAX_HEALTH_HUD_DISPLAY(int p0);
+void SET_MAX_HEALTH_HUD_DISPLAY(int maximumValue);
 ```
 
 ## Parameters
-* **p0**: 
+* **maximumValue**: 
 

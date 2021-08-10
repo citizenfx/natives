@@ -5,13 +5,10 @@ ns: PED
 
 ```c
 // 0xAF8A94EDE7712BEF 0xA817CDEB
-void SET_PED_MOVEMENT_CLIPSET(Ped ped, char* clipSet, float p2);
+void SET_PED_MOVEMENT_CLIPSET(Ped ped, char* clipSet, float transitionSpeed);
 ```
 
 ```
-p2 is usually 1.0f
-EDIT 12/24/16:
-p2 does absolutely nothing no matter what the value is.
 List of movement clipsets:
 Thanks to elsewhat for list.
  "ANIM_GROUP_MOVE_BALLISTIC"
@@ -65,5 +62,5 @@ Thanks to elsewhat for list.
 ## Parameters
 * **ped**: 
 * **clipSet**: 
-* **p2**: 
+* **transitionSpeed**: time in seconds it takes to transition from one movement clipset to another.
 
