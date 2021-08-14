@@ -28,8 +28,6 @@ This native is used to set component variation on a ped. Components, drawables a
 [GET_NUMBER_OF_PED_DRAWABLE_VARIATIONS](#_0x27561561732A7842)  
 [GET_NUMBER_OF_PED_TEXTURE_VARIATIONS](#_0x8F7156A3142A6BAD)  
 
-[List of component/props ID](gtaxscripting.blogspot.com/2016/04/gta-v-peds-component-and-props.html) of player_two with examples
-
 ## Parameters
 * **ped**: The ped handle.
 * **componentId**: The component that you want to set.
