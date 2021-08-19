@@ -99,7 +99,7 @@ ZANCUDO = Zancudo River
 ZP_ORT = Port of South Los Santos  
 ZQ_UAR = Davis Quartz  
 PROL = Prologue / North Yankton
-IsHeistZone = Cayo Perico Island
+ISHeist = Cayo Perico Island
 ```
 
 ## Parameters
