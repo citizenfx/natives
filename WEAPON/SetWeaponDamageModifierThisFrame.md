@@ -22,6 +22,8 @@ Citizen.CreateThread(function()
     while true do
         SetWeaponDamageModifier(GetHashKey("WEAPON_CARBINERIFLE"), 0.8) 
         Wait(0)
+        SetWeaponDamageModifier(GetHashKey("WEAPON_PISTOL"), 0.8) 
+        Wait(0)
     end
 end)
 ```
