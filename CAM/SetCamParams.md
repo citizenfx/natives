@@ -10,6 +10,7 @@ void SET_CAM_PARAMS(Cam cam, float posX, float posY, float posZ, float rotX, flo
 
 
 ## Parameters
+
 * **cam**: 
 * **posX**: 
 * **posY**: 
@@ -35,7 +36,7 @@ cam::set_cam_params(iLocal_2514, -1660.919f, -710.7487f, 28.88381f, -7.50235f, 0
 
 ### Rotation Orders
 
-These rotation orders were shamelessly copied from the `GetEntityRotation` documentation. Thanks to @gottfriedleibniz for figuring out!
+These rotation orders were shamelessly copied from the `GET_ENTITY_ROTATION` documentation. Thanks to @gottfriedleibniz for figuring out!
 
 * **0**: ZYX - Rotate around the z-axis, then the y-axis and finally the x-axis.
 * **1**: YZX - Rotate around the y-axis, then the z-axis and finally the x-axis.
@@ -43,3 +44,35 @@ These rotation orders were shamelessly copied from the `GetEntityRotation` docum
 * **3**: XZY - Rotate around the x-axis, then the z-axis and finally the y-axis.
 * **4**: YXZ - Rotate around the y-axis, then the x-axis and finally the z-axis.
 * **5**: XYZ - Rotate around the x-axis, then the y-axis and finally the z-axis.
+
+### Examples
+
+```lua
+  local cam = CREATE_CAM_WITH_PARAMS(
+    'DEFAULT_SCRIPTED_CAMERA',
+    -1659.574, -707.8544, 29.23778,
+    0,0,0,
+    43.0557,
+    false,
+    2
+  )
+  SetCamActive(cam, true)
+  RenderScriptCams(true, false, 3000, true, false, false)
+  SetCamParams(cam, -1659.574, -707.8544, 29.23778, 0, 0, 0, 43.0557, 0,    1, 1, 2);
+  SetCamParams(cam, -1660.919, -710.7487, 28.88381, 0,45,45, 43.0557, 2100, 0, 0, 2);
+```
+
+```js
+  const cam = CreateCameraWithParams(
+    'DEFAULT_SCRIPTED_CAMERA',
+    -1659.574, -707.8544, 29.23778,
+    0,0,0,
+    43.0557,
+    false,
+    2
+  )
+  SetCamActive(cam, true)
+  RenderScriptCams(true, false, 3000, true, false, false)
+  SetCamParams(cam, -1659.574, -707.8544, 29.23778, 0, 0, 0, 43.0557, 0,    1, 1, 2);
+  SetCamParams(cam, -1660.919, -710.7487, 28.88381, 0,45,45, 43.0557, 2100, 0, 0, 2);
+```
