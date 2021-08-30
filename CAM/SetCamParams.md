@@ -48,31 +48,49 @@ These rotation orders were shamelessly copied from the `GET_ENTITY_ROTATION` doc
 ### Examples
 
 ```lua
-  local cam = CREATE_CAM_WITH_PARAMS(
-    'DEFAULT_SCRIPTED_CAMERA',
-    -1659.574, -707.8544, 29.23778,
-    0,0,0,
-    43.0557,
-    false,
-    2
-  )
-  SetCamActive(cam, true)
-  RenderScriptCams(true, false, 3000, true, false, false)
-  SetCamParams(cam, -1659.574, -707.8544, 29.23778, 0, 0, 0, 43.0557, 0,    1, 1, 2);
-  SetCamParams(cam, -1660.919, -710.7487, 28.88381, 0,45,45, 43.0557, 2100, 0, 0, 2);
+-- This is recreating the above mentioned heli transition from finale_heist2a.c
+  local cam = CreateCameraWithParams(
+  'DEFAULT_SCRIPTED_CAMERA',
+  -1659.574, -707.8544, 29.23778,
+  -7.422939, 0.059666, -117.3886,
+  43.0557,
+  false,
+  2
+)
+SetCamActive(cam, true)
+RenderScriptCams(true, false, 3000, true, false, false)
+SetCamParams(
+  cam,
+  -1660.919, -710.7487, 28.88381,
+  -7.50235, 0.059666, -111.7328,
+  43.0557,
+  9100,
+  0,
+  0,
+  2
+);
 ```
 
 ```js
-  const cam = CreateCameraWithParams(
-    'DEFAULT_SCRIPTED_CAMERA',
-    -1659.574, -707.8544, 29.23778,
-    0,0,0,
-    43.0557,
-    false,
-    2
-  )
-  SetCamActive(cam, true)
-  RenderScriptCams(true, false, 3000, true, false, false)
-  SetCamParams(cam, -1659.574, -707.8544, 29.23778, 0, 0, 0, 43.0557, 0,    1, 1, 2);
-  SetCamParams(cam, -1660.919, -710.7487, 28.88381, 0,45,45, 43.0557, 2100, 0, 0, 2);
+// This is recreating the above mentioned heli transition from finale_heist2a.c
+let cam = CreateCameraWithParams(
+  'DEFAULT_SCRIPTED_CAMERA',
+  -1659.574, -707.8544, 29.23778,
+  -7.422939, 0.059666, -117.3886,
+  43.0557,
+  false,
+  2
+)
+SetCamActive(cam, true)
+RenderScriptCams(true, false, 3000, true, false, false)
+SetCamParams(
+  cam,
+  -1660.919, -710.7487, 28.88381,
+  -7.50235, 0.059666, -111.7328,
+  43.0557,
+  9100,
+  0,
+  0,
+  2
+);
 ```
