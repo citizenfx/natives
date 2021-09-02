@@ -10,7 +10,7 @@ void TASK_ENTER_VEHICLE(Ped ped, Vehicle vehicle, int timeout, int seat, float s
 
 ```
 speed 1.0 = walk, 2.0 = run  
-p5 1 = normal, 3 = teleport to vehicle, 16 = teleport directly into vehicle  
+p5 1 = normal, 3 = teleport to vehicle, 8 = normal/carjack ped from seat, 16 = teleport directly into vehicle  
 p6 is always 0  
 Usage of seat   
 -1 = driver  
