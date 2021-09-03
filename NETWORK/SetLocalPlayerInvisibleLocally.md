@@ -12,3 +12,11 @@ void SET_LOCAL_PLAYER_INVISIBLE_LOCALLY(BOOL p0);
 ## Parameters
 * **p0**: 
 
+## Examples
+
+```lua
+-- Set the player invisible only to himself
+SetLocalPlayerInvisibleLocally(true)
+-- Set the player visible again
+SetLocalPlayerInvisibleLocally(false)
+```
