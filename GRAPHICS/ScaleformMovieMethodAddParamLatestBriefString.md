@@ -9,6 +9,11 @@ aliases: ["0xEC52C631A1831C03","_SCALEFORM_MOVIE_METHOD_ADD_PARAM_INT_STRING"]
 void SCALEFORM_MOVIE_METHOD_ADD_PARAM_LATEST_BRIEF_STRING(int value);
 ```
 
+Values:
+0 - Dialogue Brief
+1 - Help Text Brief
+2 - Mission Objective Brief
+
 ## Parameters
 * **value**: 
 
