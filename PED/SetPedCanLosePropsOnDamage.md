@@ -1,5 +1,6 @@
 ---
 ns: PED
+aliases: ["0xE861D0B05C7662B8"]
 ---
 ## SET_PED_CAN_LOSE_PROPS_ON_DAMAGE
 
