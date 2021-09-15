@@ -5,7 +5,7 @@ ns: CAM
 
 ```c
 // 0x865908C81A2C22E9 0xC39302BD
-void DESTROY_CAM(Cam cam, BOOL thisScriptCheck);
+void DESTROY_CAM(Cam cam, BOOL bScriptHostCam);
 ```
 
 ```
@@ -14,5 +14,5 @@ BOOL param indicates whether the cam should be destroyed if it belongs to the ca
 
 ## Parameters
 * **cam**: 
-* **thisScriptCheck**: 
+* **bScriptHostCam**: 
 

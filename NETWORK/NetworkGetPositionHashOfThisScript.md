@@ -1,0 +1,15 @@
+---
+ns: NETWORK
+aliases: ["0x257ED0FADF750BCF"]
+---
+## _NETWORK_GET_POSITION_HASH_OF_THIS_SCRIPT
+
+```c
+// 0x257ED0FADF750BCF
+Any _NETWORK_GET_POSITION_HASH_OF_THIS_SCRIPT();
+```
+
+```
+NativeDB Introduced: v2372
+```
+

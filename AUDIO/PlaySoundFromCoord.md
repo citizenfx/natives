@@ -5,7 +5,7 @@ ns: AUDIO
 
 ```c
 // 0x8D8686B622B88120 0xCAD3E2D5
-void PLAY_SOUND_FROM_COORD(int soundId, char* audioName, float x, float y, float z, char* audioRef, BOOL p6, int range, BOOL p8);
+void PLAY_SOUND_FROM_COORD(int soundId, char* audioName, float x, float y, float z, char* audioRef, BOOL isNetwork, int range, BOOL p8);
 ```
 
 ```
@@ -20,7 +20,7 @@ gtaforums.com/topic/795622-audio-for-mods
 * **y**: 
 * **z**: 
 * **audioRef**: 
-* **p6**: 
+* **isNetwork**: 
 * **range**: 
 * **p8**: 
 

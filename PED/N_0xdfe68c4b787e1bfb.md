@@ -5,7 +5,7 @@ ns: PED
 
 ```c
 // 0xDFE68C4B787E1BFB
-void _0xDFE68C4B787E1BFB(Any p0);
+void _0xDFE68C4B787E1BFB(Ped ped);
 ```
 
 ```
@@ -13,4 +13,4 @@ NativeDB Introduced: v1180
 ```
 
 ## Parameters
-* **p0**:
+* **ped**:

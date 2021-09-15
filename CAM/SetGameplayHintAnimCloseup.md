@@ -6,9 +6,9 @@ aliases: ["GET_IS_MULTIPLAYER_BRIEF","0xE3433EADAAF7EE40"]
 
 ```c
 // 0xE3433EADAAF7EE40 0x2F0CE859
-void _SET_GAMEPLAY_HINT_ANIM_CLOSEUP(BOOL p0);
+void _SET_GAMEPLAY_HINT_ANIM_CLOSEUP(BOOL toggle);
 ```
 
 ## Parameters
-* **p0**: 
+* **toggle**: 
 

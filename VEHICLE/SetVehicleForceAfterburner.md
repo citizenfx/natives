@@ -6,10 +6,10 @@ aliases: ["0xB055A34527CB8FD7"]
 
 ```c
 // 0xB055A34527CB8FD7 0xC195803B
-void SET_VEHICLE_FORCE_AFTERBURNER(Vehicle vehicle, BOOL p1);
+void SET_VEHICLE_FORCE_AFTERBURNER(Vehicle vehicle, BOOL toggle);
 ```
 
 ## Parameters
 * **vehicle**: 
-* **p1**: 
+* **toggle**: 
 

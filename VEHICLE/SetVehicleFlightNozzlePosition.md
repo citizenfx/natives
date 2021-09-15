@@ -6,10 +6,10 @@ aliases: ["0x30D779DE7C4F6DD3","_SET_DESIRED_VERTICAL_FLIGHT_PHASE","_SET_PLANE_
 
 ```c
 // 0x30D779DE7C4F6DD3 0xA7DF64D7
-void SET_VEHICLE_FLIGHT_NOZZLE_POSITION(Vehicle vehicle, float direction);
+void SET_VEHICLE_FLIGHT_NOZZLE_POSITION(Vehicle vehicle, float angleRatio);
 ```
 
 ## Parameters
 * **vehicle**: 
-* **direction**: 
+* **angleRatio**: 
 

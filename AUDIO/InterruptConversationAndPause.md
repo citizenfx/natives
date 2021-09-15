@@ -6,7 +6,7 @@ aliases: ["0x8A694D7A68F8DC38"]
 
 ```c
 // 0x8A694D7A68F8DC38 0xDD4A3F1F
-void INTERRUPT_CONVERSATION_AND_PAUSE(Ped p0, char* p1, char* p2);
+void INTERRUPT_CONVERSATION_AND_PAUSE(Ped ped, char* p1, char* p2);
 ```
 
 ```
@@ -15,7 +15,7 @@ AUDIO::_8A694D7A68F8DC38(NETWORK::NET_TO_PED(l_3989._f26F[0/*1*/]), "CONV_INTERR
 ```
 
 ## Parameters
-* **p0**: 
+* **ped**: 
 * **p1**: 
 * **p2**: 
 

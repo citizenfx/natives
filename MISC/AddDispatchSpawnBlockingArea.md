@@ -6,13 +6,13 @@ aliases: ["0x2D4259F1FEB81DA9"]
 
 ```c
 // 0x2D4259F1FEB81DA9
-Any _ADD_DISPATCH_SPAWN_BLOCKING_AREA(float p0, float p1, float p2, float p3);
+Any _ADD_DISPATCH_SPAWN_BLOCKING_AREA(float x1, float y1, float x2, float y2);
 ```
 
 ## Parameters
-* **p0**: 
-* **p1**: 
-* **p2**: 
-* **p3**: 
+* **x1**: 
+* **y1**: 
+* **x2**: 
+* **y2**: 
 
 ## Return value

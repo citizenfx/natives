@@ -6,7 +6,7 @@ aliases: ["0x911024442F4898F0"]
 
 ```c
 // 0x911024442F4898F0
-void _SET_ENABLE_ARENA_PROP_PHYSICS(Entity entity, BOOL p1, int p2);
+void _SET_ENABLE_ARENA_PROP_PHYSICS(Object entity, BOOL toggle, int p2);
 ```
 
 ```
@@ -19,5 +19,5 @@ NativeDB Introduced: v1604
 
 ## Parameters
 * **entity**:
-* **p1**:
+* **toggle**:
 * **p2**:
