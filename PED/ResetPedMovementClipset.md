@@ -5,17 +5,15 @@ ns: PED
 
 ```c
 // 0xAA74EC0CB0AAEA2C 0xB83CEE93
-void RESET_PED_MOVEMENT_CLIPSET(Ped ped, float p1);
+void RESET_PED_MOVEMENT_CLIPSET(Ped ped, float transitionSpeed);
 ```
 
 ```
-If p1 is 0.0, I believe you are back to normal.   
-If p1 is 1.0, it looks like you can only rotate the ped, not walk.  
-Using the following code to reset back to normal  
+// resets the ped's movement clipset immediately.  
 PED::RESET_PED_MOVEMENT_CLIPSET(PLAYER::PLAYER_PED_ID(), 0.0);  
 ```
 
 ## Parameters
 * **ped**: 
-* **p1**: 
+* **transitionSpeed**: time in seconds it takes to transition from one movement clipset to another.
 
