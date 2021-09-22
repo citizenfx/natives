@@ -11,5 +11,6 @@ void _END_TEXT_COMMAND_SCALEFORM_STRING_2();
 
 ```
 Same as END_TEXT_COMMAND_SCALEFORM_STRING but does not perform HTML conversion for text tokens.
+It also allows you to use blip sprites and button icons for scaleforms that support them: https://i.imgur.com/H2fHwOI.png
 ```
 
