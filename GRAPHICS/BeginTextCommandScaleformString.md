@@ -6,7 +6,7 @@ aliases: ["_BEGIN_TEXT_COMPONENT"]
 
 ```c
 // 0x80338406F3475E55 0x3AC9CB55
-void BEGIN_TEXT_COMMAND_SCALEFORM_STRING(char* componentType);
+void BEGIN_TEXT_COMMAND_SCALEFORM_STRING(char* textLabel);
 ```
 
 ```
@@ -28,5 +28,5 @@ GRAPHICS::END_TEXT_COMMAND_SCALEFORM_STRING();
 ```
 
 ## Parameters
-* **componentType**: 
+* **textLabel**: a GXT text label
 
