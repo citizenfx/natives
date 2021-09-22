@@ -8,25 +8,27 @@ ns: VEHICLE
 int GET_VEHICLE_WHEEL_TYPE(Vehicle vehicle);
 ```
 
-```
-Returns an int  
-Wheel Types:  
-0: Sport  
-1: Muscle  
-2: Lowrider  
-3: SUV  
-4: Offroad  
-5: Tuner  
-6: Bike Wheels  
-7: High End
-8: Benny's Original
-9: Benny's Bespoke
-10: Open Wheel
-11: Street
-Tested in Los Santos Customs  
+```c
+enum eVehicleWheelType
+{
+    VWT_SPORT = 0,
+    VWT_MUSCLE = 1,
+    VWT_LOWRIDER = 2,
+    VWT_SUV = 3,
+    VWT_OFFROAD = 4,
+    VWT_TUNER = 5,
+    VWT_BIKE = 6,
+    VWT_HIEND = 7,
+    VWT_SUPERMOD1 = 8, // Benny's Original
+    VWT_SUPERMOD2 = 9, // Benny's Bespoke
+    VWT_SUPERMOD3 = 10, // Open Wheel
+    VWT_SUPERMOD4 = 11, // Street
+    VWT_SUPERMOD5 = 12, // Track
+};
 ```
 
 ## Parameters
-* **vehicle**: 
+* **vehicle**:
 
 ## Return value
+Returns an eVehicleWheelType integer value.

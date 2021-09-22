@@ -9,12 +9,11 @@ int GET_VEHICLE_MOD(Vehicle vehicle, int modType);
 ```
 
 ```
-In b944, there are 50 (0 - 49) mod types.  
 Returns -1 if the vehicle mod is stock  
 ```
 
 ## Parameters
 * **vehicle**: 
-* **modType**: 
+* **modType**: Refer to eVehicleModType in [`SET_VEHICLE_MOD`](#_0x6AF0636DDEDCB6DD).
 
 ## Return value

@@ -8,12 +8,8 @@ ns: VEHICLE
 char* GET_MOD_SLOT_NAME(Vehicle vehicle, int modType);
 ```
 
-```
-Returns the name for the type of vehicle mod(Armour, engine etc)
-```
-
 ## Parameters
 * **vehicle**: 
-* **modType**: 
+* **modType**: Refer to eVehicleModType in [`SET_VEHICLE_MOD`](#_0x6AF0636DDEDCB6DD).
 
 ## Return value

@@ -5,17 +5,17 @@ ns: GRAPHICS
 
 ```c
 // 0x0134F0835AB6BFCB 0xF541B690
-int CREATE_CHECKPOINT(int type, float posX1, float posY1, float posZ1, float posX2, float posY2, float posZ2, float radius, int red, int green, int blue, int alpha, int reserved);
+int CREATE_CHECKPOINT(int type, float posX1, float posY1, float posZ1, float posX2, float posY2, float posZ2, float diameter, int red, int green, int blue, int alpha, int reserved);
 ```
 
 ```
 Creates a checkpoint. Returns the handle of the checkpoint.  
-20/03/17 : Attention, checkpoints are already handled by the game itself, so you must not loop it like markers.  
+20/03/17 : Attention, checkpoints are already handled by the game itself, so you must not loop it like markers.
 Parameters:  
 * type - The type of checkpoint to create. See below for a list of checkpoint types.  
 * pos1 - The position of the checkpoint.  
 * pos2 - The position of the next checkpoint to point to.  
-* radius - The radius of the checkpoint.  
+* diameter - The diameter of the checkpoint.
 * color - The color of the checkpoint.  
 * reserved - Special parameter, see below for details. Usually set to 0 in the scripts.  
 Checkpoint types (prior to game build 2189):  
@@ -55,7 +55,7 @@ If using type 42-44, reserved sets number / number and shape to display
 * **posX2**: 
 * **posY2**: 
 * **posZ2**: 
-* **radius**: 
+* **diameter**: 
 * **red**: 
 * **green**: 
 * **blue**: 
