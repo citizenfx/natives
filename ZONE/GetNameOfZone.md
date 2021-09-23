@@ -98,6 +98,8 @@ WVINE = West Vinewood
 ZANCUDO = Zancudo River  
 ZP_ORT = Port of South Los Santos  
 ZQ_UAR = Davis Quartz  
+PROL = Prologue / North Yankton
+ISHeist = Cayo Perico Island
 ```
 
 ## Parameters

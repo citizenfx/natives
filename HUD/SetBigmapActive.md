@@ -11,7 +11,7 @@ void SET_BIGMAP_ACTIVE(BOOL toggleBigMap, BOOL showFullMap);
 
 Toggles the big minimap state like in GTA:Online.
 
-To get the current state of the minimap, use [`GetBigmapActive`](#_0xF6AE18A7).
+To get the current state of the minimap, use [`IS_BIGMAP_ACTIVE`](#_0xFFF65C63).
 
 ## Parameters
 * **toggleBigMap**: Enable or disable the expanded minimap.

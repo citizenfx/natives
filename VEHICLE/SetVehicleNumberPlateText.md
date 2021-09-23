@@ -8,16 +8,13 @@ ns: VEHICLE
 void SET_VEHICLE_NUMBER_PLATE_TEXT(Vehicle vehicle, char* plateText);
 ```
 
-```
-Sets a vehicle's license plate text.  8 chars maximum.  
-Example:  
-Ped playerPed = PLAYER::PLAYER_PED_ID();  
-Vehicle veh = PED::GET_VEHICLE_PED_IS_USING(playerPed);  
-char *plateText = "KING";  
-VEHICLE::SET_VEHICLE_NUMBER_PLATE_TEXT(veh, plateText);  
-```
-
 ## Parameters
-* **vehicle**: 
-* **plateText**: 
+* **vehicle**: The vehicle to set the plate for
+* **plateText**: The text to set the plate to, 8 chars maximum
 
+## Examples
+```lua
+local playerPed = PlayerPedId()
+local vehicle = GetVehiclePedIsIn(playerPed)
+SetVehicleNumberPlateText(vehicle, "KING")
+```

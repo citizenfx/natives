@@ -11,6 +11,6 @@ void PRELOAD_VEHICLE_MOD(Any p0, int modType, Any p2);
 
 ## Parameters
 * **p0**: 
-* **modType**: 
+* **modType**: Refer to eVehicleModType in [`SET_VEHICLE_MOD`](#_0x6AF0636DDEDCB6DD).
 * **p2**: 
 

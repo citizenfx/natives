@@ -5,7 +5,7 @@ ns: CAM
 
 ```c
 // 0xE32EFE9AB4A9AA0C 0x9458459E
-BOOL PLAY_SYNCHRONIZED_CAM_ANIM(Any p0, Any p1, char* animName, char* animDictionary);
+BOOL PLAY_SYNCHRONIZED_CAM_ANIM(Cam camera, int scene, char* animName, char* animDictionary);
 ```
 
 ```
@@ -17,8 +17,8 @@ CAM::PLAY_SYNCHRONIZED_CAM_ANIM(l_F0D[7/*1*/], l_F4D[15/*1*/], "ah3b_attackheli_
 [Animations list](https://alexguirre.github.io/animations-list/)
 
 ## Parameters
-* **p0**: 
-* **p1**: 
+* **camera**: 
+* **scene**: 
 * **animName**: 
 * **animDictionary**: 
 

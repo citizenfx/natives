@@ -15,7 +15,7 @@ Use _GET_LABEL_TEXT to get the part name in the game's language
 
 ## Parameters
 * **vehicle**: 
-* **modType**: 
+* **modType**: Refer to eVehicleModType in [`SET_VEHICLE_MOD`](#_0x6AF0636DDEDCB6DD).
 * **modValue**: 
 
 ## Return value

@@ -15,7 +15,7 @@ Can be used for IS_DLC_VEHICLE_MOD and _0xC098810437312FFF
 
 ## Parameters
 * **vehicle**: 
-* **modType**: 
+* **modType**: Refer to eVehicleModType in [`SET_VEHICLE_MOD`](#_0x6AF0636DDEDCB6DD).
 * **modIndex**: 
 
 ## Return value

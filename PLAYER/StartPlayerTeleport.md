@@ -5,11 +5,7 @@ ns: PLAYER
 
 ```c
 // 0xAD15F075A4DA0FDE 0xC552E06C
-void START_PLAYER_TELEPORT(Player player, float x, float y, float z, float heading, BOOL p5, BOOL findCollisionLand, BOOL p7);
-```
-
-```
-`findCollisionLand`: This teleports the player to land when set to true and will not consider the Z coordinate parameter provided by you. It will automatically put the Z coordinate so that you don't fall from sky.
+void START_PLAYER_TELEPORT(Player player, float x, float y, float z, float heading, BOOL teleportWithVehicle, BOOL findCollisionLand, BOOL p7);
 ```
 
 ## Parameters
@@ -18,6 +14,6 @@ void START_PLAYER_TELEPORT(Player player, float x, float y, float z, float headi
 * **y**: 
 * **z**: 
 * **heading**: 
-* **p5**: 
-* **findCollisionLand**: This teleports the player to land when set to true and will not consider the Z coordinate parameter provided by you. It will automatically put the Z coordinate so that you don't fall from sky.
+* **teleportWithVehicle**: Teleports the player along with the vehicle they are in.
+* **findCollisionLand**: Attempt to find a ground coordinate at the given XY location; overriding the Z value.
 * **p7**: 

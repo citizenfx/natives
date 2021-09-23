@@ -8,18 +8,9 @@ ns: VEHICLE
 void TOGGLE_VEHICLE_MOD(Vehicle vehicle, int modType, BOOL toggle);
 ```
 
-```
-Toggles:
-UNK17 - 17
-Turbo - 18
-UNK19 - 19
-Tire Smoke - 20
-UNK21 - 21
-Xenon Headlights - 22
-```
 
 ## Parameters
 * **vehicle**: 
-* **modType**: 
+* **modType**: Refer to eVehicleModType in [`SET_VEHICLE_MOD`](#_0x6AF0636DDEDCB6DD).
 * **toggle**: 
 

@@ -5,23 +5,11 @@ ns: VEHICLE
 
 ```c
 // 0x487EB21CC7295BA1 0x64BDAAAD
-void SET_VEHICLE_WHEEL_TYPE(Vehicle vehicle, int WheelType);
+void SET_VEHICLE_WHEEL_TYPE(Vehicle vehicle, int wheelType);
 ```
-
-```
-0: Sport  
-1: Muscle  
-2: Lowrider  
-3: SUV  
-4: Offroad  
-5: Tuner  
-6: Bike Wheels  
-7: High End
-8: Benny's Wheels
-9: Bespoke Wheels
-```
+Refer to [GET_VEHICLE_WHEEL_TYPE](#_0xB3ED1BFB4BE636DC) for wheel types.
 
 ## Parameters
-* **vehicle**: 
-* **WheelType**: 
+* **vehicle**:
+* **wheelType**:
 
