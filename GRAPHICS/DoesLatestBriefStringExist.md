@@ -1,0 +1,33 @@
+---
+ns: GRAPHICS
+---
+## _0x5E657EF1099EDD65
+
+```c
+// 0x5E657EF1099EDD65 0x91A081A1
+BOOL DOES_LATEST_BRIEF_STRING_EXIST(int briefType);
+```
+
+```
+Checks if brief text is available.
+
+Brief types:
+0 - Dialogue Brief
+1 - Help Text Brief
+2 - Mission Objective Brief
+```
+
+```c
+// Example found in decompiled scripts (pi_menu.c):
+if (GRAPHICS::_0x5E657EF1099EDD65(1))
+{
+  func_453("PIM_THHELP", 0, 0);
+}
+else
+{
+  func_453("PIM_HELPOF", 0, 0);
+}
+```
+
+## Parameters
+* **briefType**: Number indicating the brief text
