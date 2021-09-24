@@ -10,7 +10,7 @@ BOOL IS_SEAT_WARP_ONLY(Vehicle vehicle, cs_type(BOOL) int seatIndex);
 ```
 
 ## Parameters
-* **vehicle**: 
-* **seatIndex**: 
+* **vehicle**: The vehicle to check.
+* **seatIndex**: See eSeatPosition declared in [`IS_VEHICLE_SEAT_FREE`](#_0x22AC59A870E6A669).
 
 ## Return value

@@ -5,22 +5,11 @@ ns: TASK
 
 ```c
 // 0x9A7D091411C5F684 0x65D4A35D
-void TASK_WARP_PED_INTO_VEHICLE(Ped ped, Vehicle vehicle, int seat);
-```
-
-```
-Seat Numbers  
--------------------------------  
-Driver = -1  
-Any = -2  
-Left-Rear = 1  
-Right-Front = 0  
-Right-Rear = 2  
-Extra seats = 3-14(This may differ from vehicle type e.g. Firetruck Rear Stand, Ambulance Rear)  
+void TASK_WARP_PED_INTO_VEHICLE(Ped ped, Vehicle vehicle, int seatIndex);
 ```
 
 ## Parameters
 * **ped**: 
 * **vehicle**: 
-* **seat**: 
+* **seatIndex**: See eSeatPosition declared in [`IS_VEHICLE_SEAT_FREE`](#_0x22AC59A870E6A669).
 
