@@ -5,15 +5,14 @@ ns: PED
 
 ```c
 // 0x8DE69FE35CA09A45 0xF7E1A691
-void GET_GROUP_SIZE(int groupID, Any* unknown, int* sizeInMembers);
+void GET_GROUP_SIZE(int groupID, BOOL* hasLeader, int* sizeInMembers);
 ```
 
 ```
-p1 may be a BOOL representing whether or not the group even exists  
 ```
 
 ## Parameters
 * **groupID**: 
-* **unknown**: 
+* **hasLeader**: Is set to true if the group has a leader ped. hasLeader may be used to tell whether or not the group even exists.
 * **sizeInMembers**: 
 
