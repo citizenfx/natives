@@ -10,7 +10,8 @@ void SET_OBJECT_FORCE_VEHICLES_TO_AVOID(Object object, BOOL toggle);
 ```
 
 ```
-Overrides a flag on the object which determines if the object should be avoided by a vehicle in task: CTaskVehicleGoToPointWithAvoidanceAutomobile
+Overrides a flag on the object which determines if the object should be avoided by a vehicle in task: CTaskVehicleGoToPointWithAvoidanceAutomobile.
+Tested on vehicles that were created by the vehicle generators.
 ```
 
 ## Parameters
