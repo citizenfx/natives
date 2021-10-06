@@ -5,7 +5,7 @@ ns: CAM
 
 ```c
 // 0xC3981DCE61D9E13F 0xE9BF2A7D
-Cam CREATE_CAM(char* camName, BOOL p1);
+Cam CREATE_CAM(char* camName, BOOL active);
 ```
 
 ```
@@ -18,6 +18,6 @@ Cam CREATE_CAM(char* camName, BOOL p1);
 
 ## Parameters
 * **camName**: 
-* **p1**: 
+* **active**: 
 
 ## Return value
