@@ -8,6 +8,8 @@ ns: MISC
 void SHOOT_SINGLE_BULLET_BETWEEN_COORDS(float x1, float y1, float z1, float x2, float y2, float z2, int damage, BOOL pureAccuracy, Hash weaponHash, Ped ownerPed, BOOL isAudible, BOOL isInvisible, float speed);
 ```
 
+Shoots a bullet from the first vector to the second vector. The weapon used as weaponHash should already be loaded via REQUEST_WEAPON_ASSET, otherwise the bullet may fail to materialise.
+
 ## Parameters
 * **x1**: The X coordinate to start the shot at.
 * **y1**: The Y coordinate to start the shot at.
