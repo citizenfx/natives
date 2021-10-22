@@ -10,6 +10,7 @@ void SET_TRANSITION_TIMECYCLE_MODIFIER(char* modifierName, float transition);
 
 
 ## Parameters
-* **modifierName**: 
-* **transition**: 
+* **modifierName**: The name of a timecycle
+* **transition**: The speed to transition to `modifierName`. Appears to be half-seconds (?)
 
+This native doesn't work like `SetWeatherTypeTransition`.
