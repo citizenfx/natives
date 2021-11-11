@@ -8,7 +8,7 @@ ns: CAM
 Cam CREATE_CAM_WITH_PARAMS(char* camName, float posX, float posY, float posZ, float rotX, float rotY, float rotZ, float fov);
 ```
 
-Create a camera with the specified cam name/type, You can use `SetCam` natives to manipulate the camera.
+Create a camera with the specified cam name/type, You can use `SET_CAM_` natives to manipulate the camera.
 
 Cam names:
 ```
@@ -30,3 +30,17 @@ Cam names:
 
 ## Return value
 A camera handle.
+
+
+## Examples
+```lua
+local cam = CreateCamWithParams("DEFAULT_SCRIPTED_CAMERA", 561.3, 301.3, 63.0, 0.0, 0.0, 0.0, 90.0)
+```
+
+```js
+const cam = CreateCamWithParams("DEFAULT_SCRIPTED_CAMERA", 561.3, 301.3, 63.0, 0.0, 0.0, 0.0, 90.0);
+```
+
+```cs
+int cam = CreateCamWithParams("DEFAULT_SCRIPTED_CAMERA", 561.3f, 301.3f, 63.0f, 0.0f, 0.0f, 0.0f, 90.0f);
+```
