@@ -7,16 +7,20 @@ ns: HUD
 // 0x5CDE92C702A8FCE7 0x30822554
 Blip ADD_BLIP_FOR_ENTITY(Entity entity);
 ```
+Create a blip that for default is red (enemy), you can use the [SetBlipAsFriendly](#_0xC6F43D0E) to make it blue (friend)
 
-```
-Returns red ( default ) blip attached to entity.
-Example:
-Blip blip; //Put this outside your case or option
-blip = HUD::ADD_BLIP_FOR_ENTITY(YourPedOrBodyguardName);
-HUD::SET_BLIP_AS_FRIENDLY(blip, true);
-```
+Example of enemy:
+![enemy](https://i.imgur.com/fl78svv.png)
+Example of friend:
+![friend](https://i.imgur.com/Q16ho5d.png)
 
 ## Parameters
-* **entity**: 
+* **entity**: The entity handle to create the blip.
 
 ## Return value
+A blip handle.
+
+## Examples
+```lua
+local blip = AddBlipForEntity(PlayerPedId()) -- This add a enemy blip to yourself
+```
