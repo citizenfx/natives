@@ -12,8 +12,6 @@ Create a blip with a radius for the specified coordinates
 Example image:
 ![example](https://forum.cfx.re/uploads/default/original/3X/2/e/2e3611fce137d9e5c64511f92ffebab8901e02a4.jpeg)
 
---
-
 ## Parameters
 * **posX**: The x position of the blip (you can also send a vector3 instead of the bulk coordinates)
 * **posY**: The y position of the blip (you can also send a vector3 instead of the bulk coordinates)
