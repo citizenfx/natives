@@ -25,6 +25,8 @@ The blip handle that can be manipulated with every `SetBlip` natives
 ## Examples
 ```lua
 local coords = vector3(0.0, 0.0, 0.0)
+
 local blip = AddBlipForRadius(coords, 100.0) -- need to have .0
 SetBlipColour(blip, 1)
+SetBlipAlpha(blip, 128)
 ```
