@@ -7,7 +7,7 @@ ns: CAM
 // 0xC3981DCE61D9E13F 0xE9BF2A7D
 Cam CREATE_CAM(char* camName, BOOL p1);
 ```
-Create a camera with the specified cam name/type, You can use `SetCam` natives to manipulate the camera.
+Create a camera with the specified cam name, You can use `SET_CAM_` natives to manipulate the camera.
 
 Cam names:
 ```
@@ -20,7 +20,20 @@ Cam names:
 
 ## Parameters
 * **camName**: Is the type of the camera, is always setted to `DEFAULT_SCRIPTED_CAMERA` in Rockstar scripts and in Fivem Forum Posts
-* **p1**: Unkown, is always setted to true in Rockstar scripts and in Fivem Forum Posts
+* **p1**: Unkown, is always setted to `true` in Rockstar scripts and in Fivem Forum Posts
 
 ## Return value
 A camera handle.
+
+## Examples
+```lua
+local cam = CreateCam("DEFAULT_SCRIPTED_CAMERA", true)
+```
+
+```js
+const cam = CreateCam("DEFAULT_SCRIPTED_CAMERA", true);
+```
+
+```cs
+int cam = CreateCam("DEFAULT_SCRIPTED_CAMERA", true);
+```
