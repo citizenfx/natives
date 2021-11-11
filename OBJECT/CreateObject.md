@@ -39,3 +39,21 @@ end
 -- At this moment the model its loaded, so now we can create the object
 local obj = CreateObject(modelHash, vector3(0.0, 0.0, 0.0), true)
 ```
+
+```js  
+async function Main(){
+    const modelHash = GetHashKey("prop_weed_01")
+
+    if (!HasModelLoaded(modelHash)) {
+        // If the model isnt loaded we request the loading of the model and wait that the model is loaded
+        RequestModel(modelHash)
+        do {
+            new Promise(resolve => setTimeout(resolve, 100));
+        } while (!HasModelLoaded(modelHash));
+    }
+
+    // At this moment the model its loaded, so now we can create the object
+    const obj = CreateObject(modelHash, vector3(0.0, 0.0, 0.0), true)
+}
+Main()
+```
