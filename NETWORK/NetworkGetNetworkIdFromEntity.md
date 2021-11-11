@@ -19,3 +19,19 @@ Read more at [Network and local IDs](https://docs.fivem.net/docs/scripting-manua
 
 ## Return value
 The network id of the given entity
+
+## Examples
+```lua
+local obj = CreateObject(`prop_weed_01`, vector3(0.0, 0.0, 0.0), true)
+local netId = NetworkGetNetworkIdFromEntity(obj)
+```
+
+```js  
+const obj = CreateObject(GetHashKey("prop_weed_01"), vector3(0.0, 0.0, 0.0), true)
+const netId = NetworkGetNetworkIdFromEntity(obj)
+```
+
+```cs  
+const obj = CreateObject(GetHashKey("prop_weed_01"), vector3(0.0f, 0.0f, 0.0f), true)
+const netId = NetworkGetNetworkIdFromEntity(obj)
+```
