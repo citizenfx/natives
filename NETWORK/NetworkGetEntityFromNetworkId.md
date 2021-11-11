@@ -16,3 +16,16 @@ Through this native you can get back the entity that you previously converted to
 
 ## Return value
 The local entity handle of the network id
+
+## Examples
+```lua
+local entity = NetworkGetEntityFromNetworkId(netId)
+```
+
+```js  
+const entity = NetworkGetEntityFromNetworkId(netId);
+```
+
+```cs  
+int entity = NetworkGetEntityFromNetworkId(netId);
+```
