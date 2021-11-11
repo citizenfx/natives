@@ -7,10 +7,10 @@ ns: HUD
 // 0x46818D79B1F7499A 0x4626756C
 Blip ADD_BLIP_FOR_RADIUS(float posX, float posY, float posZ, float radius);
 ```
-Create a blip with a radius for the specified coordinates
+Create a blip with a radius for the specified coordinates (it doesnt create the blip sprite, so you need to use [AddBlipCoords](#_0xC6F43D0E))
 
 Example image:
-![example](https://forum.cfx.re/uploads/default/original/3X/2/e/2e3611fce137d9e5c64511f92ffebab8901e02a4.jpeg)
+![example](https://i.imgur.com/9hQl3DB.png)
 
 ## Parameters
 * **posX**: The x position of the blip (you can also send a vector3 instead of the bulk coordinates)
