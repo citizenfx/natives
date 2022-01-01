@@ -8,8 +8,17 @@ ns: DECORATOR
 void DECOR_REGISTER(char* propertyName, int type);
 ```
 
+Decor types:
+
 ```
-https://alloc8or.re/gta5/doc/enums/eDecorType.txt
+enum eDecorType
+{
+    DECOR_TYPE_FLOAT = 1,
+    DECOR_TYPE_BOOL = 2,
+    DECOR_TYPE_INT = 3,
+    DECOR_TYPE_UNK = 4,
+    DECOR_TYPE_TIME = 5
+};
 ```
 
 ## Parameters
