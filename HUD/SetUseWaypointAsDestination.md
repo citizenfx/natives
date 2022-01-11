@@ -1,5 +1,6 @@
 ---
 ns: HUD
+aliases: ["0x6CDD58146A436083"]
 ---
 ## _SET_USE_WAYPOINT_AS_DESTINATION
 
