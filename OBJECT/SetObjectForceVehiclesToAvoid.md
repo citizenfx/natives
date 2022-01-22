@@ -9,10 +9,8 @@ aliases: ["0x77F33F2CCF64B3AA", "_SET_OBJECT_SOMETHING"]
 void SET_OBJECT_FORCE_VEHICLES_TO_AVOID(Object object, BOOL toggle);
 ```
 
-```
 Overrides a flag on the object which determines if the object should be avoided by a vehicle in task: CTaskVehicleGoToPointWithAvoidanceAutomobile.
 Tested on vehicles that were created by the vehicle generators.
-```
 
 ## Parameters
 * **object**: 
