@@ -259,7 +259,7 @@ enum ePedConfigFlags {
 	_0xB60EA2BA = 245,
 	_0x536B0950 = 246,
 	_0x0C754ACA = 247,
-	_0x69D28F3E = 248,
+	CPED_CONFIG_FLAG_DisableVehicleSeatRandomAnimations = 248,
 	_0x12659168 = 249,
 	_0x1BDF2F04 = 250,
 	_0x7728FAA3 = 251,
