@@ -9,6 +9,7 @@ aliases: ["0x052837721A854EC7"]
 int START_SHAPE_TEST_BOUNDING_BOX(Entity entity, int flags1, int flags2);
 ```
 
+See [`START_SHAPE_TEST_LOS_PROBE`](#_0x7EE9F5D83DD4F90E) for flags.
 
 ## Parameters
 * **entity**: 
