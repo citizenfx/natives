@@ -1,5 +1,6 @@
 ---
 ns: HUD
+aliases: ["0xF06EBB91A81E09E3"]
 ---
 ## PAUSE_MENU_SET_WARN_ON_TAB_CHANGE
 
