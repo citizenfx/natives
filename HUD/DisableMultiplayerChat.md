@@ -1,6 +1,6 @@
 ---
 ns: HUD
-aliases: ["SET_TEXT_CHAT_UNK"]
+aliases: ["_SET_TEXT_CHAT_UNK"]
 ---
 ## _DISABLE_MULTIPLAYER_CHAT
 
