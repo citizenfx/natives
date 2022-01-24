@@ -6,7 +6,7 @@ aliases: ["0x632B2940C67F4EA9"]
  
 ```c
 // 0x632B2940C67F4EA9
-BOOL _GET_SCALEFORM_MOVIE_CURSOR_SELECTION(int scaleformHandle, bool* received, int* selectionType, int* slotIndex, int* p4);
+BOOL _GET_SCALEFORM_MOVIE_CURSOR_SELECTION(int scaleformHandle, cs_type(Any*) bool* received, cs_type(Any*) int* selectionType, cs_type(Any*) int* slotIndex, int* p4);
 ```
  
 Gets mouse selection data from scaleforms with mouse support. Must be checked every frame
