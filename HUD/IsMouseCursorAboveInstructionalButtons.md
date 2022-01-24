@@ -6,7 +6,7 @@ aliases: ["0x3D9ACB1EB139E702"]
 
 ```c
 // 0x3D9ACB1EB139E702
-BOOL _IS_MOUSE_CURSOR_ABOVE_INSTRUCTIONAL_BUTTONS();
+cs_type(Any) BOOL _IS_MOUSE_CURSOR_ABOVE_INSTRUCTIONAL_BUTTONS();
 ```
 
 Returns true if the cursor is hovering above instructional buttons. 
