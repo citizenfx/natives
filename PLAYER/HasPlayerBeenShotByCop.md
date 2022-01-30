@@ -27,7 +27,7 @@ Both was taken from fm_mission_controller
 ```
 
 Returns if the ped has been shot by a cop entity within a timeframe.
-Will return false if the ped that shot doesn't if they dont have a task or dead or too far away.
+Will return false if the ped that shot doesn't have a task or dead or too far away.
 
 ## Parameters
 * **player**: 
