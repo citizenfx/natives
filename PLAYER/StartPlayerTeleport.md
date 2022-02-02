@@ -33,7 +33,6 @@ local coords = vector3(100.0, 100.0, 50.0)
 StartPlayerTeleport(PlayerId(), coords.x, coords.y, coords.z, 0.0, false, true, true)
 
 while IsPlayerTeleportActive() do
-  i = i + 1
   Citizen.Wait(0)
 end
 
