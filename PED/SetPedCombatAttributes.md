@@ -8,9 +8,10 @@ ns: PED
 void SET_PED_COMBAT_ATTRIBUTES(Ped ped, int attributeIndex, BOOL enabled);
 ```
 
+
+These combat attributes seem to be the same as the BehaviourFlags from combatbehaviour.meta.
+So far, these are the equivalents found:
 ```
-These combat attributes seem to be the same as the BehaviourFlags from combatbehaviour.meta.  
-So far, these are the equivalents found:  
 enum CombatAttributes  
 {
 	BF_CanUseCover = 0,
@@ -25,12 +26,12 @@ enum CombatAttributes
         BF_FreezeMovement = 292,  
         BF_PlayerCanUseFiringWeapons = 1424  
 };
+```
 8 = ?  
 9 = ?  
 13 = ?  
 14 ?  
 Research thread: gtaforums.com/topic/833391-researchguide-combat-behaviour-flags/  
-```
 
 ## Parameters
 * **ped**: 
