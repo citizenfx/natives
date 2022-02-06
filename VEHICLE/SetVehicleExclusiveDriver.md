@@ -1,23 +1,20 @@
 ---
 ns: VEHICLE
-aliases: ["0x41062318F23ED854"]
+aliases: ["0x41062318F23ED854", "SET_VEHICLE_EXCLUSIVE_DRIVER"]
 ---
-## SET_VEHICLE_EXCLUSIVE_DRIVER
+## SET_VEHICLE_ACTIVE_SOMETHING
 
 ```c
-// 0x41062318F23ED854 0xFF62D324
-void SET_VEHICLE_EXCLUSIVE_DRIVER(Vehicle vehicle, cs_type(Ped) BOOL toggle);
+// 0x41062318F23ED854
+void SET_VEHICLE_ACTIVE_SOMETHING(Vehicle vehicle, cs_type(Ped) BOOL toggle);
 ```
 
-Incorrectly named `SET_VEHICLE_EXCLUSIVE_DRIVER`; likely `SET_VEHICLE_ALLOW_*`.
+Was incorrectly named `SET_VEHICLE_EXCLUSIVE_DRIVER` previously; likely `SET_VEHICLE_ACTIVE*` up to `SET_VEHICLE_ALA*`.
+Unsure if native joaat hash is known.
 
-Toggles a flag related to `SET_VEHICLE_EXCLUSIVE_DRIVER`, however, doesn't enable that feature (or trigger script events related to it).
+Toggles a flag related to if the behaviour of `SET_VEHICLE_EXCLUSIVE_DRIVER` is enabled or disabled/ignored, however, doesn't enable that feature (or trigger script events related to it).
 
-See [`_SET_VEHICLE_EXCLUSIVE_DRIVER_2`](#_0xB5C51B5502E85E83).
-
-```
-NativeDB Removed Parameter 2: int index
-```
+See [`SET_VEHICLE_EXCLUSIVE_DRIVER`](#_0xB5C51B5502E85E83).
 
 ## Parameters
 * **vehicle**: 
