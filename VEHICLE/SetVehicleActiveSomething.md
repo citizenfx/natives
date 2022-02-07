@@ -2,11 +2,11 @@
 ns: VEHICLE
 aliases: ["0x41062318F23ED854", "SET_VEHICLE_EXCLUSIVE_DRIVER"]
 ---
-## SET_VEHICLE_ACTIVE_SOMETHING
+## _SET_VEHICLE_ACTIVE_SOMETHING
 
 ```c
 // 0x41062318F23ED854
-void SET_VEHICLE_ACTIVE_SOMETHING(Vehicle vehicle, cs_type(Ped) BOOL toggle);
+void _SET_VEHICLE_ACTIVE_SOMETHING(Vehicle vehicle, cs_type(Ped) BOOL toggle);
 ```
 
 Was incorrectly named `SET_VEHICLE_EXCLUSIVE_DRIVER` previously; likely `SET_VEHICLE_ACTIVE*` up to `SET_VEHICLE_ALA*`.
