@@ -6,7 +6,7 @@ aliases: ["0xB09D25E77C33EB3F", "_IS_PED_EXCLUSIVE_DRIVER_OF_VEHICLE"]
 
 ```c
 // 0xB09D25E77C33EB3F 0xFF62D324
-BOOL IS_PED_EXCLUSIVE_DRIVER_OF_VEHICLE(Vehicle vehicle, Ped ped, int* outIndex);
+BOOL IS_PED_EXCLUSIVE_DRIVER_OF_VEHICLE(Vehicle vehicle, Ped ped, cs_type(int) int* outIndex);
 ```
 
 ## Parameters
