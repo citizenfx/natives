@@ -5,7 +5,7 @@ ns: TASK
 
 ```c
 // 0xEAF66ACDDC794793
-void _TASK_RAPPEL_DOWN_WALL(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8, Any p9, Any p10);
+void _TASK_RAPPEL_DOWN_WALL(Ped ped, float x1, float y1, float z1, float x2, float y2, float z2, float heading, int ropeID, char* Clipset, 1);
 ```
 
 ```
@@ -13,14 +13,14 @@ NativeDB Introduced: v1868
 ```
 
 ## Parameters
-* **p0**:
-* **p1**:
-* **p2**:
-* **p3**:
-* **p4**:
-* **p5**:
-* **p6**:
-* **p7**:
-* **p8**:
-* **p9**:
-* **p10**:
+* **ped**:
+* **x1**:
+* **y1**:
+* **z1**:
+* **x2**:
+* **y2**:
+* **z2**:
+* **heading**:
+* **rope ID**:
+* **clipset**:
+* **1**:
