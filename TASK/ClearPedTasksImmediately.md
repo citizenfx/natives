@@ -8,10 +8,8 @@ ns: TASK
 void CLEAR_PED_TASKS_IMMEDIATELY(Ped ped);
 ```
 
-```
-Immediately stops the pedestrian from whatever it's doing. They stop fighting, animations, etc. they forget what they were doing.  
-```
+Immediately stops the pedestrian from whatever it's doing. The difference between this and **ClearPedTasks** is that this one teleports the ped but does not change the position of the ped.
 
 ## Parameters
-* **ped**: 
+* **ped**: Ped id.
 
