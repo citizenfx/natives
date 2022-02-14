@@ -10,5 +10,6 @@ void CLEAR_PED_TASKS(Ped ped);
 
 
 ## Parameters
-* **ped**: 
+* **ped**: Ped id. Use PlayerPedId() for your own character.
 
+Clear a ped's tasks. Stop animations and other tasks created by script.
