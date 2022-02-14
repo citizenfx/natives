@@ -10,8 +10,15 @@ void TASK_VEHICLE_DRIVE_WANDER(Ped ped, Vehicle vehicle, float speed, int drivin
 
 
 ## Parameters
-* **ped**: 
-* **vehicle**: 
-* **speed**: 
-* **drivingStyle**: 
+* **ped**: Ped id for the task.
+* **vehicle**: Vehicle entity id for the task.
+* **speed**: Speed of driving.
+* **drivingStyle**: Use 447 to simulate a real-life driver. More info can be found at [Here](https://vespura.com/fivem/drivingstyle/)
 
+Drive randomly with no destination set.
+
+## Examples
+```cs
+// A short example showcasing how this native works in C#.
+TaskVehicleDriveWander(PlayerPedId(), GetVehiclePedIsUsing(PlayerPedId()), 60.0f, 447);
+```
