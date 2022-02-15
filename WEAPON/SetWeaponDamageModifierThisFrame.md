@@ -2,14 +2,14 @@
 ns: WEAPON
 aliases: ["0x4757F00BC6323CFE","_SET_WEAPON_DAMAGE_MODIFIER"]
 ---
-## _SET_WEAPON_DAMAGE_MODIFIER_THIS_FRAME
+## _SET_WEAPON_DAMAGE_MODIFIER
 
 ```c
 // 0x4757F00BC6323CFE
-void _SET_WEAPON_DAMAGE_MODIFIER_THIS_FRAME(Hash weaponHash, float damageMultiplier);
+void _SET_WEAPON_DAMAGE_MODIFIER(Hash weaponHash, float damageMultiplier);
 ```
 
-Changes the weapon damage output by the given multiplier value. Must be run every frame.
+Changes the weapon damage output by the given multiplier value. Does NOT need to be called every frame.
 
 ## Parameters
 * **weaponHash**: Hash of the weapon
@@ -19,9 +19,6 @@ Changes the weapon damage output by the given multiplier value. Must be run ever
 
 ```lua
 Citizen.CreateThread(function()
-    while true do
-        SetWeaponDamageModifier(GetHashKey("WEAPON_CARBINERIFLE"), 0.8) 
-        Wait(0)
-    end
+        SetWeaponDamageModifier(`WEAPON_CARBINERIFLE`, 0.8)
 end)
 ```
