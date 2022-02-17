@@ -1,16 +1,15 @@
 ---
 ns: PLAYER
-aliases: ["0xA0D3E4F7AAFB7E78", "_SET_PLAYER_UNDERWATER_TIME_REMAINING"]
+aliases: ["0xA0D3E4F7AAFB7E78"]
 ---
-## SET_PLAYER_UNDERWATER_TIME_MULTIPLIER_THIS_FRAME
+## SET_PLAYER_UNDERWATER_TIME_MULTIPLIER_REMAINING
 
 ```c
 // 0xA0D3E4F7AAFB7E78
-Any SET_PLAYER_UNDERWATER_TIME_MULTIPLIER(Player player, float percentage);
+Any SET_PLAYER_UNDERWATER_TIME_REMAINING(Player player, float percentage);
 ```
-**Needs to be called every frame to take effect.**
 
-Seems to set a multiplier for the underwater timer of the specified player. Set `percentage` to `50.0` will reduce the value of [GET_PLAYER_UNDERWATER_TIME_REMAINING](#_0xA1FCF8E6AF40B731) to 5.0.
+Seems to lock the underwater timer of the specified player. Set `percentage` to `50.0` will reduce the value of [GET_PLAYER_UNDERWATER_TIME_REMAINING](#_0xA1FCF8E6AF40B731) to 5.0.
 
 If you want to increase the underwater time for ped, use [SET_PED_MAX_TIME_UNDERWATER](#_0x6BA428C528D9E522) instead. 
 
