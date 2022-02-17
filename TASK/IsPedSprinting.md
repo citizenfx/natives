@@ -14,14 +14,15 @@ Is the ped given sprinting.
 
 ## Return value
 Whether or not the ped is sprinting. Note that if the ped is sprinting, it will return `1` instead of `true`.
-For example:
+
+Code like this:
 
 ```lua
 if IsPedSprinting(GetPlayerPed(-1)) then
   print("TRIGGERED")
 end
 ```
-will not work.
+will not work, instead:
 
 ```lua
 if IsPedSprinting(GetPlayerPed(-1)) == 1 then
