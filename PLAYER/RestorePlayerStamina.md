@@ -11,7 +11,7 @@ void SET_PLAYER_SPRINT_TIMER_MULTIPLIER_THIS_FRAME(Player player, float percenta
 Set the deduce speed of the sprint timer. Sprint timer seems to be hardcoded to 10 seconds, and deduce by 1.0 when you sprint.
 By using this native, you can **slow down** or **prevent** this timer from deducing, which means the player can sprint forever.
 
-**MUST be called every frame to work.**
+**MUST be called per second at least to work.**
 
 ## Parameters
 * **player**: Player ID.
