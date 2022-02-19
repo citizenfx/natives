@@ -8,4 +8,6 @@ ns: SCRIPT
 void TERMINATE_THIS_THREAD();
 ```
 
+Terminate the current Thread but it is necessary to set a name for the thread.
+
 
