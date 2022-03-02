@@ -10,8 +10,9 @@ BOOL GET_DLC_VEHICLE_DATA(int dlcVehicleIndex, int* outData);
 
 ```
 dlcVehicleIndex takes a number from 0 - GET_NUM_DLC_VEHICLES() - 1.  
-outData is a struct of 3 8-byte items.  
-The Second item in the struct *(Hash *)(outData + 1) is the vehicle hash.  
+outData is a struct of 3 8-byte items.
+retval is a boolean value return if find or not the dlcVehicleIndex.
+The Second item in the struct *(Hash *)(outData + 1) is the vehicle hash.
 ```
 
 ## Parameters
@@ -19,3 +20,5 @@ The Second item in the struct *(Hash *)(outData + 1) is the vehicle hash.
 * **outData**: 
 
 ## Return value
+* **retval**
+* **ouData**
