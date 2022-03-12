@@ -6,13 +6,9 @@ aliases: ["0x3117D84EFA60F77B"]
 
 ```c
 // 0x3117D84EFA60F77B
-void CELL_CAM_SET_VERTICAL_OFFSET(float p0);
-```
-
-```
-p0 from 0.0 to 2.0
+void _CELL_CAM_SET_VERTICAL_OFFSET(float p0);
 ```
 
 ## Parameters
-* **p0**: 
+* **p0**: Value from 0.0 to 2.0
 
