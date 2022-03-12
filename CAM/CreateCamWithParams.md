@@ -5,12 +5,13 @@ ns: CAM
 
 ```c
 // 0xB51194800B257161 0x23B02F15
-Cam CREATE_CAM_WITH_PARAMS(char* camName, float posX, float posY, float posZ, float rotX, float rotY, float rotZ, float fov, BOOL p8, int p9);
+Cam CREATE_CAM_WITH_PARAMS(char* camName, float posX, float posY, float posZ, float rotX, float rotY, float rotZ, float fov, BOOL active, int rotationOrder);
 ```
 
 Create a camera with the specified cam name/type, You can use `SET_CAM_` natives to manipulate the camera.
 
-Cam names:
+Camera names found in the b617d scripts:
+
 ```
 "DEFAULT_ANIMATED_CAMERA"  
 "DEFAULT_SCRIPTED_CAMERA"  
@@ -27,8 +28,8 @@ Cam names:
 * **rotY**: The y rotation of the camera
 * **rotZ**: The z rotation of the camera
 * **fov**: The Field Of View of the camera, is the observable world that is seen
-* **p8**:
-* **p9**:
+* **active**:
+* **rotationOrder**:
 
 ## Return value
 A camera handle.

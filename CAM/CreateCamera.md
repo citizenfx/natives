@@ -5,12 +5,12 @@ ns: CAM
 
 ```c
 // 0x5E3CF89C6BCCA67D 0x5D6739AE
-Cam CREATE_CAMERA(Hash camHash, BOOL p1);
+Cam CREATE_CAMERA(Hash camHash, BOOL active);
 ```
 
 
 ## Parameters
 * **camHash**: 
-* **p1**: 
+* **active**: 
 
 ## Return value
