@@ -6,13 +6,9 @@ aliases: ["0x15E69E2802C24B8D"]
 
 ```c
 // 0x15E69E2802C24B8D
-void CELL_CAM_SET_ROLL(float p0);
-```
-
-```
-p0 from -1.0 to 1.0
+void _CELL_CAM_SET_ROLL(float p0);
 ```
 
 ## Parameters
-* **p0**: 
+* **p0**: Value from -1.0 to 1.0
 
