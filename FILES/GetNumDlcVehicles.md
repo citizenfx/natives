@@ -8,10 +8,6 @@ ns: FILES
 int GET_NUM_DLC_VEHICLES();
 ```
 
-```
 Returns the total number of DLC vehicles.
-
-Retourne le nombre total de véhicules composant les DLC et uniquement les DLC. Les véhicules de base GTA ne sont pas inclus dans cette liste.
-```
 
 ## Return value
