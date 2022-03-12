@@ -9,7 +9,7 @@ aliases: ["_START_PARTICLE_FX_NON_LOOPED_AT_COORD_2"]
 BOOL START_NETWORKED_PARTICLE_FX_NON_LOOPED_AT_COORD(char* effectName, float xPos, float yPos, float zPos, float xRot, float yRot, float zRot, float scale, BOOL xAxis, BOOL yAxis, BOOL zAxis);
 ```
 
-NOTE: the [USE_PARTICLE_FX_ASSET](#__0x6C38AF3693A69A91) needs to be called before EVERY StartNetworkedParticleFxNonLoopedAtCoord(....) call!
+NOTE: the [USE_PARTICLE_FX_ASSET](#_0x6C38AF3693A69A91) needs to be called before EVERY StartNetworkedParticleFxNonLoopedAtCoord(....) call!
 
 List with lots of particle effects: https://vespura.com/fivem/particle-list/
 
