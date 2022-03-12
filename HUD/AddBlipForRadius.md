@@ -8,6 +8,7 @@ ns: HUD
 Blip ADD_BLIP_FOR_RADIUS(float posX, float posY, float posZ, float radius);
 ```
 
+Create a circle blip on the minimap and pause menu map. You need to set the colour and alpha of the blip using the handle created.
 
 ## Parameters
 * **posX**: World coordinate X of the blip's center.
@@ -17,5 +18,3 @@ Blip ADD_BLIP_FOR_RADIUS(float posX, float posY, float posZ, float radius);
 
 ## Return value
 Returns a handle for the blip created.
-
-Create a circle blip on the minimap and pause menu map. You need to set the colour and alpha of the blip using the handle created.
