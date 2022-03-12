@@ -5,7 +5,7 @@ ns: CAM
 
 ```c
 // 0xB51194800B257161 0x23B02F15
-Cam CREATE_CAM_WITH_PARAMS(char* camName, float posX, float posY, float posZ, float rotX, float rotY, float rotZ, float fov);
+Cam CREATE_CAM_WITH_PARAMS(char* camName, float posX, float posY, float posZ, float rotX, float rotY, float rotZ, float fov, BOOL p8, int p9);
 ```
 
 Create a camera with the specified cam name/type, You can use `SET_CAM_` natives to manipulate the camera.
@@ -26,7 +26,9 @@ Cam names:
 * **rotX**: The x rotation of the camera
 * **rotY**: The y rotation of the camera
 * **rotZ**: The z rotation of the camera
-* **fov**:  The Field Of View of the camera, is the observable world that is seen
+* **fov**: The Field Of View of the camera, is the observable world that is seen
+* **p8**:
+* **p9**:
 
 ## Return value
 A camera handle.
