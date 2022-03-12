@@ -6,13 +6,9 @@ aliases: ["0x466DA42C89865553"]
 
 ```c
 // 0x466DA42C89865553 0x66DCD9D2
-void CELL_CAM_SET_HEAD_HEIGHT(float p0);
-```
-
-```
-p0 from -1.0 to 0.0
+void _CELL_CAM_SET_HEAD_HEIGHT(float p0);
 ```
 
 ## Parameters
-* **p0**: 
+* **p0**: Value from -1.0 to 0.0
 
