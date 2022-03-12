@@ -2,11 +2,11 @@
 ns: PLAYER
 aliases: ["0xA0D3E4F7AAFB7E78"]
 ---
-## SET_PLAYER_UNDERWATER_TIME_REMAINING
+## _SET_PLAYER_UNDERWATER_TIME_REMAINING
 
 ```c
 // 0xA0D3E4F7AAFB7E78
-Any SET_PLAYER_UNDERWATER_TIME_REMAINING(Player player, float percentage);
+Any _SET_PLAYER_UNDERWATER_TIME_REMAINING(Player player, float percentage);
 ```
 
 Seems to lock the underwater timer of the specified player. Set `percentage` to `50.0` will reduce the value of [GET_PLAYER_UNDERWATER_TIME_REMAINING](#_0xA1FCF8E6AF40B731) to 5.0.
@@ -19,3 +19,4 @@ Using this native after [SET_PED_MAX_TIME_UNDERWATER](#_0x6BA428C528D9E522) **WI
 * **player**: Player id.
 * **percentage**: Maximum is `100.0`. Any value above `100.0` and less than `0.0` will have no effect on [GET_PLAYER_UNDERWATER_TIME_REMAINING](#_0xA1FCF8E6AF40B731).
 
+## Return value
