@@ -8,7 +8,8 @@ ns: TASK
 void CLEAR_PED_TASKS(Ped ped);
 ```
 
+Clear a ped's tasks. Stop animations and other tasks created by scripts.
 
 ## Parameters
-* **ped**: 
+* **ped**: Ped id. Use PlayerPedId() for your own character.
 
