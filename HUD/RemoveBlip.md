@@ -8,7 +8,17 @@ ns: HUD
 void REMOVE_BLIP(Blip* blip);
 ```
 
+Removes the blip from your map.
+
 ## Parameters
 * **blip**: Blip handle to remove.
 
-Removes the blip from your map. Does not crash the game and works.
+## Examples
+```lua
+-- Create the blip
+local coords = vector3(200.0, 200.0, 5.0)
+local blip = AddBlipForCoord(coords)
+
+-- When you want to remove it
+RemoveBlip(blip)
+```
