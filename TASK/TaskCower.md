@@ -8,8 +8,9 @@ ns: TASK
 void TASK_COWER(Ped ped, int duration);
 ```
 
+The ped will act like NPC's involved in a gunfight. The ped will squat down with their heads held in place and look around.
 
 ## Parameters
-* **ped**: 
-* **duration**: 
+* **ped**: Ped id.
+* **duration**: Duration of the animation in ms. Set to -1 if you do not want a duration.
 
