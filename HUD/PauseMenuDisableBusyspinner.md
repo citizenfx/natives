@@ -1,6 +1,6 @@
 ---
 ns: HUD
-aliases:["0x9245e81072704b8a"]
+aliases: ["0x9245e81072704b8a"]
 ---
 ## _PAUSE_MENU_DISABLE_BUSYSPINNER
 
