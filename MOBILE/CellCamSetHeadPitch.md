@@ -6,13 +6,9 @@ aliases: ["0xD6ADE981781FCA09"]
 
 ```c
 // 0xD6ADE981781FCA09
-void CELL_CAM_SET_HEAD_PITCH(float p0);
-```
-
-```
-p0 from -1.0 to 1.0
+void _CELL_CAM_SET_HEAD_PITCH(float p0);
 ```
 
 ## Parameters
-* **p0**: 
+* **p0**: Value from -1.0 to 1.0
 
