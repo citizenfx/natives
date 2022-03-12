@@ -8,6 +8,7 @@ ns: TASK
 void TASK_VEHICLE_DRIVE_TO_COORD_LONGRANGE(Ped ped, Vehicle vehicle, float x, float y, float z, float speed, int driveMode, float stopRange);
 ```
 
+You can let your character drive to the destination at the speed and driving style you set. You can use map marks to set the destination.
 
 ## Parameters
 * **ped**: Ped id for the task.
@@ -16,10 +17,8 @@ void TASK_VEHICLE_DRIVE_TO_COORD_LONGRANGE(Ped ped, Vehicle vehicle, float x, fl
 * **y**: Destination Y coordinate.
 * **z**: Destination Z coordinate.
 * **speed**: Speed of driving.
-* **driveMode**: Use 447 to simulate a real-life driver. More info can be found at [Here](https://vespura.com/fivem/drivingstyle/)
+* **driveMode**: More info can be found [here](https://vespura.com/fivem/drivingstyle/)
 * **stopRange**: Stops in the specific range near the destination. 20.0 works fine.
-
-You can let your character drive to the destination at the speed and driving style you set. You can use map marks to set the destination.
 
 ## Examples
 ```cs
@@ -34,5 +33,5 @@ if (destination == Vector3.Zero)
     return;
 }
 
-TaskVehicleDriveToCoordLongrange(PlayerPedId(), GetVehiclePedIsUsing(PlayerPedId()), destination.X, destination.Y, destination.Z, 60.0f, 447, 20.0f);
+TaskVehicleDriveToCoordLongrange(Game.PlayerPed.Handle, Game.PlayerPed.CurrentVehicle.Handle, destination.X, destination.Y, destination.Z, 60f, 447, 20f);
 ```
