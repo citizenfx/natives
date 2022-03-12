@@ -8,15 +8,13 @@ ns: CAM
 Cam CREATE_CAM_WITH_PARAMS(char* camName, float posX, float posY, float posZ, float rotX, float rotY, float rotZ, float fov, BOOL active, int rotationOrder);
 ```
 
+Camera names found in the b617d scripts:
+
 ```
-camName is always set to "DEFAULT_SCRIPTED_CAMERA" in Rockstar's scripts.  
-------------  
-Camera names found in the b617d scripts:  
-"DEFAULT_ANIMATED_CAMERA"  
-"DEFAULT_SCRIPTED_CAMERA"  
-"DEFAULT_SCRIPTED_FLY_CAMERA"  
-"DEFAULT_SPLINE_CAMERA"  
-------------  
+"DEFAULT_ANIMATED_CAMERA"
+"DEFAULT_SCRIPTED_CAMERA"
+"DEFAULT_SCRIPTED_FLY_CAMERA"
+"DEFAULT_SPLINE_CAMERA"
 ```
 
 ## Parameters
