@@ -5,14 +5,15 @@ ns: CUTSCENE
 
 ```c
 // 0xBA01E7B6DEEFBBC9 0x6AF994A1
-void SET_CUTSCENE_PED_COMPONENT_VARIATION(char* cutsceneEntName, int p1, int p2, int p3, Hash modelHash);
+void SET_CUTSCENE_PED_COMPONENT_VARIATION(char* cutsceneEntName, int componentId, int drawableId, int textureId, Hash modelHash);
 ```
 
+See [`SET_PED_COMPONENT_VARIATION`](#_0x262B14F48D29DE80)
 
 ## Parameters
 * **cutsceneEntName**: 
-* **p1**: 
-* **p2**: 
-* **p3**: 
+* **componentId**: 
+* **drawableId**: 
+* **textureId**: 
 * **modelHash**: 
 
