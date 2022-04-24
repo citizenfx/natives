@@ -5,14 +5,11 @@ ns: HUD
 
 ```c
 // 0x170F541E1CADD1DE
-void _0x170F541E1CADD1DE(BOOL p0);
+void _SET_MULTIPLAYER_CASH_KEEP_RENDER(BOOL keep);
 ```
 
-```
-Related to displaying cash on the HUD
-Always called before HUD::_SET_SINGLEPLAYER_HUD_CASH in decompiled scripts
-```
+Set the cash and bank money display keep rendering on screen.
 
 ## Parameters
-* **p0**: 
+* **keep**: Set to true to keep both cash display on screen.
 
