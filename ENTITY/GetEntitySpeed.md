@@ -15,3 +15,4 @@ Get the speed of a entity.
 
 ## Return value
 Speed of a entity in m/s. You can convert to km/h using the value you get and multiply by 3.6, and miles/h by 2.236936.
+Also, the float returned is the length of [#0x9A8D700A51CB7B0D]GET_ENTITY_SPEED_VECTOR
