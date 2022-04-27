@@ -9,6 +9,7 @@ aliases: ["0x41FAA8FB2ECE8720"]
 void SET_CUTSCENE_CAN_BE_SKIPPED(BOOL p0);
 ```
 
+
 ## Parameters
 * **p0**: 
 

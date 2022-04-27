@@ -10,7 +10,6 @@ void REQUEST_CUTSCENE_WITH_PLAYBACK_LIST(char* cutsceneName, int playbackFlags, 
 ```
 
 ```
-flags: Usually 8
 playbackFlags: Which scenes should be played.
 Example: 0x105 (bit 0, 2 and 8 set) will enable scene 1, 3 and 9.
 ```
@@ -18,5 +17,5 @@ Example: 0x105 (bit 0, 2 and 8 set) will enable scene 1, 3 and 9.
 ## Parameters
 * **cutsceneName**: 
 * **playbackFlags**: 
-* **flags**: 
+* **flags**: Usually 8
 

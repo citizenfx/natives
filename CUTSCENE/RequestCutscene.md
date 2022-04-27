@@ -8,11 +8,7 @@ ns: CUTSCENE
 void REQUEST_CUTSCENE(char* cutsceneName, int flags);
 ```
 
-```
-flags: Usually 8
-```
-
 ## Parameters
-* **cutsceneName**: 
-* **flags**: 
+* **cutsceneName**: Case insensitive
+* **flags**: Usually 8
 
