@@ -14,7 +14,7 @@ jobs:
           path: './'
       - uses: actions/setup-node@v2
         with:
-          node-version: '12' # while 14+ technically works, it's 25-50x slower at running native-doc-tooling
+          node-version: '18' # while 14+ technically works, it's 25-50x slower at running native-doc-tooling
       - name: Run build
         run: |
           set -xe
