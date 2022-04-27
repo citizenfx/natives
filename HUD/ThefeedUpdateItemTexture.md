@@ -1,12 +1,12 @@
 ---
 ns: HUD
-aliases: ["0x317EBA71D7543F52"]
+aliases: ["0x317EBA71D7543F52", "_THEFEED_ADD_TXD_REF"]
 ---
-## _THEFEED_ADD_TXD_REF
+## THEFEED_UPDATE_ITEM_TEXTURE
 
 ```c
-// 0x317EBA71D7543F52
-void _THEFEED_ADD_TXD_REF(char* txdString1, char* txnString1, char* txdString2, char* txnString2);
+// 0x317EBA71D7543F52 0x6A3F747D
+void THEFEED_UPDATE_ITEM_TEXTURE(char* txdString1, char* txnString1, char* txdString2, char* txnString2);
 ```
 
 ```
