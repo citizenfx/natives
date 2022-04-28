@@ -1,12 +1,12 @@
 ---
 ns: HUD
-aliases: ["_SET_SINGLEPLAYER_HUD_CASH"]
+aliases: ["_SET_SINGLEPLAYER_HUD_CASH", "_SET_PLAYER_CASH_CHANGE"]
 ---
-## _SET_PLAYER_CASH_CHANGE
+## CHANGE_FAKE_MP_CASH
 
 ```c
 // 0x0772DF77852C2E30 0xE319F90B
-void _SET_PLAYER_CASH_CHANGE(int cash, int bank);
+void CHANGE_FAKE_MP_CASH(int cash, int bank);
 ```
 
 ```
