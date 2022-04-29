@@ -9,7 +9,7 @@ aliases: ["0x2E89990DDFF670C3"]
 char* SC_LICENSEPLATE_GET_PLATE_DATA(int token, Any p1);
 ```
 
-Gets some license plate info related to the get license plate info request
+Gets license plate data related to the get license plate info request
 
 ## Parameters
 * **token**: 
