@@ -6,10 +6,10 @@ aliases: ["0x632B2940C67F4EA9"]
  
 ```c
 // 0x632B2940C67F4EA9
-BOOL _GET_SCALEFORM_MOVIE_CURSOR_SELECTION(int scaleformHandle, cs_type(Any*) bool* received, cs_type(Any*) int* selectionType, cs_type(Any*) int* slotIndex, int* p4);
+BOOL _GET_SCALEFORM_MOVIE_CURSOR_SELECTION(int scaleformHandle, cs_type(Any*) int* selectionType, cs_type(Any*) int* slotIndex, Any* p3);
 ```
  
-Gets mouse selection data from scaleforms with mouse support. Must be checked every frame
+Gets mouse selection data from scaleforms with mouse support. Must be checked every frame.
 Selection types, found in MOUSE_EVENTS.as:
 MOUSE_DRAG_OUT = 0;
 MOUSE_DRAG_OVER = 1;
@@ -33,9 +33,34 @@ Probably works with other scaleforms, needs more research.
  
 ## Parameters
 * **scaleformHandle**: Handle of the scaleform
-* **received**: Returns a boolean indicating if the data was received successfully
 * **selectionType**:  
 * **slotIndex**: Index of the slot the mouse is hovering on
-* **p4**: Purpose unknown, always returns -1 or 0. Returns item index if using the COLOUR_SWITCHER_02 scaleform
- 
+* **p3**: Returns the optional parameters specified in the MOUSE_EVENT api callback as specified in MouseBtn.as sendMouseEvent function.
+
+Taken from MouseBtn.as:
+ ```as
+	function sendMouseEvent(id)
+	{
+		var _loc4_ = [id, this._name]; // this is the array of parameters to be sent to the internal callback function and the MOUSE_EVT api callback back to the game.
+		var _loc3_ = this.optionalMouseArgs.length;
+		if (_loc3_ > 0)
+		{
+			var _loc2_ = 0;
+			while (_loc2_ < _loc3_)
+			{
+				_loc4_.push(this.optionalMouseArgs[_loc2_]);
+				_loc2_ = _loc2_ + 1;
+			}
+		}
+		if (this.isMouseEnabled)
+		{
+			if (this.callback)
+			{
+				this.callback.apply(this,[id, this, this.callbackArgs]); // internal scaleform callback
+			}
+			this.MOUSE_EVT.triggerEvent(_loc4_); // external api scaleform callback.
+		}
+	}
+ ```
+ Returns item index if using the COLOUR_SWITCHER_02 scaleform.
 ## Return value
