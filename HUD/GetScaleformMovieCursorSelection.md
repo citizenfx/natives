@@ -30,6 +30,7 @@ Scaleforms that this works with:
 - MP_NEXT_JOB_SELECTION
 - SC_LEADERBOARD
 Probably works with other scaleforms, needs more research.
+In order to use this Native you MUST have controls 239, 240, 237, 238 enabled!
  
 ## Parameters
 * **scaleformHandle**: Handle of the scaleform
