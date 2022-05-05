@@ -16,11 +16,11 @@ BOOL _GET_SCALEFORM_MOVIE_CURSOR_SELECTION(int scaleformHandle, cs_type(Any*) bo
 * **context**: Context of the slot the mouse is hovering on.
 * **slotIndex**: Index of the slot the mouse is hovering on.
 
- Returns item index if using the COLOUR_SWITCHER_02 scaleform.
 ## Return value
 * **retVal** Returns true if MOUSE_EVENT callback from Scaleforms has been called.
 
 Gets mouse selection data from scaleforms with mouse support. Must be checked every frame.
+Returns item index if using the COLOUR_SWITCHER_02 scaleform.
 Selection types, found in MOUSE_EVENTS.as:
 MOUSE_DRAG_OUT = 0;
 MOUSE_DRAG_OVER = 1;
