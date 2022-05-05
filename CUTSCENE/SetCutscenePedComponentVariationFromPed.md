@@ -14,6 +14,6 @@ Sets the components for a cutscene ped, this will take precendence over the cuts
 See [`REGISTER_ENTITY_FOR_CUTSCENE`](#_0xE40C1C56DF95C2E8) for an example.
 
 ## Parameters
-* **cutsceneEntName**: cut file cHandle, i.e Michael, Lamar, Franklin, MP_1-MP_4 etc
+* **cutsceneEntName**: Cutscene file cHandle, i.e Michael, Lamar, Franklin, MP_1-MP_4
 * **ped**: Ped to copy components from
 * **modelHash**: Not strictly neccasary, can be 0

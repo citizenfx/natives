@@ -11,7 +11,7 @@ BOOL CAN_SET_EXIT_STATE_FOR_REGISTERED_ENTITY(char* cutsceneEntName, Hash modelH
 Whether it is safe to start doing scripted actions on the entity, like simulating walking out of a cutscene.
 
 ## Parameters
-* **cutsceneEntName**: i.e Michael
+* **cutsceneEntName**: Name of the entity cHandle in the cutscene
 * **modelHash**: Can be 0
 
 ## Return value
