@@ -9,6 +9,8 @@ void OPEN_PATROL_ROUTE(char* patrolRoute);
 ```
 
 ```
+The patrol route name must starts with "miss_" to be properly created. 
+
  patrolRoutes found in the b617d scripts:
  "miss_Ass0",
  "miss_Ass1",
