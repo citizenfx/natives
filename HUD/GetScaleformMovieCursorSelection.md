@@ -11,6 +11,7 @@ BOOL _GET_SCALEFORM_MOVIE_CURSOR_SELECTION(int scaleformHandle, cs_type(Any*) bo
   
 ## Parameters
 * **scaleformHandle**: Handle of the scaleform
+* **received**: Returns a boolean indicating if the data was received successfully.
 * **selectionType**: The type of MouseEvent specified above.
 * **context**: Context of the slot the mouse is hovering on.
 * **slotIndex**: Index of the slot the mouse is hovering on.
