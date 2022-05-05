@@ -10,13 +10,18 @@ void PLAY_PAIN(Ped ped, int painID, int p1);
 
 **Warning**:
 
-Parameters are wrong after painID. 
-To preserve C-Sharp backwards compatibility, we can't add or remove parameters.  
-Check the *parameters* and *examples* section for the correct usage of this native.
+Parameters are wrong after painID. To preserve C-Sharp backwards compatibility, we can't add or remove parameters.  
+
+Correct parameters should be:  
+`PLAY_PAIN(Ped ped, int painID, float p3, bool createNetEvent)`
+
+Check the *examples* section for the correct usage of this native.
 
 **Description:**
 
 Plays a pain sound. A maximum of 33 pain IDs are allowed.  
+`createNetEvent` creates a `CPedPlayPainEvent` when set to true.
+
 Below is a list of all the pain IDs (Asterisks indicate that sounds can play in a Low, Medium or High fashion), for example: `PAIN_LOW_GENERIC`. The corresponding pain strings belong to the game exe.
 
 **Pain IDs:**
@@ -67,6 +72,5 @@ end
 ## Parameters
 * **ped**: The ped entity.
 * **painID**: The pain id, max allowed id is 33.
-* **p3**: A float, not sure what this is yet.
-* **createNetEvent**: Creates a `CPedPlayPainEvent` when set to true.
+
 
