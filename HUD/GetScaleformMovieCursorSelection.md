@@ -32,33 +32,27 @@ Scaleforms that this works with:
 - SC_LEADERBOARD
 Probably works with other scaleforms, needs more research.
 In order to use this Native you MUST have controls 239, 240, 237, 238 enabled!
-This native, due to its erroneous redundancy of the returned boolean value, doesn't work on C# unless you call Function class.
+This native, due to its erroneous redundancy of the returned boolean value, works differently in C#: shifting the parameters (where `received` becomes `selectionType` and so on making the fourth parameter unused and always 0).
 
 ## Examples
+```lua
+local success, _eventType, _context, _itemId = GetScaleformMovieCursorSelection(scaleform)
+```
 ```cs
 int eventType = 0;
 int itemId = 0;
 int context = 0;
+int unused = 0;
 
-OutputArgument _eventType = new OutputArgument();
-OutputArgument _context = new OutputArgument();
-OutputArgument _itemId = new OutputArgument();
-bool success = Function.Call<bool>(Hash._GET_SCALEFORM_MOVIE_CURSOR_SELECTION, scaleform.Handle, _eventType, _context, _itemId);
-if (success)
-{
-    eventType = _eventType.GetResult<int>();
-    itemId = _itemId.GetResult<int>();
-    context = _context.GetResult<int>();
-}
+var success = GetScaleformMovieCursorSelection(scaleform.Handle, ref eventType, ref context, ref itemId, ref unused);
+```
 
-  
 ## Parameters
 * **scaleformHandle**: Handle of the scaleform
-* **received**: Returns a boolean indicating if the data was received successfully.
+* **received**: Returns a boolean indicating if the data was received successfully (in Lua).
 * **selectionType**: The type of MouseEvent specified above.
 * **context**: Context of the slot the mouse is hovering on.
 * **slotIndex**: Index of the slot the mouse is hovering on.
 
 ## Return value
 * **retVal** Returns true if MOUSE_EVENT callback from Scaleforms has been called.
-```
