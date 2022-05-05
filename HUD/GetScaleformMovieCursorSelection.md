@@ -8,16 +8,6 @@ aliases: ["0x632B2940C67F4EA9"]
 // 0x632B2940C67F4EA9
 BOOL _GET_SCALEFORM_MOVIE_CURSOR_SELECTION(int scaleformHandle, cs_type(Any*) bool* received, cs_type(Any*) int* selectionType, cs_type(Any*) int* context, int* slotIndex);
 ```
-  
-## Parameters
-* **scaleformHandle**: Handle of the scaleform
-* **received**: Returns a boolean indicating if the data was received successfully.
-* **selectionType**: The type of MouseEvent specified above.
-* **context**: Context of the slot the mouse is hovering on.
-* **slotIndex**: Index of the slot the mouse is hovering on.
-
-## Return value
-* **retVal** Returns true if MOUSE_EVENT callback from Scaleforms has been called.
 
 Gets mouse selection data from scaleforms with mouse support. Must be checked every frame.
 Returns item index if using the COLOUR_SWITCHER_02 scaleform.
@@ -60,4 +50,15 @@ if (success)
     itemId = _itemId.GetResult<int>();
     context = _context.GetResult<int>();
 }
+
+  
+## Parameters
+* **scaleformHandle**: Handle of the scaleform
+* **received**: Returns a boolean indicating if the data was received successfully.
+* **selectionType**: The type of MouseEvent specified above.
+* **context**: Context of the slot the mouse is hovering on.
+* **slotIndex**: Index of the slot the mouse is hovering on.
+
+## Return value
+* **retVal** Returns true if MOUSE_EVENT callback from Scaleforms has been called.
 ```
