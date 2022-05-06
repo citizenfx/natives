@@ -13,3 +13,8 @@ BOOL SC_GAMERDATA_GET_INT(char *name, int *outValue);
 NativeDB Introduced: v323
 ```
 
+## Parameters
+* **name**: 
+* **outValue**: 
+
+## Return value
