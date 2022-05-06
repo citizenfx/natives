@@ -61,6 +61,10 @@ Below is a list of all the pain IDs (Asterisks indicate that sounds can play in 
 - 32: MELEE_LARGE_GRUNT (Nothing can be heard)
 - 33: PAIN_*_GENERIC (Low, Medium, High) 
 
+## Parameters
+* **ped**: The ped entity.
+* **painID**: The pain id, max allowed id is 33.
+
 ## Examples
 ```lua
 -- Play ON_FIRE (8) for all nearby peds, don't create an event (last parameter set to false)
@@ -68,9 +72,3 @@ for _, ped in ipairs(GetGamePool('CPed')) do
     PlayPain(ped, 8, 0.0, false)
 end
 ```
-
-## Parameters
-* **ped**: The ped entity.
-* **painID**: The pain id, max allowed id is 33.
-
-
