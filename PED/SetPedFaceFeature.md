@@ -8,36 +8,39 @@ ns: PED
 void _SET_PED_FACE_FEATURE(Ped ped, int index, float scale);
 ```
 
-```
-Sets the various freemode face features, e.g. nose length, chin shape. Scale ranges from -1.0 to 1.0.
-Index can be 0 - 19
-SET_PED_M*
-Here is the list of names. It starts at 0 and runs in sequence
-Face_Feature
-Nose_Width
-Nose_Peak_Hight
-Nose_Peak_Lenght
-Nose_Bone_High
-Nose_Peak_Lowering
-Nose_Bone_Twist
-EyeBrown_High
-EyeBrown_Forward
-Cheeks_Bone_High
-Cheeks_Bone_Width
-Cheeks_Width
-Eyes_Openning
-Lips_Thickness
-Jaw_Bone_Width: Bone size to sides
-Jaw_Bone_Back_Lenght: Bone size to back
-Chimp_Bone_Lowering: Go Down
-Chimp_Bone_Lenght: Go forward
-Chimp_Bone_Width
-Chimp_Hole
-Neck_Thikness
-```
+Sets the various freemode face features, e.g. nose length, chin shape.  
+
+**Indexes (From 0 to 19):**
+
+Parentheses indicate morph scale/direction as in (-1.0 to 1.0)
+
+* **0**: Nose Width (Thin/Wide)
+* **1**: Nose Peak (Up/Down)
+* **2**: Nose Length (Long/Short)
+* **3**: Nose Bone Curveness (Crooked/Curved)
+* **4**: Nose Tip (Up/Down)
+* **5**: Nose Bone Twist (Left/Right)
+* **6**: Eyebrow (Up/Down)
+* **7**: Eyebrow (In/Out)
+* **8**: Cheek Bones (Up/Down)
+* **9**: Cheek Sideways Bone Size (In/Out)
+* **10**: Cheek Bones Width (Puffed/Gaunt)
+* **11**: Eye Opening (Both) (Wide/Squinted)
+* **12**: Lip Thickness (Both) (Fat/Thin)
+* **13**: Jaw Bone Width (Narrow/Wide)
+* **14**: Jaw Bone Shape (Round/Square)
+* **15**: Chin Bone (Up/Down)
+* **16**: Chin Bone Length (In/Out or Backward/Forward)
+* **17**: Chin Bone Shape (Pointed/Square)
+* **18**: Chin Hole (Chin Bum)
+* **19**: Neck Thickness (Thin/Thick)
+
+**Note:**
+
+You may need to call [`SetPedHeadBlendData`](#0x9414E18B9434C2FE) prior to calling this native in order for it to work.
 
 ## Parameters
-* **ped**: 
-* **index**: 
-* **scale**: 
+* **ped**: The ped entity
+* **index**: An integer ranging from 0 to 19
+* **scale**: A float ranging from -1.0 to 1.0
 

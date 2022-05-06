@@ -26,9 +26,13 @@ overlayID       Part                  Index, to disable
 12              Add Body Blemishes    0 - 1, 255  
 ```
 
+**Note:**
+
+You may need to call [`SetPedHeadBlendData`](#0x9414E18B9434C2FE) prior to calling this native in order for it to work.
+
 ## Parameters
-* **ped**: 
-* **overlayID**: 
-* **index**: 
-* **opacity**: 
+* **ped**: The ped entity
+* **overlayID**: The overlay id displayed up above.
+* **index**: An integer representing the index (from 0 to `_GET_NUM_OVERLAY_VALUES(overlayID)-1`)
+* **opacity**: A float ranging from 0.0 to 1.0
 
