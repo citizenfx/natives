@@ -8,10 +8,9 @@ ns: PED
 void _SET_PED_FACE_FEATURE(Ped ped, int index, float scale);
 ```
 
-## Description
 Sets the various freemode face features, e.g. nose length, chin shape.  
 
-## Indexes (From 0 to 19)
+**Indexes (From 0 to 19):**
 
 Parentheses indicate morph scale/direction as in (-1.0 to 1.0)
 
@@ -36,7 +35,8 @@ Parentheses indicate morph scale/direction as in (-1.0 to 1.0)
 * **18**: Chin Hole (Chin Bum)
 * **19**: Neck Thickness (Thin/Thick)
 
-## Important
+**Note:**
+
 You may need to call [`SetPedHeadBlendData`](#0x9414E18B9434C2FE) prior to calling this native in order for it to work.
 
 ## Parameters
