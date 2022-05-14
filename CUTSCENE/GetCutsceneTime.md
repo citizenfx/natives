@@ -8,5 +8,7 @@ ns: CUTSCENE
 int GET_CUTSCENE_TIME();
 ```
 
+Gets the elapsed time of the current cutscene in
 
 ## Return value
+Elapsed time in milliseconds

@@ -6,21 +6,15 @@ aliases: ["0x0546524ADE2E9723"]
 
 ```c
 // 0x0546524ADE2E9723 0x22E9A9DE
-void SET_CUTSCENE_PED_PROP_VARIATION(char* cutsceneEntName, int p1, int p2, int p3, Hash modelHash);
+void SET_CUTSCENE_PED_PROP_VARIATION(char* cutsceneEntName, int componentId, int drawableId, int textureId, Hash modelHash);
 ```
 
-```
-Thanks R*! ;)
-if ((l_161 == 0) || (l_161 == 2)) {
-    sub_2ea27("Trying to set Jimmy prop variation");
-    CUTSCENE::_0546524ADE2E9723("Jimmy_Boston", 1, 0, 0, 0);
-}
-```
+See [`SET_PED_PROP_INDEX`](_0x93376B65A266EB5F)
 
 ## Parameters
-* **cutsceneEntName**: 
-* **p1**: 
-* **p2**: 
-* **p3**: 
+* **cutsceneEntName**: i.e Michael, Trevor, MP_1, MP_4
+* **componentId**: 
+* **drawableId**: 
+* **textureId**: 
 * **modelHash**: 
 

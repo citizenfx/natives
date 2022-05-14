@@ -8,7 +8,8 @@ ns: PED
 void CLEAR_PED_BLOOD_DAMAGE(Ped ped);
 ```
 
+Clears the blood on a ped.
 
 ## Parameters
-* **ped**: 
+* **ped**: Ped id.
 

@@ -8,9 +8,11 @@ ns: CUTSCENE
 Entity GET_ENTITY_INDEX_OF_CUTSCENE_ENTITY(char* cutsceneEntName, Hash modelHash);
 ```
 
+Returns the handle of a cutscene entity, can be ped
 
 ## Parameters
-* **cutsceneEntName**: 
-* **modelHash**: 
+* **cutsceneEntName**: I.E MP_1, MP_4, Michael, Trevor
+* **modelHash**: Not strictly neccasary, can get 0
 
 ## Return value
+Returns entity handle

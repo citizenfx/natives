@@ -8,30 +8,22 @@ ns: ENTITY
 void ATTACH_ENTITY_TO_ENTITY(Entity entity1, Entity entity2, int boneIndex, float xPos, float yPos, float zPos, float xRot, float yRot, float zRot, BOOL p9, BOOL useSoftPinning, BOOL collision, BOOL isPed, int rotationOrder, BOOL fixedRot);
 ```
 
-```
-Attaches entity1 to bone (boneIndex) of entity2.
-boneIndex - this is different to boneID, use GET_PED_BONE_INDEX to get the index from the ID. use the index for attaching to specific bones. entity1 will be attached to entity2's centre if bone index given doesn't correspond to bone indexes for that entity type.
-useSoftPinning - if set to false attached entity will not detach when fixed
-collision - controls collision between the two entities (FALSE disables collision).
-isPed - pitch doesnt work when false and roll will only work on negative numbers (only peds)
-vertexIndex - position of vertex
-fixedRot - if false it ignores entity vector
-```
+Attach an entity to the specified entity.
 
 ## Parameters
-* **entity1**: 
-* **entity2**: 
-* **boneIndex**: 
-* **xPos**: 
-* **yPos**: 
-* **zPos**: 
-* **xRot**: 
-* **yRot**: 
-* **zRot**: 
-* **p9**: 
-* **useSoftPinning**: 
-* **collision**: 
-* **isPed**: 
+* **entity1**: Entity to attach.
+* **entity2**: Entity to attach ```entity1``` with.
+* **boneIndex**: This is different to boneID, use ['GET_PED_BONE_INDEX'](#_0x3F428D08BE5AAE31) to get the index from the ID. use the index for attaching to specific bones. ```entity1``` will be attached to the center of ```entity2``` if bone index given doesn't correspond to bone indexes for that entity type.
+* **xPos**: X-axis offset from the center of ```entity2```.
+* **yPos**: Y-axis offset from the center of ```entity2```.
+* **zPos**: Z-axis offset from the center of ```entity2```.
+* **xRot**: X-axis rotation.
+* **yRot**: Y-axis rotation.
+* **zRot**: Z-axis rotation.
+* **p9**: Unknown. Does not seem to have any effect.
+* **useSoftPinning**: If set to false attached entity will not detach when fixed.
+* **collision**: Controls collision between the two entities (FALSE disables collision).
+* **isPed**: Pitch doesnt work when false and roll will only work on negative numbers (only peds)
 * **rotationOrder**: The order in which the rotation is applied. See [`GET_ENTITY_ROTATION`](#_0xAFBD61CC738D9EB9)
-* **fixedRot**: 
+* **fixedRot**: If false it ignores entity vector.
 

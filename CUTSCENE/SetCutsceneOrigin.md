@@ -5,17 +5,15 @@ ns: CUTSCENE
 
 ```c
 // 0xB812B3FD1C01CF27 0xB0AD7792
-void SET_CUTSCENE_ORIGIN(float x, float y, float z, float p3, int p4);
+void SET_CUTSCENE_ORIGIN(float x, float y, float z, float heading, int p4);
 ```
 
-```
-p3 could be heading. Needs more research.  
-```
+Sets cutscene location, used for multiplayer apartments/businesses.
 
 ## Parameters
 * **x**: 
 * **y**: 
 * **z**: 
-* **p3**: 
-* **p4**: 
+* **heading**: 
+* **p4**: Often -1, 0 or 1
 
