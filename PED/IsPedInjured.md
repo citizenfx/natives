@@ -9,11 +9,19 @@ BOOL IS_PED_INJURED(Ped ped);
 ```
 
 ```
-Gets a value indicating whether this ped's health is below its injured threshold.  
-The default threshold is 100.  
+Get 1 or false if PED is Injured.
 ```
 
 ## Parameters
 * **ped**: 
 
 ## Return value
+1 or false
+
+## Examples
+```lua
+while true do
+    Citizen.Wait(1);
+    print("Ped Injured: " .. tostring(IsPedInjured(PlayerPedId())));
+end
+```
