@@ -5,7 +5,7 @@ ns: PATHFIND
 
 ```c
 // 0x132F52BBA570FE92 0x567B0E11
-int GET_CLOSEST_ROAD(float x, float y, float z, float p3, int n, Vector3* srcNode, Vector3* destNode, int* forwardLanes, int* backwardLanes, float* width, BOOL onlyMajorRoads);
+int GET_CLOSEST_ROAD(float x, float y, float z, float p3, int n, Vector3* destNode, Vector3* srcNode, int* forwardLanes, int* backwardLanes, float* width, BOOL onlyMajorRoads);
 ```
 
 ```
