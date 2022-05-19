@@ -5,7 +5,7 @@ ns: PATHFIND
 
 ```c
 // 0x132F52BBA570FE92 0x567B0E11
-Any GET_CLOSEST_ROAD(float x, float y, float z, float p3, int p4, Vector3* p5, Vector3* p6, Any* p7, Any* p8, float* p9, BOOL p10);
+int GET_CLOSEST_ROAD(float x, float y, float z, float p3, int n, Vector3* srcNode, Vector3* destNode, Any* forwardLanes, Any* backwardLanes, float* width, BOOL onlyMajorRoads);
 ```
 
 ```
@@ -16,13 +16,14 @@ p1 seems to be always 1.0f in the scripts
 * **x**: 
 * **y**: 
 * **z**: 
-* **p3**: 
-* **p4**: 
-* **p5**: 
-* **p6**: 
-* **p7**: 
-* **p8**: 
-* **p9**: 
-* **p10**: 
+* **p3**: Some sort of filter. 0x20 returns closest shortcut link. Needs more research.
+* **n**: n edge. A bit broken as it returns a random edge after `n` has gone above edge count, but method still returns 1. Always 1 in Rockstar scripts.
+* **srcNode**: Position of the edge source
+* **destNode**: Position of the edge target
+* **forwardLanes**: Lane count forward
+* **backwardLanes**: Lane count backwards
+* **width**: Width of gap in middle of road between forward and backward directions
+* **onlyMajorRoads**: Return major nodes only
 
 ## Return value
+Usually always 1 even on failure.
