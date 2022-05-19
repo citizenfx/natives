@@ -28,7 +28,7 @@ If you need specific foward and backward lane counts use `GET_CLOSEST_ROAD`
 * **outPosition**: 
 * **heading**: 
 * **totalLanes**: 
-* **unknown2**: 
+* **nodeType**: 
 * **unknown3**: 
 * **unknown4**: 
 
