@@ -18,8 +18,8 @@ p1 seems to be always 1.0f in the scripts
 * **z**: 
 * **p3**: Some sort of filter. 0x20 returns closest shortcut link. Needs more research.
 * **n**: n edge. A bit broken as it returns a random edge after `n` has gone above edge count, but method still returns 1. Always 1 in Rockstar scripts.
-* **srcNode**: Position of the edge source
 * **destNode**: Position of the edge target
+* **destNode**: Position of the edge source
 * **forwardLanes**: Lane count forward
 * **backwardLanes**: Lane count backwards
 * **width**: Width of gap in middle of road between forward and backward directions
