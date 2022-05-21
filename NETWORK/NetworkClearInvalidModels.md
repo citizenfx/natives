@@ -1,0 +1,15 @@
+---
+ns: NETWORK 
+---
+
+## _NETWORK_CLEAR_INVALID_MODELS
+
+```c
+// 0x03B2F03A53D85E41 
+void _NETWORK_CLEAR_INVALID_MODELS();
+```
+
+```
+NativeDB Introduced: v2545
+```
+
