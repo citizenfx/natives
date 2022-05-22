@@ -20,17 +20,17 @@ Density is a value between 0 and 15, indicating how busy the road is.
 * **flags**: returned flags of this node (see below)
 
 ### Flags
-- **0x1**:    Offroad
-- **0x2**:    Unknown. Potentially a target for wander tasks as it follows game camera.
-- **0x4**:    NoBigVehicles
-- **0x8**:    Disabled
-- **0x10**:   Tunnel
-- **0x20**:   DeadEnd
-- **0x40**:   Highway
-- **0x80**:   Junction
-- **0x100**:  TrafficLight
-- **0x200**:  StopSign
-- **0x400**:  Unknown
+* **0x1**:    Offroad
+* **0x2**:    Unknown. Potentially a target for wander tasks as it follows game camera.
+* **0x4**:    NoBigVehicles
+* **0x8**:    Disabled
+* **0x10**:   Tunnel
+* **0x20**:   DeadEnd
+* **0x40**:   Highway
+* **0x80**:   Junction
+* **0x100**:  TrafficLight
+* **0x200**:  StopSign
+* **0x400**:  Unknown
 
 ## Return value
 bool indicating whether a node was found
