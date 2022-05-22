@@ -25,10 +25,10 @@ If you need specific foward and backward lane counts use [GET_CLOSEST_ROAD](#_0x
 * **unknown4**: sometimes 0.0, sometimes 2.5
 
 ### SearchFlags
-**0x1**: Include Disabled Roads.
-**0x2**: Only Water Nodes. Must be used alongside "Include Disabled" as all water nodes are disabled. (use the number 3)
-**0x4**: Removes secondary nodes from the search. (Junction, Stop, LeftTurnOnly, SlipRoad, Shortcut & edge merges/splits nodes)
-**0x8**: No Dead Ends.
+* **0x1**: Include Disabled Roads.
+* **0x2**: Only Water Nodes. Must be used alongside "Include Disabled" as all water nodes are disabled. (use the number 3)
+* **0x4**: Removes secondary nodes from the search. (Junction, Stop, LeftTurnOnly, SlipRoad, Shortcut & edge merges/splits nodes)
+* **0x8**: No Dead Ends.
 
 ## Return value
 bool indicating whether a node was found
