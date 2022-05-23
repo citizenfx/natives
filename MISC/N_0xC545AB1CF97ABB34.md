@@ -9,8 +9,9 @@ ns: MISC
 BOOL _0xC545AB1CF97ABB34();
 ```
 
+```
 Xbox Series (Scarlett) version...
-
+```
 
 ```
 NativeDB Introduced: v2612

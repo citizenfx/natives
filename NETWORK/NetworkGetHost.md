@@ -2,11 +2,11 @@
 ns: NETWORK 
 ---
 
-## _0x8251FB94DC4FDFC8
+## _NETWORK_GET_HOST
 
 ```c
 // 0x8251FB94DC4FDFC8 
-Player _0x8251FB94DC4FDFC8();
+Player _NETWORK_GET_HOST();
 ```
 
 ```
