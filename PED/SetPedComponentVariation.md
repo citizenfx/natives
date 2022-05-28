@@ -24,10 +24,6 @@ This native is used to set component variation on a ped. Components, drawables a
 **10**: Badge
 **11**: Torso 2
 
-### Related and useful natives
-[GET_NUMBER_OF_PED_DRAWABLE_VARIATIONS](#_0x27561561732A7842)  
-[GET_NUMBER_OF_PED_TEXTURE_VARIATIONS](#_0x8F7156A3142A6BAD)  
-
 List of Component IDs
 ```c
 // Components
@@ -53,6 +49,6 @@ enum ePedVarComp
 ## Parameters
 * **ped**: The ped handle.
 * **componentId**: The component that you want to set.
-* **drawableId**: The drawable id that is going to be set.
-* **textureId**: The texture id of the drawable.
+* **drawableId**: The drawable id that is going to be set. Refer to [GET_NUMBER_OF_PED_DRAWABLE_VARIATIONS](#_0x27561561732A7842).
+* **textureId**: The texture id of the drawable. Refer to [GET_NUMBER_OF_PED_TEXTURE_VARIATIONS](#_0x8F7156A3142A6BAD).
 * **paletteId**: 0 to 3.
