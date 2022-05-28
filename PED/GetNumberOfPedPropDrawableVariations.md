@@ -8,13 +8,8 @@ ns: PED
 int GET_NUMBER_OF_PED_PROP_DRAWABLE_VARIATIONS(Ped ped, int propId);
 ```
 
-```
-List of component/props ID  
-gtaxscripting.blogspot.com/2016/04/gta-v-peds-component-and-props.html  
-```
-
 ## Parameters
-* **ped**: 
-* **propId**: 
+* **ped**: The ped handle.
+* **propId**: The prop id you want to get the drawable variations of. Refer to [SET_PED_PROP_INDEX](#_0x93376B65A266EB5F)
 
 ## Return value
