@@ -10,7 +10,7 @@ void SET_ENTITY_VISIBLE(Entity entity, BOOL toggle, BOOL unk);
 
 Toggle the visibility of a given entity.
 If you want to change visibility of `PlayerPedId()`, it will change for other players and **will not** apply for you.
-You have to use `SET_ENTITY_LOCALLY_INVISIBLE` or other natives like this to change visibility of your character.
+You have to use [`SetEntityLocallyInvisible`](#0xE135A9FF3F5D05D8) or other natives like this to change visibility of your character.
 
 ## Parameters
 * **entity**: The entity to change the visibility of
