@@ -14,7 +14,7 @@ Creates a motion-blur sort of effect, this native does not seem to work, however
 
 This native does not seem to work, however by using the [START_SCREEN_EFFECT](https://runtime.fivem.net/doc/natives/#_0x2206BF9A37B7F724) native with "DrugsMichaelAliensFight" as the effect parameter, you should be able to get the effect.
 
-
+**Wrong**. When called this enables little light effects where a ped gets shot. From the Barry mission where Micheal fights the aliens.
 
 ## Parameters
 * **toggle**: 
