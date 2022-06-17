@@ -9,6 +9,8 @@ aliases: ["0xDC0F817884CDD856"]
 void ENABLE_DISPATCH_SERVICE(int dispatchService, BOOL toggle);
 ```
 
+Enables or disables the specified 'dispatch service' type. 'Dispatch services' are used for spawning AI response peds/vehicles for events such as a fire in the street (type 3 - DT_FireDepartment), or gunfire in a gang area (type 11 - DT_Gangs).
+
 List of dispatch services:
 
 ```cpp
@@ -33,7 +35,9 @@ enum DispatchType
 };
 ```
 
+Note that 'dispatch service' has nothing to do with the police scanner (audio), to toggle that, use [SET_AUDIO_FLAG](#_0xB9EFD5C25018725A) with `'PoliceScannerDisabled'`.
+
 ## Parameters
-* **dispatchService**: 
-* **toggle**: 
+* **dispatchService**: The ID of the dispatch service to toggle.
+* **toggle**: True to enable the dispatch service, false to disable the dispatch service.
 
