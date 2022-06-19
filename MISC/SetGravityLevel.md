@@ -9,11 +9,15 @@ void SET_GRAVITY_LEVEL(int level);
 ```
 
 ```
-level can be from 0 to 3  
+This native adjusts the in-game gravity level by the given amount.
+```
+
+```
+Level can be set inbetween 0-3
 0: 9.8   
 1: 2.4   
 2: 0.1 - very low  
-3: 0.0  
+3: 0.0
 ```
 
 ## Parameters
