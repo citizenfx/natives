@@ -8,7 +8,7 @@ ns: PLAYER
 void SET_ALL_RANDOM_PEDS_FLEE(Player player, BOOL toggle);
 ```
 
-Sets whether all random peds will run away from player if one attacks or harasses them (bool=true), or some peds can stand up for themselves (bool=false).
+Sets whether all random peds will run away from player if they are agitated (threatened) (bool=true), or some peds can stand up for themselves (bool=false).
 
 ## Parameters
 * **player**: PLAYER::PLAYER_ID()
