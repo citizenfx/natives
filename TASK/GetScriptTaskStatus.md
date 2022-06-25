@@ -8,14 +8,21 @@ ns: TASK
 int GET_SCRIPT_TASK_STATUS(Ped ped, Hash taskHash);
 ```
 
-Gets the status of a spesifed script-assigned task on the given ped.  
-taskHash list: https://alloc8or.re/gta5/doc/enums/eScriptTaskHash.txt
+Gets the status of a spesifed script-assigned task on the given ped. The return value is always an int between 0-7.  
+
+You can set taskHash to `SCRIPT_TASK_ANY` to check if any task is active, it will return 1 for active, 3 for no active. 
+`SCRIPT_TASK_INVALID` can be similarly used, it returns 7 if there are any active task, and 3 if there are no active tasks.
+
+taskHash list: https://alloc8or.re/gta5/doc/enums/eScriptTaskHash.txt  
 
 Returns:  
-0: waiting to start task  
-1: doing task  
-2: is getting hindered (only partially reliable)  
-7: finished/not doing task  
+```
+0 = WAITING_TO_START_TASK
+1 = PERFORMING_TASK
+2 = DORMANT_TASK
+3 = VACANT_STAGE
+7 = TASK_FINISHED_OR_NOT_FOUND
+```
 
 ## Parameters
 * **ped**: The ped the task is running on
