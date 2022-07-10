@@ -14,5 +14,5 @@ void STOP_ANIM_TASK(Ped ped, char* animDictionary, char* animationName, float sp
 * **ped**: 
 * **animDictionary**: 
 * **animationName**: 
-* **speed**: Exclusive between `0.0` and `2.0`, higher is faster.
+* **speed**: Greater than `0.0`, higher is faster. Setting to `0.0` or using an integer, will cause animation lockout - requiring the animation to be played again or the player be killed.
 
