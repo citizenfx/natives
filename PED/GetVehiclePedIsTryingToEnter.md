@@ -9,7 +9,6 @@ Vehicle GET_VEHICLE_PED_IS_TRYING_TO_ENTER(Ped ped);
 ```
 
 ## Parameters
-* **ped**: The target ped
+* **ped**: 
 
 ## Return value
-The vehicle id. Return 0 if the ped is not trying to enter in a vehicle.
