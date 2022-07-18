@@ -18,5 +18,5 @@ Does NOT need to be called every frame.
 
 ## Examples
 ```lua
-SetWeaponDamageModifier(`WEAPON_CARBINERIFLE`, 0.8)
+SetWeaponDamageModifier(`WEAPON_CARBINERIFLE`, 2.8)
 ```
