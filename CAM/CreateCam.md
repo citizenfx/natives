@@ -20,7 +20,7 @@ Cam names:
 
 ## Parameters
 * **camName**: Is the type of the camera, is always setted to `DEFAULT_SCRIPTED_CAMERA` in Rockstar scripts and in Fivem Forum Posts
-* **active**: Unkown, is always setted to `true` in Rockstar scripts and in Fivem Forum Posts
+* **active**: Unknown, is always setted to `true` in Rockstar scripts and in Fivem Forum Posts
 
 ## Return value
 A camera handle.
