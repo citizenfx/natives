@@ -9,6 +9,7 @@ void CLEAR_PED_TASKS_IMMEDIATELY(Ped ped);
 ```
 
 Immediately stops the pedestrian from whatever it's doing. The difference between this and [CLEAR_PED_TASKS](#_0xE1EF3C1216AFF2CD) is that this one teleports the ped but does not change the position of the ped.
+If a player uses this native, on another player's ped, this native triggers clearPedTasksEvent server event, if onesync is enabled.
 
 ## Parameters
 * **ped**: Ped id.

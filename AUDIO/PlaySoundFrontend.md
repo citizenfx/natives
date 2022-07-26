@@ -11,6 +11,7 @@ void PLAY_SOUND_FRONTEND(int soundId, char* audioName, char* audioRef, BOOL p3);
 ```
 List: https://pastebin.com/DCeRiaLJ
 All occurrences as of Cayo Perico Heist DLC (b2189), sorted alphabetically and identical lines removed: https://git.io/JtLxM
+These sounds are only played on client-side, other players won't hear it, if you would like to play a sound at every player, you have to use the PLAY_SOUND native.
 ```
 
 ## Parameters

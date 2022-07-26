@@ -9,6 +9,7 @@ void CLEAR_PED_TASKS(Ped ped);
 ```
 
 Clear a ped's tasks. Stop animations and other tasks created by scripts.
+If a player uses this native, on another player's ped, this native triggers clearPedTasksEvent server event, if onesync is enabled.
 
 ## Parameters
 * **ped**: Ped id. Use PlayerPedId() for your own character.

@@ -8,5 +8,8 @@ ns: AUDIO
 int GET_SOUND_ID();
 ```
 
+```
+Returns numbers in order until it reaches 100, when it reaches 100 it starts returning -1. This native appearantly blocks sounds played with PLAY_SOUND_FRONTEND; PLAY_SOUND; PLAY_SOUND_FROM_COORD; PLAY_SOUND_FROM_ENTITY.
+```
 
 ## Return value
