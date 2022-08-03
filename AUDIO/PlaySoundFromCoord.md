@@ -8,10 +8,7 @@ ns: AUDIO
 void PLAY_SOUND_FROM_COORD(int soundId, char* audioName, float x, float y, float z, char* audioRef, BOOL isNetwork, int range, BOOL p8);
 ```
 
-```
-All found occurrences in b617d, sorted alphabetically and identical lines removed: pastebin.com/eeFc5DiW  
-gtaforums.com/topic/795622-audio-for-mods  
-```
+[All occurrences as of The Criminal Enterprises DLC (b2699), sorted alphabetically and identical lines removed](https://gist.github.com/ItsJunction/21ec4972bbee1867ffdc41b4918b6b9f)
 
 ## Parameters
 * **soundId**: 
