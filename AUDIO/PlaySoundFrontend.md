@@ -8,10 +8,7 @@ ns: AUDIO
 void PLAY_SOUND_FRONTEND(int soundId, char* audioName, char* audioRef, BOOL p3);
 ```
 
-```
-List: https://pastebin.com/DCeRiaLJ
-All occurrences as of Cayo Perico Heist DLC (b2189), sorted alphabetically and identical lines removed: https://git.io/JtLxM
-```
+[All occurrences as of The Criminal Enterprises DLC (b2699), sorted alphabetically and identical lines removed](https://gist.github.com/ItsJunction/478435070d0e665c8aa32315b7f22ffa)
 
 ## Parameters
 * **soundId**: 
