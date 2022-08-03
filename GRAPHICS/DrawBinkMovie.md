@@ -18,16 +18,16 @@ NativeDB Introduced: v1290
 ```
 
 ## Parameters
-* **binkMovie**:
-* **posx**:
-* **posy**:
-* **scalex**:
-* **scaley**:
-* **rotation**:
-* **r**:
-* **g**:
-* **b**:
-* **a**:
+* **binkMovie**: The movie that is being played.
+* **posx**: The x position of the movie.
+* **posy**: The y position of the movie.
+* **scalex**: The x scale of the movie.
+* **scaley**: The y scale of the movie.
+* **rotation**: The rotation of the movie.
+* **r**: The red value of the movie.
+* **g**: The green value of the movie.
+* **b**: The blue value of the movie.
+* **a**: The alpha value of the movie.
 
 ## Examples
 ```lua

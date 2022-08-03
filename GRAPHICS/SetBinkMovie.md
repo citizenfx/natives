@@ -17,7 +17,7 @@ NativeDB Introduced: v1290
 ```
 
 ## Parameters
-* **name**: The bink movie to play (with or without file extension).
+* **name**: The BINK movie to play (with or without file extension).
 
 ## Examples
 ```lua

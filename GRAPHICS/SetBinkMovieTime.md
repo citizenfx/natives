@@ -11,15 +11,13 @@ void _SET_BINK_MOVIE_TIME(int binkMovie, float progress);
 
 Seeks a BINK movie to a specified position.
 
-In percentage: 0.0 - 100.0
-
 ```
 NativeDB Introduced: v1290
 ```
 
 ## Parameters
-* **binkMovie**: The playing movie
-* **progress**: As a percentage
+* **binkMovie**: The movie that is being played.
+* **progress**: As a percentage (0.0 - 100.0).
 
 ## Examples
 ```lua
