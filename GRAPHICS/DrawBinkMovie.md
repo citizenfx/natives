@@ -19,10 +19,10 @@ NativeDB Introduced: v1290
 
 ## Parameters
 * **binkMovie**: The movie that is being played.
-* **posx**: The x position of the movie.
-* **posy**: The y position of the movie.
-* **scalex**: The x scale of the movie.
-* **scaley**: The y scale of the movie.
+* **posX**: The x position of the movie.
+* **posY**: The y position of the movie.
+* **scaleX**: The x scale of the movie.
+* **scaleY**: The y scale of the movie.
 * **rotation**: The rotation of the movie.
 * **r**: The red value of the movie.
 * **g**: The green value of the movie.
