@@ -1,6 +1,6 @@
 ---
 ns: CLOCK
-aliases: ["_GET_LOCAL_TIME","_GET_UTC_TIME"]
+aliases: ["_GET_UTC_TIME"] # had _GET_LOCAL_TIME, but this conflicts
 ---
 ## GET_UTC_TIME
 
