@@ -10,7 +10,7 @@ int _SET_BINK_MOVIE(char* name);
 ```
 
 Creates an integer (usually 1) for a BINK movie to be called with other natives.
-List of all BINK movies (alphabetically ordered) as of b2699: https://gist.github.com/ItsJunction/8046f28c29ea8ff2821e9e4f933f595f
+[List of all BINK movies (alphabetically ordered) as of b2699](https://gist.github.com/ItsJunction/8046f28c29ea8ff2821e9e4f933f595f)
 
 ```
 NativeDB Introduced: v1290
