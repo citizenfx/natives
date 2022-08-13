@@ -9,14 +9,19 @@ aliases: ["0x0A24DA3A41B718F5"]
 void BEGIN_TEXT_COMMAND_IS_THIS_HELP_MESSAGE_BEING_DISPLAYED(char* labelName);
 ```
 
-```
-BOOL IsContextActive(char *ctx)  
-{  
-	BEGIN_TEXT_COMMAND_IS_THIS_HELP_MESSAGE_BEING_DISPLAYED(ctx);  
-	return END_TEXT_COMMAND_IS_THIS_HELP_MESSAGE_BEING_DISPLAYED(0);  
-}  
-```
-
 ## Parameters
-* **labelName**: 
+* **labelName**: Text entry name. This can be created using [#_0x32CA01C3](AddTextEntry).
 
+## Examples
+```lua
+-- Create new text entry
+AddTextEntry('TEST_LABEL', 'Hello world.')
+
+-- Draw help message
+BeginTextCommandDisplayHelp('TEST_LABEL')
+EndTextCommandDisplayHelp(0, false, true, -1)
+
+-- Test if the message has been displayed
+BeginTextCommandIsThisHelpMessageBeingDisplayed("TEST_LABEL")
+local isDisplayed = EndTextCommandIsThisHelpMessageBeingDisplayed(0)
+```
