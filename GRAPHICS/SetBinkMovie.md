@@ -29,7 +29,7 @@ Citizen.CreateThread(function()
         print(math.floor(GetBinkMovieTime(binkint) * 100)/100 .. "%") -- Prints current playtime (as percentage).
         PlayBinkMovie(binkint)
         DrawBinkMovie(binkint, 0.5, 0.5, 1.0, 1.0, 0.0, 255, 255, 255, 255) -- This example draws and plays in Fullscreen and in the center of screen (no matter the resolution).
-        Citizen.Wait(1)
+        Citizen.Wait(0)
     end
 end)
 ```
