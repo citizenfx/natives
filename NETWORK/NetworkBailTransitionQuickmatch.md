@@ -1,0 +1,15 @@
+---
+ns: NETWORK 
+---
+
+## _NETWORK_BAIL_TRANSITION_QUICKMATCH
+
+```c
+// 0x023782EFC70585EE 
+void _NETWORK_BAIL_TRANSITION_QUICKMATCH();
+```
+
+```
+NativeDB Introduced: v2699
+```
+
