@@ -6,7 +6,7 @@ ns: AUDIO
 
 ```c
 // 0x2B1784DB08AFEA79 
-BOOL _IS_RADIO_STATION_VISIBLE(const char* radioStation);
+BOOL _IS_RADIO_STATION_VISIBLE(char* radioStation);
 ```
 
 ```

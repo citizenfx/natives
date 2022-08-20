@@ -6,7 +6,7 @@ ns: NETWORK
 
 ```c
 // 0x2C863ACDCD12B3DB 
-void _NETWORK_SET_CURRENT_MISSION_ID(const char* missionId);
+void _NETWORK_SET_CURRENT_MISSION_ID(char* missionId);
 ```
 
 ```
