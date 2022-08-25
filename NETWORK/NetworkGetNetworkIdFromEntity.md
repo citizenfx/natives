@@ -9,11 +9,12 @@ int NETWORK_GET_NETWORK_ID_FROM_ENTITY(Entity entity);
 ```
 Get the network id of the given entity
 
-An entity network id is representing a given entity for other clients, is like a handle that every client recognize, can be reconverted to a client entity handle. 
-These can and will be reused, the network id will not change.
+An entity network id represents a given entity for other clients, it's a handle shared between clients, can be reconverted to a client entity handle.  
+These (entity network id's) can and will be reused, the network id will not change.
 If you need to refer to an entity across machines (clients, or the server), you should use its network id.
 
 Read more at [Network and local IDs](https://docs.fivem.net/docs/scripting-manual/networking/ids/)
+
 ## Parameters
 * **entity**: the handle of the entity from which the network id should be taken
 
@@ -27,11 +28,12 @@ local netId = NetworkGetNetworkIdFromEntity(obj)
 ```
 
 ```js  
-const obj = CreateObject(GetHashKey("prop_weed_01"), vector3(0.0, 0.0, 0.0), true)
-const netId = NetworkGetNetworkIdFromEntity(obj)
+let [x, y, z] = GetEntityCoords(GetPlayerPed(-1));
+let obj = CreateObject(GetHashKey('prop_weed_01'), x, y, z, true);
+let netId = NetworkGetNetworkIdFromEntity(obj);
 ```
 
 ```cs  
-const obj = CreateObject(GetHashKey("prop_weed_01"), vector3(0.0f, 0.0f, 0.0f), true)
-const netId = NetworkGetNetworkIdFromEntity(obj)
+var obj = CreateObject(GetHashKey('prop_weed_01'), new Vector3(0.0f, 0.0f, 0.0f), true);
+var netId = NetworkGetNetworkIdFromEntity(obj);
 ```
