@@ -53,7 +53,7 @@ async function Main() {
     }
 
     // At this moment the model its loaded, so now we can create the object
-    let [x, y, z] = GetEntityCoords(GetPlayerPed(-1));
+    let [x, y, z] = GetEntityCoords(PlayerPedId());
     const obj = CreateObject(modelHash, x, y, z, true);
 }
 

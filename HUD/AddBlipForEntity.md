@@ -7,7 +7,9 @@ ns: HUD
 // 0x5CDE92C702A8FCE7 0x30822554
 Blip ADD_BLIP_FOR_ENTITY(Entity entity);
 ```
-Create a blip that for default is red (enemy), you can use [SET_BLIP_AS_FRIENDLY](#_0xC6F43D0E) to make it blue (friend)
+
+Create a blip that by default is red (enemy), you can use [SET_BLIP_AS_FRIENDLY](#_0xC6F43D0E) to make it blue (friend).  
+Can be used for objects, vehicles and peds.
 
 Example of enemy:
 ![enemy](https://i.imgur.com/fl78svv.png)

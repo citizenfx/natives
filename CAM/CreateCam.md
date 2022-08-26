@@ -10,13 +10,15 @@ Cam CREATE_CAM(char* camName, BOOL active);
 Creates a camera with the specified cam name, You can use `SET_CAM_` natives to manipulate the camera.  
 Make sure to call [RENDER_SCRIPT_CAMS](#_0x07E5B515DB0636FC) once the camera is created, or this won't have any visible effect.
 
-**Camera names:**  
+### Camera names:
 - DEFAULT_SCRIPTED_CAMERA 
 - DEFAULT_ANIMATED_CAMERA
 - DEFAULT_SPLINE_CAMERA
 - DEFAULT_SCRIPTED_FLY_CAMERA
 - TIMED_SPLINE_CAMERA
-
+- CUSTOM_TIMED_SPLINE_CAMERA
+- ROUNDED_SPLINE_CAMERA
+- SMOOTHED_SPLINE_CAMERA
 
 ## Parameters
 * **camName**: A string representing the camera type, the game will convert the string into a joaat hash upon native execution.
