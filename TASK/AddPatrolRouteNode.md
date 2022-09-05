@@ -9,21 +9,18 @@ void ADD_PATROL_ROUTE_NODE(int id, char* guardScenario, float x1, float y1, floa
 ```
 
 ```
-id is an integer that "identifies" the route node for linking to the route with ADD_PATROL_ROUTE_LINK.
-guardScenarion can be "WORLD_HUMAN_GUARD_STAND" or "StandGuard".
-
 x2,y2 and z2 seem to be coordinates for the direction in which the ped final looks
 ```
 
 ## Parameters
-* **id**: 
-* **guardScenario**: 
-* **x1**: 
-* **y1**: 
-* **z1**: 
-* **x2**: 
-* **y2**: 
-* **z2**: 
+* **id**: is an integer that "identifies" the route node for linking to the route with ADD_PATROL_ROUTE_LINK.
+* **guardScenario**: can be "WORLD_HUMAN_GUARD_STAND" or "StandGuard"
+* **x1**: destination
+* **y1**: destination
+* **z1**: destination
+* **x2**: final look
+* **y2**: final look
+* **z2**: final look
 * **waitTime**: 
 
 ## Examples
