@@ -8,9 +8,7 @@ ns: TASK
 void ADD_PATROL_ROUTE_NODE(int id, char* guardScenario, float x1, float y1, float z1, float x2, float y2, float z2, int waitTime);
 ```
 
-```
-x2,y2 and z2 seem to be coordinates for the direction in which the ped final looks
-```
+x2,y2 and z2 are the coordinates to which the ped should look at
 
 ## Parameters
 * **id**: is an integer that "identifies" the route node for linking to the route with ADD_PATROL_ROUTE_LINK.
@@ -18,9 +16,9 @@ x2,y2 and z2 seem to be coordinates for the direction in which the ped final loo
 * **x1**: destination
 * **y1**: destination
 * **z1**: destination
-* **x2**: final look
-* **y2**: final look
-* **z2**: final look
+* **x2**: coordinates to which the ped should look
+* **y2**: coordinates to which the ped should look
+* **z2**: coordinates to which the ped should look
 * **waitTime**: 
 
 ## Examples
