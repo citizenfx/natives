@@ -8,9 +8,7 @@ ns: TASK
 void ADD_PATROL_ROUTE_LINK(int id1, int id2);
 ```
 
-```
 connects 2 route nodes to make it clear how the ped should move
-```
 
 ## Parameters
 * **id1**: 
