@@ -18,4 +18,11 @@ Maximum model memory (as defined in common\data\missioncreatordata.meta) is 100 
 GET_*
 ```
 
+## Examples
+```lua
+InitCreatorBudget()
+AddModelToCreatorBudget(GetHashKey("bmx"))
+print(GetUsedCreatorModelMemoryPercentage())
+```
+
 ## Return value
