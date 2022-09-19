@@ -19,7 +19,7 @@ x2,y2 and z2 are the coordinates to which the ped should look at
 * **x2**: coordinates to which the ped should look
 * **y2**: coordinates to which the ped should look
 * **z2**: coordinates to which the ped should look
-* **waitTime**: 
+* **waitTime**: written in ms
 
 ## Examples
 
