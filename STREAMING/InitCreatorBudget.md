@@ -9,3 +9,12 @@ aliases: ["0xB5A4DB34FE89B88A","_LOAD_MISSION_CREATOR_DATA"]
 void INIT_CREATOR_BUDGET();
 ```
 
+In GTA:O call **Model Memory**
+https://youtu.be/AqQrs-4fWbw?t=222
+
+## Examples
+```lua
+InitCreatorBudget()
+AddModelToCreatorBudget(GetHashKey("bmx"))
+print(GetUsedCreatorModelMemoryPercentage())
+```
