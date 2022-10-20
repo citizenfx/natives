@@ -9,7 +9,7 @@ aliases: ["0x1E6611149DB3DB6B","_SET_NOTIFICATION_MESSAGE_4"]
 int END_TEXT_COMMAND_THEFEED_POST_MESSAGETEXT_TU(char* picTxd, char* picTxn, BOOL flash, int iconType, char* nameStr, char* subtitleStr, float duration);
 ```
 
-NOTE: 'duration' is a multiplier, so 1.0 is normal, 2.0 is twice as long (very slow), and 0.5 is half as long.
+NOTE: 'duration' is a multiplier, so 1.0 is normal (~15 Seconds), 2.0 is twice as long (very slow), and 0.5 is half as long.
 
 
 Example, only occurrence in the scripts:
