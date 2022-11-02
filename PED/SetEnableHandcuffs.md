@@ -9,7 +9,9 @@ void SET_ENABLE_HANDCUFFS(Ped ped, BOOL toggle);
 ```
 
 ```
-ped can not pull out a weapon when true  
+Ped cannot pull out a weapon
+Ped will instantly die when in contact with water
+When ped stands up from ragdoll it will have cuffed hands
 ```
 
 ## Parameters
