@@ -5,7 +5,7 @@ ns: NETWORK
 
 ```c
 // 0x1F4ED342ACEFE62D 0x9B9FCD02
-void NETWORK_FADE_IN_ENTITY(Entity entity, BOOL state);
+void NETWORK_FADE_IN_ENTITY(Entity entity, BOOL flash, BOOL slow);
 ```
 
 Fade the given entity back in, usually used after the entity has been faded out with [NETWORK_FADE_OUT_ENTITY](#_0xDE564951F95E09ED)
