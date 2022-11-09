@@ -8,17 +8,28 @@ ns: NETWORK
 void NETWORK_FADE_IN_ENTITY(Entity entity, BOOL state);
 ```
 
-```
-state - 0 does 5 fades  
-state - 1 does 6 fades  
-native is missing third argument, also boolean, setting to 1 made vehicle fade in slower, probably "slow" as per NETWORK_FADE_OUT_ENTITY  
-```
+Fade the given entity back in, usually used after the entity has been faded out with [NETWORK_FADE_OUT_ENTITY](#_0xDE564951F95E09ED)
 
-```
-NativeDB Added Parameter 3: BOOL slow
-```
+When used on a entity which isn't invisible or faded out then the native will still work, it will just instanly make the ped invisible before fading in.
+
 
 ## Parameters
-* **entity**: 
-* **state**: 
+* **entity**: The entity to fade in
+* **flash**: When set to true the entity will flash rapidly while fading out
+* **slow**: When set to true the fadein will be a little bit slower than normal
 
+## Examples
+
+```lua
+NetworkFadeOutEntity(PlayerPedId(), false, false)
+while NetworkIsEntityFading(PlayerPedId()) do
+  Citizen.Wait(0)
+end
+
+--- Do something like a teleport, or warp into a vehicle
+
+NetworkFadeInEntity(PlayerPedId(), false, false)
+while NetworkIsEntityFading(PlayerPedId()) do
+  Citizen.Wait(0)
+end
+```
