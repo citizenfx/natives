@@ -10,14 +10,13 @@ void SET_VEHICLE_EXTRA(Vehicle vehicle, int extraId, BOOL disable);
 
 ```
 Note: only some vehicle have extras  
-extra ids are from 1 - 9 depending on the vehicle  
+extra ids are from 1 - 13 depending on the vehicle 
+-------------------------------------------------
+The method asks a question: Hide Extra?
+0 answers No 
+1 answers Yes
 -------------------------------------------------  
-^ not sure if outdated or simply wrong. Max extra ID for b944 is 14  
--------------------------------------------------  
-p2 is not a on/off toggle. mostly 0 means on and 1 means off.  
-not sure if it really should be a BOOL.  
--------------------------------------------------  
-Confirmed p2 does not work as a bool. Changed to int. [0=on, 1=off]  
+Confirmed p2 does not work as a bool. Changed to int.
 ```
 
 ## Parameters
