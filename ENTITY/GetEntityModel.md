@@ -24,7 +24,7 @@ The model hash from the entity.
 ```lua
 local hash = GetEntityModel(PlayerPedId())
 
-if hash == `mp_m_freemode_01` then
+if hash == GetHashKey(`mp_m_freemode_01`) then
     print("This player is using the male freemode model.")
 end
 ```
