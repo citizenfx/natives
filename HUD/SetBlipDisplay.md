@@ -8,7 +8,7 @@ ns: HUD
 void SET_BLIP_DISPLAY(Blip blip, int displayId);
 ```
 
-**displayId Behaviour** <br>
+**displayId Behaviour**
 
 | display ID 	| Behaviour                                                   	|
 |------------	|-------------------------------------------------------------	|
@@ -25,8 +25,6 @@ void SET_BLIP_DISPLAY(Blip blip, int displayId);
 | 10         	| Shows on both main map and minimap. (Not selectable on map) 	|
 
 Anything higher than 10 seems to be exactly the same as 10.
-
-
 
 Rockstar seem to only use 0, 2, 3, 4, 5 and 8 in the decompiled scripts.
 
