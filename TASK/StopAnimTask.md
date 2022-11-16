@@ -14,5 +14,5 @@ void STOP_ANIM_TASK(Ped ped, char* animDictionary, char* animationName, float p3
 * **ped**: 
 * **animDictionary**: 
 * **animationName**: 
-* **p3**: 
+* **Blend out speed**: 
 
