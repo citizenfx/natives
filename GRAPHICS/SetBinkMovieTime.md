@@ -9,12 +9,17 @@ aliases: ["_SET_BINK_MOVIE_PROGRESS"]
 void _SET_BINK_MOVIE_TIME(int binkMovie, float progress);
 ```
 
-```
-In percentage: 0.0 - 100.0
+Seeks a BINK movie to a specified position.
 
+```
 NativeDB Introduced: v1290
 ```
 
 ## Parameters
-* **binkMovie**:
-* **progress**:
+* **binkMovie**: The movie that is being played.
+* **progress**: As a percentage (0.0 - 100.0).
+
+## Examples
+```lua
+SetBinkMovieTime(1, 0.0) -- Seeks to 0%
+```

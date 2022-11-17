@@ -8,9 +8,7 @@ ns: AUDIO
 void PLAY_SOUND(int soundId, char* audioName, char* audioRef, BOOL p3, Any p4, BOOL p5);
 ```
 
-```
-All found occurrences in b617d, sorted alphabetically and identical lines removed: pastebin.com/A8Ny8AHZ  
-```
+[All occurrences as of The Criminal Enterprises DLC (b2699), sorted alphabetically and identical lines removed](https://gist.github.com/ItsJunction/462e70ff5f4c9aee45f950fa5df958a2)
 
 ## Parameters
 * **soundId**: 
