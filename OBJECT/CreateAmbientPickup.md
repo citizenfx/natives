@@ -9,8 +9,9 @@ Pickup CREATE_AMBIENT_PICKUP(Hash pickupHash, float posX, float posY, float posZ
 ```
 
 ```
-Used for doing money drop  
-Pickup hashes: pastebin.com/8EuSv2r1  
+Creates a pickup corresponding to the given hash.
+When a ped player passes on the pickup, it disappears by emitting a sound and trigger "CEventNetworkPlayerCollectedAmbientPickup" event client side.
+You can use joaat to generate [pickup hashes](https://gist.github.com/ArdentLeKhey/09ea16dbf3f2b42c81e61839b9c98c3c) from string.
 ```
 
 ## Parameters
@@ -25,3 +26,8 @@ Pickup hashes: pastebin.com/8EuSv2r1
 * **p8**: 
 
 ## Return value
+
+```lua
+local Coords = vector3(-836.24, -102.54, 27.18)
+local Pickup = CreateAmbientPickup(`PICKUP_MONEY_VARIABLE`, Coords , 2^1, 1, 0, true, 0)
+```
