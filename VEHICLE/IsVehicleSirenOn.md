@@ -13,7 +13,7 @@ Returns whether the vehicle's lights and sirens are on.
 * **vehicle**: 
 
 ## Return value
-Returns false if siren and lights are disabled or 1 if they enabled.
+Returns false if siren and lights are disabled or true if they are enabled.
 
 ## Examples
 ```lua
