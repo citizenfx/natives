@@ -1,12 +1,13 @@
 ---
 ns: MONEY 
+aliases: ["_NETWORK_SPENT_BIKE_SHOP_MODIFY"] 
 ---
 
-## _NETWORK_SPENT_BIKE_SHOP_MODIFY
+## NETWORK_SPEND_BIKE_SHOP
 
 ```c
 // 0x923AEA8E78F8DF0B 
-void _NETWORK_SPENT_BIKE_SHOP_MODIFY(Any p0, Any p1, Any p2, Any p3);
+void NETWORK_SPEND_BIKE_SHOP(Any p0, Any p1, Any p2, Any p3);
 ```
 
 ```

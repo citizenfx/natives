@@ -1,12 +1,13 @@
 ---
 ns: AUDIO 
+aliases: ["_SET_PED_VOICE_GROUP_RACE"] 
 ---
 
-## _SET_PED_VOICE_GROUP_RACE
+## SET_PED_VOICE_GROUP_FROM_RACE_TO_PVG
 
 ```c
 // 0x0BABC1345ABBFB16 
-void _SET_PED_VOICE_GROUP_RACE(Ped ped, Hash voiceGroupHash);
+void SET_PED_VOICE_GROUP_FROM_RACE_TO_PVG(Ped ped, Hash voiceGroupHash);
 ```
 
 ```

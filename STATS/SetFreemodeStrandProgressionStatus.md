@@ -1,18 +1,17 @@
 ---
 ns: STATS 
+aliases: ["_0x79D310A861697CC9"] 
 ---
 
-## _0x79D310A861697CC9
+## SET_FREEMODE_STRAND_PROGRESSION_STATUS
 
 ```c
 // 0x79D310A861697CC9 
-void _0x79D310A861697CC9(int profileSetting, int settingValue);
+void SET_FREEMODE_STRAND_PROGRESSION_STATUS(int profileSetting, int settingValue);
 ```
 
 ```
 Sets profile setting 940 and 941
-
-_SET_F* - _SET_G*
 ```
 
 ```
