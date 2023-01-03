@@ -14,31 +14,21 @@ will result in green instead of blue, because the base color is yellow.
 
 **A complete list of components ID:**
 
-
-0: Los Santos' air port yellow lift-off markers. <br>
-1: Sandy Shore's air port yellow lift-off markers. <br>
-2: Trevor's air port yellow lift-off markers. <br>
-3: ? <br>
-4: Unused <br>
-5: Unused <br>
-6: Vespucci Beach lifeguard building. <br>
-7: "Beam Me Up" Upper area (Alien hill in Sandy Shores). <br>
-8: Paleto Bay Fire Department Tower. <br>
-10: Paleto Bay Aerial Tramway station <br>
-11: Electricity stuff at the Observatory. <br>
-12: Roof of some building in Strawberry. <br>
-13: Richman Playboy Mansion pool cave. <br>
-14: "Beam Me Up" Circles (Alien hill in Sandy Shores). <br>
-15: Army base. <br>
-
-
-**componentIDs in the GTAV scripts:** <br>
-
-**0-3:** stunt_plane_races.c, traffick_air.c <br>
-**3:** epsilon6.c <br>
-**6-14:** am_king_of_the_castle.c <br>
-**15:** fake_interiors.c <br>
-
+* 0: Los Santos' air port yellow lift-off markers. 
+* 1: Sandy Shore's air port yellow lift-off markers. 
+* 2: Trevor's air port yellow lift-off markers. 
+* 3: ? 
+* 4: Unused 
+* 5: Unused 
+* 6: Vespucci Beach lifeguard building. 
+* 7: "Beam Me Up" Upper area (Alien hill in Sandy Shores). 
+* 8: Paleto Bay Fire Department Tower. 
+* 10: Paleto Bay Aerial Tramway station 
+* 11: Electricity stuff at the Observatory. 
+* 12: Roof of some building in Strawberry. 
+* 13: Richman Playboy Mansion pool cave. 
+* 14: "Beam Me Up" Circles (Alien hill in Sandy Shores). 
+* 15: Army base. 
 
 [List of hud colors](https://pastebin.com/d9aHPbXN)
 
