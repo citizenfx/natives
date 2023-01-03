@@ -1,6 +1,6 @@
 ---
 ns: NETWORK
-aliases: ["_NETWORK_GET_FRIEND_NAME"]
+#aliases: ["_NETWORK_GET_FRIEND_NAME"]
 ---
 ## _NETWORK_GET_FRIEND_NAME_FROM_INDEX
 

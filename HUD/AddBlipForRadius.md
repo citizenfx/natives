@@ -32,9 +32,7 @@ SetBlipAlpha(blip, 128)
 ```
 
 ```js  
-const coords = vector3(0.0, 0.0, 0.0);
-
-const blip = AddBlipForRadius(coords, 100.0); -- need to have .0
+const blip = AddBlipForRadius(0.0, 0.0, 0.0, 100.0);
 SetBlipColour(blip, 1);
 SetBlipAlpha(blip, 128);
 ```

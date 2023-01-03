@@ -1,0 +1,19 @@
+---
+ns: NETWORK 
+---
+
+## _NETWORK_ARE_CUTSCENE_ENTITIES
+
+```c
+// 0x66D6A5E9C511214A 
+BOOL _NETWORK_ARE_CUTSCENE_ENTITIES();
+```
+
+```
+Getter for SET_NETWORK_CUTSCENE_ENTITIES.
+```
+
+```
+NativeDB Introduced: v2699
+```
+
