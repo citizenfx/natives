@@ -9,17 +9,16 @@ Any SET_MINIMAP_COMPONENT(int componentID, BOOL toggle, int hudColor);
 ```
 
 This native is used to colorize certain map components like the army base at the top of the map.
-Colors are being mixed, so for example using blue (HudColor: 9) on yellow lift-off markers
-will result in green instead of blue, because the base color is yellow.
+The provided color will be mixed with the existing component color, For example using blue (HudColor: 9) on the yellow lift-off markers will result in green.
 
-**A complete list of components ID:**
+**A list of components IDs:**
 
 * 0: Los Santos' air port yellow lift-off markers. 
 * 1: Sandy Shore's air port yellow lift-off markers. 
 * 2: Trevor's air port yellow lift-off markers. 
 * 3: ? 
 * 4: Unused 
-* 5: Unused 
+* 5: Unused
 * 6: Vespucci Beach lifeguard building. 
 * 7: "Beam Me Up" Upper area (Alien hill in Sandy Shores). 
 * 8: Paleto Bay Fire Department Tower. 
