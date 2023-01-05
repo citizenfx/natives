@@ -9,7 +9,7 @@ Any SET_MINIMAP_COMPONENT(int componentID, BOOL toggle, int hudColor);
 ```
 
 This native is used to colorize certain map components like the army base at the top of the map.
-The provided color will be mixed with the existing component color, For example using blue (HudColor: 9) on the yellow lift-off markers will result in green.
+The provided color will be mixed with the existing component color. For example using blue (HudColor: 9) on the yellow lift-off markers will result in green.
 
 **A list of components IDs:**
 
