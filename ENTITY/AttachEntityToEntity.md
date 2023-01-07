@@ -25,5 +25,5 @@ Attach an entity to the specified entity.
 * **collision**: Controls collision between the two entities (FALSE disables collision).
 * **isPed**: Pitch doesnt work when false and roll will only work on negative numbers (only peds)
 * **rotationOrder**: The order in which the rotation is applied. See [`GET_ENTITY_ROTATION`](#_0xAFBD61CC738D9EB9)
-* **fixedRot**: If false it ignores entity vector.
+* **syncRot**: If false it ignores entity rotation.
 
