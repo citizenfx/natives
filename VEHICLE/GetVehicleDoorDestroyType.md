@@ -1,17 +1,17 @@
 ---
 ns: VEHICLE
-aliases: ["0xCA4AC3EAAE46EC7B"]
+aliases: ["0xCA4AC3EAAE46EC7B","_GET_VEHICLE_DOOR_DESTROY_TYPE"]
 ---
-## _GET_VEHICLE_DOOR_DESTROY_TYPE
+## GET_VEHICLE_INDIVIDUAL_DOOR_LOCK_STATUS
 
 ```c
-// 0xCA4AC3EAAE46EC7B
-int _GET_VEHICLE_DOOR_DESTROY_TYPE(Vehicle vehicle, int doorIndex);
+// 0xCA4AC3EAAE46EC7B 0x857318B9
+int GET_VEHICLE_INDIVIDUAL_DOOR_LOCK_STATUS(Vehicle vehicle, int doorIndex);
 ```
 
 See eDoorId declared in [`SET_VEHICLE_DOOR_SHUT`](#_0x93D9BD300D7789E5)
 
-Returns vehicle door destroy type previously set with _SET_VEHICLE_DOOR_DESTROY_TYPE
+Returns vehicle door lock status previously set with [`SET_VEHICLE_INDIVIDUAL_DOORS_LOCKED`](#_0xBE70724027F85BCD)
 
 ## Parameters
 * **vehicle**: 
