@@ -9,10 +9,30 @@ aliases: ["SET_CAMERA_ENDTIME"]
 void ENABLE_CLOWN_BLOOD_VFX(BOOL toggle);
 ```
 
+If true, this native will create purple explosions upon projectile impact, add comic-like PTFX when firing a weapon, create a sound on bullet impact and have its own "blood effect".
+
+If the PTFX asset "scr_rcbarry2" is not requested ([`RequestNamedPtfxAsset`](#_0xD821490579791273)) then this native **will not work as intended**.
+
+
+Excerpt from fm_content_drug_lab_work.c:
 ```
-Creates cartoon effect when Michel smokes the weed  
+STREAMING::REQUEST_NAMED_PTFX_ASSET("scr_rcbarry2");
+if (STREAMING::HAS_NAMED_PTFX_ASSET_LOADED("scr_rcbarry2"))
+{
+  GRAPHICS::ENABLE_CLOWN_BLOOD_VFX(true);
+  AUDIO::START_AUDIO_SCENE("DLC_CM2022_DRUG_TRIP_SPRINKLERS_SCENE");
+  func_720(26);
+}
 ```
 
 ## Parameters
-* **toggle**: 
+* **toggle**: Whether to toggle the clown VFX on or off.
 
+## Examples
+```lua
+RequestNamedPtfxAsset("scr_rcbarry2") -- Request the PTFX
+while not HasNamePtfxAssetLoaded("scr_rcbarry2") do
+  Citizen.Wait(0)
+end
+EnableClownBloodVfx(true) -- Enable the clown PTFX
+```
