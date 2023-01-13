@@ -5,7 +5,7 @@ ns: GRAPHICS
 
 ```c
 // 0x7118E83EEB9F7238
-void _DRAW_BINK_MOVIE(int binkMovie, float posx, float posy, float scalex, float scaley, float rotation, int r, int g, int b, int a);
+void _DRAW_BINK_MOVIE(int binkMovie, float posX, float posY, float scaleX, float scaleY, float rotation, int r, int g, int b, int a);
 ```
 
 Must be called each frame, will play at specified position on screen when called with _PLAY_BINK_MOVIE
