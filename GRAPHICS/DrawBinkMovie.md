@@ -8,24 +8,24 @@ ns: GRAPHICS
 void _DRAW_BINK_MOVIE(int binkMovie, float posX, float posY, float scaleX, float scaleY, float rotation, int r, int g, int b, int a);
 ```
 
-Must be called each frame, will play at specified position on screen when called with _PLAY_BINK_MOVIE
+Must be called each frame, will play at specified position on screen when called with [`_PLAY_BINK_MOVIE`](#_0x70D2CC8A542A973C)
 
 ## Parameters
-* **binkMovie**: The movie that is being played.
-* **posX**: The centered x position of the movie.
-* **posY**: The centered y position of the movie.
-* **scaleX**: The x scale of the movie.
-* **scaleY**: The y scale of the movie.
-* **rotation**: The rotation of the movie.
-* **r**: The red value of the movie (0.0 - 255.0).
-* **g**: The green value of the movie (0.0 - 255.0).
-* **b**: The blue value of the movie (0.0 - 255.0).
-* **a**: The alpha value of the movie (0.0 - 255.0).
+* **binkMovie**: The movie to be drawn (from [`_SET_BINK_MOVIE`](#_0x338D9F609FD632DB)).
+* **posX**: The centered x position of the movie. (0.0 - 1.0).
+* **posY**: The centered y position of the movie. (0.0 - 1.0).
+* **scaleX**: The x scale of the movie (0.0 - 1.0).
+* **scaleY**: The y scale of the movie (0.0 - 1.0).
+* **rotation**: The rotation of the movie (0.0 - 360.0).
+* **r**: The red value of the movie (0 - 255).
+* **g**: The green value of the movie (0 - 255).
+* **b**: The blue value of the movie (0 - 255).
+* **a**: The alpha value of the movie (0 - 255).
 
 ## Examples
 ```lua
 Citizen.CreateThread(function()
-    local binkint = SetBinkMovie("casino_trailer") -- BINK movie, can be found in 
+    local binkint = SetBinkMovie("casino_trailer") -- BINK movie, list can be found at https://gist.github.com/ItsJunction/8046f28c29ea8ff2821e9e4f933f595f
     SetBinkMovieTime(binkint, 0.0) -- Seeks to 0%, just incase of errors.
 
     while (GetBinkMovieTime(binkint) < 100.0) do
