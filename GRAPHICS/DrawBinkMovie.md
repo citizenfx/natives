@@ -12,8 +12,8 @@ Must be called each frame, will play at specified position on screen when called
 
 ## Parameters
 * **binkMovie**: The movie to be drawn (from [`_SET_BINK_MOVIE`](#_0x338D9F609FD632DB)).
-* **posX**: The centered x position of the movie. (0.0 - 1.0).
-* **posY**: The centered y position of the movie. (0.0 - 1.0).
+* **posX**: The centered x position of the movie (0.0 - 1.0).
+* **posY**: The centered y position of the movie (0.0 - 1.0).
 * **scaleX**: The x scale of the movie (0.0 - 1.0).
 * **scaleY**: The y scale of the movie (0.0 - 1.0).
 * **rotation**: The rotation of the movie (0.0 - 360.0).
