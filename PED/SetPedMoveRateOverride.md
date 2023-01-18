@@ -17,6 +17,8 @@ Sprinting without fast run cheat: 66 m/s
 Sprinting with fast run cheat: 77 m/s  
 Needs to be looped!  
 Note: According to IDA for the Xbox360 xex, when they check bgt they seem to have the min to 0.0f, but the max set to 1.15f not 10.0f.  
+This native can also be used to affect a players walk/run/movement speed in-game.
+For example: settings the float value to 0.0 will have a player move significantly slower than their defualt speed
 ```
 
 ## Parameters
