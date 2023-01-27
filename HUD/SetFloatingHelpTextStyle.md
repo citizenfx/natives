@@ -8,7 +8,14 @@ aliases: ["0x788E7FD431BD67F1"]
 // 0x788E7FD431BD67F1 0x97852A82
 void SET_FLOATING_HELP_TEXT_STYLE(int hudIndex, int style, int hudColor, int p3, int arrowPosition, int boxOffset);
 ```
-Needs to be called every frame
+
+## Parameters
+* **hudIndex**: 
+* **style**: 0: No arrow at all. 1, 2 and -2 are all the same and displaying a arrow (if specified)
+* **hudColor**: https://docs.fivem.net/docs/game-references/hud-colors/
+* **p3**: No use case. Always 191 in R* scripts
+* **arrowPosition**: Used to set the arrow positon. Default is off
+* **boxOffset**: Offset for the floating help box. Important: Arrow stays fixed on its position
 
 ## Arrow Positions
 0 = OFF  
@@ -18,6 +25,9 @@ Needs to be called every frame
 4 = RIGHT  
 
 Note: anything above 4 will result in a right arrow
+
+## Important
+Needs to be called every frame
 
 ## Example
 ```lua
@@ -40,11 +50,3 @@ CreateThread(function()
 end)
 ```
 ![](https://derdevhd.live/media/example.png)
-
-## Parameters
-* **hudIndex**: 
-* **style**: 0: No arrow at all. 1, 2 and -2 are all the same and displaying a arrow (if specified)
-* **hudColor**: https://docs.fivem.net/docs/game-references/hud-colors/
-* **p3**: No use case. Always 191 in R* scripts
-* **arrowPosition**: Used to set the arrow positon. Default is off
-* **boxOffset**: Offset for the floating help box. Important: Arrow stays fixed on its position
