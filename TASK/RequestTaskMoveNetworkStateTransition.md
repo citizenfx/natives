@@ -12,7 +12,7 @@ BOOL REQUEST_TASK_MOVE_NETWORK_STATE_TRANSITION(Ped ped, char* name);
 
 ## Parameters
 * **ped**: A ped handle.
-* **name**: The name of the target state in the move network file.
+* **name**: The name of the target request state in the move network file.
 
 ## Return value
 Technically a `void`. Scripts treat this as a boolean, but the game never sets the result, so it will return the ped handle instead.
