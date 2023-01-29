@@ -8,16 +8,13 @@ ns: ENTITY
 Hash GET_ENTITY_MODEL(Entity entity);
 ```
 
-```
-Returns the model hash from the entity
-```
+Returns the model hash from an entity.
 
 ## Parameters
 * **entity**: The entity to get the model for.
 
 ## Return value
-
-The model hash from the entity.
+The model hash of the entity.
 
 ## Examples
 

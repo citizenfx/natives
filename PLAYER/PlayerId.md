@@ -8,9 +8,7 @@ ns: PLAYER
 Player PLAYER_ID();
 ```
 
-```
-This returns YOUR 'identity' as a Player type.  
-Always returns 0 in story mode.  
-```
+Returns the player index for the local player.
 
 ## Return value
+The local player's player index.

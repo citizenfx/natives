@@ -9,10 +9,7 @@ ns: ENTITY
 void DELETE_ENTITY(Entity* entity);
 ```
 
-```
-Deletes the specified entity, then sets the handle pointed to by the pointer to NULL.
-```
+Deletes the specified entity, and invalidates the passed handle (i.e. in/out argument).
 
 ## Parameters
-
 - **entity**: The entity to delete.
