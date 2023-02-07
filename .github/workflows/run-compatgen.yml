@@ -1,5 +1,7 @@
 name: Compatibility method generation
 on:
+  push
+  
   workflow_dispatch:
     inputs:
       since_date:
