@@ -2,6 +2,11 @@ name: Compatibility method generation
 on:
   workflow_dispatch:
     inputs:
+      use_history:
+        type: boolean
+        default: true
+        required: true
+        description: "Go through all signatures since below's date"
       since_date:
         type: string
         default: '2023-01-01'
@@ -36,7 +41,7 @@ jobs:
       - uses: actions/checkout@v3
         with: 
           path: './'
-          fetch-depth: 1
+          fetch-depth: 2
       - uses: actions/setup-node@v2
         with:
           node-version: '12' # while 14+ technically works, it's 25-50x slower at running native-doc-tooling
