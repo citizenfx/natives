@@ -61,7 +61,12 @@ jobs:
           
           mkdir -p out
           bash ./.ci/run-compat $BUILDER_ROOT "./out/natives_global_client_compat.lua" "./in/natives_global_client_compat.lua" ${{ inputs.ignore_missing_input }} ${{ inputs.force }} ${{ inputs.since_date }}
-      - name: Deploy
+          
+      - name: Output -> Echo (stdout)
+        if: inputs.output_action == 'Echo (stdout)'
+        run: cat ./out/natives_global_client_compat.lua
+      
+      - name: Output -> Deploy
         if: inputs.output_action == 'Deploy to remote'
         env:
           NATIVE_DEPLOY_URL: ${{ secrets.NATIVE_DEPLOY_URL }}
