@@ -60,7 +60,7 @@ jobs:
           set -xe          
           git fetch --shallow-since=${{ inputs.since_date }}
           
-          pushd
+          pushd ./
           . ./.ci/setup-builder
           popd
           
