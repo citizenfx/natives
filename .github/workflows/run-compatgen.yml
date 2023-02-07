@@ -60,6 +60,7 @@ jobs:
           git fetch --shallow-since=${{ inputs.since_date }}
           
           . ./.ci/common.sh
+          ls $BUILDER_ROOT
           mkdir -p out
           
           bash ./.ci/run-compat $BUILDER_ROOT "./out/natives_global_client_compat.lua" "./in/natives_global_client_compat.lua" ${{ inputs.ignore_missing_input }} ${{ inputs.force }} ${{ inputs.since_date }}
