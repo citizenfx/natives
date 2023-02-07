@@ -49,7 +49,7 @@ jobs:
           fetch-depth: 2
       - uses: actions/setup-node@v2
         with:
-          node-version: '12' # while 14+ technically works, it's 25-50x slower at running native-doc-tooling
+          node-version: '16' # while 14+ technically works, it's 25-50x slower at running native-doc-tooling
 #      - name: Install SSH key
 #        uses: shimataro/ssh-key-action@v2
 #        with:
@@ -74,7 +74,7 @@ jobs:
           . ./.ci/setup-builder
           popd
           
-          mkdir -p out          
+          mkdir -p out
           [ input.no_input == 'false' ] && INPUT_FILE="./in/natives_global_client_compat.lua" || INPUT_FILE=""
           
           ./.ci/run-compat $BUILDER_ROOT "./out/natives_global_client_compat.lua" "$INPUT_FILE" ${{ inputs.ignore_missing_input }} ${{ inputs.force }} ${{ inputs.since_date }}
@@ -82,7 +82,7 @@ jobs:
       - name: Output -> Echo (stdout)
         if: inputs.output_action == 'Echo (stdout)'
         run: cat ./out/natives_global_client_compat.lua
-          
+      
       - name: Output -> Artifact
         if: inputs.output_action == 'Artifact'
         uses: actions/upload-artifact@v3
