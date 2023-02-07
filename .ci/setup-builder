@@ -11,5 +11,5 @@ mkdir -p $BUILDER_ROOT
 cd $BUILDER_ROOT
 
 git clone https://github.com/citizenfx/native-doc-tooling.git .
-git checkout b45ca5ae80b8654e5ea28ee81e6dedd7947f9ca7
+git checkout 528f3b05a9a3d92fda5896b5204670f8720817a1
 yarn
