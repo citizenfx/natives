@@ -1,6 +1,6 @@
 name: Compatibility method generation
 on:
-  push
+  push:
   
   workflow_dispatch:
     inputs:
