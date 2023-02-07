@@ -1,0 +1,72 @@
+name: Compatibility method generation
+on:
+  workflow_dispatch:
+    inputs:
+      since_date:
+        type: string
+        default: '2023-01-01'
+        required: true
+        description: "Acquire all signatures since"
+      ignore_missing_input:
+        type: boolean
+        default: false
+        required: true
+        description: "Required when the input file is missing, e.g.: initial run"
+      force:
+        type: boolean
+        default: false
+        required: true
+        description: "Force output creation"
+      output_action:
+        type: choice
+        default: "Ignore"
+        required: true
+        description: "Output file action"
+        options:
+        - Ignore
+        - Echo (stdout)
+        - Artifact it
+        - Deploy to remote
+
+jobs:
+  deploy:
+    runs-on: ubuntu-20.04
+    name: Build & Deploy
+    steps:
+      - uses: actions/checkout@v3
+        with: 
+          path: './'
+          fetch-depth: 1
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '12' # while 14+ technically works, it's 25-50x slower at running native-doc-tooling
+#      - name: Install SSH key
+#        uses: shimataro/ssh-key-action@v2
+#        with:
+#          key: ${{ secrets.NATIVE_DEPLOY_KEY }}
+#          known_hosts: ${{ secrets.NATIVE_DEPLOY_KNOWN_HOSTS }}
+
+      - name: Acquire latest compat file
+        env:
+          NATIVE_DEPLOY_URL: ${{ secrets.NATIVE_DEPLOY_URL }}
+          NATIVE_DEPLOY_PASS: ${{ secrets.NATIVE_DEPLOY_PASS }}
+        run: |
+          echo $NATIVE_DEPLOY_PASS > rsyncd.passwd
+          chmod 0600 rsyncd.passwd
+          mkdir ./in
+          rsync -q --ignore-missing-args $NATIVE_DEPLOY_URL/natives_global_client_compat.lua ./in/natives_global_client_compat.lua
+      - name: Run build
+        run: |
+          set -xe          
+          git fetch --shallow-since=${{ inputs.since_date }}
+          
+          mkdir -p out
+          bash ./.ci/run-compat $BUILDER_ROOT "./out/natives_global_client_compat.lua" "./in/natives_global_client_compat.lua" ${{ inputs.ignore_missing_input }} ${{ inputs.force }} ${{ inputs.since_date }}
+          
+      - name: Deploy
+        if: inputs.output_action == "Deploy to remote"
+        env:
+          NATIVE_DEPLOY_URL: ${{ secrets.NATIVE_DEPLOY_URL }}
+        run: |
+          rsync -r --delete-after --quiet --exclude=*compat.lua* ./out/ $NATIVE_DEPLOY_URL
+          rsync -rqb --backup-dir=./ --suffix=.bak --include=*compat.lua --exclude=* ./out/ $NATIVE_DEPLOY_URL
