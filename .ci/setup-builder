@@ -3,7 +3,7 @@
 set -eu
 
 # include common script
-. "$(dirname "$0")"/common.sh
+. "$(dirname $BASH_SOURCE)"/common.sh
 
 sudo ln -s libclang-10.so.1 /usr/lib/x86_64-linux-gnu/libclang.so
 
