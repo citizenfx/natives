@@ -25,7 +25,7 @@ on:
         options:
         - Ignore
         - Echo (stdout)
-        - Artifact it
+        - Artifact
         - Deploy to remote
 
 jobs:
@@ -78,3 +78,10 @@ jobs:
         run: |
           rsync -r --delete-after --quiet --exclude=*compat.lua* ./out/ $NATIVE_DEPLOY_URL
           rsync -rqb --backup-dir=./ --suffix=.bak --include=*compat.lua --exclude=* ./out/ $NATIVE_DEPLOY_URL
+          
+      - name: Output -> Artifact
+        if: inputs.output_action == 'Artifact'
+        uses: actions/upload-artifact@v3
+        with:
+          name: ouput-data
+          path: out/*
