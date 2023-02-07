@@ -19,4 +19,4 @@ node build-template.js lua > "$repo_root/out/natives.lua"
 node build-template.js reference > "$repo_root/out/natives.html"
 popd
 
-$ci_root/run-compat $BUILDER_ROOT "./out/natives_global_client_compat.lua" "./in/natives_global_client_compat.lua" false false 2023-01-01
+$ci_root/run-compat $BUILDER_ROOT "./out/natives_global_client_compat.lua" "./in/natives_global_client_compat.lua"

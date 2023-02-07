@@ -17,6 +17,11 @@ on:
         default: true
         required: true
         description: "Ignore missing input, may be needed for initial runs"
+      no_input:
+        type: boolean
+        default: true
+        required: true
+        description: "Don't load the input file"
       force:
         type: boolean
         default: true
@@ -70,19 +75,13 @@ jobs:
           popd
           
           mkdir -p out          
-          ./.ci/run-compat $BUILDER_ROOT "./out/natives_global_client_compat.lua" "./in/natives_global_client_compat.lua" ${{ inputs.ignore_missing_input }} ${{ inputs.force }} ${{ inputs.since_date }}
+          [ input.no_input == 'false' ] && INPUT_FILE="./in/natives_global_client_compat.lua" || INPUT_FILE=""
+          
+          ./.ci/run-compat $BUILDER_ROOT "./out/natives_global_client_compat.lua" "$INPUT_FILE" ${{ inputs.ignore_missing_input }} ${{ inputs.force }} ${{ inputs.since_date }}
           
       - name: Output -> Echo (stdout)
         if: inputs.output_action == 'Echo (stdout)'
         run: cat ./out/natives_global_client_compat.lua
-      
-      - name: Output -> Deploy
-        if: inputs.output_action == 'Deploy to remote'
-        env:
-          NATIVE_DEPLOY_URL: ${{ secrets.NATIVE_DEPLOY_URL }}
-        run: |
-          rsync -r --delete-after --quiet --exclude=*compat.lua* ./out/ $NATIVE_DEPLOY_URL
-          rsync -rqb --backup-dir=./ --suffix=.bak --include=*compat.lua --exclude=* ./out/ $NATIVE_DEPLOY_URL
           
       - name: Output -> Artifact
         if: inputs.output_action == 'Artifact'
@@ -90,3 +89,9 @@ jobs:
         with:
           name: ouput-data
           path: out/*
+      
+      - name: Output -> Deploy
+        if: inputs.output_action == 'Deploy to remote'
+        env:
+          NATIVE_DEPLOY_URL: ${{ secrets.NATIVE_DEPLOY_URL }}
+        run: rsync -rqb --backup-dir=./ --suffix=.bak --include=*compat.lua --exclude=* ./out/ $NATIVE_DEPLOY_URL
