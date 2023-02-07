@@ -47,7 +47,6 @@ jobs:
 #        with:
 #          key: ${{ secrets.NATIVE_DEPLOY_KEY }}
 #          known_hosts: ${{ secrets.NATIVE_DEPLOY_KNOWN_HOSTS }}
-
       - name: Acquire latest compat file
         env:
           NATIVE_DEPLOY_URL: ${{ secrets.NATIVE_DEPLOY_URL }}
@@ -64,7 +63,6 @@ jobs:
           
           mkdir -p out
           bash ./.ci/run-compat $BUILDER_ROOT "./out/natives_global_client_compat.lua" "./in/natives_global_client_compat.lua" ${{ inputs.ignore_missing_input }} ${{ inputs.force }} ${{ inputs.since_date }}
-          
       - name: Deploy
         if: inputs.output_action == "Deploy to remote"
         env:
