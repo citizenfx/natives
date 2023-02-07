@@ -55,14 +55,15 @@ jobs:
           mkdir ./in
           rsync -q --ignore-missing-args $NATIVE_DEPLOY_URL/natives_global_client_compat.lua ./in/natives_global_client_compat.lua
       - name: Run build
+        shell: bash
         run: |
           set -xe          
           git fetch --shallow-since=${{ inputs.since_date }}
           
-          source ./.ci/setup-builder
+          . ./.ci/setup-builder
           mkdir -p out
           
-          bash ./.ci/run-compat $BUILDER_ROOT "./out/natives_global_client_compat.lua" "./in/natives_global_client_compat.lua" ${{ inputs.ignore_missing_input }} ${{ inputs.force }} ${{ inputs.since_date }}
+          ./.ci/run-compat $BUILDER_ROOT "./out/natives_global_client_compat.lua" "./in/natives_global_client_compat.lua" ${{ inputs.ignore_missing_input }} ${{ inputs.force }} ${{ inputs.since_date }}
           
       - name: Output -> Echo (stdout)
         if: inputs.output_action == 'Echo (stdout)'
