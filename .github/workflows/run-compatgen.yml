@@ -9,17 +9,17 @@ on:
         description: "Acquire all signatures since"
       ignore_missing_input:
         type: boolean
-        default: false
+        default: true
         required: true
         description: "Ignore missing input, may be needed for initial runs"
       force:
         type: boolean
-        default: false
+        default: true
         required: true
         description: "Force output creation"
       output_action:
         type: choice
-        default: "Ignore"
+        default: "Echo (stdout)"
         required: true
         description: "Output file action"
         options:
@@ -60,9 +60,11 @@ jobs:
           set -xe          
           git fetch --shallow-since=${{ inputs.since_date }}
           
-          . ./.ci/setup-builder          
-          mkdir -p out
+          pushd
+          . ./.ci/setup-builder
+          popd
           
+          mkdir -p out          
           ./.ci/run-compat $BUILDER_ROOT "./out/natives_global_client_compat.lua" "./in/natives_global_client_compat.lua" ${{ inputs.ignore_missing_input }} ${{ inputs.force }} ${{ inputs.since_date }}
           
       - name: Output -> Echo (stdout)
