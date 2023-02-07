@@ -1,6 +1,5 @@
 name: Compatibility method generation
 on:
-  push:  
   workflow_dispatch:
     inputs:
       since_date:
@@ -12,7 +11,7 @@ on:
         type: boolean
         default: false
         required: true
-        description: "Required when the input file is missing, e.g.: initial run"
+        description: "Ignore missing input, may be needed for initial runs"
       force:
         type: boolean
         default: false
