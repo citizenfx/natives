@@ -3,13 +3,15 @@
 set -eu
 
 # include common script
-. "$(dirname "$0")"/common.sh
+. "$(dirname "$BASH_SOURCE")"/common.sh
 
 sudo ln -s libclang-10.so.1 /usr/lib/x86_64-linux-gnu/libclang.so
 
 mkdir -p $BUILDER_ROOT
 cd $BUILDER_ROOT
 
-git clone https://github.com/citizenfx/native-doc-tooling.git .
-git checkout b45ca5ae80b8654e5ea28ee81e6dedd7947f9ca7
+git init -q .
+git fetch -q --depth=1 https://github.com/citizenfx/native-doc-tooling.git 2a680c075e73d2c23369a115922284384fcb2cbd
+git checkout FETCH_HEAD
+
 yarn
