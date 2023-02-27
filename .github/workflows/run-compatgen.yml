@@ -66,8 +66,8 @@ jobs:
       - name: Run build
         shell: bash
         run: |
-          set -xe          
-          git fetch --shallow-since=${{ inputs.since_date }}
+          set -xe
+          git fetch origin $GITHUB_REF_NAME --shallow-since=${{ inputs.since_date }}
           
           pushd ./
           . ./.ci/setup-builder
@@ -76,7 +76,7 @@ jobs:
           mkdir -p out
           [ input.no_input == 'false' ] && INPUT_FILE="./in/natives_global_client_compat.lua" || INPUT_FILE="skip"
           
-          ./.ci/run-compat $BUILDER_ROOT "./out/natives_global_client_compat.lua" "$INPUT_FILE" ${{ inputs.ignore_missing_input }} ${{ inputs.force }} ${{ inputs.since_date }}
+          ./.ci/run-compat $BUILDER_ROOT "./out/natives_global_client_compat.lua" "$INPUT_FILE" ${{ inputs.ignore_missing_input }} ${{ inputs.force }} ${{ inputs.use_history }} ${{ inputs.since_date }}
           
       - name: Output -> Echo (stdout)
         if: inputs.output_action == 'Echo (stdout)'

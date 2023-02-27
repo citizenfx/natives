@@ -11,7 +11,7 @@ mkdir -p $BUILDER_ROOT
 cd $BUILDER_ROOT
 
 git init -q .
-git fetch -q --depth=1 https://github.com/citizenfx/native-doc-tooling.git 2a680c075e73d2c23369a115922284384fcb2cbd
+git fetch -q --depth=1 https://github.com/citizenfx/native-doc-tooling.git 59821abdd96caf23be103bfa0da3c799ce690df9
 git checkout FETCH_HEAD
 
 yarn
