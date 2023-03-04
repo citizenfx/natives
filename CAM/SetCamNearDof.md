@@ -8,6 +8,9 @@ ns: CAM
 void SET_CAM_NEAR_DOF(Cam cam, float nearDOF);
 ```
 
+```
+The nearDOF parameter seems to set at what distance the camera should start being in focus.
+```
 
 ## Parameters
 * **cam**: 
