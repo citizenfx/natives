@@ -8,6 +8,9 @@ ns: CAM
 void SET_CAM_DOF_STRENGTH(Cam cam, float dofStrength);
 ```
 
+```
+Seems to specify how closely the set dof parameters should be followed (Set using `SetCamNearDof`, `SetCamFarDof`, etc.).
+```
 
 ## Parameters
 * **cam**: 
