@@ -8,4 +8,4 @@ ns: CAM
 void SET_USE_HI_DOF();
 ```
 
-Needs to be called every tick to make the active camera use a high depth of field. DOF can be customized using `SetCamUseShallowDofMode`, `SetCamNearDof`, `SetCamFarDof` and `SetCamDofStrength`.
+Needs to be called every tick to make the active camera use a high depth of field. DOF can be customized using `SetCamUseShallowDofMode`, `SetCamNearDof`, `SetCamFarDof` and `SetCamDofStrength`. (Example: https://forum.cfx.re/t/camera-depth-of-field-settings/2433316/3)
