@@ -74,7 +74,7 @@ jobs:
           popd
           
           mkdir -p out
-          [ input.no_input == 'false' ] && INPUT_FILE="./in/natives_global_client_compat.lua" || INPUT_FILE="skip"
+          [ ${{ inputs.no_input }} == false ] && INPUT_FILE="./in/natives_global_client_compat.lua" || INPUT_FILE="skip"
           
           ./.ci/run-compat $BUILDER_ROOT "./out/natives_global_client_compat.lua" "$INPUT_FILE" ${{ inputs.ignore_missing_input }} ${{ inputs.force }} ${{ inputs.use_history }} ${{ inputs.since_date }}
           
