@@ -17,3 +17,4 @@ BOOL GET_GROUND_Z_AND_NORMAL_FOR_3D_COORD(float x, float y, float z, float* grou
 * **normal**: 
 
 ## Return value
+
