@@ -11,7 +11,7 @@ void ENABLE_CLOWN_BLOOD_VFX(BOOL toggle);
 
 If true, this native will create purple explosions upon projectile impact, add comic-like PTFX when firing a weapon, create a sound on bullet impact and have its own "blood effect".
 
-If the PTFX asset "scr_rcbarry2" is not requested ([`RequestNamedPtfxAsset`](#_0xD821490579791273)) then this native **will not work as intended**.
+If the PTFX asset "scr_rcbarry2" is not requested using ([`RequestNamedPtfxAsset`](#_0xD821490579791273)) then this native **will not work as intended**.
 
 
 Excerpt from fm_content_drug_lab_work.c:
