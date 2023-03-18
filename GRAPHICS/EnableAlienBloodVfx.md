@@ -9,7 +9,7 @@ aliases: ["0x9DCE1F0F78260875"]
 void ENABLE_ALIEN_BLOOD_VFX(BOOL toggle);
 ```
 
-If true, this native will create a small, blue effect upon bullet impact as it's own "blood effect".
+If true, this native will create a small, blue glowing effect upon bullet impact as it's own "blood effect".
 
 If the PTFX asset "scr_rcbarry1" is not requested using ([`RequestNamedPtfxAsset`](#_0xD821490579791273)) then this native **will not work as intended**.
 
