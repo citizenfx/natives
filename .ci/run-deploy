@@ -2,18 +2,23 @@
 
 set -eu
 
+repo_root="$(pwd)"
+ci_root="$(dirname "$0")"
+
 # include common script
-. "$(dirname "$0")"/common.sh
+. "$ci_root"/common.sh
 
 title "Building new documentation output...\n"
 
-repo_root="$(pwd)"
-
 mkdir -p out
 
+# Native generation
 pushd "$BUILDER_ROOT"
 node index.js "$repo_root"
 cp -a natives_test.json "$repo_root/out/natives.json"
 node build-template.js lua > "$repo_root/out/natives.lua"
 node build-template.js reference > "$repo_root/out/natives.html"
 popd
+
+# Compatibility native generation
+"$ci_root"/run-compat "$BUILDER_ROOT" "./out/natives_global_client_compat.lua" "./in/natives_global_client_compat.lua"
