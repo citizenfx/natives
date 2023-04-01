@@ -8,7 +8,7 @@ ns: CAM
 void SET_CAM_FAR_DOF(Cam cam, float farDOF);
 ```
 
-Specifies when the camera should stop being in focus. (In standard distance units)
+Specifies when the camera should stop being in focus. (`farDOF` is in standard distance units)
 
 ## Parameters
 * **cam**: 
