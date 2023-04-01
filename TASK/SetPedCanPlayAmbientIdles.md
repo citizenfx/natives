@@ -9,7 +9,7 @@ aliases: ["0x8FD89A6240813FD0"]
 void SET_PED_CAN_PLAY_AMBIENT_IDLES(Ped ped, BOOL p1, BOOL p2);
 ```
 
-Disables the idle animation that starts playing when the player ped has been standing still for a few seconds. Has to be called every frame. Does not work if `p1` and/or `p2` are `false`, both parameters have to be `true`.
+Disables the idle animation that starts playing when the player ped has been standing still for a few seconds. Has to be called every frame. Does not work if `p1` and/or `p2` are `false`, both parameters have to be `true`. Native does not sync over network (you have to call it on each client for all active player peds).
 
 ```lua
 while true do
@@ -22,4 +22,3 @@ end
 * **ped**: 
 * **p1**: 
 * **p2**: 
-
