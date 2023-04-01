@@ -8,7 +8,7 @@ ns: CAM
 void SET_CAM_USE_SHALLOW_DOF_MODE(Cam cam, BOOL toggle);
 ```
 
-Native seems to enable or disable the usage of a shallow DOF. Needs to be set to true to use `SetCamNearDof`, `SetCamFarDof`, etc. Doesn't need to be called every tick.
+Enables or disables the usage of a shallow DOF. Needs to be set to true to use `SetCamNearDof`, `SetCamFarDof`, etc. Doesn't need to be called every tick.
 
 ## Parameters
 * **cam**: 
