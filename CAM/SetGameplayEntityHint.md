@@ -9,7 +9,11 @@ void SET_GAMEPLAY_ENTITY_HINT(Entity entity, float xOffset, float yOffset, float
 ```
 
 ```
-p6 & p7 - possibly length or time  
+p4 - boolean (true/false)
+p5 - duration
+p6 - blend in time
+p7 - blend out time
+p8 - mostly 0
 ```
 
 ## Parameters
