@@ -45,3 +45,17 @@ else
     Debug.WriteLine("Currently switching hover mode!");
 }
 ```
+
+```js
+let vehicle = GetVehiclePedIsIn(PlayerPedId(), false);
+
+if (GetVehicleFlightNozzlePosition(vehicle) === 0.0) {
+    console.log("Flying normally!");
+}
+else if (GetVehicleFlightNozzlePosition(vehicle) === 1.0) {
+    console.log("Flying in VTOL mode!");
+}
+else {
+    console.log("Currently switching hover mode!");
+}
+```
