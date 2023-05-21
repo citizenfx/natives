@@ -8,8 +8,16 @@ ns: VEHICLE
 cs_type(Any) void SET_TRAIN_CRUISE_SPEED(Vehicle train, float speed);
 ```
 
+Used to control train speed, can be used to start and stop its movement as well.
+
 ## Parameters
 * **train**: 
 * **speed**: 
 
 ## Return value
+
+## Examples
+```lua
+SetTrainCruiseSpeed(train, 20.0) -- Can be used to 'start' the train
+SetTrainCruiseSpeed(train, 0.0) -- Can be used to 'stop' the train
+```
