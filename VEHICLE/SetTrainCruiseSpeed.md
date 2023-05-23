@@ -18,7 +18,7 @@ Used to control train speed, can be used to start and stop its movement as well.
 
 ## Examples
 ```lua
-local train = ("metrotrain")
+local train = CreateMissionTrain(21, 40.2, -1201.3, 31.0, false)
 SetTrainCruiseSpeed(train, 20.0) -- Can be used to 'start' the train
 SetTrainCruiseSpeed(train, 0.0) -- Can be used to 'stop' the train
 ```
