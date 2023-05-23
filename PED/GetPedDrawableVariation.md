@@ -17,7 +17,7 @@ Ids
 4 - Legs
 5 - Hands
 6 - Foot
-7 - ------
+7 - Scarfs/Neck Accessories
 8 - Accessories 1
 9 - Accessories 2
 10- Decals
