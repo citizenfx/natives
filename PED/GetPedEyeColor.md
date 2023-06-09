@@ -15,7 +15,7 @@ A getter for [`_SET_PED_EYE_COLOR`](#_0x50B56988B170AFDF).
 * **ped**: The target ped
 
 ## Return value
-Returns ped's eye colour, or -1 if fails to get.
+Returns ped's eye colour (0 - 31), or -1 if the eye color is not set. If the eye color is not set it is inherited depending on the parents of the freemode model.
 
 ## Examples
 
