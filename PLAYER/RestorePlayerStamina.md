@@ -5,16 +5,13 @@ ns: PLAYER
 
 ```c
 // 0xA352C1B864CAFD33 0x62A93608
-void RESTORE_PLAYER_STAMINA(Player player, float p1);
+void RESTORE_PLAYER_STAMINA(Player player, float percentage);
 ```
-Regenerate a players stamina. Unsure if p1 is some sort of multiplier or regen speed, need to look into this 🤔.
-
-Mentioned once in triathlonsp.c4 line ~60019
-sub_5a268 gets used a few times in the function above it, line ~59981
+Adds a percentage to a players stamina
 
 ## Parameters
 * **player**: player to restore the stamina for
-* **p1**: could be regeneration speed or amount
+* **percentage**: seems to be a percentage that ranges from 0.0 to 1.0 (1.0 being 100%)
 
 ## Examples
 ```lua
