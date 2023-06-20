@@ -8,5 +8,6 @@ ns: HUD
 BOOL IS_PAUSE_MENU_ACTIVE();
 ```
 
+Returns true when either Pause Menu, a Frontend Menu, Online Policies menu or Social Club menu is active.
 
 ## Return value
