@@ -28,8 +28,8 @@ EndTextCommandDisplayHelp(0, false, true, -1)
 
 
 -- Shows a floating help text which uses FLOATING_HELP_TEXT_1 hud component.
-AddTextEntry('FloatingHelpText', content)
-SetFloatingHelpTextWorldPosition(0, coords)
+AddTextEntry('FloatingHelpText', 'Press E to show respect.')
+SetFloatingHelpTextWorldPosition(0, vector3(100, 100, 100))
 SetFloatingHelpTextStyle(0, true, 2, -1, 3, 0)
 BeginTextCommandDisplayHelp('FloatingHelpText')
 EndTextCommandDisplayHelp(1, false, false, -1)
