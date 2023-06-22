@@ -10,7 +10,7 @@ void BEGIN_TEXT_COMMAND_IS_THIS_HELP_MESSAGE_BEING_DISPLAYED(char* labelName);
 ```
 
 ## Parameters
-* **labelName**: Text entry name. This can be created using [#_0x32CA01C3](AddTextEntry).
+* **labelName**: Text entry name. This can be created using [`AddTextEntry`](#_0x32CA01C3).
 
 ## Examples
 ```lua
