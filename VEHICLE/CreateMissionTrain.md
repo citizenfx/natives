@@ -8,13 +8,6 @@ ns: VEHICLE
 Vehicle CREATE_MISSION_TRAIN(int variation, float x, float y, float z, BOOL direction);
 ```
 
-## Parameters
-* **variation**: Train id (see below for more information)
-* **x**: Spawn coordinate X component.
-* **y**: Spawn coordinate Y component.
-* **z**: Spawn coordinate Z component.
-* **direction**: The direction in which the train will go (true or false)
-
 Train models must be [requested](#_0x963D27A58DF860AC) before use. See trains.xml in your GTA V folder to change the varations of the trains
 
 ### Train Models and variation id:
@@ -29,6 +22,13 @@ Train models must be [requested](#_0x963D27A58DF860AC) before use. See trains.xm
 * freightgrain
 * metrotrain
 * tankercar
+
+## Parameters
+* **variation**: Train id (see below for more information)
+* **x**: Spawn coordinate X component.
+* **y**: Spawn coordinate Y component.
+* **z**: Spawn coordinate Z component.
+* **direction**: The direction in which the train will go (true or false)
 
 ## Return value
 A script handle for the train, or 0 if the train failed to be created.
