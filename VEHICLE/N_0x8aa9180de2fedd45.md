@@ -1,11 +1,12 @@
 ---
 ns: VEHICLE
+aliases: ["_0x8AA9180DE2FEDD45"]
 ---
 ## EnableAircraftObstacleAvoidance
 
 ```c
 // 0x8AA9180DE2FEDD45 0xAE040377
-void _0x8AA9180DE2FEDD45(Vehicle vehicle, BOOL enableobstacleavoidance);
+void _ENABLE_AIRCRAFT_OBSTACLE_AVOIDANCE(Vehicle vehicle, BOOL avoidObstacles);
 ```
 
 
@@ -14,6 +15,5 @@ Will disable a plane or a helicopter's need to swerve around object in its heigh
 
 
 ## Parameters
-* **vehicle**: 
-* **enableobstacleavoidance**: 
-
+* **vehicle**: The vehicle handle to toggle obstacle avoidance for.
+* **avoidObstacles**: `true` / `false` to enable/disable heightmap obstacle avoidance.
