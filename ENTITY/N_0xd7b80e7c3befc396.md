@@ -1,17 +1,16 @@
 ---
 ns: ENTITY
 ---
-## _0xD7B80E7C3BEFC396
+## SetPickUpByCargobobDisabled
 
 ```c
 // 0xD7B80E7C3BEFC396
-void _0xD7B80E7C3BEFC396(Any p0, Any p1);
+void SetPickUpByCargobobDisabled(Entity entity, BOOL toggle);
 ```
 
-```
 NativeDB Introduced: v1180
 ```
 
 ## Parameters
-* **p0**:
-* **p1**:
+* **entity**: The entity for which to disable pick up by Cargobob.
+* **toggle**: A boolean value indicating whether to disable (true) or enable (false) pick up by Cargobob.
