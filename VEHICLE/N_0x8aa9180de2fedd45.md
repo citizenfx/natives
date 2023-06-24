@@ -10,7 +10,7 @@ void _ENABLE_AIRCRAFT_OBSTACLE_AVOIDANCE(Vehicle vehicle, BOOL avoidObstacles);
 ```
 
 
-Will disable a plane or a helicopter's need to swerve around object in its heightmap.  Will ensure plane flys directly to it's destination or die trying! This native does NOT need to be called every frame, but instead, just called once on the vehicle (NOT THE PED) you're trying to disable avoidance for!
+Will disable a plane or a helicopter's need to swerve around object in its heightmap when using TASK_PLANE_MISSION or other AI / Pilot behavior.  Will ensure plane flys directly to it's destination or die trying! This native does NOT need to be called every frame, but instead, just called once on the vehicle (NOT THE PED) you're trying to disable avoidance for!
 
 
 
