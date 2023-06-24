@@ -1,11 +1,11 @@
 ---
 ns: WEAPON
 ---
-## _0x50276EF8172F5F12
+## SetPedCycleVehicleWeaponsOnly
 
 ```c
 // 0x50276EF8172F5F12 0xE3DB81AC
-void _0x50276EF8172F5F12(Ped ped);
+void SetPedCycleVehicleWeaponsOnly(Ped ped);
 ```
 
 Related to the ped's weapon - flag used when disabling ped vehicle weapon
