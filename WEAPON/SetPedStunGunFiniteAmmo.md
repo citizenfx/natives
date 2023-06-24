@@ -1,11 +1,11 @@
 ---
 ns: WEAPON
 ---
-## _0x24C024BA8379A70A
+## SetPedStunGunFiniteAmmo
 
 ```c
 // 0x24C024BA8379A70A
-void _0x24C024BA8379A70A(Any p0, Any p1);
+void SetPedStunGunFiniteAmmo(Any p0, Any p1);
 ```
 
 ```
