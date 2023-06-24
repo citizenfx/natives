@@ -1,11 +1,11 @@
 ---
 ns: WEAPON
 ---
-## _0x977CA98939E82E4B
+## SetWeaponObjectCamoIndex
 
 ```c
 // 0x977CA98939E82E4B
-void _0x977CA98939E82E4B(Object weaponObject, int p1);
+void SetWeaponObjectCamoIndex(Object weaponObject, int p1);
 ```
 
 ```

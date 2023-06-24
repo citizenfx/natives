@@ -1,11 +1,11 @@
 ---
 ns: WEAPON
 ---
-## _0xA2C9AC24B4061285
+## GetPedWeaponCamoIndex
 
 ```c
 // 0xA2C9AC24B4061285
-int _0xA2C9AC24B4061285(Ped ped, cs_type(Any) Hash weaponHash);
+int GetPedWeaponCamoIndex(Ped ped, cs_type(Any) Hash weaponHash);
 ```
 
 
