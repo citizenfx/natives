@@ -1,11 +1,11 @@
 ---
 ns: STREAMING
 ---
-## _0xEF39EE20C537E98C
+## SetSrlPostCutsceneCamera
 
 ```c
 // 0xEF39EE20C537E98C 0x814D0752
-void _0xEF39EE20C537E98C(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5);
+void SetSrlPostCutsceneCamera(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5);
 ```
 
 

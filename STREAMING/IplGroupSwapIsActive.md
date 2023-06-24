@@ -1,11 +1,11 @@
 ---
 ns: STREAMING
 ---
-## _0x5068F488DDB54DD8
+## IplGroupSwapIsActive
 
 ```c
 // 0x5068F488DDB54DD8 0xDAB4BAC0
-Any _0x5068F488DDB54DD8();
+BOOL IplGroupSwapIsActive();
 ```
 
 

@@ -1,11 +1,11 @@
 ---
 ns: STREAMING
 ---
-## _0x0811381EF5062FEC
+## SetRestoreFocusEntity
 
 ```c
 // 0x0811381EF5062FEC
-void _0x0811381EF5062FEC(Entity p0);
+void SetRestoreFocusEntity(Entity p0);
 ```
 
 

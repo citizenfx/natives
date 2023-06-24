@@ -1,15 +1,11 @@
 ---
 ns: STREAMING
 ---
-## _0x933BBEEB8C61B5F4
+## IsSwitchToMultiFirstpartFinished
 
 ```c
 // 0x933BBEEB8C61B5F4 0x74C16879
-BOOL _0x933BBEEB8C61B5F4();
-```
-
-```
-Probably IS_SWITCH_*
+BOOL IsSwitchToMultiFirstpartFinished();
 ```
 
 ## Return value

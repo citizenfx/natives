@@ -1,11 +1,11 @@
 ---
 ns: STREAMING
 ---
-## _0x20C6C7E4EB082A7F
+## SetSrlLongJumpMode
 
 ```c
 // 0x20C6C7E4EB082A7F 0xA6459CAA
-void _0x20C6C7E4EB082A7F(BOOL p0);
+void SetSrlLongJumpMode(BOOL p0);
 ```
 
 
