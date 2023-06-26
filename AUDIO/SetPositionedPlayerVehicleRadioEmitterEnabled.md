@@ -1,0 +1,14 @@
+---
+ns: AUDIO
+---
+## SET_​POSITIONED_​PLAYER_​VEHICLE_​RADIO_​EMITTER_​ENABLED
+
+```c
+// 0xDA07819E452FFE8F
+void SET_​POSITIONED_​PLAYER_​VEHICLE_​RADIO_​EMITTER_​ENABLED(Any p0);
+```
+
+
+## Parameters
+* **p0**: 
+

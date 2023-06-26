@@ -1,0 +1,16 @@
+---
+ns: AUDIO
+aliases: ["0x5B50ABB1FE3746F4", "_HAS_MULTIPLAYER_AUDIO_DATA_UNLOADED"]
+---
+## HAS_​LOADED_​SP_​DATA_​SET
+
+```c
+// 0x5B50ABB1FE3746F4
+BOOL HAS_​LOADED_​SP_​DATA_​SET();
+```
+
+```
+HAS_*
+```
+
+## Return value

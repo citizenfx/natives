@@ -1,0 +1,11 @@
+---
+ns: AUDIO
+---
+## ENABLE_​STUNT_​JUMP_​AUDIO
+
+```c
+// 0xB81CF134AEB56FFB
+void ENABLE_​STUNT_​JUMP_​AUDIO();
+```
+
+

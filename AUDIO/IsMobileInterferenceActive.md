@@ -1,0 +1,15 @@
+---
+ns: AUDIO
+---
+## IS_​MOBILE_​INTERFERENCE_​ACTIVE
+
+```c
+// 0xC8B1B2425604CDD0 0x16FB88B5
+BOOL IS_​MOBILE_​INTERFERENCE_​ACTIVE();
+```
+
+```
+IS_MOBILE_PHONE_*
+```
+
+## Return value

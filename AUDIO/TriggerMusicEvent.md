@@ -9,11 +9,35 @@ BOOL TRIGGER_MUSIC_EVENT(char* eventName);
 ```
 
 ```
-List of all usable event names found in b617d used with this native. Sorted alphabetically and identical names removed: pastebin.com/RzDFmB1W  
-All music event names found in the b617d scripts: pastebin.com/GnYt0R3P  
+ You can have all music event names here: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/musicEventNames.json
 ```
 
-## Parameters
-* **eventName**: 
+You have to use [`PREPARE_MUSIC_EVENT`](#0x1E5185B72EF5158A) before using this native.
 
-## Return value
+## Parameters
+* **eventName**: The name of the music event to trigger.
+
+## Examples
+
+```lua
+local music = "PROLOGUE_TEST_POLICE_CAR_CHASE"
+if PrepareMusicEvent(music) then
+    TriggerMusicEvent(music)
+end
+```
+
+```js
+const music = "PROLOGUE_TEST_POLICE_CAR_CHASE";
+if (PrepareMusicEvent(music)) {
+    TriggerMusicEvent(music);
+}
+```
+
+```cs
+using static CitizenFX.Core.Native.API;
+// ...
+string music = "PROLOGUE_TEST_POLICE_CAR_CHASE";
+if (PrepareMusicEvent(music)) {
+    TriggerMusicEvent(music);
+}
+```

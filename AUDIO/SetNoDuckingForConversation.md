@@ -1,0 +1,14 @@
+---
+ns: AUDIO
+---
+## SET_​NO_​DUCKING_​FOR_​CONVERSATION
+
+```c
+// 0xB542DE8C3D1CB210 0x789D8C6C
+void SET_​NO_​DUCKING_​FOR_​CONVERSATION(BOOL p0);
+```
+
+
+## Parameters
+* **p0**: 
+

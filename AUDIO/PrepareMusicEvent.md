@@ -9,10 +9,11 @@ BOOL PREPARE_MUSIC_EVENT(char* eventName);
 ```
 
 ```
-All music event names found in the b617d scripts: pastebin.com/GnYt0R3P  
+ You can have all music event names here: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/musicEventNames.json
 ```
 
 ## Parameters
-* **eventName**: 
+* **eventName**: The name of the music event to prepare.
 
 ## Return value
+A boolean value indicating whether the music event preparation was successful.

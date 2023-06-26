@@ -1,0 +1,10 @@
+---
+ns: AUDIO
+---
+## UNHINT_​SCRIPT_​AUDIO_​BANK
+
+```c
+// 0x9AC92EED5E4793AB 0xE67446E9
+void UNHINT_​SCRIPT_​AUDIO_​BANK();
+```
+

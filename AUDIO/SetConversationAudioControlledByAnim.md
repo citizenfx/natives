@@ -1,0 +1,14 @@
+---
+ns: AUDIO
+---
+## SET_​CONVERSATION_​AUDIO_​CONTROLLED_​BY_​ANIM
+
+```c
+// 0x0B568201DD99F0EB 0x1193ED6E
+void SET_​CONVERSATION_​AUDIO_​CONTROLLED_​BY_​ANIM(BOOL p0);
+```
+
+
+## Parameters
+* **p0**: 
+

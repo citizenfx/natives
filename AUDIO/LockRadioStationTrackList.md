@@ -1,11 +1,12 @@
 ---
 ns: AUDIO
+aliases: ["_LOCK_RADIO_STATION_TRACK_LIST"]
 ---
-## _LOCK_RADIO_STATION_TRACK_LIST
+## LOCK_​RADIO_​STATION_​TRACK_​LIST
 
 ```c
 // 0xFF5E5EA2DCEEACF3
-void _LOCK_RADIO_STATION_TRACK_LIST(char* radioStation, char* trackListName);
+void LOCK_​RADIO_​STATION_​TRACK_​LIST(char* radioStation, char* trackListName);
 ```
 
 ```

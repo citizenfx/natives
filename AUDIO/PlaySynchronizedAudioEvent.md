@@ -5,11 +5,11 @@ ns: AUDIO
 
 ```c
 // 0x8B2FD4560E55DD2D 0x507F3241
-BOOL PLAY_SYNCHRONIZED_AUDIO_EVENT(Any p0);
+BOOL PLAY_SYNCHRONIZED_AUDIO_EVENT(cs_type(Any) int sceneID);
 ```
 
 
 ## Parameters
-* **p0**: 
+* **sceneID**: 
 
 ## Return value

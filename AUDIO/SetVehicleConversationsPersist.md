@@ -1,0 +1,15 @@
+---
+ns: AUDIO
+---
+## SET_​VEHICLE_​CONVERSATIONS_​PERSIST
+
+```c
+// 0x58BB377BEC7CD5F4 0x8CE63FA1
+void SET_​VEHICLE_​CONVERSATIONS_​PERSIST(BOOL p0, BOOL p1);
+```
+
+
+## Parameters
+* **p0**: 
+* **p1**: 
+

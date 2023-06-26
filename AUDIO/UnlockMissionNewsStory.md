@@ -8,6 +8,10 @@ ns: AUDIO
 void UNLOCK_MISSION_NEWS_STORY(int newsStory);
 ```
 
+```
+"news" that play on the radio after you've done something in story mode(?)
+```
+
 ## Parameters
 * **newsStory**: 
 

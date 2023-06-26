@@ -1,12 +1,12 @@
 ---
 ns: AUDIO
-aliases: ["0x7CDC8C3B89F661B3"]
+aliases: ["0x7CDC8C3B89F661B3", "_SET_PED_VOICE_GROUP"]
 ---
-## _SET_PED_VOICE_GROUP
+## SET_​PED_​VOICE_​GROUP
 
 ```c
 // 0x7CDC8C3B89F661B3
-void _SET_PED_VOICE_GROUP(Ped ped, Hash voiceGroupHash);
+void SET_​PED_​VOICE_​GROUP(Ped ped, Hash voiceGroupHash);
 ```
 
 ```

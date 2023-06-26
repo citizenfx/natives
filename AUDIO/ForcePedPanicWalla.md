@@ -1,0 +1,14 @@
+---
+ns: AUDIO
+---
+## FORCE_​PED_​PANIC_​WALLA
+
+```c
+// 0x062D5EAD4DA2FA6A 0xD87AF337
+void FORCE_​PED_​PANIC_​WALLA();
+```
+
+```
+FORCE_*
+```
+

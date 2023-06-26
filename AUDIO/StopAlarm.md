@@ -9,14 +9,25 @@ void STOP_ALARM(char* alarmName, BOOL toggle);
 ```
 
 ```
-Example:  
-This will stop the alarm at Fort Zancudo.  
-AUDIO::STOP_ALARM("PORT_OF_LS_HEIST_FORT_ZANCUDO_ALARMS", 1);  
-First parameter (char) is the name of the alarm.  
-Second parameter (bool) has to be true (1) to have any effect.  
+ You can have all alarm names here: https://github.com/DurtyFree/gta-v-data-dumps/blob/master/alarmSounds.json
+```
+
+## Examples
+```lua
+StopAlarm("PORT_OF_LS_HEIST_FORT_ZANCUDO_ALARMS", true) -- going to stop alarm at Fort Zancudo
+```
+ 
+```js
+StopAlarm("PORT_OF_LS_HEIST_FORT_ZANCUDO_ALARMS", true); // going to stop alarm at Fort Zancudo
+```
+
+```cs
+using static CitizenFX.Core.API;
+// ...
+StopAlarm("PORT_OF_LS_HEIST_FORT_ZANCUDO_ALARMS", true); // going to stop alarm at Fort Zancudo
 ```
 
 ## Parameters
-* **alarmName**: 
-* **toggle**: 
+* **alarmName**: The name of the alarm to stop.
+* **toggle**: A boolean value indicating whether to toggle the alarm off.
 

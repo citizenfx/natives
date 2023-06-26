@@ -1,0 +1,12 @@
+---
+ns: AUDIO
+aliases: ["0x3D120012440E6683", "AUDIO_IS_SCRIPTED_MUSIC_PLAYING"]
+---
+## AUDIO_​IS_​MUSIC_​PLAYING
+
+```c
+// 0x845FFC3A4FEEFA3E 0x86E995D1
+cs_type(Any) BOOL AUDIO_​IS_​MUSIC_​PLAYING();
+```
+
+## Return value
