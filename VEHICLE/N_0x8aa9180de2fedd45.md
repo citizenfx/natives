@@ -2,7 +2,7 @@
 ns: VEHICLE
 aliases: ["_0x8AA9180DE2FEDD45"]
 ---
-## EnableAircraftObstacleAvoidance
+## _ENABLE_AIRCRAFT_OBSTACLE_AVOIDANCE
 
 ```c
 // 0x8AA9180DE2FEDD45 0xAE040377
@@ -16,4 +16,4 @@ Will disable a plane or a helicopter's need to swerve around object in its heigh
 
 ## Parameters
 * **vehicle**: The vehicle handle to toggle obstacle avoidance for.
-* **avoidObstacles**: `true` / `false` to enable/disable heightmap obstacle avoidance.
+* **avoidObstacles**: `true` / `false` to enable/disable heightmap obstacle avoidance respectively!
