@@ -18,7 +18,7 @@ An incomplete list of components ID:
 6: Vespucci Beach lifeguard building.
 15: Army base.
 
-[List of hud colors](https://pastebin.com/d9aHPbXN)
+[List of hud colors](https://docs.fivem.net/docs/game-references/hud-colors/)
 
 ## Parameters
 * **componentID**: The component ID to change.

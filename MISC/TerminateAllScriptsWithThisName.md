@@ -8,9 +8,7 @@ ns: MISC
 void TERMINATE_ALL_SCRIPTS_WITH_THIS_NAME(char* scriptName);
 ```
 
-```
-For a full list, see here: pastebin.com/yLNWicUi  
-```
+For a full list, see [here](https://gist.github.com/4mmonium/f76f3ecef649ed275b260b433ea84494).
 
 ## Parameters
 * **scriptName**: 

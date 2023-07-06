@@ -9,9 +9,7 @@ aliases: ["_IS_PICKUP_WITHIN_RADIUS"]
 BOOL DOES_PICKUP_OF_TYPE_EXIST_IN_AREA(Hash pickupHash, float x, float y, float z, float radius);
 ```
 
-```
-Pickup hashes: pastebin.com/8EuSv2r1  
-```
+Pickup hashes can be found [here](https://gist.github.com/4mmonium/1eabfb6b3996e3aa6b9525a3eccf8a0b).
 
 ## Parameters
 * **pickupHash**: 
