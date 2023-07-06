@@ -36,6 +36,14 @@ The description of a native should be clear. Avoid descriptions such as "unsure 
 ### Parameter and return types
 Parameter and return type annotations are in C syntax. Each parameter and return type can be individually documented. See below for an [example](#example-documentation).
 
+### Renaming parameters
+When renaming a parameter, remember to also update the `## Parameters` section to match the parameter you just changed.
+
+### Changing parameter or return types
+Changes must be backwards compatible, if you are changing a parameter type or return type it's imperative to prepend `cs_type` to the type you changed, for example, if the old type were `Any` and it's changed to `float`, the current declaration should be `cs_type(Any) float x`.
+
+You can check out these documented natives, [SET_RANDOM_BOATS](../VEHICLE/SetRandomBoats.md) and [SET_TRAIN_SPEED](../VEHICLE/SetTrainSpeed.md) to see exactly how `cs_type` declarations should be used.
+
 <!-- > Changes **must** be backwards compatible. Due to a limitation in ABI compatibility, types should currently not be changed unless they keep the same underlying type. For example, changing `Any` to `void` is not backwards compatible, but since vehicles are integers, changing `int` to `Vehicle` is supported. -->
 
 ### Adding examples
@@ -52,6 +60,8 @@ Natives from the CFX namespace can be found in the [FiveM source][cfx-natives].
 - Descriptions should not be code fenced.
 - Mind your grammar. Everyone benefits from correct English.
 - Don't add any markdown files that aren't natives.
+- Don't use double hashes to declare new markdown headers in description blocks (it's not supported), use triple hashes instead. 
+- Try to avoid entering values that other readers won't be able to understand. Research the value on a site such as [Wolfram Alpha](https://wolframalpha.com) to see if there's an underlying reason for it, for example a value of `0.017453292`, would be `π/180` or simply `3.14159265359/180`.
 
 Submitting a pull request
 -------------------------
