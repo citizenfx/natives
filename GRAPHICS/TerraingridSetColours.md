@@ -10,7 +10,7 @@ void TERRAINGRID_SET_COLOURS(int lowR, int lowG, int lowB, int lowAlpha, int R, 
 ```
 
 
-This native is used along with these two natives: [`0xa356990e161c9e65`](https://runtime.fivem.net/doc/reference.html#_0xA356990E161C9E65) and [`0x1c4fc5752bcd8e48`](https://runtime.fivem.net/doc/reference.html#_0x1C4FC5752BCD8E48). 
+This native is used along with these two natives: [`TERRAINGRID_ACTIVATE`](https://docs.fivem.net/natives/?_0xA356990E161C9E65) and [`TERRAINGRID_SET_PARAMS`](https://docs.fivem.net/natives/?_0x1C4FC5752BCD8E48). 
 This native sets the colors for the golf putting grid. the 'min...' values are for the lower areas that the grid covers, the 'max...' values are for the higher areas that the grid covers, all remaining values are for the 'normal' ground height.
 All those natives combined they will output something like this: https://i.imgur.com/TC6cku6.png
 
