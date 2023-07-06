@@ -9,4 +9,4 @@ aliases: ["0x67EEDEA1B9BAFD94"]
 void CLEAR_GPS_MULTI_ROUTE();
 ```
 
-Does the same as [`SET_GPS_MULTI_ROUTE_RENDER(false)`](https://runtime.fivem.net/doc/reference.html#_0x3DDA37128DD1ACA8)
+Does the same as [`SET_GPS_MULTI_ROUTE_RENDER(false)`](https://docs.fivem.net/natives/?_0x3DDA37128DD1ACA8)
