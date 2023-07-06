@@ -9,15 +9,10 @@ void SET_PED_HELMET_PROP_INDEX(Ped ped, int propIndex);
 ```
 
 ```
-List of component/props ID  
-gtaxscripting.blogspot.com/2016/04/gta-v-peds-component-and-props.html  
-```
-
-```
 NativeDB Added Parameter 3: BOOL p2
 ```
 
 ## Parameters
-* **ped**: 
-* **propIndex**: 
+* **ped**: The ped handle.
+* **propIndex**: The prop index to set the helmet to. Refer to [SET_PED_PROP_INDEX](#_0x93376B65A266EB5F).
 

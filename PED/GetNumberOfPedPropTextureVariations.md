@@ -9,15 +9,12 @@ int GET_NUMBER_OF_PED_PROP_TEXTURE_VARIATIONS(Ped ped, int propId, int drawableI
 ```
 
 ```
-Need to check behavior when drawableId = -1  
-
-List of component/props ID  
-gtaxscripting.blogspot.com/2016/04/gta-v-peds-component-and-props.html  
+Need to check behavior when drawableId = -1
 ```
 
 ## Parameters
-* **ped**: 
-* **propId**: 
-* **drawableId**: 
+* **ped**: The ped handle.
+* **propId**: The prop id you want to get the texture variations of. Refer to [SET_PED_PROP_INDEX](#_0x93376B65A266EB5F)
+* **drawableId**: The drawable id of the prop you want to get the texture variations of. Refer to [GET_NUMBER_OF_PED_PROP_DRAWABLE_VARIATIONS](#_0x5FAF9754E789FB47).
 
 ## Return value

@@ -8,11 +8,5 @@ ns: PED
 void SET_PED_RANDOM_PROPS(Ped ped);
 ```
 
-```
-List of component/props ID  
-gtaxscripting.blogspot.com/2016/04/gta-v-peds-component-and-props.html  
-```
-
 ## Parameters
-* **ped**: 
-
+* **ped**: The ped handle.
