@@ -13,7 +13,7 @@ p1 is either 1 or 2 in the PC scripts.
 ```
 
 
-This native is used to "give"/duplicate a player ped to a frontend menu as configured via the `ACTIVATE_FRONTEND_MENU` native, you first must utilize the `CLONE_PED` ( https://runtime.fivem.net/doc/natives/#_0xEF29A16337FACADB ) to clone said ped.
+This native is used to "give"/duplicate a player ped to a frontend menu as configured via the `ACTIVATE_FRONTEND_MENU` native, you first must utilize the [CLONE_PED](https://docs.fivem.net/natives/?_0xEF29A16337FACADB) to clone said ped.
 
 
 ## Parameters
