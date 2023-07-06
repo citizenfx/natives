@@ -8,11 +8,10 @@ ns: CAM
 BOOL DOES_CAM_EXIST(Cam cam);
 ```
 
-```
-Returns whether or not the passed camera handle exists.  
-```
+Looks up a camera handle in the current camera pool and returns `true` if the handle is found, otherwise it returns `false`.
 
 ## Parameters
-* **cam**: 
+* **cam**: The camera handle to look for.
 
 ## Return value
+A boolean value representing whether the camera exists or not.
