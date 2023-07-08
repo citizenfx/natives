@@ -8,15 +8,22 @@ ns: ENTITY
 int GET_ENTITY_TYPE(Entity entity);
 ```
 
-```
-Returns:
-0 = no entity
-1 = ped
-2 = vehicle
-3 = object
-```
+Gets the type of entity for a given entity.
 
 ## Parameters
 * **entity**: 
 
 ## Return value
+the entity type of the given entity as a integer.
+
+0 = no entity
+1 = ped
+2 = vehicle
+3 = object
+
+## Examples
+
+```lua
+local light = GetEntityModel(prop_streetlight_01)
+local lightType = GetEntityType(light)
+```

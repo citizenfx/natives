@@ -10,6 +10,7 @@ Hash GET_ENTITY_MODEL(Entity entity);
 
 Returns the model hash from an entity.
 
+
 ## Parameters
 * **entity**: The entity to get the model for.
 
