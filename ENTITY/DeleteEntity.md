@@ -19,8 +19,8 @@ Deletes the specified entity, and invalidates the passed handle (i.e. in/out arg
 
 ```lua
 local light = GetEntityModel(prop_streetlight_01)
-local lightEntity = CreateObject(lightEntity, 0, 0, 0, False, False, False)
-if DoesEntityExist(lightEntity) then
+local lightEntity = CreateObject(light, 0, 0, 0, False, False, False)
+if not DoesEntityExist(lightEntity) then return end
     DeleteEntity(lightEntity)
 end
 ```
