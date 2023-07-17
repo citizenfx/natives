@@ -24,6 +24,5 @@ the entity type of the given entity as a integer.
 ## Examples
 
 ```lua
-local light = GetEntityModel(prop_streetlight_01)
-local lightType = GetEntityType(light)
+local entityType = GetEntityType(PlayerPedId()) -- entityType should be '1'
 ```
