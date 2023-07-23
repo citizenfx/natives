@@ -10,21 +10,22 @@ void SET_FLOATING_HELP_TEXT_STYLE(int hudIndex, int style, int hudColor, int p3,
 ```
 
 ## Parameters
-* **hudIndex**: 
-* **style**: 0: No arrow at all. 1, 2 and -2 are all the same and displaying a arrow (if specified)
+* **hudIndex**: The hud index for the floating help message
+* **style**: Value 0 won't show an arrow at all. Values 1, 2 and -2 will display an arrow.
 * **hudColor**: https://docs.fivem.net/docs/game-references/hud-colors/
 * **p3**: No use case. Always 191 in R* scripts
-* **arrowPosition**: Used to set the arrow positon. Default is off
-* **boxOffset**: Offset for the floating help box. Important: Arrow stays fixed on its position
+* **arrowPosition**: Used to set the arrow positon. No value will hide the arrow
+* **boxOffset**: Offset for the floating help box. Note: Arrow stays fixed
 
 ## Arrow Positions
-0 = OFF  
-1 = TOP  
-2 = LEFT  
-3 = BOTTOM  
-4 = RIGHT  
+* 0 = Off / No arrow
+* 1 = Top
+* 2 = Left
+* 3 = Bottom
+* 4 = Right
 
-Note: anything above 4 will result in a right arrow
+### Note
+Any numeric value greater than 4 will result in a right arrow (Index 4)
 
 ## Important
 Needs to be called every frame
@@ -34,7 +35,7 @@ Needs to be called every frame
 function DisplayHelpText(string)
     BeginTextCommandDisplayHelp("STRING")
     AddTextComponentSubstringPlayerName(string)
-    EndTextCommandDisplayHelp(1, 0, 0, 0)
+    EndTextCommandDisplayHelp(1, false, false, 0)
 end
 
 CreateThread(function()
@@ -49,4 +50,4 @@ CreateThread(function()
     end
 end)
 ```
-![](https://derdevhd.live/media/example.png)
+![](todo)
