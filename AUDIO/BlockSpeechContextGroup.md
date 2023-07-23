@@ -1,11 +1,11 @@
 ---
 ns: AUDIO
 ---
-## BLOCK_​SPEECH_​CONTEXT_​GROUP
+## _BLOCK_​SPEECH_​CONTEXT_​GROUP
 
 ```c
 // 0xA8A7D434AFB4B97B
-void BLOCK_​SPEECH_​CONTEXT_​GROUP(char* p0, int p1);
+void _BLOCK_​SPEECH_​CONTEXT_​GROUP(char* p0, int p1);
 ```
 
 ```

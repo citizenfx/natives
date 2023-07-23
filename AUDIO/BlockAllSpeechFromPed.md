@@ -1,11 +1,11 @@
 ---
 ns: AUDIO
 ---
-## BLOCK_​ALL_​SPEECH_​FROM_​PED
+## _BLOCK_​ALL_​SPEECH_​FROM_​PED
 
 ```c
 // 0xF8AD2EED7C47E8FE
-void BLOCK_​ALL_​SPEECH_​FROM_​PED(Ped ped, BOOL p1, BOOL p2);
+void _BLOCK_​ALL_​SPEECH_​FROM_​PED(Ped ped, BOOL p1, BOOL p2);
 ```
 
 BL*
