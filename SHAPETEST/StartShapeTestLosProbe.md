@@ -23,6 +23,7 @@ enum TraceFlags
   IntersectWater = 32,
   Unknown = 128,
   IntersectFoliage = 256,
+  Unkown = 511, (used most)
   IntersectEverything = 4294967295
 }
 ```
