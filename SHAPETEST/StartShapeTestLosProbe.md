@@ -23,8 +23,8 @@ enum TraceFlags
   IntersectWater = 32,
   Unknown = 128,
   IntersectFoliage = 256,
-  Unkown = 511, (used most)
-  IntersectEverything = 4294967295
+  IntersectEverything = 511
+  IntersectEverything = -1
 }
 ```
 NOTE: Raycasts that intersect with mission_entites (flag = 2) has limited range and will not register for far away entites. The range seems to be about 30 metres.  
