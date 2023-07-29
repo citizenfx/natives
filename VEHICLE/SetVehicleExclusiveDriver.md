@@ -1,25 +1,18 @@
 ---
 ns: VEHICLE
-aliases: ["0x41062318F23ED854"]
+aliases: ["0xB5C51B5502E85E83", "_SET_VEHICLE_EXCLUSIVE_DRIVER_2"]
 ---
 ## SET_VEHICLE_EXCLUSIVE_DRIVER
 
 ```c
-// 0x41062318F23ED854 0xFF62D324
-void SET_VEHICLE_EXCLUSIVE_DRIVER(Vehicle vehicle, cs_type(Ped) BOOL toggle);
+// 0xB5C51B5502E85E83 0xAA8BD440
+void SET_VEHICLE_EXCLUSIVE_DRIVER(Vehicle vehicle, Ped ped, int index);
 ```
 
-Incorrectly named `SET_VEHICLE_EXCLUSIVE_DRIVER`; likely `SET_VEHICLE_ALLOW_*`.
-
-Toggles a flag related to `SET_VEHICLE_EXCLUSIVE_DRIVER`, however, doesn't enable that feature (or trigger script events related to it).
-
-See [`_SET_VEHICLE_EXCLUSIVE_DRIVER_2`](#_0xB5C51B5502E85E83).
-
-```
-NativeDB Removed Parameter 2: int index
-```
+The **actual** SET_VEHICLE_EXCLUSIVE_DRIVER native, not [`_SET_VEHICLE_ACTIVE_SOMETHING`](#_0x41062318F23ED854) native.
 
 ## Parameters
 * **vehicle**: 
-* **toggle**: 
+* **ped**: 
+* **index**: Exclusive driver index. Can be either 0 or 1.
 
