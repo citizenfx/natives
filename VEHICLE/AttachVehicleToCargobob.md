@@ -17,7 +17,7 @@ void ATTACH_VEHICLE_TO_CARGOBOB(Vehicle cargobob, Vehicle vehicle, int vehicleBo
 * **z**: z hook/magnet Offset
 
 
-## Example:
+## Examples
 ```lua
 function RequestVehicleModel(modelHash)
     if not IsModelInCdimage(modelHash) then return end
