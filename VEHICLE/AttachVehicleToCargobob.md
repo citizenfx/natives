@@ -19,6 +19,14 @@ void ATTACH_VEHICLE_TO_CARGOBOB(Vehicle cargobob, Vehicle vehicle, int vehicleBo
 
 LUA Example:
 ```lua
+function RequestVehicleModel(modelHash)
+    if not IsModelInCdimage(modelHash) then return end
+    RequestModel(modelHash)
+    while not HasModelLoaded(modelHash) do 
+      Wait(0)
+    end
+end
+
 RegisterCommand('spawnCargobob', function(source, args)
     local cargobobHash = `cargobob` 
     local carHash = `adder` 
@@ -31,10 +39,10 @@ RegisterCommand('spawnCargobob', function(source, args)
     SetHeliBladesSpeed(cargobob, 1.0) -- sets the helicoper blades to max spin speed
     SetPedIntoVehicle(myPed, cargobob, -1) -- sets the player into the cargobob
     SetModelAsNoLongerNeeded(cargobobHash) -- removes model from game memory as we no longer need it
+    CreatePickUpRopeForCargobob(cargobob, 1) -- 0 = hook, 1 = Magnet Enable rope from cargobob
 
     RequestVehicleModel(carHash)
     local vehicle = CreateVehicle(carHash, spawnCoords, GetEntityHeading(myPed), true, false) -- Spawns a vehicle for the cargobob to pickup
-    CreatePickUpRopeForCargobob(cargobob, 1) -- 0 = hook, 1 = Magnet Enable rope from cargobob
     SetModelAsNoLongerNeeded(carHash)
     Wait(1000)
     AttachVehicleToCargobob(cargobob, vehicle, GetEntityBoneIndexByName(vehicle, 'bodyshell'), 0.0, 0.0, 0.0) --Attach the vehicle to the magnet or hook, boneIndex vehicle bone (can also be false) | https://docs.fivem.net/natives/?_0xFB71170B7E76ACBA
