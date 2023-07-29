@@ -10,8 +10,8 @@ void ATTACH_VEHICLE_TO_CARGOBOB(Vehicle cargobob, Vehicle vehicle, int vehicleBo
 
 ## Parameters
 * **cargobob**: The cargobob
-* **vehicle**: The vehicle which should be attached
-* **vehicleBoneIndex**: A Vehicle bone the hook/magnet should attach to (Can also be false) https://docs.fivem.net/natives/?_0xFB71170B7E76ACBA
+* **vehicle**: The vehicle that will be attached
+* **vehicleBoneIndex**: A Vehicle bone the hook/magnet should attach to or -1 for none/default [GET_ENTITY_BONE_INDEX_BY_NAME](#_0xFB71170B7E76ACBA)
 * **x**: x hook/magnet Offset 
 * **y**: y hook/magnet Offset
 * **z**: z hook/magnet Offset
@@ -45,7 +45,7 @@ RegisterCommand('spawnCargobob', function(source, args)
     local vehicle = CreateVehicle(carHash, spawnCoords, GetEntityHeading(myPed), true, false) -- Spawns a vehicle for the cargobob to pickup
     SetModelAsNoLongerNeeded(carHash)
     Wait(1000)
-    AttachVehicleToCargobob(cargobob, vehicle, GetEntityBoneIndexByName(vehicle, 'bodyshell'), 0.0, 0.0, 0.0) --Attach the vehicle to the magnet or hook, boneIndex vehicle bone (can also be false) | https://docs.fivem.net/natives/?_0xFB71170B7E76ACBA
+    AttachVehicleToCargobob(cargobob, vehicle, GetEntityBoneIndexByName(vehicle, 'bodyshell'), 0.0, 0.0, 0.0) --Attach the vehicle to the magnet or hook
 end)
 ```
 
