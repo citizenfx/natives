@@ -10,8 +10,9 @@ void DISTANT_COP_CAR_SIRENS(BOOL value);
 ```
 
 ```
-If value is set to true, and ambient siren sound will be played.
+If value is set to true, an ambient siren sound will be played if another player is in a vehicle that has the emergency lights on, even if the vehicle has no actual siren.
 Appears to enable/disable an audio flag.
+Defaults to true.
 ```
 
 ## Parameters
