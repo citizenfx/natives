@@ -9,14 +9,30 @@ aliases: ["_SET_TEXT_ENTRY"]
 void BEGIN_TEXT_COMMAND_DISPLAY_TEXT(char* text);
 ```
 
-```
-The following were found in the decompiled script files:  
-STRING, TWOSTRINGS, NUMBER, PERCENTAGE, FO_TWO_NUM, ESMINDOLLA, ESDOLLA, MTPHPER_XPNO, AHD_DIST, CMOD_STAT_0, CMOD_STAT_1, CMOD_STAT_2, CMOD_STAT_3, DFLT_MNU_OPT, F3A_TRAFDEST, ES_HELP_SOC3  
-ESDOLLA   
-ESMINDOLLA - cash (negative)  
-Used to be known as _SET_TEXT_ENTRY  
-```
+Begin a new Text Command.
+Add the needed components with [ADD_TEXT_COMPONENT_SUBSTRING_PLAYER_NAME](#_0x6C188BE134E074AA) (and other ADD_TEXT_COMPONENT natives)
+
+To add a custom text entry see [ADD_TEXT_ENTRY](#_0x32CA01C3)
 
 ## Parameters
-* **text**: 
+* **text**: The gxtEntry to use
 
+
+## Examples
+
+```lua
+-- Display text with Text Entry
+AddTextEntry("HELLO_WORLD", "Hello World")
+
+SetTextFont(0)
+SetTextScale(0.0, 0.30)
+BegintTextCommandDisplayText("HELLO_WORLD")
+EndTextCommandDisplayText(0.3, 0.3)
+
+-- Display text with substring
+SetTextFont(0)
+SetTextScale(0.0, 0.30)
+BegintTextCommandDisplayText("STRING")
+AddTextComponentSubstringPlayerName("Hello World")
+EndTextCommandDisplayText(0.3, 0.3)
+```
