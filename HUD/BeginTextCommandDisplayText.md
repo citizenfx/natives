@@ -11,6 +11,7 @@ void BEGIN_TEXT_COMMAND_DISPLAY_TEXT(char* text);
 
 Begin a new Text Command.
 Add the needed components with [ADD_TEXT_COMPONENT_SUBSTRING_PLAYER_NAME](#_0x6C188BE134E074AA) (and other ADD_TEXT_COMPONENT natives)
+The Text components here refer to placeholders, see [content-formatting-codes](https://docs.fivem.net/docs/game-references/text-formatting/#content-formatting-codes)
 
 To add a custom text entry see [ADD_TEXT_ENTRY](#_0x32CA01C3)
 
