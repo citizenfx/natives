@@ -1,12 +1,12 @@
 ---
 ns: HUD
-aliases: ["0x7E17BE53E1AAABAF"]
+aliases: ["_GET_PAUSE_MENU_SELECTION_DATA", "0x7E17BE53E1AAABAF"]
 ---
-## _GET_PAUSE_MENU_SELECTION_DATA
+## GET_MENU_LAYOUT_CHANGED_EVENT_DETAILS
 
 ```c
 // 0x7E17BE53E1AAABAF 0x6025AA2F
-void _GET_PAUSE_MENU_SELECTION_DATA(int* lastItemMenuId, int* selectedItemMenuId, int* selectedItemUniqueId);
+void GET_MENU_LAYOUT_CHANGED_EVENT_DETAILS(int* lastItemMenuId, int* selectedItemMenuId, int* selectedItemUniqueId);
 ```
 
 ```
