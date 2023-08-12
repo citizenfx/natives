@@ -8,4 +8,4 @@ ns: HUD
 void DISABLE_FRONTEND_THIS_FRAME();
 ```
 
-Disables controls (199, 200) that trigger pause menu on or off.
+Makes the Pause Menu not listen to controls 199, 200 every frame this native is called, preventing it from opening or closing
