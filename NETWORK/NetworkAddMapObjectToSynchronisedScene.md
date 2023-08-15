@@ -6,22 +6,22 @@ aliases: ["0x45F35C0EDC33B03B"]
 
 ```c
 // 0x45F35C0EDC33B03B
-void _NETWORK_ADD_MAP_OBJECT_TO_SYNCHRONISED_SCENE(int netScene, Hash modelHash, float x, float y, float z, float p5, char* p6, float p7, float p8, int flags);
+void _NETWORK_ADD_MAP_OBJECT_TO_SYNCHRONISED_SCENE(int netScene, Hash modelHash, float x, float y, float z, cs_type(float) char* animDict, char* animName, float p7, float p8, int flags);
 ```
 
 Adds a map object/entity to a synchronised scene, by specifying it's hash.
 
 ## Parameters
-* **netScene**:
-* **modelHash**:
-* **x**:
-* **y**:
-* **z**:
-* **p5**:
-* **p6**:
+* **netScene**: net scene id, returned by NetworkCreateSynchronisedScene
+* **modelHash**: Object model hash
+* **x**: x coord
+* **y**: y coord
+* **z**: z coord
+* **animDict**: anim dictionary to play on this object
+* **animName**: anim name to play on this object
 * **p7**:
 * **p8**:
-* **flags**:
+* **flags**: Animation flags (See TaskPlayAnim)
 
 ## Examples
 ```lua
