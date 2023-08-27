@@ -6,10 +6,10 @@ aliases: ["_ENABLE_GAMEPLAY_CAM","_SET_FROZEN_RENDERING_DISABLED"]
 
 ```c
 // 0xDFC252D8A3E15AB7 0x30ADE541
-void TOGGLE_PAUSED_RENDERPHASES(BOOL toggle);
+void TOGGLE_PAUSED_RENDERPHASES(BOOL rendering);
 ```
 
+Freezes the screen in its current state.
 
 ## Parameters
-* **toggle**: 
-
+* **rendering**: Whether to actively render the camera
