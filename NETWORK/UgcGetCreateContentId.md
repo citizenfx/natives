@@ -6,7 +6,7 @@ aliases: ["0xC55A0B40FFB1ED23"]
 
 ```c
 // 0xC55A0B40FFB1ED23 0x82146BE9
-Any UGC_GET_CREATE_CONTENT_ID();
+char* UGC_GET_CREATE_CONTENT_ID();
 ```
 
 ## Return value
