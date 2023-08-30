@@ -9,18 +9,18 @@ aliases: ["0x45F35C0EDC33B03B"]
 void _NETWORK_ADD_MAP_OBJECT_TO_SYNCHRONISED_SCENE(int netScene, Hash modelHash, float x, float y, float z, cs_type(float) char* animDict, char* animName, float p7, float p8, int flags);
 ```
 
-Adds a map object/entity to a synchronised scene, by specifying it's hash.
+Adds a map object/entity to a synchronised scene.
 
 ## Parameters
-* **netScene**: net scene id, returned by NetworkCreateSynchronisedScene
-* **modelHash**: Object model hash
-* **x**: x coord
-* **y**: y coord
-* **z**: z coord
-* **animDict**: anim dictionary to play on this object
-* **animName**: anim name to play on this object
-* **p7**:
-* **p8**:
+* **netScene**: The net scene's ID, which is returned by NetworkCreateSynchronisedScene
+* **modelHash**: The object model's hash
+* **x**: x coordinate
+* **y**: y coordinate
+* **z**: z coordinate
+* **animDict**: The animation dictionary to play on this object
+* **animName**: The animation name to play on this object
+* **p7**: unknown, although gta seems to use 2.0
+* **p8**: unknown, although gta seems to use -1.5
 * **flags**: Animation flags (See TaskPlayAnim)
 
 ## Examples
