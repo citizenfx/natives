@@ -2,6 +2,7 @@
 ns: HUD
 aliases: ["0x25615540D894B814"]
 ---
+
 ## SET_RADIUS_BLIP_EDGE
 
 ```c
@@ -14,6 +15,14 @@ Enabling this on a radius blip will make it outline only. See https://cdn.discor
 ```
 
 ## Parameters
-* **blip**: 
-* **toggle**: 
 
+- **blip**: The actual blip id
+- **toggle**: Whether to turn off or on the effect
+
+## Example
+
+Assume that the `blip` variable is a blip created just above this example.
+
+```lua
+SetRadiusBlipEdge(blip, true)
+```
