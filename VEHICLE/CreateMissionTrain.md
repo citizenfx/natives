@@ -39,7 +39,7 @@ NativeDB Added Parameter 7: BOOL netMissionEntity
 ### Some train variations (default from trains.xml as of build 2372)
 * 17. Very long train and freight variation.
 * 18. Freight train only.
-* 25. Double metro train (with both models flipped opposite to each other). This used to be `24` before the 2372 build.
+* 26. Double metro train (with both models flipped opposite to each other). This used to be `25` before the 2802 build, it also used to be `24` before the 2372 build.
 
 ## Parameters
 * **variation**: The variation id, these can range from 0 to 25 as of build 2372.
