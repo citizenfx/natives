@@ -12,7 +12,7 @@ void ATTACH_CAM_TO_PED_BONE(Cam cam, Ped ped, int boneIndex, float xOffset, floa
 ## Parameters
 * **cam**: 
 * **ped**: 
-* **boneIndex**: 
+* **boneId**: 
 * **xOffset**: 
 * **yOffset**: 
 * **zOffset**: 
