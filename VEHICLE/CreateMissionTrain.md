@@ -42,7 +42,7 @@ NativeDB Added Parameter 7: BOOL netMissionEntity
 * 26. Double metro train (with both models flipped opposite to each other). This used to be `25` before the 2802 build, it also used to be `24` before the 2372 build.
 
 ## Parameters
-* **variation**: The variation id, these can range from 0 to 25 as of build 2372.
+* **variation**: The variation id, these can range from 0 to 26 as of build 2802 (previously `0-25` in build 2372 and `0-24` before that).
 * **x**: Spawn coordinate X component.
 * **y**: Spawn coordinate Y component.
 * **z**: Spawn coordinate Z component.
@@ -80,7 +80,7 @@ RegisterCommand("createtrain", function(source, args, rawCommand)
     if #args < 1 then
         TriggerEvent('chat:addMessage', {
             args = { 
-                'Error, provide a variation id, you can find those in trains.xml. Variations range from 0 to 25.'
+                'Error, provide a variation id, you can find those in trains.xml. Variations range from 0 to 26.'
             }
         })
         return
