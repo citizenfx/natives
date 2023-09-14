@@ -5,7 +5,7 @@ ns: TASK
 
 ```c
 // 0xAA5DC05579D60BD9 0x0D64C2FA
-void TASK_STEALTH_KILL(Ped killer, Ped target, Hash actionType, float p3, Any p4);
+void TASK_STEALTH_KILL(Ped killer, Ped target, Hash actionType, float p3, int p4);
 ```
 
 ```

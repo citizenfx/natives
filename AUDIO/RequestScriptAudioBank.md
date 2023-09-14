@@ -5,7 +5,7 @@ ns: AUDIO
 
 ```c
 // 0x2F844A8B08D76685 0x21322887
-BOOL REQUEST_SCRIPT_AUDIO_BANK(char* p0, BOOL p1);
+BOOL REQUEST_SCRIPT_AUDIO_BANK(char* audiobank, BOOL p1, Any p2);
 ```
 
 ```
@@ -17,7 +17,8 @@ NativeDB Added Parameter 3: int p2
 ```
 
 ## Parameters
-* **p0**: 
+* **audiobank**: 
 * **p1**: 
+* **p2**: 
 
 ## Return value

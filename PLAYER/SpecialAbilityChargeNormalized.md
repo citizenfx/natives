@@ -6,7 +6,7 @@ aliases: ["RESET_SPECIAL_ABILITY_CONTROLS_CINEMATIC"]
 
 ```c
 // 0xA0696A65F009EE18 0x8C7E68C1
-void SPECIAL_ABILITY_CHARGE_NORMALIZED(Player player, float normalizedValue, BOOL p2);
+void SPECIAL_ABILITY_CHARGE_NORMALIZED(Player player, float normalizedValue, BOOL ignoreActive, int abilitySlot);
 ```
 
 ```
@@ -21,5 +21,7 @@ NativeDB Added Parameter 4: Any p3
 ## Parameters
 * **player**: 
 * **normalizedValue**: 
-* **p2**: 
+* **ignoreActive**: 
+* **abilitySlot**: 
+
 

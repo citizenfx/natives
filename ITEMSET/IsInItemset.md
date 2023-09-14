@@ -5,7 +5,7 @@ ns: ITEMSET
 
 ```c
 // 0x2D0FC594D1E9C107 0x0D4B9730
-BOOL IS_IN_ITEMSET(Any p0, Any p1);
+BOOL IS_IN_ITEMSET(ScrHandle p0, ScrHandle p1);
 ```
 
 

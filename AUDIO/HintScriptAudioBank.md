@@ -5,7 +5,7 @@ ns: AUDIO
 
 ```c
 // 0xFB380A29641EC31A 0x41FA0E51
-Any HINT_SCRIPT_AUDIO_BANK(Any p0, int p1);
+Any HINT_SCRIPT_AUDIO_BANK(char* audiobank, BOOL p1, Any p2);
 ```
 
 ```
@@ -13,7 +13,8 @@ NativeDB Added Parameter 3: Any p2
 ```
 
 ## Parameters
-* **p0**: 
+* **audiobank**: 
 * **p1**: 
+* **p2**:
 
 ## Return value

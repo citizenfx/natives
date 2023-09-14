@@ -5,7 +5,7 @@ ns: TASK
 
 ```c
 // 0x6919A2F136426098
-void _TASK_WANDER_SPECIFIC(Any p0, Any p1, Any p2, Any p3);
+void _TASK_WANDER_SPECIFIC(Ped p0, char* p1, char* p2, float p3);
 ```
 
 ```

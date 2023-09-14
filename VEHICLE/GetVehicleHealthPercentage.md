@@ -6,7 +6,7 @@ aliases: ["_GET_VEHICLE_BODY_HEALTH_2"]
 
 ```c
 // 0xB8EF61207C2393A9 0x196BA503
-float GET_VEHICLE_HEALTH_PERCENTAGE(Vehicle vehicle);
+float GET_VEHICLE_HEALTH_PERCENTAGE(Vehicle vehicle, float maxEngineHealth, float maxPetrolTankHealth, float maxHealth, float maxMainRotorHealth, float maxRearRotorHealth, float maxTailBoomHealth);
 ```
 
 ```
@@ -20,5 +20,11 @@ NativeDB Added Parameter 7: float maxUnkHealth
 
 ## Parameters
 * **vehicle**: 
+* **maxEngineHealth**: 
+* **maxPetrolTankHealth**: 
+* **maxHealth**: 
+* **maxMainRotorHealth**: 
+* **maxRearRotorHealth**: 
+* **maxTailBoomHealth**: 
 
 ## Return value

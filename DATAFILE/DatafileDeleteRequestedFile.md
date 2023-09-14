@@ -6,10 +6,10 @@ aliases: ["0x8F5EA1C01D65A100"]
 
 ```c
 // 0x8F5EA1C01D65A100 0x9DB63CFF
-BOOL DATAFILE_DELETE_REQUESTED_FILE(Any p0);
+BOOL DATAFILE_DELETE_REQUESTED_FILE(int cloudRequestID);
 ```
 
 ## Parameters
-* **p0**: 
+* **cloudRequestID**: 
 
 ## Return value

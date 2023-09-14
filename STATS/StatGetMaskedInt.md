@@ -5,7 +5,7 @@ ns: STATS
 
 ```c
 // 0x655185A06D9EEAAB 0xE9D9B70F
-BOOL STAT_GET_MASKED_INT(Any p0, Any* p1, Any p2, Any p3, Any p4);
+BOOL STAT_GET_MASKED_INT(Hash p0, int* p1, int p2, int p3, Any p4);
 ```
 
 

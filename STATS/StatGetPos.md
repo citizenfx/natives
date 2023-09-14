@@ -5,7 +5,7 @@ ns: STATS
 
 ```c
 // 0x350F82CCB186AA1B 0xC846ECCE
-BOOL STAT_GET_POS(Any p0, Any* p1, Any* p2, Any* p3, Any p4);
+BOOL STAT_GET_POS(Hash p0, float* p1, float* p2, float* p3, int p4);
 ```
 
 

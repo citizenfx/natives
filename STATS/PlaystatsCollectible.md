@@ -5,7 +5,7 @@ ns: STATS
 
 ```c
 // 0xCD0A8A9338681CF2
-void _PLAYSTATS_COLLECTIBLE(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8, Any p9);
+void _PLAYSTATS_COLLECTIBLE(int p0, int p1, int p2, int p3, int p4, int p5, int p6, int p7, int p8, int p9, int p10);
 ```
 
 ```
@@ -23,3 +23,4 @@ NativeDB Introduced: v1734
 * **p7**:
 * **p8**:
 * **p9**:
+* **p10**: 

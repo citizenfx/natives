@@ -5,7 +5,7 @@ ns: TASK
 
 ```c
 // 0xBB106883F5201FC4 0x6345EC80
-void UPDATE_TASK_SWEEP_AIM_POSITION(Any p0, float p1, float p2, float p3);
+void UPDATE_TASK_SWEEP_AIM_POSITION(Ped p0, float p1, float p2, float p3);
 ```
 
 

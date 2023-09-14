@@ -5,7 +5,7 @@ ns: ENTITY
 
 ```c
 // 0x0DC7CABAB1E9B67E 0xC52F295B
-void SET_ENTITY_LOAD_COLLISION_FLAG(Entity entity, BOOL toggle);
+void SET_ENTITY_LOAD_COLLISION_FLAG(Entity entity, BOOL toggle, BOOL doDeadCheck);
 ```
 
 Loads collision grid for an entity spawned outside of a player's loaded area. This allows peds to execute tasks rather than sit dormant because of a lack of a physics grid.
@@ -19,4 +19,5 @@ NativeDB Added Parameter 3: Any p2
 ## Parameters
 * **entity**: 
 * **toggle**: 
+* **doDeadCheck**: default: TRUE
 

@@ -5,12 +5,16 @@ ns: AUDIO
 
 ```c
 // 0x1B7ABE26CBCBF8C7
-void _0x1B7ABE26CBCBF8C7(Ped ped, Any p1, Any p2);
+void _0x1B7ABE26CBCBF8C7(Ped ped, int p1, Hash voiceGroup);
 ```
 
+```
+SET_PED_RACE_AND_VOICE_GROUP
+SetPedRaceAndVoiceGroup
+```
 
 ## Parameters
 * **ped**: 
 * **p1**: 
-* **p2**: 
+* **voiceGroup**: 
 

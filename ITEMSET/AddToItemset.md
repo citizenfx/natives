@@ -5,7 +5,7 @@ ns: ITEMSET
 
 ```c
 // 0xE3945201F14637DD 0x6B0FE61B
-BOOL ADD_TO_ITEMSET(Any p0, Any p1);
+BOOL ADD_TO_ITEMSET(ScrHandle p0, ScrHandle p1);
 ```
 
 

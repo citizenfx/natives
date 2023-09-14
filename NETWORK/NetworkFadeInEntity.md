@@ -5,7 +5,7 @@ ns: NETWORK
 
 ```c
 // 0x1F4ED342ACEFE62D 0x9B9FCD02
-void NETWORK_FADE_IN_ENTITY(Entity entity, BOOL state);
+void NETWORK_FADE_IN_ENTITY(Entity entity, BOOL state, BOOL flash);
 ```
 
 ```
@@ -21,4 +21,4 @@ NativeDB Added Parameter 3: BOOL slow
 ## Parameters
 * **entity**: 
 * **state**: 
-
+* **flash**: default: true

@@ -6,10 +6,13 @@ aliases: ["0x36A7FD5A7194B03E"]
 
 ```c
 // 0x36A7FD5A7194B03E
-void _NETWORK_EARN_FROM_AUTOSHOP_BUSINESS(Any p0, Any p1);
+void _NETWORK_EARN_FROM_AUTOSHOP_BUSINESS(int p0, int p1);
 ```
 
 ```
+NETWORK_EARN_AUTOSHOP_BUSINESS
+NetworkEarnAutoshopBusiness
+
 NativeDB Introduced: v2372
 ```
 

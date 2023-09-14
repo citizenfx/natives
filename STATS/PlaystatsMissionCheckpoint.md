@@ -5,7 +5,7 @@ ns: STATS
 
 ```c
 // 0xC900596A63978C1D 0xCDC52280
-void PLAYSTATS_MISSION_CHECKPOINT(Any* p0, Any p1, Any p2, Any p3);
+void PLAYSTATS_MISSION_CHECKPOINT(char* p0, Any p1, Any p2, Any p3);
 ```
 
 

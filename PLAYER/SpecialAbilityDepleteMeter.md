@@ -5,7 +5,7 @@ ns: PLAYER
 
 ```c
 // 0x1D506DBBBC51E64B 0x9F80F6DF
-void SPECIAL_ABILITY_DEPLETE_METER(Player player, BOOL p1);
+void SPECIAL_ABILITY_DEPLETE_METER(Player player, BOOL ignoreActive, int abilitySlot);
 ```
 
 ```
@@ -18,5 +18,6 @@ NativeDB Added Parameter 3: Any p2
 
 ## Parameters
 * **player**: 
-* **p1**: 
+* **ignoreActive**: 
+* **abilitySlot**: 
 

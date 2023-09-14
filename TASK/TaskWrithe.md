@@ -5,7 +5,7 @@ ns: TASK
 
 ```c
 // 0xCDDC2B77CE54AC6E 0x0FDC54FC
-void TASK_WRITHE(Ped ped, Ped target, int time, int p3);
+void TASK_WRITHE(Ped ped, Ped target, int minFireLoops, int startState, BOOL forceShootOnGround, int shootFromGroundTimer);
 ```
 
 ```
@@ -16,6 +16,8 @@ NativeDB Added Parameter 6: Any p5
 ## Parameters
 * **ped**: 
 * **target**: 
-* **time**: 
-* **p3**: 
+* **minFireLoops**: 
+* **startState**: 
+* **forceShootOnGround**: 
+* **shootFromGroundTimer**: 
 

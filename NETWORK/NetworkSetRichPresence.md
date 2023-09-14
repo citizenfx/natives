@@ -5,7 +5,7 @@ ns: NETWORK
 
 ```c
 // 0x1DCCACDCFC569362 0x932A6CED
-void NETWORK_SET_RICH_PRESENCE(int p0, Any p1, Any p2, Any p3);
+void NETWORK_SET_RICH_PRESENCE(int presenceEnum, Any* data, Any sizeOfData, Any numFields);
 ```
 
 ```
@@ -14,8 +14,8 @@ Now that Discord supports Rich Presence, R* might finally implement this for PC.
 ```
 
 ## Parameters
-* **p0**: 
-* **p1**: 
-* **p2**: 
-* **p3**: 
+* **presenceEnum**: 
+* **data**: 
+* **sizeOfData**: 
+* **numFields**: 
 

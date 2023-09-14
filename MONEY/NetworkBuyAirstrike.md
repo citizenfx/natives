@@ -5,7 +5,7 @@ ns: MONEY
 
 ```c
 // 0x763B4BD305338F19 0x40470683
-void NETWORK_BUY_AIRSTRIKE(int cost, BOOL p1, BOOL p2);
+void NETWORK_BUY_AIRSTRIKE(int cost, BOOL p1, BOOL p2, int p3);
 ```
 
 ```
@@ -17,4 +17,5 @@ p2 = 1 (always)
 * **cost**: 
 * **p1**: 
 * **p2**: 
+* **p3**: 
 

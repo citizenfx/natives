@@ -5,7 +5,7 @@ ns: MISC
 
 ```c
 // 0x05983472F0494E60 0xBBC35B03
-BOOL CREATE_INCIDENT_WITH_ENTITY(int dispatchService, Ped ped, int numUnits, float radius, int* outIncidentID);
+BOOL CREATE_INCIDENT_WITH_ENTITY(int dispatchService, Ped ped, int numUnits, float time, int* outIncidentID, int overrideRelGroupHash, int assassinsLevel);
 ```
 
 ```
@@ -37,7 +37,9 @@ NativeDB Added Parameter 7: Any p6
 * **dispatchService**: 
 * **ped**: 
 * **numUnits**: 
-* **radius**: 
+* **time**: 
 * **outIncidentID**: 
+* **overrideRelGroupHash**: 
+* **assassinsLevel**: 
 
 ## Return value

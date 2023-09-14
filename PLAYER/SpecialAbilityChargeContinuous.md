@@ -5,7 +5,7 @@ ns: PLAYER
 
 ```c
 // 0xED481732DFF7E997 0x5FEE98A2
-void SPECIAL_ABILITY_CHARGE_CONTINUOUS(Player player, Ped p2);
+void SPECIAL_ABILITY_CHARGE_CONTINUOUS(Player player, BOOL ignoreActive, int abilitySlot);
 ```
 
 ```
@@ -18,5 +18,6 @@ NativeDB Added Parameter 3: Any p2
 
 ## Parameters
 * **player**: 
-* **p2**: 
+* **ignoreActive**: 
+* **abilitySlot**: 
 

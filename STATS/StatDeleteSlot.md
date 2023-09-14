@@ -5,11 +5,11 @@ ns: STATS
 
 ```c
 // 0x49A49BED12794D70 0x2F171B94
-Any STAT_DELETE_SLOT(Any p0);
+BOOL STAT_DELETE_SLOT(int slot);
 ```
 
 
 ## Parameters
-* **p0**: 
+* **slot**: 
 
 ## Return value

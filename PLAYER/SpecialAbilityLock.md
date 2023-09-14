@@ -5,7 +5,7 @@ ns: PLAYER
 
 ```c
 // 0x6A09D0D590A47D13 0x1B7BB388
-void SPECIAL_ABILITY_LOCK(Hash playerModel);
+void SPECIAL_ABILITY_LOCK(Hash playerModel, BOOL isArcadePlayer);
 ```
 
 ```
@@ -14,4 +14,5 @@ NativeDB Added Parameter 2: Any p1
 
 ## Parameters
 * **playerModel**: 
+* **isArcadePlayer**: 
 

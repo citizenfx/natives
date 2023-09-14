@@ -5,9 +5,13 @@ ns: NETWORK
 
 ```c
 // 0x8B4FFC790CA131EF
-Any _0x8B4FFC790CA131EF(Any p0, Any p1, Any p2, Any p3);
+Any _0x8B4FFC790CA131EF(int p0, int p1, int p2, int p3);
 ```
 
+```
+NETWORK_TRANSITION_START
+NetworkTransitionStart
+```
 
 ## Parameters
 * **p0**: 

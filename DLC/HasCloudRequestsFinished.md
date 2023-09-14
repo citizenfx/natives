@@ -6,7 +6,7 @@ aliases: ["_NULLIFY"]
 
 ```c
 // 0x46E2B844905BC5F0 0x6087C10C
-BOOL HAS_CLOUD_REQUESTS_FINISHED(cs_type(AnyPtr) BOOL* variable, Any unused);
+BOOL HAS_CLOUD_REQUESTS_FINISHED(cs_type(AnyPtr) BOOL* bTimedOut, int uWaitDuration);
 ```
 
 ```
@@ -15,7 +15,7 @@ Always returns true.
 ```
 
 ## Parameters
-* **variable**: 
-* **unused**: 
+* **bTimedOut**: 
+* **uWaitDuration**: timeout duration in ms
 
 ## Return value

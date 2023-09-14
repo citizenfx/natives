@@ -6,10 +6,12 @@ aliases: ["0x2ED61456317B8178"]
 
 ```c
 // 0x2ED61456317B8178 0x4E03F632
-void DATAFILE_STORE_MISSION_HEADER();
+void DATAFILE_STORE_MISSION_HEADER(int datafileIndex);
 ```
 
 ```
 NativeDB Added Parameter 1: int p0
 ```
 
+## Parameters
+* **datafileIndex**: 

@@ -5,7 +5,7 @@ ns: TASK
 
 ```c
 // 0x944F30DCB7096BDE 0xF5CA2A45
-void TASK_COMBAT_PED_TIMED(Any p0, Ped ped, int p2, Any p3);
+void TASK_COMBAT_PED_TIMED(Ped p0, Ped ped, int p2, int p3);
 ```
 
 

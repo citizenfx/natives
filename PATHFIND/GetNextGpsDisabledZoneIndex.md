@@ -6,7 +6,7 @@ aliases: ["0xD3A6A0EF48823A8C"]
 
 ```c
 // 0xD3A6A0EF48823A8C 0xBE92551F
-int GET_NEXT_GPS_DISABLED_ZONE_INDEX(int index);
+int GET_NEXT_GPS_DISABLED_ZONE_INDEX();
 ```
 
 Gets the next zone that has been disabled using SET_GPS_DISABLED_ZONE_AT_INDEX.

@@ -6,9 +6,12 @@ aliases: ["0x668FD40BCBA5DE48","_CLONE_PED_2"]
 
 ```c
 // 0x668FD40BCBA5DE48
-Ped _CLONE_PED_EX(Ped ped, cs_type(Any) float heading, cs_type(Any) BOOL isNetwork, cs_type(Any) BOOL bScriptHostPed, Any p4);
+Ped _CLONE_PED_EX(Ped ped, cs_type(Any) float heading, cs_type(Any) BOOL isNetwork, cs_type(Any) BOOL bScriptHostPed, BOOL p4);
 ```
 
+```
+CLONE_PED_ALT
+```
 Used one time in fmmc_launcher.c instead of CLONE_PED because ?
 
 ## Parameters

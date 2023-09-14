@@ -5,7 +5,7 @@ ns: GRAPHICS
 
 ```c
 // 0x3A618A217E5154F0 0xDD2BFC77
-void DRAW_RECT(float x, float y, float width, float height, int r, int g, int b, int a);
+void DRAW_RECT(float x, float y, float width, float height, int r, int g, int b, int a, BOOL bStereo);
 ```
 
 ```
@@ -34,4 +34,5 @@ NativeDB Added Parameter 9: BOOL p8
 * **g**: 
 * **b**: 
 * **a**: 
+* **bStereo**: default: FALSE
 

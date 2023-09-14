@@ -6,7 +6,7 @@ aliases: ["0xFFBE02CD385356BD"]
 
 ```c
 // 0xFFBE02CD385356BD
-BOOL _NETWORK_SPENT_BOSS();
+BOOL _NETWORK_SPENT_BOSS(int amount, bool fromBank, bool fromBankAndWallet);
 ```
 
 ```
@@ -14,5 +14,11 @@ NativeDB Added Parameter 1: int amount
 NativeDB Added Parameter 2: BOOL p1
 NativeDB Added Parameter 3: BOOL p2
 ```
+
+## Parameters
+* **amount**: 
+* **fromBank**: 
+* **fromBankAndWallet**: 
+
 
 ## Return value

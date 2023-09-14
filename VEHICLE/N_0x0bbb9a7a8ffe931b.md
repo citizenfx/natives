@@ -5,10 +5,13 @@ ns: VEHICLE
 
 ```c
 // 0x0BBB9A7A8FFE931B
-void _0x0BBB9A7A8FFE931B(Any p0, Any p1, Any p2);
+void _0x0BBB9A7A8FFE931B(Vehicle p0, int p1, float p2);
 ```
 
 ```
+SET_PLANE_SECTION_DAMAGE_SCALE
+SetPlaneSectionDamageScale
+
 NativeDB Introduced: v1290
 ```
 

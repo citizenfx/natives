@@ -5,7 +5,7 @@ ns: GRAPHICS
 
 ```c
 // 0xE7FFAE5EBF23D890 0x1FEC16B0
-void DRAW_SPRITE(char* textureDict, char* textureName, float screenX, float screenY, float width, float height, float heading, int red, int green, int blue, int alpha);
+void DRAW_SPRITE(char* textureDict, char* textureName, float screenX, float screenY, float width, float height, float heading, int red, int green, int blue, int alpha, BOOL doStereorize, BOOL useNearest);
 ```
 
 ```
@@ -36,4 +36,6 @@ NativeDB Added Parameter 12: BOOL p11
 * **green**: 
 * **blue**: 
 * **alpha**: 
+* **doStereorize**: 
+* **useNearest**: 
 

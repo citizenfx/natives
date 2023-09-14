@@ -5,7 +5,7 @@ ns: TASK
 
 ```c
 // 0x39246A6958EF072C 0xFFFE754E
-void TASK_SEEK_COVER_TO_COORDS(Ped ped, float x1, float y1, float z1, float x2, float y2, float z2, Any p7, BOOL p8);
+void TASK_SEEK_COVER_TO_COORDS(Ped ped, float x1, float y1, float z1, float x2, float y2, float z2, int p7, BOOL p8);
 ```
 
 ```

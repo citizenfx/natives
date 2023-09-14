@@ -5,7 +5,7 @@ ns: PLAYER
 
 ```c
 // 0xF733F45FA4497D93 0xF440C04D
-void SPECIAL_ABILITY_CHARGE_LARGE(Player player, BOOL p1, BOOL p2);
+void SPECIAL_ABILITY_CHARGE_LARGE(Player player, BOOL p1, BOOL p2, int abilitySlot);
 ```
 
 ```
@@ -20,4 +20,5 @@ NativeDB Added Parameter 4: Any p3
 * **player**: 
 * **p1**: 
 * **p2**: 
+* **abilitySlot**: 
 

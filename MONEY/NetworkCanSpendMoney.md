@@ -6,7 +6,7 @@ aliases: ["0xAB3CAA6B422164DA"]
 
 ```c
 // 0xAB3CAA6B422164DA 0x5AA379D9
-BOOL NETWORK_CAN_SPEND_MONEY(Any p0, BOOL p1, BOOL p2, BOOL p3, Any p4);
+BOOL NETWORK_CAN_SPEND_MONEY(int amount, BOOL fromBank, BOOL fromBankAndWallet, BOOL fromWalletAndBank, int character, BOOL evcOnly);
 ```
 
 ```
@@ -14,10 +14,11 @@ NativeDB Added Parameter 6: Any p5
 ```
 
 ## Parameters
-* **p0**: 
-* **p1**: 
-* **p2**: 
-* **p3**: 
-* **p4**: 
+* **amount**: 
+* **fromBank**: 
+* **fromBankAndWallet**: 
+* **fromWalletAndBank**:
+* **character**: 
+* **evcOnly**: 
 
 ## Return value

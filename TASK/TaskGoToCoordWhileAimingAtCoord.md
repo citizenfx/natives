@@ -5,7 +5,7 @@ ns: TASK
 
 ```c
 // 0x11315AB3385B8AC0 0x1552DC91
-void TASK_GO_TO_COORD_WHILE_AIMING_AT_COORD(Ped ped, float x, float y, float z, float aimAtX, float aimAtY, float aimAtZ, float moveSpeed, BOOL shoot, float p9, float p10, BOOL p11, Any flags, BOOL p13, Hash firingPattern);
+void TASK_GO_TO_COORD_WHILE_AIMING_AT_COORD(Ped ped, float x, float y, float z, float aimAtX, float aimAtY, float aimAtZ, float moveSpeed, BOOL shoot, float p9, float p10, BOOL p11, int flags, BOOL p13, Hash firingPattern);
 ```
 
 Will make the ped move to a coordinate while aiming (and optionally shooting) at given coordinates.

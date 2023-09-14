@@ -5,7 +5,7 @@ ns: MISC
 
 ```c
 // 0xC906A7DAB05C8D2B 0xA1BFD5E0
-BOOL GET_GROUND_Z_FOR_3D_COORD(float x, float y, float z, float* groundZ, BOOL ignoreWater);
+BOOL GET_GROUND_Z_FOR_3D_COORD(float x, float y, float z, float* groundZ, BOOL waterAsGround, BOOL ignoreDistToWaterLevelCheck);
 ```
 
 ```
@@ -21,6 +21,7 @@ NativeDB Added Parameter 6: BOOL p5
 * **y**: Position on the Y-axis to get ground elevation at.
 * **z**: Position on the Z-axis to get ground elevation at.
 * **groundZ**: The ground elevation at the specified position.
-* **ignoreWater**: 
+* **waterAsGround**: 
+* **ignoreDistToWaterLevelCheck**: 
 
 ## Return value

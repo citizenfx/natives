@@ -5,7 +5,7 @@ ns: VEHICLE
 
 ```c
 // 0xBB40DD2270B65366 0x388FDE9A
-Ped GET_PED_IN_VEHICLE_SEAT(Vehicle vehicle, int seatIndex);
+Ped GET_PED_IN_VEHICLE_SEAT(Vehicle vehicle, int seatIndex, BOOL considerPedUsingSeat);
 ```
 
 Gets the ped in the specified seat of the passed vehicle.
@@ -17,6 +17,7 @@ If there is no ped in the seat, and the game considers the vehicle as ambient po
 ## Parameters
 * **vehicle**: The vehicle to get the ped for.
 * **seatIndex**: See eSeatPosition declared in [`IS_VEHICLE_SEAT_FREE`](#_0x22AC59A870E6A669).
+* **considerPedUsingSeat**: default: false
 
 ## Return value
 A handle to a ped in the specified vehicle seat, or 0 if no such ped existed.

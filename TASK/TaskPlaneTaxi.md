@@ -6,7 +6,7 @@ aliases: ["0x92C360B5F15D2302"]
 
 ```c
 // 0x92C360B5F15D2302
-void _TASK_PLANE_TAXI(Ped pilot, Vehicle aircraft, Any p2, Any p3, Any p4, Any p5, Any p6);
+void _TASK_PLANE_TAXI(Ped pilot, Vehicle aircraft, float p2, float p3, float p4, float p5, float p6);
 ```
 
 ## Parameters

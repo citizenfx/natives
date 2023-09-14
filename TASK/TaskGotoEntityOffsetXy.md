@@ -5,7 +5,7 @@ ns: TASK
 
 ```c
 // 0x338E7EF52B6095A9 0xBC1E3D0A
-void TASK_GOTO_ENTITY_OFFSET_XY(Ped ped, Entity entity, int duration, float xOffset, float yOffset, float zOffset, float moveBlendRatio, BOOL useNavmesh);
+void TASK_GOTO_ENTITY_OFFSET_XY(Ped ped, Entity entity, int duration, float targetRadius, float xOffset, float yOffset, float moveBlendRatio, int offsetFlags);
 ```
 
 
@@ -13,9 +13,9 @@ void TASK_GOTO_ENTITY_OFFSET_XY(Ped ped, Entity entity, int duration, float xOff
 * **ped**: 
 * **entity**: 
 * **duration**: 
+* **targetRadius**: 
 * **xOffset**: 
 * **yOffset**: 
-* **zOffset**: 
 * **moveBlendRatio**: 
-* **useNavmesh**: 
+* **offsetFlags**: 
 

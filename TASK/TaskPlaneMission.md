@@ -5,7 +5,7 @@ ns: TASK
 
 ```c
 // 0x23703CD154E83B88 0x1D007E65
-void TASK_PLANE_MISSION(Ped pilot, Vehicle aircraft, Vehicle targetVehicle, Ped targetPed, float destinationX, float destinationY, float destinationZ, int missionFlag, float angularDrag, float unk, float targetHeading, float maxZ, float minZ);
+void TASK_PLANE_MISSION(Ped pilot, Vehicle aircraft, Vehicle targetVehicle, Ped targetPed, float destinationX, float destinationY, float destinationZ, int missionFlag, float angularDrag, float targetReached, float targetHeading, float maxZ, float minZ, BOOL precise);
 ```
 
 ```
@@ -66,8 +66,9 @@ NativeDB Added Parameter 14: Any p13
 * **destinationZ**: 
 * **missionFlag**: 
 * **angularDrag**: 
-* **unk**: 
+* **targetReached**: 
 * **targetHeading**: 
 * **maxZ**: 
 * **minZ**: 
+* **precise**: 
 

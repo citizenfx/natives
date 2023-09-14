@@ -5,7 +5,7 @@ ns: PATHFIND
 
 ```c
 // 0xFF071FB798B803B0 0x8BD5759B
-BOOL GET_CLOSEST_VEHICLE_NODE_WITH_HEADING(float x, float y, float z, Vector3* outPosition, float* outHeading, int nodeType, float p6, int p7);
+BOOL GET_CLOSEST_VEHICLE_NODE_WITH_HEADING(float x, float y, float z, Vector3* outPosition, float* outHeading, int nodeType, float zMeasureMult, float zMeasureTolerance);
 ```
 
 ```
@@ -37,7 +37,7 @@ C# Example (ins1de) : pastebin.com/fxtMWAHD
 * **outPosition**: 
 * **outHeading**: 
 * **nodeType**: 
-* **p6**: 
-* **p7**: 
+* **zMeasureMult**: 
+* **zMeasureTolerance**: 
 
 ## Return value

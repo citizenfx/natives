@@ -5,7 +5,7 @@ ns: TASK
 
 ```c
 // 0x83CDB10EA29B370B 0x3DDEB0E6
-void TASK_PLAY_ANIM_ADVANCED(Ped ped, char* animDict, char* animName, float posX, float posY, float posZ, float rotX, float rotY, float rotZ, float animEnterSpeed, float animExitSpeed, int duration, Any flag, float animTime, Any p14, Any p15);
+void TASK_PLAY_ANIM_ADVANCED(Ped ped, char* animDict, char* animName, float posX, float posY, float posZ, float rotX, float rotY, float rotZ, float animEnterSpeed, float animExitSpeed, int duration, int animFlags, float animTime, int rotOrder, int ikFlags);
 ```
 
 
@@ -28,8 +28,8 @@ It's similar to the one above, except the first 6 floats let you specify the ini
 * **animEnterSpeed**: Adjust character speed to fully enter animation
 * **animExitSpeed**: Adjust character speed to fully exit animation (useless `ClearPedTasksImmediately()` is called)
 * **duration**: Time in milliseconds
-* **flag**: 
+* **animFlags**: 
 * **animTime**: Value between 0.0 and 1.0, lets you start an animation from the given point
-* **p14**: 
-* **p15**: 
+* **rotOrder**: 
+* **ikFlags**: 
 

@@ -6,13 +6,13 @@ aliases: ["0xF9E1CCAE8BA4C281"]
 
 ```c
 // 0xF9E1CCAE8BA4C281 0x9EFBD5D1
-BOOL UGC_GET_FRIEND_CONTENT(Any p0, Any p1, Any* p2, Any* p3);
+BOOL UGC_GET_FRIEND_CONTENT(int offset, int max, char* contentType, int* descriptionsId);
 ```
 
 ## Parameters
-* **p0**: 
-* **p1**: 
-* **p2**: 
-* **p3**: 
+* **offset**: 
+* **max**: 
+* **contentType**: 
+* **descriptionsId**: 
 
 ## Return value

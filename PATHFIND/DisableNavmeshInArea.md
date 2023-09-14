@@ -5,16 +5,16 @@ ns: PATHFIND
 
 ```c
 // 0x4C8872D8CDBE1B8B 0x6E37F132
-void DISABLE_NAVMESH_IN_AREA(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6);
+void DISABLE_NAVMESH_IN_AREA(float minX, float minY, float minZ, float maxX, float maxY, float maxZ, BOOL state);
 ```
 
 
 ## Parameters
-* **p0**: 
-* **p1**: 
-* **p2**: 
-* **p3**: 
-* **p4**: 
-* **p5**: 
-* **p6**: 
+* **minX**: 
+* **minY**: 
+* **minZ**: 
+* **maxX**: 
+* **maxY**: 
+* **maxZ**: 
+* **state**: 
 

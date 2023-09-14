@@ -6,14 +6,14 @@ aliases: ["0x3311E47B91EDCBBC"]
 
 ```c
 // 0x3311E47B91EDCBBC 0x8F3F3A9C
-void APPLY_PED_BLOOD_BY_ZONE(Ped ped, Any p1, float p2, float p3, Any* p4);
+void APPLY_PED_BLOOD_BY_ZONE(Ped ped, int component, float u, float v, char* bloodName);
 ```
 
 
 ## Parameters
 * **ped**: 
-* **p1**: 
-* **p2**: 
-* **p3**: 
-* **p4**: 
+* **component**: 
+* **u**: 
+* **v**: 
+* **bloodName**: 
 

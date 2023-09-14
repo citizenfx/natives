@@ -5,7 +5,7 @@ ns: MONEY
 
 ```c
 // 0xE404BFB981665BF0 0xE792C4A5
-void NETWORK_SPENT_HIRE_MUGGER(Any p0, BOOL p1, BOOL p2);
+void NETWORK_SPENT_HIRE_MUGGER(Any p0, BOOL p1, BOOL p2, int p3);
 ```
 
 ```
@@ -18,4 +18,4 @@ p2 = 1
 * **p0**: 
 * **p1**: 
 * **p2**: 
-
+* **p3**: 

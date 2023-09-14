@@ -6,10 +6,10 @@ aliases: ["0xF8CC1EBE0B62E29F"]
 
 ```c
 // 0xF8CC1EBE0B62E29F 0x2A9411DA
-BOOL DATAFILE_HAS_VALID_FILE_DATA(Any p0);
+BOOL DATAFILE_HAS_VALID_FILE_DATA(int cloudRequestID);
 ```
 
 ## Parameters
-* **p0**: 
+* **cloudRequestID**: 
 
 ## Return value

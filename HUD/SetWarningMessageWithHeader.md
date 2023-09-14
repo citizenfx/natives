@@ -6,7 +6,7 @@ aliases: ["_SET_WARNING_MESSAGE_2"]
 
 ```c
 // 0xDC38CC1E35B6A5D7 0x2DB9EAB5
-void SET_WARNING_MESSAGE_WITH_HEADER(char* titleMsg, char* entryLine1, int flags, char* promptMsg, BOOL p4, Any p5, BOOL background, Any* p7, BOOL showBg);
+void SET_WARNING_MESSAGE_WITH_HEADER(char* titleMsg, char* entryLine1, int flags, char* promptMsg, BOOL insertNumber, int numberToInsert, char* firstSubStringTextLabel, char* secondSubStringTextLabel, BOOL showBg, int errorNum);
 ```
 
 ```
@@ -27,9 +27,10 @@ NativeDB Added Parameter 10: Any p9
 * **entryLine1**: 
 * **flags**: 
 * **promptMsg**: 
-* **p4**: 
-* **p5**: 
-* **background**: 
-* **p7**: 
+* **insertNumber**: 
+* **numberToInsert**: 
+* **firstSubStringTextLabel**: 
+* **secondSubStringTextLabel**: 
 * **showBg**: 
+* **errorNum**: 
 

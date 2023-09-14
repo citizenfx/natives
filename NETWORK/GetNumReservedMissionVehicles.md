@@ -5,7 +5,7 @@ ns: NETWORK
 
 ```c
 // 0xCF3A965906452031 0xA9A308F3
-int GET_NUM_RESERVED_MISSION_VEHICLES(BOOL p0);
+int GET_NUM_RESERVED_MISSION_VEHICLES(BOOL p0, int reservationTypes);
 ```
 
 ```
@@ -18,5 +18,6 @@ NativeDB Added Parameter 2: Any p1
 
 ## Parameters
 * **p0**: 
+* **reservationTypes**: 
 
 ## Return value

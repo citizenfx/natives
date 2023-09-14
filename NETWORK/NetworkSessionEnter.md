@@ -5,7 +5,7 @@ ns: NETWORK
 
 ```c
 // 0x330ED4D05491934F 0x543CD2BE
-Any NETWORK_SESSION_ENTER(Any p0, Any p1, Any p2, int maxPlayers, Any p4, Any p5);
+Any NETWORK_SESSION_ENTER(int p0, int p1, int p2, int maxPlayers, BOOL p4, BOOL p5);
 ```
 
 ```

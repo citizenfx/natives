@@ -6,10 +6,10 @@ aliases: ["0x3ED2B83AB2E82799"]
 
 ```c
 // 0x3ED2B83AB2E82799
-void _SET_PICKUP_HIDDEN_WHEN_UNCOLLECTABLE(Any p0, Any p1);
+void _SET_PICKUP_HIDDEN_WHEN_UNCOLLECTABLE(Pickup p0, BOOL state);
 ```
 
 ## Parameters
 * **p0**: 
-* **p1**: 
+* **state**: 
 

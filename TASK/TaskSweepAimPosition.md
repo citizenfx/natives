@@ -5,20 +5,20 @@ ns: TASK
 
 ```c
 // 0x7AFE8FDC10BC07D2 0x1683FE66
-void TASK_SWEEP_AIM_POSITION(Any p0, Any* p1, Any* p2, Any* p3, Any* p4, Any p5, float p6, float p7, float p8, float p9, float p10);
+void TASK_SWEEP_AIM_POSITION(Ped ped, char* animDictName, char* lowAnimName, char* medAnimName, char* highAnimName, int runTime, float x, float y, float z, float turnRate, float blendDuration);
 ```
 
 
 ## Parameters
-* **p0**: 
-* **p1**: 
-* **p2**: 
-* **p3**: 
-* **p4**: 
-* **p5**: 
-* **p6**: 
-* **p7**: 
-* **p8**: 
-* **p9**: 
-* **p10**: 
+* **ped**: 
+* **animDictName**: 
+* **lowAnimName**: 
+* **medAnimName**: 
+* **highAnimName**: 
+* **runTime**: 
+* **x**: 
+* **y**: 
+* **z**: 
+* **turnRate**: default: 1.57
+* **blendDuration**: default: 0.25
 

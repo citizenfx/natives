@@ -5,7 +5,7 @@ ns: AUDIO
 
 ```c
 // 0xBC9AE166038A5CEC 0x874BD6CB
-void PLAY_PAIN(Ped ped, int painID, int p1);
+void PLAY_PAIN(Ped ped, int painID, int p1, Any p3);
 ```
 
 **Warning**:
@@ -64,6 +64,7 @@ Below is a list of all the pain IDs (Asterisks indicate that sounds can play in 
 ## Parameters
 * **ped**: The ped entity.
 * **painID**: The pain id, max allowed id is 33.
+* **p3**: 
 
 ## Examples
 ```lua

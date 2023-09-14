@@ -6,7 +6,7 @@ aliases: ["0x52818819057F2B40"]
 
 ```c
 // 0x52818819057F2B40 0xA4D1B30E
-BOOL DATAFILE_SELECT_UGC_PLAYER_DATA(int p0);
+BOOL DATAFILE_SELECT_UGC_PLAYER_DATA(int p0, int datafileIndex);
 ```
 
 ```
@@ -15,5 +15,6 @@ NativeDB Added Parameter 2: Any p1
 
 ## Parameters
 * **p0**: 
+* **datafileIndex**: 
 
 ## Return value

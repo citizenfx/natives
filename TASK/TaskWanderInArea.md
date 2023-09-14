@@ -5,7 +5,7 @@ ns: TASK
 
 ```c
 // 0xE054346CA3A0F315 0xC6981FB9
-void TASK_WANDER_IN_AREA(Ped ped, float x, float y, float z, float radius, cs_type(float) int minimalLength, float timeBetweenWalks);
+void TASK_WANDER_IN_AREA(Ped ped, float x, float y, float z, float radius, float minimalLength, float timeBetweenWalks);
 ```
 Makes a ped wander/patrol around the specified area.
 

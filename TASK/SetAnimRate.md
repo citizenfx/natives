@@ -5,7 +5,7 @@ ns: TASK
 
 ```c
 // 0x032D49C5E359C847 0x6DB46584
-void SET_ANIM_RATE(Any p0, float p1, Any p2, BOOL p3);
+void SET_ANIM_RATE(Entity p0, float p1, int p2, BOOL p3);
 ```
 
 

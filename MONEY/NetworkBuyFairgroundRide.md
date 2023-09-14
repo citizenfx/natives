@@ -6,7 +6,7 @@ aliases: ["0x8A7B3952DD64D2B5"]
 
 ```c
 // 0x8A7B3952DD64D2B5 0xD9622D64
-void NETWORK_BUY_FAIRGROUND_RIDE(int amountSpent, Any p1, BOOL p2, BOOL p3);
+void NETWORK_BUY_FAIRGROUND_RIDE(int amountSpent, Any p1, BOOL p2, BOOL p3, int p4);
 ```
 
 ```
@@ -21,4 +21,4 @@ The last 3 parameters are,
 * **p1**: 
 * **p2**: 
 * **p3**: 
-
+* **p4**: 

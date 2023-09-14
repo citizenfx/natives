@@ -5,7 +5,7 @@ ns: ENTITY
 
 ```c
 // 0x6B9BBD38AB0796DF 0xEC024237
-void ATTACH_ENTITY_TO_ENTITY(Entity entity1, Entity entity2, int boneIndex, float xPos, float yPos, float zPos, float xRot, float yRot, float zRot, BOOL p9, BOOL useSoftPinning, BOOL collision, BOOL isPed, int rotationOrder, BOOL syncRot);
+void ATTACH_ENTITY_TO_ENTITY(Entity entity1, Entity entity2, int boneIndex, float xPos, float yPos, float zPos, float xRot, float yRot, float zRot, BOOL detachWhenDead, BOOL detachWhenRagdoll, BOOL collision, BOOL useBasicAttachIfPed, int rotationOrder, BOOL attachOffsetIsRelative, BOOL markAsNoLongerNeededWhenDetached);
 ```
 
 Attach an entity to the specified entity.
@@ -20,10 +20,11 @@ Attach an entity to the specified entity.
 * **xRot**: X-axis rotation.
 * **yRot**: Y-axis rotation.
 * **zRot**: Z-axis rotation.
-* **p9**: Unknown. Does not seem to have any effect.
-* **useSoftPinning**: If set to false attached entity will not detach when fixed.
+* **detachWhenDead**:
+* **detachWhenRagdoll**: If set to false attached entity will not detach when fixed.
 * **collision**: Controls collision between the two entities (FALSE disables collision).
-* **isPed**: Pitch doesnt work when false and roll will only work on negative numbers (only peds)
+* **useBasicAttachIfPed**: Pitch doesnt work when false and roll will only work on negative numbers (only peds)
 * **rotationOrder**: The order in which the rotation is applied. See [`GET_ENTITY_ROTATION`](#_0xAFBD61CC738D9EB9)
-* **syncRot**: If false it ignores entity rotation.
+* **attachOffsetIsRelative**: whether or not above offset is relative to the entity
+* **markAsNoLongerNeededWhenDetached**: 
 

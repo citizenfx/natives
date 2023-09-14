@@ -6,7 +6,7 @@ aliases: ["_LOAD_UGC_FILE"]
 
 ```c
 // 0xC5238C011AF405E4 0x660C468E
-BOOL DATAFILE_LOAD_OFFLINE_UGC(char* filename);
+BOOL DATAFILE_LOAD_OFFLINE_UGC(char* filename, int datafileIndex);
 ```
 
 ```
@@ -22,5 +22,6 @@ NativeDB Added Parameter 2: Any p1
 
 ## Parameters
 * **filename**: 
+* **datafileIndex**: 
 
 ## Return value

@@ -5,7 +5,7 @@ ns: TASK
 
 ```c
 // 0xAC96609B9995EDF8 0x61CFBCBF
-void TASK_TOGGLE_DUCK(BOOL p0, BOOL p1);
+void TASK_TOGGLE_DUCK(Ped p0, int p1);
 ```
 
 ```

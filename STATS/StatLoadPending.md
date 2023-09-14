@@ -5,11 +5,11 @@ ns: STATS
 
 ```c
 // 0xA1750FFAFA181661 0x4E9AC983
-BOOL STAT_LOAD_PENDING(Any p0);
+BOOL STAT_LOAD_PENDING(int slot);
 ```
 
 
 ## Parameters
-* **p0**: 
+* **slot**: 
 
 ## Return value

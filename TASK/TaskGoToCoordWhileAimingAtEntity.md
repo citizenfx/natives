@@ -5,7 +5,7 @@ ns: TASK
 
 ```c
 // 0xB2A16444EAD9AE47 0x9BD52ABD
-void TASK_GO_TO_COORD_WHILE_AIMING_AT_ENTITY(Any p0, float p1, float p2, float p3, Any p4, float p5, BOOL p6, float p7, float p8, BOOL p9, Any p10, BOOL p11, Any p12, Any p13);
+void TASK_GO_TO_COORD_WHILE_AIMING_AT_ENTITY(Ped p0, float p1, float p2, float p3, Entity p4, float p5, BOOL p6, float p7, float p8, BOOL p9, int p10, BOOL p11, Hash p12, int p13);
 ```
 
 

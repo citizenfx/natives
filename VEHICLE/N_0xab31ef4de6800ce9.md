@@ -5,7 +5,12 @@ ns: VEHICLE
 
 ```c
 // 0xAB31EF4DE6800CE9
-void _0xAB31EF4DE6800CE9(Any p0, Any p1);
+void _0xAB31EF4DE6800CE9(Vehicle p0, BOOL p1);
+```
+
+```
+SET_GOON_BOSS_VEHICLE
+SetGoonBossVehicle
 ```
 
 

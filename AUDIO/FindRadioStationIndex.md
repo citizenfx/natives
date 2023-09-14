@@ -5,7 +5,7 @@ ns: AUDIO
 
 ```c
 // 0x8D67489793FF428B 0xECA1512F
-int FIND_RADIO_STATION_INDEX(int stationNameHash);
+int FIND_RADIO_STATION_INDEX(Hash stationNameHash);
 ```
 
 

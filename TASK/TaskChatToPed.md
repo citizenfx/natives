@@ -5,7 +5,7 @@ ns: TASK
 
 ```c
 // 0x8C338E0263E4FD19 0xA2BE1821
-void TASK_CHAT_TO_PED(Ped ped, Ped target, Any p2, float p3, float p4, float p5, float p6, float p7);
+void TASK_CHAT_TO_PED(Ped ped, Ped target, int p2, float p3, float p4, float p5, float p6, float p7);
 ```
 
 ```

@@ -6,7 +6,7 @@ aliases: ["0x715135F4B82AC90D"]
 
 ```c
 // 0x715135F4B82AC90D 0xCEAE5AFC
-void REMOVE_ALL_STICKY_BOMBS_FROM_ENTITY(Entity entity);
+void REMOVE_ALL_STICKY_BOMBS_FROM_ENTITY(Entity entity, Ped owner);
 ```
 
 ```
@@ -19,4 +19,5 @@ NativeDB Added Parameter 2: Ped ped
 
 ## Parameters
 * **entity**: 
+* **owner**: default: NULL
 

@@ -6,7 +6,7 @@ aliases: ["0xD5BB406F4E04019F"]
 
 ```c
 // 0xD5BB406F4E04019F 0x2E51C61C
-void NETWORK_SPENT_NO_COPS(Any p0, BOOL p1, BOOL p2);
+void NETWORK_SPENT_NO_COPS(Any p0, BOOL p1, BOOL p2, int p3);
 ```
 
 
@@ -14,4 +14,4 @@ void NETWORK_SPENT_NO_COPS(Any p0, BOOL p1, BOOL p2);
 * **p0**: 
 * **p1**: 
 * **p2**: 
-
+* **p3**: 

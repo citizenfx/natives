@@ -5,7 +5,7 @@ ns: PATHFIND
 
 ```c
 // 0x45905BE8654AE067 0x928A4DEC
-BOOL GET_NTH_CLOSEST_VEHICLE_NODE_FAVOUR_DIRECTION(float x, float y, float z, float desiredX, float desiredY, float desiredZ, int nthClosest, Vector3* outPosition, float* outHeading, int nodetype, cs_type(Any) float p10, Any p11);
+BOOL GET_NTH_CLOSEST_VEHICLE_NODE_FAVOUR_DIRECTION(float x, float y, float z, float desiredX, float desiredY, float desiredZ, int nthClosest, Vector3* outPosition, float* outHeading, int nodetype, cs_type(Any) float p10, float p11);
 ```
 
 ```
