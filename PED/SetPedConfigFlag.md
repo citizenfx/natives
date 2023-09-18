@@ -471,8 +471,9 @@ enum ePedConfigFlags {
     CPED_CONFIG_FLAG_MutableForcedAim = 457,
     CPED_CONFIG_FLAG_DontChangeTargetFromMelee = 458
 }
-```
+
 Maximum value for flagId is 0x1CA (458) in b944.
+```
 
 ## Parameters
 * **ped**: 
