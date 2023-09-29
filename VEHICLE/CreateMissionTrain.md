@@ -58,7 +58,7 @@ A script handle (fwScriptGuid index) for the train, or 0 if the train failed to 
     Could also result in a game-crash when CreateMissionTrain is called without
     loading the train model needed for the variation before-hand.
 ]]
-function loadTrainModels()
+local function loadTrainModels()
     local trainsAndCarriages = {
         'freight', 'metrotrain', 'freightcont1', 'freightcar', 
         'freightcar2', 'freightcont2', 'tankercar', 'freightgrain'
@@ -91,9 +91,9 @@ RegisterCommand("createtrain", function(source, args, rawCommand)
      -- These coordinates were used for testing: 1438.98, 6405.92, 34.19
     CreateMissionTrain(
         tonumber(args[1]),
-        playerCoords.x, playerCoords.y, playerCoords.z,
-        true,
-        true,
+        playerCoords.x,
+        playerCoords.y,
+        playerCoords.z,
         true
     )
 end, false)
