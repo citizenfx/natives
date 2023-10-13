@@ -5,7 +5,7 @@ ns: TASK
 
 ```c
 // 0x79B258E397854D29 0xC829FAC9
-void TASK_EXIT_COVER(Any p0, Any p1, float p2, float p3, float p4);
+void TASK_EXIT_COVER(Ped p0, int p1, float p2, float p3, float p4);
 ```
 
 

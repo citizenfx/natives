@@ -5,7 +5,7 @@ ns: TASK
 
 ```c
 // 0x7AA80209BDA643EB 0xBEAF8F67
-void TASK_SHUFFLE_TO_NEXT_VEHICLE_SEAT(Ped ped, Vehicle vehicle);
+void TASK_SHUFFLE_TO_NEXT_VEHICLE_SEAT(Ped ped, Vehicle vehicle, BOOL useAltShuffle);
 ```
 
 ```
@@ -20,4 +20,4 @@ NativeDB Added Parameter 3: Any p2
 ## Parameters
 * **ped**: 
 * **vehicle**: 
-
+* **useAltShuffle**: 

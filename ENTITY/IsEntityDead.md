@@ -5,7 +5,7 @@ ns: ENTITY
 
 ```c
 // 0x5F9532F3B5CC2551 0xB6F7CBAC
-BOOL IS_ENTITY_DEAD(Entity entity);
+BOOL IS_ENTITY_DEAD(Entity entity, BOOL ignoreVehicleDrowningIfInvincible);
 ```
 
 ```
@@ -14,5 +14,6 @@ NativeDB Added Parameter 2: BOOL p1
 
 ## Parameters
 * **entity**: 
+* **ignoreVehicleDrowningIfInvincible**: 
 
 ## Return value

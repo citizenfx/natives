@@ -6,7 +6,7 @@ aliases: ["0xC819F3CBB62BF692","_RENDER_FIRST_PERSON_CAM"]
 
 ```c
 // 0xC819F3CBB62BF692 0xD3C08183
-void STOP_RENDERING_SCRIPT_CAMS_USING_CATCH_UP(BOOL render, float p1, int p2);
+void STOP_RENDERING_SCRIPT_CAMS_USING_CATCH_UP(BOOL shouldApplyAcrossAllThreads, float distanceToBlend, int blendType, Any renderingOptions);
 ```
 
 ```
@@ -18,7 +18,8 @@ NativeDB Added Parameter 4: Any p3
 ```
 
 ## Parameters
-* **render**: 
-* **p1**: 
-* **p2**: 
+* **shouldApplyAcrossAllThreads**: 
+* **distanceToBlend**: 
+* **blendType**: 
+* **renderingOptions**:
 

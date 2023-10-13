@@ -6,7 +6,7 @@ aliases: ["0x995A65F15F581359"]
 
 ```c
 // 0x995A65F15F581359 0xE6AAA0D5
-void NETWORK_SPENT_ROBBED_BY_MUGGER(int amount, BOOL p1, BOOL p2);
+void NETWORK_SPENT_ROBBED_BY_MUGGER(int amount, BOOL p1, BOOL p2, int p3);
 ```
 
 
@@ -14,4 +14,4 @@ void NETWORK_SPENT_ROBBED_BY_MUGGER(int amount, BOOL p1, BOOL p2);
 * **amount**: 
 * **p1**: 
 * **p2**: 
-
+* **p3**: 

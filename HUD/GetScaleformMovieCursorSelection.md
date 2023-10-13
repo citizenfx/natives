@@ -6,7 +6,13 @@ aliases: ["0x632B2940C67F4EA9"]
  
 ```c
 // 0x632B2940C67F4EA9
-BOOL _GET_SCALEFORM_MOVIE_CURSOR_SELECTION(int scaleformHandle, cs_type(Any*) bool* received, cs_type(Any*) int* selectionType, cs_type(Any*) int* context, int* slotIndex);
+BOOL _GET_SCALEFORM_MOVIE_CURSOR_SELECTION(int scaleformHandle, cs_type(Any*) bool* received, cs_type(Any*) int* selectionType, cs_type(Any*) int* context);
+```
+
+```
+Real Name:
+GET_MOUSE_EVENT
+GetMouseEvent
 ```
 
 Gets mouse selection data from scaleforms with mouse support. Must be checked every frame.
@@ -52,7 +58,6 @@ var success = GetScaleformMovieCursorSelection(scaleform.Handle, ref eventType, 
 * **received**: Returns a boolean indicating if the data was received successfully (in Lua).
 * **selectionType**: The type of MouseEvent specified above.
 * **context**: Context of the slot the mouse is hovering on.
-* **slotIndex**: Index of the slot the mouse is hovering on.
 
 ## Return value
-* **retVal** Returns true if MOUSE_EVENT callback from Scaleforms has been called.
+* Returns true if MOUSE_EVENT callback from Scaleforms has been called.

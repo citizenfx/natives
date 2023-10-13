@@ -6,7 +6,7 @@ aliases: ["0x4645DE9980999E93"]
 
 ```c
 // 0x4645DE9980999E93 0xDBB83E2B
-BOOL UGC_UPDATE_MISSION(char* contentId, char* contentName, char* description, char* tagsCsv, char* contentTypeName);
+BOOL UGC_UPDATE_MISSION(char* contentId, char* contentName, char* description, char* tagsCsv, char* contentTypeName, int datafileIndex);
 ```
 
 ```
@@ -19,5 +19,6 @@ NativeDB Added Parameter 6: Any p5
 * **description**: 
 * **tagsCsv**: 
 * **contentTypeName**: 
+* **datafileIndex**: 
 
 ## Return value

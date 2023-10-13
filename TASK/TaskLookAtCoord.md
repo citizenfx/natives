@@ -5,7 +5,7 @@ ns: TASK
 
 ```c
 // 0x6FA46612594F7973 0x7B784DD8
-void TASK_LOOK_AT_COORD(Entity entity, float x, float y, float z, cs_type(float) int duration, Any p5, Any p6);
+void TASK_LOOK_AT_COORD(Entity entity, float x, float y, float z, int duration, int p5, int p6);
 ```
 
 

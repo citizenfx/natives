@@ -5,7 +5,7 @@ ns: WEAPON
 
 ```c
 // 0x9541D3CF0D398F36 0x62F5987F
-Object CREATE_WEAPON_OBJECT(Hash weaponHash, int ammoCount, float x, float y, float z, BOOL showWorldModel, float scale, Any p7);
+Object CREATE_WEAPON_OBJECT(Hash weaponHash, int ammoCount, float x, float y, float z, BOOL createDefaultComponents, float scale, Hash modelName, BOOL registerAsNetworkObject, BOOL scriptHostObject);
 ```
 
 ```
@@ -23,8 +23,10 @@ NativeDB Added Parameter 10: Any p9
 * **x**: 
 * **y**: 
 * **z**: 
-* **showWorldModel**: 
+* **createDefaultComponents**: 
 * **scale**: 
-* **p7**: 
+* **modelName**: 
+* **registerAsNetworkObject**: 
+* **scriptHostObject**: 
 
 ## Return value

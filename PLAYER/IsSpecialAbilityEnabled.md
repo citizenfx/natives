@@ -5,7 +5,7 @@ ns: PLAYER
 
 ```c
 // 0xB1D200FE26AEF3CB 0xC01238CC
-BOOL IS_SPECIAL_ABILITY_ENABLED(Player player);
+BOOL IS_SPECIAL_ABILITY_ENABLED(Player player, int abilitySlot);
 ```
 
 ```
@@ -14,5 +14,6 @@ NativeDB Added Parameter 2: Any p1
 
 ## Parameters
 * **player**: 
+* **abilitySlot**: 
 
 ## Return value

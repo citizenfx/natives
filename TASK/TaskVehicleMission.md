@@ -5,7 +5,7 @@ ns: TASK
 
 ```c
 // 0x659427E0EF36BCDE 0x20609E56
-void TASK_VEHICLE_MISSION(Ped driver, Vehicle vehicle, Vehicle vehicleTarget, int missionType, float p4, Any p5, float p6, float p7, BOOL DriveAgainstTraffic);
+void TASK_VEHICLE_MISSION(Ped driver, Vehicle vehicle, Vehicle vehicleTarget, int missionType, float p4, int p5, float p6, float p7, BOOL DriveAgainstTraffic);
 ```
 
 ```

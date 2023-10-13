@@ -5,7 +5,7 @@ ns: TASK
 
 ```c
 // 0xED98E10B0AFCE4B4 0xF867F747
-Any SET_PED_WAYPOINT_ROUTE_OFFSET(Any p0, Any p1, Any p2, Any p3);
+Any SET_PED_WAYPOINT_ROUTE_OFFSET(Ped p0, float p1, float p2, float p3);
 ```
 
 

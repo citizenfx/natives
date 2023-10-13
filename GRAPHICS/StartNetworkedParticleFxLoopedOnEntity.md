@@ -6,7 +6,7 @@ aliases: ["0x6F60E89A7B64EE1D", "_START_PARTICLE_FX_LOOPED_ON_ENTITY_2"]
 
 ```c
 // 0x6F60E89A7B64EE1D 0x110752B2
-int START_NETWORKED_PARTICLE_FX_LOOPED_ON_ENTITY(char* effectName, Entity entity, float xOffset, float yOffset, float zOffset, float xRot, float yRot, float zRot, float scale, BOOL xAxis, BOOL yAxis, BOOL zAxis);
+int START_NETWORKED_PARTICLE_FX_LOOPED_ON_ENTITY(char* effectName, Entity entity, float xOffset, float yOffset, float zOffset, float xRot, float yRot, float zRot, float scale, BOOL xAxis, BOOL yAxis, BOOL zAxis, float r, float g, float b, BOOL terminateOnOwnerLeave);
 ```
 
 ```
@@ -33,5 +33,9 @@ NativeDB Added Parameter 16: Any p15
 * **xAxis**: 
 * **yAxis**: 
 * **zAxis**: 
+* **r**:
+* **g**:
+* **b**:
+* **terminateOnOwnerLeave**: 
 
 ## Return value

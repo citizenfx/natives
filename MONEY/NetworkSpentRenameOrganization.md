@@ -6,11 +6,11 @@ aliases: ["0xFC4EE00A7B3BFB76"]
 
 ```c
 // 0xFC4EE00A7B3BFB76
-void _NETWORK_SPENT_RENAME_ORGANIZATION(Any p0, Any p1, Any p2);
+void _NETWORK_SPENT_RENAME_ORGANIZATION(Any p0, Any p1, Any p2, int p3);
 ```
 
 ## Parameters
 * **p0**: 
 * **p1**: 
 * **p2**: 
-
+* **p3**: 

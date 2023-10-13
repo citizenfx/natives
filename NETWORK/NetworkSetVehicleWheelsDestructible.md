@@ -6,11 +6,12 @@ aliases: ["0x890E2C5ABED7236D"]
 
 ```c
 // 0x890E2C5ABED7236D
-void _NETWORK_SET_VEHICLE_WHEELS_DESTRUCTIBLE(Vehicle vehicle, BOOL toggle);
+void _NETWORK_SET_VEHICLE_WHEELS_DESTRUCTIBLE(Entity ent, BOOL toggle);
 ```
 
 ```
-Allow vehicle wheels to be destructible even when the Vehicle entity is invincible.
+NETWORK_TRIGGER_DAMAGE_EVENT_FOR_ZERO_DAMAGE
+NetworkTriggerDamageEventForZeroDamage
 ```
 
 ```
@@ -18,5 +19,5 @@ NativeDB Introduced: v1365
 ```
 
 ## Parameters
-* **vehicle**:
+* **ent**:
 * **toggle**:

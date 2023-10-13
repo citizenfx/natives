@@ -6,7 +6,7 @@ aliases: ["0x692D808C34A82143"]
 
 ```c
 // 0x692D808C34A82143 0xBB6321BD
-BOOL UGC_SET_PLAYER_DATA(char* contentId, float rating, char* contentTypeName);
+BOOL UGC_SET_PLAYER_DATA(char* contentId, float rating, char* contentTypeName, int datafileIndex);
 ```
 
 ```
@@ -17,5 +17,6 @@ NativeDB Added Parameter 4: Any p3
 * **contentId**: 
 * **rating**: 
 * **contentTypeName**: 
+* **datafileIndex**:
 
 ## Return value

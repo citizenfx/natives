@@ -5,7 +5,7 @@ ns: PATHFIND
 
 ```c
 // 0x80CA6A8B6C094CC4 0x7349C856
-BOOL GET_NTH_CLOSEST_VEHICLE_NODE_WITH_HEADING(float x, float y, float z, int nthClosest, Vector3* outPosition, float* heading, Any* unknown1, int unknown2, float unknown3, float unknown4);
+BOOL GET_NTH_CLOSEST_VEHICLE_NODE_WITH_HEADING(float x, float y, float z, int nthClosest, Vector3* outPosition, float* heading, int* unknown1, int unknown2, float unknown3, float unknown4);
 ```
 
 ```

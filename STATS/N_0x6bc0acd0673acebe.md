@@ -5,9 +5,13 @@ ns: STATS
 
 ```c
 // 0x6BC0ACD0673ACEBE
-void _0x6BC0ACD0673ACEBE(Any p0, int* valueA, int* valueB);
+void _0x6BC0ACD0673ACEBE(int p0, int* valueA, int* valueB);
 ```
 
+```
+GET_BOSS_GOON_UUID
+GetBossGoonUuid
+```
 
 ## Parameters
 * **p0**: 

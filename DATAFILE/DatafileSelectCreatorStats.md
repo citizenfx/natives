@@ -6,7 +6,7 @@ aliases: ["0x01095C95CD46B624"]
 
 ```c
 // 0x01095C95CD46B624 0xB8515B2F
-BOOL DATAFILE_SELECT_CREATOR_STATS(int p0);
+BOOL DATAFILE_SELECT_CREATOR_STATS(int p0, int datafileIndex);
 ```
 
 ```
@@ -15,5 +15,6 @@ NativeDB Added Parameter 2: Any p1
 
 ## Parameters
 * **p0**: 
+* **datafileIndex**: 
 
 ## Return value

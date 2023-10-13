@@ -5,7 +5,7 @@ ns: VEHICLE
 
 ```c
 // 0x63C6CCA8E68AE8C8 0xD4C2EAFD
-Vehicle CREATE_MISSION_TRAIN(int variation, float x, float y, float z, BOOL direction);
+Vehicle CREATE_MISSION_TRAIN(int variation, float x, float y, float z, BOOL direction, BOOL registerAsNetworkObj, BOOL scriptHostObj);
 ```
 
 Train models must be [requested](#_0x963D27A58DF860AC) before use. See trains.xml (located in `Grand Theft Auto V\update\update.rpf\common\data\levels\gta5\trains.xml`) for freight and metro variations.
@@ -47,6 +47,8 @@ NativeDB Added Parameter 7: BOOL netMissionEntity
 * **y**: Spawn coordinate Y component.
 * **z**: Spawn coordinate Z component.
 * **direction**: The direction in which the train will go (true or false)
+* **registerAsNetworkObj**: 
+* **scriptHostObj**: 
 
 ## Return value
 A script handle (fwScriptGuid index) for the train, or 0 if the train failed to be created.

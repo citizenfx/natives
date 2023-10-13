@@ -5,14 +5,17 @@ ns: ENTITY
 
 ```c
 // 0x61B6775E83C0DB6F 0xAED73ADD
-void REMOVE_FORCED_OBJECT(Any p0, Any p1, Any p2, Any p3, Any p4);
+void REMOVE_FORCED_OBJECT(float posX, float posY, float posZ, float radius, Hash modelHash);
 ```
 
+```
+Removes a previously created persistent force-to-object effect on map, if one exists and matches exactly
+```
 
 ## Parameters
-* **p0**: 
-* **p1**: 
-* **p2**: 
-* **p3**: 
-* **p4**: 
+* **posX**: 
+* **posY**: 
+* **posZ**: 
+* **radius**: 
+* **modelHash**: 
 

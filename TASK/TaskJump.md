@@ -5,7 +5,7 @@ ns: TASK
 
 ```c
 // 0x0AE4086104E067B1 0x0356E3CE
-void TASK_JUMP(Ped ped, BOOL unused);
+void TASK_JUMP(Ped ped, BOOL usePlayerLaunch, BOOL doSuperJump, BOOL useFullSuperJumpForce);
 ```
 
 ```
@@ -22,5 +22,7 @@ NativeDB Added Parameter 4: Any p3
 
 ## Parameters
 * **ped**: 
-* **unused**: 
+* **usePlayerLaunch**: 
+* **doSuperJump**: 
+* **useFullSuperJumpForce**: 
 

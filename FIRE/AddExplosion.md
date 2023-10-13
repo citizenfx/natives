@@ -5,7 +5,7 @@ ns: FIRE
 
 ```c
 // 0xE3AD2BDBAEE269AC 0x10AF5258
-void ADD_EXPLOSION(float x, float y, float z, int explosionType, float damageScale, BOOL isAudible, BOOL isInvisible, float cameraShake);
+void ADD_EXPLOSION(float x, float y, float z, int explosionType, float sizeScale, BOOL isAudible, BOOL isInvisible, float cameraShake, BOOL noDamage);
 ```
 
 ```
@@ -22,39 +22,39 @@ BOOL noDamage = false: damage || nodamage = true: no damage
 enum class eExplosionTag : uint32_t
 {
     DONTCARE = 0xFFFFFFFF,
-    GRENADE = 0,
-    GRENADELAUNCHER = 1,
-    STICKYBOMB = 2,
-    MOLOTOV = 3,
-    ROCKET = 4,
-    TANKSHELL = 5,
-    HI_OCTANE = 6,
-    CAR = 7,
-    PLANE = 8,
-    PETROL_PUMP = 9,
-    BIKE = 10,
-    DIR_STEAM = 11,
-    DIR_FLAME = 12,
-    DIR_WATER_HYDRANT = 13,
-    DIR_GAS_CANISTER = 14,
-    BOAT = 15,
-    SHIP_DESTROY = 16,
-    TRUCK = 17,
-    BULLET = 18,
-    SMOKEGRENADELAUNCHER = 19,
-    SMOKEGRENADE = 20,
-    BZGAS = 21,
-    FLARE = 22,
-    GAS_CANISTER = 23,
-    EXTINGUISHER = 24,
-    _0x988620B8 = 25,
+    EXP_TAG_GRENADE = 0,
+    EXP_TAG_GRENADELAUNCHER = 1,
+    EXP_TAG_STICKYBOMB = 2,
+    EXP_TAG_MOLOTOV = 3,
+    EXP_TAG_ROCKET = 4,
+    EXP_TAG_TANKSHELL= 5,
+    EXP_TAG_HI_OCTANE = 6,
+    EXP_TAG_CAR = 7,
+    EXP_TAG_PLANE = 8,
+    EXP_TAG_PETROL_PUMP = 9,
+    EXP_TAG_BIKE = 10,
+    EXP_TAG_DIR_STEAM = 11,
+    EXP_TAG_DIR_FLAME = 12,
+    EXP_TAG_DIR_WATER_HYDRANT = 13,
+    EXP_TAG_DIR_GAS_CANISTER = 14,
+    EXP_TAG_BOAT = 15,
+    EXP_TAG_SHIP_DESTROY = 16,
+    EXP_TAG_TRUCK = 17,
+    EXP_TAG_BULLET = 18,
+    EXP_TAG_SMOKE_GRENADE_LAUNCHER = 19,
+    EXP_TAG_SMOKE_GRENADE = 20,
+    EXP_TAG_BZGAS = 21,
+    EXP_TAG_FLARE = 22,
+    EXP_TAG_GAS_CANISTER = 23,
+    EXP_TAG_EXTINGUISHER = 24,
+    EXP_TAG_PROGRAMMABLEAR = 25,
     EXP_TAG_TRAIN = 26,
     EXP_TAG_BARREL = 27,
     EXP_TAG_PROPANE = 28,
     EXP_TAG_BLIMP = 29,
     EXP_TAG_DIR_FLAME_EXPLODE = 30,
     EXP_TAG_TANKER = 31,
-    PLANE_ROCKET = 32,
+    EXP_TAG_PLANE_ROCKET = 32,
     EXP_TAG_VEHICLE_BULLET = 33,
     EXP_TAG_GAS_TANK = 34,
     EXP_TAG_BIRD_CRAP = 35,
@@ -98,13 +98,14 @@ enum class eExplosionTag : uint32_t
     EXP_TAG_RCTANK_ROCKET = 73,
     EXP_TAG_BOMB_WATER = 74,
     EXP_TAG_BOMB_WATER_SECONDARY = 75,
-    _0xF728C4A9 = 76,
-    _0xBAEC056F = 77,
+    EXP_TAG_MINE_CNCSPIKE = 76,
+    EXP_TAG_BZGAS_MK2 = 77,
     EXP_TAG_FLASHGRENADE = 78,
     EXP_TAG_STUNGRENADE = 79,
-    _0x763D3B3B = 80,
+    EXP_TAG_CNC_KINETICRAM = 80,
     EXP_TAG_SCRIPT_MISSILE_LARGE = 81,
     EXP_TAG_SUBMARINE_BIG = 82,
+    EXP_TAG_EMPLAUNCHER_EMP = 83
 };
 ```
 
@@ -113,8 +114,9 @@ enum class eExplosionTag : uint32_t
 * **y**: 
 * **z**: 
 * **explosionType**: 
-* **damageScale**: 
-* **isAudible**: 
-* **isInvisible**: 
-* **cameraShake**: 
+* **sizeScale**: default: 0.5
+* **isAudible**: default: true
+* **isInvisible**: default: false
+* **cameraShake**: default: 1.0
+* **noDamage**: default: false
 

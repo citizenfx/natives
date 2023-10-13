@@ -5,7 +5,7 @@ ns: TASK
 
 ```c
 // 0x97A28E63F0BA5631 0xBAB4C0AE
-void TASK_USE_NEAREST_SCENARIO_CHAIN_TO_COORD_WARP(Any p0, float p1, float p2, float p3, float p4, Any p5);
+void TASK_USE_NEAREST_SCENARIO_CHAIN_TO_COORD_WARP(Ped p0, float p1, float p2, float p3, float p4, int p5);
 ```
 
 

@@ -6,7 +6,7 @@ aliases: ["0xC84527E235FCA219"]
 
 ```c
 // 0xC84527E235FCA219 0xF09157B0
-BOOL UGC_CREATE_CONTENT(char* data, cs_type(BOOL) int dataCount, char* contentName, char* description, char* tagsCsv, char* contentTypeName, BOOL publish);
+BOOL UGC_CREATE_CONTENT(char* data, cs_type(BOOL) int dataCount, char* contentName, char* description, char* tagsCsv, char* contentTypeName, BOOL publish, int datafileIndex);
 ```
 
 ```
@@ -21,5 +21,6 @@ NativeDB Added Parameter 8: Any p7
 * **tagsCsv**: 
 * **contentTypeName**: 
 * **publish**: 
+* **datafileIndex**: 
 
 ## Return value

@@ -5,7 +5,7 @@ ns: ENTITY
 
 ```c
 // 0x6B76DC1F3AE6E6A3 0xFBCD1831
-void SET_ENTITY_HEALTH(Entity entity, int health);
+void SET_ENTITY_HEALTH(Entity entity, int health, Entity instigatorIndex);
 ```
 
 health >= 0
@@ -14,11 +14,8 @@ male ped ~= 100 - 200
 
 female ped ~= 0 - 100
 
-```
-NativeDB Added Parameter 3: int p2
-```
-
 ## Parameters
 * **entity**: 
 * **health**: 
+* **instigatorIndex**: default: 0
 

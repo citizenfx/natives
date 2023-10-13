@@ -5,11 +5,11 @@ ns: CAM
 
 ```c
 // 0x0290F35C0AD97864 0x60B34FF5
-BOOL IS_CAM_SPLINE_PAUSED(Any p0);
+BOOL IS_CAM_SPLINE_PAUSED(Cam cam);
 ```
 
 
 ## Parameters
-* **p0**: 
+* **cam**: 
 
 ## Return value

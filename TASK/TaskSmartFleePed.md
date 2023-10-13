@@ -5,7 +5,7 @@ ns: TASK
 
 ```c
 // 0x22B0D0E37CCB840D 0xE52EB560
-void TASK_SMART_FLEE_PED(Ped ped, Ped fleeTarget, float distance, Any fleeTime, BOOL p4, BOOL p5);
+void TASK_SMART_FLEE_PED(Ped ped, Ped fleeTarget, float distance, int fleeTime, BOOL p4, BOOL p5);
 ```
 
 ```

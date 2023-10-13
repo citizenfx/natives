@@ -5,7 +5,7 @@ ns: PLAYER
 
 ```c
 // 0xB7B0870EB531D08D 0x72429998
-void SPECIAL_ABILITY_CHARGE_ABSOLUTE(Player player, int p1, BOOL p2);
+void SPECIAL_ABILITY_CHARGE_ABSOLUTE(Player player, int charge, BOOL ignoreActive, int abilitySlot);
 ```
 
 ```
@@ -18,6 +18,7 @@ NativeDB Added Parameter 4: Any p3
 
 ## Parameters
 * **player**: 
-* **p1**: 
-* **p2**: 
+* **charge**: 
+* **ignoreActive**: 
+* **abilitySlot**: 
 

@@ -5,7 +5,7 @@ ns: MISC
 
 ```c
 // 0xC0714D0A7EEECA54 0x39C1849A
-Any REGISTER_SAVE_HOUSE(float p0, float p1, float p2, float p3, Any* p4, Any p5, Any p6);
+Any REGISTER_SAVE_HOUSE(float p0, float p1, float p2, float p3, char* p4, int p5, Hash p6);
 ```
 
 

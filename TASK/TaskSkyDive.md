@@ -5,7 +5,7 @@ ns: TASK
 
 ```c
 // 0x601736CFE536B0A0 0xD3874AFA
-void TASK_SKY_DIVE(Ped ped);
+void TASK_SKY_DIVE(Ped ped, bool instant);
 ```
 
 ```
@@ -14,4 +14,5 @@ NativeDB Added Parameter 2: BOOL p1
 
 ## Parameters
 * **ped**: 
+* **instant**: 
 

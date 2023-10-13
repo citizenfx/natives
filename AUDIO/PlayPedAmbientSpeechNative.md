@@ -6,7 +6,7 @@ aliases: ["_PLAY_AMBIENT_SPEECH1"]
 
 ```c
 // 0x8E04FEDD28D42462 0x5C57B85D
-void PLAY_PED_AMBIENT_SPEECH_NATIVE(Ped ped, char* speechName, char* speechParam);
+void PLAY_PED_AMBIENT_SPEECH_NATIVE(Ped ped, char* speechName, char* speechParam, Any p3);
 ```
 
 Plays ambient speech; see also [`PLAY_PED_AMBIENT_SPEECH_AND_CLONE_NATIVE`](#_0xC6941B4A3A8FBBB9).
@@ -61,4 +61,5 @@ NativeDB Added Parameter 4: Any p3
 * **ped**: The ped to play the ambient speech.
 * **speechName**: Name of the speech to play, eg. "GENERIC_HI".
 * **speechParam**: 
+* **p3**: 
 

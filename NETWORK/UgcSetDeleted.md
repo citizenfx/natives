@@ -6,7 +6,7 @@ aliases: ["0xD05D1A6C74DA3498"]
 
 ```c
 // 0xD05D1A6C74DA3498 0x48CCC328
-BOOL UGC_SET_DELETED(Any* p0, BOOL p1, Any* p2);
+BOOL UGC_SET_DELETED(char* p0, BOOL p1, char* p2);
 ```
 
 

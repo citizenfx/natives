@@ -5,7 +5,7 @@ ns: TASK
 
 ```c
 // 0xC20E50AA46D09CA8 0xB8689B4E
-void TASK_ENTER_VEHICLE(Ped ped, Vehicle vehicle, int timeout, int seatIndex, float speed, int flag, Any p6);
+void TASK_ENTER_VEHICLE(Ped ped, Vehicle vehicle, int timeout, int seatIndex, float speed, int flag, char* overridenClipSet);
 ```
 
 ```
@@ -21,5 +21,5 @@ p6 is always 0
 * **seatIndex**: See eSeatPosition declared in [`IS_VEHICLE_SEAT_FREE`](#_0x22AC59A870E6A669).
 * **speed**: 
 * **flag**: 
-* **p6**: 
+* **overridenClipSet**: 
 

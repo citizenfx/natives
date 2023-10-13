@@ -5,13 +5,18 @@ ns: AUDIO
 
 ```c
 // 0xC8EDE9BDBCCBA6D4 0x55A21772
-void _0xC8EDE9BDBCCBA6D4(Any* p0, float p1, float p2, float p3);
+void _0xC8EDE9BDBCCBA6D4(char* audioEvent, float x, float y, float z);
+```
+
+```
+INIT_SYNCH_SCENE_AUDIO_WITH_POSITION
+InitSynchSceneAudioWithPosition
 ```
 
 
 ## Parameters
-* **p0**: 
-* **p1**: 
-* **p2**: 
-* **p3**: 
+* **audioEvent**: 
+* **x**: 
+* **y**: 
+* **z**: 
 

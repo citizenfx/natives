@@ -6,7 +6,7 @@ aliases: ["0xB782F8238512BAD5"]
 
 ```c
 // 0xB782F8238512BAD5 0xBA699DDF
-void SPAWNPOINTS_GET_SEARCH_RESULT_FLAGS(Any p0, Any* p1);
+void SPAWNPOINTS_GET_SEARCH_RESULT_FLAGS(int p0, int* p1);
 ```
 
 ## Parameters

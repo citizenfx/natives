@@ -5,7 +5,7 @@ ns: PED
 
 ```c
 // 0x697157CED63F18D4 0x4DC27FCF
-void APPLY_DAMAGE_TO_PED(Ped ped, int damageAmount, BOOL armorFirst);
+void APPLY_DAMAGE_TO_PED(Ped ped, int damageAmount, BOOL armorFirst, Entity instigator);
 ```
 
 ```
@@ -23,4 +23,5 @@ NativeDB Added Parameter 4: Any p3
 * **ped**: 
 * **damageAmount**: 
 * **armorFirst**: 
+* **instigator**: 
 

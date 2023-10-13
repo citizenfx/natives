@@ -5,7 +5,7 @@ ns: VEHICLE
 
 ```c
 // 0x49733E92263139D1 0xE14FDBA6
-BOOL SET_VEHICLE_ON_GROUND_PROPERLY(Vehicle vehicle);
+BOOL SET_VEHICLE_ON_GROUND_PROPERLY(Vehicle vehicle, float heightSampleRangeUp);
 ```
 
 ```
@@ -18,5 +18,6 @@ NativeDB Added Parameter 2: float p1
 
 ## Parameters
 * **vehicle**: 
+* **heightSampleRangeUp**: default: 5.0
 
 ## Return value

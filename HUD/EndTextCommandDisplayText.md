@@ -6,7 +6,7 @@ aliases: ["_DRAW_TEXT"]
 
 ```c
 // 0xCD015E5BB0D96A57 0x6F8350CE
-void END_TEXT_COMMAND_DISPLAY_TEXT(float x, float y);
+void END_TEXT_COMMAND_DISPLAY_TEXT(float x, float y, int stereo);
 ```
 
 ```
@@ -20,4 +20,4 @@ NativeDB Added Parameter 3: int p2
 ## Parameters
 * **x**: 
 * **y**: 
-
+* **stereo**: default: 0

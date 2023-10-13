@@ -5,10 +5,15 @@ ns: MONEY
 
 ```c
 // 0x700AF71AE615E6DD 0x7D4FD28C
-char* NETWORK_GET_STRING_BANK_WALLET_BALANCE();
+char* NETWORK_GET_STRING_BANK_WALLET_BALANCE(int character);
 ```
 
 ```
+NETWORK_GET_STRING_BANK_WALLET_BALANCE
+NetworkGetStringBankWalletBalance
+
 NativeDB Introduced: v323
 ```
 
+## Parameters
+* **character**: 

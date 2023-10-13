@@ -6,10 +6,13 @@ aliases: ["0x9E82F0F362881B29"]
 
 ```c
 // 0x9E82F0F362881B29
-BOOL _GET_GROUND_Z_FOR_3D_COORD_2(float x, float y, float z, float* groundZ, BOOL p4);
+BOOL _GET_GROUND_Z_FOR_3D_COORD_2(float x, float y, float z, float* groundZ, BOOL waterAsGround, BOOL ignoreDistToWaterLevelCheck);
 ```
 
 ```
+GET_GROUND_Z_EXCLUDING_OBJECTS_FOR_3D_COORD
+GetGroundZExcludingObjectsFor3DCoord
+
 NativeDB Added Parameter 6: BOOL p5
 ```
 
@@ -18,6 +21,7 @@ NativeDB Added Parameter 6: BOOL p5
 * **y**: 
 * **z**: 
 * **groundZ**: 
-* **p4**: 
+* **waterAsGround**: 
+* **ignoreDistToWaterLevelCheck**: 
 
 ## Return value

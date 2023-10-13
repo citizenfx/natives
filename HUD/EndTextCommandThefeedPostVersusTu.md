@@ -6,7 +6,7 @@ aliases: ["0xB6871B0555B02996"]
 
 ```c
 // 0xB6871B0555B02996 0x5E93FBFA
-int END_TEXT_COMMAND_THEFEED_POST_VERSUS_TU(char* ch1TXD, char* ch1TXN, int val1, char* ch2TXD, char* ch2TXN, int val2);
+int END_TEXT_COMMAND_THEFEED_POST_VERSUS_TU(char* ch1TXD, char* ch1TXN, int val1, char* ch2TXD, char* ch2TXN, int val2, int customColor1, int customColor2);
 ```
 
 ```
@@ -21,5 +21,7 @@ NativeDB Added Parameter 8: int hudColorIndex2
 * **ch2TXD**: 
 * **ch2TXN**: 
 * **val2**: 
+* **customColor1**: default: -1
+* **customColor2**: default: -1
 
 ## Return value

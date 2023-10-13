@@ -6,7 +6,7 @@ aliases: ["0xE3A7742E0B7A2F8B","_SHOOT_SINGLE_BULLET_BETWEEN_COORDS_PRESET_PARAM
 
 ```c
 // 0xE3A7742E0B7A2F8B 0x52ACCB7B
-void SHOOT_SINGLE_BULLET_BETWEEN_COORDS_IGNORE_ENTITY(float x1, float y1, float z1, float x2, float y2, float z2, int damage, BOOL p7, Hash weaponHash, Ped ownerPed, BOOL isAudible, BOOL isInvisible, float speed, Entity entity);
+void SHOOT_SINGLE_BULLET_BETWEEN_COORDS_IGNORE_ENTITY(float startX, float startY, float startZ, float endX, float endY, float endZ, int damage, BOOL perfectAccuracy, Hash weaponHash, Ped ownerPed, BOOL createTraceVfx, BOOL allowRumble, float speed, Entity ignoreEnt, Entity targetEnt);
 ```
 
 ```
@@ -18,18 +18,19 @@ NativeDB Added Parameter 15: Any p14
 ```
 
 ## Parameters
-* **x1**: 
-* **y1**: 
-* **z1**: 
-* **x2**: 
-* **y2**: 
-* **z2**: 
+* **startX**: 
+* **startY**: 
+* **startZ**: 
+* **endX**: 
+* **endY**: 
+* **endZ**: 
 * **damage**: 
-* **p7**: 
+* **perfectAccuracy**: 
 * **weaponHash**: 
 * **ownerPed**: 
-* **isAudible**: 
-* **isInvisible**: 
+* **createTraceVfx**: 
+* **allowRumble**: 
 * **speed**: 
-* **entity**: 
+* **ignoreEnt**: 
+* **targetEnt**: 
 

@@ -6,10 +6,10 @@ aliases: ["0x6C34F1208B8923FD"]
 
 ```c
 // 0x6C34F1208B8923FD 0x03287FD2
-Any NETWORK_GET_RESPAWN_RESULT_FLAGS(Any p0);
+Any NETWORK_GET_RESPAWN_RESULT_FLAGS(int resultIndex);
 ```
 
 ## Parameters
-* **p0**: 
+* **resultIndex**: 
 
 ## Return value

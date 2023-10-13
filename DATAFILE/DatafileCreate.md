@@ -5,10 +5,12 @@ ns: DATAFILE
 
 ```c
 // 0xD27058A1CA2B13EE 0x95F8A221
-void DATAFILE_CREATE();
+void DATAFILE_CREATE(int datafileIndex);
 ```
 
 ```
 NativeDB Added Parameter 1: int p0
 ```
 
+## Parameters
+* **datafileIndex**: 

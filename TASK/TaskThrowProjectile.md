@@ -5,7 +5,7 @@ ns: TASK
 
 ```c
 // 0x7285951DBF6B5A51 0xF65C20A7
-void TASK_THROW_PROJECTILE(Ped ped, float x, float y, float z);
+void TASK_THROW_PROJECTILE(Ped ped, float x, float y, float z, Entity ignoreCollisionEntity, BOOL createInvincibleProjectile);
 ```
 
 ```
@@ -28,4 +28,6 @@ NativeDB Added Parameter 6: Any p5
 * **x**: 
 * **y**: 
 * **z**: 
+* **ignoreCollisionEntity**: default: NULL
+* **createInvincibleProjectile**: default: FALSE
 

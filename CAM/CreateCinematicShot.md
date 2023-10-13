@@ -5,13 +5,21 @@ ns: CAM
 
 ```c
 // 0x741B0129D4560F31 0xAC494E35
-void CREATE_CINEMATIC_SHOT(Any p0, int p1, Any p2, Entity entity);
+void CREATE_CINEMATIC_SHOT(Hash shotType, int durationMS, Entity attachEnt, Entity lookAtEnt);
 ```
 
 
 ## Parameters
-* **p0**: 
-* **p1**: 
-* **p2**: 
-* **entity**: 
+* **shotType**: 
+* **durationMS**: 
+* **attachEnt**: 
+* **lookAtEnt**: 
+
+```
+ENUM SHOT_TYPE
+	SHOTTYPE_CAMERA_MAN = HASH("CAMERA_MAN_SHOT"),
+	SHOTTYPE_HELI_CHASE = HASH("HELI_CHASE_SHOT"),
+	SHOTTYPE_VEHICLE_MOUNTED_CAMERA = HASH("SCRIPT_CAR_MOUNTED_SHOT")
+ENDENUM
+```
 

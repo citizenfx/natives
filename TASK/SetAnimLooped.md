@@ -5,7 +5,7 @@ ns: TASK
 
 ```c
 // 0x70033C3CC29A1FF4 0x095D61A4
-void SET_ANIM_LOOPED(Any p0, BOOL p1, Any p2, BOOL p3);
+void SET_ANIM_LOOPED(Entity p0, BOOL p1, int p2, BOOL p3);
 ```
 
 

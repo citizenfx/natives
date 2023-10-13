@@ -5,11 +5,15 @@ ns: PED
 
 ```c
 // 0xEA9960D07DADCF10
-int _0xEA9960D07DADCF10(Any p0);
+int _0xEA9960D07DADCF10(int tint);
 ```
 
+```
+GET_DEFAULT_SECONDARY_TINT_FOR_CREATOR
+GetDefaultSecondaryTintForCreator
+```
 
 ## Parameters
-* **p0**: 
+* **tint**: 
 
 ## Return value

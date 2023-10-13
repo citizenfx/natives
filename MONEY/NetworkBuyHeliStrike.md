@@ -5,7 +5,7 @@ ns: MONEY
 
 ```c
 // 0x81AA4610E3FD3A69 0x047547D4
-void NETWORK_BUY_HELI_STRIKE(int cost, BOOL p1, BOOL p2);
+void NETWORK_BUY_HELI_STRIKE(int cost, BOOL p1, BOOL p2, int p3);
 ```
 
 ```
@@ -17,4 +17,4 @@ p2 = 1 (always)
 * **cost**: 
 * **p1**: 
 * **p2**: 
-
+* **p3**: 

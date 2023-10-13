@@ -6,10 +6,12 @@ aliases: ["0xE82728F0DE75D13A"]
 
 ```c
 // 0xE82728F0DE75D13A
-void _DRAW_MARKER_2(int type, float posX, float posY, float posZ, float dirX, float dirY, float dirZ, float rotX, float rotY, float rotZ, float scaleX, float scaleY, float scaleZ, int red, int green, int blue, int alpha, BOOL bobUpAndDown, BOOL faceCamera, int p19, BOOL rotate, char* textureDict, char* textureName, BOOL drawOnEnts, BOOL p24);
+void _DRAW_MARKER_2(int type, float posX, float posY, float posZ, float dirX, float dirY, float dirZ, float rotX, float rotY, float rotZ, float scaleX, float scaleY, float scaleZ, int red, int green, int blue, int alpha, BOOL bobUpAndDown, BOOL faceCamera, int rotOrder, BOOL rotate, char* textureDict, char* textureName, BOOL invert, BOOL usePreAlphaDepth, BOOL matchEntityRotOrder);
 ```
 
 ```
+DRAW_MARKER_EX
+
 NativeDB Added Parameter 26: BOOL p25
 ```
 
@@ -33,10 +35,10 @@ NativeDB Added Parameter 26: BOOL p25
 * **alpha**: 
 * **bobUpAndDown**: 
 * **faceCamera**: 
-* **p19**: 
+* **rotOrder**: 
 * **rotate**: 
 * **textureDict**: 
 * **textureName**: 
-* **drawOnEnts**: 
-* **p24**: 
-
+* **invert**: 
+* **usePreAlphaDepth**: 
+* **matchEntityRotOrder**:

@@ -5,7 +5,7 @@ ns: GRAPHICS
 
 ```c
 // 0xAA0008F3BBB8F416 0xE10198D5
-void SET_DRAW_ORIGIN(float x, float y, float z, Any p3);
+void SET_DRAW_ORIGIN(float x, float y, float z, BOOL is2D);
 ```
 
 Sets the on-screen drawing origin for draw-functions in world coordinates.
@@ -16,7 +16,7 @@ The effect can be reset by calling [`CLEAR_DRAW_ORIGIN`](#_0xFF0B610F6BE0D7AF) a
 * **x**: 
 * **y**: 
 * **z**: 
-* **p3**: 
+* **is2D**: 
 
 ## Examples
 ```cs

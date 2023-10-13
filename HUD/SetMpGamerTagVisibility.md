@@ -6,7 +6,7 @@ aliases: ["0x63BB75ABEDC1F6A0"]
 
 ```c
 // 0x63BB75ABEDC1F6A0 0xD41DF479
-void SET_MP_GAMER_TAG_VISIBILITY(int gamerTagId, int component, BOOL toggle);
+void SET_MP_GAMER_TAG_VISIBILITY(int gamerTagId, int component, BOOL toggle, BOOL evenInCars);
 ```
 
 ```c
@@ -53,4 +53,5 @@ NativeDB Added Parameter 4: Any p3
 * **gamerTagId**: 
 * **component**: 
 * **toggle**: 
+* **evenInCars**: 
 

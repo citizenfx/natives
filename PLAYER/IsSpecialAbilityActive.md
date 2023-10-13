@@ -5,7 +5,7 @@ ns: PLAYER
 
 ```c
 // 0x3E5F7FC85D854E15 0x1B17E334
-BOOL IS_SPECIAL_ABILITY_ACTIVE(Player player);
+BOOL IS_SPECIAL_ABILITY_ACTIVE(Player player, int abilitySlot);
 ```
 
 ```
@@ -14,5 +14,6 @@ NativeDB Added Parameter 2: Any p1
 
 ## Parameters
 * **player**: 
+* **abilitySlot**: 
 
 ## Return value

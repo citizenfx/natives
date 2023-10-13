@@ -6,7 +6,7 @@ aliases: ["0x49DA8145672B2725"]
 
 ```c
 // 0x49DA8145672B2725
-void _ACTIVATE_ROCKSTAR_EDITOR();
+void _ACTIVATE_ROCKSTAR_EDITOR(int openedFromSource);
 ```
 
 Please note that you will need to call DO_SCREEN_FADE_IN after exiting the Rockstar Editor when you call this.
@@ -15,3 +15,6 @@ Please note that you will need to call DO_SCREEN_FADE_IN after exiting the Rocks
 NativeDB Added Parameter 1: int p0
 ```
 
+
+## Parameters
+* **openedFromSource**: default: 1

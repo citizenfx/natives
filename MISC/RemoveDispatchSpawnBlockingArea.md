@@ -5,10 +5,10 @@ ns: MISC
 
 ```c
 // 0x264AC28B01B353A5 0xA8D2FB92
-void REMOVE_DISPATCH_SPAWN_BLOCKING_AREA(Any p0);
+void REMOVE_DISPATCH_SPAWN_BLOCKING_AREA(int index);
 ```
 
 
 ## Parameters
-* **p0**: 
+* **index**: 
 

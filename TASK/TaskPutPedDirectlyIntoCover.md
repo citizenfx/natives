@@ -5,7 +5,7 @@ ns: TASK
 
 ```c
 // 0x4172393E6BE1FECE 0xC9F00E68
-void TASK_PUT_PED_DIRECTLY_INTO_COVER(Ped ped, float x, float y, float z, Any timeout, BOOL p5, float p6, BOOL p7, BOOL p8, Any p9, BOOL p10);
+void TASK_PUT_PED_DIRECTLY_INTO_COVER(Ped ped, float x, float y, float z, int timeout, BOOL p5, float p6, BOOL p7, BOOL p8, int p9, BOOL p10);
 ```
 
 

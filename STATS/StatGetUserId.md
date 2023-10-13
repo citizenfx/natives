@@ -5,7 +5,7 @@ ns: STATS
 
 ```c
 // 0x2365C388E393BBE2 0xE2E8B6BA
-char* STAT_GET_USER_ID(Any p0);
+char* STAT_GET_USER_ID(Hash p0);
 ```
 
 ```

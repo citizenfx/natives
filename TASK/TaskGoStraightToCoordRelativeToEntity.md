@@ -5,7 +5,7 @@ ns: TASK
 
 ```c
 // 0x61E360B7E040D12E 0xD26CAC68
-void TASK_GO_STRAIGHT_TO_COORD_RELATIVE_TO_ENTITY(Entity entity1, Entity entity2, float p2, float p3, float p4, float p5, Any p6);
+void TASK_GO_STRAIGHT_TO_COORD_RELATIVE_TO_ENTITY(Ped entity1, Entity entity2, float p2, float p3, float p4, float p5, int time);
 ```
 
 
@@ -16,5 +16,5 @@ void TASK_GO_STRAIGHT_TO_COORD_RELATIVE_TO_ENTITY(Entity entity1, Entity entity2
 * **p3**: 
 * **p4**: 
 * **p5**: 
-* **p6**: 
+* **time**: 
 

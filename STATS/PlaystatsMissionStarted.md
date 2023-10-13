@@ -5,7 +5,7 @@ ns: STATS
 
 ```c
 // 0xC19A2925C34D2231 0x3AAB699C
-void PLAYSTATS_MISSION_STARTED(Any* p0, Any p1, Any p2, BOOL p3);
+void PLAYSTATS_MISSION_STARTED(char* p0, Any p1, Any p2, BOOL p3);
 ```
 
 

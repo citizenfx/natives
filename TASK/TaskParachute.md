@@ -5,7 +5,7 @@ ns: TASK
 
 ```c
 // 0xD2F1C53C97EE81AB 0xEC3060A2
-void TASK_PARACHUTE(Ped ped, BOOL p1);
+void TASK_PARACHUTE(Ped ped, BOOL giveParachuteItem, BOOL instant);
 ```
 
 ```
@@ -20,5 +20,6 @@ NativeDB Added Parameter 3: BOOL p2
 
 ## Parameters
 * **ped**: 
-* **p1**: 
+* **giveParachuteItem**: 
+* **instant**: 
 

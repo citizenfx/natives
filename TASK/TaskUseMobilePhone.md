@@ -5,7 +5,7 @@ ns: TASK
 
 ```c
 // 0xBD2A8EC3AF4DE7DB 0x225A38C8
-void TASK_USE_MOBILE_PHONE(Ped ped, int p1);
+void TASK_USE_MOBILE_PHONE(Ped ped, BOOL usePhone, int phoneMode);
 ```
 
 ```
@@ -21,5 +21,6 @@ NativeDB Added Parameter 3: Any p2
 
 ## Parameters
 * **ped**: 
-* **p1**: 
+* **usePhone**: 
+* **phoneMode**: 
 

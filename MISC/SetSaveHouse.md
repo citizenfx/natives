@@ -5,7 +5,7 @@ ns: MISC
 
 ```c
 // 0x4F548CABEAE553BC 0xC3240BB4
-void SET_SAVE_HOUSE(Any p0, BOOL p1, BOOL p2);
+void SET_SAVE_HOUSE(int p0, BOOL p1, BOOL p2);
 ```
 
 

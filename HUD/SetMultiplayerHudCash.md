@@ -5,7 +5,7 @@ ns: HUD
 
 ```c
 // 0xFD1D220394BCB824 0xA8DB435E
-void SET_MULTIPLAYER_HUD_CASH(int p0, int p1);
+void SET_MULTIPLAYER_HUD_CASH(int p0, BOOL p1);
 ```
 
 **This native does absolutely nothing, just a nullsub**

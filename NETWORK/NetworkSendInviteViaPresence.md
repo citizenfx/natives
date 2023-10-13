@@ -6,7 +6,7 @@ aliases: ["0xC3C7A6AFDB244624","_NETWORK_SEND_PRESENCE_INVITE"]
 
 ```c
 // 0xC3C7A6AFDB244624 0x8B99B72B
-BOOL NETWORK_SEND_INVITE_VIA_PRESENCE(int* networkHandle, Any* p1, Any p2, Any p3);
+BOOL NETWORK_SEND_INVITE_VIA_PRESENCE(int* networkHandle, char* p1, int p2, int p3);
 ```
 
 ## Parameters

@@ -5,10 +5,13 @@ ns: MOBILE
 
 ```c
 // 0xA2CCBE62CD4C91A4 0xC273BB4D
-void _0xA2CCBE62CD4C91A4(int* toggle);
+void _0xA2CCBE62CD4C91A4(BOOL toggle);
 ```
 
 ```
+CELL_CAM_ACTIVATE_SHALLOW_DOF_MODE
+CellCamActivateShallowDofMode
+
 Needs more research. If the "phone_cam12" filter is applied, this function is called with "TRUE"; otherwise, "FALSE".
 Example (XBOX 360):
 // check current filter selection

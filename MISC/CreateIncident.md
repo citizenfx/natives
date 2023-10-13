@@ -5,7 +5,7 @@ ns: MISC
 
 ```c
 // 0x3F892CAF67444AE7 0xFC5FF7B3
-BOOL CREATE_INCIDENT(int dispatchService, float x, float y, float z, int numUnits, float radius, int* outIncidentID);
+BOOL CREATE_INCIDENT(int dispatchService, float x, float y, float z, int numUnits, float time, int* outIncidentID, int overrideRelGroupHash, int assassinsLevel);
 ```
 
 ```
@@ -35,7 +35,9 @@ NativeDB Added Parameter 9: Any p8
 * **y**: 
 * **z**: 
 * **numUnits**: 
-* **radius**: 
+* **time**: 
 * **outIncidentID**: 
+* **overrideRelGroupHash**: 
+* **assassinsLevel**: 
 
 ## Return value

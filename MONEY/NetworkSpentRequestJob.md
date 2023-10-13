@@ -6,7 +6,7 @@ aliases: ["0x8204DA7934DF3155"]
 
 ```c
 // 0x8204DA7934DF3155 0xD57A5125
-void NETWORK_SPENT_REQUEST_JOB(Any p0, BOOL p1, BOOL p2);
+void NETWORK_SPENT_REQUEST_JOB(Any p0, BOOL p1, BOOL p2, int p3);
 ```
 
 
@@ -14,4 +14,4 @@ void NETWORK_SPENT_REQUEST_JOB(Any p0, BOOL p1, BOOL p2);
 * **p0**: 
 * **p1**: 
 * **p2**: 
-
+* **p3**: 

@@ -5,9 +5,13 @@ ns: STATS
 
 ```c
 // 0x7BBB1B54583ED410 0x2CBAA739
-BOOL STAT_SET_MASKED_INT(Hash statName, Any p1, Any p2, int p3, BOOL save);
+BOOL STAT_SET_MASKED_INT(Hash statName, int p1, int p2, int p3, BOOL save);
 ```
 
+```
+STAT_SET_MASKED_INT
+StatSetMaskedInt
+```
 
 ## Parameters
 * **statName**: 

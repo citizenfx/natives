@@ -5,11 +5,15 @@ ns: GRAPHICS
 
 ```c
 // 0x82ACC484FFA3B05F
-Any _0x82ACC484FFA3B05F(Any p0);
+BOOL _0x82ACC484FFA3B05F(Vehicle veh);
 ```
 
+```
+ABORT_VEHICLE_CREW_EMBLEM_REQUEST
+AbortVehicleCrewEmblemRequest
+```
 
 ## Parameters
-* **p0**: 
+* **veh**: 
 
 ## Return value

@@ -6,10 +6,12 @@ aliases: ["0xC116FF9B4D488291"]
 
 ```c
 // 0xC116FF9B4D488291 0x877C0E1C
-BOOL _NETWORK_SEND_PRESENCE_TRANSITION_INVITE(Any* p0, Any* p1, Any p2, Any p3);
+BOOL _NETWORK_SEND_PRESENCE_TRANSITION_INVITE(int* p0, char* p1, int p2, int p3);
 ```
 
 ```
+NETWORK_SEND_TRANSITION_INVITE_VIA_PRESENCE
+
 String "NETWORK_SEND_PRESENCE_TRANSITION_INVITE" is contained in the function in ida so this one is correct.  
 ```
 

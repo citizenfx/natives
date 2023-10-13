@@ -5,11 +5,15 @@ ns: ENTITY
 
 ```c
 // 0xB17BC6453F6CF5AC
-void _0xB17BC6453F6CF5AC(Any p0, Any p1);
+void _0xB17BC6453F6CF5AC(Entity ent, Entity damagingEnt);
 ```
 
+```
+SET_ENTITY_CAN_ONLY_BE_DAMAGED_BY_ENTITY
+SetEntityCanOnlyBeDamagedByEntity
+```
 
 ## Parameters
-* **p0**: 
-* **p1**: 
+* **ent**: 
+* **damagingEnt**: 
 

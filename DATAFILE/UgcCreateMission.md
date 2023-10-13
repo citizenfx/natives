@@ -6,7 +6,7 @@ aliases: ["0xA5EFC3E847D60507"]
 
 ```c
 // 0xA5EFC3E847D60507 0xD96860FC
-BOOL UGC_CREATE_MISSION(char* contentName, char* description, char* tagsCsv, char* contentTypeName, BOOL publish);
+BOOL UGC_CREATE_MISSION(char* contentName, char* description, char* tagsCsv, char* contentTypeName, BOOL publish, int datafileIndex);
 ```
 
 ```
@@ -19,5 +19,6 @@ NativeDB Added Parameter 6: Any p5
 * **tagsCsv**: 
 * **contentTypeName**: 
 * **publish**: 
+* **datafileIndex**:
 
 ## Return value

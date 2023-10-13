@@ -5,7 +5,7 @@ ns: VEHICLE
 
 ```c
 // 0x22AC59A870E6A669 0xDAF42B02
-BOOL IS_VEHICLE_SEAT_FREE(Vehicle vehicle, int seatIndex);
+BOOL IS_VEHICLE_SEAT_FREE(Vehicle vehicle, int seatIndex, BOOL considerPedUsingSeat);
 ```
 
 Seat indices range from -1 to [`GET_VEHICLE_MAX_NUMBER_OF_PASSENGERS`](#_0xA7C4F2C6E744A550) minus one.
@@ -34,5 +34,7 @@ isTaskRunning = on true the function returns already false while a task on the t
 ## Parameters
 * **vehicle**: The vehicle to check.
 * **seatIndex**: The eSeatPosition or -2 for **any** vehicle seat.
+* **considerPedUsingSeat**: default: false
+
 
 ## Return value

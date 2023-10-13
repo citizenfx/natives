@@ -5,7 +5,7 @@ ns: PLAYER
 
 ```c
 // 0x3DACA8DDC6FD4980 0xB71589DA
-void SPECIAL_ABILITY_FILL_METER(Player player, BOOL p1);
+void SPECIAL_ABILITY_FILL_METER(Player player, BOOL ignoreActive, int abilitySlot);
 ```
 
 ```
@@ -18,5 +18,6 @@ NativeDB Added Parameter 3: Any p2
 
 ## Parameters
 * **player**: 
-* **p1**: 
+* **ignoreActive**: 
+* **abilitySlot**: 
 

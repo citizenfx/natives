@@ -5,7 +5,7 @@ ns: MONEY
 
 ```c
 // 0x524EE43A37232C00 0xB241CABD
-void NETWORK_SPENT_BOAT_PICKUP(Any p0, BOOL p1, BOOL p2);
+void NETWORK_SPENT_BOAT_PICKUP(Any p0, BOOL p1, BOOL p2, int p3);
 ```
 
 
@@ -13,4 +13,4 @@ void NETWORK_SPENT_BOAT_PICKUP(Any p0, BOOL p1, BOOL p2);
 * **p0**: 
 * **p1**: 
 * **p2**: 
-
+* **p3**: 

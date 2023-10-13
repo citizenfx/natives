@@ -5,20 +5,23 @@ ns: HUD
 
 ```c
 // 0xF83D0FEBE75E62C9
-void _0xF83D0FEBE75E62C9(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7);
+void _0xF83D0FEBE75E62C9(int blipIndex, float visualFieldMinAzimuthAngle, float visualFieldMaxAzimuthAngle, float centerOfGazeMaxAngle, float focusRange, float rotation, BOOL continuousUpdate, int hudColor);
 ```
 
 ```
+SETUP_FAKE_CONE_DATA
+SetupFakeConeData
+
 NativeDB Added Parameter 9: Any p8
 NativeDB Introduced: v1290
 ```
 
 ## Parameters
-* **p0**:
-* **p1**:
-* **p2**:
-* **p3**:
-* **p4**:
-* **p5**:
-* **p6**:
-* **p7**:
+* **blipIndex**:
+* **visualFieldMinAzimuthAngle**:
+* **visualFieldMaxAzimuthAngle**:
+* **centerOfGazeMaxAngle**:
+* **focusRange**:
+* **rotation**:
+* **continuousUpdate**:
+* **hudColor**: default: 11

@@ -5,11 +5,11 @@ ns: AUDIO
 
 ```c
 // 0xACF57305B12AF907 0x87431585
-void SET_EMITTER_RADIO_STATION(char* emitterName, char* radioStation);
+void SET_EMITTER_RADIO_STATION(char* emitterName, char* radioStation, Any p3);
 ```
 
 
 ## Parameters
 * **emitterName**: 
 * **radioStation**: 
-
+* **p3**: 

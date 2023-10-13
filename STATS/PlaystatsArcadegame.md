@@ -5,10 +5,11 @@ ns: STATS
 
 ```c
 // 0x533A7D1EA58DF958
-void _PLAYSTATS_ARCADEGAME(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5);
+void _PLAYSTATS_ARCADEGAME(int p0, int p1, int p2, int p3, int p4, int p5, int p6);
 ```
 
 ```
+PLAYSTATS_ARCADE_GAME
 NativeDB Introduced: v1734
 ```
 
@@ -19,3 +20,4 @@ NativeDB Introduced: v1734
 * **p3**:
 * **p4**:
 * **p5**:
+* **p6**: 

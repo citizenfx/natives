@@ -5,7 +5,7 @@ ns: TASK
 
 ```c
 // 0xC22B40579A498CA4
-void _TASK_SUBMARINE_GOTO_AND_STOP(Any p0, Vehicle submarine, float x, float y, float z, Any p5);
+void _TASK_SUBMARINE_GOTO_AND_STOP(Ped p0, Vehicle submarine, float x, float y, float z, BOOL p5);
 ```
 
 Used in am_vehicle_spawn.ysc and am_mp_submarine.ysc.

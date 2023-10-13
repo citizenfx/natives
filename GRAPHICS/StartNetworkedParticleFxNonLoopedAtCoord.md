@@ -6,7 +6,7 @@ aliases: ["_START_PARTICLE_FX_NON_LOOPED_AT_COORD_2"]
 
 ```c
 // 0xF56B8137DF10135D 0x633F8C48
-BOOL START_NETWORKED_PARTICLE_FX_NON_LOOPED_AT_COORD(char* effectName, float xPos, float yPos, float zPos, float xRot, float yRot, float zRot, float scale, BOOL xAxis, BOOL yAxis, BOOL zAxis);
+BOOL START_NETWORKED_PARTICLE_FX_NON_LOOPED_AT_COORD(char* effectName, float xPos, float yPos, float zPos, float xRot, float yRot, float zRot, float scale, BOOL xAxis, BOOL yAxis, BOOL zAxis, BOOL ignoreScopeChecks);
 ```
 
 NOTE: the [USE_PARTICLE_FX_ASSET](#_0x6C38AF3693A69A91) needs to be called before EVERY StartNetworkedParticleFxNonLoopedAtCoord(....) call!
@@ -31,6 +31,7 @@ NativeDB Added Parameter 12: BOOL p11
 * **xAxis**: 
 * **yAxis**: 
 * **zAxis**: 
+* **ignoreScopeChecks**: default: false
 
 ## Return value
 

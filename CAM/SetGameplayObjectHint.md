@@ -5,17 +5,17 @@ ns: CAM
 
 ```c
 // 0x83E87508A2CA2AC6 0x2ED5E2F8
-void SET_GAMEPLAY_OBJECT_HINT(Any p0, float p1, float p2, float p3, BOOL p4, Any p5, Any p6, Any p7);
+void SET_GAMEPLAY_OBJECT_HINT(Object obj, float offsetX, float offsetY, float offsetZ, BOOL relativeOffset, int dwellTime, int interpTo, int interpFrom);
 ```
 
 
 ## Parameters
-* **p0**: 
-* **p1**: 
-* **p2**: 
-* **p3**: 
-* **p4**: 
-* **p5**: 
-* **p6**: 
-* **p7**: 
+* **obj**: 
+* **offsetX**: offset from entity
+* **offsetY**: 
+* **offsetZ**: 
+* **relativeOffset**: offset is relative to entity
+* **dwellTime**: 
+* **interpTo**: how long the lerp is to the object
+* **interpFrom**: how long the lerp is from the object
 

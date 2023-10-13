@@ -5,7 +5,7 @@ ns: MONEY
 
 ```c
 // 0x7049BF858601DC0F
-void _NETWORK_SPENT_ARENA_SPECTATOR_BOX(int amount, Any p1, BOOL p2, BOOL p3);
+void _NETWORK_SPENT_ARENA_SPECTATOR_BOX(int amount, int p1, BOOL p2, BOOL p3);
 ```
 
 ```

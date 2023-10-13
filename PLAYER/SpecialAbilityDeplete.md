@@ -6,10 +6,12 @@ aliases: ["0x17F7471EACA78290"]
 
 ```c
 // 0x17F7471EACA78290
-void _SPECIAL_ABILITY_DEPLETE(Any p0);
+void _SPECIAL_ABILITY_DEPLETE(Player p0, int abilitySlot);
 ```
 
 ```
+SPECIAL_ABILITY_DEACTIVATE_MP
+
 NativeDB Added Parameter 2: Any p1
 ```
 

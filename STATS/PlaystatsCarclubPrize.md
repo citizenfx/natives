@@ -6,7 +6,7 @@ aliases: ["0x69C922B677621428"]
 
 ```c
 // 0x69C922B677621428
-void _PLAYSTATS_CARCLUB_PRIZE(Any p0, Any p1);
+void _PLAYSTATS_CARCLUB_PRIZE(int p0, int p1);
 ```
 
 ```

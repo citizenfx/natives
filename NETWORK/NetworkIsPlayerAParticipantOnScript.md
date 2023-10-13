@@ -6,12 +6,12 @@ aliases: ["0x1AD5B71586B94820"]
 
 ```c
 // 0x1AD5B71586B94820 0xCEA55F4C
-BOOL NETWORK_IS_PLAYER_A_PARTICIPANT_ON_SCRIPT(Player player1, char* script, Player player2);
+BOOL NETWORK_IS_PLAYER_A_PARTICIPANT_ON_SCRIPT(Player player1, char* script, int instanceId);
 ```
 
 ## Parameters
 * **player1**: 
 * **script**: 
-* **player2**: 
+* **instanceId**: 
 
 ## Return value

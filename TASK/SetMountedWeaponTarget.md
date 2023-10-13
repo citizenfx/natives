@@ -5,7 +5,7 @@ ns: TASK
 
 ```c
 // 0xCCD892192C6D2BB9 0x98713C68
-void SET_MOUNTED_WEAPON_TARGET(Ped shootingPed, Ped targetPed, Vehicle targetVehicle, float x, float y, float z);
+void SET_MOUNTED_WEAPON_TARGET(Ped shootingPed, Ped targetPed, Vehicle targetVehicle, float x, float y, float z, int taskMode, BOOL ignoreTargetVehDeadCheck);
 ```
 
 ```
@@ -24,4 +24,6 @@ NativeDB Added Parameter 8: Any p7
 * **x**: 
 * **y**: 
 * **z**: 
+* **taskMode**: 
+* **ignoreTargetVehDeadCheck**: 
 

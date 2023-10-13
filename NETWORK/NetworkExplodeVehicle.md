@@ -5,7 +5,7 @@ ns: NETWORK
 
 ```c
 // 0x301A42153C9AD707 0x0E1B38AE
-cs_type(Any) void NETWORK_EXPLODE_VEHICLE(Vehicle vehicle, BOOL isAudible, BOOL isInvisible, BOOL p3);
+cs_type(Any) void NETWORK_EXPLODE_VEHICLE(Vehicle vehicle, BOOL addExplosion, BOOL keepDamageEntity, int culprit);
 ```
 
 ```
@@ -26,8 +26,8 @@ Seems it's like ADD_EXPLOSION, etc. the first 2 params. The 3rd atm no need to w
 
 ## Parameters
 * **vehicle**: 
-* **isAudible**: 
-* **isInvisible**: 
-* **p3**: 
+* **addExplosion**: 
+* **keepDamageEntity**: 
+* **culprit**: 
 
 ## Return value
