@@ -66,4 +66,4 @@ setTick(() => {
     SetFloatingHelpTextToEntity(0, Ped, 0, 0)
 })
 ```
-![Preview of the example above](https://i.ibb.co/9p7VWDW/image.png)
+![Preview of the example above](https://i.ibb.co/G97hPn7/Image.png)
