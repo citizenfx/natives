@@ -29,13 +29,13 @@ AddTextEntry("HELLO_WORLD", "Hello World")
 
 SetTextFont(0)
 SetTextScale(0.0, 0.30)
-BegintTextCommandDisplayText("HELLO_WORLD")
+BeginTextCommandDisplayText("HELLO_WORLD")
 EndTextCommandDisplayText(0.3, 0.3)
 
 -- Display text with substring
 SetTextFont(0)
 SetTextScale(0.0, 0.30)
-BegintTextCommandDisplayText("STRING")
+BeginTextCommandDisplayText("STRING")
 AddTextComponentSubstringPlayerName("Hello World")
 EndTextCommandDisplayText(0.3, 0.3)
 ```
