@@ -11,7 +11,7 @@ void SET_RADIUS_BLIP_EDGE(Blip blip, BOOL toggle);
 ```
 
 ```
-Enabling this on a radius blip will make it outline only. See https://cdn.discordapp.com/attachments/553235301632573459/575132227935928330/unknown.png
+Enabling this on a radius blip will make it outline only. See https://imgur.com/a/lNMfySU
 ```
 
 ## Parameters
