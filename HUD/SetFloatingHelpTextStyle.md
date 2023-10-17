@@ -6,18 +6,18 @@ aliases: ["0x788E7FD431BD67F1"]
 
 ```c
 // 0x788E7FD431BD67F1 0x97852A82
-void SET_FLOATING_HELP_TEXT_STYLE(int hudIndex, int style, int hudColor, int p3, int arrowPosition, int boxOffset);
+void SET_FLOATING_HELP_TEXT_STYLE(int hudIndex, int style, int hudColor, int alpha, int arrowPosition, int boxOffset);
 ```
 
 ## Parameters
 * **hudIndex**: The hud index for the floating help message
 * **style**: Value 0 won't show an arrow at all. Values 1, 2 and -2 will display an arrow.
 * **hudColor**: https://docs.fivem.net/docs/game-references/hud-colors/
-* **p3**: No use case. Always 191 in R* scripts
+* **alpha**: Value for the help box opacity, from 0-255. Anything greater will simply ignore the alpha value. Always 191 in R* scripts.
 * **arrowPosition**: Used to set the arrow positon. No value will hide the arrow
 * **boxOffset**: Offset for the floating help box. Note: Arrow stays fixed
 
-## Arrow Positions
+### Arrow Positions
 * 0 = Off / No arrow
 * 1 = Top
 * 2 = Left
@@ -27,10 +27,10 @@ void SET_FLOATING_HELP_TEXT_STYLE(int hudIndex, int style, int hudColor, int p3,
 ### Note
 Any numeric value greater than 4 will result in a right arrow (Index 4)
 
-## Important
+### Important
 Needs to be called every frame
 
-## Example
+## Examples
 ```lua
 function DisplayHelpText(string)
     BeginTextCommandDisplayHelp("STRING")
@@ -50,4 +50,20 @@ CreateThread(function()
     end
 end)
 ```
-![](todo)
+
+```js
+function DisplayHelpText(string) {
+    BeginTextCommandDisplayHelp("STRING")
+    AddTextComponentSubstringPlayerName(string)
+    EndTextCommandDisplayHelp(1, false, false, 0)
+}
+
+setTick(() => {
+    const Ped = PlayerPedId()
+
+    DisplayHelpText('Example Text')
+    SetFloatingHelpTextStyle(0, 2, 2, 0, 3, 0)
+    SetFloatingHelpTextToEntity(0, Ped, 0, 0)
+})
+```
+![Preview of the example above](https://i.ibb.co/9p7VWDW/image.png)
