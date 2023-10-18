@@ -9,14 +9,6 @@ aliases: ["0x788E7FD431BD67F1"]
 void SET_FLOATING_HELP_TEXT_STYLE(int hudIndex, int style, int hudColor, int alpha, int arrowPosition, int boxOffset);
 ```
 
-## Parameters
-* **hudIndex**: The hud index for the floating help message
-* **style**: Value 0 won't show an arrow at all. Values 1, 2 and -2 will display an arrow.
-* **hudColor**: https://docs.fivem.net/docs/game-references/hud-colors/
-* **alpha**: Value for the help box opacity, from 0-255. Anything greater will simply ignore the alpha value. Always 191 in R* scripts.
-* **arrowPosition**: Used to set the arrow positon. No value will hide the arrow
-* **boxOffset**: Offset for the floating help box. Note: Arrow stays fixed
-
 ### Arrow Positions
 * 0 = Off / No arrow
 * 1 = Top
@@ -29,6 +21,16 @@ Any numeric value greater than 4 will result in a right arrow (Index 4)
 
 ### Important
 Needs to be called every frame
+
+![Preview of the provided example code](https://i.ibb.co/G97hPn7/Image.png)
+
+## Parameters
+* **hudIndex**: The hud index for the floating help message
+* **style**: Value 0 won't show an arrow at all. Values 1, 2 and -2 will display an arrow.
+* **hudColor**: https://docs.fivem.net/docs/game-references/hud-colors/
+* **alpha**: Value for the help box opacity, from 0-255. Anything greater will simply ignore the alpha value. Always 191 in R* scripts.
+* **arrowPosition**: Used to set the arrow positon. No value will hide the arrow
+* **boxOffset**: Offset for the floating help box. Note: Arrow stays fixed
 
 ## Examples
 ```lua
@@ -66,4 +68,3 @@ setTick(() => {
     SetFloatingHelpTextToEntity(0, Ped, 0, 0)
 })
 ```
-![Preview of the example above](https://i.ibb.co/G97hPn7/Image.png)
