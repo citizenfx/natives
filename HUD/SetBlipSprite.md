@@ -8,10 +8,6 @@ ns: HUD
 void SET_BLIP_SPRITE(Blip blip, int spriteId);
 ```
 
-<!--
-_loc1_.map((name, idx) => `| ${idx} | ${name} | ![${name}](https://runtime.fivem.net/blips/${name}.svg) |`).join('\n')
--->
-
 Sets the displayed sprite for a specific blip.
 
 There's a [list of sprites](https://docs.fivem.net/game-references/blips/) on the FiveM documentation site.

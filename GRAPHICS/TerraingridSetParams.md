@@ -9,7 +9,7 @@ aliases: ["0x1C4FC5752BCD8E48"]
 void TERRAINGRID_SET_PARAMS(float x, float y, float z, float p3, float rotation, float p5, float width, float height, float p8, float scale, float glowIntensity, float normalHeight, float heightDiff);
 ```
 
-This native is used along with these two natives: [`0xa356990e161c9e65`](https://runtime.fivem.net/doc/reference.html#_0xA356990E161C9E65) and [`0x5ce62918f8d703c7`](https://runtime.fivem.net/doc/reference.html#_0x5CE62918F8D703C7). 
+This native is used along with these two natives: [`TERRAINGRID_ACTIVATE`](#_0xA356990E161C9E65) and [`TERRAINGRID_SET_COLOURS`](#_0x5CE62918F8D703C7).
 
 This native configures the location, size, rotation, normal height, and the difference ratio between min, normal and max.
 
