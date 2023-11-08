@@ -5,7 +5,7 @@ ns: VEHICLE
 
 ```c
 // 0xF39C4F538B5124C2 0xC87B6A51
-void SET_CONVERTIBLE_ROOF(Vehicle vehicle, BOOL roofState);
+void SET_CONVERTIBLE_ROOF(Vehicle vehicle, BOOL toggle);
 ```
 This allows for the vehicle's roof to be put on when set to true, and removed when set to false, provided that the vehicle has a version with a roof and a version without a roof.
 
@@ -23,7 +23,7 @@ This allows for the vehicle's roof to be put on when set to true, and removed wh
 
 ## Parameters
 * **vehicle**: The vehicle to which the roof state will be applied.
-* **roofState**: Boolean value where `true` adds the roof and `false` removes it, applicable only if the vehicle has a version with and without a roof.
+* **toggle**: Boolean value where `true` adds the roof and `false` removes it, applicable only if the vehicle has a version with and without a roof.
 
 ## Examples
 ```lua
