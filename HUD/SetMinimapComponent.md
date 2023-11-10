@@ -10,7 +10,7 @@ int SET_MINIMAP_COMPONENT(int componentID, BOOL toggle, int hudColor);
 
 This native is used to colorize/toggle certain map components like the army base.
 
-An incomplete list of component id's:
+An incomplete list of component IDs:
 
 * **0** Los Santos International Airport yellow runway markers
 * **1** Sandy Shores Airfield yellow runway markers
@@ -28,12 +28,12 @@ An incomplete list of component id's:
 [List of hud colors](https://docs.fivem.net/docs/game-references/hud-colors/)
 
 ## Parameters
-* **componentID**: The component id to change.
+* **componentID**: The component ID to change.
 * **toggle**: True to enable/colorize, false to disable.
 * **hudColor**: The hudcolor index.
 
 ## Return value
-Seems to always return 1 (int) regardless of input
+Hardcoded to always return 1 (int)
 
 ## Examples
 ```lua
