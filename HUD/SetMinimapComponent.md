@@ -10,6 +10,8 @@ int SET_MINIMAP_COMPONENT(int componentID, BOOL toggle, int hudColor);
 
 This native is used to colorize/toggle certain map components like the army base.
 
+Component IDs 6 through 14 are used by the freemode event King of the Castle in GTA Online.
+
 An incomplete list of component IDs:
 
 * **0** Los Santos International Airport yellow runway markers
@@ -18,6 +20,7 @@ An incomplete list of component IDs:
 * **6** Vespucci Beach lifeguard building
 * **7** Top level zone of Alien Camp (Hippy Camp)
 * **8** Paleto Bay fire station drill tower
+* **9** Land Act Dam tower
 * **10** Pala Springs Aerial Tramway
 * **11** Galileo Observatory power unit
 * **12** Small zone (empty "interior") near Central Los Santos Medical Center
