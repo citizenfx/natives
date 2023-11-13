@@ -8,7 +8,8 @@ aliases: ["_SET_SPECIALFLIGHT_WING_RATIO"]
 // 0x70A252F60A3E036B
 void SET_HOVER_MODE_WING_RATIO(Vehicle vehicle, float ratio);
 ```
-## This native allows opening or closing the wings of the Deluxo/Oppressor. For the Deluxo, wing deployment depends on sufficient altitude.
+
+This native allows opening or closing the wings of the Deluxo/Oppressor. For the Deluxo, wing deployment depends on sufficient altitude.
 
 
 ## Parameters
