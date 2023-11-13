@@ -9,7 +9,7 @@ aliases: ["_SET_VEHICLE_HOVER_TRANSFORM_ACTIVE"]
 void SET_DISABLE_HOVER_MODE_FLIGHT(Vehicle vehicle, BOOL toggle);
 ```
 
-## Disables wings for `Deluxo` and `Oppressor MK II`. For the Deluxo, it retracts the wings immediately, preventing flight. For the Oppressor Mk II, the wings retract after landing and take-off is not possible, though it can still glide if launched into the air.
+Disables wings for `Deluxo` and `Oppressor MK II`. For the Deluxo, it retracts the wings immediately, preventing flight. For the Oppressor Mk II, the wings retract after landing and take-off is not possible, though it can still glide if launched into the air.
 
 
 ## Parameters
