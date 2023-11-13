@@ -1,16 +1,16 @@
 ---
 ns: VEHICLE
-aliases: ["0x438B3D7CA026FE91","_SET_VEHICLE_TRANSFORM_STATE"]
+aliases: ["0x438B3D7CA026FE91","_SET_VEHICLE_TRANSFORM_STATE", "_SET_VEHICLE_HOVER_TRANSFORM_PERCENTAGE"]
 ---
-## _SET_VEHICLE_HOVER_TRANSFORM_PERCENTAGE
+## SET_SPECIAL_FLIGHT_MODE_TARGET_RATIO
 
 ```c
 // 0x438B3D7CA026FE91
-void _SET_VEHICLE_HOVER_TRANSFORM_PERCENTAGE(Vehicle vehicle, float state);
+void SET_SPECIAL_FLIGHT_MODE_TARGET_RATIO(Vehicle vehicle, float state);
 ```
 
 According to decompiled scripts this should work with the `deluxo` and `oppressor2` vehicles.
-I've only seen this work for `deluxo` though, can't figure out what it's supposed to do on `oppressor2`.
+Does nothing when used on `oppressor2`.
 
 For the deluxo:
 - Set `state` to `0.0`: Fully transform to a 'road' vehicle (non-hover mode).
@@ -26,3 +26,23 @@ Once this native is used then players will just be able to hit the vehicle trans
 ## Parameters
 * **vehicle**: The vehicle (a deluxo or oppressor2).
 * **state**: The transform state (value between 0.0 and 1.0).
+
+## Examples
+```lua
+-- In this case we are enabling the hover mode for the deluxo (fyling mode)
+local vehicle = GetVehiclePedIsIn(PlayerPedId(), false)
+SetSpecialFlightModeTargetRatio(vehicle, 1.0)
+```
+
+```js
+// In this case we are enabling the hover mode for the deluxo (fyling mode)
+const vehicle = GetVehiclePedIsIn(PlayerPedId(), false);
+SetSpecialFlightModeTargetRatio(vehicle, 1.0);
+```
+
+```cs
+// In this case we are enabling the hover mode for the deluxo (fyling mode)
+using static CitizenFX.Core.Native.API;
+Vehicle vehicle = GetVehiclePedIsIn(PlayerPedId(), false);
+SetSpecialFlightModeTargetRatio(vehicle, 1f);
+```
