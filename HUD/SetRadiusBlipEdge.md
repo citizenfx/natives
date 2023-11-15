@@ -12,7 +12,7 @@ void SET_RADIUS_BLIP_EDGE(Blip blip, BOOL toggle);
 Enabling this on a radius blip will make it outline only.  
 Please note that this only works on a **radius** blip (i.e. one generated using [`ADD_BLIP_FOR_RADIUS`](#_0x46818D79B1F7499A)), not a normal blip.
 
-**Example:**  
+**Example result:**  
 ![example-image](https://i.imgur.com/hS6ki7p.png)
 
 ## Parameters
