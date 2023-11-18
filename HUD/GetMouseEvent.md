@@ -9,7 +9,8 @@ aliases: ["0x632B2940C67F4EA9", "_GET_SCALEFORM_MOVIE_CURSOR_SELECTION"]
 BOOL GET_MOUSE_EVENT(int scaleformHandle, cs_type(Any*) bool* received, cs_type(Any*) int* selectionType, cs_type(Any*) int* context, int* slotIndex);
 ```
 
-Gets current mouse event details, triggered by a scaleform.
+Gets the current mouse event details when triggered by a scaleform.
+You must use this native every frame.
 Returns item index if using the COLOUR_SWITCHER_02 scaleform.
 Selection types, found in MOUSE_EVENTS.as:
 MOUSE_DRAG_OUT = 0;

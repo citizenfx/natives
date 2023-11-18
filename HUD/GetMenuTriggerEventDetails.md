@@ -9,7 +9,8 @@ aliases: ["0x36C1451A88A09630", "_GET_PAUSE_MENU_SELECTION"]
 void GET_MENU_TRIGGER_EVENT_DETAILS(cs_type(AnyPtr) int* lastItemMenuId, cs_type(AnyPtr) int* selectedItemUniqueId);
 ```
 
-Also see HasMenuTriggerEventOccurred native.
+Returns details of the currently occurred trigger event.
+See [`HAS_MENU_TRIGGER_EVENT_OCCURRED`](#_0xF284AC67940C6812).
 
 ## Parameters
 * **lastItemMenuId**: 

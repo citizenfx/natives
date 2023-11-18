@@ -8,7 +8,7 @@ ns: HUD
 int GET_PAUSE_MENU_STATE();
 ```
 
-Return values:
+## Return value
 0 - Pause menu isn't open
 5 - Pause menu is starting
 10 - Pause menu is switching
@@ -16,5 +16,3 @@ Return values:
 25 - Social club menu or online policies menu is open
 30 - Pause menu is exiting
 35 - Rockstar editor is active
-
-## Return value

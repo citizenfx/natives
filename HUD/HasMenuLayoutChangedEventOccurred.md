@@ -9,7 +9,6 @@ aliases: ["0x2E22FEFA0100275E"]
 BOOL HAS_MENU_LAYOUT_CHANGED_EVENT_OCCURRED();
 ```
 
+## Return value
 Returns true per frame when pause menu is navigated.
 Note: This can only be used by one script at a time.
-
-## Return value
