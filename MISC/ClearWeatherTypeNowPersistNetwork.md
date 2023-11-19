@@ -1,11 +1,12 @@
 ---
 ns: MISC
+aliases: ["0x0CF97F497FE7D048", "_CLEAR_WEATHER_TYPE_OVERTIME_PERSIST"]
 ---
-## _0x0CF97F497FE7D048
+## CLEAR_WEATHER_TYPE_NOW_PERSIST_NETWORK
 
 ```c
 // 0x0CF97F497FE7D048
-void _0x0CF97F497FE7D048(float p0);
+void CLEAR_WEATHER_TYPE_NOW_PERSIST_NETWORK(cs_type(float) int milliseconds);
 ```
 
 ```
@@ -16,5 +17,5 @@ When 'freezing' is enabled, it seem to also freeze value getted with GetRainLeve
 ```
 
 ## Parameters
-* **p0**: 
+* **milliseconds**: 
 
