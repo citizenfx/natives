@@ -9,7 +9,7 @@ aliases: ["0xF36199225D6D8C86", "_SET_CLOUD_HAT_OPACITY"]
 void SET_CLOUDS_ALPHA(float opacity);
 ```
 
-Allows modification of the cloud intensity. For example, it can be used in other contexts, such as when the player is in a switch state [`IS_PLAYER_SWITCH_IN_PROGRESS`](#_0xD9D2CFFF49FAB35F).
+Allows modification of the cloud opacity. It can also be used in other contexts, such as when the player is in a switch state [`IS_PLAYER_SWITCH_IN_PROGRESS`](#_0xD9D2CFFF49FAB35F).
 
 
 ## Parameters
