@@ -8,11 +8,10 @@ aliases: ["0xAAB3200ED59016BC", "_SWITCH_OUT_PLAYER"]
 // 0xAAB3200ED59016BC 0xFB4D062D
 void SWITCH_TO_MULTI_FIRSTPART(Ped ped, int flags, int switchType);
 ```
-```
-Doesn't act normally when used on Mount Chiliad.
-```
 
 You can check if the player is in a Switch state with [`IS_PLAYER_SWITCH_IN_PROGRESS`](#_0xD9D2CFFF49FAB35F).
+
+_**Note:** Doesn't act normally when used on Mount Chiliad._
 
 ## Parameters
 * **ped**: The Ped (player character) for which the switch is initiated.
@@ -30,7 +29,7 @@ if not IsPlayerSwitchInProgress() then
 end
 ```
 
-```javascript
+```js
 // Check if the player is in a Switch "state"
 if (!IsPlayerSwitchInProgress()) {
     // If the player is not already in a Switch state, initiate a Switch
