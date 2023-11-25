@@ -2,11 +2,11 @@
 ns: NETWORK
 aliases: ["0x45F35C0EDC33B03B"]
 ---
-## _NETWORK_ADD_MAP_OBJECT_TO_SYNCHRONISED_SCENE
+## NETWORK_ADD_MAP_ENTITY_TO_SYNCHRONISED_SCENE
 
 ```c
 // 0x45F35C0EDC33B03B
-void _NETWORK_ADD_MAP_OBJECT_TO_SYNCHRONISED_SCENE(int netScene, Hash modelHash, float x, float y, float z, cs_type(float) char* animDict, char* animName, float blendInSpeed, float blendOutSpeed, int flags);
+void NETWORK_ADD_MAP_ENTITY_TO_SYNCHRONISED_SCENE(int netScene, Hash modelHash, float x, float y, float z, cs_type(float) char* animDict, char* animName, float blendInSpeed, float blendOutSpeed, int flags);
 ```
 
 Adds a map object/entity to a synchronised scene.
@@ -34,7 +34,7 @@ local animDict = 'anim_casino_a@amb@casino@games@slots@male' -- Animation dictio
 -- Create the synchronised scene
 local netSceneID = NetworkCreateSynchronisedScene(slotMachineObjectCoords, 0.0, 0.0, GetEntityHeading(slotMachineObjectID), 2, true, false, 1.0, 0.0, 1.0)
 -- Play the pull_spin_a_slotmachine animation on the slot machine object
-NetworkAddMapObjectToSynchronisedScene(netSceneID, slotMachineObjectHash, slotMachineObjectCoords, animDict, 'pull_spin_a_slotmachine', 2.0, -1.5, 13)
+NetworkAddMapEntityToSynchronisedScene(netSceneID, slotMachineObjectHash, slotMachineObjectCoords, animDict, 'pull_spin_a_slotmachine', 2.0, -1.5, 13)
 NetworkStartSynchronisedScene(netSceneID) -- Start the synchronised scene
 
 print('Lever pull animation started!')
