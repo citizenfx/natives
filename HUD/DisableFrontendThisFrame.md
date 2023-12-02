@@ -8,4 +8,4 @@ ns: HUD
 void DISABLE_FRONTEND_THIS_FRAME();
 ```
 
-
+Prevents pause menu from listening to controls 199, 200 every frame.
