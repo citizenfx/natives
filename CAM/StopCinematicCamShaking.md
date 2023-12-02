@@ -5,10 +5,10 @@ ns: CAM
 
 ```c
 // 0x2238E588E588A6D7 0x71C12904
-void STOP_CINEMATIC_CAM_SHAKING(BOOL p0);
+void STOP_CINEMATIC_CAM_SHAKING(BOOL instantly);
 ```
 
 
 ## Parameters
-* **p0**: 
+* **instantly**: If false, the cinematic/idle camera will transition into normal state. If true, the camera will stop shaking instantly.
 

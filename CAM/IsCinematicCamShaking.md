@@ -10,3 +10,4 @@ BOOL IS_CINEMATIC_CAM_SHAKING();
 
 
 ## Return value
+Whether or not the cinematic/idle cam was set to shake with [SHAKE_CINEMATIC_CAM](#_0xDCE214D9ED58F3CF)

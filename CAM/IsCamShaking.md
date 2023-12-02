@@ -10,6 +10,7 @@ BOOL IS_CAM_SHAKING(Cam cam);
 
 
 ## Parameters
-* **cam**: 
+* **cam**: Cam ID returned by [CREATE_CAM](#_0xC3981DCE61D9E13F)
 
 ## Return value
+Whether or not this cam was set to shake with [SHAKE_CAM](#_0x6A25241C340D3822)

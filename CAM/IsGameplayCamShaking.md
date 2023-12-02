@@ -10,3 +10,4 @@ BOOL IS_GAMEPLAY_CAM_SHAKING();
 
 
 ## Return value
+Whether or not the gameplay cam was set to shake with [SHAKE_GAMEPLAY_CAM](#_0xFD55E49555E017CF)

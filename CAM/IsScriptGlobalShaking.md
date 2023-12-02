@@ -9,11 +9,5 @@ aliases: ["0xC912AF078AF19212"]
 BOOL IS_SCRIPT_GLOBAL_SHAKING();
 ```
 
-```
-In drunk_controller.c4, sub_309
-if (CAM::IS_SCRIPT_GLOBAL_SHAKING()) {
-    CAM::STOP_SCRIPT_GLOBAL_SHAKING(0);
-}
-```
-
 ## Return value
+Whether or not every camera has been set to shake with [SCRIPT_GLOBAL_SHAKE](#_0xF4C8CF9E353AFECA)
