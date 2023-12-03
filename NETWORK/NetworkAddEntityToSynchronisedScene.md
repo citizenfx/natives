@@ -5,24 +5,14 @@ ns: NETWORK
 
 ```c
 // 0xF2404D68CBC855FA 0x10DD636C
-void NETWORK_ADD_ENTITY_TO_SYNCHRONISED_SCENE(Entity entity, int netScene, char* animDict, char* animName, float blendInSpeed, float blendOutSpeed, float flag);
+void NETWORK_ADD_ENTITY_TO_SYNCHRONISED_SCENE(Entity entity, int netScene, char* animDict, char* animName, float blendInSpeed, float blendOutSpeed, int flags);
 ```
-
-
-### Parameters
-* **entity**: The Entity that the animation is gonna play on (Recomended that the entity is serversided for best syncing).
-* **netScene**: scene id.
-* **animDict**: The animDict of the animation that you want to play (remember you have to load with RequestAnimDict() before executing this native)
-* **animName**: The name of the animation that the entity is gonna play.
-* **blendInSpeed**: a float (normal speed is 8.0f).
-* **blendOutSpeed**: a float (normal speed is -8.0f).
-* **flag**: A float 1000.0f (Also doesn't seem to affect anything).
 
 ### Animation Dictionaries
 * **Animation List**: https://alexguirre.github.io/animations-list/
 * **Other Option**: More likely to find your desired animation by just searching OpenIV 
 * Most can be found here: (Gta V path)\update\x64\dlcpacks\(Desired folder like mpheist)\dlc.rpf\x64\anim\ingame\clip_anim@.rpf\
-* Most usefull ones start with anim@scripted@...
+* Most useful ones start with anim@scripted@...
 
 ### Animations
 * **Animation List**: https://alexguirre.github.io/animations-list/
@@ -33,7 +23,16 @@ void NETWORK_ADD_ENTITY_TO_SYNCHRONISED_SCENE(Entity entity, int netScene, char*
 * **NetworkAddEntityToSynchronisedScene**: https://docs.fivem.net/natives/?_0xF2404D68CBC855FA.
 * **NetworkCreateSynchronisedScene**: https://docs.fivem.net/natives/?_0x7CD6BC4C2BBDD526.
 
-### Example
+## Parameters
+* **entity**: The Entity that the animation is gonna play on (Recomended that the entity is serversided for best syncing).
+* **netScene**: scene id.
+* **animDict**: The animDict of the animation that you want to play (remember you have to load with RequestAnimDict() before executing this native)
+* **animName**: The name of the animation that the entity is gonna play.
+* **blendInSpeed**: a float (normal speed is 8.0f).
+* **blendOutSpeed**: a float (normal speed is -8.0f).
+* **flags**: The flags to use for this synchronized scene.
+
+## Example
 ```lua
   ped = PlayerPedId()
   pedCoords = GetEntityCoords(ped)
