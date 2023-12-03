@@ -19,9 +19,9 @@ void NETWORK_ADD_ENTITY_TO_SYNCHRONISED_SCENE(Entity entity, int netScene, char*
 * **Other Option**: You are much more likely to find the animation by opening [CodeWalker's](https://pl.gta5-mods.com/tools/codewalker-gtav-interactive-3d-map) Ped Viewer and putting the AnimDict into the search bar.
 
 ### Used With
-* **NetworkAddPedToSynchronisedScene**: https://docs.fivem.net/natives/?_0x742A637471BCECD9.
-* **NetworkAddEntityToSynchronisedScene**: https://docs.fivem.net/natives/?_0xF2404D68CBC855FA.
-* **NetworkCreateSynchronisedScene**: https://docs.fivem.net/natives/?_0x7CD6BC4C2BBDD526.
+* [`NETWORK_ADD_PED_TO_SYNCHRONISED_SCENE`](#_0x742A637471BCECD9) 
+* [`NETWORK_ADD_ENTITY_TO_SYNCHRONISED_SCENE`](#_0xF2404D68CBC855FA) 
+* [`NETWORK_CREATE_SYNCHRONISED_SCENE`](#_0x7CD6BC4C2BBDD526)
 
 ## Parameters
 * **entity**: The Entity that the animation is gonna play on (Recomended that the entity is serversided for best syncing).
