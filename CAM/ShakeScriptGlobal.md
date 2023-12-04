@@ -6,14 +6,13 @@ aliases: ["0xF4C8CF9E353AFECA"]
 
 ```c
 // 0xF4C8CF9E353AFECA 0x2B0F05CD
-void SHAKE_SCRIPT_GLOBAL(char* p0, float p1);
+void SHAKE_SCRIPT_GLOBAL(char* shakeType, float amplitude);
 ```
 
-```
-CAM::SHAKE_SCRIPT_GLOBAL("HAND_SHAKE", 0.2);
-```
+Makes every camera created by scripts shake.
+[Shake Types](https://github.com/DurtyFree/gta-v-data-dumps/blob/master/camShakeTypesCompact.json)
 
 ## Parameters
-* **p0**: 
-* **p1**: 
+* **shakeType**: How script cams should shake
+* **amplitude**: Intensity of cam shake
 

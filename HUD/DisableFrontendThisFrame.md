@@ -8,4 +8,4 @@ ns: HUD
 void DISABLE_FRONTEND_THIS_FRAME();
 ```
 
-
+Pause menu ignores controls 199 and 200 per frame this native is called, which prevents it from opening or closing.

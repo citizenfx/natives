@@ -1,12 +1,12 @@
 ---
 ns: HUD
-aliases: ["0x632B2940C67F4EA9"]
+aliases: ["0x632B2940C67F4EA9", "_GET_SCALEFORM_MOVIE_CURSOR_SELECTION"]
 ---
-## _GET_SCALEFORM_MOVIE_CURSOR_SELECTION
+## GET_MOUSE_EVENT
  
 ```c
 // 0x632B2940C67F4EA9
-BOOL _GET_SCALEFORM_MOVIE_CURSOR_SELECTION(int scaleformHandle, cs_type(Any*) bool* received, cs_type(Any*) int* selectionType, cs_type(Any*) int* context, int* slotIndex);
+BOOL GET_MOUSE_EVENT(int scaleformHandle, cs_type(Any*) bool* received, cs_type(Any*) int* selectionType, cs_type(Any*) int* context, int* slotIndex);
 ```
 
 Gets mouse selection data from scaleforms with mouse support. Must be checked every frame.

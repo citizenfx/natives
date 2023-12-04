@@ -5,11 +5,11 @@ ns: CAM
 
 ```c
 // 0xBDECF64367884AC3 0x40D0EB87
-void STOP_CAM_SHAKING(Cam cam, BOOL p1);
+void STOP_CAM_SHAKING(Cam cam, BOOL instantly);
 ```
 
 
 ## Parameters
 * **cam**: 
-* **p1**: 
+* **instantly**: If true, the camera stops shaking instantly. If false, it transitions into normal state.
 

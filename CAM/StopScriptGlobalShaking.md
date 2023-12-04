@@ -6,16 +6,9 @@ aliases: ["0x1C9D7949FA533490"]
 
 ```c
 // 0x1C9D7949FA533490 0x26FCFB96
-void STOP_SCRIPT_GLOBAL_SHAKING(BOOL p0);
-```
-
-```
-In drunk_controller.c4, sub_309
-if (CAM::IS_SCRIPT_GLOBAL_SHAKING()) {
-    CAM::STOP_SCRIPT_GLOBAL_SHAKING(0);
-}
+void STOP_SCRIPT_GLOBAL_SHAKING(BOOL instantly);
 ```
 
 ## Parameters
-* **p0**: 
+* **instantly**: If true, the currently rendering scripted camera (If any) stops shaking instantly. If false, it transitions into normal state.
 

@@ -5,25 +5,13 @@ ns: CAM
 
 ```c
 // 0xFD55E49555E017CF 0xF2EFE660
-void SHAKE_GAMEPLAY_CAM(char* shakeName, float intensity);
+void SHAKE_GAMEPLAY_CAM(char* shakeType, float amplitude);
 ```
 
-```
-Possible shake types (updated b617d):  
-DEATH_FAIL_IN_EFFECT_SHAKE  
-DRUNK_SHAKE  
-FAMILY5_DRUG_TRIP_SHAKE  
-HAND_SHAKE  
-JOLT_SHAKE  
-LARGE_EXPLOSION_SHAKE  
-MEDIUM_EXPLOSION_SHAKE  
-SMALL_EXPLOSION_SHAKE  
-ROAD_VIBRATION_SHAKE  
-SKY_DIVING_SHAKE  
-VIBRATE_SHAKE  
-```
+Makes the main gameplay camera shake.
+[Shake Types](https://github.com/DurtyFree/gta-v-data-dumps/blob/master/camShakeTypesCompact.json)
 
 ## Parameters
-* **shakeName**: 
-* **intensity**: 
+* **shakeType**: How the camera should shake
+* **amplitude**: Strength of the shake
 
