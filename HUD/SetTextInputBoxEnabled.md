@@ -1,6 +1,6 @@
 ---
 ns: HUD
-aliases: ["_0x1185A8087587322C"]
+aliases: ["0x1185A8087587322C"]
 ---
 ## SET_TEXT_INPUT_BOX_ENABLED
 
@@ -9,6 +9,8 @@ aliases: ["_0x1185A8087587322C"]
 void SET_TEXT_INPUT_BOX_ENABLED(BOOL enabled);
 ```
 
+Disables opening the text entry box (which is opened with [`DISPLAY_ONSCREEN_KEYBOARD`](#_0x00DC833F2568DBF6).
+
 ## Parameters
-* **enabled**: If false, text input box will not be able to be opened.
+* **enabled**: Toggle the text input box on/off.
 
