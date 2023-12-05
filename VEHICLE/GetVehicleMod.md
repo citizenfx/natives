@@ -8,12 +8,9 @@ ns: VEHICLE
 int GET_VEHICLE_MOD(Vehicle vehicle, int modType);
 ```
 
-```
-Returns -1 if the vehicle mod is stock  
-```
-
 ## Parameters
-* **vehicle**: 
+* **vehicle**: the vehicle to get the mod of
 * **modType**: Refer to eVehicleModType in [`SET_VEHICLE_MOD`](#_0x6AF0636DDEDCB6DD).
 
 ## Return value
+Returns the current modIndex, or -1 if the mod is stock
