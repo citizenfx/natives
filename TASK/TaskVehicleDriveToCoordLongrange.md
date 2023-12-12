@@ -20,6 +20,38 @@ You can let your character drive to the destination at the speed and driving sty
 * **driveMode**: More info can be found [here](https://vespura.com/fivem/drivingstyle/)
 * **stopRange**: Stops in the specific range near the destination. 20.0 works fine.
 
+
+## Flags:
+* DF_StopForCars                            = 1,
+* DF_StopForPeds			        		= 2,
+* DF_SwerveAroundAllCars	        		= 4,
+* DF_SteerAroundStationaryCars	            = 8,
+* DF_SteerAroundPeds			        	= 16,
+* DF_SteerAroundObjects		            	= 32,
+* DF_DontSteerAroundPlayerPed	        	= 64,
+* DF_StopAtLights				        	= 128,
+* DF_GoOffRoadWhenAvoiding	            	= 256,
+* DF_DriveIntoOncomingTraffic	        	= 512,
+* DF_DriveInReverse				            = 1024,
+* DF_UseWanderFallbackInsteadOfStraightLine = 2048,
+* DF_AvoidRestrictedAreas			        = 4096,
+
+**These only work on MISSION_CRUISE**
+
+* DF_PreventBackgroundPathfinding		    = 8192,
+* DF_AdjustCruiseSpeedBasedOnRoadSpeed      = 16384,
+
+* DF_UseShortCutLinks			        	=  262144,
+* DF_ChangeLanesAroundObstructions          = 524288,
+* DF_UseSwitchedOffNodes		        	=  2097152,	//cruise tasks ignore this anyway--only used for goto's
+* DF_PreferNavmeshRoute		            	=  4194304,	//if you're going to be primarily driving off road
+* DF_PlaneTaxiMode			            	=  8388608, // Only works for planes using MISSION_GOTO, will cause them to drive along the ground instead of fly
+* DF_ForceStraightLine	            		= 16777216,
+* DF_UseStringPullingAtJunctions        	= 33554432,
+* DF_AvoidHighways			            	= 536870912,
+* DF_ForceJoinInRoadDirection	           	= 1073741824,
+  
+
 ## Examples
 ```cs
 // A short example showcasing how this native works with map marks.
