@@ -9,7 +9,7 @@ aliases: ["0x260BE8F09E326A20","_SET_VEHICLE_HALT"]
 void BRING_VEHICLE_TO_HALT(Vehicle vehicle, float distance, int duration, BOOL bControlVerticalVelocity);
 ```
 
-This native makes the vehicle stop immediately, as happens when we enter a MP garage.
+This native makes the vehicle stop immediately, as it happens when we enter a multiplayer garage.
 
 ## Parameters
 * **vehicle**: The vehicle to stop.
