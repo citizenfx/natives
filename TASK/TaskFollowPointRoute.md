@@ -5,14 +5,14 @@ ns: TASK
 
 ```c
 // 0x595583281858626E 0xB837C816
-void TASK_FOLLOW_POINT_ROUTE(Ped ped, float speed, int followpointroutemode);
+void TASK_FOLLOW_POINT_ROUTE(Ped ped, float speed, int mode);
 ```
 ### Flags
-ENUM FOLLOWPOINTROUTEMODE {
+c // ENUM FOLLOWPOINTROUTEMODE {
     TICKET_SINGLE=0,    //Stop at the end of the route 
-    TICKET_RETURN,      //Go once then return back once following the route backwards 
-    TICKET_SEASON,      //As above but for forever 
-    TICKET_LOOP         //Treat the points as a loop, i.e follow it to the end then directly back to the first position, forever. 
+    TICKET_RETURN=1,      //Go once then return back once following the route backwards 
+    TICKET_SEASON=2,      //As above but for forever 
+    TICKET_LOOP=3         //Treat the points as a loop, i.e follow it to the end then directly back to the first position, forever. 
 ENDENUM}
 
 ```
@@ -31,5 +31,5 @@ TASK_FOLLOW_POINT_ROUTE(GET_PLAYER_PED(), 1f, 0);
 ## Parameters
 * **ped**: The ped to give the task to.
 * **speed**: The speed to move at in m/s.
-* **FollowPointRouteMode**: Unknown. Can be 0, 1, 2 or 3.
+* **mode**: Can be 0, 1, 2 or 3. See flags
 
