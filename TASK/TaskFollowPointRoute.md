@@ -5,7 +5,7 @@ ns: TASK
 
 ```c
 // 0x595583281858626E 0xB837C816
-void TASK_FOLLOW_POINT_ROUTE(Ped ped, float speed, int mode);
+void TASK_FOLLOW_POINT_ROUTE(Ped ped, float speed, int routeMode);
 ```
 ### Flags
 ```c
@@ -32,5 +32,5 @@ TASK_FOLLOW_POINT_ROUTE(GET_PLAYER_PED(), 1f, 0);
 ## Parameters
 * **ped**: The ped to give the task to.
 * **speed**: The speed to move at in m/s.
-* **mode**: Can be 0, 1, 2 or 3. See flags
+* **routeMode**: Can be 0, 1, 2 or 3. See flags
 
