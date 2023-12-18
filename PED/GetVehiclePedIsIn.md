@@ -19,7 +19,7 @@ The vehicle id. Returns 0 if the ped is/was not in a vehicle.
 
 ## Examples
 ```lua
--- This example gets the vehicle the player is currently in
+-- This example gets the vehicle the player is currently in and sets the engine health to 1000
 
 -- Retrieve the player ped
 local playerPed = PlayerPedId()
@@ -35,7 +35,7 @@ SetVehicleEngineHealth(vehicle, 1000.0)
 ```
 
 ```js
-// This example gets the vehicle the player is currently in
+// This example gets the vehicle the player is currently in and sets the engine health to 1000
 
 // Retrieve the player ped
 const playerPed = PlayerPedId();
@@ -51,7 +51,7 @@ SetVehicleEngineHealth(vehicle, 1000.0);
 ```
 
 ```cs
-// This example gets the vehicle the player is currently in
+// This example gets the vehicle the player is currently in and sets the engine health to 1000
 using static CitizenFX.Core.Native.API;
 
 // Retrieve the player ped
