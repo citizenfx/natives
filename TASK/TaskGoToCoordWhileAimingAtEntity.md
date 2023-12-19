@@ -5,7 +5,7 @@ ns: TASK
 
 ```c
 // 0xB2A16444EAD9AE47 0x9BD52ABD
-void TASK_GO_TO_COORD_WHILE_AIMING_AT_ENTITY(Ped ped, float x, float y, float z, Entity entityToAimAt, float moveSpeed, BOOL p6, float p7, float p8, BOOL p9, Any p10, BOOL p11, Any p12, Any p13);
+void TASK_GO_TO_COORD_WHILE_AIMING_AT_ENTITY(Ped ped, float x, float y, float z, Entity entityToAimAt, float moveSpeed, BOOL shoot, float targetRadius, float slowDistance, BOOL useNavMesh, int navFlags, BOOL instantBlendAtAim, Hash firingPattern, int time);
 ```
 
 Will make the ped move to a coordinate while aiming (and optionally shooting) at the given entity.
@@ -17,12 +17,12 @@ Will make the ped move to a coordinate while aiming (and optionally shooting) at
 * **z**: Destination Z position
 * **entityToAimAt**: Entity that the ped will aim at.
 * **moveSpeed**: Mostly 2f, but also 1/1.2f, etc.
-* **p6**: 
-* **p7**: 
-* **p8**: 
-* **p9**: 
-* **p10**: 
-* **p11**: 
-* **p12**: 
-* **p13**: 
+* **shoot**: If true ped will shoot; false - will not
+* **targetRadius**: Usually 0.5f
+* **slowDistance**: Usually 4f
+* **useNavMesh**: 
+* **navFlags**: Usually 0 or 64
+* **instantBlendAtAim**: 
+* **firingPattern**: ${firing_pattern_full_auto}, 0xC6EE6B4C
+* **time**: Usually 20000 (ms)
 
