@@ -9,13 +9,10 @@ aliases: ["0xD4C4642CB7F50B5D"]
 BOOL GET_VEHICLE_IS_MERCENARY(Vehicle vehicle);
 ```
 
-```
-Only used like this:  
-if (VEHICLE::GET_VEHICLE_IS_MERCENARY(ENTITY::GET_VEHICLE_INDEX_FROM_ENTITY_INDEX(v_3))) {                                                        sub_157e9c(g_40001._f1868, 0);  
-}  
-```
+Returns whether the specified vehicle is designated as a mercenary vehicle
 
 ## Parameters
-* **vehicle**: 
+* **vehicle**: The vehicle to check for mercenary status.
 
 ## Return value
+Returns `true` if the vehicle is a mercenary vehicle, `false` otherwise.
