@@ -8,13 +8,12 @@ ns: TASK
 void TASK_FOLLOW_POINT_ROUTE(Ped ped, float speed, int routeMode);
 ```
 ### Flags
-```c
-// enum FOLLOWPOINTROUTEMODE { 
-    TICKET_SINGLE=0,      //Stop at the end of the route 
-    TICKET_RETURN=1,      //Go once then return back once following the route backwards 
-    TICKET_SEASON=2,      //As above but for forever 
-    TICKET_LOOP=3         //Treat the points as a loop, i.e follow it to the end then directly back to the first position, forever. 
-}; ```
+enum eFollowPointRouteMode {
+	TICKET_SINGLE = 0,
+	TICKET_RETURN = 1,
+	TICKET_SEASON = 2,
+	TICKET_LOOP = 3
+}
 
 ```
 MulleKD19: Makes the ped go on the created point route.
