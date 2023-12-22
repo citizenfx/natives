@@ -5,7 +5,7 @@ ns: TASK
 
 ```c
 // 0xB2A16444EAD9AE47 0x9BD52ABD
-void TASK_GO_TO_COORD_WHILE_AIMING_AT_ENTITY(Ped ped, float x, float y, float z, Entity entityToAimAt, float moveSpeed, BOOL shoot, float targetRadius, float slowDistance, BOOL useNavMesh, int navFlags, BOOL instantBlendAtAim, Hash firingPattern, int time);
+void TASK_GO_TO_COORD_WHILE_AIMING_AT_ENTITY(cs_type(Any) Ped ped, float x, float y, float z, cs_type(Any) Entity entityToAimAt, float moveSpeed, BOOL shoot, float targetRadius, float slowDistance, BOOL useNavMesh, cs_type(Any) int navFlags, BOOL instantBlendAtAim, cs_type(Any) Hash firingPattern, cs_type(Any) int time);
 ```
 
 Will make the ped move to a coordinate while aiming (and optionally shooting) at the given entity.
