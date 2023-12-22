@@ -18,7 +18,6 @@ Checks whether the specified boat vehicle is capsized, meaning it has overturned
 Returns `true` if the specified boat is capsized, `false` otherwise.
 
 ## Examples
-
 ```lua
 -- This example checks if the player is in a boat and if the boat is capsized.
 
