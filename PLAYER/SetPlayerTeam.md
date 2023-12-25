@@ -8,11 +8,8 @@ ns: PLAYER
 void SET_PLAYER_TEAM(Player player, int team);
 ```
 
-```
-Set player team on deathmatch and last team standing..  
-```
+Set the player current team.
 
 ## Parameters
-* **player**: 
+* **player**: The player index.
 * **team**: 
-
