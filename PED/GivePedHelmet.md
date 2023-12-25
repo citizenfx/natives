@@ -8,19 +8,11 @@ ns: PED
 void GIVE_PED_HELMET(Ped ped, BOOL cannotRemove, int helmetFlag, int textureIndex);
 ```
 
-```
-PoliceMotorcycleHelmet   1024
-RegularMotorcycleHelmet   4096
-FiremanHelmet 16384
-PilotHeadset  32768
-PilotHelmet   65536
---
-p2 is generally 4096 or 16384 in the scripts. p1 varies between 1 and 0.
-```
+Give the ped a helmet.
 
 ## Parameters
-* **ped**: 
-* **cannotRemove**: 
-* **helmetFlag**: 
-* **textureIndex**: 
+* **ped**: Ped index.
+* **cannotRemove**: Can remove helmet or not.
+* **helmetFlag**: Flag for the helmet.
+* **textureIndex**: Texture index.
 

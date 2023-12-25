@@ -5,11 +5,11 @@ ns: PED
 
 ```c
 // 0x560A43136EB58105 0xED366E53
-void SET_PED_HELMET(Ped ped, BOOL canWearHelmet);
+void SET_PED_HELMET(Ped ped, BOOL enable);
 ```
 
+Adjusts the preference for a ped to utilize a helmet.
 
 ## Parameters
-* **ped**: 
-* **canWearHelmet**: 
-
+* **ped**: Ped index.
+* **enable**: If can wear helmet or not.
