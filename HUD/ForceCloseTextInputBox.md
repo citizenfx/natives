@@ -9,4 +9,4 @@ aliases: ["0x8817605C2BA76200", "_FORCE_CLOSE_TEXT_INPUT_BOX"]
 void FORCE_CLOSE_TEXT_INPUT_BOX();
 ```
 
-
+Forces the text input box to close if it is open.

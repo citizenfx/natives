@@ -9,7 +9,16 @@ void SHAKE_GAMEPLAY_CAM(char* shakeType, float amplitude);
 ```
 
 Makes the main gameplay camera shake.
-[Shake Types](https://github.com/DurtyFree/gta-v-data-dumps/blob/master/camShakeTypesCompact.json)
+
+Shake Types:
+SMALL_EXPLOSION_SHAKE
+MEDIUM_EXPLOSION_SHAKE
+LARGE_EXPLOSION_SHAKE
+HAND_SHAKE
+JOLT_SHAKE
+VIBRATE_SHAKE
+WOBBLY_SHAKE
+DRUNK_SHAKE
 
 ## Parameters
 * **shakeType**: How the camera should shake

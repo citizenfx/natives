@@ -14,3 +14,4 @@ Returns one of these id's - 1000.
 
 ## Return value
 Menu ID of the screen.
+Do note that this value can only be used once, because it resets after the function is called.

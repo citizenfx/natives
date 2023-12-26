@@ -10,5 +10,5 @@ void STOP_SCRIPT_GLOBAL_SHAKING(BOOL instantly);
 ```
 
 ## Parameters
-* **instantly**: If true, the currently rendering scripted camera (If any) stops shaking instantly. If false, it transitions into normal state.
+* **instantly**: If true, the current camera stops shaking instantly. If false, it will enter its release phase and fade out.
 

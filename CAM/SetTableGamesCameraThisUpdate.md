@@ -19,6 +19,11 @@ CASINO_LUCKY_WHEEL_CAMERA
 CASINO_BLACKJACK_CAMERA
 CASINO_ROULETTE_CAMERA
 CASINO_POKER_CAMERA
+ARCADE_LOVE_PROFESSOR_P1_CAMERA
+ARCADE_LOVE_PROFESSOR_P2_CAMERA
 
 ## Parameters
 * **typeHash**: Which table game object to focus on
+
+## Return value
+true if the camera was successfully set this update.

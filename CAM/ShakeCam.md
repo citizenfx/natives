@@ -8,7 +8,15 @@ ns: CAM
 void SHAKE_CAM(Cam cam, char* shakeType, float amplitude);
 ```
 
-[Shake Types](https://github.com/DurtyFree/gta-v-data-dumps/blob/master/camShakeTypesCompact.json)
+Shake Types:
+SMALL_EXPLOSION_SHAKE
+MEDIUM_EXPLOSION_SHAKE
+LARGE_EXPLOSION_SHAKE
+HAND_SHAKE
+JOLT_SHAKE
+VIBRATE_SHAKE
+WOBBLY_SHAKE
+DRUNK_SHAKE
 
 ## Parameters
 * **cam**: Cam ID returned by [`CREATE_CAM`](#_0xC3981DCE61D9E13F)

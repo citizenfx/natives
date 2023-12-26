@@ -6,7 +6,7 @@ aliases: ["0x632B2940C67F4EA9", "_GET_SCALEFORM_MOVIE_CURSOR_SELECTION"]
  
 ```c
 // 0x632B2940C67F4EA9
-BOOL GET_MOUSE_EVENT(int scaleformHandle, cs_type(Any*) bool* received, cs_type(Any*) int* selectionType, cs_type(Any*) int* context, int* slotIndex);
+BOOL GET_MOUSE_EVENT(int scaleformHandle, cs_type(Any*) bool* received, cs_type(Any*) int* eventType, cs_type(Any*) int* uid, int* context);
 ```
 
 Gets mouse selection data from scaleforms with mouse support. Must be checked every frame.
@@ -32,7 +32,7 @@ Scaleforms that this works with:
 - SC_LEADERBOARD
 Probably works with other scaleforms, needs more research.
 In order to use this Native you MUST have controls 239, 240, 237, 238 enabled!
-This native, due to its erroneous redundancy of the returned boolean value, works differently in C#: shifting the parameters (where `received` becomes `selectionType` and so on making the fourth parameter unused and always 0).
+This native, due to its erroneous redundancy of the returned boolean value, works differently in C#: shifting the parameters (where `received` becomes `eventType` and so on making the fourth parameter unused and always 0).
 
 ## Examples
 ```lua
@@ -50,9 +50,9 @@ var success = GetScaleformMovieCursorSelection(scaleform.Handle, ref eventType, 
 ## Parameters
 * **scaleformHandle**: Handle of the scaleform
 * **received**: Returns a boolean indicating if the data was received successfully (in Lua).
-* **selectionType**: The type of MouseEvent specified above.
-* **context**: Context of the slot the mouse is hovering on.
-* **slotIndex**: Index of the slot the mouse is hovering on.
+* **eventType**: The specific type of mouse event that has taken place.
+* **uid**: A distinct identification for the item that initiated the mouse event.
+* **context**: The context in which this item occurred, which could be a column index, submenu, or a similar reference.
 
 ## Return value
 * **retVal** Returns true if MOUSE_EVENT callback from Scaleforms has been called.

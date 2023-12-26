@@ -10,5 +10,5 @@ void STOP_CINEMATIC_CAM_SHAKING(BOOL instantly);
 
 
 ## Parameters
-* **instantly**: If true, the camera stops shaking instantly. If false, it transitions into normal state.
+* **instantly**: If true, the camera stops shaking instantly. If false, it will enter its release phase and fade out.
 
