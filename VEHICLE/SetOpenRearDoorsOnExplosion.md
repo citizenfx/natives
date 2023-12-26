@@ -17,7 +17,6 @@ Enables or disables the opening of a vehicle's rear doors in the event of a stic
 * **toggle**: A boolean value where `true` allows the rear doors to open upon explosion, and `false` prevents them from opening.
 
 ## Return value
-
 This native does not return any value.
 
 ## Examples
