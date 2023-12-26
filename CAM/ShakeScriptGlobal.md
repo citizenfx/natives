@@ -10,16 +10,7 @@ void SHAKE_SCRIPT_GLOBAL(char* shakeType, float amplitude);
 ```
 
 Makes every camera created by scripts shake.
-
-Shake Types:
-SMALL_EXPLOSION_SHAKE
-MEDIUM_EXPLOSION_SHAKE
-LARGE_EXPLOSION_SHAKE
-HAND_SHAKE
-JOLT_SHAKE
-VIBRATE_SHAKE
-WOBBLY_SHAKE
-DRUNK_SHAKE
+See [SHAKE_CAM](#_0x6A25241C340D3822) for a list of available shakeTypes.
 
 ## Parameters
 * **shakeType**: How script cams should shake
