@@ -20,7 +20,7 @@ Create a synchronised scene. This is usally used to create a scene where every e
 * **rotationOrder**: Rotation order of the scene. Current usage unknown.
 * **holdLastFrame**: Whether or not the animation will hold the last frame in this scene.
 * **looped**: Whether or not each animation in this scene will repeat.
-* **p9**: Unknown, seems to be a flag parameter.
+* **p9**: Phase to stop the scene.
 * **animTime**: The starting phase of the scene. Each scene has a phase ranged between 0.0 to 1.0. If you put `0.3` here, all animations in this scene will start at phase `0.3`.
 * **animSpeed**: Animation speed. `1.0` is normal speed.
 
