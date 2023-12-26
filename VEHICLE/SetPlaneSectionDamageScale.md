@@ -13,7 +13,7 @@ Adjusts the scale of damage applied to a specified section of a plane.
 In the decompiled scripts the `damageScale` is always set to `0f` (maybe to disable damages on the specified section)
 
 ```c
-enum PLANE_DAMAGE_SECTION {
+enum ePlaneDamageSection {
     WING_L = 0,
     WING_R = 1,
     TAIL = 2,
@@ -36,9 +36,8 @@ NativeDB Introduced: v1290
 
 ## Parameters
 * **vehicle**: Plane to which the damage scale adjustment will be applied.
-* **damageSection**: Specific section of the plane, as defined in the `PLANE_DAMAGE_SECTION` enum, where the damage scale will be adjusted.
+* **damageSection**: Specific section of the plane, as defined in the `ePlaneDamageSection` enum, where the damage scale will be adjusted.
 * **damageScale**: A float value representing the scale of damage to be applied to the specified section.
 
 ## Return value
-
 This native does not return any value.
