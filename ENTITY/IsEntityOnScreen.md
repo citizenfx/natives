@@ -12,5 +12,9 @@ Determines whether the screen position of the specified entity is within the 2D 
 
 This native will not check if the entity is not visible due to being occluded (for example, behind a wall). To check if a entity is on screen and is not occluded, use [IS_ENTITY_OCCLUDED](#_0xE31C2C72B8692B64).
 
+## Return value
+
+Returns `true` if the the entity is in between the minimum and maximum values for the 2d screen coord; otherwise, `false`.
+
 ## Parameters
 * **entity**: The entity to check.
