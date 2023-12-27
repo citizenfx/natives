@@ -26,4 +26,4 @@ Call this native every frame.
 * **typeHash**: Which table game object to focus on
 
 ## Return value
-true if the camera was successfully set this update.
+True if the camera settings were successfully updated.

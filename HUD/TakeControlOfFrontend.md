@@ -15,8 +15,6 @@ To enable the keys again, use [`RELEASE_CONTROL_OF_FRONTEND`](#_0x14621BB1DF14E2
 
 ## Examples
 ```lua
--- Disable both navigation and mouse controls:
-
 -- This disables keyboard/controller navigation
 TakeControlOfFrontend()
 

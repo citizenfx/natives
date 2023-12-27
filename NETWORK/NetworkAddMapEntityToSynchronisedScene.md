@@ -9,10 +9,10 @@ aliases: ["0x45F35C0EDC33B03B"]
 void NETWORK_ADD_MAP_ENTITY_TO_SYNCHRONISED_SCENE(int netScene, Hash modelHash, float x, float y, float z, cs_type(float) char* animDict, char* animName, float blendInSpeed, float blendOutSpeed, int flags);
 ```
 
-Adds a map entity to a network synchronised scene.
-This native is only used once as of game build 2944 in the casino_slots script.
-Do note that you can only add one map entity to synchronised scenes.
-It is recommended you first find the object and it's actual coordinates with [`GET_CLOSEST_OBJECT_OF_TYPE`](#_0xE143FA2249364369)
+Adds a map entity to a network synchronized scene. This native function is utilized only once as of game build 2944 within the casino_slots script.
+Please note that it's only possible to add a single map entity to synchronized scenes.
+
+It's advisable to initially locate the object and retrieve its actual coordinates using [`GET_CLOSEST_OBJECT_OF_TYPE`](#_0xE143FA2249364369).
 
 ```
 NativeDB Introduced: v1734
