@@ -16,4 +16,4 @@ This native will not check if the entity is not visible due to being occluded (f
 * **entity**: The entity to check.
 
 ## Return value
-Returns `true` if the the entity is in between the minimum and maximum values for the 2d screen coord; otherwise, `false`.
+Returns `true` if the the entity is in between the minimum and maximum values for the 2D screen bound coords (X, Y); otherwise, `false`.
