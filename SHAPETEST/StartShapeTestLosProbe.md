@@ -17,11 +17,12 @@ enum TraceFlags
   None = 0,
   IntersectWorld = 1,
   IntersectVehicles = 2,
-  IntersectPedsSimpleCollision = 4,
-  IntersectPeds = 8,
+  IntersectPeds = 4,
+  IntersectRagdoll = 8,
   IntersectObjects = 16,
   IntersectWater = 32,
-  Unknown = 128,
+  IntersectGlass = 64,
+  IntersectRiver = 128,
   IntersectFoliage = 256,
   IntersectEverything = -1
 }
