@@ -18,7 +18,7 @@ enum TraceFlags
   IntersectWorld = 1,
   IntersectVehicles = 2,
   IntersectPeds = 4,
-  IntersectRagdoll = 8,
+  IntersectRagdolls = 8,
   IntersectObjects = 16,
   IntersectWater = 32,
   IntersectGlass = 64,
@@ -41,7 +41,7 @@ Use the handle with [GET_SHAPE_TEST_RESULT](#_0x3D87450E15D98694) or [GET_SHAPE_
 * **z2**: Ending Z coordinate.
 * **flags**: Flags.
 * **entity**: An entity to ignore, or 0.
-* **p8**: A bit mask with bits 1, 2, 4, or 7 relating to collider types. 4 and 7 are usually used.
+* **options**: A bit mask with bits 1, 2, 4, or 7 relating to collider types. 4 and 7 are usually used.
 
 ## Return value
 A shape test handle.
