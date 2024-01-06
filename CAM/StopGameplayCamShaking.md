@@ -5,10 +5,9 @@ ns: CAM
 
 ```c
 // 0x0EF93E9F3D08C178 0xFD569E4E
-void STOP_GAMEPLAY_CAM_SHAKING(BOOL bstopImmediately);
+void STOP_GAMEPLAY_CAM_SHAKING(BOOL bStopImmediately);
 ```
 
-
 ## Parameters
-* **bstopImmediately**: Should the shake stop this frame.
+* **bStopImmediately**: Should the shake stop this frame.
 
