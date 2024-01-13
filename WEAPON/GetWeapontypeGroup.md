@@ -13,7 +13,7 @@ Hash GET_WEAPONTYPE_GROUP(Hash weaponHash);
 * **weaponHash**: The hash of the Weapon.
 
 ## Return value
-* **Melee**: 2685387236
+* **Melee**: -1609580060
 * **Handgun**: 416676503
 * **Submachine Gun**: -957766203
 * **Shotgun**: 860033945
