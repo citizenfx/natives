@@ -20,7 +20,7 @@ This should be paired with [`END_TEXT_COMMAND_SET_BLIP_NAME`](#_0xBC38B49BCB83BC
 -- creates a blip called 'Food for me!' at 0.0, 0.0, 0.0
 AddTextEntry('MYBLIP', 'Food for ~a~!')
 
-local blip = AddBlipForCoords(0.0, 0.0, 0.0)
+local blip = AddBlipForCoord(0.0, 0.0, 0.0)
 BeginTextCommandSetBlipName('MYBLIP')
 AddTextComponentSubstringPlayerName('me')
 EndTextCommandSetBlipName(blip)

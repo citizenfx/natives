@@ -8,16 +8,12 @@ ns: ENTITY
 void SET_ENTITY_AS_MISSION_ENTITY(Entity entity, BOOL p1, BOOL p2);
 ```
 
-```
-Makes the specified entity (ped, vehicle or object) persistent. Persistent entities will not automatically be removed by the engine.  
-p1 has no effect when either its on or off   
-maybe a quick disassembly will tell us what it does  
-p2 has no effect when either its on or off   
-maybe a quick disassembly will tell us what it does  
-```
+Assigns an existing entity to be owned by the current script. If the entity was not owned by a script yet, this also means the entity will remain persistent until released.
+
+Note that this is not needed right after creating an entity as a script-created entity will automatically be assigned.
 
 ## Parameters
-* **entity**: 
+* **entity**: An entity handle.
 * **p1**: 
 * **p2**: 
 

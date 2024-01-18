@@ -8,12 +8,9 @@ ns: HUD
 void SET_BLIP_AS_FRIENDLY(Blip blip, BOOL toggle);
 ```
 
-```
-false for enemy  
-true for friendly  
-```
+Allows the user to set a blip as friendly or enemy based on the toggle.
 
 ## Parameters
-* **blip**: 
-* **toggle**: 
+* **blip**: The blip handle
+* **toggle**: True for friendly, false for enemy
 

@@ -8,12 +8,9 @@ ns: HUD
 int GET_BLIP_SPRITE(Blip blip);
 ```
 
-```
-Blips Images + IDs:  
-gtaxscripting.blogspot.com/2016/05/gta-v-blips-id-and-image.html  
-```
+Gets the sprite id of the specified blip. Blip sprite ids and images can be found [here](https://docs.fivem.net/docs/game-references/blips/).
 
 ## Parameters
-* **blip**: 
+* **blip**: The blip handle.
 
 ## Return value

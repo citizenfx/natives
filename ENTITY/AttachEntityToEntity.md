@@ -5,7 +5,7 @@ ns: ENTITY
 
 ```c
 // 0x6B9BBD38AB0796DF 0xEC024237
-void ATTACH_ENTITY_TO_ENTITY(Entity entity1, Entity entity2, int boneIndex, float xPos, float yPos, float zPos, float xRot, float yRot, float zRot, BOOL p9, BOOL useSoftPinning, BOOL collision, BOOL isPed, int rotationOrder, BOOL fixedRot);
+void ATTACH_ENTITY_TO_ENTITY(Entity entity1, Entity entity2, int boneIndex, float xPos, float yPos, float zPos, float xRot, float yRot, float zRot, BOOL p9, BOOL useSoftPinning, BOOL collision, BOOL isPed, int rotationOrder, BOOL syncRot);
 ```
 
 Attach an entity to the specified entity.
@@ -25,5 +25,5 @@ Attach an entity to the specified entity.
 * **collision**: Controls collision between the two entities (FALSE disables collision).
 * **isPed**: Pitch doesnt work when false and roll will only work on negative numbers (only peds)
 * **rotationOrder**: The order in which the rotation is applied. See [`GET_ENTITY_ROTATION`](#_0xAFBD61CC738D9EB9)
-* **fixedRot**: If false it ignores entity vector.
+* **syncRot**: If false it ignores entity rotation.
 

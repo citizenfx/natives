@@ -10,7 +10,7 @@ Cam CREATE_CAMERA_WITH_PARAMS(Hash camHash, float posX, float posY, float posZ, 
 
 CAM::_GET_GAMEPLAY_CAM_COORDS can be used instead of posX,Y,Z  
 CAM::_GET_GAMEPLAY_CAM_ROT can be used instead of rotX,Y,Z  
-CAM::_80EC114669DAEFF4() can be used instead of p7 (Possible p7 is FOV parameter. )  
+CAM::_GET_FINAL_RENDERED_CAM_FOV can be used instead of p7 (Possible p7 is FOV parameter. )  
 rotationOrder is 2 usually
 
 ## Parameters

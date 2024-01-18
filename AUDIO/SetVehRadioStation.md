@@ -8,9 +8,7 @@ ns: AUDIO
 void SET_VEH_RADIO_STATION(Vehicle vehicle, char* radioStation);
 ```
 
-```
-For a full list, see here: pastebin.com/Kj9t38KF  
-```
+Find the radio station list [here](https://gist.github.com/4mmonium/b47d6512a2d992cbf4eea15d9038b581)
 
 ## Parameters
 * **vehicle**: 

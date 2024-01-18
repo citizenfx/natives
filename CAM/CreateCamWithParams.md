@@ -10,17 +10,10 @@ Cam CREATE_CAM_WITH_PARAMS(char* camName, float posX, float posY, float posZ, fl
 
 Create a camera with the specified cam name/type, You can use `SET_CAM_` natives to manipulate the camera.
 
-Camera names found in the b617d scripts:
-
-```
-"DEFAULT_ANIMATED_CAMERA"  
-"DEFAULT_SCRIPTED_CAMERA"  
-"DEFAULT_SCRIPTED_FLY_CAMERA"  
-"DEFAULT_SPLINE_CAMERA" 
-```
+Take a look at [CREATE_CAM](#_0xC3981DCE61D9E13F) if you would like to see the available camera names.
 
 ## Parameters
-* **camName**: Is the type of the camera, is always setted to `DEFAULT_SCRIPTED_CAMERA` in Rockstar scripts and in Fivem Forum Posts
+* **camName**: A string representing the camera type, the game will convert the string into a joaat hash upon native execution.
 * **posX**: The x position of the camera (you can also send a vector3 instead of the bulk coordinates)
 * **posY**: The y position of the camera (you can also send a vector3 instead of the bulk coordinates)
 * **posZ**: The z position of the camera (you can also send a vector3 instead of the bulk coordinates)
@@ -28,8 +21,8 @@ Camera names found in the b617d scripts:
 * **rotY**: The y rotation of the camera
 * **rotZ**: The z rotation of the camera
 * **fov**: The Field Of View of the camera, is the observable world that is seen
-* **active**:
-* **rotationOrder**:
+* **active**: Set to true if you wish to make this new camera the active camera.
+* **rotationOrder**: The order of rotation, see [`GET_ENTITY_ROTATION`](#_0xAFBD61CC738D9EB9)
 
 ## Return value
 A camera handle.

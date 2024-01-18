@@ -1,0 +1,96 @@
+name: Compatibility method generation
+on:
+  workflow_dispatch:
+    inputs:
+      use_history:
+        type: boolean
+        default: true
+        description: "Get all signatures since date (-h)"
+      since_date:
+        type: string
+        default: '2023-01-01'
+        required: true
+        description: "Since/start date (--start-date)"
+      ignore_missing_input:
+        type: boolean
+        default: false
+        description: "Ignore missing input, needed for initial runs (-i)"
+      no_input:
+        type: boolean
+        default: false
+        description: "Don't load the input file (--in=skip)"
+      force:
+        type: boolean
+        default: false
+        description: "Force output file creation (-f)"
+      output_action:
+        type: choice
+        default: "Ignore"
+        required: true
+        description: "Output file action"
+        options:
+        - Ignore
+        - Echo (stdout)
+        - Artifact
+        - Deploy to remote
+
+jobs:
+  deploy:
+    runs-on: ubuntu-20.04
+    name: Build & Deploy
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+        with: 
+          path: './'
+          fetch-depth: 2
+      
+      - name: Install Node.js
+        uses: actions/setup-node@v2
+      
+      - name: Install SSH key
+        if: inputs.no_input == false || inputs.output_action == 'Deploy to remote'
+        uses: shimataro/ssh-key-action@v2
+        with:
+          key: ${{ secrets.NATIVE_DEPLOY_KEY }}
+          known_hosts: ${{ secrets.NATIVE_DEPLOY_KNOWN_HOSTS }}
+      
+      - name: Acquire latest compat file
+        if: inputs.no_input == false
+        env:
+          NATIVE_DEPLOY_URL: ${{ secrets.NATIVE_DEPLOY_URL }}
+        run: |
+          mkdir ./in
+          rsync -q --ignore-missing-args $NATIVE_DEPLOY_URL/natives_global_client_compat.lua ./in/natives_global_client_compat.lua
+      
+      - name: Run build
+        shell: bash
+        run: |
+          set -xe
+          git fetch origin $GITHUB_REF_NAME --shallow-since=${{ inputs.since_date }}
+          
+          pushd ./
+          . ./.ci/setup-builder
+          popd
+          
+          mkdir -p out
+          [ ${{ inputs.no_input }} == false ] && INPUT_FILE="./in/natives_global_client_compat.lua" || INPUT_FILE="skip"
+          
+          ./.ci/run-compat $BUILDER_ROOT "./out/natives_global_client_compat.lua" "$INPUT_FILE" ${{ inputs.ignore_missing_input }} ${{ inputs.force }} ${{ inputs.use_history }} ${{ inputs.since_date }}
+          
+      - name: Output -> Echo (stdout)
+        if: inputs.output_action == 'Echo (stdout)'
+        run: cat ./out/natives_global_client_compat.lua
+      
+      - name: Output -> Artifact
+        if: inputs.output_action == 'Artifact'
+        uses: actions/upload-artifact@v3
+        with:
+          name: ouput-data
+          path: out/*
+      
+      - name: Output -> Deploy
+        if: inputs.output_action == 'Deploy to remote'
+        env:
+          NATIVE_DEPLOY_URL: ${{ secrets.NATIVE_DEPLOY_URL }}
+        run: rsync -rqb --backup-dir=./ --suffix=.bak --include=*compat.lua --exclude=* ./out/ $NATIVE_DEPLOY_URL

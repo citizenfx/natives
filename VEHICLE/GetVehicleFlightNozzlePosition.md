@@ -19,9 +19,9 @@ A float indicating the percentage of the hover mode. 1.0 = in VTOL mode, 0.0 = i
 ```lua
 local vehicle = GetVehiclePedIsIn(PlayerPedId(), false)
 
-if GetVehicleHoverModePercentage(vehicle) == 0.0 then
+if GetVehicleFlightNozzlePosition(vehicle) == 0.0 then
     print("Flying normally!")
-elseif GetVehicleHoverModePercentage(vehicle) == 1.0 then
+elseif GetVehicleFlightNozzlePosition(vehicle) == 1.0 then
     print("Flying in VTOL mode!")
 else
     print("Currently switching hover mode!")
@@ -32,16 +32,30 @@ end
 ```cs
 int vehicle = GetVehiclePedIsIn(PlayerPedId(), false);
 
-if (GetVehicleHoverModePercentage(vehicle) == 0f)
+if (GetVehicleFlightNozzlePosition(vehicle) == 0f)
 {
     Debug.WriteLine("Flying normally!");
 }
-else if (GetVehicleHoverModePercentage(vehicle) == 1f)
+else if (GetVehicleFlightNozzlePosition(vehicle) == 1f)
 {
     Debug.WriteLine("Flying in VTOL mode!");
 }
 else
 {
     Debug.WriteLine("Currently switching hover mode!");
+}
+```
+
+```js
+let vehicle = GetVehiclePedIsIn(PlayerPedId(), false);
+
+if (GetVehicleFlightNozzlePosition(vehicle) === 0.0) {
+    console.log("Flying normally!");
+}
+else if (GetVehicleFlightNozzlePosition(vehicle) === 1.0) {
+    console.log("Flying in VTOL mode!");
+}
+else {
+    console.log("Currently switching hover mode!");
 }
 ```

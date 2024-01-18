@@ -8,12 +8,6 @@ ns: PED
 void CLEAR_PED_PROP(Ped ped, int propId);
 ```
 
-```
-List of component/props ID  
-gtaxscripting.blogspot.com/2016/04/gta-v-peds-component-and-props.html  
-```
-
 ## Parameters
-* **ped**: 
-* **propId**: 
-
+* **ped**: The ped handle.
+* **propId**: The prop id you want to clear from the ped. Refer to [SET_PED_PROP_INDEX](#_0x93376B65A266EB5F).

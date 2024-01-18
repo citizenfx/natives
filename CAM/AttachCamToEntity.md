@@ -13,10 +13,20 @@ Last param determines if its relative to the Entity
 ```
 
 ## Parameters
-* **cam**: 
-* **entity**: 
-* **xOffset**: 
-* **yOffset**: 
-* **zOffset**: 
-* **isRelative**: 
+* **cam**: The camera handle.
+* **entity**: The entity handle.
+* **xOffset**: X-axis offset
+* **yOffset**: Y-axis offset
+* **zOffset**: Z-axis offset
+* **isRelative**: Whether or not the camera will be relative to the entity
 
+## Examples
+```lua
+local entity = PlayerPedId()
+local cam = CreateCam("DEFAULT_SCRIPTED_CAMERA", true)
+
+AttachCamToEntity(cam,entity, 0.0, 0.0, 0.0, true) --attach camera to the center of the entity
+
+SetCamActive(cam, true)
+RenderScriptCams(true, false, 0, true, true)
+```

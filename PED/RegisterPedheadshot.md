@@ -1,6 +1,7 @@
 ---
 ns: PED
 ---
+
 ## REGISTER_PEDHEADSHOT
 
 ```c
@@ -16,11 +17,33 @@ gtaforums.com/topic/885580-ped-headshotmugshot-txd/
 * **ped**: The ped you want to take the "headshot" of.
 
 ## Return value
-It returns a number (like an ID), which can be used by natives like [GET_PEDHEADSHOT_TXD_STRING](https://docs.fivem.net/natives/?_0xDB4EACD4AD0A5D6B)
+It returns a Ped Headshot Handle, which can be used by natives such as [GET_PEDHEADSHOT_TXD_STRING](https://docs.fivem.net/natives/?_0xDB4EACD4AD0A5D6B)
 
 ## Examples
+```lua
+CreateThread(function()
+    -- Get the ped headshot image.
+    local handle = RegisterPedheadshot(PlayerPedId())
+    while not IsPedheadshotReady(handle) or not IsPedheadshotValid(handle) do
+        Wait(0)
+    end
+    local txd = GetPedheadshotTxdString(handle)
+
+    -- Add the notification text, the more text you add the smaller the font
+    -- size will become (text is forced on 1 line only), so keep this short!
+    SetNotificationTextEntry("STRING")
+    AddTextComponentSubstringPlayerName("Headshot")
+
+    -- Draw the notification
+    DrawNotificationAward(txd, txd, 200, 0, "FM_GEN_UNLOCK")
+
+    -- Cleanup after yourself!
+    UnregisterPedheadshot(handle)
+end)
+```
+
 ```js
-  // This function gets the ped headshot texture and returns an url which can be used in NUI (written in TypeScript) 
+  // This function gets the ped headshot texture and returns an url which can be used in NUI (written in TypeScript)
   
   export const GetPedHeadShotUrl = (ped: number): Promise<string> => {
     // We return a Promise so we can async await it, because registering the ped headshot takes some time.

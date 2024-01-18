@@ -13,7 +13,7 @@ Should be enabled as component (2). Has 0 alpha by default.
 
 ## Parameters
 * **gamerTagId**: a gamerTagId obtained using  for example: [CREATE_FAKE_MP_GAMER_TAG](https://runtime.fivem.net/doc/natives/?_0xBFEFE3321A3F5015)
-* **hudColorIndex**: a hud color index, see the full list here: [link](pastebin.com/d9aHPbXN)
+* **hudColorIndex**: a hud color index, see the full list here: [link](https://docs.fivem.net/docs/game-references/hud-colors/)
 
 ## Examples
 ```lua

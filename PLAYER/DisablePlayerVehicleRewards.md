@@ -8,7 +8,8 @@ ns: PLAYER
 void DISABLE_PLAYER_VEHICLE_REWARDS(Player player);
 ```
 
+Disables vehicle rewards for the current frame.  
 
 ## Parameters
-* **player**: 
+* **player**: The player to disable rewards
 

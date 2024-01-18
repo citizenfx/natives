@@ -8,10 +8,8 @@ ns: STREAMING
 void SET_MODEL_AS_NO_LONGER_NEEDED(Hash model);
 ```
 
-```
-Unloads model from memory  
-```
+Releases the script ownership assigned by REQUEST\_MODEL. This command should be used when done using a specific model hash in script.
 
 ## Parameters
-* **model**: 
+* **model**: The model to release ownership of.
 
