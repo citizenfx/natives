@@ -8,22 +8,22 @@ ns: VEHICLE
 void SET_VEHICLE_NUMBER_PLATE_TEXT_INDEX(Vehicle vehicle, int plateIndex);
 ```
 
-Sets the vehicle's license plate style to the specified index. Indexes as of b3095:
-| Index  | Name            | Image                                        |
-|:------:|:---------------:|:--------------------------------------------:|
-|    0   | Blue on White 2 | ![BoW2](https://i.imgur.com/oOFmgNP.png)     |
-|    1   | Yellow on Black | ![BY](https://i.imgur.com/1zsAUrb.png)       |
-|    2   | Yellow on Blue  | ![YoB](https://i.imgur.com/OdoJ1u9.png)      |
-|    3   | Blue on White 1 | ![BoW1](https://i.imgur.com/iyIrxUq.png)     |
-|    4   | Blue on White 3 | ![BoW3](https://i.imgur.com/1iZoQVE.png)     |
-|    5   | North Yankton   | ![Yankton](https://i.imgur.com/UhOmPtz.png)  |
-|    6   | eCola           | ![eCola](https://i.imgur.com/ulfzH5a.png)    |
-|    7   | Las Venturas    | ![LasVent](https://i.imgur.com/fX4GFJZ.png)  |
-|    8   | Liberty City    | ![LC](https://i.imgur.com/Z5WRmz3.png)       |
-|    9   | LS Car Meet     | ![CarMeet](https://i.imgur.com/JTMqkfi.png)  |
-|    10  | LS Panic        | ![Panic](https://i.imgur.com/Oh5k57l.png)    |
-|    11  | LS Pounders     | ![Pounders](https://i.imgur.com/eTJraxn.png) |
-|    12  | Sprunk          | ![Sprunk](https://i.imgur.com/kZ6KOzv.png)   |
+Sets the vehicle's license plate style to the specified index.
+| Index  | Name            | Image                                                         | Minimum Game Build |
+|:------:|:---------------:|:-------------------------------------------------------------:|:------------------:|
+|    0   | Blue on White 2 | <img src="https://i.imgur.com/oOFmgNP.png" width="100"></img> | Any                |
+|    1   | Yellow on Black | <img src="https://i.imgur.com/1zsAUrb.png" width="100"></img> | Any                |
+|    2   | Yellow on Blue  | <img src="https://i.imgur.com/OdoJ1u9.png" width="100"></img> | Any                |
+|    3   | Blue on White 1 | <img src="https://i.imgur.com/iyIrxUq.png" width="100"></img> | Any                |
+|    4   | Blue on White 3 | <img src="https://i.imgur.com/1iZoQVE.png" width="100"></img> | Any                |
+|    5   | North Yankton   | <img src="https://i.imgur.com/UhOmPtz.png" width="100"></img> | Any                |
+|    6   | eCola           | <img src="https://i.imgur.com/ulfzH5a.png" width="100"></img> | 3095               |
+|    7   | Las Venturas    | <img src="https://i.imgur.com/fX4GFJZ.png" width="100"></img> | 3095               |
+|    8   | Liberty City    | <img src="https://i.imgur.com/Z5WRmz3.png" width="100"></img> | 3095               |
+|    9   | LS Car Meet     | <img src="https://i.imgur.com/JTMqkfi.png" width="100"></img> | 3095               |
+|    10  | LS Panic        | <img src="https://i.imgur.com/Oh5k57l.png" width="100"></img> | 3095               |
+|    11  | LS Pounders     | <img src="https://i.imgur.com/eTJraxn.png" width="100"></img> | 3095               |
+|    12  | Sprunk          | <img src="https://i.imgur.com/kZ6KOzv.png" width="100"></img> | 3095               |
 
 
 ## Parameters
