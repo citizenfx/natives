@@ -17,7 +17,7 @@ gtaforums.com/topic/885580-ped-headshotmugshot-txd/
 * **ped**: The ped you want to take the "headshot" of.
 
 ## Return value
-It returns a Pedheadshot handle, which can be used by natives such as [GET_PEDHEADSHOT_TXD_STRING](https://docs.fivem.net/natives/?_0xDB4EACD4AD0A5D6B)
+It returns a Pedheadshot handle, which can be used by natives such as [`GET_PEDHEADSHOT_TXD_STRING`](#_0xDB4EACD4AD0A5D6B)
 
 ## Examples
 ```lua
