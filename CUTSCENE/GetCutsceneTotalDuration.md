@@ -9,7 +9,7 @@ int GET_CUTSCENE_TOTAL_DURATION();
 ```
 
 Gets the total length of the cutscene irrespective of playback list in milliseconds
-To account for sections, see [`_GET_CUTSCENE_END_TIME`]()
+To account for sections, see [`_GET_CUTSCENE_END_TIME`](#_0x011883f41211432a)
 
 ## Return value
 Cutscene total length in milliseconds
