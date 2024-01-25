@@ -8,7 +8,14 @@ ns: PED
 void GIVE_PED_HELMET(Ped ped, BOOL cannotRemove, int helmetFlag, int textureIndex);
 ```
 
-Give the ped a helmet.
+Give the ped a helmet. Possible flags:
+| Helmet name               | Flag      |
+|---------------------------|-----------|
+| Police Motorcycle Helmet  | 1024      |
+| Regular Motorcycle Helmet | 4096      |
+| Fireman Helmet            | 16384     |
+| Pilot Headset             | 32768     |
+| Pilot Helmet              | 65536     |
 
 ## Parameters
 * **ped**: Ped index.
