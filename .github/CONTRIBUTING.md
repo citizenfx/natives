@@ -7,7 +7,7 @@ Contributions are greatly appreciated! Some topics to contribute on:
 - Documenting parameter and return types
 - Naming unnamed natives appropriately
 - Adding example code to natives
-- Reviewing existing pull requests
+- Reviewing existing pull requests / issues
 
 Guidelines
 ----------
@@ -69,8 +69,7 @@ Submitting a pull request
 With over 5000 natives, it's hard for us to manually review and test all contributions. We love to see a well tested example to validate your change in the pull request description. Doing so will allow us to review your change much faster, and avoids untested or wrong information. This includes:
 
 - Code to test and validate your change with
-- Screenshots showcasing what the change is about
-- Source material of used information
+- Screenshots / Videos showcasing what the change is about
 
 Example documentation
 ---------------------
@@ -84,14 +83,14 @@ aliases: ["0x0123456789ABCDEF","_OLD_NATIVE_NAME"]
 ## _EXAMPLE_NATIVE
 
 ```c
-// 0x0123456789ABCDEF 0x1234ABCD
+// 0x3FEF770D40960D5A 0x1647F1CB
 BOOL _EXAMPLE_NATIVE(int param);
 ```
 
-Description of the native
+Compose a concise yet specific native description.
 
 ## Parameters
-* **param**: Description of the parameter
+* **param**: The param description.
 
 ## Return value
 Description of the return value
@@ -99,18 +98,22 @@ Description of the return value
 ## Examples
 ```lua
 -- A short example showcasing how this native works in Lua
-local result = ExampleNative(123)
+local result = _EXAMPLE_NATIVE('Hello world')
+print(result)
 ```
 
 ```js
 // A short example showcasing how this native works in JavaScript
-const result = ExampleNative(123);
+const result = _EXAMPLE_NATIVE('Hello world');
+console.log(result);
 ```
 
 ```cs
 // A short example showcasing how this native works in C#
-bool result = ExampleNative(123);
+bool result = _EXAMPLE_NATIVE('Hello world');
+Debug.WriteLine(result);
 ```
+
 ~~~
 
 Thanks for contributing! ❤️
