@@ -12,10 +12,6 @@ void ENABLE_MOON_CYCLE_OVERRIDE(float phase);
 
 Enable a custom moon cycle, allowing control of which lunar phase the moon is in.
 
-## Parameters
-
-- **phase**: A value indicating the moon cycle.
-
 Valid values are from `0.0` to `1.0`, with `0.5` representing a full moon.
 
 | Value |   Lunar Phase   |
@@ -30,8 +26,10 @@ Valid values are from `0.0` to `1.0`, with `0.5` representing a full moon.
 
 The moon phase can be disabled with [DISABLE_MOON_CYCLE_OVERRIDE](#_0x2BF72AD5B41AA739)
 
-## Examples
+## Parameters
+- **phase**: A value indicating the moon cycle.
 
+## Examples
 ```lua
 EnableMoonCycleOverride(0.5)
 ```
