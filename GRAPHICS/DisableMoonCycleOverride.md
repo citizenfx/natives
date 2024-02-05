@@ -12,10 +12,7 @@ void DISABLE_MOON_CYCLE_OVERRIDE();
 
 Removes any custom moon cycle overrides that have been configured with [ENABLE_MOON_CYCLE_OVERRIDE](#_0x2C328AF17210F009)
 
-## Parameters
-
 ## Examples
-
 ```lua
 DisableMoonCycleOverride()
 ```
