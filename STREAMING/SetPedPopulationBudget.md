@@ -5,7 +5,7 @@ ns: STREAMING
 
 ```c
 // 0x8C95333CFC3340F3 0xD2D026CD
-void SET_PED_POPULATION_BUDGET(int p0);
+void SET_PED_POPULATION_BUDGET(int p5);
 ```
 
 Control how many new (ambient?) peds will spawn in the game world.
