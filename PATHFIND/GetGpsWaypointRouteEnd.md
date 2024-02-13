@@ -12,8 +12,8 @@ BOOL GET_GPS_WAYPOINT_ROUTE_END(Vector3* result, BOOL p1, float p2, int p3);
 p3 can be 0, 1 or 2.
 
 ## Parameters
-* **result**: 
-* **p1**: 
+* **result**: Coordinates of waypoint marker
+* **p1**: If set to true it will always return the player's coordinates, so set to false
 * **p2**: 
 * **p3**: 
 
