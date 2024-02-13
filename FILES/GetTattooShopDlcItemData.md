@@ -34,7 +34,7 @@ Returned struct properties:
 
 
 ## Parameters
-* **characterType**: Character types 0 = Michael, 1 = Franklin, 2 = Trevor, 3 = MPMale, 4 = MPFemale.
+* **characterType**: Which character to get the tattoo data for.
 * **decorationIndex**: Tattoo index, value between 0 and [GET_NUM_TATTOO_SHOP_DLC_ITEMS](#_0x278F76C3B0A8F109).
 * **outComponent**: The referenced struct.
 
