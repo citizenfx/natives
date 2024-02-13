@@ -9,7 +9,7 @@ aliases: ["0x79C0E43EB9B944E2"]
 BOOL SET_TABLE_GAMES_CAMERA_THIS_UPDATE(Hash hash);
 ```
 
-Override the camerawork of the third-person camera to table game for current frame only.
+Override the camera work of the third-person camera to table game for current frame only.
 
 |                  HashKey                    |       Hash        |    Game         |
 | :---------------------------------: | :-----------:| :-------------:  |
@@ -26,14 +26,13 @@ Override the camerawork of the third-person camera to table game for current fra
 * **hash**: Hash for table game
 
 ## Return value
-Returns if camera is successfully overrided.
+Returns a boolean value indicating if the camera settings were successfully overriden for this current frame.
 
 ## Examples
-
 ```lua
 CreateThread(function()
     while true do
-      -- override to luckey wheel camera work
+      -- override to lucky wheel camera work
       SetTableGamesCameraThisUpdate(GetHashKey("CASINO_LUCKY_WHEEL_CAMERA"))
       Wait(0)
     end
