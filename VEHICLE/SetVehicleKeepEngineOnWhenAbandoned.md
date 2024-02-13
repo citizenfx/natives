@@ -12,6 +12,6 @@ void SET_VEHICLE_KEEP_ENGINE_ON_WHEN_ABANDONED(Vehicle vehicle, BOOL toggle);
 Calling this native will keep a vehicle's engine running after exiting.
 
 ## Parameters
-* **vehicle**: The vehicle handle we're setting this for.
+* **vehicle**: The vehicle handle.
 * **toggle**: `true` to keep the engine on, otherwise `false`.
 
