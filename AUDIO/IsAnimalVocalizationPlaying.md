@@ -10,6 +10,7 @@ BOOL IS_ANIMAL_VOCALIZATION_PLAYING(Ped pedHandle);
 ```
 
 ## Parameters
-* **pedHandle**: 
+* **pedHandle**:
 
 ## Return value
+Returns true of the ped is currently playing animal sounds
