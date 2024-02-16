@@ -6,9 +6,9 @@ aliases: ["0xD01005D2BA2EB778"]
 
 ```c
 // 0xD01005D2BA2EB778 0x59A3A17D
-void ACTIVATE_AUDIO_SLOWMO_MODE(char* p0);
+void ACTIVATE_AUDIO_SLOWMO_MODE(char* mode);
 ```
 
 ## Parameters
-* **p0**: 
+* **mode**:
 

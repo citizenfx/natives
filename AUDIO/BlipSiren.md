@@ -8,11 +8,10 @@ ns: AUDIO
 void BLIP_SIREN(Vehicle vehicle);
 ```
 
-```
-Plays the siren sound of a vehicle which is otherwise activated when fastly double-pressing the horn key.  
-Only works on vehicles with a police siren.  
-```
+Plays a siren blip from the vehicle when you double press the horn key.
+
+This only works with vehicles with sirents.
 
 ## Parameters
-* **vehicle**: 
+* **vehicle**:
 
