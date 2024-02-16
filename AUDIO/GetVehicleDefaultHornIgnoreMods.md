@@ -10,6 +10,7 @@ Hash GET_VEHICLE_DEFAULT_HORN_IGNORE_MODS(Vehicle vehicle);
 ```
 
 ## Parameters
-* **vehicle**: 
+* **vehicle**:
 
 ## Return value
+Returns the horn sound hash ignoring any horn mods applied to the car

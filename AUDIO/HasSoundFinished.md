@@ -10,6 +10,7 @@ BOOL HAS_SOUND_FINISHED(int soundId);
 
 
 ## Parameters
-* **soundId**: 
+* **soundId**:
 
 ## Return value
+Returns true if the sound has finished playing, false otherwise.
