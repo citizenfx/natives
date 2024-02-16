@@ -69,7 +69,8 @@ Submitting a pull request
 With over 5000 natives, it's hard for us to manually review and test all contributions. We love to see a well tested example to validate your change in the pull request description. Doing so will allow us to review your change much faster, and avoids untested or wrong information. This includes:
 
 - Code to test and validate your change with
-- Screenshots / Videos showcasing what the change is about
+- Screenshots showcasing what the change is about
+- Source material of used information
 
 Example documentation
 ---------------------
@@ -83,7 +84,7 @@ aliases: ["0x0123456789ABCDEF","_OLD_NATIVE_NAME"]
 ## _EXAMPLE_NATIVE
 
 ```c
-// 0x3FEF770D40960D5A 0x1647F1CB
+// 0x0123456789ABCDEF 0x1234ABCD
 BOOL _EXAMPLE_NATIVE(int param);
 ```
 
