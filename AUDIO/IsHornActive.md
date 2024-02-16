@@ -8,11 +8,8 @@ ns: AUDIO
 BOOL IS_HORN_ACTIVE(Vehicle vehicle);
 ```
 
-```
-Checks whether the horn of a vehicle is currently played.  
-```
-
 ## Parameters
-* **vehicle**: 
+* **vehicle**:
 
 ## Return value
+Returns true if the vehicle is currently playing a horn sound

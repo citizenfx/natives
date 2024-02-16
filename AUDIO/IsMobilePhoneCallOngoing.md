@@ -8,5 +8,5 @@ ns: AUDIO
 BOOL IS_MOBILE_PHONE_CALL_ONGOING();
 ```
 
-
 ## Return value
+Returns true of a mobile phone call is currently happening.

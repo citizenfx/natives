@@ -10,6 +10,7 @@ BOOL IS_AUDIO_SCENE_ACTIVE(char* scene);
 
 
 ## Parameters
-* **scene**: 
+* **scene**: the name of the scene
 
 ## Return value
+Returns true if the script is already running the named scene, false otherwise
