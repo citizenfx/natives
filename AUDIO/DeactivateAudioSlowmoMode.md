@@ -6,9 +6,11 @@ aliases: ["0xDDC635D5B3262C56"]
 
 ```c
 // 0xDDC635D5B3262C56 0x0E387BFE
-void DEACTIVATE_AUDIO_SLOWMO_MODE(char* p0);
+void DEACTIVATE_AUDIO_SLOWMO_MODE(char* mode);
 ```
 
+Deactivates the named slowmo mode.
+
 ## Parameters
-* **p0**: 
+* **mode**: name of the mode to deactivate
 
