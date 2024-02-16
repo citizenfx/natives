@@ -5,11 +5,12 @@ ns: AUDIO
 
 ```c
 // 0xCC9AA18DCC7084F4 0x2C653904
-BOOL IS_SCRIPTED_SPEECH_PLAYING(Any p0);
+BOOL IS_SCRIPTED_SPEECH_PLAYING(Ped ped);
 ```
 
 
 ## Parameters
-* **p0**: 
+* **ped**:
 
 ## Return value
+Returns true if scripted speech is currently playing from the given ped.

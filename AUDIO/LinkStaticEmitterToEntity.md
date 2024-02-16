@@ -2,18 +2,16 @@
 ns: AUDIO
 aliases: ["0x651D3228960D08AF"]
 ---
-## _LINK_STATIC_EMITTER_TO_ENTITY
+## LINK_STATIC_EMITTER_TO_ENTITY
 
 ```c
 // 0x651D3228960D08AF
-void _LINK_STATIC_EMITTER_TO_ENTITY(char* emitterName, Entity entity);
+void LINK_STATIC_EMITTER_TO_ENTITY(char* emitterName, Entity entity);
 ```
 
-```
-L* (LINK_*?)
-```
+Links a static emitter to the given entity
 
 ## Parameters
-* **emitterName**: 
-* **entity**: 
+* **emitterName**:
+* **entity**:
 

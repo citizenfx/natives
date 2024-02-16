@@ -1,23 +1,19 @@
 ---
 ns: AUDIO
-aliases: ["0x0BE4BE946463F917"]
+aliases: ["0x0BE4BE946463F917", "_IS_VEHICLE_RADIO_ENABLED"]
 ---
-## _IS_VEHICLE_RADIO_ENABLED
+## IS_VEHICLE_RADIO_ON
 
 ```c
 // 0x0BE4BE946463F917
-BOOL _IS_VEHICLE_RADIO_ENABLED(Vehicle vehicle);
-```
-
-```
-IS_VEHICLE_*
+BOOL IS_VEHICLE_RADIO_ON(Vehicle vehicle);
 ```
 
 ## Parameters
 * **vehicle**: The vehicle to check
 
 ## Return value
-Is the given vehicle's radio enabled
+Returns true if the given vehicle's radio on
 
 ## Examples
 ```lua
