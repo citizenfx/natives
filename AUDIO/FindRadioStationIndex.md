@@ -8,8 +8,8 @@ ns: AUDIO
 int FIND_RADIO_STATION_INDEX(int stationNameHash);
 ```
 
-
 ## Parameters
-* **stationNameHash**: 
+* **stationNameHash**: the station name hash to search for
 
 ## Return value
+The station index for the specified hash, or 254 if the radio station did not exist.
