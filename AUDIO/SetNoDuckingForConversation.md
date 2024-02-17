@@ -1,0 +1,15 @@
+---
+ns: AUDIO
+aliases: ["0xB542DE8C3D1CB210"]
+---
+## SET_NO_DUCKING_FOR_CONVERSATION
+
+```c
+// 0xB542DE8C3D1CB210 0x789D8C6C
+void SET_NO_DUCKING_FOR_CONVERSATION(BOOL enable);
+```
+
+
+## Parameters
+* **enable**: Pass true to turn off ducking for the next conversation triggered.
+
