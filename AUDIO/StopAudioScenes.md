@@ -8,7 +8,4 @@ ns: AUDIO
 void STOP_AUDIO_SCENES();
 ```
 
-```
-??  
-```
-
+Stops all mixed scenes which were previously started by this script
