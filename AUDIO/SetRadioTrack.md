@@ -8,12 +8,10 @@ ns: AUDIO
 void SET_RADIO_TRACK(char* radioStation, char* radioTrack);
 ```
 
-```
-Only found this one in the decompiled scripts:  
-AUDIO::SET_RADIO_TRACK("RADIO_03_HIPHOP_NEW", "ARM1_RADIO_STARTS");  
-```
+Forces a specific track on a radio station.
+The station must be frozen, and the track will be queued for immediate playback
 
 ## Parameters
-* **radioStation**: 
-* **radioTrack**: 
+* **radioStation**:
+* **radioTrack**:
 
