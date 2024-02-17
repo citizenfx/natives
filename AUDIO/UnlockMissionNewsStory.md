@@ -8,6 +8,8 @@ ns: AUDIO
 void UNLOCK_MISSION_NEWS_STORY(int newsStory);
 ```
 
+Sets a news story to be played a specific time
+
 ## Parameters
-* **newsStory**: 
+* **newsStory**:
 

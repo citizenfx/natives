@@ -8,4 +8,5 @@ ns: AUDIO
 void STOP_STREAM();
 ```
 
+Stops a stream that is being played by the script
 
