@@ -5,7 +5,7 @@ ns: AUDIO
 
 ```c
 // 0xDFEBD56D9BD1EB16 0x3F277B62
-int PLAY_POLICE_REPORT(char* name, float p1);
+int PLAY_POLICE_REPORT(char* reportName, float applyValue);
 ```
 
 ```
@@ -14,7 +14,7 @@ All found occurrences in b617d, sorted alphabetically and identical lines remove
 ```
 
 ## Parameters
-* **name**: 
-* **p1**: 
+* **reportName**:
+* **applyValue**: Defaults to 0.0
 
 ## Return value

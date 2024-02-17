@@ -5,7 +5,7 @@ ns: AUDIO
 
 ```c
 // 0x67C540AA08E4A6F5 0x2E458F74
-void PLAY_SOUND_FRONTEND(int soundId, char* audioName, char* audioRef, BOOL p3);
+void PLAY_SOUND_FRONTEND(int soundId, char* audioName, char* audioRef, BOOL enableOnReplay);
 ```
 
 ```
@@ -14,8 +14,8 @@ All occurrences as of Cayo Perico Heist DLC (b2189), sorted alphabetically and i
 ```
 
 ## Parameters
-* **soundId**: 
-* **audioName**: 
-* **audioRef**: 
-* **p3**: 
+* **soundId**:
+* **audioName**:
+* **audioRef**:
+* **enableOnReplay**:
 
