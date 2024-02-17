@@ -8,10 +8,8 @@ ns: AUDIO
 void SET_AGGRESSIVE_HORNS(BOOL toggle);
 ```
 
-```
-Makes pedestrians sound their horn longer, faster and more agressive when they use their horn.  
-```
+Makes pedestrians sound their horn longer, faster and more agressive when they use their horn.
 
 ## Parameters
-* **toggle**: 
+* **toggle**:
 
