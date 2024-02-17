@@ -8,11 +8,10 @@ ns: AUDIO
 BOOL PREPARE_MUSIC_EVENT(char* eventName);
 ```
 
-```
-All music event names found in the b617d scripts: pastebin.com/GnYt0R3P  
-```
+Prepares the specified music event. Preparing it in advance will preload any required data so that it's ready to play immediately.
 
 ## Parameters
-* **eventName**: 
+* **eventName**:
 
 ## Return value
+Returns true if the event is prepared, false otherwise

@@ -5,11 +5,11 @@ ns: AUDIO
 
 ```c
 // 0x6004BCB0E226AAEA 0x9ACB213A
-void PRELOAD_SCRIPT_PHONE_CONVERSATION(BOOL p0, BOOL p1);
+void PRELOAD_SCRIPT_PHONE_CONVERSATION(BOOL displaySubtitles, BOOL addToBriefScreen);
 ```
 
 
 ## Parameters
-* **p0**: 
-* **p1**: 
+* **displaySubtitles**:
+* **addToBriefScreen**: Defaults to true
 
