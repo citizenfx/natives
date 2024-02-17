@@ -10,5 +10,5 @@ void SET_USER_RADIO_CONTROL_ENABLED(BOOL toggle);
 
 
 ## Parameters
-* **toggle**: 
+* **toggle**: When called with false user control over radio retunes will be blocked, call with true to enable
 

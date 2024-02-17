@@ -9,12 +9,9 @@ aliases: ["0x733ADF241531E5C2"]
 void SET_VARIABLE_ON_UNDER_WATER_STREAM(char* variableName, float value);
 ```
 
-```
-AUDIO::SET_VARIABLE_ON_UNDER_WATER_STREAM("inTunnel", 1.0);
-AUDIO::SET_VARIABLE_ON_UNDER_WATER_STREAM("inTunnel", 0.0);
-```
+Sets a variable on the current underwater streaming sound.
 
 ## Parameters
-* **variableName**: 
-* **value**: 
+* **variableName**:
+* **value**:
 
