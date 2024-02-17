@@ -8,10 +8,10 @@ ns: WEAPON
 void SET_WEAPON_ANIMATION_OVERRIDE(Ped ped, Hash animStyle);
 ```
 
-```
-Changes the selected ped aiming animation style.   
-Note : You must use GET_HASH_KEY!  
-Strings to use with GET_HASH_KEY :  
+Overrides a ped's weapon animation style, as defined in `weaponanimations.meta`.
+
+```c
+enum animStyle { // not actual enum, just a list of possible values
 	"Ballistic",  
 	"Default",  
 	"Fat",  
@@ -41,10 +41,54 @@ Strings to use with GET_HASH_KEY :
 	"MP_F_Freemode",  
 	"Michael",  
 	"SuperFat",  
-	"Trevor"  
+	"Trevor"
+}
+```
+
+```
+NativeDB Introduced: v323
 ```
 
 ## Parameters
-* **ped**: 
-* **animStyle**: 
+* **ped**: The Ped whose weapon animation is to be overridden
+* **animStyle**: A hash of the animation style to be applied. Use `GET_HASH_KEY` to convert animation style strings to their respective hash values.
 
+
+## Examples
+```lua
+--  Retrieve the player ped.
+local playerPed = PlayerPedId()
+
+-- Convert the string "Gang" to a hash key.
+local animStyle = GetHashKey("Gang")
+
+-- Apply the "Gang" weapon animation style to the player's ped. Overriding the default animations with those 
+-- specified for the "Gang" style.
+SetWeaponAnimationOverride(playerPed, animStyle)
+```
+
+```js
+// Retrieve the player ped.
+const playerPed = PlayerPedId();
+
+// Convert the string "Gang" to a hash key.
+const animStyle = GetHashKey("Gang");
+
+// Apply the "Gang" weapon animation style to the player's ped. Overriding the default animations with those
+// specified for the "Gang" style.
+SetWeaponAnimationOverride(playerPed, animStyle);
+```
+
+```csharp
+using static CitizenFX.Core.Native.API;
+
+// Retrieve the player ped.
+Ped playerPed = PlayerPedId();
+
+// Convert the string "Gang" to a hash key.
+uint animStyle = (uint)GetHashKey("Gang");
+
+// Apply the "Gang" weapon animation style to the player's ped. Overriding the default animations with those
+// specified for the "Gang" style.
+SetWeaponAnimationOverride(playerPed, animStyle);
+```
