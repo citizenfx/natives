@@ -10,7 +10,7 @@ void BLIP_SIREN(Vehicle vehicle);
 
 Plays a siren blip from the vehicle when you double press the horn key.
 
-This only works with vehicles with sirents.
+This only works on vehicles with sirens.
 
 ## Parameters
 * **vehicle**:
