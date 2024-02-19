@@ -13,9 +13,9 @@ Blocks *all* speech playing on the given ped, including speech triggered by nati
 
 The flag itself is not synced, it must be called on each machine that wishes to suppress the speech.
 
-The SuppressOutgoingNetworkSpeech flag can be set to false if you want speech triggered locally through `PLAY_PED_AMBIENT_SPEECH_*` related native calls to still be audibleon remote machines, even though it was blocked on the local one.
+The `SuppressOutgoingNetworkSpeech` flag can be set to `false` if you want speech triggered locally through `PLAY_PED_AMBIENT_SPEECH_*` related native calls to still be audible on remote machines, even though it was blocked on the local one.
 
 ## Parameters
 * **ped**:
 * **shouldBlock**:
-* **suppressOutgoingNetworkSpeech**: Defaults to true
+* **suppressOutgoingNetworkSpeech**: Defaults to `true`.
