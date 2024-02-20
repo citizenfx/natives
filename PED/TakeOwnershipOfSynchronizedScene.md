@@ -11,5 +11,5 @@ void TAKE_OWNERSHIP_OF_SYNCHRONIZED_SCENE(int scene);
 
 
 ## Parameters
-* **scene**: Scene ID returned by (CREATE_SYNCHRONIZED_SCENE)(#_0x8C18E0F9080ADD73)
+* **scene**: Scene ID returned by [`CREATE_SYNCHRONIZED_SCENE`](#_0x8C18E0F9080ADD73)
 
