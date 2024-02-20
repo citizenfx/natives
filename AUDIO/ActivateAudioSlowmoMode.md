@@ -26,5 +26,5 @@ Below is a list of modes and their respective hashes.
 | NIGEL_02_SLOWMO_SETTING     | 0x384689B0         |
 
 ## Parameters
-* **mode**: A string, see the table up above.
+* **mode**: A string indicating the audio slow motion mode to use, *see the table*.
 
