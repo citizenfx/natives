@@ -8,7 +8,8 @@ ns: AUDIO
 void RELEASE_NAMED_SCRIPT_AUDIO_BANK(char* audioBank);
 ```
 
+Unloads the specified audioBank
 
 ## Parameters
-* **audioBank**: 
+* **audioBank**:
 
