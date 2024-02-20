@@ -10,7 +10,21 @@ void SET_AUDIO_SPECIAL_EFFECT_MODE(int mode);
 ```
 
 Needs to be called every frame.
-Audio mode to apply this frame: https://alloc8or.re/gta5/doc/enums/audSpecialEffectMode.txt
+
+```c
+enum audSpecialEffectMode
+{
+	kSpecialEffectModeNormal = 0,
+	kSpecialEffectModeUnderwater = 1,
+	kSpecialEffectModeStoned = 2,
+	kSpecialEffectModePauseMenu = 3,
+	kSpecialEffectModeSlowMotion = 4,
+	kSpecialEffectModeDrunkStage01 = 5,
+	kSpecialEffectModeDrunkStage02 = 6,
+	kSpecialEffectModeDrunkStage03 = 7,
+	NUM_AUDSPECIALEFFECTMODE
+};
+```
 
 ## Parameters
 * **mode**: Audio mode to apply this frame
