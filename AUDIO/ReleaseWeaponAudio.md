@@ -8,3 +8,6 @@ ns: AUDIO
 void RELEASE_WEAPON_AUDIO();
 ```
 
+```
+NativeDB Introduced: v323
+```
