@@ -8,6 +8,8 @@ ns: AUDIO
 void STOP_CURRENT_PLAYING_AMBIENT_SPEECH(Ped ped);
 ```
 
+Stops currently playing ambient speech.
+
 ## Parameters
-* **ped**: 
+* **ped**:
 
