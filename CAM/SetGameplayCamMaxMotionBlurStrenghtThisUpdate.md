@@ -13,5 +13,5 @@ some camera effect that is (also) used in the drunk-cheat, and turned off (by se
 ```
 
 ## Parameters
-* **p0**: 
+* **p0**: the max strenght
 

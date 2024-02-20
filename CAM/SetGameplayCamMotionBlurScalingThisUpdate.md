@@ -14,5 +14,5 @@ some camera effect that is used in the drunk-cheat, and turned off (by setting i
 ```
 
 ## Parameters
-* **p0**: 
+* **p0**: the scaling.
 
