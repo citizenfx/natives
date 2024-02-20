@@ -10,3 +10,4 @@ BOOL IS_RADIO_RETUNING();
 
 
 ## Return value
+Returns true if the radio is tuning to a station

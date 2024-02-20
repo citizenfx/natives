@@ -11,3 +11,4 @@ BOOL IS_MUSIC_ONESHOT_PLAYING();
 
 
 ## Return value
+Returns true if a one shot is currently playing or prepared
