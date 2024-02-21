@@ -9,4 +9,6 @@ aliases: ["0xD57AAAE0E2214D11"]
 void FREEZE_MICROPHONE();
 ```
 
+Allows script to freeze the microphone for a single frame, mantaining its current transform/settings.
+This native should be called every frame you want to keep the microphone frozen, when you stop calling it it will automatically unfreeze
 
