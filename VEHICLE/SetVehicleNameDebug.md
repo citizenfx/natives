@@ -8,11 +8,8 @@ ns: VEHICLE
 void SET_VEHICLE_NAME_DEBUG(Vehicle vehicle, char* name);
 ```
 
-```
-NOTE: Debugging functions are not present in the retail version of the game.  
-```
+This method is utilized solely for debugging purposes and is functional only in debug builds of the game. Please note that its functionality may not be available in the retail version.
 
 ## Parameters
-* **vehicle**: 
-* **name**: 
-
+* **vehicle**: The vehicle id.
+* **name**: Debug name.

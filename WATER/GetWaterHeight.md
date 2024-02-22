@@ -8,11 +8,7 @@ ns: WATER
 BOOL GET_WATER_HEIGHT(float x, float y, float z, float* height);
 ```
 
-```
-This function set height to the value of z-axis of the water surface.  
-This function works with sea and lake. However it does not work with shallow rivers (e.g. raton canyon will return -100000.0f)  
-note: seems to return true when you are in water  
-```
+Retrieves the depth of the water beneath the specified position, accounting for the waves. Note: The result might vary depending on the specific frame when this command is executed due to wave fluctuations.
 
 ## Parameters
 * **x**: 
@@ -21,3 +17,4 @@ note: seems to return true when you are in water
 * **height**: 
 
 ## Return value
+Note: seems to return true when you are in water  
