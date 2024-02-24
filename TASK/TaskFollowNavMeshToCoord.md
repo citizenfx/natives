@@ -5,21 +5,45 @@ ns: TASK
 
 ```c
 // 0x15D3A79D4E44B913 0xFE4A10D9
-void TASK_FOLLOW_NAV_MESH_TO_COORD(Ped ped, float x, float y, float z, float speed, int timeout, float stoppingRange, BOOL persistFollowing, float unk);
+void TASK_FOLLOW_NAV_MESH_TO_COORD(Ped ped, float x, float y, float z, float MoveBlendRatio, int Time, float Radius, Any Flags, float FinalHeading);
 ```
 
 ```
-If no timeout, set timeout to -1.  
+Sometimes a path may not be able to be found. This could happen because there simply isn't any way to get there, or maybe a bunch of dynamic objects have blocked the way, 
+or maybe the destination is too far away. In this case the ped will simply stand still.
+To identify when this has happened, you can use GET_NAVMESH_ROUTE_RESULT. This will help you find situations where peds cannot get to their target.
+```
+
+```
+DEFAULT                                          = 0;
+NO_STOPPING                                      = 1;    Will ensure the ped continues to move whilst waiting for the path to be found, and will not slow down at the end of their route.
+SLIDE_TO_COORD_AND_ACHIEVE_HEADING_AT_END        = 2;    Performs a slide-to-coord at the and of the task. This requires that the accompanying NAVDATA structure has the 'SlideToCoordHeading' member set correctly
+GO_FAR_AS_POSSIBLE_IF_TARGET_NAVMESH_NOT_LOADED  = 4;    If the navmesh is not loaded in under the target position, then this will cause the ped to get as close as is possible on whatever navmesh is loaded.
+                                                              The navmesh must still be loaded at the path start.
+ALLOW_SWIMMING_UNDERWATER                        = 8;    Will allow navigation underwater - by default this is not allowed
+KEEP_TO_PAVEMENTS                                = 16;   Will only allow navigation on pavements.  If the path starts or ends off the pavement, the command will fail.
+                                                              Likewise if no pavement-only route can be found even although the start and end are on pavement.
+NEVER_ENTER_WATER                                = 32;   Prevents the path from entering water at all
+DONT_AVOID_OBJECTS                               = 64;   Disables object-avoidance for this path.  The ped may still make minor steering adjustments to avoid objects, but will not pathfind around them.
+ADVANCED_USE_MAX_SLOPE_NAVIGABLE                 = 128;  Specifies that the navmesh route will only be able to traverse up slopes which are under the angle specified,
+                                                              in the MaxSlopeNavigable member of the accompanying NAVDATA structure.
+STOP_EXACTLY                                     = 512;  Unused.
+ACCURATE_WALKRUN_START                           = 1024; The entity will look ahead in its path for a longer distance to make the walk/run start go more in the right direction.
+DONT_AVOID_PEDS                                  = 2048; Disables ped-avoidance for this path while we move.
+DONT_ADJUST_TARGET_POSITION                      = 4096; If target pos is inside the boundingbox of an object it will otherwise be pushed out.
+SUPPRESS_EXACT_STOP                              = 8192; Turns off the default behaviour, which is to stop exactly at the target position. Occasionally this can cause footsliding/skating problems.
+ADVANCED_USE_CLAMP_MAX_SEARCH_DISTANCE           = 16384; Prevents the path-search from finding paths outside of this search distance. This can be used to prevent peds from finding long undesired routes.
+PULL_FROM_EDGE_EXTRA                             = 32768; Pulls out the paths from edges at corners for a longer distance, to prevent peds walking into stuff.
 ```
 
 ## Parameters
-* **ped**: 
-* **x**: 
-* **y**: 
-* **z**: 
-* **speed**: 
-* **timeout**: 
-* **stoppingRange**: 
-* **persistFollowing**: 
-* **unk**: 
+* **ped**: Ped Index.
+* **x**: X Position Coordinate.
+* **y**: Y Position Coordinate.
+* **z**: Z Position Coordinate
+* **MoveBlendRatio**: 
+* **Time**: INT value in milliseconds.
+* **Radius**: 
+* **Flags**: Navigation Flags for the ped.
+* **FinalHeading**: Peds heading when finished.
 

@@ -5,12 +5,23 @@ ns: PATHFIND
 
 ```c
 // 0xFCD5C8E06E502F5A 0x2952BA56
-Any ADD_NAVMESH_BLOCKING_OBJECT(float x, float y, float z, float width, float length, float height, float heading, BOOL p7, Any p8);
+Any ADD_NAVMESH_BLOCKING_OBJECT(float x, float y, float z, float width, float length, float height, float heading, BOOL Permanent, Any Flags);
 ```
 
 Creates a navmesh blocking object, vehicles will avoid driving through this area. 
 
 Only 32 blocking objects may exist at a given time and must be manually managed. See [`REMOVE_NAVMESH_BLOCKING_OBJECT`](#\_0x46399A7895957C0E) and [onResourceStop](https://docs.fivem.net/docs/scripting-reference/events/list/onResourceStop/)
+
+
+```
+Blocking Object Flags:
+
+Default		    = 0;     
+Wander Path		= 1;     Blocking object will block wander paths
+Shortest Path	= 2;	 Blocking object will block (regular) shortest-paths
+Flee Path		= 4;     Blocking object will block flee paths	
+All Paths	    = 7;     Blocking Object will block all paths
+```
 
 ## Parameters
 * **x**: The x coordinate to create the block on.
@@ -20,7 +31,7 @@ Only 32 blocking objects may exist at a given time and must be manually managed.
 * **length**: The length of the block.
 * **height**: The height of the block.
 * **heading**: The heading of object in degrees.
-* **p7**: Usually false.
-* **p8**: A bitfield; usually 7.
+* **Permanent**: If the blocking object is permanent.
+* **Flags**: Flag for the blocking object.
 
 ## Return value

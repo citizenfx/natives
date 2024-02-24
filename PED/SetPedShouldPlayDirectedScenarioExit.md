@@ -6,13 +6,20 @@ aliases: ["0xEC6935EBE0847B90"]
 
 ```c
 // 0xEC6935EBE0847B90 0x761F8F48
-Any _SET_PED_SHOULD_PLAY_DIRECTED_SCENARIO_EXIT(Any p0, Any p1, Any p2, Any p3);
+BOOL _SET_PED_SHOULD_PLAY_DIRECTED_SCENARIO_EXIT(PED_INDEX PedIndex, float x, float y, float z);
+```
+
+```
+When this ped receives its next script task, they will exit from their scenario using the normal scenario exit.
+Exiting the scenario may take several frames while the ped is playing the exit animation.  Returns true if the position was successfully set.
+If the ped is not currently using a scenario at the time of the command or 0,0,0 is specified as the reaction position,
+then the ped will by default attempt to direct their exit forwards.
 ```
 
 ## Parameters
-* **p0**: 
-* **p1**: 
-* **p2**: 
-* **p3**: 
+* **PedIndex**: the ped who should play a normal (unhurried) exit the next time they are given a script command.
+* **x**: 
+* **y**: 
+* **z**: 
 
 ## Return value
