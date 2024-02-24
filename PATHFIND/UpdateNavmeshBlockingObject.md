@@ -5,28 +5,28 @@ ns: PATHFIND
 
 ```c
 // 0x109E99373F290687 0x4E9776D0
-void UPDATE_NAVMESH_BLOCKING_OBJECT(int ObjectId, float x1, float y1, float z1, float x2, float y2, float z2, float heading, Any Flags);
+void UPDATE_NAVMESH_BLOCKING_OBJECT(int objectId, float posX, float posY, float posZ, float scaleX, float scaleY, float scaleZ, float heading, Any flags);
 ```
 
 ```
-Blocking Object Flags:
-
-Default		    = 0;     
-Wander Path		= 1;     Blocking object will block wander paths
-Shortest Path	= 2;	 Blocking object will block (regular) shortest-paths
-Flee Path		= 4;     Blocking object will block flee paths	
-All Paths	    = 7;     Blocking Object will block all paths
+| Flag Name      | Value | Description                                    |
+|----------------|-------|------------------------------------------------|
+| Default        | 0     |                                                |
+| Wander Path    | 1     | Blocking object will block wander paths        |
+| Shortest Path  | 2     | Blocking object will block (regular) shortest-paths |
+| Flee Path      | 4     | Blocking object will block flee paths          |
+| All Paths      | 7     | Blocking Object will block all paths           |
 ```
 
 
 ## Parameters
-* **ObjectId**: 
-* **x1**: X position coordinate.
-* **y1**: Y position coordinate.
-* **z1**: Z position coordinate.
-* **x2**: X Scale.
-* **y2**: Y Scale.
-* **z2**: Z Scale.
+* **objectId**: Navmesh Blocking Object by ID. must be returned by AddNavmeshBlockingObject.
+* **posX**: X position coordinate.
+* **posY**: Y position coordinate.
+* **posZ**: Z position coordinate.
+* **scaleX**: X Scale.
+* **scaleY**: Y Scale.
+* **scaleZ**: Z Scale.
 * **heading**: Heading of the blocking object.
-* **Flags**: Flags for the blocking object.
+* **flags**: Flags for the blocking object.
 
