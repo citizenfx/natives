@@ -8,10 +8,8 @@ ns: PATHFIND
 void DISABLE_NAVMESH_IN_AREA(float posMinX, float posMinY, float posMinZ, float posMaxX, float posMaxY, float posMaxZ, bool bDisable);
 ```
 
-```
-use this if you want to completely disable a large area of navmesh.
-for smaller areas, use AddNavmeshBlockingObject instead.
-```
+Use this if you want to completely disable a large area of navmesh.
+For smaller areas, use [`ADD_NAVMESH_BLOCKING_OBJECT`](#\_0xFCD5C8E06E502F5A) instead.
 
 ## Parameters
 * **posMinX**: X Min Coordinate.

@@ -20,7 +20,7 @@ void UPDATE_NAVMESH_BLOCKING_OBJECT(int objectId, float posX, float posY, float 
 
 
 ## Parameters
-* **objectId**: Navmesh Blocking Object by ID. must be returned by AddNavmeshBlockingObject.
+* **objectId**: Navmesh Blocking Object by ID. must be returned by [`ADD_NAVMESH_BLOCKING_OBJECT`](#\_0xFCD5C8E06E502F5A).
 * **posX**: X position coordinate.
 * **posY**: Y position coordinate.
 * **posZ**: Z position coordinate.

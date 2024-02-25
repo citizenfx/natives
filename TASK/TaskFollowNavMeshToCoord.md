@@ -40,9 +40,9 @@ To identify when this has happened, you can use GET_NAVMESH_ROUTE_RESULT. This w
 * **x**: X Position Coordinate.
 * **y**: Y Position Coordinate.
 * **z**: Z Position Coordinate
-* **moveBlendRatio**: 
+* **moveBlendRatio**: Ratio for ped movement(?)
 * **time**: INT value in milliseconds.
-* **radius**: 
+* **radius**: Radius of how far the ped moves(?)
 * **flags**: Navigation Flags for the ped.
 * **finalHeading**: Peds heading when finished.
 

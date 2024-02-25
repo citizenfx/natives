@@ -22,7 +22,7 @@ Sets an area where scenarios are blocked
 * **posMaxZ**: Max Z Coordinate.
 * **network**: Optionally networked to all other players
 * **cancelActive**: Should this cause peds already in active scenario points in the area specified to leave
-* **blockPeds**: does this area effect scenarios with peds
-* **blockVehicles**: does this area effect scenarios with vehicles
+* **blockPeds**: if this area effects scenarios with peds
+* **blockVehicles**: if this area effects scenarios with vehicles
 
 ## Return value
