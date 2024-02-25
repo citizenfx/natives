@@ -8,8 +8,9 @@ ns: PED
 void REMOVE_PED_HELMET(Ped ped, BOOL instantly);
 ```
 
+Remove a helmet from a ped
 
 ## Parameters
-* **ped**: 
-* **instantly**: 
+* **ped**: Ped index.
+* **instantly**: Force to remove.
 

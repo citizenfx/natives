@@ -8,8 +8,9 @@ ns: PED
 BOOL IS_PED_TRYING_TO_ENTER_A_LOCKED_VEHICLE(Ped ped);
 ```
 
+If the ped is attempting to enter a locked vehicle.
 
 ## Parameters
-* **ped**: 
+* **ped**: Ped index.
 
 ## Return value

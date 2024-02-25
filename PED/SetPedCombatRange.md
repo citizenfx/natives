@@ -5,7 +5,7 @@ ns: PED
 
 ```c
 // 0x3C606747B23E497B 0x8818A959
-void SET_PED_COMBAT_RANGE(Ped ped, int p1);
+void SET_PED_COMBAT_RANGE(Ped ped, int range);
 ```
 
 ```
@@ -14,8 +14,8 @@ Only the values 0, 1 and 2 occur in the decompiled scripts. Most likely refers d
 1: CR_Medium  
 2: CR_Far  
 ```
+Define the scope within which the ped will engage in combat with the target.
 
 ## Parameters
-* **ped**: 
-* **p1**: 
-
+* **ped**: Ped index
+* **range**: 0, 1 or 2
