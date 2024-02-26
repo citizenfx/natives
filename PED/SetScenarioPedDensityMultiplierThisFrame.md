@@ -8,9 +8,7 @@ ns: PED
 void SET_SCENARIO_PED_DENSITY_MULTIPLIER_THIS_FRAME(float interiorMult, float exteriorMult);
 ```
 
-```
 Set the number of scenario peds on the entire map
-```
 
 ## Parameters
 * **interiorMult**: Multiplier for ped scenarios inside interiors.

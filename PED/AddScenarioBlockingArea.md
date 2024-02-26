@@ -8,9 +8,7 @@ ns: PED
 int ADD_SCENARIO_BLOCKING_AREA(float posMinX, float posMinY, float posMinZ, float posMaxX, float posMaxY, float posMaxZ, BOOL network, BOOL cancelActive, BOOL blockPeds, BOOL blockVehicles);
 ```
 
-```
 Sets an area where scenarios are blocked
-```
 
 
 ## Parameters

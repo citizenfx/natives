@@ -5,11 +5,7 @@ ns: PED
 
 ```c
 // 0x31D16B74C6E29D66 0x4483EF06
-void REMOVE_SCENARIO_BLOCKING_AREA(SCENARIO_BLOCKING_INDEX scenarioBlockingIndex, BOOL bNetwork);
-```
-
-```
-Removes a scenario blocking area by SCENARIO_BLOCKING_INDEX
+void REMOVE_SCENARIO_BLOCKING_AREA(int scenarioBlockingIndex, BOOL bNetwork);
 ```
 
 ## Parameters
