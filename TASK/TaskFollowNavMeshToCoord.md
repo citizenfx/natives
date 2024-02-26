@@ -16,7 +16,7 @@ To identify when this has happened, you can use GET_NAVMESH_ROUTE_RESULT. This w
 enum ENAV_SCRIPT_FLAGS {
     ENAV_DEFAULT = 0, // Default flag
     ENAV_NO_STOPPING = 1, // Will ensure the ped continues to move whilst waiting for the path to be found, and will not slow down at the end of their route.
-    ENAV_SLIDE_TO_COORD_AND_ACHIEVE_HEADING_AT_END = 2, // Performs a slide-to-coord at the end of the task. This requires that the accompanying NAVDATA structure has the 'SlideToCoordHeading' member set correctly.
+    ENAV_ADV_SLIDE_TO_COORD_AND_ACHIEVE_HEADING_AT_END = 2, // Performs a slide-to-coord at the end of the task. This requires that the accompanying NAVDATA structure has the 'SlideToCoordHeading' member set correctly.
     ENAV_GO_FAR_AS_POSSIBLE_IF_TARGET_NAVMESH_NOT_LOADED = 4, // If the navmesh is not loaded in under the target position, then this will cause the ped to get as close as is possible on whatever navmesh is loaded. The navmesh must still be loaded at the path start.
     ENAV_ALLOW_SWIMMING_UNDERWATER = 8, // Will allow navigation underwater - by default this is not allowed.
     ENAV_KEEP_TO_PAVEMENTS = 16, // Will only allow navigation on pavements. If the path starts or ends off the pavement, the command will fail. Likewise if no pavement-only route can be found even although the start and end are on pavement.
