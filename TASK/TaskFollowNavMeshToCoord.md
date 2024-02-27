@@ -12,8 +12,8 @@ Sometimes a path may not be able to be found. This could happen because there si
 or maybe the destination is too far away. In this case the ped will simply stand still.
 To identify when this has happened, you can use GET_NAVMESH_ROUTE_RESULT. This will help you find situations where peds cannot get to their target.
 
-```
-enum ENAV_SCRIPT_FLAGS {
+```c
+enum eNavScriptFlags {
     ENAV_DEFAULT = 0, // Default flag
     ENAV_NO_STOPPING = 1, // Will ensure the ped continues to move whilst waiting for the path to be found, and will not slow down at the end of their route.
     ENAV_ADV_SLIDE_TO_COORD_AND_ACHIEVE_HEADING_AT_END = 2, // Performs a slide-to-coord at the end of the task. This requires that the accompanying NAVDATA structure has the 'SlideToCoordHeading' member set correctly.
@@ -38,9 +38,9 @@ enum ENAV_SCRIPT_FLAGS {
 * **x**: X Position Coordinate.
 * **y**: Y Position Coordinate.
 * **z**: Z Position Coordinate
-* **moveBlendRatio**: Ratio for ped movement(?)
+* **moveBlendRatio**: Ratio for ped movement (0 to 3.0 in the following order: still, walk, run and sprint)
 * **time**: INT value in milliseconds.
-* **radius**: Radius of how far the ped moves(?)
-* **flags**: Navigation Flags for the ped.
+* **radius**: Radius of how far the ped moves (?)
+* **flags**: Navigation Flags for the ped (see `eNavScriptFlags`).
 * **finalHeading**: Peds heading when finished.
 
