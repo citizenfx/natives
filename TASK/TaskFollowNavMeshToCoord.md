@@ -5,7 +5,7 @@ ns: TASK
 
 ```c
 // 0x15D3A79D4E44B913 0xFE4A10D9
-void TASK_FOLLOW_NAV_MESH_TO_COORD(Ped ped, float x, float y, float z, float moveBlendRatio, int time, float radius, int flags, float finalHeading);
+void TASK_FOLLOW_NAV_MESH_TO_COORD(Ped ped, float x, float y, float z, float moveBlendRatio, int time, float radius, cs_type(BOOL) int flags, float finalHeading);
 ```
 
 Sometimes a path may not be able to be found. This could happen because there simply isn't any way to get there, or maybe a bunch of dynamic objects have blocked the way, 
