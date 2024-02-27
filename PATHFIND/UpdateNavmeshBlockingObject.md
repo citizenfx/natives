@@ -5,7 +5,7 @@ ns: PATHFIND
 
 ```c
 // 0x109E99373F290687 0x4E9776D0
-void UPDATE_NAVMESH_BLOCKING_OBJECT(int objectId, float posX, float posY, float posZ, float scaleX, float scaleY, float scaleZ, float heading, int flags);
+void UPDATE_NAVMESH_BLOCKING_OBJECT(Object object, float posX, float posY, float posZ, float scaleX, float scaleY, float scaleZ, float heading, int flags);
 ```
 
 ## Parameters

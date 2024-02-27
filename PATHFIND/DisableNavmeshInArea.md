@@ -5,7 +5,7 @@ ns: PATHFIND
 
 ```c
 // 0x4C8872D8CDBE1B8B 0x6E37F132
-void DISABLE_NAVMESH_IN_AREA(float posMinX, float posMinY, float posMinZ, float posMaxX, float posMaxY, float posMaxZ, bool bDisable);
+void DISABLE_NAVMESH_IN_AREA(cs_type(Any) float posMinX, cs_type(Any) float posMinY, cs_type(Any) float posMinZ, cs_type(Any) float posMaxX, cs_type(Any) float posMaxY, cs_type(Any) float posMaxZ, cs_type(Any) bool bDisable);
 ```
 
 Use this if you want to completely disable a large area of navmesh.
