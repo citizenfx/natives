@@ -10,7 +10,8 @@ void NETWORK_ALLOW_REMOTE_ATTACHMENT_MODIFICATION(Entity entity, BOOL toggle);
 ```
 
 Allows scripts to use attachment commands on entities (eg. [`ATTACH_ENTITY_TO_ENTITY`](#0x6B9BBD38AB0796DF)) that are not controlled by the client.
-Do note that this is only local and does not affect entities on other machines. This is used by the ferris wheel script to sync players on carts.
+
+**Note:** This is only local and does not affect entities on other machines. This is used by the ferris wheel script to sync players on carts.
 
 ## Parameters
 * **entity**: Entity ID to allow remote attachment for
