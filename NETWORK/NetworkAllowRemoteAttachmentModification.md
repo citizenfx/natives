@@ -14,6 +14,6 @@ Allows scripts to use attachment commands on entities (eg. [`ATTACH_ENTITY_TO_EN
 **Note:** This is only local and does not affect entities on other machines. This is used by the ferris wheel script to sync players on carts.
 
 ## Parameters
-* **entity**: Entity ID to allow remote attachment for
-* **toggle**: true/false
+* **entity**: Entity handle to allow remote attachment for.
+* **toggle**: true/false.
 
