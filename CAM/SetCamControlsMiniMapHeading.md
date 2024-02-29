@@ -1,6 +1,6 @@
 ---
 ns: CAM
-aliases:["0x661B5C8654ADD825"]
+aliases: ["0x661B5C8654ADD825"]
 ---
 ## SET_CAM_CONTROLS_MINI_MAP_HEADING
 
