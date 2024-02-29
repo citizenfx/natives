@@ -40,7 +40,7 @@ enum eNavScriptFlags {
 * **z**: Z Position Coordinate
 * **moveBlendRatio**: Ratio for ped movement (0 to 3.0 in the following order: still, walk, run and sprint)
 * **time**: INT value in milliseconds.
-* **radius**: Radius of how far the ped moves (?)
+* **radius**: distance from the final coordinates that the pedestrian should be to consider itself at the target.
 * **flags**: Navigation Flags for the ped (see `eNavScriptFlags`).
 * **finalHeading**: Peds heading when finished.
 
