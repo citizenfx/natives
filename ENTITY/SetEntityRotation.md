@@ -19,8 +19,8 @@ NativeDB Introduced: v323
 * **pitch**: The pitch (X-axis) rotation in degrees.
 * **roll**: The roll (Y-axis) rotation in degrees.
 * **yaw**: The yaw (Z-axis) rotation in degrees.
-* **rotationOrder**: Specifies the order in which yaw, pitch, and roll are applied. The value ranges from 0 to 5, and must match the rotationOrder used when retrieving the rotation. Commonly used values by R* are 1 or 2.
-* **bDeadCheck**: Usually set to `true`. Determines whether to check if the entity is dead before applying the rotation.s
+* **rotationOrder**: Specifies the order in which yaw, pitch, and roll are applied, see [`GET_ENTITY_ROTATION`](#_0xAFBD61CC738D9EB9) for the available rotation orders.
+* **bDeadCheck**: Usually set to `true`. Determines whether to check if the entity is dead before applying the rotation.
 
 ## Examples
 ```lua
