@@ -10,6 +10,8 @@ void SET_WEATHER_TYPE_NOW(char* weatherType);
 
 Immediately changes the game's weather to the specified type, which will then persist for one cycle before the game resumes its natural weather progression.
 
+**Note:** This native is not supported in networked sessions. Please refer to [`SET_OVERRIDE_WEATHER`](#_0xA43D5C6FE51ADBEF) or [`SET_WEATHER_TYPE_NOW_PERSIST`](#_0xED712CA327900C8A) if you want to override weather in networked sessions.
+
 ```
 NativeDB Introduced: v323
 ```
