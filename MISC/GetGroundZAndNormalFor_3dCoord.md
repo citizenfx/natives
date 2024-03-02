@@ -9,7 +9,7 @@ aliases: ["0x8BDC7BFC57A81E76","_GET_GROUND_Z_COORD_WITH_OFFSETS"]
 BOOL GET_GROUND_Z_AND_NORMAL_FOR_3D_COORD(float x, float y, float z, float* groundZ, Vector3* normal);
 ```
 
-Attempts to determine the highest ground Z-coordinate directly below a specified 3D coordinate and the surface normal at that point.
+Attempts to identify the highest ground Z-coordinate and determine the corresponding surface normal directly beneath a specified 3D coordinate.
 
 ```
 NativeDB Introduced: v323
