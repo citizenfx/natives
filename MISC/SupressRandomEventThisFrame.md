@@ -12,8 +12,7 @@ void SUPRESS_RANDOM_EVENT_THIS_FRAME(int eventType, BOOL enable);
 Suppresses or enables a specific type of random event for the current frame.
 
 ```c
-
-enum eventType {
+enum eEventType {
     RC_PED_STEAL_VEHICLE = 0,
     RC_PED_JAY_WALK_LIGHT = 1,
     RC_COP_PURSUE = 2,
@@ -27,7 +26,7 @@ enum eventType {
 ```
 
 ## Parameters
-* **eventType**: The type of the event to be suppressed or enabled. Use the `eventType` enum for specific event types.
+* **eventType**: The type of the event to be suppressed or enabled. Use the `eEventType` enum for specific event types.
 * **enable**: Set to `false` to suppress the event for this frame; set to `true` to enable it.
 
 
