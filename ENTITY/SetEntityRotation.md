@@ -28,8 +28,7 @@ NativeDB Introduced: v323
 RegisterCommand('360', function()
     local playerPed = PlayerPedId() -- Get the player's Ped
     local vehicle = GetVehiclePedIsIn(playerPed, false) -- Get the vehicle the player is currently in.
-
-    if not vehicle and not DoesEntityExist(vehicle) then
+    if not vehicle or not DoesEntityExist(vehicle) then
         print("You are not in a vehicle")
         return
     end
@@ -38,7 +37,6 @@ RegisterCommand('360', function()
     local roll, pitch, yaw = rot.x, rot.y, rot.z
     local finalYaw = yaw + 360
     local steps = 20 -- Reduced the number of steps so each rotation is larger
-
     -- Function to perform the rotation gradually
     local function doRotation()
         local currentYaw = yaw
@@ -56,7 +54,6 @@ RegisterCommand('360', function()
             end
         end
     end
-
     -- Execute the rotation in a coroutine to not block the main thread
     Citizen.CreateThread(doRotation)
 end, false)
