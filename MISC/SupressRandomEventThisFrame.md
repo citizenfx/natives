@@ -1,6 +1,6 @@
 ---
 ns: MISC
-aliases: ["_0x1EAE0A6E978894A2"]
+aliases: ["0x1EAE0A6E978894A2"]
 ---
 ## SUPRESS_RANDOM_EVENT_THIS_FRAME
 
