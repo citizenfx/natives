@@ -23,4 +23,4 @@ NativeDB Added Parameter 10: BOOL bScriptHostObject
 * **z**: Z coordinate for the weapon's position.
 * **bCreateDefaultComponents**: Boolean that indicates whether the default components should be created for that weapon (`true`/`false`).
 * **scale**: The size of the object, to increase it, set the scale to a value greater than 1.0.
-* **customModelHash**: The hash of the custom model to use for the weapon object.
+* **customModelHash**: The hash of the custom model to use for the weapon object. Set to `0` if you do not intend to use a custom model hash.
