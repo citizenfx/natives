@@ -1,6 +1,6 @@
 ---
 ns: MISC
-aliases: ["_0x1BB299305C3E8C13"]
+aliases: ["0x1BB299305C3E8C13"]
 ---
 ## SCRIPT_RACE_PLAYER_HIT_CHECKPOINT
 
