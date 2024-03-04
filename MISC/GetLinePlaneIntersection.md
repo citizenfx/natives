@@ -47,7 +47,7 @@ local normalX, normalY, normalZ = 0.0, 0.0, 1.0
 local success, intersectionParameter = GetLinePlaneIntersection(startX, startY, startZ, endX, endY, endZ, planeX, planeY, planeZ, normalX, normalY, normalZ, intersectionParameter)
 
 if success then
-    -- Calculate the intersection point using the t-value (the difference between (end* - start*))
+    -- Calculate the intersection point using intersectionParameter
     local intersectX = startX + (endX - startX) * intersectionParameter
     local intersectY = startY + (endY - startY) * intersectionParameter
     local intersectZ = startZ + (endZ - startZ) * intersectionParameter
@@ -71,7 +71,7 @@ const normalX = 0.0, normalY = 0.0, normalZ = 1.0;
 const [success, intersectionParameter] = GetLinePlaneIntersection(startX, startY, startZ, endX, endY, endZ, planeX, planeY, planeZ, normalX, normalY, normalZ, intersectionParameter);
 
 if (success) {
-    // Calculate the intersection point using the tValue
+    // Calculate the intersection point using intersectionParameter
     const intersectX = startX + (endX - startX) * intersectionParameter;
     const intersectY = startY + (endY - startY) * intersectionParameter;
     const intersectZ = startZ + (endZ - startZ) * intersectionParameter;
@@ -97,7 +97,7 @@ float normalX = 0.0f, normalY = 0.0f, normalZ = 1.0f;
 bool success = GetLinePlaneIntersection(startX, startY, startZ, endX, endY, endZ, planeX, planeY, planeZ, normalX, normalY, normalZ, out float intersectionParameter);
 
 if (success) {
-    // Calculate the intersection point using the tValue
+    // Calculate the intersection point using intersectionParameter
     float intersectX = startX + (endX - startX) * intersectionParameter;
     float intersectY = startY + (endY - startY) * intersectionParameter;
     float intersectZ = startZ + (endZ - startZ) * intersectionParameter;
