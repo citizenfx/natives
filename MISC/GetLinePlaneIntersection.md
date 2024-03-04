@@ -1,6 +1,6 @@
 ---
 ns: MISC
-aliases: ["_0xF56DFB7B61BE7276"]
+aliases: ["0xF56DFB7B61BE7276"]
 ---
 ## GET_LINE_PLANE_INTERSECTION
 
