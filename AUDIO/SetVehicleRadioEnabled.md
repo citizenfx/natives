@@ -5,14 +5,10 @@ ns: AUDIO
 
 ```c
 // 0x3B988190C0AA6C0B 0x6F812CAB
-void SET_VEHICLE_RADIO_ENABLED(Vehicle vehicle, BOOL toggle);
-```
-
-```
-can't seem to enable radio on cop cars etc  
+void SET_VEHICLE_RADIO_ENABLED(Vehicle vehicle, BOOL enabled);
 ```
 
 ## Parameters
-* **vehicle**: 
-* **toggle**: 
+* **vehicle**:
+* **enabled**: Enables/disables radio for a specific vehicle
 
