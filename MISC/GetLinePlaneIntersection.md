@@ -47,7 +47,7 @@ local normalX, normalY, normalZ = 0.0, 0.0, 1.0
 local success, intersectionParameter = GetLinePlaneIntersection(startX, startY, startZ, endX, endY, endZ, planeX, planeY, planeZ, normalX, normalY, normalZ, intersectionParameter)
 
 if success then
-    -- Calculate the intersection point using the tValue
+    -- Calculate the intersection point using the t-value (the difference between (end* - start*))
     local intersectX = startX + (endX - startX) * intersectionParameter
     local intersectY = startY + (endY - startY) * intersectionParameter
     local intersectZ = startZ + (endZ - startZ) * intersectionParameter
