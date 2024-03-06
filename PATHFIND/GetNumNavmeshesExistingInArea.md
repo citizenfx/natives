@@ -18,6 +18,4 @@ int GET_NUM_NAVMESHES_EXISTING_IN_AREA(float posMinX, float posMinY, float posMi
 * **posMaxZ**: Max Z Coordinate.
 
 ## Return value
-```
 Returns the number of navmeshes which exist in the given area (irrespective of whether they are currently loaded or not)
-```
