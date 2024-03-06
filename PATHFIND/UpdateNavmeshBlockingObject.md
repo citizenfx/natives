@@ -9,7 +9,7 @@ void UPDATE_NAVMESH_BLOCKING_OBJECT(Object object, float posX, float posY, float
 ```
 
 ## Parameters
-* **object**: Navmesh Blocking Object by ID. must be returned by [`ADD_NAVMESH_BLOCKING_OBJECT`](#\_0xFCD5C8E06E502F5A).
+* **object**: Navmesh Blocking Object by ID. must be returned by [`ADD_NAVMESH_BLOCKING_OBJECT`](#_0xFCD5C8E06E502F5A).
 * **posX**: X position coordinate.
 * **posY**: Y position coordinate.
 * **posZ**: Z position coordinate.
@@ -17,5 +17,5 @@ void UPDATE_NAVMESH_BLOCKING_OBJECT(Object object, float posX, float posY, float
 * **scaleY**: Y Scale.
 * **scaleZ**: Z Scale.
 * **heading**: Heading of the blocking object.
-* **flags**: Flags for the blocking object, see [`ADD_NAVMESH_BLOCKING_OBJECT`](#\_0xFCD5C8E06E502F5A) for list of blocking object flags.
+* **flags**: Flags for the blocking object, see [`ADD_NAVMESH_BLOCKING_OBJECT`](#_0xFCD5C8E06E502F5A) for list of blocking object flags.
 
