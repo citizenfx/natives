@@ -10,10 +10,10 @@ Any ADD_NAVMESH_BLOCKING_OBJECT(float x, float y, float z, float width, float le
 
 Creates a navmesh blocking object, vehicles will avoid driving through this area. 
 
-Only 32 blocking objects may exist at a given time and must be manually managed. See [`REMOVE_NAVMESH_BLOCKING_OBJECT`](#\_0x46399A7895957C0E) and [onResourceStop](https://docs.fivem.net/docs/scripting-reference/events/list/onResourceStop/)
+Only 32 blocking objects may exist at a given time and must be manually managed. See [`REMOVE_NAVMESH_BLOCKING_OBJECT`](#_0x46399A7895957C0E) and [`onResourceStop`](https://docs.fivem.net/docs/scripting-reference/events/list/onResourceStop/)
 
 ```
-enum BLOCKING_OBJECT_FLAGS {
+enum eBlockingObjectFlags {
     BLOCKING_OBJECT_DEFAULT = 0,      // Default Flag
     BLOCKING_OBJECT_WANDERPATH = 1,   // Blocking object will block wander paths
     BLOCKING_OBJECT_SHORTESTPATH = 2, // Blocking object will block (regular) shortest-paths
@@ -31,6 +31,6 @@ enum BLOCKING_OBJECT_FLAGS {
 * **height**: The height of the block.
 * **heading**: The heading of object in degrees.
 * **permanent**: If the blocking object is permanent.
-* **flags**: Flag for the blocking object.
+* **flags**: Flag for the blocking object, refer to `eBlockingObjectFlags`.
 
 ## Return value
