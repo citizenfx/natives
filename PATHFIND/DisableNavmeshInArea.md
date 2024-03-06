@@ -9,7 +9,7 @@ void DISABLE_NAVMESH_IN_AREA(cs_type(Any) float posMinX, cs_type(Any) float posM
 ```
 
 Use this if you want to completely disable a large area of navmesh.
-For smaller areas, use [`ADD_NAVMESH_BLOCKING_OBJECT`](#\_0xFCD5C8E06E502F5A) instead.
+For smaller areas, use [`ADD_NAVMESH_BLOCKING_OBJECT`](#_0xFCD5C8E06E502F5A) instead.
 
 ## Parameters
 * **posMinX**: X Min Coordinate.
