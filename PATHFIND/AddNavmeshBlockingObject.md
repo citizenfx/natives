@@ -5,7 +5,7 @@ ns: PATHFIND
 
 ```c
 // 0xFCD5C8E06E502F5A 0x2952BA56
-Any ADD_NAVMESH_BLOCKING_OBJECT(float x, float y, float z, float width, float length, float height, float heading, BOOL permanent, int flags);
+Any ADD_NAVMESH_BLOCKING_OBJECT(float x, float y, float z, float width, float length, float height, float heading, BOOL bPermanent, int flags);
 ```
 
 Creates a navmesh blocking object, vehicles will avoid driving through this area. 
@@ -30,7 +30,7 @@ enum eBlockingObjectFlags {
 * **length**: The length of the block.
 * **height**: The height of the block.
 * **heading**: The heading of object in degrees.
-* **permanent**: If the blocking object is permanent.
+* **bPermanent**: A boolean indicating if the blocking object is permanent (`true`/`false`).
 * **flags**: Flag for the blocking object, refer to `eBlockingObjectFlags`.
 
 ## Return value
