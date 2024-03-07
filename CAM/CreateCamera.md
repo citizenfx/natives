@@ -21,7 +21,7 @@ Make sure to call [RENDER_SCRIPT_CAMS](#_0x07E5B515DB0636FC) once the camera is 
 - -119532588 for SMOOTHED_SPLINE_CAMERA
 
 ## Parameters
-* **camHash**: The camera hash
+* **camHash**: The hash of the camera type
 * **active**: Set to true if you wish to make this new camera the active camera.
 
 ## Return value
