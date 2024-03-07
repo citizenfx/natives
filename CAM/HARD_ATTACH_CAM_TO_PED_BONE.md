@@ -1,15 +1,12 @@
 ---
 ns: CAM
+aliases: ["0x149916F50C34A40D","_ATTACH_CAM_TO_PED_BONE_2"]
 ---
-## _ATTACH_CAM_TO_PED_BONE_2
+## HARD_ATTACH_CAM_TO_PED_BONE
 
 ```c
 // 0x149916F50C34A40D
-void _ATTACH_CAM_TO_PED_BONE_2(Cam cam, Ped ped, int boneIndex, float xRot, float yRot, float zRot, float xOffset, float yOffset, float zOffset, BOOL isRelative);
-```
-
-```
-NativeDB Introduced: v1180
+void HARD_ATTACH_CAM_TO_PED_BONE(Cam cam, Ped ped, int boneIndex, float xRot, float yRot, float zRot, float xOffset, float yOffset, float zOffset, BOOL isRelative);
 ```
 
 This native works with peds only.
@@ -25,6 +22,10 @@ This native works with peds only.
 * **yOffset**: Y-axis offset
 * **zOffset**: Z-axis offset
 * **isRelative**: Whether or not the camera position will be relative to the bone rotation
+
+```
+NativeDB Introduced: v1180
+```
 
 ## Examples
 

@@ -27,7 +27,24 @@ Make sure to call [RENDER_SCRIPT_CAMS](#_0x07E5B515DB0636FC) once the camera is 
 ## Return value
 A camera handle referencing the camera that was created.
 
+```
+NativeDB Introduced: v323
+```
+
 ## Examples
 ```lua
 local cam = CreateCamera(26379945, true) -- creates a camera with the "DEFAULT_SCRIPTED_CAMERA" type
+RenderScriptCams(true, false, 0, true, true)
+```
+
+```js
+const cam = CreateCamera(26379945, true); // creates a camera with the "DEFAULT_SCRIPTED_CAMERA" type
+RenderScriptCams(true, false, 0, true, true)
+```
+
+```cs
+using static CitizenFX.Core.Native.API;
+// ...
+int handle = CreateCamera(26379945, true); // creates a camera with the "DEFAULT_SCRIPTED_CAMERA" type
+Camera cam = new Camera(handle);
 ```

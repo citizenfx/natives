@@ -26,3 +26,7 @@ Take a look at [CREATE_CAMERA](#_0x5E3CF89C6BCCA67D) if you would like to see th
 
 ## Return value
 A camera handle.
+
+```
+NativeDB Introduced: v323
+```
