@@ -26,3 +26,4 @@ jobs:
           set -xe
           bash ./.ci/setup-builder
           bash ./.ci/run-pr
+          bash ./.ci/namespace-check

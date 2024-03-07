@@ -1,0 +1,51 @@
+#!/bin/bash
+set -eu
+
+# Include the common utility script
+. "$(dirname "$0")"/common.sh
+
+first_commit_sha=$(echo $COMMIT_LIST | jq -r '.[0].sha')
+last_commit_sha=$(echo $COMMIT_LIST | jq -r '.[-1].sha')
+
+# Constructing the commit range for git diff
+commit_range="${first_commit_sha}..${last_commit_sha}"
+
+title "Verifying namespaces in changed Markdown files between $commit_range"
+
+affected_files=$(git diff --name-only --diff-filter=ACMR $commit_range -- '*.md')
+
+# Check if there are any affected files
+if [ -z "$affected_files" ]; then
+    print -s1 -c3 'No Markdown files were changed or no namespaces found.'
+    exit 0
+fi
+
+root_directories=$(ls -d */ | grep -vE '^(.github|.ci|.git)/$' | sed 's#/##') # Removes trailing slash and excludes directories
+
+failed_files=''
+successful_files=''
+
+for file in $affected_files; do
+    if echo "$file" | grep -qE '^(.github|.ci|.git|README.md)'; then
+        continue
+    fi
+
+    ns=$(sed -n '/^---$/,/^---$/p' "$file" | grep '^ns:' | cut -d':' -f2 | tr -d ' ')
+
+    if [ -z "$ns" ]; then
+        continue
+    fi
+
+    if echo "$root_directories" | grep -q "^$ns$"; then
+        successful_files+="$file "
+    else
+        failed_files+="Invalid namespace in $file. Namespace: $ns\n"
+    fi
+done
+
+if [ -n "$failed_files" ]; then
+    echo -e "$failed_files"
+    die "Verification failed for the above files."
+else
+    print -s1 -c2 'All namespaces are valid.'
+fi
