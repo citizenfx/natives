@@ -49,4 +49,5 @@ using static CitizenFX.Core.Native.API;
 // ...
 int handle = CreateCamera(26379945, true); // creates a camera with the "DEFAULT_SCRIPTED_CAMERA" type
 Camera cam = new Camera(handle);
+RenderScriptCams(true, false, 0, true, true)
 ```

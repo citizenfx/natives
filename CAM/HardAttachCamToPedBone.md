@@ -9,6 +9,7 @@ aliases: ["0x149916F50C34A40D","_ATTACH_CAM_TO_PED_BONE_2"]
 void HARD_ATTACH_CAM_TO_PED_BONE(Cam cam, Ped ped, int boneIndex, float xRot, float yRot, float zRot, float xOffset, float yOffset, float zOffset, BOOL isRelative);
 ```
 
+Attaches a camera to a specific bone of a Ped, including full matrix transformations for both rotation and position offsets.
 This native works with peds only.
 
 ```
@@ -33,8 +34,18 @@ NativeDB Introduced: v1180
 local ped = PlayerPedId()
 local cam = CreateCam("DEFAULT_SCRIPTED_CAMERA", true)
 
-AttachCamToPedBone_2(cam, ped, 4089, 90.0, 0.0, 0.0, 0.0, 0.0, 0.0, true) -- attach it to a finger on the left hand and rotates it 90 degrees on the X-axis
+HardAttachCamToPedBone(cam, ped, 4089, 90.0, 0.0, 0.0, 0.0, 0.0, 0.0, true) -- attach it to a finger on the left hand and rotates it 90 degrees on the X-axis
 
 RenderScriptCams(true, false, 0, true, true) -- renders the camera
+
+```
+
+```js
+const ped = PlayerPedId()
+const cam = CreateCam("DEFAULT_SCRIPTED_CAMERA", true)
+
+HardAttachCamToPedBone(cam, ped, 4089, 90.0, 0.0, 0.0, 0.0, 0.0, 0.0, true) // attach it to a finger on the left hand and rotates it 90 degrees on the X-axis
+
+RenderScriptCams(true, false, 0, true, true) // renders the camera
 
 ```

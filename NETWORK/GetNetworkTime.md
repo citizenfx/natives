@@ -15,3 +15,8 @@ Returns the network time as an integer
 
 ```lua
 print(GetNetworkTime()) -- prints the network time
+```
+
+```js
+console.log(GetNetworkTime())
+```
