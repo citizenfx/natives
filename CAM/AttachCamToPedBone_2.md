@@ -5,7 +5,7 @@ ns: CAM
 
 ```c
 // 0x149916F50C34A40D
-void _ATTACH_CAM_TO_PED_BONE_2(Cam cam, Ped ped, int boneIndex, float p3, float p4, float p5, float p6, float p7, float p8, BOOL p9);
+void _ATTACH_CAM_TO_PED_BONE_2(Cam cam, Ped ped, int boneIndex, float xRot, float yRot, float zRot, float xOffset, float yOffset, float zOffset, BOOL isRelative);
 ```
 
 ```
