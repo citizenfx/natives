@@ -10,6 +10,10 @@ Cam CREATE_CAMERA(Hash camHash, BOOL active);
 Creates a camera with the specified camera hash, You can use `SET_CAM_` natives to manipulate the camera.  
 Make sure to call [RENDER_SCRIPT_CAMS](#_0x07E5B515DB0636FC) once the camera is created, or this won't have any visible effect.
 
+```
+NativeDB Introduced: v323
+```
+
 ### Camera hashes:
 - 26379945 for DEFAULT_SCRIPTED_CAMERA 
 - 964613260 for DEFAULT_ANIMATED_CAMERA
@@ -27,9 +31,7 @@ Make sure to call [RENDER_SCRIPT_CAMS](#_0x07E5B515DB0636FC) once the camera is 
 ## Return value
 A camera handle referencing the camera that was created.
 
-```
-NativeDB Introduced: v323
-```
+
 
 ## Examples
 ```lua

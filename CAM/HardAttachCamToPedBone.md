@@ -11,6 +11,10 @@ void HARD_ATTACH_CAM_TO_PED_BONE(Cam cam, Ped ped, int boneIndex, float xRot, fl
 
 This native works with peds only.
 
+```
+NativeDB Introduced: v1180
+```
+
 ## Parameters
 * **cam**: The camera handle.
 * **ped**: The ped handle.
@@ -22,10 +26,6 @@ This native works with peds only.
 * **yOffset**: Y-axis offset
 * **zOffset**: Z-axis offset
 * **isRelative**: Whether or not the camera position will be relative to the bone rotation
-
-```
-NativeDB Introduced: v1180
-```
 
 ## Examples
 
