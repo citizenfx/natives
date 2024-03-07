@@ -8,21 +8,21 @@ ns: CAM
 Cam CREATE_CAMERA_WITH_PARAMS(Hash camHash, float posX, float posY, float posZ, float rotX, float rotY, float rotZ, float fov, BOOL active, int rotationOrder);
 ```
 
-CAM::_GET_GAMEPLAY_CAM_COORDS can be used instead of posX,Y,Z  
-CAM::_GET_GAMEPLAY_CAM_ROT can be used instead of rotX,Y,Z  
-CAM::_GET_FINAL_RENDERED_CAM_FOV can be used instead of p7 (Possible p7 is FOV parameter. )  
-rotationOrder is 2 usually
+Create a camera with the specified camera hash, You can use `SET_CAM_` natives to manipulate the camera.
+Take a look at [CREATE_CAMERA](#_0x5E3CF89C6BCCA67D) if you would like to see the available camera hashes.
 
 ## Parameters
-* **camHash**: 
-* **posX**: 
-* **posY**: 
-* **posZ**: 
-* **rotX**: 
-* **rotY**: 
-* **rotZ**: 
-* **fov**: 
-* **active**: 
-* **rotationOrder**: 
+* **camHash**: The hash of the camera type
+* **posX**: The x position of the camera (you can also send a vector3 instead of the bulk coordinates)
+* **posY**: The y position of the camera (you can also send a vector3 instead of the bulk coordinates)
+* **posZ**: The z position of the camera (you can also send a vector3 instead of the bulk coordinates)
+* **rotX**: The x rotation of the camera
+* **rotY**: The y rotation of the camera
+* **rotZ**: The z rotation of the camera
+* **fov**: The Field Of View of the camera, is the observable world that is seen
+* **active**: Set to true if you wish to make this new camera the active camera.
+* **rotationOrder**: The order of rotation, see [`GET_ENTITY_ROTATION`](#_0xAFBD61CC738D9EB9)
+
 
 ## Return value
+A camera handle.
