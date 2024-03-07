@@ -20,3 +20,10 @@ print(GetNetworkTime()) -- prints the network time
 ```js
 console.log(GetNetworkTime())
 ```
+
+```cs
+using static CitizenFX.Core.Native.API;
+
+int networkTime = GetNetworkTime();
+Debug.WriteLine($"{networkTime}");
+```

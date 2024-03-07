@@ -47,5 +47,16 @@ const cam = CreateCam("DEFAULT_SCRIPTED_CAMERA", true)
 HardAttachCamToPedBone(cam, ped, 4089, 90.0, 0.0, 0.0, 0.0, 0.0, 0.0, true) // attach it to a finger on the left hand and rotates it 90 degrees on the X-axis
 
 RenderScriptCams(true, false, 0, true, true) // renders the camera
+```
 
+```cs
+using static CitizenFX.Core.Native.API;
+
+Ped ped = PlayerPedId();
+int handle = CreateCam("DEFAULT_SCRIPTED_CAMERA", true);
+Camera cam = new Camera(handle);
+
+HardAttachCamToPedBone(cam, ped, 4089, 90.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, true); // attach it to a finger on the left hand and rotates it 90 degrees on the X-axis
+
+RenderScriptCams(true, false, 0, true, true); // renders the camera
 ```
