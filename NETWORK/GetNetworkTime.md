@@ -8,5 +8,10 @@ ns: NETWORK
 int GET_NETWORK_TIME();
 ```
 
+Returns the same value as [`GetNetworkTimeAccurate`](#_0x89023FBBF9200E9F) in freemode, but as opposed to `GetNetworkTimeAccurate` it gets the time once per tick, instead of the most recent time.
 
 ## Return value
+Returns the network time as an integer
+
+```lua
+print(GetNetworkTime()) -- prints the network time
