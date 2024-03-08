@@ -15,3 +15,4 @@ BOOL IS_INTERIOR_ENTITY_SET_ACTIVE(int interior, char* entitySetName);
 * **entitySetName**: 
 
 ## Return value
+return true if the entity set with the given name in this interior is marked as active.

@@ -13,3 +13,4 @@ BOOL IS_INTERIOR_CAPPED(int interiorID);
 * **interiorID**: 
 
 ## Return value
+return true if the interior has been capped. (if CAP_INTERIOR has been used on the interior)

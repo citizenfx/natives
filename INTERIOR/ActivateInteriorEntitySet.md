@@ -10,6 +10,8 @@ void ACTIVATE_INTERIOR_ENTITY_SET(int interior, char* entitySetName);
 ```
 
 ```
+mark the entity set with the given name in this interior as being active.
+
 More info: http://gtaforums.com/topic/836367-adding-props-to-interiors/  
 ```
 
