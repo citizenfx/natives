@@ -13,6 +13,7 @@ Returns the same value as [`GetNetworkTimeAccurate`](#_0x89023FBBF9200E9F) in fr
 ## Return value
 Returns the network time as an integer
 
+## Examples
 ```lua
 print(GetNetworkTime()) -- prints the network time
 ```
