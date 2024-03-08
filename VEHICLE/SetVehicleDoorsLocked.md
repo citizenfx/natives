@@ -37,21 +37,21 @@ enum eVehicleLockState {
 
 ## Examples
 ```lua
-    -- Command to lock the car of the player for everyone.
-    RegisterCommand("lockcar", function()
-        local playerPed = PlayerPedId() -- Get the player ped
-        local vehicle = GetVehiclePedIsIn(playerPed, false) -- Get the vehicle the player is in
-        if (vehicle == 0) then return end -- If the player is not in a vehicle, return
-        SetVehicleDoorsLocked(vehicle, 2) -- Lock the doors of the vehicle
-    end, false)
+-- Command to lock the car of the player for everyone.
+RegisterCommand("lockcar", function()
+    local playerPed = PlayerPedId() -- Get the player ped
+    local vehicle = GetVehiclePedIsIn(playerPed, false) -- Get the vehicle the player is in
+    if (vehicle == 0) then return end -- If the player is not in a vehicle, return
+    SetVehicleDoorsLocked(vehicle, 2) -- Lock the doors of the vehicle
+end, false)
 
-    -- Command to unlock the car of the player for everyone.
-    RegisterCommand("unlockcar", function()
-        local playerPed = PlayerPedId() -- Get the player ped
-        local vehicle = GetVehiclePedIsIn(playerPed, false) -- Get the vehicle the player is in
-        if (vehicle == 0) then return end -- If the player is not in a vehicle, return
-        SetVehicleDoorsLocked(vehicle, 1) -- Unlock the doors of the vehicle
-    end, false)
+-- Command to unlock the car of the player for everyone.
+RegisterCommand("unlockcar", function()
+    local playerPed = PlayerPedId() -- Get the player ped
+    local vehicle = GetVehiclePedIsIn(playerPed, false) -- Get the vehicle the player is in
+    if (vehicle == 0) then return end -- If the player is not in a vehicle, return
+    SetVehicleDoorsLocked(vehicle, 1) -- Unlock the doors of the vehicle
+end, false)
 ```
 
 ```js
