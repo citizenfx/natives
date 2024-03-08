@@ -6,16 +6,16 @@ aliases: ["0x01708E8DD3FF8C65"]
 
 ```c
 // 0x01708E8DD3FF8C65 0x76AFFBB5
-int GET_NUM_NAVMESHES_EXISTING_IN_AREA(float p0, float p1, float p2, float p3, float p4, float p5);
+int GET_NUM_NAVMESHES_EXISTING_IN_AREA(float posMinX, float posMinY, float posMinZ, float posMaxX, float posMaxY, float posMaxZ);
 ```
 
-
 ## Parameters
-* **p0**: 
-* **p1**: 
-* **p2**: 
-* **p3**: 
-* **p4**: 
-* **p5**: 
+* **posMinX**: Min X Coordinate.
+* **posMinY**: Min Y Coordinate.
+* **posMinZ**: Min Z Coordinate.
+* **posMaxX**: Max X Coordinate.
+* **posMaxY**: Max Y Coordinate.
+* **posMaxZ**: Max Z Coordinate.
 
 ## Return value
+Returns the number of navmeshes which exist in the given area (irrespective of whether they are currently loaded or not)
