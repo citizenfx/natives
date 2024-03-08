@@ -9,14 +9,16 @@ Cam CREATE_CAMERA_WITH_PARAMS(Hash camHash, float posX, float posY, float posZ, 
 ```
 
 Create a camera with the specified camera hash, You can use `SET_CAM_` natives to manipulate the camera.
-Take a look at [CREATE_CAMERA](#_0x5E3CF89C6BCCA67D) if you would like to see the available camera hashes.
+Make sure to call [RENDER_SCRIPT_CAMS](#_0x07E5B515DB0636FC) once the camera is created, or this won't have any visible effect.
+
+Take a look at [CREATE_CAM](#_0xC3981DCE61D9E13F) if you would like to see the available camera names.
 
 ```
 NativeDB Introduced: v323
 ```
 
 ## Parameters
-* **camHash**: The hash of the camera type
+* **camHash**: The hash of the camera type, use [GET_HASH_KEY](_0xD24D37CC275948CC) to get the camera hash from the name
 * **posX**: The x position of the camera (you can also send a vector3 instead of the bulk coordinates)
 * **posY**: The y position of the camera (you can also send a vector3 instead of the bulk coordinates)
 * **posZ**: The z position of the camera (you can also send a vector3 instead of the bulk coordinates)
