@@ -69,7 +69,7 @@ public enum DecalTypes
 ```
 
 ## Parameters
-* **decalType**: which type of decal to place, based on the ID
+* **decalType**: which type of decal to place, based on the ID, see `DecalTypes` enum.
 * **posX**: X position coordinate.
 * **posY**: Y position coordinate.
 * **posZ**: Z position coordinate.
