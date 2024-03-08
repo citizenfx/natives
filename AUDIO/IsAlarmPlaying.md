@@ -13,3 +13,8 @@ BOOL IS_ALARM_PLAYING(char* alarmName);
 
 ## Return value
 Returns true if an alarm is currently playing with the specified name
+
+## Examples
+```lua
+local bAlarmPlaying = IsAlarmPlaying("PORT_OF_LS_HEIST_FORT_ZANCUDO_ALARMS")
+```
