@@ -7,10 +7,10 @@ ns: GRAPHICS
 // 0xB302244A1839BDAD 0xEAD0C412
 int ADD_DECAL(int decalType, float posX, float posY, float posZ, float dirX, float dirY, float dirZ, float sideX, float sideY, float sideZ, float width, float height, float rCoef, float gCoef, float bCoef, float opacity, float timeout, BOOL isLongRange, BOOL isDynamic, BOOL useComplexColn);
 ```
-adds a decal into the world
 
-```
-decal types:  
+Places a decal into the world
+
+```cs
 public enum DecalTypes  
 {  
     splatters_blood = 1010,  
@@ -91,3 +91,4 @@ public enum DecalTypes
 * **useComplexColn**: use complex coloring.
 
 ## Return value
+An integer value representing the added decal index, will return `0` if the decal cannot be added.
