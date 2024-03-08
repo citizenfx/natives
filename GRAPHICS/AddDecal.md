@@ -5,8 +5,9 @@ ns: GRAPHICS
 
 ```c
 // 0xB302244A1839BDAD 0xEAD0C412
-int ADD_DECAL(int decalType, float posX, float posY, float posZ, float p4, float p5, float p6, float p7, float p8, float p9, float width, float height, float rCoef, float gCoef, float bCoef, float opacity, float timeout, BOOL p17, BOOL p18, BOOL p19);
+int ADD_DECAL(int decalType, float posX, float posY, float posZ, float dirX, float dirY, float dirZ, float sideX, float sideY, float sideZ, float width, float height, float rCoef, float gCoef, float bCoef, float opacity, float timeout, BOOL isLongRange, BOOL isDynamic, BOOL useComplexColn);
 ```
+adds a decal into the world
 
 ```
 decal types:  
@@ -68,25 +69,25 @@ public enum DecalTypes
 ```
 
 ## Parameters
-* **decalType**: 
-* **posX**: 
-* **posY**: 
-* **posZ**: 
-* **p4**: 
-* **p5**: 
-* **p6**: 
-* **p7**: 
-* **p8**: 
-* **p9**: 
-* **width**: 
-* **height**: 
-* **rCoef**: 
-* **gCoef**: 
-* **bCoef**: 
-* **opacity**: 
-* **timeout**: 
-* **p17**: 
-* **p18**: 
-* **p19**: 
+* **decalType**: which type of decal to place, based on the ID
+* **posX**: X position coordinate.
+* **posY**: Y position coordinate.
+* **posZ**: Z position coordinate.
+* **dirX**: X Orientation.
+* **dirY**: Y Orientation.
+* **dirZ**: Z Orientation.
+* **sideX**: Usually set to 0.
+* **sideY**: Usually set to 1.
+* **sideZ**: Usually set to 0.
+* **width**: Width of the decal.
+* **height**: Height of the decal.
+* **rCoef**: Red Color.
+* **gCoef**: Green Color.
+* **bCoef**: Blue Color.
+* **opacity**: Alpha Color.
+* **timeout**: The lifetime of the decal.
+* **isLongRange**: toggle further LOD draw distance.
+* **isDynamic**: toggle dynamics.
+* **useComplexColn**: use complex coloring.
 
 ## Return value
