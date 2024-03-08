@@ -46,7 +46,7 @@ print(GetWeapontypeGroup(`WEAPON_PISTOL`)) -- Outputs the hash of GROUP_PISTOL
 print(GetWeapontypeGroup(`WEAPON_RPG`)) -- Outputs the hash of GROUP_HEAVY
 print(GetWeapontypeGroup(`WEAPON_SNOWBALL`)) -- Outputs the hash of GROUP_THROWN
 print(GetWeapontypeGroup(`WEAPON_MUSKET`)) -- Outputs the hash of GROUP_SNIPER
-print(GetSelectedPedWeapon(PlayerPedId())) -- Outputs the hash of the currently selected weapon
+print(GetWeapontypeGroup(GetSelectedPedWeapon(PlayerPedId()))) -- Outputs the hash of the currently selected weapon
 ```
 
 ```js
@@ -54,5 +54,5 @@ console.log(GetWeapontypeGroup(`WEAPON_PISTOL`)); // Outputs the hash of GROUP_P
 console.log(GetWeapontypeGroup(`WEAPON_RPG`)); // Outputs the hash of GROUP_HEAVY
 console.log(GetWeapontypeGroup(`WEAPON_SNOWBALL`)); // Outputs the hash of GROUP_THROWN
 console.log(GetWeapontypeGroup(`WEAPON_MUSKET`)); // Outputs the hash of GROUP_SNIPER
-console.log(GetSelectedPedWeapon(PlayerPedId())); // Outputs the hash of the currently selected weapon
+console.log(GetWeapontypeGroup(GetSelectedPedWeapon(PlayerPedId()))); // Outputs the hash of the currently selected weapon
 ```
