@@ -27,3 +27,4 @@ jobs:
           bash ./.ci/setup-builder
           bash ./.ci/run-pr
           bash ./.ci/namespace-check
+          bash ./.ci/backticks-check

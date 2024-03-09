@@ -1,0 +1,42 @@
+#!/bin/bash
+set -eu
+
+. "$(dirname "$0")"/common.sh
+
+first_commit_sha=$(echo $COMMIT_LIST | jq -r '.[0].sha')
+last_commit_sha=$(echo $COMMIT_LIST | jq -r '.[-1].sha')
+
+commit_range="${first_commit_sha}..${last_commit_sha}"
+
+title "Verifying code block syntax in changed Markdown files between $commit_range"
+
+affected_files=$(git diff --name-only --diff-filter=ACMR $commit_range -- '*.md')
+
+if [ -z "$affected_files" ]; then
+    print -s1 -c3 'No Markdown files were changed or no issues found.'
+    exit 0
+fi
+
+failed_files=''
+successful_files=''
+
+for file in $affected_files; do
+    if echo "$file" | grep -qE '^(.github|.ci|.git|README.md)'; then
+        continue
+    fi
+
+    code_block_count=$(grep -o '```' "$file" | wc -l)
+
+    if [ $((code_block_count % 2)) -ne 0 ]; then
+        failed_files+="Mismatched code block in $file\n"
+    else
+        successful_files+="$file "
+    fi
+done
+
+if [ -n "$failed_files" ]; then
+    echo -e "$failed_files"
+    die "Verification failed for the above files."
+else
+    print -s1 -c2 'All code blocks are correctly closed.'
+fi
