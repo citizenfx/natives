@@ -23,7 +23,7 @@ function RequestVehicleModel(modelHash)
     if not IsModelInCdimage(modelHash) then return end
     RequestModel(modelHash)
     while not HasModelLoaded(modelHash) do 
-      Wait(0)
+      Citizen.Wait(0)
     end
 end
 

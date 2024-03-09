@@ -29,11 +29,11 @@ Returns true when the engine of your vehicle is on fire. Returns false if it's n
 local vehicle = GetVehiclePedIsIn(PlayerPedId(), false)
 SetVehicleEngineHealth(vehicle, 99)
 
-CreateThread(function()
+Citizen.CreateThread(function()
     -- waiting for the vehicle to be on fire, usually takes one small
     -- crash into a wall or something to do this if engine health < 100.
     while IsVehicleEngineOnFire(vehicle) ~= 1 do
-        Wait(0)
+        Citizen.Wait(0)
     end
     print("Vehicle is now on fire!")
 end)

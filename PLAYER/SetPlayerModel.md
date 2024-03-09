@@ -22,7 +22,7 @@ local model = `a_f_m_beach_01`
 if IsModelInCdimage(model) and IsModelValid(model) then
   RequestModel(model)
   while not HasModelLoaded(model) do
-    Wait(0)
+    Citizen.Wait(0)
   end
   SetPlayerModel(PlayerId(), model)
   SetModelAsNoLongerNeeded(model)

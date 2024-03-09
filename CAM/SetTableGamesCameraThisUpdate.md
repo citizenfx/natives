@@ -30,11 +30,11 @@ Returns a boolean value indicating if the camera settings were successfully over
 
 ## Examples
 ```lua
-CreateThread(function()
+Citizen.CreateThread(function()
     while true do
       -- override to lucky wheel camera work
       SetTableGamesCameraThisUpdate(GetHashKey("CASINO_LUCKY_WHEEL_CAMERA"))
-      Wait(0)
+      Citizen.Wait(0)
     end
 end)
 ```

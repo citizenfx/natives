@@ -21,11 +21,11 @@ It returns a Pedheadshot handle, which can be used by natives such as [`GET_PEDH
 
 ## Examples
 ```lua
-CreateThread(function()
+Citizen.CreateThread(function()
     -- Get the ped headshot image.
     local handle = RegisterPedheadshot(PlayerPedId())
     while not IsPedheadshotReady(handle) or not IsPedheadshotValid(handle) do
-        Wait(0)
+        Citizen.Wait(0)
     end
     local txd = GetPedheadshotTxdString(handle)
 

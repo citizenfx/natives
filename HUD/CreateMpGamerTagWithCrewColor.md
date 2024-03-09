@@ -37,7 +37,7 @@ if IsMpGamerTagActive(playerId) then
 	RemoveMpGamerTag(playerId)
 
 	-- wait until the gamer tag actually becomes free
-	repeat Wait(0) until IsMpGamerTagFree(playerId)
+	repeat Citizen.Wait(0) until IsMpGamerTagFree(playerId)
 end
 
 -- create the gamer tag

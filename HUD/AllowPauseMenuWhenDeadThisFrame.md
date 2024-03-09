@@ -16,7 +16,7 @@ Allows opening the pause menu this frame, when the player is dead.
 Citizen.CreateThread(function()
 	while true do
 		N_0xcc3fdded67bcfc63()
-		Wait(0)
+		Citizen.Wait(0)
 	end
 end)
 ```

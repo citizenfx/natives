@@ -22,11 +22,11 @@ The Pedheadshot handle.
 
 ## Examples
 ```lua
-CreateThread(function()
+Citizen.CreateThread(function()
     -- Get the ped headshot image.
     local handle = RegisterPedheadshotTransparent(PlayerPedId())
     while not IsPedheadshotReady(handle) or not IsPedheadshotValid(handle) do
-        Wait(0)
+        Citizen.Wait(0)
     end
     local txd = GetPedheadshotTxdString(handle)
 

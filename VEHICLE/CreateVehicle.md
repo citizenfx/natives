@@ -33,7 +33,7 @@ local ModelHash = `adder` -- Use Compile-time hashes to get the hash of this mod
 if not IsModelInCdimage(ModelHash) then return end
 RequestModel(ModelHash) -- Request the model
 while not HasModelLoaded(ModelHash) do -- Waits for the model to load
-  Wait(0)
+  Citizen.Wait(0)
 end
 local MyPed = PlayerPedId()
 local Vehicle = CreateVehicle(ModelHash, GetEntityCoords(MyPed), GetEntityHeading(MyPed), true, false) -- Spawns a networked vehicle on your current coords

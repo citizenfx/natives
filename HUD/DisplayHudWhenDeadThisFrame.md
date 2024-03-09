@@ -16,7 +16,7 @@ Enables drawing some hud components, such as help labels, this frame, when the p
 Citizen.CreateThread(function()
 	while true do
 		N_0x7669f9e39dc17063()
-		Wait(0)
+		Citizen.Wait(0)
 	end
 end)
 ```

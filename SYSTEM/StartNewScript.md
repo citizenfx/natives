@@ -33,7 +33,7 @@ or:
     SCRIPT::REQUEST_SCRIPT(v_2);
     while (!SCRIPT::HAS_SCRIPT_LOADED(v_2)) {
     SCRIPT::REQUEST_SCRIPT(v_2);
-    SYSTEM::WAIT(0);
+    SYSTEM::Citizen.Wait(0);
     }
     sub_8792(36);
     SYSTEM::START_NEW_SCRIPT(v_2, 17000);

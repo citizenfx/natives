@@ -40,7 +40,7 @@ Intensity: `0.0`:
 
 ## Examples
 ```lua
-CreateThread(function()
+Citizen.CreateThread(function()
     local glowIntensity = 0.0
     local reverse = false
     while true do

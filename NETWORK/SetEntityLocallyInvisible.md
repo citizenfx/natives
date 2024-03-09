@@ -16,13 +16,13 @@ Sets the provided entity not visible for yourself for the current frame.
 ## Examples
 
 ```lua
-CreateThread(function()
+Citizen.CreateThread(function()
   -- Any random entity should work
   local entity = PlayerPedId()
   -- Make the entity visible for all players
   SetEntityVisible(entity, true)
   while true do
-    Wait(0)
+    Citizen.Wait(0)
     -- Make the entity invisible for the current player only.
     SetEntityLocallyInvisible(entity)
   end

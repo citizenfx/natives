@@ -21,10 +21,10 @@ This can only be run once [`CAN_REQUEST_ASSETS_FOR_CUTSCENE_ENTITY`](#_0xB56BBBC
 ```lua
     -- An example that allows for registering non player_zero peds in place, i.e MP peds.
     RequestCutscene("family_5_mcs_5_p5", 8)
-    repeat Wait(0) until CanRequestAssetsForCutsceneEntity()
+    repeat Citizen.Wait(0) until CanRequestAssetsForCutsceneEntity()
     SetCutscenePedComponentVariationFromPed("Michael", PlayerPedId(), 0)
     -- Registering can occur at any point past here before starting the cutscene.
     RegisterEntityForCutscene(PlayerPedId(), "Michael", 0, 0, 64)
-    repeat Wait(0) until HasCutsceneLoaded()
+    repeat Citizen.Wait(0) until HasCutsceneLoaded()
     StartCutscene(0)
 ```

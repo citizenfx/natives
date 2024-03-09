@@ -21,7 +21,7 @@ local pedsDensityFactor = 0.0
 Citizen.CreateThread(function()
    while true do
        SetPedDensityMultiplierThisFrame(pedsDensityFactor)
-       Citizen.Wait(0)    
+       Citizen.Wait(0)  
    end
 end)
 ```

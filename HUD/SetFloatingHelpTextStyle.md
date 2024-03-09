@@ -40,9 +40,9 @@ function DisplayHelpText(string)
     EndTextCommandDisplayHelp(1, false, false, 0)
 end
 
-CreateThread(function()
+Citizen.CreateThread(function()
     while true do
-        Wait(0)
+        Citizen.Wait(0)
 
         local Ped = PlayerPedId()
 

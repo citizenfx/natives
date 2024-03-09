@@ -34,9 +34,9 @@ enum eEventType {
 ```lua
 local eventToDisable = 0 -- RC_PED_STEAL_VEHICLE
 
-CreateThread(function()
+Citizen.CreateThread(function()
     while true do
-        Wait(0)
+        Citizen.Wait(0)
         SupressRandomEventThisFrame(eventToDisable, true)
     end
 end)

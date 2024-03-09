@@ -104,7 +104,7 @@ print("New stunt jump added, id: " .. stuntjump)
 
 Citizen.CreateThread(function()
     while true do
-        Wait(0)
+        Citizen.Wait(0)
         DrawLine(data.entry.leftbottom, data.entry.righttop, 255, 255, 255, 255)
         DrawLine(data.landing.start, data.landing.ending, 255, 0, 0, 255)
         DrawMarker(28, data.camcoords.x, data.camcoords.y, data.camcoords.z, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 255, 255, 255, 150, false, false, 2, false, nil, nil, false)

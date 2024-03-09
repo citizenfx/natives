@@ -8,7 +8,7 @@ ns: GRAPHICS
 void DRAW_MARKER(int type, float posX, float posY, float posZ, float dirX, float dirY, float dirZ, float rotX, float rotY, float rotZ, float scaleX, float scaleY, float scaleZ, int red, int green, int blue, int alpha, BOOL bobUpAndDown, BOOL faceCamera, int p19, BOOL rotate, char* textureDict, char* textureName, BOOL drawOnEnts);
 ```
 
-Draws a marker with the specified appearance at the target location. This has to be called every frame, e.g. in a `Wait(0)` loop.
+Draws a marker with the specified appearance at the target location. This has to be called every frame, e.g. in a `Citizen.Wait(0)` loop.
 
 There's a [list of markers](https://docs.fivem.net/game-references/markers/) on the FiveM documentation site.
 
@@ -40,10 +40,10 @@ There's a [list of markers](https://docs.fivem.net/game-references/markers/) on 
 
 ## Examples
 ```lua
-CreateThread(function()
+Citizen.CreateThread(function()
 	while true do
 		-- draw every frame
-		Wait(0)
+		Citizen.Wait(0)
 
 		local pedCoords = GetEntityCoords(PlayerPedId())
 		DrawMarker(2, pedCoords.x, pedCoords.y, pedCoords.z + 2, 0.0, 0.0, 0.0, 0.0, 180.0, 0.0, 2.0, 2.0, 2.0, 255, 128, 0, 50, false, true, 2, nil, nil, false)

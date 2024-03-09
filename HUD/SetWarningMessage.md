@@ -109,9 +109,9 @@ end)
 
 
 -- Create a thread to loop this warning message.
-CreateThread(function()
+Citizen.CreateThread(function()
     while true do
-        Wait(0)
+        Citizen.Wait(0)
         -- Display the warning message every tick.
         SetWarningMessage("warning_message_first_line", 82, "warning_message_second_line", 0, -1, true, 0, 0, 0)
         

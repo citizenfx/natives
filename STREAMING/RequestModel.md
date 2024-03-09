@@ -18,7 +18,7 @@ Request a model (archetype) to be loaded for use by the current script. Use SET\
 local modelHash = `adder`
 RequestModel(modelHash)
 while not HasModelLoaded(modelHash) do
-  Wait(0)
+  Citizen.Wait(0)
 end
 
 -- omitted: creating a vehicle

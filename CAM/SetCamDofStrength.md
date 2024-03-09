@@ -16,7 +16,7 @@ Specifies how much the DoF effect should be applied (Set using [`SET_CAM_NEAR_DO
 
 ## Examples
 ```lua
-CreateThread(function()
+Citizen.CreateThread(function()
     local camera = CreateCam("DEFAULT_SCRIPTED_FLY_CAMERA", true)
     -- Set the cam coordinates to the player coords
     local playerCoords = GetEntityCoords(PlayerPedId())
@@ -35,7 +35,7 @@ CreateThread(function()
     while DoesCamExist(camera) do
         -- Use DoF effect (needs to be called every tick)
         SetUseHiDof()
-        Citizen.Wait(0)  
+        Citizen.Wait(0)
     end
 end)
 ```
