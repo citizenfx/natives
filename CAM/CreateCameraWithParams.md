@@ -18,7 +18,7 @@ NativeDB Introduced: v323
 ```
 
 ## Parameters
-* **camHash**: The hash of the camera type, use [GET_HASH_KEY](_0xD24D37CC275948CC) to get the camera hash from the name
+* **camHash**: The hash of the camera type, use [GET_HASH_KEY](#_0xD24D37CC275948CC) to get the camera hash from the name
 * **posX**: The x position of the camera (you can also send a vector3 instead of the bulk coordinates)
 * **posY**: The y position of the camera (you can also send a vector3 instead of the bulk coordinates)
 * **posZ**: The z position of the camera (you can also send a vector3 instead of the bulk coordinates)
