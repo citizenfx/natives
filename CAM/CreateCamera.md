@@ -17,7 +17,7 @@ NativeDB Introduced: v323
 ```
 
 ## Parameters
-* **camHash**: The hash of the camera type, use [GET_HASH_KEY](_0xD24D37CC275948CC) to get the camera hash from the name
+* **camHash**: The hash of the camera type, use [GET_HASH_KEY](#_0xD24D37CC275948CC) to get the camera hash from the name
 * **active**: Set to true if you wish to make this new camera the active camera.
 
 ## Return value
