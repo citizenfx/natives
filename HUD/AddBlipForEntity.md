@@ -12,9 +12,9 @@ Create a blip that by default is red (enemy), you can use [SET_BLIP_AS_FRIENDLY]
 Can be used for objects, vehicles and peds.
 
 Example of enemy:
-![enemy](https://i.imgur.com/fl78svv.png)
+![enemy](https://i.imgur.com/1agTGTa.png)
 Example of friend:
-![friend](https://i.imgur.com/Q16ho5d.png)
+![friend](https://i.imgur.com/uHpLos3.png)
 
 ## Parameters
 * **entity**: The entity handle to create the blip.
