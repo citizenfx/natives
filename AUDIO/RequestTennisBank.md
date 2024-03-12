@@ -9,7 +9,8 @@ aliases: ["0x4ADA3F19BE4A6047", "_SET_PED_TALK"]
 void REQUEST_TENNIS_BANKS(Ped opponentPed);
 ```
 
-Loads the tennis vocalization banks into a couple animal slots
+Loads the tennis vocalization banks into a couple animal slots.
+
 ## Parameters
 * **opponentPed**:
 
