@@ -17,10 +17,43 @@ Returns true if the given vehicle's radio on
 
 ## Examples
 ```lua
-local radioEnabled = IsVehicleRadioEnabled(GetVehiclePedIsIn(PlayerPedId(), false))
+-- Retrieve the player ped
+local playerPed = PlayerPedId()
+
+-- Retrieve the current vehicle
+local vehicle = GetVehiclePedIsIn(playerPed, false)
+
+-- Check if the vehicle's radio is enabled
+local radioEnabled = IsVehicleRadioOn(vehicle)
+
+-- Print the result
 print(radioEnabled)
 ```
-```cs
-bool radioEnabled = API.IsVehicleRadioEnabled(API.GetVehiclePedIsIn(Game.PlayerPed.Handle, false));
-Debug.WriteLine(radioEnabled.ToString());
+
+```js
+// Retrieve the player ped
+const playerPed = PlayerPedId();
+
+// Retrieve the current vehicle
+const vehicle = GetVehiclePedIsIn(playerPed, false);
+
+// Check if the vehicle's radio is enabled
+const radioEnabled = IsVehicleRadioOn(vehicle);
+
+// Print the result
+console.log(radioEnabled);
+```
+
+
+```csharp
+using CitizenFX.Core;
+
+// Retrieve the current vehicle (with the C# wrapper)
+Vehicle currentVehicle = Game.PlayerPed.CurrentVehicle;
+
+// Check if the vehicle's radio is enabled
+bool radioEnabled = IsVehicleRadioOn(currentVehicle);
+
+// Print the result
+Debug.WriteLine($"{radioEnabled}");
 ```
