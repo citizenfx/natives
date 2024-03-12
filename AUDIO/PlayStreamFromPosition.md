@@ -9,9 +9,10 @@ aliases: ["SPECIAL_FRONTEND_EQUAL"]
 void PLAY_STREAM_FROM_POSITION(float x, float y, float z);
 ```
 
+Plays a preloaded stream back from the specified Vector3.
 
 ## Parameters
-* **x**: 
-* **y**: 
-* **z**: 
+* **x**:
+* **y**:
+* **z**:
 

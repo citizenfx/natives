@@ -8,7 +8,8 @@ ns: AUDIO
 void PLAY_STREAM_FROM_VEHICLE(Vehicle vehicle);
 ```
 
+Plays a preloaded stream back from the specified ped vehicle
+
 
 ## Parameters
-* **vehicle**: 
-
+* **vehicle**:
