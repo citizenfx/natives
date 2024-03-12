@@ -10,7 +10,7 @@ cs_type(Any) BOOL PREPARE_SYNCHRONIZED_AUDIO_EVENT(char* audioEvent, int startOf
 
 
 ## Parameters
-* **audioEvent**:
-* **startOffsetMs**:
+* **audioEvent**: The audio event name.
+* **startOffsetMs**: Unused parameter (since v323)
 
 ## Return value
