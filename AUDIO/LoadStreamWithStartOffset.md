@@ -8,15 +8,11 @@ ns: AUDIO
 BOOL LOAD_STREAM_WITH_START_OFFSET(char* streamName, int startOffset, char* soundSet);
 ```
 
-```
-Example:  
-AUDIO::LOAD_STREAM_WITH_START_OFFSET("STASH_TOXIN_STREAM", 2400, "FBI_05_SOUNDS");  
-Only called a few times in the scripts.  
-```
+Load in named stream. Optionally can specify a sound set which contains the sound specified by name.
 
 ## Parameters
-* **streamName**: 
-* **startOffset**: 
-* **soundSet**: 
+* **streamName**:
+* **startOffset**:
+* **soundSet**:
 
 ## Return value

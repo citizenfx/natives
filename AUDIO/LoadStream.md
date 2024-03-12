@@ -8,16 +8,13 @@ ns: AUDIO
 BOOL LOAD_STREAM(char* streamName, char* soundSet);
 ```
 
-```
-Example:  
-AUDIO::LOAD_STREAM("CAR_STEAL_1_PASSBY", "CAR_STEAL_1_SOUNDSET");  
-All found occurrences in the b678d decompiled scripts: pastebin.com/3rma6w5w  
-Stream names often ends with "_MASTER", "_SMALL" or "_STREAM". Also "_IN", "_OUT" and numbers.     
-soundSet is often set to 0 in the scripts. These are common to end the soundSets: "_SOUNDS", "_SOUNDSET" and numbers.  
-```
+Load in named stream. Optionally can specify a sound set which contains the sound specified by name.
+
+Names for the streams can be found [here](https://gist.github.com/4mmonium/2bd2c9c54d6ca5cbdb7b156a82a3a85a
+), the list will be updated as more are found.
 
 ## Parameters
-* **streamName**: 
-* **soundSet**: 
+* **streamName**:
+* **soundSet**: an optional sound set, default is null
 
 ## Return value
