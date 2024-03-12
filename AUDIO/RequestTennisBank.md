@@ -13,4 +13,3 @@ Loads the tennis vocalization banks into a couple animal slots.
 
 ## Parameters
 * **opponentPed**:
-
