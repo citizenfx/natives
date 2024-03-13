@@ -6,9 +6,11 @@ aliases: ["0x2C96CDB04FCA358E"]
 
 ```c
 // 0x2C96CDB04FCA358E 0xC8B514E2
-void SET_RADIO_FRONTEND_FADE_TIME(float fadeTime);
+void SET_RADIO_FRONTEND_FADE_TIME(float fadeTimeInSeconds);
 ```
 
+Override the time to fade radio from stereo to positioned and vice versa.
+
 ## Parameters
-* **fadeTime**: 
+* **fadeTimeInSeconds**:
 
