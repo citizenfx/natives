@@ -6,7 +6,7 @@ aliases: ["0xAF03011701811146", "_DETACH_ENTITY_FROM_CARGOBOB"]
 
 ```c
 // 0xAF03011701811146
-cs_type(Any) BOOL DETACH_ENTITY_FROM_CARGOBOB(Vehicle vehicle, Entity entity);
+Any DETACH_ENTITY_FROM_CARGOBOB(Vehicle vehicle, Entity entity);
 ```
 
 Detaches the specified entity currently being carried by a Cargobob.
@@ -14,9 +14,6 @@ Detaches the specified entity currently being carried by a Cargobob.
 ## Parameters
 * **vehicle**: The Cargobob helicopter.
 * **entity**: The entity to be detached.
-
-## Return value
-This native returns `true` if the entity was successfully detached from the cargobob, `false` otherwise.
 
 ## Examples
 ```lua
@@ -44,10 +41,7 @@ if not DoesEntityExist(yourEntity) then
 end
 
 -- Detach the entity from the Cargobob.
-local result = DetachEntityFromCargobob(cargobob, entityID)
-
--- Print the result to the console.
-print(result)
+DetachEntityFromCargobob(cargobob, entityID)
 ```
 
 ```js
@@ -75,10 +69,7 @@ if (!DoesEntityExist(entityID)) {
 }
 
 // Detach the entity from the Cargobob.
-const result = DetachEntityFromCargobob(cargobob, entityID);
-
-// Print the result to the console.
-console.log(result);
+DetachEntityFromCargobob(cargobob, entityID);
 ```
 
 ```cs
@@ -107,8 +98,5 @@ if (!DoesEntityExist(entityID)) {
 }
 
 // Detach the entity from the Cargobob.
-bool result = DetachEntityFromCargobob(cargobob, entityID);
-
-// Print the result to the console.
-Debug.WriteLine($"{result}");
+DetachEntityFromCargobob(cargobob, entityID);
 ```
