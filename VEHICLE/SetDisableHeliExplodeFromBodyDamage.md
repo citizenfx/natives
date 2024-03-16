@@ -6,7 +6,7 @@ aliases: ["0xEDBC8405B3895CC9"]
 
 ```c
 // 0xEDBC8405B3895CC9
-void SET_DISABLE_HELI_EXPLODE_FROM_BODY_DAMAGE(Vehicle helicopter, cs_type(Any) bool disableExplode);
+void SET_DISABLE_HELI_EXPLODE_FROM_BODY_DAMAGE(Vehicle helicopter, cs_type(Any) BOOL disableExplode);
 ```
 
 Prevents a helicopter from exploding due to relatively minor body damage. This native can be particularly useful in gameplay scenarios or missions where helicopters are subject to damage that would not realistically cause an explosion, ensuring they remain operational unless subjected to more significant damage.
