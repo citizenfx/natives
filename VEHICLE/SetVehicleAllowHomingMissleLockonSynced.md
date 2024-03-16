@@ -18,7 +18,7 @@ NativeDB Introduced: v463
 ## Parameters
 * **vehicle**: The vehicle to set this behavior on.
 * **allowHomingMissileLockon**: `true` to allow homing missile lock-on, `false` to disable it.
-* **ignoreMissionVehicleCheck**: Set to `true` to ignore the mission vehicle check; otherwise, `false`. This parameter defaults to FALSE if not specified.
+* **ignoreMissionVehicleCheck**: Set to `true` to ignore the mission vehicle check; otherwise, `false`. This parameter defaults to `false` if not specified.
 
 ## Examples
 ```lua
