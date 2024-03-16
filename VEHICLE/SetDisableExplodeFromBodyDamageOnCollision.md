@@ -11,7 +11,7 @@ void SET_DISABLE_EXPLODE_FROM_BODY_DAMAGE_ON_COLLISION(Vehicle vehicle, cs_type(
 
 Prevents a vehicle from exploding upon sustaining body damage from physical collisions. This can be used to increase the durability of vehicles in high-impact scenarios, such as races or combat situations, by preventing them from being destroyed due to collision-induced body damage.
 
-For helicopters, you might want to check [SET_DISABLE_HELI_EXPLODE_FROM_BODY_DAMAGE](#_0xEDBC8405B3895CC9) instead.
+For helicopters, you might want to check [`SET_DISABLE_HELI_EXPLODE_FROM_BODY_DAMAGE`](#_0xEDBC8405B3895CC9) instead.
 
 ```
 NativeDB Introduced: v1290
