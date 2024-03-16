@@ -9,7 +9,7 @@ aliases: ["0x38B55259C2E078ED", "_SET_WARNING_MESSAGE_WITH_HEADER_UNK"]
 void SET_WARNING_MESSAGE_WITH_HEADER_EXTENDED(char* headerTextLabel, char* line1TextLabel, int buttonsBitField, cs_type(char*) int buttonsBitFieldUpper, cs_type(BOOL) char* line2TextLabel, cs_type(Any) BOOL addNumber, cs_type(Any*) int numberToAdd, cs_type(Any*) char* firstSubstring, cs_type(BOOL) char* secondSubstring, cs_type(Any) BOOL showBackground, int errorCode);
 ```
 
-Sets a warning message with header and upper buttons bit field that don't fit the standard 32 bit set.
+Sets a warning message for one frame with header and upper buttons bit field that don't fit the standard 32 bit set.
 
 ## Parameters
 * **headerTextLabel**: Text label to set on the header/title.
