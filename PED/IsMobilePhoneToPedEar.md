@@ -22,7 +22,7 @@ if (sub_1abd() && (!PED::_A3F3564A5B3646C0(l_8C))) {
 ```
 
 ```
-https://alloc8or.re/gta5/nativedb/?n=0x83A169EABCDB10A2?n=0xA3F3564A5B3646C0  
+https://alloc8or.re/gta5/nativedb/?n=0x83A169EABCDB10A2?n=0xA3F3564A5B3646C0
 ```
 
 ## Parameters
