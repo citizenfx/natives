@@ -1,11 +1,12 @@
 ---
 ns: PED
+aliases: [0xA3F3564A5B3646C0]
 ---
-## _0xA3F3564A5B3646C0
+## IS_MOBILE_PHONE_TO_PED_EAR
 
 ```c
 // 0xA3F3564A5B3646C0 0x97353375
-BOOL _0xA3F3564A5B3646C0(Ped ped);
+BOOL IS_MOBILE_PHONE_TO_PED_EAR(Ped ped);
 ```
 
 ```
@@ -18,8 +19,10 @@ if (sub_1abd() && (!PED::_A3F3564A5B3646C0(l_8C))) {
         l_184 += 1;
     }
 }
-Checks something related to the mobile phone task.
-IS_*
+```
+
+```
+https://alloc8or.re/gta5/nativedb/?n=0x83A169EABCDB10A2?n=0xA3F3564A5B3646C0  
 ```
 
 ## Parameters
