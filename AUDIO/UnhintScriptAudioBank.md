@@ -1,0 +1,12 @@
+---
+ns: AUDIO
+aliases: ["0x9AC92EED5E4793AB"]
+---
+## UNHINT_SCRIPT_AUDIO_BANK
+
+```c
+// 0x9AC92EED5E4793AB 0xE67446E9
+void UNHINT_SCRIPT_AUDIO_BANK();
+```
+
+Unloads all audio banks requested by this script.

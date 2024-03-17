@@ -8,12 +8,8 @@ ns: AUDIO
 BOOL TRIGGER_MUSIC_EVENT(char* eventName);
 ```
 
-```
-List of all usable event names found in b617d used with this native. Sorted alphabetically and identical names removed: pastebin.com/RzDFmB1W  
-All music event names found in the b617d scripts: pastebin.com/GnYt0R3P  
-```
-
 ## Parameters
-* **eventName**: 
+* **eventName**:
 
 ## Return value
+Returns true if the event was triggered, false otherwise
