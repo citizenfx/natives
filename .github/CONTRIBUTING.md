@@ -7,7 +7,7 @@ Contributions are greatly appreciated! Some topics to contribute on:
 - Documenting parameter and return types
 - Naming unnamed natives appropriately
 - Adding example code to natives
-- Reviewing existing pull requests
+- Reviewing existing pull requests / issues
 
 Guidelines
 ----------
@@ -88,10 +88,10 @@ aliases: ["0x0123456789ABCDEF","_OLD_NATIVE_NAME"]
 BOOL _EXAMPLE_NATIVE(int param);
 ```
 
-Description of the native
+Compose a concise yet specific native description.
 
 ## Parameters
-* **param**: Description of the parameter
+* **param**: The param description.
 
 ## Return value
 Description of the return value
@@ -99,18 +99,22 @@ Description of the return value
 ## Examples
 ```lua
 -- A short example showcasing how this native works in Lua
-local result = ExampleNative(123)
+local result = _EXAMPLE_NATIVE('Hello world')
+print(result)
 ```
 
 ```js
 // A short example showcasing how this native works in JavaScript
-const result = ExampleNative(123);
+const result = _EXAMPLE_NATIVE('Hello world');
+console.log(result);
 ```
 
 ```cs
 // A short example showcasing how this native works in C#
-bool result = ExampleNative(123);
+bool result = _EXAMPLE_NATIVE('Hello world');
+Debug.WriteLine(result);
 ```
+
 ~~~
 
 Thanks for contributing! ❤️
