@@ -1,6 +1,6 @@
 ---
 ns: PED
-aliases: [0xA3F3564A5B3646C0]
+aliases: ["0xA3F3564A5B3646C0"]
 ---
 ## IS_MOBILE_PHONE_TO_PED_EAR
 
