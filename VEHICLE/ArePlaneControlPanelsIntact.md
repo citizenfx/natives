@@ -40,7 +40,6 @@ end
 ```
 
 ```javascript
-
 // Retrieve the player ped
 const playerPed = PlayerPedId();
 
