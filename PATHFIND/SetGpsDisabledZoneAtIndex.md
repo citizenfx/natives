@@ -15,9 +15,9 @@ You can clear the disabled zone with CLEAR_GPS_DISABLED_ZONE_AT_INDEX.
 
 **Setting a waypoint at the same coordinate:**
 
-Disabled Zone: [https://i.imgur.com/P9VUuxM.png](https://i.imgur.com/P9VUuxM.png)
+Disabled Zone: [https://i.imgur.com/Tpi3wkl.png](https://i.imgur.com/Tpi3wkl.png)
 
-Enabled Zone (normal): [https://i.imgur.com/BPi24aw.png](https://i.imgur.com/BPi24aw.png)
+Enabled Zone (normal): [https://i.imgur.com/6fHmOOA.png](https://i.imgur.com/6fHmOOA.png)
 
 
 ## Parameters
