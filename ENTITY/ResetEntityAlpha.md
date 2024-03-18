@@ -8,7 +8,11 @@ ns: ENTITY
 cs_type(Any) void RESET_ENTITY_ALPHA(Entity entity);
 ```
 
-## Parameters
-* **entity**: 
+Reverts any override on an entity's alpha level (transparency) to its default state. This native is used when you need to restore the original visibility of an entity after having made it more or less transparent than normal.
 
-## Return value
+```
+NativeDB Introduced: v323
+```
+
+## Parameters
+* **entity**: The entity for which to reset the alpha level.
