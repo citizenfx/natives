@@ -10,7 +10,9 @@ void SET_PED_STEER_BIAS(Ped ped, float value);
 ```
 
 ```
-Adds value to control input of ped controlling vehicle, explained below. Function only takes effect in the frame that it is called. For continued effect functions has to be called every frame.
+Adds value to control input of ped controlling vehicle, explained below.
+Function only takes effect in the frame that it is called.
+For continued effect functions has to be called every frame.
 Steer bias:  
 -1.0 = full right  
 0.0 = centered steering  
