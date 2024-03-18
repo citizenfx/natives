@@ -8,7 +8,9 @@ ns: AUDIO
 void SET_SIREN_WITH_NO_DRIVER(Vehicle vehicle, cs_type(ScrHandlePtr) BOOL toggle);
 ```
 
+Plays the siren audio without a driver in a vehicle
+
 ## Parameters
-* **vehicle**: 
-* **toggle**: 
+* **vehicle**:
+* **toggle**:
 
