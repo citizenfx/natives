@@ -1,11 +1,12 @@
 ---
 ns: PED
+aliases: ["0x110F526AB784111F"]
 ---
-## _0x110F526AB784111F
+## SET_PED_ENVEFF_CPV_ADD
 
 ```c
 // 0x110F526AB784111F 0x3B882533
-void _0x110F526AB784111F(Ped ped, float p1);
+void SET_PED_ENVEFF_CPV_ADD(Ped ped, float p1);
 ```
 
 ```
@@ -19,6 +20,10 @@ PED::_110F526AB784111F(ped, 0.2);
 PED::SET_PED_ENVEFF_SCALE(ped, 0.65);  
 PED::_D69411AA0CEBF9E9(ped, 74, 69, 60);  
 PED::SET_ENABLE_PED_ENVEFF_SCALE(ped, 1);  
+```
+
+```
+https://alloc8or.re/gta5/nativedb/?n=0x83A169EABCDB10A2?n=0x110F526AB784111F
 ```
 
 ## Parameters
