@@ -1,11 +1,11 @@
 ---
 ns: CAM
 ---
-## _0x0225778816FDC28C
+## SET_GAMEPLAY_CAM_MAX_MOTION_BLUR_STRENGTH_THIS_UPDATE
 
 ```c
 // 0x0225778816FDC28C 0x1126E37C
-void _0x0225778816FDC28C(float p0);
+void SET_GAMEPLAY_CAM_MAX_MOTION_BLUR_STRENGTH_THIS_UPDATE(float p0);
 ```
 
 ```
@@ -13,5 +13,5 @@ some camera effect that is (also) used in the drunk-cheat, and turned off (by se
 ```
 
 ## Parameters
-* **p0**: 
+* **p0**: the max strenght
 
