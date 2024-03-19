@@ -5,11 +5,11 @@ ns: AUDIO
 
 ```c
 // 0x252E5F915EABB675 0x38E42D07
-void START_SCRIPT_PHONE_CONVERSATION(BOOL p0, BOOL p1);
+void START_SCRIPT_PHONE_CONVERSATION(BOOL displaySubtitles, BOOL addToBriefScreen);
 ```
 
 
 ## Parameters
-* **p0**: 
-* **p1**: 
+* **displaySubtitles**:
+* **addToBriefScreen**: Defaults to true
 
