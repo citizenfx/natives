@@ -9,7 +9,7 @@ aliases: ["0x2DFC81C9B9608549"]
 BOOL CAN_PED_SHUFFLE_TO_OR_FROM_EXTRA_SEAT(Ped ped, int* targetSeatID);
 ```
 
-Checks whether specified pet can shuffle to specified extra seat.
+Checks whether a specified pet can shuffle to the specified extra seat.
 
 ```
 https://alloc8or.re/gta5/nativedb/?n=0x83A169EABCDB10A2?n=0x2DFC81C9B9608549
@@ -20,4 +20,4 @@ https://alloc8or.re/gta5/nativedb/?n=0x83A169EABCDB10A2?n=0x2DFC81C9B9608549
 * **targetSeatID**: The seat for which to check whether a shuffle is possible.
 
 ## Return value
-Returns true of shuffle to specified seat is possible.
+Returns true if ped is able to shuffle to the specified extra seat.
