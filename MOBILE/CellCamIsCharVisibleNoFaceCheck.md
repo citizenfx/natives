@@ -10,6 +10,7 @@ BOOL CELL_CAM_IS_CHAR_VISIBLE_NO_FACE_CHECK(Entity entity);
 
 
 ## Parameters
-* **entity**: 
+* **entity**: Entity handle.
 
 ## Return value
+Returns if this entity is visible on the cellphone camera.

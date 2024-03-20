@@ -1,0 +1,14 @@
+---
+ns: MOBILE
+aliases: ["0x015C49A93E3E086E","_DISABLE_PHONE_THIS_FRAME", "_CELL_CAM_DISABLE_THIS_FRAME"]
+---
+## CELL_CAM_ACTIVATE_SELFIE_MODE
+
+```c
+// 0x015C49A93E3E086E 0x4479B304
+void CELL_CAM_ACTIVATE_SELFIE_MODE(BOOL toggle);
+```
+
+## Parameters
+* **toggle**: Toggles the selfie mode on the cellphone camera.
+
