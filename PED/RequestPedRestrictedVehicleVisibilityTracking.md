@@ -12,5 +12,5 @@ void REQUEST_PED_RESTRICTED_VEHICLE_VISIBILITY_TRACKING(Ped ped, BOOL trackVehic
 Similar to [`REQUEST_PED_VEHICLE_VISIBILITY_TRACKING`](#_0x2BC338A7B21F4608). Presumably an in some way restricted version of that function.
 
 ## Parameters
-* **ped**: 
-* **trackVehicle**: 
+* **ped**: Ped whose vehicle should be tracked.
+* **trackVehicle**: Whether to apply restricted vehicle visibility tracking.
