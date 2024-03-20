@@ -6,9 +6,10 @@ aliases: ["0x25361A96E0F7E419"]
 
 ```c
 // 0x25361A96E0F7E419 0x58C0F6CF
-Any TRIGGER_PED_SCENARIO_PANICEXITTOFLEE(Ped ped, Any p1, Any p2, Any p3);
+BOOL TRIGGER_PED_SCENARIO_PANICEXITTOFLEE(Ped ped, Any p1, Any p2, Any p3);
 ```
 
+Doesn't seem to be used in any scripts.
 
 ## Parameters
 * **ped**: Entity to trigger the scenario on
@@ -17,4 +18,3 @@ Any TRIGGER_PED_SCENARIO_PANICEXITTOFLEE(Ped ped, Any p1, Any p2, Any p3);
 * **p3**: 
 
 ## Return value
-
