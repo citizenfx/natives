@@ -6,19 +6,19 @@ aliases: ["0xAAA6A3698A69E048"]
 
 ```c
 // 0xAAA6A3698A69E048
-int GET_DEFAULT_SECONDARY_TINT_FOR_BARBER(int tint);
+int GET_DEFAULT_SECONDARY_TINT_FOR_BARBER(int tintID);
 ```
 
-```
-Returns a secondary tint for a specified tint. Uncertain based on what the selection for the secondary tint is made.
-```
+Retrieves the default secondary tint for a specified tint.
+
+Barber version of[`GET_DEFAULT_SECONDARY_TINT_FOR_CREATOR`](#_0xEA9960D07DADCF10).
 
 ```
 https://alloc8or.re/gta5/nativedb/?n=0x83A169EABCDB10A2?n=0xAAA6A3698A69E048
 ```
 
 ## Parameters
-* **tint**: tint number that a secondary tint is to be looked for.
+* **tintID**: tint number that a secondary tint is to be looked for.
 
 ## Return value
-Returns a secondary tint for a specified tint at the barber shop.
+Returns the default secondary tint for a specified tint at the barber shop.
