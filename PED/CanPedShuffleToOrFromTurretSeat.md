@@ -17,6 +17,7 @@ https://alloc8or.re/gta5/nativedb/?n=0x83A169EABCDB10A2?n=0x9C6A6C19B6C0C496
 
 ## Parameters
 * **ped**: The ped to run the check on.
-* **targetSeat**: The seat to check the shuffle on.
+* **targetSeat**: The seat to check the shuffle on. Due to cs_type usage, presumably some kind of hash.
 
 ## Return value
+Returns true if ped is able to shuffle to a turret seat, false if it can't.
