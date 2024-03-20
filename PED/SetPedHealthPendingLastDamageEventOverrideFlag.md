@@ -1,0 +1,20 @@
+---
+ns: PED
+aliases: ["0xB3352E018D6F89DF"]
+---
+
+## SET_PED_HEALTH_PENDING_LAST_DAMAGE_EVENT_OVERRIDE_FLAG
+
+```c
+// 0xB3352E018D6F89DF 
+void SET_PED_HEALTH_PENDING_LAST_DAMAGE_EVENT_OVERRIDE_FLAG(BOOL toggle);
+```
+
+
+
+```
+NativeDB Introduced: v2699
+```
+
+## Parameters
+* **toggle**: 
