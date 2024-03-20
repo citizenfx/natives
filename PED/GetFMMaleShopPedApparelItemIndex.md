@@ -11,6 +11,8 @@ int GET_FM_MALE_SHOP_PED_APPAREL_ITEM_INDEX(int p0);
 
 Looks up the index for a male apparel item, returns index if found, otherwise -1.
 
+Male Version of [`GET_FM_FEMALE_SHOP_PED_APPAREL_ITEM_INDEX`](#_0xF033419D1B81FAE8).
+
 ```
 https://alloc8or.re/gta5/nativedb/?n=0x83A169EABCDB10A2?n=0x1E77FA7A62EE6C4C
 ```
