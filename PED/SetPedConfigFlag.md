@@ -435,7 +435,7 @@ enum ePedConfigFlags {
 	_0x6D614599 = 421,
 	CPED_CONFIG_FLAG_DisableVehicleCombat = 422,
 	_0xFE401D26 = 423,
-	CPED_CONFIG_FLAG_FallsLikeAircraft = 424,
+	CPED_CONFIG_FLAG_FallsLikeAircraft = 424, // Will put ped into a "relaxed" riding position on motorcycles and certain cars at low speeds.
 	_0x2B42AE82 = 425,
 	_0x7A95734F = 426,
 	_0xDF4D8617 = 427,
