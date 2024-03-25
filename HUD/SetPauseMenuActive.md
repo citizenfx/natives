@@ -8,7 +8,7 @@ ns: HUD
 void SET_PAUSE_MENU_ACTIVE(BOOL toggle);
 ```
 
-This native does absolutely nothing.
+This native is deprecated.
 
 If you're looking to:
 * Toggle the pause menu on, use [`ACTIVATE_FRONTEND_MENU`](#_0xEF01D36B9C9D0C7B)
