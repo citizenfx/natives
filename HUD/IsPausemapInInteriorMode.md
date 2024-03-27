@@ -10,4 +10,3 @@ BOOL IS_PAUSEMAP_IN_INTERIOR_MODE();
 ```
 
 ## Return value
-Returns if the map is in an interior.
