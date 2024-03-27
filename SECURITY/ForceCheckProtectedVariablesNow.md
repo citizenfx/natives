@@ -1,0 +1,15 @@
+---
+ns: SECURITY 
+---
+
+## _FORCE_CHECK_PROTECTED_VARIABLES_NOW
+
+```c
+// 0x8E580AB902917360 
+void _FORCE_CHECK_PROTECTED_VARIABLES_NOW();
+```
+
+```
+NativeDB Introduced: v2545
+```
+
