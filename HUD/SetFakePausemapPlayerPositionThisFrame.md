@@ -9,7 +9,7 @@ aliases: ["0x77E2DD177910E1CF", "_SET_PLAYER_BLIP_POSITION_THIS_FRAME"]
 void SET_FAKE_PAUSEMAP_PLAYER_POSITION_THIS_FRAME(float x, float y);
 ```
 
-Overrides the position of the main player blip for one frame.
+Overrides the position of the main player blip for the current frame.
 
 ## Parameters
 * **x**: X coord of the position.
