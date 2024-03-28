@@ -9,7 +9,7 @@ void DISABLE_INTERIOR(int interiorID, BOOL toggle);
 ```
 
 ```
-to turn off an interior & remove all cost associated with it.
+To deactivate an interior and eliminate all associated costs.
 
 Example:   
 This removes the interior from the strip club and when trying to walk inside the player just falls:  

@@ -8,7 +8,7 @@ aliases: ["0x50C375537449F369", "_ENABLE_SCRIPT_CULL_MODEL_THIS_FRAME"]
 // 0x50C375537449F369
 void ENABLE_SHADOW_CULL_MODEL_THIS_FRAME(cs_type(Any) Hash mapObjectHash);
 ```
-culls exterior objects from rendering (cascade shadows only) by model name.
+Eliminates exterior objects from rendering, specifically targeting cascade shadows, based on their model names.
 
 ## Parameters
 * **mapObjectHash**: 

@@ -10,8 +10,7 @@ void ENABLE_EXTERIOR_CULL_MODEL_THIS_FRAME(Hash mapObjectHash);
 ```
 
 ```
-culls exterior objects from rendering by model name.
-for use in multiplayer apartments which need to cull exterior shell of building etc.
+Filters out exterior objects from rendering based on their model names. Useful for multiplayer apartments requiring the removal of the exterior shell of buildings, etc.
 
 This is the native that is used to hide the exterior of GTA Online apartment buildings when you are inside an apartment.
 ```

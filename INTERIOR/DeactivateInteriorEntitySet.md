@@ -8,7 +8,7 @@ aliases: ["0x420BD37289EEE162","_DISABLE_INTERIOR_PROP"]
 // 0x420BD37289EEE162 0xDBA768A1
 void DEACTIVATE_INTERIOR_ENTITY_SET(int interior, char* entitySetName);
 ```
-mark the entity set with the given name in this interior as being inactive.
+Mark the entity set with the given name in this interior as being inactive.
 
 ## Parameters
 * **interior**: 
