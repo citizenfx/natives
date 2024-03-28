@@ -13,3 +13,4 @@ BOOL IS_INTERIOR_DISABLED(int interior);
 * **interior**: 
 
 ## Return value
+return true if the given interior is disabled.

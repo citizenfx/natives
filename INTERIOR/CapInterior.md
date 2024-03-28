@@ -9,7 +9,7 @@ void CAP_INTERIOR(int interiorID, BOOL toggle);
 ```
 
 ```
-Does something similar to INTERIOR::DISABLE_INTERIOR  
+caps the interior to only the shell objects ( usually walls + floor + doors + windows), prevents collisions from loading.
 ```
 
 ## Parameters

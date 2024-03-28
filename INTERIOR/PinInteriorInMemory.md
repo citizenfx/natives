@@ -8,6 +8,7 @@ aliases: ["0x2CA429C029CCF247","_LOAD_INTERIOR"]
 // 0x2CA429C029CCF247 0x3ADA414E
 void PIN_INTERIOR_IN_MEMORY(int interior);
 ```
+Inform interior code that interior is required to be in memory now.
 
 ## Parameters
 * **interior**: 

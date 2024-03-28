@@ -8,7 +8,7 @@ aliases: ["0x920D853F3E17F1DA"]
 // 0x920D853F3E17F1DA 0xD79803B5
 void FORCE_ROOM_FOR_GAME_VIEWPORT(int interiorID, Hash roomHashKey);
 ```
-
+Force the game viewport to be registered in the specified interior and room.
 
 ## Parameters
 * **interiorID**: 

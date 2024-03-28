@@ -10,3 +10,4 @@ Hash GET_ROOM_KEY_FOR_GAME_VIEWPORT();
 ```
 
 ## Return value
+Returns the hashkey of the interior room currently associated with the game viewport.

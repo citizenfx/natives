@@ -8,8 +8,7 @@ ns: INTERIOR
 int GET_INTERIOR_AT_COORDS(float x, float y, float z);
 ```
 
-```
-Returns interior ID from specified coordinates. If coordinates are outside, then it returns 0.  
+``` 
 Example for VB.NET  
 Dim interiorID As Integer = Native.Function.Call(Of Integer)(Hash.GET_INTERIOR_AT_COORDS, X, Y, Z)  
 ```
@@ -20,3 +19,4 @@ Dim interiorID As Integer = Native.Function.Call(Of Integer)(Hash.GET_INTERIOR_A
 * **z**: 
 
 ## Return value
+Returns interior ID from specified coordinates. If coordinates are outside, then it returns 0. 

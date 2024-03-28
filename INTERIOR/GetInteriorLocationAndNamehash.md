@@ -17,3 +17,6 @@ NativeDB Introduced: v1290
 * **interior**:
 * **position**:
 * **nameHash**:
+
+## Return value
+return the location in world coords and namehash of the given interior.
