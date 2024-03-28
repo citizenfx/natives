@@ -22,7 +22,7 @@ NativeDB Added Parameter 11: int errorCode
 * **pLine2TextLabel**: Text label for the second line of the warning message.
 * **bAddNumber**: If a number needs to be inserted into `~1~` text of `pLine1TextLabel`
 * **iNumberToAdd**: What number to add into `~1~` of `pLine1TextLabel` 
-* **iSubstringFlags**: `0` - none, `1` - First substring is literal text, `2` - Second substring is literal text. These can be combined with the `|` operator.
+* **iSubstringFlags**: `0` - none, `1` - First substring is literal text, `2` - Second substring is literal text.
 * **pFirstSubstring**: First substring.
 * **pSecondSubstring**: Second substring.
 * **bBlackBackground**: If the screen should have a black background while the message is rendering. 
