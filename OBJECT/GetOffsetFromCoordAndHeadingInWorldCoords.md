@@ -6,7 +6,7 @@ aliases: ["0x163E252DE035A133", "_GET_OBJECT_OFFSET_FROM_COORDS"]
 
 ```c
 // 0x163E252DE035A133 0x87A42A12
-Vector3 GET_OFFSET_FROM_COORD_AND_HEADING_IN_WORLD_COORDS (float xPos, float yPos, float zPos, float heading, float xOffset, float yOffset, float zOffset);
+Vector3 GET_OFFSET_FROM_COORD_AND_HEADING_IN_WORLD_COORDS(float xPos, float yPos, float zPos, float heading, float xOffset, float yOffset, float zOffset);
 ```
 
 Applies offsets to a coordinate.
