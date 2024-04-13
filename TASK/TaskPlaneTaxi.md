@@ -6,15 +6,17 @@ aliases: ["0x92C360B5F15D2302"]
 
 ```c
 // 0x92C360B5F15D2302
-void _TASK_PLANE_TAXI(Ped pilot, Vehicle aircraft, Any p2, Any p3, Any p4, Any p5, Any p6);
+void _TASK_PLANE_TAXI(Ped pilot, Vehicle aircraft, cs_type(Any) Number xPos, cs_type(Any) Number yPos, cs_type(Any) Number zPos, cs_type(Any) Number speed, Any p6);
 ```
 
+The given ped will try to drive the plane to the given coordinates and will then drive around the given coords (the plane will form 8s on the ground)
+
 ## Parameters
-* **pilot**: 
-* **aircraft**: 
-* **p2**: 
-* **p3**: 
-* **p4**: 
-* **p5**: 
-* **p6**: 
+* **pilot**: The ped driving the plane.
+* **aircraft**: The plane used.
+* **xPos**: The X coordinate.
+* **yPos**: The Y coordinate.
+* **zPos**: The Z coordinate.
+* **speed**: The speed of the plane (in m/s).
+* **p6**: seems to be related to the distance between the plane and the given coords.
 
