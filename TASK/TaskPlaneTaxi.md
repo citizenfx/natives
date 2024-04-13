@@ -6,7 +6,7 @@ aliases: ["0x92C360B5F15D2302"]
 
 ```c
 // 0x92C360B5F15D2302
-void _TASK_PLANE_TAXI(Ped pilot, Vehicle aircraft, cs_type(Any) Number xPos, cs_type(Any) Number yPos, cs_type(Any) Number zPos, cs_type(Any) Number speed, Any p6);
+void _TASK_PLANE_TAXI(Ped pilot, Vehicle aircraft, cs_type(Any) float xPos, cs_type(Any) float yPos, cs_type(Any) float zPos, cs_type(Any) float speed, Any p6);
 ```
 
 The given ped will try to drive the plane to the given coordinates and will then drive around the given coords (the plane will form 8s on the ground)
