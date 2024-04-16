@@ -2,7 +2,7 @@ name: Deploy natives
 on:
   push:
     branches:
-     - master
+     - publish
   workflow_dispatch:
 
 jobs:
