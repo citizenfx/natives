@@ -18,5 +18,5 @@ The given ped will try to drive the plane to the given coordinates and will then
 * **yPos**: The Y coordinate.
 * **zPos**: The Z coordinate.
 * **fCruiseSpeed**: The speed of the plane (in m/s).
-* **fTargetReachedDist**: Distance (in meters) at which the plane thinks it's arrived to the given coordinates.
+* **fTargetReachedDist**: Distance (in meters) at which the plane thinks it has arrived to the given coordinates.
 
