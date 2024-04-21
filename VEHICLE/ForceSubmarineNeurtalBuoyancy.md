@@ -6,7 +6,7 @@ aliases: ["0xC67DB108A9ADE3BE"]
 
 ```c
 // 0xC67DB108A9ADE3BE
-void FORCE_SUBMARINE_NEURTAL_BUOYANCY(cs_type(Any) Vehicle submarine, cs_type(Any) int time);
+void FORCE_SUBMARINE_NEURTAL_BUOYANCY(Vehicle submarine, int time);
 ```
 
 Forces a submarine to maintain neutral buoyancy for a specified duration, preventing it from rising when unoccupied or without a driver.
