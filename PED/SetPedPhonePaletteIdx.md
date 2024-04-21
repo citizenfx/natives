@@ -31,98 +31,61 @@ NativeDB Introduced: v323
 
 ## Examples
 ```lua
--- Function to set the phone color for a player.
-function setPhoneColor(color)
-    -- Retrieve the Local player.
-    local playerPed = PlayerPedId()
+-- Define a table with color names mapped to their corresponding palette indices for phone colors
+local PhoneColors = {
+    Blue = 0,
+    Green = 1,
+    Red = 2,
+    Orange = 3,
+    Grey = 4,
+    Purple = 5,
+    Pink = 6
+}
 
-    -- Define a table mapping color names to their corresponding palette indices
-    local colors = {
-        ["Blue"] = 0,
-        ["Green"] = 1,
-        ["Red"] = 2,
-        ["Orange"] = 3,
-        ["Grey"] = 4,
-        ["Purple"] = 5,
-        ["Pink"] = 6
-    }
+-- Retrieve the current player ped
+local playerPed = PlayerPedId()
 
-    -- Check if the provided color exists in the table to prevent errors
-    if colors[color] == nil then
-        print("Color not found: " .. color) -- Color doesn't exist in the table. 
-        return -- Exits the function.
-    end
-
-    -- Use the native to set the ped's phone palette index based on the selected color.
-    SetPedPhonePaletteIdx(playerPed, colors[color])
-end
-
--- Call the function with "Green" to set the phone color to green for the player
-setPhoneColor("Green")
+-- Set the phone color of the player's ped to Green using the corresponding index from the PhoneColors table
+SetPedPhonePaletteIdx(playerPed, PhoneColors.Green)
 ```
 
 ```js
-// Function to set the phone color for a player.
-function setPhoneColor(color) {
-    // Retrieve the Local player.
-    const playerPed = PlayerPedId(); 
-    
-    // Define a map of color names to their corresponding palette indices
-    const colors = new Map([
-        ["Blue", 0],
-        ["Green", 1],
-        ["Red", 2],
-        ["Orange", 3],
-        ["Grey", 4],
-        ["Purple", 5],
-        ["Pink", 6]
-    ]);
+// Define an object with color names mapped to their corresponding palette indices for phone colors
+const PhoneColors = {
+    Blue: 0,
+    Green: 1,
+    Red: 2,
+    Orange: 3,
+    Grey: 4,
+    Purple: 5,
+    Pink: 6
+};
 
-    // Check if the provided color exists in the map to prevent errors
-    if (!colors.has(color)) {
-        console.error("Color not found:", color); // Color doesn't exist in the map. 
-        return; // Exit the function.
-    }
+// Retrieve the current player ped
+const playerPed = PlayerPedId();
 
-    // Use the native to set the ped's phone palette index based on the selected color.
-    SetPedPhonePaletteIdx(playerPed, colors.get(color)); 
-}
-
-// Call the function with "Green" to set the phone color to green for the player
-setPhoneColor("Green");
+// Set the phone color of the player's ped to Green using the corresponding index from the PhoneColors object
+SetPedPhonePaletteIdx(playerPed, PhoneColors.Green);
 ```
 
 ```csharp
 using static CitizenFX.Core.Native.API;
 
-// Function to set the phone color for a player.
-void setPhoneColor(string color)
+// Define an enum with color names and their corresponding indices
+public enum PhoneColors
 {
-    // Retrieve the Local player.
-    Ped playerPed = PlayerPedId(); 
-
-    // Dictionary mapping color names to their corresponding palette indices
-    Dictionary<string, int> colors = new Dictionary<string, int>
-    {
-        {"Blue", 0},
-        {"Green", 1},
-        {"Red", 2},
-        {"Orange", 3},
-        {"Grey", 4},
-        {"Purple", 5},
-        {"Pink", 6}
-    };
-
-    // Checks if the provided color exists in the dictionary to prevent errors
-    if (!colors.ContainsKey(color))
-    {
-        Debug.WriteLine($"Color not found: {color}"); // Color doesn't exist in the Dictionary.
-        return; // Exits the function.
-    }
-
-    // Use the native to set the ped's phone palette index based on the selected color
-    SetPedPhonePaletteIdx(playerPed, colors[color]);
+    Blue = 0,
+    Green = 1,
+    Red = 2,
+    Orange = 3,
+    Grey = 4,
+    Purple = 5,
+    Pink = 6
 }
 
-setPhoneColor("Green"); // Call the function with "Green" to set the phone color to green for the player
+// Retrieve the current player ped
+Ped playerPed = PlayerPedId();
+
+// Set the phone color of the player's ped to Green using the enum value
+SetPedPhonePaletteIdx(playerPed, (int)PhoneColors.Green);
 ```
