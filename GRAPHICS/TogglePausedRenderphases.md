@@ -6,10 +6,10 @@ aliases: ["_ENABLE_GAMEPLAY_CAM","_SET_FROZEN_RENDERING_DISABLED"]
 
 ```c
 // 0xDFC252D8A3E15AB7 0x30ADE541
-void TOGGLE_PAUSED_RENDERPHASES(BOOL rendering);
+void TOGGLE_PAUSED_RENDERPHASES(BOOL toggle);
 ```
 
-Freezes the screen in its current state.
+Switches the rendering display to exclude everything except PostFX, resulting in a frozen screen before the UI pass.
 
 ## Parameters
-* **rendering**: Whether to actively render the camera
+* **toggle**: Setting it to `false` will halt render updates as mentioned in the description, until it's set back to `true`.
