@@ -8,5 +8,5 @@ ns: AUDIO
 BOOL IS_SCRIPTED_CONVERSATION_LOADED();
 ```
 
-
 ## Return value
+Returns true if the first batch of lines for the currently requested conversation have loaded successfully.

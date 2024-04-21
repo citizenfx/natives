@@ -10,6 +10,7 @@ BOOL IS_AMBIENT_SPEECH_PLAYING(Ped ped);
 
 
 ## Parameters
-* **ped**: 
+* **ped**:
 
 ## Return value
+Returns true if the ped is currently playing ambient speech

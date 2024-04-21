@@ -8,11 +8,16 @@ ns: AUDIO
 void SET_ANIMAL_MOOD(Ped animal, int mood);
 ```
 
-```
-mood can be 0 or 1 (it's not a boolean value!). Effects audio of the animal.  
-```
+```c
+enum eAudAnimalMood {
+	AUD_ANIMAL_MOOD_ANGRY,
+	AUD_ANIMAL_MOOD_PLAYFUL,
+
+	AUD_ANIMAL_MOOD_NUM_MOODS
+}
+
 
 ## Parameters
-* **animal**: 
-* **mood**: 
+* **animal**:
+* **mood**: Refer to eAudAnimalMood
 

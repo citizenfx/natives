@@ -5,19 +5,15 @@ ns: AUDIO
 
 ```c
 // 0x2F844A8B08D76685 0x21322887
-BOOL REQUEST_SCRIPT_AUDIO_BANK(char* p0, BOOL p1);
+BOOL REQUEST_SCRIPT_AUDIO_BANK(char* bankName, BOOL bOverNetwork);
 ```
 
-```
-All occurrences and usages found in b617d, sorted alphabetically and identical lines removed: pastebin.com/AkmDAVn6  
-```
-
-```
-NativeDB Added Parameter 3: int p2
-```
+This native has a new argument on newer game builds:
+* **playerBits**:
 
 ## Parameters
-* **p0**: 
-* **p1**: 
+* **bankName**:
+* **bOverNetwork**:
 
 ## Return value
+Requests and returns true/false if the script audio bank has laoded

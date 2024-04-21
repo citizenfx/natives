@@ -8,7 +8,7 @@ ns: VEHICLE
 void DELETE_SCRIPT_VEHICLE_GENERATOR(int vehicleGenerator);
 ```
 
+Removes a scripted vehicle generator.
 
 ## Parameters
 * **vehicleGenerator**: 
-

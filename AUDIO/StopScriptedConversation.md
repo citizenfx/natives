@@ -5,11 +5,11 @@ ns: AUDIO
 
 ```c
 // 0xD79DEEFB53455EBA 0xAB77DA7D
-int STOP_SCRIPTED_CONVERSATION(BOOL p0);
+int STOP_SCRIPTED_CONVERSATION(BOOL finishCurrentLine);
 ```
 
 
 ## Parameters
-* **p0**: 
+* **finishCurrentLine**:
 
 ## Return value

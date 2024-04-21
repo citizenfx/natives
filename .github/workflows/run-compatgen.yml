@@ -60,13 +60,16 @@ jobs:
         env:
           NATIVE_DEPLOY_URL: ${{ secrets.NATIVE_DEPLOY_URL }}
         run: |
+          . ./.ci/config.sh
           mkdir ./in
-          rsync -q --ignore-missing-args $NATIVE_DEPLOY_URL/natives_global_client_compat.lua ./in/natives_global_client_compat.lua
+          rsync -q --ignore-missing-args $NATIVE_DEPLOY_URL/$CONFIG_UPLOAD_COMPAT_FILE.lua ./in/$CONFIG_UPLOAD_COMPAT_FILE.lua
       
       - name: Run build
         shell: bash
         run: |
           set -xe
+          . ./.ci/config.sh
+          
           git fetch origin $GITHUB_REF_NAME --shallow-since=${{ inputs.since_date }}
           
           pushd ./
@@ -74,13 +77,15 @@ jobs:
           popd
           
           mkdir -p out
-          [ ${{ inputs.no_input }} == false ] && INPUT_FILE="./in/natives_global_client_compat.lua" || INPUT_FILE="skip"
+          [ ${{ inputs.no_input }} == false ] && INPUT_FILE="./in/$CONFIG_UPLOAD_COMPAT_FILE..lua" || INPUT_FILE="skip"
           
-          ./.ci/run-compat $BUILDER_ROOT "./out/natives_global_client_compat.lua" "$INPUT_FILE" ${{ inputs.ignore_missing_input }} ${{ inputs.force }} ${{ inputs.use_history }} ${{ inputs.since_date }}
+          ./.ci/run-compat $BUILDER_ROOT "./out/$CONFIG_UPLOAD_COMPAT_FILE.lua" "$INPUT_FILE" ${{ inputs.ignore_missing_input }} ${{ inputs.force }} ${{ inputs.use_history }} ${{ inputs.since_date }}
           
       - name: Output -> Echo (stdout)
         if: inputs.output_action == 'Echo (stdout)'
-        run: cat ./out/natives_global_client_compat.lua
+        run: |
+          . ./.ci/config.sh
+          cat "./out/$CONFIG_UPLOAD_COMPAT_FILE.lua"
       
       - name: Output -> Artifact
         if: inputs.output_action == 'Artifact'
@@ -91,6 +96,4 @@ jobs:
       
       - name: Output -> Deploy
         if: inputs.output_action == 'Deploy to remote'
-        env:
-          NATIVE_DEPLOY_URL: ${{ secrets.NATIVE_DEPLOY_URL }}
-        run: rsync -rqb --backup-dir=./ --suffix=.bak --include=*compat.lua --exclude=* ./out/ $NATIVE_DEPLOY_URL
+        run: rsync -rqb --backup-dir=./ --suffix=.bak --include=*compat.lua --exclude=* ./out/ ${{secrets.NATIVE_DEPLOY_URL}}

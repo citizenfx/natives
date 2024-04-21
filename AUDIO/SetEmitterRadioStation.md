@@ -8,8 +8,10 @@ ns: AUDIO
 void SET_EMITTER_RADIO_STATION(char* emitterName, char* radioStation);
 ```
 
+Retunes a named static emitter to the specified station
+
 
 ## Parameters
-* **emitterName**: 
-* **radioStation**: 
+* **emitterName**:
+* **radioStation**:
 

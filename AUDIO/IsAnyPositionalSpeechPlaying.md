@@ -15,5 +15,4 @@ Determines if any ped-independent, positionally-based scripted speech is current
 NativeDB Introduced: v2189
 ```
 
-## Return value
-Returns `true` if any positional speech is currently playing, `false` otherwise.
+Returns `true` if any ped-independent positional scripted speech (i.e. triggered using [PLAY_AMBIENT_SPEECH_FROM_POSITION_NATIVE](#_0xED640017ED337E45)) is currently playing, `false` otherwise.

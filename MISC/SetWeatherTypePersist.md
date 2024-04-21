@@ -8,8 +8,13 @@ ns: MISC
 void SET_WEATHER_TYPE_PERSIST(char* weatherType);
 ```
 
-Refer to [`SET_WEATHER_TYPE_NOW_PERSIST`](#_0xED712CA327900C8A) for weather types.
+Sets the current weather type to persist indefinitely until changed.
+
+**Note:** This native is not supported in networked sessions. Please refer to [`SET_OVERRIDE_WEATHER`](#_0xA43D5C6FE51ADBEF) or [`SET_WEATHER_TYPE_NOW_PERSIST`](#_0xED712CA327900C8A) if you want to override weather in networked sessions.
+
+```
+NativeDB Introduced: v323
+```
 
 ## Parameters
-* **weatherType**: 
-
+* **weatherType**: The weather type to be set as persistent. Refer to [`SET_WEATHER_TYPE_NOW_PERSIST`](#_0xED712CA327900C8A) for a list of weather type strings.

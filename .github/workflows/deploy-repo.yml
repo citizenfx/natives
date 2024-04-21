@@ -2,7 +2,8 @@ name: Deploy natives
 on:
   push:
     branches:
-     - master
+     - publish
+  workflow_dispatch:
 
 jobs:
   deploy:
@@ -26,7 +27,8 @@ jobs:
           NATIVE_DEPLOY_URL: ${{ secrets.NATIVE_DEPLOY_URL }}
         run: |
           mkdir ./in
-          rsync -q --ignore-missing-args $NATIVE_DEPLOY_URL/natives_global_client_compat.lua ./in/natives_global_client_compat.lua
+          . ./.ci/config.sh
+          rsync -q --ignore-missing-args $NATIVE_DEPLOY_URL/$CONFIG_UPLOAD_COMPAT_FILE.lua ./in/$CONFIG_UPLOAD_COMPAT_FILE.lua
       - name: Run build
         run: |
           set -xe
@@ -36,5 +38,5 @@ jobs:
         env:
           NATIVE_DEPLOY_URL: ${{ secrets.NATIVE_DEPLOY_URL }}
         run: |
-          rsync -rq --delete-after --exclude=*compat.lua* ./out/ $NATIVE_DEPLOY_URL
+          rsync -rq --exclude=*compat.lua* ./out/ $NATIVE_DEPLOY_URL
           rsync -rqb --backup-dir=./ --suffix=.bak --include=*compat.lua --exclude=* ./out/ $NATIVE_DEPLOY_URL

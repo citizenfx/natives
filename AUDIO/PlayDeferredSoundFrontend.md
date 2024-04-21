@@ -9,12 +9,7 @@ aliases: ["0xCADA5A0D0702381E"]
 void PLAY_DEFERRED_SOUND_FRONTEND(char* soundName, char* soundsetName);
 ```
 
-```
-Only call found in the b617d scripts:
-AUDIO::PLAY_DEFERRED_SOUND_FRONTEND("BACK", "HUD_FREEMODE_SOUNDSET");
-```
-
 ## Parameters
-* **soundName**: 
-* **soundsetName**: 
+* **soundName**:
+* **soundsetName**:
 

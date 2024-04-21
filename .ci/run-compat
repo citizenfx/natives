@@ -1,13 +1,16 @@
 #!/bin/bash
 
 # configuration
+ci_root="$(dirname "$0")"
+. "$ci_root"/config.sh
+
 GENERATOR_PATH="$1/compatgen.js"
-OUTPUT_FILE=${2:-"./out/natives_global_client_compat.lua"}
-INPUT_FILE=${3:-"./in/natives_global_client_compat.lua"}
+OUTPUT_FILE=${2:-"./out/$CONFIG_UPLOAD_COMPAT_FILE.lua"}
+INPUT_FILE=${3:-"./in/$CONFIG_UPLOAD_COMPAT_FILE.lua"}
 IGNORE_MISSING_INPUT=${4:-false}
 FORCE_UPDATE=${5:-false}
 USE_HISTORY=${6:-false}
-DAYS_SINCE_DATE=${7:-2023-01-01} #YYYY-MM-DD
+DAYS_SINCE_DATE=${7:-"$CONFIG_COMPAT_FROM_DATE"} #YYYY-MM-DD
 VERSION=${8:-2.0}
 
 # execution

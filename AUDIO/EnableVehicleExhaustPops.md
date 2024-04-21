@@ -9,7 +9,7 @@ aliases: ["0x2BE4BC731D039D5A"]
 void ENABLE_VEHICLE_EXHAUST_POPS(Vehicle vehicle, BOOL toggle);
 ```
 
-Sets whether the vehicle passed has exhaust pops.
+Enable or disable exhaust pops on the given vehicle.
 
 ## Parameters
 * **vehicle**:
