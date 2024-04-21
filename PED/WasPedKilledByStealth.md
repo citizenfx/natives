@@ -8,8 +8,7 @@ ns: PED
 BOOL WAS_PED_KILLED_BY_STEALTH(Ped ped);
 ```
 
+Verifies whether ped was eliminated through stealth.
 
 ## Parameters
-* **ped**: 
-
-## Return value
+* **ped**: Ped index

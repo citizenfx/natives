@@ -8,7 +8,7 @@ ns: SYSTEM
 void SETTIMERA(int value);
 ```
 
+Sets the value for the timer A in milliseconds
 
 ## Parameters
-* **value**: 
-
+* **value**: In milliseconds.

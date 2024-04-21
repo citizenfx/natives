@@ -8,11 +8,11 @@ ns: PED
 void SET_PED_SHOOTS_AT_COORD(Ped ped, float x, float y, float z, BOOL toggle);
 ```
 
+Fires a weapon at a coordinate using a ped.
 
 ## Parameters
-* **ped**: 
+* **ped**: Ped index.
 * **x**: 
 * **y**: 
 * **z**: 
 * **toggle**: 
-
