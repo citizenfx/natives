@@ -17,16 +17,18 @@ Overrides the position of the main player blip for the current frame.
 
 ## Examples
 ```lua
-  -- Function to check if player is using the map
-  local function IsPlayerUsingPausemap()
-    return IsPauseMenuActive() and GetNumberOfReferencesOfScriptWithNameHash(`pausemenu_map`) > 0
-  end
+-- Function to check if player is using the map
+local function IsPlayerUsingPausemap()
+  return IsPauseMenuActive() and GetNumberOfReferencesOfScriptWithNameHash(`pausemenu_map`) > 0
+end
 
+Citizen.CreateThread(function()
   while true do
-    Wait(0)
+    Wait(0) -- Not using Wait will cause the game to hang.
 
     if IsPlayerUsingPausemap() and not IsPausemapInInteriorMode() then -- Make sure the player using the map and the map has switched view
       SetFakePausemapPlayerPositionThisFrame(0.0, 0.0) -- Override position
     end
   end
+end)
 ```
