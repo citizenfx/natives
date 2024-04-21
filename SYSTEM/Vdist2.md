@@ -8,7 +8,7 @@ ns: SYSTEM
 float VDIST2(float x1, float y1, float z1, float x2, float y2, float z2);
 ```
 
-Calculates distance between vectors but does not perform Sqrt operations. Its way faster than [`VDIST`](#_0x2A488C176D52CCA5) But it's not faster than direct mathematical calculations.
+Calculates distance between vectors but does not perform Sqrt operations. Its way faster than [`VDIST`](#_0x2A488C176D52CCA5), but it's not faster than direct mathematical calculations.
 
 ```
 NativeDB Introduced: v323
