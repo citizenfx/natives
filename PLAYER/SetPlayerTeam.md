@@ -8,7 +8,7 @@ ns: PLAYER
 void SET_PLAYER_TEAM(Player player, int team);
 ```
 
-Set the player current team.
+Set the player's current team.
 
 ## Parameters
 * **player**: The player index.
