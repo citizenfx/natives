@@ -12,4 +12,4 @@ void TOGGLE_PAUSED_RENDERPHASES(BOOL toggle);
 Switches the rendering display to exclude everything except PostFX, resulting in a frozen screen before the UI pass.
 
 ## Parameters
-* **toggle**: Setting it to `false` will halt render updates as mentioned in the description, until it's set back to `true`.
+* **toggle**: Setting it to `false` will exclude render updates as mentioned in the description, until it's set back to `true`.
