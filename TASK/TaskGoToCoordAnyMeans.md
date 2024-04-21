@@ -79,7 +79,7 @@ enum eDrivingMode {
 * **y**: The goto target coordinate.
 * **z**: The goto target coordinate.
 * **fMoveBlendRatio**: 0.0 = still, 1.0 = walk, 2.0 = run, 3.0 = sprint.
-* **vehicle**: If defined, the pedestrian will only move if said vehicle exists. If you don't want any sort of association, just leave it as `0`.
+* **vehicle**: If defined, the pedestrian will only move if said vehicle exists. If you don't want any sort of association, just set it to `0`.
 * **bUseLongRangeVehiclePathing**: Setting to `true` tells the vehicle to use longrange vehicle pathing.
 * **drivingFlags**: See `eDrivingMode` enum.
 * **fMaxRangeToShootTargets**: Determines the maximum distance at which the `Ped` will engage in combat with threatening targets.
