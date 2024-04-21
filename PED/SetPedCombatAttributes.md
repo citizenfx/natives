@@ -111,10 +111,7 @@ enum CombatAttributes
 };
 ```
 
-The source for this enum is [here](https://alexguirre.github.io/rage-parser-dumps/dump.html?build=3095&game=gta5#CCombatData__BehaviourFlags).
-
 ## Parameters
 * **ped**: The ped to set attributes to.
 * **attributeIndex**: The attribute index to set.
 * **enabled**: A boolean to enable/disable the attribute (true/false).
-
