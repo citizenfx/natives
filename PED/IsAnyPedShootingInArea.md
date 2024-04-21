@@ -5,19 +5,20 @@ ns: PED
 
 ```c
 // 0xA0D3D71EA1086C55 0x91833867
-BOOL IS_ANY_PED_SHOOTING_IN_AREA(float x1, float y1, float z1, float x2, float y2, float z2, BOOL p6, BOOL p7);
+BOOL IS_ANY_PED_SHOOTING_IN_AREA(float minX, float minY, float minZ, float maxX, float maxY, float maxZ, BOOL bHighlightArea, BOOL bDo3DCheck);
 ```
 
 Verifies whether a ped is firing within a specific area.
 
 ## Parameters
-* **x1**: Minimum X vector
-* **y1**: Minimum Y vector
-* **z1**: Minimum Z vector
-* **x2**: Maximum X vector
-* **y2**: Maximum Y vector
-* **z2**: Maximum Z vector
-* **p6**: 
-* **p7**: 
+* **minX**: Minimum X vector
+* **minY**: Minimum Y vector
+* **minZ**: Minimum Z vector
+* **maxX**: Maximum X vector
+* **maxY**: Maximum Y vector
+* **maxZ**: Maximum Z vector
+* **bHighlightArea**: Highlights the area to check when set to `true`.
+* **bDo3DCheck**: Conducts a 3D height check when set to `true`.
 
 ## Return value
+`true` if a ped is within the defined area, `false` otherwise.
