@@ -8,7 +8,9 @@ ns: WATER
 BOOL GET_WATER_HEIGHT_NO_WAVES(float x, float y, float z, float* height);
 ```
 
-Retrieves the depth of the water beneath the specified position, disregarding wave effects. Note: The result remains consistent across different frames as it doesn't consider wave fluctuations.
+Retrieves the depth of the water beneath the specified position, disregarding wave effects. 
+
+**Note:** The result remains consistent across different frames as it doesn't consider wave fluctuations.
 
 ## Parameters
 * **x**: 
