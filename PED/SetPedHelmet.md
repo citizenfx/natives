@@ -5,11 +5,11 @@ ns: PED
 
 ```c
 // 0x560A43136EB58105 0xED366E53
-void SET_PED_HELMET(Ped ped, BOOL enable);
+void SET_PED_HELMET(Ped ped, BOOL bEnable);
 ```
 
-Adjusts the preference for a ped to utilize a helmet.
+Sets whether a pedestrian should wear a helmet.
 
 ## Parameters
 * **ped**: Ped index.
-* **enable**: If can wear helmet or not.
+* **bEnable**: Boolean value that indicates whether the helmet can be worn or not.
