@@ -10,7 +10,8 @@ void SET_PED_CAN_PLAY_AMBIENT_IDLES(Ped ped, BOOL bDisableIdleAnims, BOOL bStopC
 ```
 
 Prevents a ped from playing ambient idle animations.
-Note: This native must be called every frame.
+
+**Note:** This native must be called every frame.
 
 ## Parameters
 * **ped**: Ped index.
