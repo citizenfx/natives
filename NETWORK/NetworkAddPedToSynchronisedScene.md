@@ -5,7 +5,7 @@ ns: NETWORK
 
 ```c
 // 0x742A637471BCECD9 0xB386713E
-void NETWORK_ADD_PED_TO_SYNCHRONISED_SCENE(Ped ped, int netScene, char* animDict, char* animClip, float blendInSpeed, float blendOutSpeed, int syncedSceneFlags, int ragdollFlags, float playbackRate, int ikFlags);
+void NETWORK_ADD_PED_TO_SYNCHRONISED_SCENE(Ped ped, int netScene, char* animDict, char* animClip, float blendInSpeed, float blendOutSpeed, int syncedSceneFlags, int ragdollFlags, float moverBlendInDelta, int ikFlags);
 ```
 
 Adds a ped to a networked synchronised scene.
@@ -43,6 +43,6 @@ These flags can be combined with the `|` operator.
 * **blendOutSpeed**: Blend out speed. This should be the negative value of `blendInSpeed`. Default is `-8.0`.
 * **syncedSceneFlags**: Synchronized scene flags bit field from the above table.
 * **ragdollFlags**: Ragdoll blocking flags. Default is `0`.
-* **playbackRate**: Playback rate. Default is `1000.0`.
+* **moverBlendInDelta**: Determines the rate at which the mover blends in to the scene. Useful for ensuring a seamless entry onto a synchronized scene. Default is `1000.0`.
 * **ikFlags**: Inverse kinematics flags. Default is `0`.
 
