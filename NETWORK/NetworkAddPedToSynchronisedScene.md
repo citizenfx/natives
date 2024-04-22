@@ -10,7 +10,7 @@ void NETWORK_ADD_PED_TO_SYNCHRONISED_SCENE(Ped ped, int netScene, char* animDict
 
 Adds a ped to a networked synchronised scene.
 
-Synchronized scene flags (Also works in other `NETWORK_ADD_*_TO_SYNCHRONISED_SCENE` natives):
+Synchronized scene playback flags (Also works in other `NETWORK_ADD_*_TO_SYNCHRONISED_SCENE` natives):
 |Value| Name | Notes |
 |:----:|:------:| :--------: |
 |`0`| None | No flag set. |
