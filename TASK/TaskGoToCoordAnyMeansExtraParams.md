@@ -23,6 +23,6 @@ Same as `TASK_GO_TO_COORD_ANY_MEANS` but with extra parameters.
 * **fMaxRangeToShootTargets**: Determines the maximum distance at which the `Ped` will engage in combat with threatening targets.
 * **fExtraVehToTargetDistToPreferVeh**:
 * **fDriveStraightLineDistance**: 
-* **iExtraFlags**: See `TaskGoToCoordAnyMeansFlags` enum located at [`TASK_GO_TO_COORD_ANY_MEANS_EXTRA_PARAMS_WITH_CRUISE_SPEED`](#_0xB8ECD61F531A7B02).
+* **iExtraFlags**: See `eTaskGoToCoordAnyMeansFlags` enum located at [`TASK_GO_TO_COORD_ANY_MEANS_EXTRA_PARAMS_WITH_CRUISE_SPEED`](#_0xB8ECD61F531A7B02).
 * **fWarpTimerMS**: If the ped is stuck for that amount of milliseconds, it gets warped to the targeted position. Doesn't work if the ped is in a aircraft nor a boat.
 
