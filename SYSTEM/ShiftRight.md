@@ -8,6 +8,8 @@ ns: SYSTEM
 int SHIFT_RIGHT(int value, int bitShift);
 ```
 
+Right bit shifts a value.
+It is advised you use the `>>` operator instead of this native. It does the same and is faster.
 
 ## Parameters
 * **value**: 
