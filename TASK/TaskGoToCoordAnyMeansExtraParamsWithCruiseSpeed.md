@@ -5,7 +5,7 @@ ns: TASK
 
 ```c
 // 0xB8ECD61F531A7B02 0x86DC03F9
-void TASK_GO_TO_COORD_ANY_MEANS_EXTRA_PARAMS_WITH_CRUISE_SPEED(Ped ped, float x, float y, float z, float fMoveBlendRatio, Vehicle vehicle, BOOL bUseLongRangeVehiclePathing, int drivingFlags, float fMaxRangeToShootTargets, cs_type(Any) float fExtraVehToTargetDistToPreferVeh, cs_type(Any) float fDriveStraightLineDistance, int iExtraFlags, cs_type(Any) float fCruiseSpeed, cs_type(Any) float fTargetArriveDist);
+void TASK_GO_TO_COORD_ANY_MEANS_EXTRA_PARAMS_WITH_CRUISE_SPEED(Ped ped, float x, float y, float z, float fMoveBlendRatio, Vehicle vehicle, BOOL bUseLongRangeVehiclePathing, int drivingFlags, float fMaxRangeToShootTargets, cs_type(Any) float fExtraVehToTargetDistToPreferVeh, cs_type(Any) float fDriveStraightLineDistance, int iExtraFlags, cs_type(Any) float fCruiseSpeed);
 ```
 
 Same as `TASK_GO_TO_COORD_ANY_MEANS` but with cruise speed control and other parameters.
@@ -30,6 +30,9 @@ enum eTaskGoToCoordAnyMeansFlags {
 };
 ```
 
+### Added parameters
+* **fTargetArriveDist**:  The distance at which the pedestrian will quit the vehicle (by default 4 meters).
+
 ## Parameters
 * **ped**: The `Ped` Handle.
 * **x**: The goto target coordinate.
@@ -44,5 +47,3 @@ enum eTaskGoToCoordAnyMeansFlags {
 * **fDriveStraightLineDistance**: 
 * **iExtraFlags**: See `eTaskGoToCoordAnyMeansFlags` enum.
 * **fCruiseSpeed**: The initial cruise speed of the vehicle 
-* **fTargetArriveDist**:  The distance at which the pedestrian will quit the vehicle (by default 4 meters).
-
