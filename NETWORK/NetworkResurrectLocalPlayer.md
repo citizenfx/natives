@@ -89,7 +89,7 @@ enum eSpawnReason {
 ```
 
 ### Added parameters
-* **bUnpauseRenderPhases**: This boolean parameter toggles the render phases to `true` if they were previously paused.
+* **bUnpauseRenderPhases**: This boolean parameter will unpause the render phases when set to `true`.
 * **iSpawnLocation**: This integer parameter sets the player's spawn location metric for telemetry. See `ePlayerSpawnLocation` enum.
 * **iSpawnReason**: This integer parameter sets the player's spawn reason metric for telemetry. See `eSpawnReason` enum.
 
