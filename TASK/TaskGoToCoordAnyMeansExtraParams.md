@@ -5,11 +5,13 @@ ns: TASK
 
 ```c
 // 0x1DD45F9ECFDB1BC9 0x094B75EF
-void TASK_GO_TO_COORD_ANY_MEANS_EXTRA_PARAMS(Ped ped, float x, float y, float z, float fMoveBlendRatio, Vehicle vehicle, BOOL bUseLongRangeVehiclePathing, int drivingFlags, float fMaxRangeToShootTargets, cs_type(Any) float fExtraVehToTargetDistToPreferVeh, cs_type(Any) float fDriveStraightLineDistance, int iExtraFlags, cs_type(Any) float fWarpTimerMS);
+void TASK_GO_TO_COORD_ANY_MEANS_EXTRA_PARAMS(Ped ped, float x, float y, float z, float fMoveBlendRatio, Vehicle vehicle, BOOL bUseLongRangeVehiclePathing, int drivingFlags, float fMaxRangeToShootTargets, cs_type(Any) float fExtraVehToTargetDistToPreferVeh, cs_type(Any) float fDriveStraightLineDistance, int iExtraFlags);
 ```
 
 Same as `TASK_GO_TO_COORD_ANY_MEANS` but with extra parameters.
 
+### Added parameters
+* **fWarpTimerMS**: If the ped is stuck for that amount of milliseconds, it gets warped to the targeted position. Doesn't work if the ped is in a aircraft nor a boat.
 
 ## Parameters
 * **ped**: The `Ped` Handle.
@@ -24,5 +26,3 @@ Same as `TASK_GO_TO_COORD_ANY_MEANS` but with extra parameters.
 * **fExtraVehToTargetDistToPreferVeh**:
 * **fDriveStraightLineDistance**: 
 * **iExtraFlags**: See `eTaskGoToCoordAnyMeansFlags` enum located at [`TASK_GO_TO_COORD_ANY_MEANS_EXTRA_PARAMS_WITH_CRUISE_SPEED`](#_0xB8ECD61F531A7B02).
-* **fWarpTimerMS**: If the ped is stuck for that amount of milliseconds, it gets warped to the targeted position. Doesn't work if the ped is in a aircraft nor a boat.
-
