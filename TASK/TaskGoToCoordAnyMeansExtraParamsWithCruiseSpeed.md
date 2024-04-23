@@ -42,7 +42,7 @@ enum eTaskGoToCoordAnyMeansFlags {
 * **fMaxRangeToShootTargets**: Determines the maximum distance at which the `Ped` will engage in combat with threatening targets.
 * **fExtraVehToTargetDistToPreferVeh**:
 * **fDriveStraightLineDistance**: 
-* **iExtraFlags**: See `TaskGoToCoordAnyMeansFlags` enum.
+* **iExtraFlags**: See `eTaskGoToCoordAnyMeansFlags` enum.
 * **fCruiseSpeed**: The initial cruise speed of the vehicle 
 * **fTargetArriveDist**:  The distance at which the pedestrian will quit the vehicle (by default 4 meters).
 
