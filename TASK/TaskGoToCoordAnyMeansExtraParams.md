@@ -5,7 +5,7 @@ ns: TASK
 
 ```c
 // 0x1DD45F9ECFDB1BC9 0x094B75EF
-void TASK_GO_TO_COORD_ANY_MEANS_EXTRA_PARAMS(Ped ped, float x, float y, float z, float fMoveBlendRatio, cs_type(Any) Vehicle vehicle, BOOL bUseLongRangeVehiclePathing, int drivingFlags, float fMaxRangeToShootTargets, cs_type(Any) float fExtraVehToTargetDistToPreferVeh, cs_type(Any) float fDriveStraightLineDistance, cs_type(Any) int iExtraFlags, float fWarpTimerMS);
+void TASK_GO_TO_COORD_ANY_MEANS_EXTRA_PARAMS(Ped ped, float x, float y, float z, float fMoveBlendRatio, Vehicle vehicle, BOOL bUseLongRangeVehiclePathing, int drivingFlags, float fMaxRangeToShootTargets, cs_type(Any) float fExtraVehToTargetDistToPreferVeh, cs_type(Any) float fDriveStraightLineDistance, int iExtraFlags, cs_type(Any) float fWarpTimerMS);
 ```
 
 Same as `TASK_GO_TO_COORD_ANY_MEANS` but with extra parameters.
