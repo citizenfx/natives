@@ -10,49 +10,51 @@ void SET_AUDIO_FLAG(char* flagName, BOOL toggle);
 
 Generic interface to toggle audio functionality, with auto-reset on script termination and support for multiple script threads
 
+Flags used in game scripts:
+| Flag Name | Description of Usage | 
+| ----- | -------- |
+| ActivateSwitchWheelAudio | |
+| AllowAmbientSpeechInSlowMo | |
+| AllowCutsceneOverScreenFade | |
+| AllowForceRadioAfterRetune | |
+| AllowPainAndAmbientSpeechToPlayDuringCutscene | |
+| AllowPlayerAIOnMission | |
+| AllowPoliceScannerWhenPlayerHasNoControl | |
+| AllowRadioDuringSwitch | |
+| AllowRadioOverScreenFade | |
+| AllowScoreAndRadio | |
+| AllowScriptedSpeechInSlowMo | |
+| AvoidMissionCompleteDelay | |
+| DisableAbortConversationForDeathAndInjury | |
+| DisableAbortConversationForRagdoll | |
+| DisableBarks | |
+| DisableFlightMusic | |
+| DisableNPCHeadsetSpeechAttenuation | |
+| DisableReplayScriptStreamRecording | |
+| EnableHeadsetBeep | |
+| EnableMissileLockWarningForAllVehicles | |
+| ForceConversationInterrupt | |
+| ForceSeamlessRadioSwitch | |
+| ForceSniperAudio | |
+| FrontendRadioDisabled | |
+| HoldMissionCompleteWhenPrepared | |
+| IsDirectorModeActive |  Allows you to play speech infinitely without any pauses like in Director Mode. |
+| IsPlayerOnMissionForSpeech | |
+| ListenerReverbDisabled | |
+| LoadMPData | |
+| MobileRadioInGame | |
+| OnlyAllowScriptTriggerPoliceScanner | |
+| PlayerOnDLCHeist4Island | |
+| PlayMenuMusic | |
+| PoliceScannerDisabled | |
+| ScriptedConvListenerMaySpeak | |
+| SpeechDucksScore | |
+| SuppressPlayerScubaBreathing | |
+| UseQuietSceneSoftVersion | |
+| WantedMusicDisabled | |
+| WantedMusicOnMission | |
+
 ```
-Possible flag names:
-"ActivateSwitchWheelAudio"
-"AllowAmbientSpeechInSlowMo"
-"AllowCutsceneOverScreenFade"
-"AllowForceRadioAfterRetune"
-"AllowPainAndAmbientSpeechToPlayDuringCutscene"
-"AllowPlayerAIOnMission"
-"AllowPoliceScannerWhenPlayerHasNoControl"
-"AllowRadioDuringSwitch"
-"AllowRadioOverScreenFade"
-"AllowScoreAndRadio"
-"AllowScriptedSpeechInSlowMo"
-"AvoidMissionCompleteDelay"
-"DisableAbortConversationForDeathAndInjury"
-"DisableAbortConversationForRagdoll"
-"DisableBarks"
-"DisableFlightMusic"
-"DisableReplayScriptStreamRecording"
-"EnableHeadsetBeep"
-"ForceConversationInterrupt"
-"ForceSeamlessRadioSwitch"
-"ForceSniperAudio"
-"FrontendRadioDisabled"
-"HoldMissionCompleteWhenPrepared"
-"IsDirectorModeActive"
-"IsPlayerOnMissionForSpeech"
-"ListenerReverbDisabled"
-"LoadMPData"
-"MobileRadioInGame"
-"OnlyAllowScriptTriggerPoliceScanner"
-"PlayMenuMusic"
-"PoliceScannerDisabled"
-"ScriptedConvListenerMaySpeak"
-"SpeechDucksScore"
-"SuppressPlayerScubaBreathing"
-"WantedMusicDisabled"
-"WantedMusicOnMission"
--------------------------------
-No added flag names between b393d and b573d, including b573d.
-#######################################################################
-"IsDirectorModeActive" is an audio flag which will allow you to play speech infinitely without any pauses like in Director Mode.
------------------------------------------------------------------------
 All flag IDs and hashes:
 ID: 01 | Hash: 0x20A7858F
 ID: 02 | Hash: 0xA11C2259
