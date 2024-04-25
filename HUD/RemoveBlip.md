@@ -10,6 +10,8 @@ void REMOVE_BLIP(Blip* blip);
 
 Removes the blip from your map.
 
+**Note:** This native only works on the script that created the blip, if you wish to remove blips created by other scripts, see [`SET_THIS_SCRIPT_CAN_REMOVE_BLIPS_CREATED_BY_ANY_SCRIPT`](#_0xB98236CAAECEF897).
+
 ## Parameters
 * **blip**: Blip handle to remove.
 
