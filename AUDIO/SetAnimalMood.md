@@ -15,6 +15,7 @@ enum eAudAnimalMood {
 
 	AUD_ANIMAL_MOOD_NUM_MOODS
 }
+```
 
 
 ## Parameters
