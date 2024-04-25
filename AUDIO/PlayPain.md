@@ -23,7 +23,8 @@ enum eAudDamageReason {
 	AUD_DAMAGE_REASON_SCREAM_TERROR = 7,
 	AUD_DAMAGE_REASON_ON_FIRE = 8,
 	AUD_DAMAGE_REASON_DROWNING = 9,
-	AUD_DAMAGE_REASON_SURFACE_DROWNING = 10,	// drowning on the surface of water, after we time out
+	// drowning on the surface of water, after we time out
+	AUD_DAMAGE_REASON_SURFACE_DROWNING = 10,
 	AUD_DAMAGE_REASON_INHALE = 11,
 	AUD_DAMAGE_REASON_EXHALE = 12,
 	AUD_DAMAGE_REASON_POST_FALL_GRUNT = 13,
