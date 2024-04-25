@@ -1,19 +1,18 @@
 ---
 ns: GRAPHICS
-aliases: ["0xD80A80346A45D761"]
+aliases: ["0xD80A80346A45D761", "_GET_SCALEFORM_MOVIE_METHOD_RETURN_VALUE_BOOL"]
 ---
-## _GET_SCALEFORM_MOVIE_METHOD_RETURN_VALUE_BOOL
+## GET_SCALEFORM_MOVIE_METHOD_RETURN_VALUE_BOOL
 
 ```c
 // 0xD80A80346A45D761
-BOOL _GET_SCALEFORM_MOVIE_METHOD_RETURN_VALUE_BOOL(int methodReturn);
+BOOL GET_SCALEFORM_MOVIE_METHOD_RETURN_VALUE_BOOL(int methodReturn);
 ```
 
-```
-methodReturn: The return value of this native: END_SCALEFORM_MOVIE_METHOD_RETURN_VALUE
-```
+Returns a boolean value that is returned by a scaleform movie's actionscript.
 
 ## Parameters
-* **methodReturn**: 
+* **methodReturn**: Operation handle returned by [`END_SCALEFORM_MOVIE_METHOD_RETURN_VALUE`](#_0xC50AA39A577AF886)
 
 ## Return value
+The return value passed from actionscript to game code.
