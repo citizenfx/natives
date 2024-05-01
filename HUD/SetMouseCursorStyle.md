@@ -13,7 +13,7 @@ Changes the mouse style.
 
 Available styles are:
 | ID  | Description         |
-| :-: | :------------------:|
+| :-: | :-----------------: |
 | 0   | Normal              |
 | 1   | Normal              |
 | 2   | Transparent         |
