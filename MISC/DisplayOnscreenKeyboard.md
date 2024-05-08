@@ -5,45 +5,29 @@ ns: MISC
 
 ```c
 // 0x00DC833F2568DBF6 0xAD99F2CE
-void DISPLAY_ONSCREEN_KEYBOARD(int p0, char* windowTitle, char* p2, char* defaultText, char* defaultConcat1, char* defaultConcat2, char* defaultConcat3, int maxInputLength);
+void DISPLAY_ONSCREEN_KEYBOARD(int keyboardType, char* windowTitle, char* description, char* defaultText, char* defaultConcat1, char* defaultConcat2, char* defaultConcat3, int maxInputLength);
 ```
 
-```
-windowTitle's  
------------------  
-CELL_EMAIL_BOD	=	"Enter your Eyefind message"  
-CELL_EMAIL_BODE	=	"Message too long. Try again"  
-CELL_EMAIL_BODF	=	"Forbidden message. Try again"  
-CELL_EMAIL_SOD	=	"Enter your Eyefind subject"  
-CELL_EMAIL_SODE	=	"Subject too long. Try again"  
-CELL_EMAIL_SODF	=	"Forbidden text. Try again"  
-CELL_EMASH_BOD	=	"Enter your Eyefind message"  
-CELL_EMASH_BODE	=	"Message too long. Try again"  
-CELL_EMASH_BODF	=	"Forbidden message. Try again"  
-CELL_EMASH_SOD	=	"Enter your Eyefind subject"  
-CELL_EMASH_SODE	=	"Subject too long. Try again"  
-CELL_EMASH_SODF	=	"Forbidden Text. Try again"  
-FMMC_KEY_TIP10	=	"Enter Synopsis"  
-FMMC_KEY_TIP12	=	"Enter Custom Team Name"  
-FMMC_KEY_TIP12F	=	"Forbidden Text. Try again"  
-FMMC_KEY_TIP12N	=	"Custom Team Name"  
-FMMC_KEY_TIP8	=	"Enter Message"  
-FMMC_KEY_TIP8F	=	"Forbidden Text. Try again"  
-FMMC_KEY_TIP8FS	=	"Invalid Message. Try again"  
-FMMC_KEY_TIP8S	=	"Enter Message"  
-FMMC_KEY_TIP9	=	"Enter Outfit Name"  
-FMMC_KEY_TIP9F	=	"Invalid Outfit Name. Try again"  
-FMMC_KEY_TIP9N	=	"Outfit Name"  
-PM_NAME_CHALL	=	"Enter Challenge Name"  
-```
+Displays a text input box.
+
+`keyboardType` values:
+| Name | Value |
+| ---- | ----- |
+| English | 0 |
+| Localised | 1 |
+| Password | 2 |
+| Gamertag | 3 |
+| Email | 4 |
+| Basic English | 5 |
+| Filename | 6 |
 
 ## Parameters
-* **p0**: 
-* **windowTitle**: 
-* **p2**: 
-* **defaultText**: 
+* **keyboardType**: See the list above. Default is `0`.
+* **windowTitle**: Text label for the title of the box.
+* **description**: Has no use on PC. 
+* **defaultText**: Default text that is written in the input field.
 * **defaultConcat1**: 
 * **defaultConcat2**: 
 * **defaultConcat3**: 
-* **maxInputLength**: 
+* **maxInputLength**: Max number of characters that can be typed (2 - 256).
 

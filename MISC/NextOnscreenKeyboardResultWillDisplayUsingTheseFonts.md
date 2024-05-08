@@ -6,14 +6,22 @@ aliases: ["0x3ED1438C1F5C6612"]
 
 ```c
 // 0x3ED1438C1F5C6612 0x3301EA47
-void NEXT_ONSCREEN_KEYBOARD_RESULT_WILL_DISPLAY_USING_THESE_FONTS(int p0);
+void NEXT_ONSCREEN_KEYBOARD_RESULT_WILL_DISPLAY_USING_THESE_FONTS(int fontBitField);
 ```
 
-```
-p0 was always 2 in R* scripts.
-Called before calling DISPLAY_ONSCREEN_KEYBOARD if the input needs to be saved.
-```
+`fontBitField` values:
+| Name | Value |
+| ----- | ----- |
+| Standard | 1 |
+| Cursive | 2 |
+| Rockstar Tag | 4 |
+| Leaderboard | 8 |
+| Condensed | 16 |
+| Fixed Width Numbers | 32 |
+| Condensed Not Gamer Name | 64 |
+| Pricedown | 128 |
 
 ## Parameters
-* **p0**: 
+* **fontBitField**: See the list above.
+  
 
