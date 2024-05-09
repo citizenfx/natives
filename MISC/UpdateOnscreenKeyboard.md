@@ -8,13 +8,15 @@ ns: MISC
 int UPDATE_ONSCREEN_KEYBOARD();
 ```
 
-```
-Returns the current status of the onscreen keyboard, and updates the output.
-Status Codes:
--1: Keyboard isn't active
-0: User still editing
-1: User has finished editing
-2: User has canceled editing
-```
+Returns the current state of the text input box.
+
+| Name | Value |
+| ---- | ----- |
+| Invalid | -1 |
+| Editing | 0 |
+| Confirmed | 1 |
+| Canceled | 2 |
+| Failed | 3 |
 
 ## Return value
+Returns a value from the list above.
