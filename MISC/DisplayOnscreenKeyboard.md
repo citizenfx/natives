@@ -31,3 +31,25 @@ Displays a text input box.
 * **defaultConcat3**: 
 * **maxInputLength**: Max number of characters that can be typed (2 - 256).
 
+
+## Examples
+```lua
+AddTextEntry("my_input_title", "Enter something cool:")
+
+DisplayOnscreenKeyboard(0, "my_input_title", "", "", "", "", "", 30) -- Show the text input box
+
+while UpdateOnscreenKeyboard() == 0 do Wait(0) end -- Wait for the user to stop editing
+
+-- This block of code is reached after the user is done editing
+
+local inputUpdate = UpdateOnscreenKeyboard()
+
+if inputUpdate == 1 then -- User hit OK in the text input box
+  local result = GetOnscreenKeyboardResult()
+  print("You wrote this in the input box:", result)
+elseif inputUpdate == 2 then
+  print("You canceled the input!")
+else -- -1 or 3
+  print("An error has occurred")
+end
+```
