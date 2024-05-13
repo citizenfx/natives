@@ -8,16 +8,5 @@ ns: HUD
 int GET_PAUSE_MENU_STATE();
 ```
 
-```
-Returns:
-0
-5
-10
-15
-20
-25
-30
-35
-```
-
 ## Return value
+0 = Inactive, 5 = Starting, 10 = Restarting, 15 = Ready, 20 = In store screen, 25 = Social Club or Online Policies Menu, 30 = Closing, 35 = Rockstar Editor
