@@ -9,11 +9,10 @@ BOOL IS_VEHICLE_STOPPED_AT_TRAFFIC_LIGHTS(Vehicle vehicle);
 ```
 
 ```
-This native checks if the given vehicle is stopped at a red light (this won't return true if the vehicle is stopped behind another vehicle waiting at a traffic light)
+This native checks if the given vehicle is stopped at a red light.
+
+**Note:** Will return false if the vehicle is stopped behind another vehicle waiting at a traffic light.
 ```
 
 ## Parameters
-* **vehicle**: 
-
-## Return value
-Returns true if the vehicle is stopped because of a redlight, false otherwise
+* **vehicle**:
