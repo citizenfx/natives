@@ -10,12 +10,19 @@ int GET_VEHICLE_NUMBER_PLATE_TEXT_INDEX(Vehicle vehicle);
 
 ```
 Returns the PlateType of a vehicle  
-Blue_on_White_1 = 3,  
-Blue_on_White_2 = 0,  
-Blue_on_White_3 = 4,  
-Yellow_on_Blue = 2,  
-Yellow_on_Black = 1,  
-North_Yankton = 5,  
+0 - Blue on White1
+1 - Yellow on Black
+2 - Yellow on Blue
+3 - Blue on White2
+4 - Blue on White "SA EXEMPT"
+5 - North Yankton
+6 - eCola
+7 - Las Venturas
+8 - Liberty City
+9 - LS Car Meet
+10 - LS Panic
+11 - LS Pounders
+12 - Sprunk
 ```
 
 ## Parameters
