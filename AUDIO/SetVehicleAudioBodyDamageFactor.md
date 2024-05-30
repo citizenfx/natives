@@ -6,11 +6,14 @@ aliases: ["0x01BB4D577D38BD9E"]
 
 ```c
 // 0x01BB4D577D38BD9E 0xE81FAC68
-void SET_VEHICLE_AUDIO_BODY_DAMAGE_FACTOR(Vehicle vehicle, float intensity);
+void SET_VEHICLE_AUDIO_BODY_DAMAGE_FACTOR(Vehicle vehicle, float damageFactor);
 ```
 
-Vehicle will make a 'rattling' noise when decelerating
+Set the audio body damage percentage that this vehicle should use.
+
+This will trigger debris sounds on jump landings, exhaust rattle when coming off the throttle, and louder suspension sounds
+
 
 ## Parameters
 * **vehicle**: Vehicle to modify
-* **intensity**: A value 0.0 - 1.0. Higher the value, the more likely the vehicle is to make the sound while decelerating
+* **damageFactor**: A value betwen 0.0 (fine) - 1.0 (fully damaged).
