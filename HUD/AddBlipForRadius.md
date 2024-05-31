@@ -10,6 +10,7 @@ Blip ADD_BLIP_FOR_RADIUS(float posX, float posY, float posZ, float radius);
 Create a blip with a radius for the specified coordinates (it doesnt create the blip sprite, so you need to use [AddBlipCoords](#_0xC6F43D0E))
 
 Example image:
+
 ![example](./AddBlipForRadius/PYjCapV.webp)
 
 ## Parameters
