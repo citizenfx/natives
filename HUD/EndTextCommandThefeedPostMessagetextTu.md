@@ -16,6 +16,7 @@ v_8 = UI::END_TEXT_COMMAND_THEFEED_POST_MESSAGETEXT_TU("CHAR_SOCIAL_CLUB", "CHAR
 ```
 
 Example result:
+
 ![](./EndTextCommandThefeedPostMessagetextTu/DybiVQM.webp)
 
 
