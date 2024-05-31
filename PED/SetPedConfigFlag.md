@@ -438,7 +438,7 @@ enum ePedConfigFlags {
 	CPED_CONFIG_FLAG_FallsLikeAircraft = 424,
 	_0x2B42AE82 = 425,
 	_0x7A95734F = 426,
-	_0xDF4D8617 = 427,
+	CPED_CONFIG_FLAG_EnableSprintingInInteriors = 427,
 	_0x578F1F14 = 428,
 	CPED_CONFIG_FLAG_DisableStartEngine = 429,
 	CPED_CONFIG_FLAG_IgnoreBeingOnFire = 430,
