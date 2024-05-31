@@ -15,7 +15,7 @@ The GPS custom route works like the GPS multi route, except it does not follow r
 
 **Example result:**
 
-![](https://i.imgur.com/BDm5pzt.png)
+![](./StartGpsCustomRoute/q5wPQyw.webp)
 
 ## Parameters
 * **hudColor**: The HUD color of the GPS path.

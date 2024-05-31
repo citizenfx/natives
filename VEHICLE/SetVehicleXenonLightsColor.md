@@ -18,7 +18,8 @@ You can find the list of colors and ids here: [_GET_VEHICLE_HEADLIGHTS_COLOUR](#
 * **color**: The paint index.
 
 **Result**:
-> ![](https://i.imgur.com/yV3cpG9.png)
+
+![](./SetVehicleXenonLightsColor/21tdrg0.webp)
 
 ## Examples
 

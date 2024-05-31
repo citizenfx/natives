@@ -10,7 +10,7 @@ void SET_BLIP_CATEGORY(Blip blip, int index);
 
 Examples result:
 
-![](https://i.imgur.com/skY6vAJ.png)
+![](./SetBlipCategory/3ralFxl.webp)
 
 
 **index:**
@@ -53,4 +53,3 @@ blip = AddBlipForCoord(-927.92755126953, -2824.1362304688, 13.947744369507)
 SetBlipSprite(blip, 372) -- Hangar For Sale
 SetBlipCategory(blip, 10)
 ```
-
