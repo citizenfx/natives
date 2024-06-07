@@ -8,7 +8,7 @@ ns: STREAMING
 void REMOVE_IPL(char* iplName);
 ```
 
-IPL list can be found [here](https://docs.fivem.net/docs/game-references/natives/ipl-list/).
+IPL list can be found [here](https://docs.fivem.net/docs/game-references/game-data-reference/ipl-list/).
 
 ## Parameters
 * **iplName**: 
