@@ -8,12 +8,9 @@ ns: AUDIO
 Hash GET_VEHICLE_DEFAULT_HORN(Vehicle vehicle);
 ```
 
-```
-Returns hash of default vehicle horn  
-Hash is stored in audVehicleAudioEntity  
-```
 
 ## Parameters
-* **vehicle**: 
+* **vehicle**:
 
 ## Return value
+Returns the horn sound hash

@@ -8,5 +8,5 @@ ns: AUDIO
 BOOL IS_MISSION_COMPLETE_PLAYING();
 ```
 
-
 ## Return value
+Returns true if the mission complete audio is playing

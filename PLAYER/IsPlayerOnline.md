@@ -8,9 +8,7 @@ ns: PLAYER
 BOOL IS_PLAYER_ONLINE();
 ```
 
-```
-Returns TRUE if the game is in online mode and FALSE if in offline mode.  
-This is an alias for NETWORK_IS_SIGNED_ONLINE.  
-```
+It returns true if the player is online, suggesting they are also logged in locally. Note that this is an alias for `NETWORK_IS_SIGNED_ONLINE`.
 
 ## Return value
+It provides a true value if the game is in online mode and false if it's in offline mode.

@@ -8,8 +8,5 @@ ns: AUDIO
 int GET_PLAYER_RADIO_STATION_INDEX();
 ```
 
-```
-Returns 255 (radio off index) if the function fails.  
-```
-
 ## Return value
+Returns the index of the current players radio station, or 255 if the radio is off

@@ -8,4 +8,4 @@ ns: AUDIO
 void RESET_TREVOR_RAGE();
 ```
 
-
+Clears the override set by [OVERRIDE_TREVOR_RAGE](#_0x13AD665062541A7E)

@@ -10,3 +10,4 @@ int GET_MUSIC_PLAYTIME();
 
 
 ## Return value
+Returns the play time in milliseconds of the current score track.

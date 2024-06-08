@@ -10,3 +10,4 @@ BOOL IS_STREAM_PLAYING();
 
 
 ## Return value
+Returns true if the script is currently playing a stream.

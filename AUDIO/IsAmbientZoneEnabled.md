@@ -10,6 +10,7 @@ BOOL IS_AMBIENT_ZONE_ENABLED(char* ambientZone);
 
 
 ## Parameters
-* **ambientZone**: 
+* **ambientZone**:
 
 ## Return value
+Returns true if the given ambient zone is allowed to be active

@@ -9,5 +9,5 @@ aliases: ["0x6F259F82D873B8B8"]
 BOOL IS_MISSION_COMPLETE_READY_FOR_UI();
 ```
 
-
 ## Return value
+Returns true if the script should draw the mission complete UI to be in sync with audio.

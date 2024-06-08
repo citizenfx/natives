@@ -8,7 +8,8 @@ ns: AUDIO
 void STOP_PED_RINGTONE(Ped ped);
 ```
 
+Stops a ped's ringtone from playing
 
 ## Parameters
-* **ped**: 
+* **ped**:
 

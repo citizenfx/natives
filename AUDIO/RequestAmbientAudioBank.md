@@ -5,19 +5,16 @@ ns: AUDIO
 
 ```c
 // 0xFE02FFBED8CA9D99 0x23C88BC7
-BOOL REQUEST_AMBIENT_AUDIO_BANK(char* p0, BOOL p1);
+BOOL REQUEST_AMBIENT_AUDIO_BANK(char* bankName, BOOL bOverNetwork);
 ```
 
-```
-All occurrences and usages found in b617d, sorted alphabetically and identical lines removed: pastebin.com/XZ1tmGEz
-```
+This native is marked as deprecated internally, please use [REQUEST_SCRIPT_AUDIO_BANK](#_0x2F844A8B08D76685)
 
-```
-NativeDB Added Parameter 3: Any p2
-```
+This native has a new argument on newer game builds:
+* **playerBits**:
 
 ## Parameters
-* **p0**: 
-* **p1**: 
+* **bankName**:
+* **bOverNetwork**:
 
 ## Return value

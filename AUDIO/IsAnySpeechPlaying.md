@@ -10,6 +10,7 @@ BOOL IS_ANY_SPEECH_PLAYING(Ped ped);
 
 
 ## Parameters
-* **ped**: 
+* **ped**:
 
 ## Return value
+Returns true if the specified ped is playing any speech

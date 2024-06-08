@@ -8,4 +8,4 @@ ns: AUDIO
 void RELEASE_SCRIPT_AUDIO_BANK();
 ```
 
-
+Unloads all audio banks requested by this script.
