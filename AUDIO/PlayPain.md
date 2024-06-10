@@ -11,6 +11,8 @@ void PLAY_PAIN(Ped ped, int damageReason, cs_type(int) float rawDamage);
 This native had a 4th parameter added in newer game builds
 `syncOverNetwork` creates a `CPedPlayPainEvent` when set to true, by default this variable is false.
 
+You won't be able to use this for clones (remote pedestrians that are not owned by you) or migrating peds if `syncOverNetwork` is set to true; it simply won't execute.
+
 ```c
 enum eAudDamageReason {
 	AUD_DAMAGE_REASON_DEFAULT = 0,
