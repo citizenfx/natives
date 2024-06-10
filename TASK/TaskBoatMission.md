@@ -5,7 +5,7 @@ ns: TASK
 
 ```c
 // 0x15C86013127CE63F 0x5865B031
-void TASK_BOAT_MISSION(Ped ped, Vehicle boat, Ped pedTarget, Vehicle vehicleTarget, float x, float y, float z, int missionType, float speed, int drivingStyle, float radius, int missionFlags);
+void TASK_BOAT_MISSION(Ped ped, Vehicle boat, Vehicle vehicleTarget, Ped pedTarget, float x, float y, float z, int missionType, float speed, int drivingStyle, float radius, int missionFlags);
 ```
 
 All parameters except driver and boat are optional, with pedTarget, vehicleTarget, x, y, z being dependent on missionType (ie. Attack/Flee mission types require a target ped/vehicle, whereas GoTo mission types require either x,y,z or a target ped/vehicle). If you don't want to use a parameter; pass 0.0f for x,y and z, 0 for pedTarget, vehicleTarget and other int parameters, and -1.0f for the remaining float parameters.
@@ -39,8 +39,8 @@ enum BoatMissionFlags
 ## Parameters
 * **ped**: The ped to be tasked.
 * **boat**: The boats' entity handle.
-* **pedTarget**: The target ped (default is 0)
 * **vehicleTarget**: The target vehicle (default is 0)
+* **pedTarget**: The target ped (default is 0)
 * **x**: The x coordinate of the target (default is 0.0f)
 * **y**: The y coordinate of the target (default is 0.0f)
 * **z**: The z coordinate of the target (default is 0.0f)
