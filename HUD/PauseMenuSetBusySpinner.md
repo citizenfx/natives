@@ -6,13 +6,13 @@ aliases: ["0xC78E239AC5B2DDB9"]
 
 ```c
 // 0xC78E239AC5B2DDB9 0x6C67131A
-void PAUSE_MENU_SET_BUSY_SPINNER(BOOL set, int column, int index);
+void PAUSE_MENU_SET_BUSY_SPINNER(BOOL bVisible, int iColumnID, int iSpinnerIndex);
 ```
 
 Sets a loading icon in the pause menu.
 
 ## Parameters
-* **set**: Sets or removes this spinner.
-* **column**: Location of this spinner (0 - 17).
-* **index**: Index of this spinner. Can have max 3 spinners at time.
+* **bVisible**: Sets or removes this spinner.
+* **iColumnID**: Location of this spinner (0 - 17). Indexes can be found in `common:\data\ui\frontend.xml`, `PauseMenu\PersistentData\Spinner\Offsets`. If `bVisible` is `false`, this will be ignored.
+* **iSpinnerIndex**: Index of this spinner. Can have max 3 spinners at time.
 
