@@ -8,7 +8,9 @@ ns: TASK
 void TASK_BOAT_MISSION(Ped ped, Vehicle boat, Vehicle vehicleTarget, Ped pedTarget, float x, float y, float z, int missionType, float speed, int drivingStyle, float radius, int missionFlags);
 ```
 
-All parameters except driver and boat are optional, with pedTarget, vehicleTarget, x, y, z being dependent on missionType (ie. Attack/Flee mission types require a target ped/vehicle, whereas GoTo mission types require either x,y,z or a target ped/vehicle). If you don't want to use a parameter; pass 0.0f for x,y and z, 0 for pedTarget, vehicleTarget and other int parameters, and -1.0f for the remaining float parameters.
+All parameters except driver and boat are optional, with `pedTarget`, `vehicleTarget`, `x`, `y`, `z` being dependent on `missionType` (ie. Attack/Flee mission types require a target ped/vehicle, whereas GoTo mission types require either `x`, `y`, `z` or a target ped/vehicle). 
+
+If you don't want to use a parameter; pass `0.0f` for `x`, `y` and `z`, `0` for `pedTarget`, `vehicleTarget` and other int parameters, and `-1.0f` for the remaining float parameters.
 
 ```
 You need to call PED::SET_BLOCKING_OF_NON_TEMPORARY_EVENTS after TASK_BOAT_MISSION in order for the task to execute.
@@ -54,4 +56,4 @@ enum BoatMissionFlags
 * **speed**: The speed in m/s (default is -1.0f)
 * **drivingStyle**: The driving style (default is 0)
 * **radius**: The radius of when the task will be completed (default is -1.0f)
-* **missionFlags**: The mission flags (default is 0) (see BoatMissionFlags)
+* **missionFlags**: The mission flags (default is 0) (see `BoatMissionFlags`)
