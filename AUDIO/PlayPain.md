@@ -11,6 +11,10 @@ void PLAY_PAIN(Ped ped, int damageReason, cs_type(int) float rawDamage);
 This native had a 4th parameter added in newer game builds
 `syncOverNetwork` creates a `CPedPlayPainEvent` when set to true, by default this variable is false.
 
+You won't be able to use this for clones (remote pedestrians that are not owned by you) or migrating peds if `syncOverNetwork` is set to true; it simply won't execute. 
+
+The `ped` should also have speech for this to work.
+
 ```c
 enum eAudDamageReason {
 	AUD_DAMAGE_REASON_DEFAULT = 0,
@@ -23,7 +27,8 @@ enum eAudDamageReason {
 	AUD_DAMAGE_REASON_SCREAM_TERROR = 7,
 	AUD_DAMAGE_REASON_ON_FIRE = 8,
 	AUD_DAMAGE_REASON_DROWNING = 9,
-	AUD_DAMAGE_REASON_SURFACE_DROWNING = 10,	// drowning on the surface of water, after we time out
+	// drowning on the surface of water, after we time out
+	AUD_DAMAGE_REASON_SURFACE_DROWNING = 10,
 	AUD_DAMAGE_REASON_INHALE = 11,
 	AUD_DAMAGE_REASON_EXHALE = 12,
 	AUD_DAMAGE_REASON_POST_FALL_GRUNT = 13,
