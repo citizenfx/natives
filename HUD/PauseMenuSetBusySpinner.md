@@ -14,5 +14,5 @@ Sets a loading icon in the pause menu.
 ## Parameters
 * **bVisible**: Sets or removes this spinner.
 * **iColumnID**: Location of this spinner (0 - 17). Indexes can be found in `common:\data\ui\frontend.xml`, `PauseMenu\PersistentData\Spinner\Offsets`. If `bVisible` is `false`, this will be ignored.
-* **iSpinnerIndex**: Index of this spinner. Can have max 3 spinners at time.
+* **iSpinnerIndex**: Index of this spinner. Can have a maximum of three spinners at a time.
 
