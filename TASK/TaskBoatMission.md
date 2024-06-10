@@ -33,6 +33,12 @@ enum BoatMissionFlags
   UseWanderRoute = 256,
   UseFleeRoute = 512,
   NeverPause = 1024,
+  // StopAtEnd | StopAtShore | AvoidShore
+  DefaultSettings = 7,
+  // StopAtEnd | StopAtShore | AvoidShore | PreferForward | NeverNavMesh | NeverRoute
+  OpenOceanSettings = 111,
+  // StopAtEnd | StopAtShore | AvoidShore | PreferForward | NeverNavMesh | NeverPause
+  BoatTaxiSettings = 1071,
 }
 ```
 
