@@ -1,4 +1,4 @@
----
+-kura-ped-
 ns: PED
 ---
 ## CREATE_PED
