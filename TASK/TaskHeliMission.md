@@ -5,8 +5,12 @@ ns: TASK
 
 ```c
 // 0xDAD029E187A2BEB4 0x0C143E97
-void TASK_HELI_MISSION(Ped pilot, Vehicle aircraft, Vehicle targetVehicle, Ped targetPed, float destinationX, float destinationY, float destinationZ, int missionFlag, float maxSpeed, float landingRadius, float targetHeading, int unk1, int unk2, cs_type(Hash) float unk3, int landingFlags);
+void TASK_HELI_MISSION(Ped ped, Vehicle heli, Vehicle vahicleTarget, Ped pedTarget, float x, float y, float z, int missionType, float speed, float radius, float heading, cs_type(Int) float height, float minHeight, cs_type(Hash) float slowDist, int missionFlags);
 ```
+
+All parameters except ped and heli are optional, with `pedTarget`, `vehicleTarget`, `x`, `y`, `z` being dependent on `missionType` (ie. Attack/Flee mission types require a target ped/vehicle, whereas GoTo mission types require either `x`, `y`, `z` or a target ped/vehicle).
+
+If you don't want to use a parameter; pass `0.0f` for `x`, `y` and `z`, `0` for `pedTarget`, `vehicleTarget` and other int parameters, and `-1.0f` for the remaining float parameters.
 
 ```
 Needs more research.
@@ -28,20 +32,43 @@ mode 4 or 7 forces heli to snap to the heading set
 I change p2 to 'vehicleToFollow' as it seems to work like the task natives to set targets. In the heli_taxi script where as the merryweather heli takes you to your waypoint it has no need to follow a vehicle or a ped, so of course both have 0 set.
 ```
 
-## Parameters
-* **pilot**: 
-* **aircraft**: 
-* **targetVehicle**: 
-* **targetPed**: 
-* **destinationX**: 
-* **destinationY**: 
-* **destinationZ**: 
-* **missionFlag**: 
-* **maxSpeed**: 
-* **landingRadius**: 
-* **targetHeading**: 
-* **unk1**: 
-* **unk2**: 
-* **unk3**: 
-* **landingFlags**: 
+```c
+enum HeliMissionFlags
+{
+  None = 0,
+  AttainRequestedOrientation = 1,
+  DontModifyOrientation = 2,
+  DontModifyPitch = 4,
+  DontModifyThrottle = 8,
+  DontModifyRoll = 16,
+  LandOnArrival = 32,
+  DontDoAvoidance = 64,
+  StartEngineImmediately = 128,
+  ForceHeightMapAvoidance = 256,
+  DontClampProbesToDestination = 512,
+  EnableTimeslicingWhenPossible = 1024,
+  CircleOppositeDirection = 2048,
+  MaintainHeightAboveTerrain = 4096,
+  IgnoreHiddenEntitiesDuringLand = 8192,
+  DisableAllHeightMapAvoidance = 16384,
+  // ForceHeightMapAvoidance | DontDoAvoidance
+  HeightMapOnlyAvoidance = 320,
+}
+```
 
+## Parameters
+* **ped**: The ped to be tasked.
+* **heli**: The helicopters' entity handle.
+* **vehicleTarget**: The target vehicle (default is 0).
+* **pedTarget**: The target ped (default is 0).
+* **x**: The x coordinate of the target (default is 0.0f).
+* **y**: The y coordinate of the target (default is 0.0f).
+* **z**: The z coordinate of the target (default is 0.0f).
+* **missionType**: The mission type (default is 0).
+* **speed**: The speed in m/s (default is -1.0f).
+* **radius**: The radius of when the task will be completed (default is -1.0f).
+* **heading**:  The heading the helicopter will face at task completion (default is -1.0f).
+* **height**: The height the helicopter will fly at (default is -1.0f).
+* **minHeight**: The height the helicopter will not fly below (default is -1.0f).
+* **slowDist**: The distance to the target at which the helicopter will slow down (default is -1.0f).
+* **missionFlags**: The mission flags (default is 0) (see `HeliMissionFlags`).
