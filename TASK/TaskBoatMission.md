@@ -8,7 +8,7 @@ ns: TASK
 void TASK_BOAT_MISSION(Ped ped, Vehicle boat, Vehicle vehicleTarget, Ped pedTarget, float x, float y, float z, int missionType, float speed, int drivingStyle, float radius, int missionFlags);
 ```
 
-All parameters except driver and boat are optional, with `pedTarget`, `vehicleTarget`, `x`, `y`, `z` being dependent on `missionType` (ie. Attack/Flee mission types require a target ped/vehicle, whereas GoTo mission types require either `x`, `y`, `z` or a target ped/vehicle). 
+All parameters except ped and boat are optional, with `pedTarget`, `vehicleTarget`, `x`, `y`, `z` being dependent on `missionType` (ie. Attack/Flee mission types require a target ped/vehicle, whereas GoTo mission types require either `x`, `y`, `z` or a target ped/vehicle).
 
 If you don't want to use a parameter; pass `0.0f` for `x`, `y` and `z`, `0` for `pedTarget`, `vehicleTarget` and other int parameters, and `-1.0f` for the remaining float parameters.
 
@@ -24,6 +24,7 @@ P8 appears to be driving style flag - see gtaforums.com/topic/822314-guide-drivi
 ```c
 enum BoatMissionFlags
 {
+  None = 0,
   StopAtEnd = 1,
   StopAtShore = 2,
   AvoidShore = 4,
@@ -47,13 +48,13 @@ enum BoatMissionFlags
 ## Parameters
 * **ped**: The ped to be tasked.
 * **boat**: The boats' entity handle.
-* **vehicleTarget**: The target vehicle (default is 0)
-* **pedTarget**: The target ped (default is 0)
-* **x**: The x coordinate of the target (default is 0.0f)
-* **y**: The y coordinate of the target (default is 0.0f)
-* **z**: The z coordinate of the target (default is 0.0f)
-* **missionType**: The mission type (default is 0)
-* **speed**: The speed in m/s (default is -1.0f)
-* **drivingStyle**: The driving style (default is 0)
-* **radius**: The radius of when the task will be completed (default is -1.0f)
-* **missionFlags**: The mission flags (default is 0) (see `BoatMissionFlags`)
+* **vehicleTarget**: The target vehicle (default is 0).
+* **pedTarget**: The target ped (default is 0).
+* **x**: The x coordinate of the target (default is 0.0f).
+* **y**: The y coordinate of the target (default is 0.0f).
+* **z**: The z coordinate of the target (default is 0.0f).
+* **missionType**: The mission type (default is 0).
+* **speed**: The speed in m/s (default is -1.0f).
+* **drivingStyle**: The driving style (default is 0).
+* **radius**: The radius of when the task will be completed (default is -1.0f).
+* **missionFlags**: The mission flags (default is 0) (see `BoatMissionFlags`).
