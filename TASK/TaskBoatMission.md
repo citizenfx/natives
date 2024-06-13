@@ -64,5 +64,6 @@ RequestModel(model)
 repeat Wait(0) until HasModelLoaded(model)
 local driver = CreatePedInsideVehicle(vehicle, 0, model, -1, true, false)
 TaskBoatMission(driver, vehicle, GetVehiclePedIsIn(ped, false), 0, 0.0, 0.0, 0.0, 7, -1.0, 786468, -1.0, 1044)
+-- Drive Style: DrivingModeAvoidVehiclesReckless | Mission Flags: AvoidShore | NeverStop | NeverPause
 SetPedKeepTask(driver, true)
 ```
