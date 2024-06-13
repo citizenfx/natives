@@ -5,7 +5,7 @@ ns: TASK
 
 ```c
 // 0x659427E0EF36BCDE 0x20609E56
-void TASK_VEHICLE_MISSION(Ped ped, Vehicle vehicle, Vehicle vehicleTarget, int missionType, float speed, cs_type(Any) int drivingStyle, float radius, float straightLineDist, BOOL DriveAgainstTraffic);
+void TASK_VEHICLE_MISSION(Ped ped, Vehicle vehicle, Vehicle vehicleTarget, int missionType, float speed, int drivingStyle, float radius, float straightLineDist, BOOL DriveAgainstTraffic);
 ```
 
 All parameters except ped and vehicle are optional, with `vehicleTarget` being dependent on `missionType` (ie. Attack/Flee mission types require a target vehicle, whereas GoTo mission types require a target vehicle).
