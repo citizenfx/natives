@@ -76,6 +76,7 @@ RequestModel(model)
 repeat Wait(0) until HasModelLoaded(model)
 local driver = CreatePedInsideVehicle(vehicle, 0, model, -1, true, false)
 TaskVehicleChase(driver, ped)
-SetDriveTaskDrivingStyle(driver, 786468) -- DrivingModeAvoidVehiclesReckless
+SetDriveTaskDrivingStyle(driver, 786468)
+-- Driving Style: DrivingModeAvoidVehiclesReckless
 SetPedKeepTask(driver, true)
 ```
