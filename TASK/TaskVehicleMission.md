@@ -8,13 +8,9 @@ ns: TASK
 void TASK_VEHICLE_MISSION(Ped ped, Vehicle vehicle, Vehicle vehicleTarget, int missionType, float speed, int drivingStyle, float radius, float straightLineDist, BOOL DriveAgainstTraffic);
 ```
 
-All parameters except ped and vehicle are optional, with `vehicleTarget` being dependent on `missionType` (ie. Attack/Flee mission types require a target vehicle, whereas GoTo mission types require a target vehicle).
+All parameters except ped, vehicle, vehicleTarget and speed are optional; with `missionType` being only those that require a target vehicle.
 
-If you don't want to use a parameter; pass `0` for `vehicleTarget` and other int parameters, and `-1.0f` for the remaining float parameters.
-
-```
-missionType: https://alloc8or.re/gta5/doc/enums/eVehicleMissionType.txt
-```
+If you don't want to use a parameter; pass `0` for `vehicleTarget`, `0` for int parameters, and `-1.0f` for the remaining float parameters.
 
 ```c
 enum VehicleMissionType
@@ -46,8 +42,26 @@ enum VehicleMissionType
 * **vehicle**: The vehicles' entity handle.
 * **vehicleTarget**: The target vehicle (default is 0).
 * **missionType**: The mission type (default is 0) (see `VehicleMissionType`).
-* **speed**: The speed in m/s (default is -1.0f).
-* **drivingStyle**: The driving style (default is 0).
+* **speed**: The speed in m/s.
+* **drivingStyle**: The driving style (default is 0) (see [SetDriveTaskDrivingStyle](#_0xDACE1BE37D88AF67)).
 * **radius**: The radius of when the task will be completed (default is -1.0f).
 * **straightLineDist**: The distance before the vehicle will drive straight to the target (default is -1.0f).
 * **DriveAgainstTraffic**: Whether the vehicle should drive against traffic (default is false).
+
+## Examples
+
+```lua
+local model = `adder`
+RequestModel(model)
+repeat Wait(0) until HasModelLoaded(model)
+local ped = PlayerPedId() -- Player needs in a vehicle for this to work
+local coords = GetEntityCoords(ped) - GetEntityForwardVector(ped) * 15.0
+local vehicle = CreateVehicle(model, coords.x, coords.y, coords.z, GetEntityHeading(ped), true, false)
+model = `a_m_m_skater_01`
+RequestModel(model)
+repeat Wait(0) until HasModelLoaded(model)
+local driver = CreatePedInsideVehicle(vehicle, 0, model, -1, true, false)
+TaskVehicleMission(driver, vehicle, GetVehiclePedIsIn(ped, false), 8, 35.0, 786468, -1.0, -1.0, true)
+-- Mission Type: Flee | Drive Style: DrivingModeAvoidVehiclesReckless
+SetPedKeepTask(driver, true)
+```
