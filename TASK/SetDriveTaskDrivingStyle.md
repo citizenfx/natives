@@ -10,14 +10,7 @@ void SET_DRIVE_TASK_DRIVING_STYLE(Ped ped, int drivingStyle);
 
 Sets the driving style for a ped currently performing a driving task.
 
-```
-This native is used to set the driving style for specific ped.  
-Driving styles id seems to be:  
-786468  
-262144  
-786469  
-http://gtaforums.com/topic/822314-guide-driving-styles/  
-```
+Each flag in the `VehicleDrivingFlags` enum can be combined to create a driving style, with each enabling or disabling a specific driving behavior. The driving style can be set to one of the predefined driving styles, or a custom driving style can be created by combining the flags. This can be done by using the bitwise OR operator (`|`) to combine the flags or by adding the decimal values of the flags together.
 
 ```c
 enum VehicleDrivingFlags
@@ -66,5 +59,23 @@ enum VehicleDrivingFlags
 ```
 
 ## Parameters
-* **ped**: The ped have their driving style set.
-* **drivingStyle**: The driving style to set (see `VehicleDrivingFlags`).
+* **ped**: The ped to have their driving style set.
+* **drivingStyle**: The driving style (see `VehicleDrivingFlags`).
+
+## Examples
+
+```lua
+local model = `adder`
+RequestModel(model)
+repeat Wait(0) until HasModelLoaded(model)
+local ped = PlayerPedId() -- Player needs to be in a vehicle for this to work
+local coords = GetEntityCoords(ped) - GetEntityForwardVector(ped) * 15.0
+local vehicle = CreateVehicle(model, coords.x, coords.y, coords.z, GetEntityHeading(ped), true, false)
+model = `a_m_m_skater_01`
+RequestModel(model)
+repeat Wait(0) until HasModelLoaded(model)
+local driver = CreatePedInsideVehicle(vehicle, 0, model, -1, true, false)
+TaskVehicleChase(driver, ped)
+SetDriveTaskDrivingStyle(driver, 786468) -- DrivingModeAvoidVehiclesReckless
+SetPedKeepTask(driver, true)
+```
