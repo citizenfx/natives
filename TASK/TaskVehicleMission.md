@@ -10,7 +10,7 @@ void TASK_VEHICLE_MISSION(Ped ped, Vehicle vehicle, Vehicle vehicleTarget, int m
 
 All parameters except ped, vehicle, vehicleTarget and speed are optional; with `missionType` being only those that require a target vehicle.
 
-If you don't want to use a parameter; pass `0` for `vehicleTarget`, `0` for int parameters, and `-1.0f` for the remaining float parameters.
+If you don't want to use a parameter; pass `0` for int parameters, and `-1.0f` for the remaining float parameters.
 
 ```c
 enum VehicleMissionType
