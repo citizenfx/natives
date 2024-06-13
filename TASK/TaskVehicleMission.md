@@ -8,7 +8,7 @@ ns: TASK
 void TASK_VEHICLE_MISSION(Ped ped, Vehicle vehicle, Vehicle vehicleTarget, int missionType, float speed, int drivingStyle, float radius, float straightLineDist, BOOL DriveAgainstTraffic);
 ```
 
-All parameters except ped, vehicle, vehicleTarget and speed are optional; with `missionType` being only those that require a target vehicle.
+All parameters except ped, vehicle, vehicleTarget and speed are optional; with `missionType` being only those that require a target entity.
 
 If you don't want to use a parameter; pass `0` for int parameters, and `-1.0f` for the remaining float parameters.
 
@@ -40,7 +40,7 @@ enum VehicleMissionType
 ## Parameters
 * **ped**: The ped to be tasked.
 * **vehicle**: The vehicles' entity handle.
-* **vehicleTarget**: The target vehicle (default is 0).
+* **vehicleTarget**: The target vehicle.
 * **missionType**: The mission type (default is 0) (see `VehicleMissionType`).
 * **speed**: The speed in m/s.
 * **drivingStyle**: The driving style (default is 0) (see [SetDriveTaskDrivingStyle](#_0xDACE1BE37D88AF67)).

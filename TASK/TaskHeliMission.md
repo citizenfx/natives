@@ -44,7 +44,7 @@ enum HeliMissionFlags
 * **x**: The x coordinate of the target (default is 0.0f).
 * **y**: The y coordinate of the target (default is 0.0f).
 * **z**: The z coordinate of the target (default is 0.0f).
-* **missionType**: The mission type (default is 0) (see ![TaskVehicleMission](#_0x659427E0EF36BCDE)).
+* **missionType**: The mission type (default is 0) (see [TaskVehicleMission](#_0x659427E0EF36BCDE)).
 * **speed**: The speed in m/s.
 * **radius**: The radius of when the task will be completed (default is -1.0f).
 * **heading**:  The heading the helicopter will face at task completion (default is -1.0f).

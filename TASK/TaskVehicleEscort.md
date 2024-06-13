@@ -28,7 +28,7 @@ Driving Styles guide: gtaforums.com/topic/822314-guide-driving-styles/
 * **targetVehicle**: 
 * **mode**: 
 * **speed**: 
-* **drivingStyle**: 
+* **drivingStyle**: The driving style (default is 0) (see [SetDriveTaskDrivingStyle](#_0xDACE1BE37D88AF67)).
 * **minDistance**: 
 * **p7**: 
 * **noRoadsDistance**: 

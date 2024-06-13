@@ -44,9 +44,9 @@ enum BoatMissionFlags
 * **x**: The x coordinate of the target (default is 0.0f).
 * **y**: The y coordinate of the target (default is 0.0f).
 * **z**: The z coordinate of the target (default is 0.0f).
-* **missionType**: The mission type (default is 0) (see ![TaskVehicleMission](#_0x659427E0EF36BCDE)).
+* **missionType**: The mission type (default is 0) (see [TaskVehicleMission](#_0x659427E0EF36BCDE)).
 * **speed**: The speed in m/s (default is -1.0f).
-* **drivingStyle**: The driving style (default is 0) (see ![SetDriveTaskDrivingStyle](#_0xDACE1BE37D88AF67)).
+* **drivingStyle**: The driving style (default is 0) (see [SetDriveTaskDrivingStyle](#_0xDACE1BE37D88AF67)).
 * **radius**: The radius of when the task will be completed (default is -1.0f).
 * **missionFlags**: The mission flags (default is 0) (see `BoatMissionFlags`).
 

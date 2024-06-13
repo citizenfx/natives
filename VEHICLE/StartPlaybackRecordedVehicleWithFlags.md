@@ -19,5 +19,5 @@ time, often zero and capped at 500, is related to SET_PLAYBACK_TO_USE_AI_TRY_TO_
 * **script**: 
 * **flags**: 
 * **time**: 
-* **drivingStyle**: 
+* **drivingStyle**: The driving style (default is 0) (see [SetDriveTaskDrivingStyle](#_0xDACE1BE37D88AF67)).
 

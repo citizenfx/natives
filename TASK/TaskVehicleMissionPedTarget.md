@@ -16,8 +16,8 @@ See [`TASK_VEHICLE_MISSION`](#_0x659427E0EF36BCDE).
 * **pedTarget**: 
 * **missionType**: 
 * **maxSpeed**: 
-* **drivingStyle**: 
 * **minDistance**: 
 * **p7**: 
 * **DriveAgainstTraffic**: 
+* **drivingStyle**: The driving style (default is 0) (see [SetDriveTaskDrivingStyle](#_0xDACE1BE37D88AF67)).
 
