@@ -56,17 +56,23 @@ enum HeliMissionFlags
 ## Examples
 
 ```lua
-local model = `akula`
-RequestModel(model)
-repeat Wait(0) until HasModelLoaded(model)
+local heli_model = `akula`
+RequestModel(heli_model)
+repeat Wait(0) until HasModelLoaded(heli_model)
+
 local ped = PlayerPedId() -- Player needs to be outside for this to work
 local coords = GetEntityCoords(ped) + GetEntityForwardVector(ped) * 100.0
-local heli = CreateVehicle(model, coords.x, coords.y, coords.z + 50.0, GetEntityHeading(ped) - 180.0, true, false)
+local heli = CreateVehicle(heli_model, coords.x, coords.y, coords.z + 50.0, GetEntityHeading(ped) - 180.0, true, false)
+SetModelAsNoLongerNeeded(heli_model) -- Allow the game engine to clear the model from memory
 SetHeliBladesFullSpeed(heli)
-model = `a_m_m_skater_01`
-RequestModel(model)
-repeat Wait(0) until HasModelLoaded(model)
-local pilot = CreatePedInsideVehicle(heli, 0, model, -1, true, false)
+
+local ped_model = `a_m_m_skater_01`
+RequestModel(ped_model)
+repeat Wait(0) until HasModelLoaded(ped_model)
+
+local pilot = CreatePedInsideVehicle(heli, 0, ped_model, -1, true, false)
+SetModelAsNoLongerNeeded(ped_model) -- Allow the game engine to clear the model from memory
+
 TaskHeliMission(pilot, heli, 0, 0, coords.x, coords.y, coords.z, 19, 10.0, -1.0, -1.0, -1.0, -1.0, -1.0, 96)
 -- Mission Type: Land | Mission Flags: LandOnArrival | DontDoAvoidance
 SetPedKeepTask(pilot, true)

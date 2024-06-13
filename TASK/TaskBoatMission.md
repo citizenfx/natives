@@ -53,16 +53,22 @@ enum BoatMissionFlags
 ## Examples
 
 ```lua
-local model = `tropic`
-RequestModel(model)
-repeat Wait(0) until HasModelLoaded(model)
+local boat_model = `tropic`
+RequestModel(boat_model)
+repeat Wait(0) until HasModelLoaded(boat_model)
+
 local ped = PlayerPedId() -- Player needs to be in open water & in a boat for this to work
 local coords = GetEntityCoords(ped) - GetEntityForwardVector(ped) * 15.0
-local vehicle = CreateVehicle(model, coords.x, coords.y, coords.z, GetEntityHeading(ped), true, false)
-model = `a_m_m_skater_01`
-RequestModel(model)
-repeat Wait(0) until HasModelLoaded(model)
-local driver = CreatePedInsideVehicle(vehicle, 0, model, -1, true, false)
+local vehicle = CreateVehicle(boat_model, coords.x, coords.y, coords.z, GetEntityHeading(ped), true, false)
+SetModelAsNoLongerNeeded(boat_model) -- Allow the game engine to clear the model from memory
+
+local ped_model = `a_m_m_skater_01`
+RequestModel(ped_model)
+repeat Wait(0) until HasModelLoaded(ped_model)
+
+local driver = CreatePedInsideVehicle(vehicle, 0, ped_model, -1, true, false)
+SetModelAsNoLongerNeeded(ped_model) -- Allow the game engine to clear the model from memory
+
 TaskBoatMission(driver, vehicle, GetVehiclePedIsIn(ped, false), 0, 0.0, 0.0, 0.0, 7, -1.0, 786468, -1.0, 1044)
 -- Mission Type: Follow | Drive Style: DrivingModeAvoidVehiclesReckless | Mission Flags: AvoidShore | NeverStop | NeverPause
 SetPedKeepTask(driver, true)

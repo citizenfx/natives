@@ -65,16 +65,22 @@ enum VehicleDrivingFlags
 ## Examples
 
 ```lua
-local model = `adder`
-RequestModel(model)
-repeat Wait(0) until HasModelLoaded(model)
+local vehicle_model = `adder`
+RequestModel(vehicle_model)
+repeat Wait(0) until HasModelLoaded(vehicle_model)
+
 local ped = PlayerPedId() -- Player needs to be in a vehicle for this to work
 local coords = GetEntityCoords(ped) - GetEntityForwardVector(ped) * 15.0
-local vehicle = CreateVehicle(model, coords.x, coords.y, coords.z, GetEntityHeading(ped), true, false)
-model = `a_m_m_skater_01`
-RequestModel(model)
-repeat Wait(0) until HasModelLoaded(model)
-local driver = CreatePedInsideVehicle(vehicle, 0, model, -1, true, false)
+local vehicle = CreateVehicle(vehicle_model, coords.x, coords.y, coords.z, GetEntityHeading(ped), true, false)
+SetModelAsNoLongerNeeded(vehicle_model) -- Allow the game engine to clear the model from memory
+
+local ped_model = `a_m_m_skater_01`
+RequestModel(ped_model)
+repeat Wait(0) until HasModelLoaded(ped_model)
+
+local driver = CreatePedInsideVehicle(vehicle, 0, ped_model, -1, true, false)
+SetModelAsNoLongerNeeded(ped_model) -- Allow the game engine to clear the model from memory
+
 TaskVehicleChase(driver, ped)
 SetDriveTaskDrivingStyle(driver, 786468)
 -- Driving Style: DrivingModeAvoidVehiclesReckless
