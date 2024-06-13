@@ -5,7 +5,7 @@ ns: TASK
 
 ```c
 // 0xDAD029E187A2BEB4 0x0C143E97
-void TASK_HELI_MISSION(Ped ped, Vehicle heli, Vehicle vehicleTarget, Ped pedTarget, float x, float y, float z, int missionType, float speed, float radius, float heading, cs_type(Int) float height, float minHeight, cs_type(Hash) float slowDist, int missionFlags);
+void TASK_HELI_MISSION(Ped ped, Vehicle heli, Vehicle vehicleTarget, Ped pedTarget, float x, float y, float z, int missionType, float speed, float radius, float heading, cs_type(int) float height, float minHeight, cs_type(Hash) float slowDist, int missionFlags);
 ```
 
 All parameters except ped and heli are optional, with `pedTarget`, `vehicleTarget`, `x`, `y`, `z` being dependent on `missionType` (ie. Attack/Flee mission types require a target ped/vehicle, whereas GoTo mission types require either `x`, `y`, `z` or a target ped/vehicle).
