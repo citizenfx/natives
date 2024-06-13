@@ -61,13 +61,13 @@ RequestModel(model)
 repeat Wait(0) until HasModelLoaded(model)
 local ped = PlayerPedId() -- Player needs to be outside for this to work
 local coords = GetEntityCoords(ped) + GetEntityForwardVector(ped) * 100.0
-local vehicle = CreateVehicle(model, coords.x, coords.y, coords.z + 50.0, GetEntityHeading(ped) - 180.0, true, false)
-SetHeliBladesFullSpeed(vehicle)
+local heli = CreateVehicle(model, coords.x, coords.y, coords.z + 50.0, GetEntityHeading(ped) - 180.0, true, false)
+SetHeliBladesFullSpeed(heli)
 model = `a_m_m_skater_01`
 RequestModel(model)
 repeat Wait(0) until HasModelLoaded(model)
-local driver = CreatePedInsideVehicle(vehicle, 0, model, -1, true, false)
-TaskHeliMission(driver, vehicle, 0, 0, coords.x, coords.y, coords.z, 19, 10.0, -1.0, -1.0, -1.0, -1.0, -1.0, 96)
+local pilot = CreatePedInsideVehicle(heli, 0, model, -1, true, false)
+TaskHeliMission(pilot, heli, 0, 0, coords.x, coords.y, coords.z, 19, 10.0, -1.0, -1.0, -1.0, -1.0, -1.0, 96)
 -- Mission Type: Land | Mission Flags: LandOnArrival | DontDoAvoidance
-SetPedKeepTask(driver, true)
+SetPedKeepTask(pilot, true)
 ```
