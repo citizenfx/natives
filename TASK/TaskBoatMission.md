@@ -12,15 +12,6 @@ All parameters except ped and boat are optional, with `pedTarget`, `vehicleTarge
 
 If you don't want to use a parameter; pass `0.0f` for `x`, `y` and `z`, `0` for `pedTarget`, `vehicleTarget` and other int parameters, and `-1.0f` for the remaining float parameters.
 
-```
-You need to call PED::SET_BLOCKING_OF_NON_TEMPORARY_EVENTS after TASK_BOAT_MISSION in order for the task to execute.
-Working example
-float vehicleMaxSpeed = VEHICLE::_GET_VEHICLE_MAX_SPEED(ENTITY::GET_ENTITY_MODEL(pedVehicle));
-TASK::TASK_BOAT_MISSION(pedDriver, pedVehicle, 0, 0, waypointCoord.x, waypointCoord.y, waypointCoord.z, 4, vehicleMaxSpeed, 786469, -1.0, 7);
-PED::SET_BLOCKING_OF_NON_TEMPORARY_EVENTS(pedDriver, 1);
-P8 appears to be driving style flag - see gtaforums.com/topic/822314-guide-driving-styles/ for documentation
-```
-
 ```c
 enum BoatMissionFlags
 {
@@ -53,8 +44,25 @@ enum BoatMissionFlags
 * **x**: The x coordinate of the target (default is 0.0f).
 * **y**: The y coordinate of the target (default is 0.0f).
 * **z**: The z coordinate of the target (default is 0.0f).
-* **missionType**: The mission type (default is 0).
+* **missionType**: The mission type (default is 0) (see ![TaskVehicleMission](#_0x659427E0EF36BCDE)).
 * **speed**: The speed in m/s (default is -1.0f).
-* **drivingStyle**: The driving style (default is 0).
+* **drivingStyle**: The driving style (default is 0) (see ![SetDriveTaskDrivingStyle](#_0xDACE1BE37D88AF67)).
 * **radius**: The radius of when the task will be completed (default is -1.0f).
 * **missionFlags**: The mission flags (default is 0) (see `BoatMissionFlags`).
+
+## Examples
+
+```lua
+local model = `tropic`
+RequestModel(model)
+repeat Wait(0) until HasModelLoaded(model)
+local ped = PlayerPedId() -- Player needs to be in open water & in a boat for this to work
+local coords = GetEntityCoords(ped) - GetEntityForwardVector(ped) * 15.0
+local vehicle = CreateVehicle(model, coords.x, coords.y, coords.z, GetEntityHeading(ped), true, false)
+model = `a_m_m_skater_01`
+RequestModel(model)
+repeat Wait(0) until HasModelLoaded(model)
+local driver = CreatePedInsideVehicle(vehicle, 0, model, -1, true, false)
+TaskBoatMission(driver, vehicle, GetVehiclePedIsIn(ped, false), 0, 0.0, 0.0, 0.0, 7, -1.0, 786468, -1.0, 1044)
+SetPedKeepTask(driver, true)
+```
