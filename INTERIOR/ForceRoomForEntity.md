@@ -9,7 +9,7 @@ void FORCE_ROOM_FOR_ENTITY(Entity entity, int interior, Hash roomHashKey);
 ```
 
 ```
-Forces the particular room in an interior to load incase not teleporting into the portal.
+Force the entity to be registered in the specified interior and room.
 ```
 
 ## Parameters

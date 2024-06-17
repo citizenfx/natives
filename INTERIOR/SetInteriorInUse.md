@@ -1,11 +1,12 @@
 ---
 ns: INTERIOR
+aliases: ["0x4C2330E61D3DEB56"]
 ---
-## _0x4C2330E61D3DEB56
+## SET_INTERIOR_IN_USE
 
 ```c
 // 0x4C2330E61D3DEB56
-Any _0x4C2330E61D3DEB56(int interior);
+cs_type(Any) BOOL SET_INTERIOR_IN_USE(int interior);
 ```
 
 ```

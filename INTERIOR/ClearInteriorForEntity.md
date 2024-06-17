@@ -1,14 +1,15 @@
 ---
 ns: INTERIOR
+aliases: ["_CLEAR_INTERIOR_FOR_ENTITY"]
 ---
-## _CLEAR_INTERIOR_FOR_ENTITY
+## CLEAR_INTERIOR_STATE_OF_ENTITY
 
 ```c
 // 0x85D5422B2039A70D
-void _CLEAR_INTERIOR_FOR_ENTITY(Entity entity);
+void CLEAR_INTERIOR_STATE_OF_ENTITY(Entity entity);
 ```
-
-Immediately removes entity from an interior. Like sets entity to `limbo` room.
+Forces entity to outside world (limbo).
+Immediately removes entity from an interior.
 
 ```
 NativeDB Introduced: v2189
