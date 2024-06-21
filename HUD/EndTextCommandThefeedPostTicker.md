@@ -6,25 +6,26 @@ aliases: ["_DRAW_NOTIFICATION"]
 
 ```c
 // 0x2ED7843F8F801023 0x08F7AF78
-int END_TEXT_COMMAND_THEFEED_POST_TICKER(BOOL isImportant, BOOL bHasTokens);
+int END_TEXT_COMMAND_THEFEED_POST_TICKER(BOOL isImportant, BOOL showInBrief);
 ```
 
-Example output preview:
+Posts a generic feed notification:
 
 
-![](https://i.imgur.com/TJvqkYq.png)
+![](https://i.ibb.co/GkHcFvf/image.png)
 
 
 ## Examples
 ```lua
-BeginTextCommandThefeedPost("STRING")
-AddTextComponentSubstringPlayerName("Hello " .. GetPlayerName(PlayerId()) .. ".")
+AddTextEntry("MyFeedMessage", "Hello " .. GetPlayerName(PlayerId()) .. ".")
+
+BeginTextCommandThefeedPost("MyFeedMessage")
 EndTextCommandThefeedPostTicker(true, true)
 ```
 
 ## Parameters
 * **isImportant**: Makes the notification flash on the screen.
-* **bHasTokens**: Makes the notification appear in the "Pause Menu > Info/Brief > Notifications" section.
+* **showInBrief**: Makes the notification appear in the "Pause Menu > Info/Brief > Notifications" section.
 
 ## Return value
 The notification handle.
