@@ -5,12 +5,12 @@ ns: HUD
 
 ```c
 // 0x86A652570E5F25DD 0xD8C3C1CD
-void REMOVE_BLIP(Blip* blip);
+void REMOVE_BLIP(int* blip);
 ```
 
 Removes the blip from your map.
 
-**Note:** This function only works on the script that created the blip, if you wish to remove blips created by other scripts, see [`SET_THIS_SCRIPT_CAN_REMOVE_BLIPS_CREATED_BY_ANY_SCRIPT`](#_0x86A652570E5F25DD).
+**Note:** This native only works on the script that created the blip, if you wish to remove blips created by other scripts, see [`SET_THIS_SCRIPT_CAN_REMOVE_BLIPS_CREATED_BY_ANY_SCRIPT`](#_0xB98236CAAECEF897).
 
 ## Parameters
 * **blip**: Blip handle to remove.
