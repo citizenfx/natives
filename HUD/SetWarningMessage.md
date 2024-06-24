@@ -74,8 +74,8 @@ enum INSTRUCTIONAL_BUTTON_TYPES
 Note: this list is definitely NOT complete, but these are the ones I've been able to find before giving up because it's such a boring thing to look for 'good' combinations.
 
 **Result of the example code:**
-[https://i.imgur.com/imwoimm.png](https://i.imgur.com/imwoimm.png)
 
+![](./SetWarningMessage/cNm7zZe.webp)
 
 ## Parameters
 * **entryLine1**: The text label to display as the first line of the warning message.
@@ -87,9 +87,6 @@ Note: this list is definitely NOT complete, but these are the ones I've been abl
 * **p6**: Purpose unknown.
 * **showBg**: Purpose unknown.
 * **errorCode**: When not 0, adds a field displaying the value as 'error code' to the warning message.
-
-
-
 
 ## Examples
 ```lua
@@ -106,7 +103,6 @@ AddEventHandler("optionSelected", function(selected)
     -- the instructional buttons with their mouse and it will trigger
     -- the event as well.
 end)
-
 
 -- Create a thread to loop this warning message.
 CreateThread(function()
