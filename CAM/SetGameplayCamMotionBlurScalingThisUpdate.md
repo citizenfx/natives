@@ -2,11 +2,11 @@
 ns: CAM
 aliases: ["0x487A82C650EB7799"]
 ---
-## CUSTOM_MENU_COORDINATES
+## SET_GAMEPLAY_CAM_MOTION_BLUR_SCALING_THIS_UPDATE
 
 ```c
 // 0x487A82C650EB7799 0xA6E73135
-void CUSTOM_MENU_COORDINATES(float p0);
+void SET_GAMEPLAY_CAM_MOTION_BLUR_SCALING_THIS_UPDATE(float p0);
 ```
 
 ```
@@ -14,5 +14,5 @@ some camera effect that is used in the drunk-cheat, and turned off (by setting i
 ```
 
 ## Parameters
-* **p0**: 
+* **p0**: the scaling.
 
