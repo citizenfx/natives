@@ -18,7 +18,9 @@ completely - is to check if tire completely gone from rim.
 '4 = wheel_lr / bike rear / in 6 wheels trailer, plane or jet is last one on left  
 '5 = wheel_rr / in 6 wheels trailer, plane or jet is last one on right  
 '45 = 6 wheels trailer mid wheel left  
-'47 = 6 wheels trailer mid wheel right  
+'47 = 6 wheels trailer mid wheel right
+'412 = wheel_lm2 / 8 wheels 3rd wheel from passenger side
+'416 = wheel_rm2 / 8 wheels 3rd wheel from driver side
 ```
 
 ## Parameters
