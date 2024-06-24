@@ -9,9 +9,8 @@ aliases: ["0x68F8BE6AF5CDF8A6"]
 void _GIVE_LOADOUT_TO_PED(Ped ped, cs_type(Any) Hash loadoutHash);
 ```
 
+List of all available loadouts:
 ```
-List of all available loadouts :
-
 LOADOUT_DEFAULT
 LOADOUT_ANIMAL
 LOADOUT_COUGAR
@@ -59,8 +58,12 @@ LOADOUT_CAT
 LOADOUT_COW
 ```
 
-
 ## Parameters
-* **ped**: 
-* **loadoutHash**: 
+* **ped**: The ped handle to apply this to.
+* **loadoutHash**: The loadout to use (needs to be a hash).
+
+## Examples
+```lua
+GiveLoadoutToPed(PlayerPedId(), `LOADOUT_FIREMAN`)
+```
 
