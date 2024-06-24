@@ -5,15 +5,10 @@ ns: NETWORK
 
 ```c
 // 0xBBDF066252829606 0x72052DB3
-void NETWORK_CONCEAL_PLAYER(Player player, BOOL toggle, BOOL p2);
+void NETWORK_CONCEAL_PLAYER(Player player, BOOL toggle, BOOL bAllowDamagingWhileConcealed);
 ```
 
 This is what R* uses to hide players in MP interiors.
-
-## Parameters
-* **player**: 
-* **toggle**: 
-* **p2**: 
 
 To manage player visibility with NetworkConcealPlayer, here’s a solid approach:
 
@@ -27,6 +22,10 @@ To manage player visibility with NetworkConcealPlayer, here’s a solid approach
 
 This setup keeps instance players separate from each other while allowing interaction with the general population.
 
+## Parameters
+* **player**: 
+* **toggle**: 
+* **bAllowDamagingWhileConcealed**: 
 
 ```lua
 -- Function to manage player visibility
