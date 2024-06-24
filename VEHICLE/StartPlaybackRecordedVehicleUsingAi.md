@@ -19,5 +19,5 @@ AI abides by the provided driving style (e.g., stopping at red lights or waiting
 * **recording**: 
 * **script**: 
 * **speed**: 
-* **drivingStyle**: 
+* **drivingStyle**: The driving style (default is 0) (see [SetDriveTaskDrivingStyle](#_0xDACE1BE37D88AF67)).
 

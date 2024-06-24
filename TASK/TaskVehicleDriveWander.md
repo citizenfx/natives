@@ -14,7 +14,7 @@ Drive randomly with no destination set.
 * **ped**: Ped id for the task.
 * **vehicle**: Vehicle entity id for the task.
 * **speed**: Speed of driving.
-* **drivingStyle**: More info can be found [here](https://vespura.com/fivem/drivingstyle/)
+* **drivingStyle**: The driving style (default is 0) (see [SetDriveTaskDrivingStyle](#_0xDACE1BE37D88AF67)).
 
 ## Examples
 ```cs

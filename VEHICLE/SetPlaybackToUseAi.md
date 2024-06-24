@@ -12,5 +12,5 @@ Identical to SET_PLAYBACK_TO_USE_AI_TRY_TO_REVERT_BACK_LATER with 0 as arguments
 
 ## Parameters
 * **vehicle**: 
-* **drivingStyle**: 
+* **drivingStyle**: The driving style (default is 0) (see [SetDriveTaskDrivingStyle](#_0xDACE1BE37D88AF67)).
 

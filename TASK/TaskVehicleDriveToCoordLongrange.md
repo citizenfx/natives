@@ -5,7 +5,7 @@ ns: TASK
 
 ```c
 // 0x158BB33F920D360C 0x1490182A
-void TASK_VEHICLE_DRIVE_TO_COORD_LONGRANGE(Ped ped, Vehicle vehicle, float x, float y, float z, float speed, int driveMode, float stopRange);
+void TASK_VEHICLE_DRIVE_TO_COORD_LONGRANGE(Ped ped, Vehicle vehicle, float x, float y, float z, float speed, int drivingStyle, float stopRange);
 ```
 
 You can let your character drive to the destination at the speed and driving style you set. You can use map marks to set the destination.
@@ -17,7 +17,7 @@ You can let your character drive to the destination at the speed and driving sty
 * **y**: Destination Y coordinate.
 * **z**: Destination Z coordinate.
 * **speed**: Speed of driving.
-* **driveMode**: More info can be found [here](https://vespura.com/fivem/drivingstyle/)
+* **drivingStyle**: The driving style (default is 0) (see [SetDriveTaskDrivingStyle](#_0xDACE1BE37D88AF67)).
 * **stopRange**: Stops in the specific range near the destination. 20.0 works fine.
 
 ## Examples
