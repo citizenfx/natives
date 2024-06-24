@@ -11,7 +11,7 @@ void DISPLAY_PLAYER_NAME_TAGS_ON_BLIPS(BOOL toggle);
 
 Toggles whether or not name labels are shown on the expanded minimap next to player blips, like in GTA:O.
 Doesn't need to be called every frame.
-Preview: https://i.imgur.com/DfqKWfJ.png
+Preview: https://i.imgur.com/jAglStg.png
 Make sure to call SET_BLIP_CATEGORY with index 7 for this to work on the desired blip.
 
 ## Parameters
