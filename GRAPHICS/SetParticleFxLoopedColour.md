@@ -17,4 +17,4 @@ You can use the [inverse lerp](https://www.gamedev.net/articles/programming/gene
 * **r**: range from 0.0 to 1.0
 * **g**: range from 0.0 to 1.0
 * **b**: range from 0.0 to 1.0
-* **bLocalOnly**: Defines whether the effect should be modified over the network or not. Set this to false if you want to apply the effect over the network.
+* **bLocalOnly**: False by default. Defines whether the effect should be sent and modified over the network or not. Set this to `true` if you don't want to send the effect over the network.
