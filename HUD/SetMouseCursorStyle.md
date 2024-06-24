@@ -45,5 +45,5 @@ Available styles are:
 | 12  | Arrow Minus         |
 
 ## Parameters
-* **style**: Which sprite to change to see declared enum `eMousePointerStyle`.
+* **style**: Which sprite to change to, see declared enum `eMousePointerStyle`.
 
