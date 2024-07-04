@@ -9,10 +9,11 @@ aliases: ["SET_FOLLOW_PED_CAM_CUTSCENE_CHAT"]
 BOOL SET_FOLLOW_PED_CAM_THIS_UPDATE(char* camName, int easeTime);
 ```
 
-Overrides the ped follow camera (not first person camera) with the specified camera. The game loads all camera metadata from `update/update.rpf/x64/data/metadata/cameras.ymt` with the ped follow cameras being of type `camFollowPedCameraMetadata`.
+Overrides the ped follow camera (not first person camera) with the specified camera. The game loads all camera metadata from `update/update.rpf/x64/data/metadata/cameras.ymt` and `x64a.rpf/data/metadata/cameras.ymt` with the ped follow cameras being of type `camFollowPedCameraMetadata`.
 
 ```c
 enum ePedCameras {
+    "DEFAULT_FOLLOW_PED_CAMERA",
     "FOLLOW_PED_ATTACHED_TO_ROPE_CAMERA",
     "FOLLOW_PED_ON_EXILE1_LADDER_CAMERA",
     "FOLLOW_PED_SKY_DIVING_CAMERA",
