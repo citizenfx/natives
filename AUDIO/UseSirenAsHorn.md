@@ -5,11 +5,9 @@ ns: AUDIO
 
 ```c
 // 0xFA932DE350266EF8 0xC6BC16F3
-void USE_SIREN_AS_HORN(Vehicle vehicle, BOOL toggle);
+void USE_SIREN_AS_HORN(Vehicle vehicle, BOOL sirenAsHorn);
 ```
 
-
 ## Parameters
-* **vehicle**: 
-* **toggle**: 
-
+* **vehicle**:
+* **sirenAsHorn**:

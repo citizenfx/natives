@@ -8,7 +8,7 @@ ns: ENTITY
 void FREEZE_ENTITY_POSITION(Entity entity, BOOL toggle);
 ```
 
-Freezes or unfreezes an entity preventing its coordinates to change by the player if set to `true`. You can still change the entity position using SET_ENTITY_COORDS.
+Freezes or unfreezes an entity preventing its coordinates to change by the player if set to `true`. You can still change the entity position using [`SET_ENTITY_COORDS`](#_0x06843DA7060A026B).
 
 ## Parameters
 * **entity**: The entity to freeze/unfreeze.
@@ -17,18 +17,34 @@ Freezes or unfreezes an entity preventing its coordinates to change by the playe
 ## Examples
 
 ```lua
-FreezeEntityPosition(PlayerPedId(), true)
+-- Freeze the local player.
+
+-- Retrieve the player ped
+local playerPed = PlayerPedId() 
+
+-- Freeze the ped
+FreezeEntityPosition(playerPed, true)
 ```
 
 ```js
-FreezeEntityPosition(PlayerPedId(), true);
+// Freeze the local player.
+
+// Retrieve the player ped
+const playerPed = PlayerPedId();
+
+// Freeze the ped
+FreezeEntityPosition(playerPed, true);
 ```
 
 ```cs
 using static CitizenFX.Core.Native.API;
-// ...
+// Freeze the local player.
 
-FreezeEntityPosition(PlayerPedId(), true);
+// Retrieve the player ped
+Ped playerPed = PlayerPedId();
+
+// Freeze the ped
+FreezeEntityPosition(playerPed, true);
 
 // or the preferred use of C# wrapper
 Game.PlayerPed.IsPositionFrozen = true;

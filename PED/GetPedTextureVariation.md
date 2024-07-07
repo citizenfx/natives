@@ -8,13 +8,8 @@ ns: PED
 int GET_PED_TEXTURE_VARIATION(Ped ped, int componentId);
 ```
 
-```
-List of component/props ID  
-gtaxscripting.blogspot.com/2016/04/gta-v-peds-component-and-props.html  
-```
-
 ## Parameters
-* **ped**: 
-* **componentId**: 
+* **ped**: The ped handle.
+* **componentId**: The component id to get the texture variation from. Refer to [SET_PED_COMPONENT_VARIATION](#_0x262B14F48D29DE80).
 
 ## Return value

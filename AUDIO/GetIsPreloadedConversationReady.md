@@ -9,5 +9,5 @@ aliases: ["0xE73364DB90778FFA"]
 BOOL GET_IS_PRELOADED_CONVERSATION_READY();
 ```
 
-
 ## Return value
+Returns true if the preloaded conversation has finished preparing.

@@ -8,9 +8,9 @@ ns: HUD
 void GET_HUD_COLOUR(int hudColorIndex, int* r, int* g, int* b, int* a);
 ```
 
-```
-HUD colors and their values: pastebin.com/d9aHPbXN  
-```
+Gets hud color RGBA parameter values by passing a hud color index (hudColorIndex).
+
+HUD colors can be found [here](https://docs.fivem.net/docs/game-references/hud-colors/)  
 
 ## Parameters
 * **hudColorIndex**: 

@@ -8,9 +8,6 @@ ns: HUD
 void SET_BLIP_COLOUR(Blip blip, int color);
 ```
 
-See https://docs.fivem.net/docs/game-references/blips/#BlipColors
-
 ## Parameters
 * **blip**: 
-* **color**: 
-
+* **color**: See [blip colors here](https://docs.fivem.net/docs/game-references/blips/#blip-colors)

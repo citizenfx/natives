@@ -10,6 +10,8 @@ void OVERRIDE_TREVOR_RAGE(char* voiceEffect);
 
 This native enables the audio flag "TrevorRageIsOverridden" and sets the voice effect to `voiceEffect`
 
+To clear the override use [RESET_TREVOR_RAGE](#_0xE78503B10C4314E0)
+
 ## Parameters
-* **voiceEffect**: 
+* **voiceEffect**:
 

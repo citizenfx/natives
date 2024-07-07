@@ -8,14 +8,12 @@ ns: CAM
 void SET_CAM_FOV(Cam cam, float fieldOfView);
 ```
 
+Adjusts the field of view (FOV) for a specified camera, allowing for a wider or narrower perspective of the game world. The field of view is measured in degrees and affects how much of the game world is visible at any given moment through the camera.
+
 ```
-Sets the field of view of the cam.  
----------------------------------------------  
-Min: 1.0f  
-Max: 130.0f  
+NativeDB Introduced: v323
 ```
 
 ## Parameters
-* **cam**: 
-* **fieldOfView**: 
-
+* **cam**: The camera whose FOV is being set.
+* **fieldOfView**: The new FOV value, in degrees. Valid range is from `1.0f` (minimum FOV, for a very narrow view) to `130.0f` (maximum FOV, for a very wide view).

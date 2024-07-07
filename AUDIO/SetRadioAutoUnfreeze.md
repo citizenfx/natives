@@ -10,5 +10,5 @@ void SET_RADIO_AUTO_UNFREEZE(BOOL toggle);
 
 
 ## Parameters
-* **toggle**: 
+* **toggle**: if true the radio will automatically unfreeze as soon as the player gets in a vehicle
 

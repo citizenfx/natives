@@ -6,17 +6,23 @@ aliases: ["0xEE066C7006C49C0A"]
 
 ```c
 // 0xEE066C7006C49C0A 0x498849F3
-void PLAY_ANIMAL_VOCALIZATION(Ped pedHandle, int p1, char* speechName);
+void PLAY_ANIMAL_VOCALIZATION(Ped pedHandle, int animalType, char* speechName);
 ```
 
-```
-Plays sounds from a ped with chop model. For example it used to play bark or sniff sounds. p1 is always 3 or 4294967295 in decompiled scripts. By a quick disassembling I can assume that this arg is unused.
-This native is works only when you call it on the ped with right model (ac_chop only ?)
-Speech Name can be: CHOP_SNIFF_SEQ CHOP_WHINE CHOP_LICKS_MOUTH CHOP_PANT bark GROWL SNARL BARK_SEQ
+```c
+enum eAudAnimalType {
+	AUD_ANIMAL_NONE = -1,
+	AUD_ANIMAL_BOAR,
+	AUD_ANIMAL_CHICKEN,
+	AUD_ANIMAL_DOG,
+	AUD_ANIMAL_DOG_ROTTWEILER,
+	AUD_ANIMAL_HORSE,
+	AUD_NUM_ANIMALS
+}
 ```
 
 ## Parameters
-* **pedHandle**: 
-* **p1**: 
-* **speechName**: 
+* **pedHandle**:
+* **animalType**:
+* **speechName**:
 

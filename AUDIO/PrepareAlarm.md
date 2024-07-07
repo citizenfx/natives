@@ -8,12 +8,10 @@ ns: AUDIO
 BOOL PREPARE_ALARM(char* alarmName);
 ```
 
-```
-Example:  
-bool prepareAlarm = AUDIO::PREPARE_ALARM("PORT_OF_LS_HEIST_FORT_ZANCUDO_ALARMS");  
-```
+Prepares any banks required to play the given alarm
 
 ## Parameters
-* **alarmName**: 
+* **alarmName**:
 
 ## Return value
+Returns true if the alarm was successfully prepared

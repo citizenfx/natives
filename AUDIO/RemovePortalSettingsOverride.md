@@ -6,7 +6,7 @@ aliases: ["0xB4BBFD9CD8B3922B"]
 
 ```c
 // 0xB4BBFD9CD8B3922B 0xD24B4D0C
-void REMOVE_PORTAL_SETTINGS_OVERRIDE(char* p0);
+void REMOVE_PORTAL_SETTINGS_OVERRIDE(char* portalSettingsName);
 ```
 
 ```
@@ -18,6 +18,7 @@ void REMOVE_PORTAL_SETTINGS_OVERRIDE(char* p0);
  AUDIO::_B4BBFD9CD8B3922B("V_MICHAEL_PS_BATHROOM_WITH_WINDOW");
 ```
 
-## Parameters
-* **p0**: 
+For events like cars driving through windows, allows script to unocclude that window
 
+## Parameters
+* **portalSettingsName**:

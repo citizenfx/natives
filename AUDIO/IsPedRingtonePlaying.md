@@ -10,6 +10,7 @@ BOOL IS_PED_RINGTONE_PLAYING(Ped ped);
 
 
 ## Parameters
-* **ped**: 
+* **ped**:
 
 ## Return value
+Returns true if the peds ringtone is currently playing

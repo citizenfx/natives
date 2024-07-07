@@ -8,11 +8,5 @@ ns: PED
 void CLEAR_ALL_PED_PROPS(Ped ped);
 ```
 
-```
-List of component/props ID  
-gtaxscripting.blogspot.com/2016/04/gta-v-peds-component-and-props.html  
-```
-
 ## Parameters
-* **ped**: 
-
+* **ped**: The ped handle.

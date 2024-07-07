@@ -8,8 +8,5 @@ ns: AUDIO
 char* GET_PLAYER_RADIO_STATION_NAME();
 ```
 
-```
-Returns active radio station name  
-```
-
 ## Return value
+Returns the name of the players radio station. This serves as the text label.

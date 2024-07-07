@@ -37,7 +37,7 @@ Parentheses indicate morph scale/direction as in (-1.0 to 1.0)
 
 **Note:**
 
-You may need to call [`SetPedHeadBlendData`](#0x9414E18B9434C2FE) prior to calling this native in order for it to work.
+You may need to call [`SetPedHeadBlendData`](#_0x9414E18B9434C2FE) prior to calling this native in order for it to work.
 
 ## Parameters
 * **ped**: The ped entity

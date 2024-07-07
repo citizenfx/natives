@@ -8,12 +8,8 @@ ns: AUDIO
 BOOL IS_AMBIENT_SPEECH_DISABLED(Ped ped);
 ```
 
-```
-Common in the scripts:  
-AUDIO::IS_AMBIENT_SPEECH_DISABLED(PLAYER::PLAYER_PED_ID());  
-```
-
 ## Parameters
-* **ped**: 
+* **ped**:
 
 ## Return value
+Returns true if ambient speech for the ped has been disabled

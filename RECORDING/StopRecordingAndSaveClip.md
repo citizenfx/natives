@@ -9,7 +9,4 @@ aliases: ["_STOP_RECORDING"]
 void _STOP_RECORDING_AND_SAVE_CLIP();
 ```
 
-```
 Stops recording and saves the recorded clip.  
-```
-

@@ -8,5 +8,5 @@ ns: AUDIO
 int GET_STREAM_PLAY_TIME();
 ```
 
-
 ## Return value
+Returns the currently playing stream's play time
