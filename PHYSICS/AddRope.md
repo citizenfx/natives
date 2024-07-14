@@ -22,9 +22,9 @@ Rope will sometimes contract and fall to the ground like you'd expect it to, but
 * **rotX**: Rotation X component.
 * **rotY**: Rotation Y component.
 * **rotZ**: Rotation Z component.
-* **maxLength**: The maximum length the rope can droop.
+* **initLength**: Lenght of the rope when spawned.
 * **ropeType**: 1 to 4 are thick ropes. 5 and up are thin ropes. Ropes types defined in ropedata.xml. An invalid rope type such as 0 will crash the game.
-* **initLength**: The initial length of the rope.
+* **maxLength**: Maximum lenght the rope can reach.
 * **minLength**: The minimum length the rope can be.
 * **lengthChangeRate**: The speed in which the rope will wind if winding is started.
 * **onlyPPU**: 
