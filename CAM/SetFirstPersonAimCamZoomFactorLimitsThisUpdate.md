@@ -1,0 +1,16 @@
+---
+ns: CAM
+aliases: ["0xCED08CBE8EBB97C7"]
+---
+## SET_FIRST_PERSON_AIM_CAM_ZOOM_FACTOR_LIMITS_THIS_UPDATE
+
+```c
+// 0xCED08CBE8EBB97C7 0x68BA0730
+void SET_FIRST_PERSON_AIM_CAM_ZOOM_FACTOR_LIMITS_THIS_UPDATE(float p0, float p1);
+```
+
+
+## Parameters
+* **p0**: 
+* **p1**: 
+

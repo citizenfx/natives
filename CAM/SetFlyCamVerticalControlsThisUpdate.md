@@ -1,0 +1,15 @@
+---
+ns: CAM
+aliases: ["0xC8B5C4A79CC18B94"]
+---
+## SET_FLY_CAM_VERTICAL_CONTROLS_THIS_UPDATE
+
+```c
+// 0xC8B5C4A79CC18B94 0x44473EFC
+void SET_FLY_CAM_VERTICAL_CONTROLS_THIS_UPDATE(Cam cam);
+```
+
+
+## Parameters
+* **cam**: 
+

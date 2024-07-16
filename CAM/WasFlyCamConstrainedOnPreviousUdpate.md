@@ -1,0 +1,19 @@
+---
+ns: CAM
+aliases: ["0x5C48A1D6E3B33179"]
+---
+## WAS_FLY_CAM_CONSTRAINED_ON_PREVIOUS_UDPATE
+
+```c
+// 0x5C48A1D6E3B33179 0xDA931D65
+BOOL WAS_FLY_CAM_CONSTRAINED_ON_PREVIOUS_UDPATE(Cam cam);
+```
+
+```
+W*
+```
+
+## Parameters
+* **cam**: 
+
+## Return value
