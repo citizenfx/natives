@@ -1,0 +1,15 @@
+---
+ns: NETWORK
+aliases: ["0xBF22E0F32968E967"]
+---
+## NETWORK_LEAVE_PED_BEHIND_BEFORE_CUTSCENE
+
+```c
+// 0xBF22E0F32968E967 0x22E03AD0
+void NETWORK_LEAVE_PED_BEHIND_BEFORE_CUTSCENE(Player player, BOOL p1);
+```
+
+## Parameters
+* **player**: 
+* **p1**: 
+

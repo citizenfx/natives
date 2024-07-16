@@ -1,0 +1,16 @@
+---
+ns: NETWORK
+aliases: ["0x2D5DC831176D0114"]
+---
+## UGC_IS_DESCRIPTION_REQUEST_IN_PROGRESS
+
+```c
+// 0x2D5DC831176D0114 0xA69AE16C
+BOOL UGC_IS_DESCRIPTION_REQUEST_IN_PROGRESS(Any p0);
+```
+
+
+## Parameters
+* **p0**: 
+
+## Return value

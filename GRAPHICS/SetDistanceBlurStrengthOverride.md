@@ -1,0 +1,15 @@
+---
+ns: GRAPHICS
+aliases: ["0xE2892E7E55D7073A"]
+---
+## SET_DISTANCE_BLUR_STRENGTH_OVERRIDE
+
+```c
+// 0xE2892E7E55D7073A 0x455F1084
+void SET_DISTANCE_BLUR_STRENGTH_OVERRIDE(float p0);
+```
+
+
+## Parameters
+* **p0**: 
+

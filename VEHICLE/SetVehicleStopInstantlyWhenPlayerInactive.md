@@ -1,0 +1,15 @@
+---
+ns: VEHICLE
+aliases: ["0x6EBFB22D646FFC18"]
+---
+## SET_VEHICLE_STOP_INSTANTLY_WHEN_PLAYER_INACTIVE
+
+```c
+// 0x6EBFB22D646FFC18 0x847F1304
+void SET_VEHICLE_STOP_INSTANTLY_WHEN_PLAYER_INACTIVE(Vehicle vehicle, BOOL p1);
+```
+
+## Parameters
+* **vehicle**: 
+* **p1**: 
+

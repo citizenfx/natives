@@ -1,0 +1,16 @@
+---
+ns: SOCIALCLUB
+aliases: ["0xF22CA0FD74B80E7A"]
+---
+## SC_LICENSEPLATE_GET_CHECK_IS_VALID
+
+```c
+// 0xF22CA0FD74B80E7A 0xF379DCE4
+BOOL SC_LICENSEPLATE_GET_CHECK_IS_VALID(Any p0);
+```
+
+
+## Parameters
+* **p0**: 
+
+## Return value

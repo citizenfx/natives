@@ -1,0 +1,18 @@
+---
+ns: HUD
+aliases: ["0x57D760D55F54E071"]
+---
+## FORCE_NEXT_MESSAGE_TO_PREVIOUS_BRIEFS_LIST
+
+```c
+// 0x57D760D55F54E071 0x9854485F
+void FORCE_NEXT_MESSAGE_TO_PREVIOUS_BRIEFS_LIST(int p0);
+```
+
+```
+FORCE_*
+```
+
+## Parameters
+* **p0**: 
+

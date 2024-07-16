@@ -1,0 +1,19 @@
+---
+ns: VEHICLE
+aliases: ["0xC50CE861B55EAB8B"]
+---
+## SET_VEHICLE_LIMIT_SPEED_WHEN_PLAYER_INACTIVE
+
+```c
+// 0xC50CE861B55EAB8B 0x40C323AE
+void SET_VEHICLE_LIMIT_SPEED_WHEN_PLAYER_INACTIVE(Vehicle vehicle, BOOL p1);
+```
+
+```
+SET_VEHICLE_LI*
+```
+
+## Parameters
+* **vehicle**: 
+* **p1**: 
+

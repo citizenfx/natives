@@ -1,0 +1,16 @@
+---
+ns: STATS
+aliases: ["0xECB41AC6AB754401"]
+---
+## STAT_LOAD_DIRTY_READ_DETECTED
+
+```c
+// 0xECB41AC6AB754401 0xED7000C8
+BOOL STAT_LOAD_DIRTY_READ_DETECTED();
+```
+
+```
+STAT_LOAD_*
+```
+
+## Return value

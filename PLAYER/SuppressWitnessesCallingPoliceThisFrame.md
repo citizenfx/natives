@@ -1,0 +1,15 @@
+---
+ns: PLAYER
+aliases: ["0x36F1B38855F2A8DF"]
+---
+## SUPPRESS_WITNESSES_CALLING_POLICE_THIS_FRAME
+
+```c
+// 0x36F1B38855F2A8DF 0x3A7E5FB6
+void SUPPRESS_WITNESSES_CALLING_POLICE_THIS_FRAME(Player player);
+```
+
+
+## Parameters
+* **player**: 
+

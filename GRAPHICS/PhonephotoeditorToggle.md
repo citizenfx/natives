@@ -1,0 +1,16 @@
+---
+ns: GRAPHICS
+aliases: ["0x7AC24EAB6D74118D"]
+---
+## PHONEPHOTOEDITOR_TOGGLE
+
+```c
+// 0x7AC24EAB6D74118D 0xB2410EAB
+BOOL PHONEPHOTOEDITOR_TOGGLE(BOOL p0);
+```
+
+
+## Parameters
+* **p0**: 
+
+## Return value

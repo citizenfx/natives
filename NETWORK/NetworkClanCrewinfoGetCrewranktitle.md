@@ -1,0 +1,17 @@
+---
+ns: NETWORK
+aliases: ["0x2B51EDBEFC301339"]
+---
+## NETWORK_CLAN_CREWINFO_GET_CREWRANKTITLE
+
+```c
+// 0x2B51EDBEFC301339 0x8E952B12
+BOOL NETWORK_CLAN_CREWINFO_GET_CREWRANKTITLE(int p0, char* p1);
+```
+
+
+## Parameters
+* **p0**: 
+* **p1**: 
+
+## Return value

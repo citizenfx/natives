@@ -1,0 +1,16 @@
+---
+ns: OBJECT
+aliases: ["0xDB41D07A45A6D4B7"]
+---
+## GET_DEFAULT_AMMO_FOR_WEAPON_PICKUP
+
+```c
+// 0xDB41D07A45A6D4B7 0x000E92DC
+Any GET_DEFAULT_AMMO_FOR_WEAPON_PICKUP(Any p0);
+```
+
+
+## Parameters
+* **p0**: 
+
+## Return value

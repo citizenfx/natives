@@ -1,0 +1,16 @@
+---
+ns: NETWORK
+aliases: ["0x4DF7CFFF471A7FB1"]
+---
+## NETWORK_ENTITY_AREA_HAVE_ALL_REPLIED
+
+```c
+// 0x4DF7CFFF471A7FB1 0xCB1CD6D3
+BOOL NETWORK_ENTITY_AREA_HAVE_ALL_REPLIED(Any p0);
+```
+
+
+## Parameters
+* **p0**: 
+
+## Return value

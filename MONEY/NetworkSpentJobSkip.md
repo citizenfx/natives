@@ -1,19 +1,12 @@
 ---
 ns: MONEY
+aliases: ["0x7C4FCCD2E4DEB394"]
 ---
-## _NETWORK_SPENT_JOB_SKIP
+## NETWORK_SPENT_JOB_SKIP
 
 ```c
-// 0x28F174A67B8D0C2F
-void _NETWORK_SPENT_JOB_SKIP(int amount, char* matchId, BOOL p2, BOOL p3);
+// 0x7C4FCCD2E4DEB394 0x468CC978
+BOOL NETWORK_SPENT_JOB_SKIP();
 ```
 
-```
-NativeDB Introduced: v323
-```
-
-## Parameters
-* **amount**:
-* **matchId**:
-* **p2**:
-* **p3**:
+## Return value

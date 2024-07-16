@@ -1,0 +1,13 @@
+---
+ns: DLC
+aliases: ["0x9489659372A81585"]
+---
+## GET_EXTRACONTENT_CLOUD_RESULT
+
+```c
+// 0x9489659372A81585 0xC2169164
+BOOL GET_EXTRACONTENT_CLOUD_RESULT();
+```
+
+## Return value
+Hard-coded to always return 0.

@@ -1,0 +1,16 @@
+---
+ns: GRAPHICS
+aliases: ["0xCB82A0BF0E3E3265"]
+---
+## GET_STATUS_OF_CREATE_LOW_QUALITY_COPY_OF_PHOTO
+
+```c
+// 0xCB82A0BF0E3E3265 0xCFCDC518
+int GET_STATUS_OF_CREATE_LOW_QUALITY_COPY_OF_PHOTO(int p0);
+```
+
+
+## Parameters
+* **p0**: 
+
+## Return value

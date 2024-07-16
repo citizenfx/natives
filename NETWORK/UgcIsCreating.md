@@ -1,0 +1,13 @@
+---
+ns: NETWORK
+aliases: ["0x9FEDF86898F100E9"]
+---
+## UGC_IS_CREATING
+
+```c
+// 0x9FEDF86898F100E9 0x798D6C27
+Any UGC_IS_CREATING();
+```
+
+
+## Return value

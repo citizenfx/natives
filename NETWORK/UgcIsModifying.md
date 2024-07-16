@@ -1,0 +1,13 @@
+---
+ns: NETWORK
+aliases: ["0x45E816772E93A9DB"]
+---
+## UGC_IS_MODIFYING
+
+```c
+// 0x45E816772E93A9DB 0x8E664EFD
+Any UGC_IS_MODIFYING();
+```
+
+
+## Return value

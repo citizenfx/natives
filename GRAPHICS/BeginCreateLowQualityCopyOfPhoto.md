@@ -1,0 +1,16 @@
+---
+ns: GRAPHICS
+aliases: ["0x759650634F07B6B4"]
+---
+## BEGIN_CREATE_LOW_QUALITY_COPY_OF_PHOTO
+
+```c
+// 0x759650634F07B6B4 0x25D569EB
+BOOL BEGIN_CREATE_LOW_QUALITY_COPY_OF_PHOTO(int p0);
+```
+
+
+## Parameters
+* **p0**: 
+
+## Return value

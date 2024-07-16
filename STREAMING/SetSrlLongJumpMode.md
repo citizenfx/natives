@@ -1,0 +1,15 @@
+---
+ns: STREAMING
+aliases: ["0x20C6C7E4EB082A7F"]
+---
+## SET_SRL_LONG_JUMP_MODE
+
+```c
+// 0x20C6C7E4EB082A7F 0xA6459CAA
+void SET_SRL_LONG_JUMP_MODE(BOOL p0);
+```
+
+
+## Parameters
+* **p0**: 
+

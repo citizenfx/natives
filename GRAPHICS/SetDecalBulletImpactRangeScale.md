@@ -1,0 +1,15 @@
+---
+ns: GRAPHICS
+aliases: ["0x46D1A61A21F566FC"]
+---
+## SET_DECAL_BULLET_IMPACT_RANGE_SCALE
+
+```c
+// 0x46D1A61A21F566FC 0x2056A015
+void SET_DECAL_BULLET_IMPACT_RANGE_SCALE(float p0);
+```
+
+
+## Parameters
+* **p0**: 
+

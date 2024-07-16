@@ -1,0 +1,18 @@
+---
+ns: GRAPHICS
+aliases: ["0xE63D7C6EECECB66B"]
+---
+## TOGGLE_PLAYER_DAMAGE_OVERLAY
+
+```c
+// 0xE63D7C6EECECB66B 0xD34A6CBA
+void TOGGLE_PLAYER_DAMAGE_OVERLAY(BOOL toggle);
+```
+
+```
+TOGGLE_*
+```
+
+## Parameters
+* **toggle**: 
+

@@ -1,0 +1,15 @@
+---
+ns: OBJECT
+aliases: ["0x762DB2D380B48D04"]
+---
+## CLEAR_PICKUP_REWARD_TYPE_SUPPRESSION
+
+```c
+// 0x762DB2D380B48D04 0xD1BAAFB7
+void CLEAR_PICKUP_REWARD_TYPE_SUPPRESSION(Any p0);
+```
+
+
+## Parameters
+* **p0**: 
+

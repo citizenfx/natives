@@ -1,0 +1,16 @@
+---
+ns: VEHICLE
+aliases: ["0x88BC673CA9E0AE99"]
+---
+## SET_VEHICLE_USE_MORE_RESTRICTIVE_SPAWN_CHECKS
+
+```c
+// 0x88BC673CA9E0AE99 0xF0E5C41D
+void SET_VEHICLE_USE_MORE_RESTRICTIVE_SPAWN_CHECKS(Vehicle vehicle, BOOL p1);
+```
+
+
+## Parameters
+* **vehicle**: 
+* **p1**: 
+

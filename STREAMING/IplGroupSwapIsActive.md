@@ -1,0 +1,13 @@
+---
+ns: STREAMING
+aliases: ["0x5068F488DDB54DD8"]
+---
+## IPL_GROUP_SWAP_IS_ACTIVE
+
+```c
+// 0x5068F488DDB54DD8 0xDAB4BAC0
+Any IPL_GROUP_SWAP_IS_ACTIVE();
+```
+
+
+## Return value

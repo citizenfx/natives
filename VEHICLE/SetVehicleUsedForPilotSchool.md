@@ -1,0 +1,16 @@
+---
+ns: VEHICLE
+aliases: ["0xE05DD0E9707003A3"]
+---
+## SET_VEHICLE_USED_FOR_PILOT_SCHOOL
+
+```c
+// 0xE05DD0E9707003A3 0x123E5B90
+void SET_VEHICLE_USED_FOR_PILOT_SCHOOL(Any p0, BOOL p1);
+```
+
+
+## Parameters
+* **p0**: 
+* **p1**: 
+

@@ -1,0 +1,16 @@
+---
+ns: NETWORK
+aliases: ["0x162C23CA83ED0A62"]
+---
+## UGC_DID_DESCRIPTION_REQUEST_SUCCEED
+
+```c
+// 0x162C23CA83ED0A62 0xB3BBD241
+BOOL UGC_DID_DESCRIPTION_REQUEST_SUCCEED(Any p0);
+```
+
+
+## Parameters
+* **p0**: 
+
+## Return value

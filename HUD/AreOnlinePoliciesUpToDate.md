@@ -1,0 +1,13 @@
+---
+ns: HUD
+aliases: ["0xF13FE2A80C05C561"]
+---
+## ARE_ONLINE_POLICIES_UP_TO_DATE
+
+```c
+// 0xF13FE2A80C05C561 0x850690FF
+BOOL ARE_ONLINE_POLICIES_UP_TO_DATE();
+```
+
+
+## Return value

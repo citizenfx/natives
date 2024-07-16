@@ -1,0 +1,17 @@
+---
+ns: NETWORK
+aliases: ["0x741A3D8380319A81"]
+---
+## NETWORK_REQUEST_TO_BE_HOST_OF_THIS_SCRIPT
+
+```c
+// 0x741A3D8380319A81 0x331D9A27
+void NETWORK_REQUEST_TO_BE_HOST_OF_THIS_SCRIPT();
+```
+
+```
+Has something to do with a host request.
+
+NETWORK_RE*
+```
+

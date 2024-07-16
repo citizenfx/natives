@@ -1,0 +1,18 @@
+---
+ns: STATS
+aliases: ["0x5688585E6D563CD8"]
+---
+## STAT_SET_OPEN_SAVETYPE_IN_JOB
+
+```c
+// 0x5688585E6D563CD8 0xC62406A6
+void STAT_SET_OPEN_SAVETYPE_IN_JOB(int p0);
+```
+
+```
+STAT_SET_*
+```
+
+## Parameters
+* **p0**: 
+

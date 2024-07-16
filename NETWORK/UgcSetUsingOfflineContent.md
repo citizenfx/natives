@@ -1,0 +1,15 @@
+---
+ns: NETWORK
+aliases: ["0xFD75DABC0957BF33"]
+---
+## UGC_SET_USING_OFFLINE_CONTENT
+
+```c
+// 0xFD75DABC0957BF33 0x511E6F50
+void UGC_SET_USING_OFFLINE_CONTENT(BOOL p0);
+```
+
+
+## Parameters
+* **p0**: 
+

@@ -1,0 +1,18 @@
+---
+ns: GRAPHICS
+aliases: ["0xE59343E9E96529E7"]
+---
+## GET_MOTIONBLUR_MAX_VEL_SCALER
+
+```c
+// 0xE59343E9E96529E7 0xD906A3A9
+float GET_MOTIONBLUR_MAX_VEL_SCALER();
+```
+
+```
+Getter for 0xB3C641F3630BF6DA
+
+GET_M*
+```
+
+## Return value

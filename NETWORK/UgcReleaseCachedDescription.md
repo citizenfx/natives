@@ -1,0 +1,16 @@
+---
+ns: NETWORK
+aliases: ["0x5A34CD9C3C5BEC44"]
+---
+## UGC_RELEASE_CACHED_DESCRIPTION
+
+```c
+// 0x5A34CD9C3C5BEC44 0x346B506C
+BOOL UGC_RELEASE_CACHED_DESCRIPTION(Any p0);
+```
+
+
+## Parameters
+* **p0**: 
+
+## Return value

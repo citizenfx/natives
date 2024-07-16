@@ -1,0 +1,16 @@
+---
+ns: SOCIALCLUB
+aliases: ["0x4A7D6E727F941747"]
+---
+## SC_COMMUNITY_EVENT_GET_EVENT_ID_FOR_TYPE
+
+```c
+// 0x4A7D6E727F941747 0x8E7AEEB7
+Any SC_COMMUNITY_EVENT_GET_EVENT_ID_FOR_TYPE(Any* p0);
+```
+
+
+## Parameters
+* **p0**: 
+
+## Return value

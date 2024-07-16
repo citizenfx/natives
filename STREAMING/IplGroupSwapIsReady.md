@@ -1,0 +1,13 @@
+---
+ns: STREAMING
+aliases: ["0xFB199266061F820A"]
+---
+## IPL_GROUP_SWAP_IS_READY
+
+```c
+// 0xFB199266061F820A 0x17B0A1CD
+BOOL IPL_GROUP_SWAP_IS_READY();
+```
+
+
+## Return value

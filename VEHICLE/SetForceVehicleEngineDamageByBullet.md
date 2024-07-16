@@ -1,0 +1,16 @@
+---
+ns: VEHICLE
+aliases: ["0x4D9D109F63FEE1D4"]
+---
+## SET_FORCE_VEHICLE_ENGINE_DAMAGE_BY_BULLET
+
+```c
+// 0x4D9D109F63FEE1D4 0x900C878C
+void SET_FORCE_VEHICLE_ENGINE_DAMAGE_BY_BULLET(Any p0, BOOL p1);
+```
+
+
+## Parameters
+* **p0**: 
+* **p1**: 
+

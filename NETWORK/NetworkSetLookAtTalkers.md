@@ -1,0 +1,15 @@
+---
+ns: NETWORK
+aliases: ["0x7D395EA61622E116"]
+---
+## NETWORK_SET_LOOK_AT_TALKERS
+
+```c
+// 0x7D395EA61622E116 0x5C05B7E1
+void NETWORK_SET_LOOK_AT_TALKERS(BOOL p0);
+```
+
+
+## Parameters
+* **p0**: 
+

@@ -1,0 +1,17 @@
+---
+ns: MONEY
+aliases: ["0x9B5016A6433A68C5"]
+---
+## NETWORK_SPEND_EARNED_FROM_BANK_AND_WALLETS
+
+```c
+// 0x9B5016A6433A68C5 0xBD64F1B7
+Any NETWORK_SPEND_EARNED_FROM_BANK_AND_WALLETS();
+```
+
+```
+Hardcoded to return 0.
+
+NativeDB Introduced: v323
+```
+

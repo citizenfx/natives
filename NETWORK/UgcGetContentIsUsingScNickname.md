@@ -1,0 +1,16 @@
+---
+ns: NETWORK
+aliases: ["0xAEAB987727C5A8A4"]
+---
+## UGC_GET_CONTENT_IS_USING_SC_NICKNAME
+
+```c
+// 0xAEAB987727C5A8A4 0x9FEEAA9C
+BOOL UGC_GET_CONTENT_IS_USING_SC_NICKNAME(Any p0);
+```
+
+
+## Parameters
+* **p0**: 
+
+## Return value

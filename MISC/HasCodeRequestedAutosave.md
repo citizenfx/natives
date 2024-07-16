@@ -1,0 +1,16 @@
+---
+ns: MISC
+aliases: ["0x2107A3773771186D"]
+---
+## HAS_CODE_REQUESTED_AUTOSAVE
+
+```c
+// 0x2107A3773771186D 0x78350773
+BOOL HAS_CODE_REQUESTED_AUTOSAVE();
+```
+
+```
+HAS_*
+```
+
+## Return value

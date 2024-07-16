@@ -1,0 +1,16 @@
+---
+ns: SOCIALCLUB
+aliases: ["0x9237E334F6E43156"]
+---
+## SC_LICENSEPLATE_GET_CHECK_IS_PENDING
+
+```c
+// 0x9237E334F6E43156 0x65D84665
+Any SC_LICENSEPLATE_GET_CHECK_IS_PENDING(Any p0);
+```
+
+
+## Parameters
+* **p0**: 
+
+## Return value

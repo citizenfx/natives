@@ -1,0 +1,17 @@
+---
+ns: SOCIALCLUB
+aliases: ["0x19853B5B17D77BCA"]
+---
+## SC_COMMUNITY_EVENT_GET_DISPLAY_NAME_BY_ID
+
+```c
+// 0x19853B5B17D77BCA 0xD26CCA46
+BOOL SC_COMMUNITY_EVENT_GET_DISPLAY_NAME_BY_ID(Any p0, Any* p1);
+```
+
+
+## Parameters
+* **p0**: 
+* **p1**: 
+
+## Return value

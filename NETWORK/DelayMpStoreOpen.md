@@ -1,0 +1,12 @@
+---
+ns: NETWORK
+aliases: ["0x265635150FB0D82E"]
+---
+## DELAY_MP_STORE_OPEN
+
+```c
+// 0x265635150FB0D82E 0xA7FA70AE
+void DELAY_MP_STORE_OPEN();
+```
+
+

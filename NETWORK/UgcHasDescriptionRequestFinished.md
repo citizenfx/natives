@@ -1,0 +1,16 @@
+---
+ns: NETWORK
+aliases: ["0xEBFA8D50ADDC54C4"]
+---
+## UGC_HAS_DESCRIPTION_REQUEST_FINISHED
+
+```c
+// 0xEBFA8D50ADDC54C4 0xF50BC67A
+BOOL UGC_HAS_DESCRIPTION_REQUEST_FINISHED(Any p0);
+```
+
+
+## Parameters
+* **p0**: 
+
+## Return value

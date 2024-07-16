@@ -1,0 +1,13 @@
+---
+ns: NETWORK
+aliases: ["0x7DB53B37A2F211A0"]
+---
+## NETWORK_GET_BONE_ID_OF_FATAL_HIT
+
+```c
+// 0x7DB53B37A2F211A0 0x053BB329
+int NETWORK_GET_BONE_ID_OF_FATAL_HIT();
+```
+
+
+## Return value

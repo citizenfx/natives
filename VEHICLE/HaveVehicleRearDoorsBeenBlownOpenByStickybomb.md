@@ -1,0 +1,16 @@
+---
+ns: VEHICLE
+aliases: ["0xAE3FEE8709B39DCB"]
+---
+## HAVE_VEHICLE_REAR_DOORS_BEEN_BLOWN_OPEN_BY_STICKYBOMB
+
+```c
+// 0xAE3FEE8709B39DCB 0xE39DAF36
+BOOL HAVE_VEHICLE_REAR_DOORS_BEEN_BLOWN_OPEN_BY_STICKYBOMB(Vehicle vehicle);
+```
+
+
+## Parameters
+* **vehicle**: 
+
+## Return value

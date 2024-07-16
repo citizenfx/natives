@@ -1,0 +1,18 @@
+---
+ns: GRAPHICS
+aliases: ["0x108BE26959A9D9BB"]
+---
+## UI3DSCENE_MAKE_PUSHED_PRESET_PERSISTENT
+
+```c
+// 0x108BE26959A9D9BB 0x24A7A7F6
+void UI3DSCENE_MAKE_PUSHED_PRESET_PERSISTENT(BOOL toggle);
+```
+
+```
+UI3DSCENE_*
+```
+
+## Parameters
+* **toggle**: 
+

@@ -1,0 +1,15 @@
+---
+ns: NETWORK
+aliases: ["0x367EF5E2F439B4C6"]
+---
+## NETWORK_SET_PLAYER_MENTAL_STATE
+
+```c
+// 0x367EF5E2F439B4C6 0x53C9563C
+void NETWORK_SET_PLAYER_MENTAL_STATE(int p0);
+```
+
+
+## Parameters
+* **p0**: 
+

@@ -1,0 +1,15 @@
+---
+ns: STREAMING
+aliases: ["0xF8155A7F03DDFC8E"]
+---
+## SET_SRL_FORCE_PRESTREAM
+
+```c
+// 0xF8155A7F03DDFC8E 0xF8F515E4
+void SET_SRL_FORCE_PRESTREAM(Any p0);
+```
+
+
+## Parameters
+* **p0**: 
+

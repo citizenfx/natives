@@ -1,0 +1,17 @@
+---
+ns: MONEY
+aliases: ["0xCD0F5B5D932AE473"]
+---
+## NETWORK_DEFER_CASH_TRANSACTIONS_UNTIL_SHOP_SAVE
+
+```c
+// 0xCD0F5B5D932AE473 0xC4CD928D
+void NETWORK_DEFER_CASH_TRANSACTIONS_UNTIL_SHOP_SAVE();
+```
+
+```
+Does nothing (it's a nullsub).
+
+NativeDB Introduced: v323
+```
+

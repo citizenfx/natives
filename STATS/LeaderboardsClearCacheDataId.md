@@ -1,0 +1,15 @@
+---
+ns: STATS
+aliases: ["0x8EC74CEB042E7CFF"]
+---
+## LEADERBOARDS_CLEAR_CACHE_DATA_ID
+
+```c
+// 0x8EC74CEB042E7CFF 0x88AE9667
+void LEADERBOARDS_CLEAR_CACHE_DATA_ID(Any p0);
+```
+
+
+## Parameters
+* **p0**: 
+

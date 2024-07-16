@@ -1,0 +1,13 @@
+---
+ns: DLC
+aliases: ["0xA213B11DFF526300"]
+---
+## DLC_CHECK_COMPAT_PACK_CONFIGURATION
+
+```c
+// 0xA213B11DFF526300 0xF79A97F5
+BOOL DLC_CHECK_COMPAT_PACK_CONFIGURATION();
+```
+
+## Return value
+Hard-coded to always return 1.

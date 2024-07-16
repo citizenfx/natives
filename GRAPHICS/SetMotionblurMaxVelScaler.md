@@ -1,0 +1,20 @@
+---
+ns: GRAPHICS
+aliases: ["0xB3C641F3630BF6DA"]
+---
+## SET_MOTIONBLUR_MAX_VEL_SCALER
+
+```c
+// 0xB3C641F3630BF6DA 0xF6B837F0
+void SET_MOTIONBLUR_MAX_VEL_SCALER(float p0);
+```
+
+```
+Setter for 0xE59343E9E96529E7
+
+SET_M*
+```
+
+## Parameters
+* **p0**: 
+

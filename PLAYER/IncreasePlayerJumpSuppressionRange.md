@@ -1,0 +1,15 @@
+---
+ns: PLAYER
+aliases: ["0x9EDD76E87D5D51BA"]
+---
+## INCREASE_PLAYER_JUMP_SUPPRESSION_RANGE
+
+```c
+// 0x9EDD76E87D5D51BA 0xE30A64DC
+void INCREASE_PLAYER_JUMP_SUPPRESSION_RANGE(Player player);
+```
+
+
+## Parameters
+* **player**: 
+

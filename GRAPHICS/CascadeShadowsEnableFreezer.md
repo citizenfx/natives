@@ -1,0 +1,15 @@
+---
+ns: GRAPHICS
+aliases: ["0x0AE73D8DF3A762B2"]
+---
+## CASCADE_SHADOWS_ENABLE_FREEZER
+
+```c
+// 0x0AE73D8DF3A762B2 0x342FA2B4
+void CASCADE_SHADOWS_ENABLE_FREEZER(BOOL p0);
+```
+
+
+## Parameters
+* **p0**: 
+

@@ -1,0 +1,13 @@
+---
+ns: NETWORK
+aliases: ["0x793FF272D5B365F4"]
+---
+## UGC_DID_MODIFY_SUCCEED
+
+```c
+// 0x793FF272D5B365F4 0xF0211AC1
+Any UGC_DID_MODIFY_SUCCEED();
+```
+
+
+## Return value

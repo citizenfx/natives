@@ -1,0 +1,13 @@
+---
+ns: MISC
+aliases: ["0x397BAA01068BAA96"]
+---
+## GET_STATUS_OF_MANUAL_SAVE
+
+```c
+// 0x397BAA01068BAA96 0x39771F21
+int GET_STATUS_OF_MANUAL_SAVE();
+```
+
+
+## Return value

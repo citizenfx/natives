@@ -1,0 +1,16 @@
+---
+ns: NETWORK
+aliases: ["0x2E0BF682CC778D49"]
+---
+## NETWORK_HAS_BONE_BEEN_HIT_BY_KILLER
+
+```c
+// 0x2E0BF682CC778D49 0xBFAA349B
+BOOL NETWORK_HAS_BONE_BEEN_HIT_BY_KILLER(Any p0);
+```
+
+
+## Parameters
+* **p0**: 
+
+## Return value

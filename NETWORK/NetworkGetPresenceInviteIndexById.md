@@ -1,0 +1,16 @@
+---
+ns: NETWORK
+aliases: ["0x742B58F723233ED9"]
+---
+## NETWORK_GET_PRESENCE_INVITE_INDEX_BY_ID
+
+```c
+// 0x742B58F723233ED9 0x5E832444
+Any NETWORK_GET_PRESENCE_INVITE_INDEX_BY_ID(Any p0);
+```
+
+
+## Parameters
+* **p0**: 
+
+## Return value

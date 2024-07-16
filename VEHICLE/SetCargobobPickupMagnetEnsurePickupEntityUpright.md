@@ -1,0 +1,16 @@
+---
+ns: VEHICLE
+aliases: ["0x56EB5E94318D3FB6"]
+---
+## SET_CARGOBOB_PICKUP_MAGNET_ENSURE_PICKUP_ENTITY_UPRIGHT
+
+```c
+// 0x56EB5E94318D3FB6 0x30F43FE3
+void SET_CARGOBOB_PICKUP_MAGNET_ENSURE_PICKUP_ENTITY_UPRIGHT(Vehicle vehicle, BOOL p1);
+```
+
+
+## Parameters
+* **vehicle**: 
+* **p1**: 
+

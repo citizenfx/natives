@@ -1,0 +1,16 @@
+---
+ns: OBJECT
+aliases: ["0xC7F29CA00F46350E"]
+---
+## OPEN_ALL_BARRIERS_FOR_RACE
+
+```c
+// 0xC7F29CA00F46350E 0x9BF33E41
+void OPEN_ALL_BARRIERS_FOR_RACE(BOOL p0);
+```
+
+See [`N_0x701fda1e82076ba4`](#_0x701FDA1E82076BA4).
+ 
+## Parameters
+* **p0**: 
+

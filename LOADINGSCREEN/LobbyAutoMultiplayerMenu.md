@@ -1,0 +1,13 @@
+---
+ns: LOADINGSCREEN
+aliases: ["0xF2CA003F167E21D2", "_RETURN_ZERO"]
+---
+## LOBBY_AUTO_MULTIPLAYER_MENU
+
+```c
+// 0xF2CA003F167E21D2 0x106C8317
+int LOBBY_AUTO_MULTIPLAYER_MENU();
+```
+
+## Return value
+Hard-coded to always return 0.

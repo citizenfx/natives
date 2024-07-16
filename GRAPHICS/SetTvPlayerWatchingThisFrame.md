@@ -1,0 +1,18 @@
+---
+ns: GRAPHICS
+aliases: ["0xD1C55B110E4DF534"]
+---
+## SET_TV_PLAYER_WATCHING_THIS_FRAME
+
+```c
+// 0xD1C55B110E4DF534 0xD99EC000
+void SET_TV_PLAYER_WATCHING_THIS_FRAME(Any p0);
+```
+
+```
+SET_TV_???  
+```
+
+## Parameters
+* **p0**: 
+

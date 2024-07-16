@@ -1,0 +1,18 @@
+---
+ns: MISC
+aliases: ["0x8D74E26F54B4E5C3"]
+---
+## INFORM_CODE_OF_CONTENT_ID_OF_CURRENT_UGC_MISSION
+
+```c
+// 0x8D74E26F54B4E5C3 0xE77199F7
+void INFORM_CODE_OF_CONTENT_ID_OF_CURRENT_UGC_MISSION(char* p0);
+```
+
+```
+I*
+```
+
+## Parameters
+* **p0**: 
+

@@ -1,0 +1,15 @@
+---
+ns: SOCIALCLUB
+aliases: ["0x4ED9C8D6DA297639"]
+---
+## SC_COMMUNITY_EVENT_GET_EVENT_ID
+
+```c
+// 0x4ED9C8D6DA297639 0xC5E08B66
+Any SC_COMMUNITY_EVENT_GET_EVENT_ID();
+```
+
+```
+NativeDB Introduced: v323
+```
+

@@ -1,0 +1,16 @@
+---
+ns: HUD
+aliases: ["0x214CD562A939246A"]
+---
+## HAS_SCRIPT_HIDDEN_HELP_THIS_FRAME
+
+```c
+// 0x214CD562A939246A 0x812CBE0E
+BOOL HAS_SCRIPT_HIDDEN_HELP_THIS_FRAME();
+```
+
+```
+HAS_S*
+```
+
+## Return value

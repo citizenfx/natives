@@ -1,0 +1,16 @@
+---
+ns: PED
+aliases: ["0xFD325494792302D7", "SET_TIME_EXCLUSIVE_DISPLAY_TEXTURE"]
+---
+## SET_TIME_EXCLUSIVE_DISPLAY_TEXTURE
+
+```c
+// 0xFD325494792302D7 0x7F67671D
+void SET_TIME_EXCLUSIVE_DISPLAY_TEXTURE(Ped ped, BOOL toggle);
+```
+
+
+## Parameters
+* **ped**: 
+* **toggle**: 
+

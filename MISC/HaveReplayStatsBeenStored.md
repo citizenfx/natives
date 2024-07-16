@@ -1,0 +1,13 @@
+---
+ns: MISC
+aliases: ["0xD642319C54AADEB6"]
+---
+## HAVE_REPLAY_STATS_BEEN_STORED
+
+```c
+// 0xD642319C54AADEB6 0xC58250F1
+Any HAVE_REPLAY_STATS_BEEN_STORED();
+```
+
+
+## Return value

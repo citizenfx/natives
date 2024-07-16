@@ -1,0 +1,15 @@
+---
+ns: GRAPHICS
+aliases: ["0x949F397A288B28B3"]
+---
+## SET_PARTICLE_FX_FOOT_LODRANGE_SCALE
+
+```c
+// 0x949F397A288B28B3 0xE3880F5A
+void SET_PARTICLE_FX_FOOT_LODRANGE_SCALE(float p0);
+```
+
+
+## Parameters
+* **p0**: 
+

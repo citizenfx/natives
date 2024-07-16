@@ -1,0 +1,16 @@
+---
+ns: NETWORK
+aliases: ["0xFB680D403909DC70"]
+---
+## NETWORK_ALLOW_GANG_TO_JOIN_TUTORIAL_SESSION
+
+```c
+// 0xFB680D403909DC70 0xFFB2ADA1
+void NETWORK_ALLOW_GANG_TO_JOIN_TUTORIAL_SESSION(Any p0, Any p1);
+```
+
+
+## Parameters
+* **p0**: 
+* **p1**: 
+

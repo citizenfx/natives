@@ -1,0 +1,16 @@
+---
+ns: NETWORK
+aliases: ["0x59328EB08C5CEB2B"]
+---
+## IS_USER_OLD_ENOUGH_TO_ACCESS_STORE
+
+```c
+// 0x59328EB08C5CEB2B 0x70F6D3AD
+BOOL IS_USER_OLD_ENOUGH_TO_ACCESS_STORE();
+```
+
+```
+IS_*
+```
+
+## Return value

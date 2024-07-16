@@ -1,0 +1,19 @@
+---
+ns: NETWORK
+aliases: ["0x0D77A82DC2D0DA59"]
+---
+## NETWORK_SET_INVITE_FAILED_MESSAGE_FOR_INVITE_MENU
+
+```c
+// 0x0D77A82DC2D0DA59 0x0808D4CC
+void NETWORK_SET_INVITE_FAILED_MESSAGE_FOR_INVITE_MENU(Any* p0, Any* p1);
+```
+
+```
+NETWORK_SET_*
+```
+
+## Parameters
+* **p0**: 
+* **p1**: 
+
