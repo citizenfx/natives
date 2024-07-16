@@ -9,10 +9,6 @@ aliases: ["0xE532EC1A63231B4F"]
 void SET_WANTED_RESPONSE_NUM_PEDS_TO_SPAWN(int p0, int p1);
 ```
 
-```
-SET_*
-```
-
 ## Parameters
 * **p0**: 
 * **p1**: 

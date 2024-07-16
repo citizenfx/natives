@@ -9,10 +9,6 @@ aliases: ["0x108BE26959A9D9BB"]
 void UI3DSCENE_MAKE_PUSHED_PRESET_PERSISTENT(BOOL toggle);
 ```
 
-```
-UI3DSCENE_*
-```
-
 ## Parameters
 * **toggle**: 
 

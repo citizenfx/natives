@@ -9,10 +9,6 @@ aliases: ["0x9C11908013EA4715"]
 void _SOUND_VEHICLE_HORN_THIS_FRAME(Vehicle vehicle);
 ```
 
-```
-SET_*
-```
-
 ## Parameters
 * **vehicle**: 
 

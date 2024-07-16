@@ -9,10 +9,6 @@ aliases: ["0xBA8D65C1C65702E5"]
 void FORCE_OFF_WANTED_STAR_FLASH(BOOL toggle);
 ```
 
-```
-FORCE_*
-```
-
 ## Parameters
 * **toggle**: 
 

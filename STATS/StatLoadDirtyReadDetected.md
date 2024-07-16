@@ -9,8 +9,4 @@ aliases: ["0xECB41AC6AB754401"]
 BOOL STAT_LOAD_DIRTY_READ_DETECTED();
 ```
 
-```
-STAT_LOAD_*
-```
-
 ## Return value

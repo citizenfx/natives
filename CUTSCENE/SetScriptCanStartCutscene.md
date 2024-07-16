@@ -10,7 +10,6 @@ void SET_SCRIPT_CAN_START_CUTSCENE(int threadId);
 ```
 
 ```
-SET_SCRIPT_*
 Sets the cutscene's owning thread ID.
 ```
 

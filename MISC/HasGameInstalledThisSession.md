@@ -10,7 +10,6 @@ BOOL HAS_GAME_INSTALLED_THIS_SESSION();
 ```
 
 ```
-HAS_*
 Probably something like "has game been started for the first time".
 ```
 

@@ -20,7 +20,6 @@ if (sub_1abd() && (!PED::_A3F3564A5B3646C0(l_8C))) {
     }
 }
 Checks something related to the mobile phone task.
-IS_*
 ```
 
 ## Parameters

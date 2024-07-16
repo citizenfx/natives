@@ -9,8 +9,4 @@ aliases: ["0x933BBEEB8C61B5F4"]
 BOOL IS_SWITCH_TO_MULTI_FIRSTPART_FINISHED();
 ```
 
-```
-Probably IS_SWITCH_*
-```
-
 ## Return value

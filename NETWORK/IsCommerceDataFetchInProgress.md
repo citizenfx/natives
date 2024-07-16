@@ -9,8 +9,4 @@ aliases: ["0x1D4DC17C38FEAFF0"]
 BOOL IS_COMMERCE_DATA_FETCH_IN_PROGRESS();
 ```
 
-```
-IS_COMMERCE_*
-```
-
 ## Return value

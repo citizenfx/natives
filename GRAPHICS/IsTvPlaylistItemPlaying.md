@@ -9,10 +9,6 @@ aliases: ["0x0AD973CA1E077B60","_LOAD_TV_CHANNEL"]
 BOOL _IS_TV_PLAYLIST_ITEM_PLAYING(Hash videoCliphash);
 ```
 
-```
-IS_*
-```
-
 ## Parameters
 * **videoCliphash**: 
 

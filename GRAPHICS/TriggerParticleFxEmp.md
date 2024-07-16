@@ -9,10 +9,6 @@ aliases: ["0x9B079E5221D984D3"]
 void TRIGGER_PARTICLE_FX_EMP(BOOL p0);
 ```
 
-```
-FORCE_*
-```
-
 ## Parameters
 * **p0**: 
 

@@ -12,8 +12,6 @@ BOOL BG_IS_EXITFLAG_SET();
 ```
 Returns true if bit 0 in GtaThread+0x154 is set.
 
-BG_*
-
 NativeDB Introduced: v323
 ```
 

@@ -9,10 +9,6 @@ aliases: ["0x36CCB9BE67B970FD"]
 void ROPE_SET_SMOOTH_REELIN(int ropeId, BOOL p1);
 ```
 
-```
-ROPE_*
-```
-
 ## Parameters
 * **ropeId**: 
 * **p1**: 

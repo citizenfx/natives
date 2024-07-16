@@ -11,8 +11,6 @@ void NETWORK_SET_DO_NOT_LAUNCH_FROM_JOIN_AS_MIGRATED_HOST(BOOL toggle);
 
 ```
 Appears to set whether a transition should be started when the session is migrating.
-
-NETWORK_SET_*
 ```
 
 ## Parameters

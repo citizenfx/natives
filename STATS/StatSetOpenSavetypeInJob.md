@@ -9,10 +9,6 @@ aliases: ["0x5688585E6D563CD8"]
 void STAT_SET_OPEN_SAVETYPE_IN_JOB(int p0);
 ```
 
-```
-STAT_SET_*
-```
-
 ## Parameters
 * **p0**: 
 

@@ -9,10 +9,6 @@ aliases: ["0x9E6542F0CE8E70A3"]
 void DISABLE_METRO_SYSTEM(BOOL toggle);
 ```
 
-```
-DISABLE_*
-```
-
 ## Parameters
 * **toggle**: 
 

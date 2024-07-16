@@ -9,8 +9,4 @@ aliases: ["0x14922ED3E38761F0"]
 BOOL NETWORK_IS_QUEUING_FOR_SESSION_JOIN();
 ```
 
-```
-NETWORK_IS_*
-```
-
 ## Return value

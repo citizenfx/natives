@@ -1,16 +1,15 @@
 ---
 ns: VEHICLE
-aliases: ["0xC6AD107DDC9054CC"]
+aliases: ["0xC6AD107DDC9054CC", "_GET_VEHICLE_MODEL_MAX_KNOTS"]
 ---
-## _GET_VEHICLE_MODEL_MAX_KNOTS
+## GET_FLYING_VEHICLE_MODEL_AGILITY
 
 ```c
 // 0xC6AD107DDC9054CC 0x95BB67EB
-float _GET_VEHICLE_MODEL_MAX_KNOTS(Hash modelHash);
+float GET_FLYING_VEHICLE_MODEL_AGILITY(Hash modelHash);
 ```
 
 ```
-GET_VEHICLE_MODEL_*
 Function pertains only to aviation vehicles.
 ```
 

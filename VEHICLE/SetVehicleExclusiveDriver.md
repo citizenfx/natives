@@ -9,7 +9,7 @@ aliases: ["0x41062318F23ED854"]
 void SET_VEHICLE_EXCLUSIVE_DRIVER(Vehicle vehicle, cs_type(Ped) BOOL toggle);
 ```
 
-Incorrectly named `SET_VEHICLE_EXCLUSIVE_DRIVER`; likely `SET_VEHICLE_ALLOW_*`.
+Incorrectly named `SET_VEHICLE_EXCLUSIVE_DRIVER`, `0xFF62D324` is actually `IS_PED_EXCLUSIVE_DRIVER_OF_VEHICLE`.
 
 Toggles a flag related to `SET_VEHICLE_EXCLUSIVE_DRIVER`, however, doesn't enable that feature (or trigger script events related to it).
 

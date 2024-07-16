@@ -9,10 +9,6 @@ aliases: ["0xE63D7C6EECECB66B"]
 void TOGGLE_PLAYER_DAMAGE_OVERLAY(BOOL toggle);
 ```
 
-```
-TOGGLE_*
-```
-
 ## Parameters
 * **toggle**: 
 

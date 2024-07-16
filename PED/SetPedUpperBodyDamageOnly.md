@@ -9,10 +9,6 @@ aliases: ["0xAFC976FD0580C7B3"]
 void SET_PED_UPPER_BODY_DAMAGE_ONLY(Ped ped, BOOL toggle);
 ```
 
-```
-SET_PED_*
-```
-
 ## Parameters
 * **ped**: 
 * **toggle**: 

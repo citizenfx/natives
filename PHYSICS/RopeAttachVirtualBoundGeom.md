@@ -9,10 +9,6 @@ aliases: ["0xBC0CE682D4D05650"]
 void ROPE_ATTACH_VIRTUAL_BOUND_GEOM(int ropeId, int p1, float p2, float p3, float p4, float p5, float p6, float p7, float p8, float p9, float p10, float p11, float p12, float p13);
 ```
 
-```
-Most likely ROPE_ATTACH_*  
-```
-
 ## Parameters
 * **ropeId**: 
 * **p1**: 

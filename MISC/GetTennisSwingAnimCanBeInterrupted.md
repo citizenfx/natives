@@ -10,7 +10,7 @@ BOOL GET_TENNIS_SWING_ANIM_CAN_BE_INTERRUPTED(Ped ped);
 ```
 
 ```
-GET_TENNIS_*; references 0xFBFEC0E9 = interruptswing
+references 0xFBFEC0E9 = interruptswing
 ```
 
 ## Parameters

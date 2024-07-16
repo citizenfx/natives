@@ -10,8 +10,6 @@ BOOL BG_DOES_LAUNCH_PARAM_EXIST(int scriptIndex, char* p1);
 ```
 
 ```
-BG_*
-
 NativeDB Introduced: v323
 ```
 

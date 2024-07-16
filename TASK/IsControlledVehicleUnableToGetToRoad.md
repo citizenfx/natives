@@ -9,10 +9,6 @@ aliases: ["0x3E38E28A1D80DDF6"]
 BOOL IS_CONTROLLED_VEHICLE_UNABLE_TO_GET_TO_ROAD(Ped ped);
 ```
 
-```
-IS_*
-```
-
 ## Parameters
 * **ped**: 
 

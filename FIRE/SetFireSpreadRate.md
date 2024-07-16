@@ -8,8 +8,6 @@ ns: FIRE
 void _SET_FIRE_SPREAD_RATE(float p0);
 ```
 
-SET_FIRE_*
-
 ```
 NativeDB Introduced: v1734
 ```

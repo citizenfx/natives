@@ -14,8 +14,6 @@ float _GET_USED_CREATOR_MODEL_MEMORY_PERCENTAGE();
 1.0 = all memory used
 
 Maximum model memory (as defined in common\data\missioncreatordata.meta) is 100 MiB
-
-GET_*
 ```
 
 ## Return value

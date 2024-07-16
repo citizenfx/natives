@@ -11,8 +11,6 @@ void NETWORK_SET_OVERRIDE_TUTORIAL_SESSION_CHAT(BOOL toggle);
 
 ```
 Sets some voice chat related value.
-
-NETWORK_SET_*
 ```
 
 ## Parameters

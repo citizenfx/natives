@@ -11,7 +11,6 @@ void SET_PAD_CAN_SHAKE_DURING_CUTSCENE(BOOL toggle);
 
 ```
 Toggles a value (bool) for cutscenes.
-SET_*
 ```
 
 ## Parameters

@@ -9,8 +9,4 @@ aliases: ["0x2107A3773771186D"]
 BOOL HAS_CODE_REQUESTED_AUTOSAVE();
 ```
 
-```
-HAS_*
-```
-
 ## Return value

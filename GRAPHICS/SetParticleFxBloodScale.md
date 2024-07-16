@@ -9,10 +9,6 @@ aliases: ["0x5F6DF3D92271E8A1", "SET_PARTICLE_FX_BLOOD_SCALE"]
 void SET_PARTICLE_FX_BLOOD_SCALE(BOOL toggle);
 ```
 
-```
-DISABLE_*
-```
-
 ## Parameters
 * **toggle**: 
 

@@ -9,10 +9,6 @@ aliases: ["0x690A61A6D13583F6"]
 BOOL IS_REMOTE_PLAYER_IN_NON_CLONED_VEHICLE(Player player);
 ```
 
-```
-IS_*
-```
-
 ## Parameters
 * **player**: 
 

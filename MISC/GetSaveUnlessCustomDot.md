@@ -9,12 +9,6 @@ aliases: ["0xA4A0065E39C9F25C"]
 BOOL GET_SAVE_UNLESS_CUSTOM_DOT(Vector3* p0, float* p1, BOOL* fadeInAfterLoad, BOOL* p3);
 ```
 
-```
-GET_SAVE_*
-
-GET_SAVE_UNLESS_CUSTOM_DOT ?
-```
-
 ## Parameters
 * **p0**: 
 * **p1**: 

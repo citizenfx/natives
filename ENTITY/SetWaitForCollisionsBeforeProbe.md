@@ -10,7 +10,6 @@ void SET_WAIT_FOR_COLLISIONS_BEFORE_PROBE(Entity entity, BOOL toggle);
 ```
 
 ```
-SET_*
 Only called within 1 script for x360. 'fm_mission_controller' and it used on an object.
 Ran after these 2 natives,
 set_object_targettable(uParam0, 0);

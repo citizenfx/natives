@@ -10,7 +10,6 @@ void SET_PED_INJURED_ON_GROUND_BEHAVIOUR(Ped ped, float unk);
 ```
 
 ```
-SET_PED_*  
 Has most likely to do with some shooting attributes as it sets the float which is in the same range as shootRate.  
 ```
 

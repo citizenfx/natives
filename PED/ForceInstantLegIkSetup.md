@@ -9,10 +9,6 @@ aliases: ["0xED3C76ADFA6D07C4"]
 void FORCE_INSTANT_LEG_IK_SETUP(Ped ped);
 ```
 
-```
-FORCE_*
-```
-
 ## Parameters
 * **ped**: 
 

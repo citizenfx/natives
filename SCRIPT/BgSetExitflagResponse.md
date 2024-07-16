@@ -12,8 +12,6 @@ void BG_SET_EXITFLAG_RESPONSE();
 ```
 Sets bit 1 in GtaThread+0x154
 
-BG_*
-
 NativeDB Introduced: v323
 ```
 

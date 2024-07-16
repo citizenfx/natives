@@ -9,8 +9,4 @@ aliases: ["0xC571D0E77D8BBC29"]
 BOOL NETWORK_IS_TRANSITION_LEAVE_POSTPONED();
 ```
 
-```
-NETWORK_IS_TRANSITION_*
-```
-
 ## Return value

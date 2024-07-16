@@ -9,8 +9,4 @@ aliases: ["0x59328EB08C5CEB2B"]
 BOOL IS_USER_OLD_ENOUGH_TO_ACCESS_STORE();
 ```
 
-```
-IS_*
-```
-
 ## Return value

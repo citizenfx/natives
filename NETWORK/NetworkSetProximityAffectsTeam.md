@@ -11,8 +11,6 @@ void NETWORK_SET_PROXIMITY_AFFECTS_TEAM(BOOL toggle);
 
 ```
 Sets some voice chat related value.
-
-NETWORK_SET_*
 ```
 
 ## Parameters

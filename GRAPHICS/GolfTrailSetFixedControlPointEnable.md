@@ -9,10 +9,6 @@ aliases: ["0xC0416B061F2B7E5E"]
 void GOLF_TRAIL_SET_FIXED_CONTROL_POINT_ENABLE(BOOL p0);
 ```
 
-```
-GOLF_TRAIL_SET_*
-```
-
 ## Parameters
 * **p0**: 
 

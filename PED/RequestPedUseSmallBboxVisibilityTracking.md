@@ -9,10 +9,6 @@ aliases: ["0x75BA1CB3B7D40CAF"]
 void REQUEST_PED_USE_SMALL_BBOX_VISIBILITY_TRACKING(Ped ped, BOOL p1);
 ```
 
-```
-REQUEST_*
-```
-
 ## Parameters
 * **ped**: 
 * **p1**: 

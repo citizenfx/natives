@@ -10,8 +10,6 @@ int BG_GET_LAUNCH_PARAM_VALUE(int scriptIndex, char* p1);
 ```
 
 ```
-BG_*
-
 NativeDB Introduced: v323
 ```
 

@@ -9,10 +9,6 @@ aliases: ["0xF033419D1B81FAE8"]
 Any GET_FM_FEMALE_SHOP_PED_APPAREL_ITEM_INDEX(Any p0);
 ```
 
-```
-GET_*
-```
-
 ## Parameters
 * **p0**: 
 

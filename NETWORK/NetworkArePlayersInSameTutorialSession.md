@@ -1,0 +1,16 @@
+---
+ns: NETWORK
+aliases: ["0x9DE986FC9A87C474", "_NETWORK_IS_PLAYER_EQUAL_TO_INDEX"]
+---
+## NETWORK_ARE_PLAYERS_IN_SAME_TUTORIAL_SESSION
+
+```c
+// 0x9DE986FC9A87C474 0xE66A0B40
+BOOL NETWORK_ARE_PLAYERS_IN_SAME_TUTORIAL_SESSION(Player player, int index);
+```
+
+## Parameters
+* **player**: 
+* **index**: 
+
+## Return value

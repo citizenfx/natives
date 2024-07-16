@@ -9,10 +9,6 @@ aliases: ["GET_PLAYER_HEADSET_SOUND_ALTERNATE"]
 void _SET_VARIABLE_ON_CUTSCENE_AUDIO(char* variableName, float value);
 ```
 
-```
-SET_VARIABLE_ON_*
-```
-
 ## Parameters
 * **variableName**: 
 * **value**: 
