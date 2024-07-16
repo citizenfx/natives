@@ -1,0 +1,15 @@
+---
+ns: GRAPHICS
+aliases: ["0x0AD973CA1E077B60","_LOAD_TV_CHANNEL", "_IS_TV_PLAYLIST_ITEM_PLAYING"]
+---
+## IS_TVSHOW_CURRENTLY_PLAYING
+
+```c
+// 0x0AD973CA1E077B60 0x4D1EB0FB
+BOOL IS_TVSHOW_CURRENTLY_PLAYING(Hash videoCliphash);
+```
+
+## Parameters
+* **videoCliphash**: 
+
+## Return value

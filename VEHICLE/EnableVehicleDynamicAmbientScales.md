@@ -1,0 +1,16 @@
+---
+ns: VEHICLE
+aliases: ["0xF87D9F2301F7D206", "_REMOVE_VEHICLE_SHADOW_EFFECT"]
+---
+## ENABLE_VEHICLE_DYNAMIC_AMBIENT_SCALES
+
+```c
+// 0xF87D9F2301F7D206 0x450AD03A
+void ENABLE_VEHICLE_DYNAMIC_AMBIENT_SCALES(Vehicle vehicle);
+```
+
+Remove the weird shadow applied by [_SET_VEHICLE_SHADOW_EFFECT](#_0x2A70BAE8883E4C81)
+
+## Parameters
+* **vehicle**: 
+

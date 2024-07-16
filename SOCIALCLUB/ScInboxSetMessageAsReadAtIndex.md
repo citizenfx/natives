@@ -1,0 +1,16 @@
+---
+ns: SOCIALCLUB
+aliases: ["0x2C015348CF19CA1D", "_SC_INBOX_MESSAGE_POP"]
+---
+## SC_INBOX_SET_MESSAGE_AS_READ_AT_INDEX
+
+```c
+// 0x2C015348CF19CA1D 0x19EE0CCB
+BOOL SC_INBOX_SET_MESSAGE_AS_READ_AT_INDEX(int p0);
+```
+
+
+## Parameters
+* **p0**: 
+
+## Return value

@@ -9,5 +9,9 @@ aliases: ["0x92CCC17A7A2285DA"]
 void _CLEAR_EXTRA_TIMECYCLE_MODIFIER();
 ```
 
+```
+joaat is DISABLE_MOON_CYCLE_OVERRIDE
+```
+
 Clears the secondary timecycle modifier usually set with [`SetExtraTimecycleModifier`](#_0x5096FD9CCB49056D)
 

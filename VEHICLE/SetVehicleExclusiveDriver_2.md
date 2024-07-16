@@ -9,7 +9,7 @@ aliases: ["0xB5C51B5502E85E83"]
 void _SET_VEHICLE_EXCLUSIVE_DRIVER_2(Vehicle vehicle, Ped ped, int index);
 ```
 
-The **actual** [`SET_VEHICLE_EXCLUSIVE_DRIVER`](#_0x41062318F23ED854) native.
+The **actual** [`SET_VEHICLE_EXCLUSIVE_DRIVER`](#_0x41062318F23ED854) native. Joaat resolves to `SET_VEHICLE_EXCLUSIVE_DRIVER`.
 
 ## Parameters
 * **vehicle**: 

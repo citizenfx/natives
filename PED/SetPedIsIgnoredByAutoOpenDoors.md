@@ -1,0 +1,16 @@
+---
+ns: PED
+aliases: ["0x33A60D8BDD6E508C", "_SET_PED_CAN_PLAY_INJURED_ANIMS"]
+---
+## SET_PED_IS_IGNORED_BY_AUTO_OPEN_DOORS
+
+```c
+// 0x33A60D8BDD6E508C 0xADB2511A
+void SET_PED_IS_IGNORED_BY_AUTO_OPEN_DOORS(Ped ped, BOOL p1);
+```
+
+
+## Parameters
+* **ped**: 
+* **p1**: 
+

@@ -8,6 +8,9 @@ ns: GRAPHICS
 void _SET_EXTRA_TIMECYCLE_MODIFIER(char* modifierName);
 ```
 
+```
+joaat is ENABLE_MOON_CYCLE_OVERRIDE
+```
 
 ## Parameters
 * **modifierName**: 

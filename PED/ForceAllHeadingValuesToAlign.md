@@ -1,0 +1,15 @@
+---
+ns: PED
+aliases: ["0xFF287323B0E2C69A", "_FREEZE_PED_CAMERA_ROTATION"]
+---
+## FORCE_ALL_HEADING_VALUES_TO_ALIGN
+
+```c
+// 0xFF287323B0E2C69A 0x290421BE
+void FORCE_ALL_HEADING_VALUES_TO_ALIGN(Ped ped);
+```
+
+
+## Parameters
+* **ped**: 
+

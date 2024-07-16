@@ -1,0 +1,15 @@
+---
+ns: GRAPHICS
+aliases: ["0x40AFB081F8ADD4EE", "_RETURN_TWO"]
+---
+## GET_LOAD_HIGH_QUALITY_PHOTO_STATUS
+
+```c
+// 0x40AFB081F8ADD4EE 0x762E5C5F
+int GET_LOAD_HIGH_QUALITY_PHOTO_STATUS(int p0);
+```
+
+## Parameters
+* **p0**: 
+
+## Return value

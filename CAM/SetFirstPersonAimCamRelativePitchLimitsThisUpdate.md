@@ -1,0 +1,15 @@
+---
+ns: CAM
+aliases: ["0xBCFC632DB7673BF0", "_SET_FIRST_PERSON_CAM_PITCH_RANGE"]
+---
+## SET_FIRST_PERSON_AIM_CAM_RELATIVE_PITCH_LIMITS_THIS_UPDATE
+
+```c
+// 0xBCFC632DB7673BF0 0x76DAC96C
+void SET_FIRST_PERSON_AIM_CAM_RELATIVE_PITCH_LIMITS_THIS_UPDATE(float minAngle, float maxAngle);
+```
+
+## Parameters
+* **minAngle**: 
+* **maxAngle**: 
+

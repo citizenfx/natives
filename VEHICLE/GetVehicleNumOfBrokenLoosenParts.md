@@ -1,0 +1,15 @@
+---
+ns: VEHICLE
+aliases: ["0x2C8CBFE1EA5FC631", "_GET_VEHICLE_NUMBER_OF_BROKEN_BONES"]
+---
+## GET_VEHICLE_NUM_OF_BROKEN_LOOSEN_PARTS
+
+```c
+// 0x2C8CBFE1EA5FC631 0xABC99E21
+int GET_VEHICLE_NUM_OF_BROKEN_LOOSEN_PARTS(Vehicle vehicle);
+```
+
+## Parameters
+* **vehicle**: 
+
+## Return value

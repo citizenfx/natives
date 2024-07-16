@@ -1,0 +1,15 @@
+---
+ns: VEHICLE
+aliases: ["0x6A98C2ECF57FA5D4", "_ATTACH_CONTAINER_TO_HANDLER_FRAME"]
+---
+## ATTACH_CONTAINER_TO_HANDLER_FRAME_WHEN_LINED_UP
+
+```c
+// 0x6A98C2ECF57FA5D4 0x20AB5783
+void ATTACH_CONTAINER_TO_HANDLER_FRAME_WHEN_LINED_UP(Vehicle handler, Entity container);
+```
+
+## Parameters
+* **handler**: 
+* **container**: 
+

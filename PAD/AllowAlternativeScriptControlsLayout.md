@@ -1,0 +1,15 @@
+---
+ns: PAD
+aliases: ["0x7F4724035FDCA1DD", "_DISABLE_INPUT_GROUP"]
+---
+## ALLOW_ALTERNATIVE_SCRIPT_CONTROLS_LAYOUT
+
+```c
+// 0x7F4724035FDCA1DD 0x2CEDE6C5
+void ALLOW_ALTERNATIVE_SCRIPT_CONTROLS_LAYOUT(int padIndex);
+```
+
+
+## Parameters
+* **padIndex**: 
+

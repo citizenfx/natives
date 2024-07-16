@@ -1,0 +1,15 @@
+---
+ns: SOCIALCLUB
+aliases: ["0x6AFD2CD753FEEF83", "_SC_INBOX_MESSAGE_SEND_BOUNTY_PRESENCE_EVENT"]
+---
+## SC_INBOX_SEND_BOUNTY_TO_RECIP_LIST
+
+```c
+// 0x6AFD2CD753FEEF83 0x628F489B
+BOOL SC_INBOX_SEND_BOUNTY_TO_RECIP_LIST(char* data);
+```
+
+## Parameters
+* **data**: 
+
+## Return value
