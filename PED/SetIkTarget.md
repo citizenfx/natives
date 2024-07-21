@@ -5,7 +5,7 @@ ns: PED
 
 ```c
 // 0xC32779C16FCEECD9 0x6FE5218C
-void SET_IK_TARGET(Ped ped, int ikIndex, Entity entityLookAt, int boneLookAt, float offsetX, float offsetY, float offsetZ, cs_type(Any) int ikTargetFlags, int blendInDuration, int blendOutDuration);
+void SET_IK_TARGET(Ped ped, int ikIndex, Entity entityLookAt, int boneLookAt, float offsetX, float offsetY, float offsetZ, int ikTargetFlags, int blendInDuration, int blendOutDuration);
 ```
 
 Sets the IK target for a given IK part belonging to the ped. The IK target will only be valid for one update, so it needs to be set for as long as it is needed (to avoid IK targets not being cleared and getting stuck enabled).
