@@ -59,5 +59,14 @@ enum IK_TARGET_FLAGS {
 -- Points the right arm to the world coordinates -1849.0, -1231.0, 13.0 for 10 seconds -- Which is the end of the Del Perro Pier
 SetIkTarget(PlayerPedId(), 4, 0, 0, -1849.0, -1231.0, 13.0, 0, 0, 10000) 
 ```
+```js
+// Points the right arm to the world coordinates -1849.0, -1231.0, 13.0 for 10 seconds -- Which is the end of the Del Perro Pier
+SetIkTarget(PlayerPedId(), 4, 0, 0, -1849.0, -1231.0, 13.0, 0, 0, 10000);
+```
+```cs
+using static CitizenFX.Core.Native.API;
+// ...
 
-
+// Points the right arm to the world coordinates -1849.0, -1231.0, 13.0 for 10 seconds -- Which is the end of the Del Perro Pier
+SetIkTarget(PlayerPedId(), 4, 0, 0, -1849.0f, -1231.0f, 13.0f, 0, 0, 10000);
+```
