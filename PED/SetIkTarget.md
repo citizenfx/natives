@@ -56,7 +56,7 @@ enum IK_TARGET_FLAGS {
 
 ## Examples
 ```lua
--- Points the right arm to the world coordinates 1835.0, 1033.0, 33.0 for 10 seconds -- Which is the end of the Del Perro Pier
+-- Points the right arm to the world coordinates -1849.0, -1231.0, 13.0 for 10 seconds -- Which is the end of the Del Perro Pier
 SetIkTarget(PlayerPedId(), 4, 0, 0, -1849.0, -1231.0, 13.0, 0, 0, 10000) 
 ```
 
