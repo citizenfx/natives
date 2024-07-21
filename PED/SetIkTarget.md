@@ -15,9 +15,9 @@ Sets the IK target for a given IK part belonging to the ped. The IK target will 
 * **ikIndex**: See ``IK_PART``.
 * **entityLookAt**: Set to 0 for no entity, offsets will be world coordinates instead.
 * **boneLookAt**: Set to -1 for no target bone.
-* **offsetX**: X-axis offset calculated from the postion of ``entityLookAt``.
-* **offsetY**: Y-axis offset calculated from the postion of ``entityLookAt``.
-* **offsetZ**: Z-axis offset calculated from the postion of ``entityLookAt``.
+* **offsetX**: X-axis offset calculated from the position of ``entityLookAt``.
+* **offsetY**: Y-axis offset calculated from the position of ``entityLookAt``.
+* **offsetZ**: Z-axis offset calculated from the position of ``entityLookAt``.
 * **ikTargetFlags**: See ``IK_TARGET_FLAGS``.
 * **blendInDuration**: 
 * **blendOutDuration**: Sets how long the animation lasts in ms.
