@@ -29,7 +29,7 @@ NativeDB Introduced: v323
 
 ```c
 enum IK_PART {
-  K_PART_INVALID = 0,
+  IK_PART_INVALID = 0,
   IK_PART_HEAD = 1, // head
   IK_PART_SPINE = 2, // spine
   IK_PART_ARM_LEFT = 3, // Left Arm
