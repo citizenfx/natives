@@ -15,6 +15,56 @@ Rope does NOT interact with anything you attach it to, in some cases it make int
 Rope will sometimes contract and fall to the ground like you'd expect it to, but since it doesn't interact with the world the effect is just jaring.  
 ```
 
+## Rope Types
+There are 8 different rope types in the base game. Full rope data can be found in `ropedata.xml`.
+- Type: `rage__ropeThin`
+    - Rope Type Value: `0`
+    - Vertices: `1`
+    - Radius: `0.03`
+    - Texture Names: `rope` & `rope_n`
+
+- Type: `rage__ropeWire6`
+    - Rope Type Value: `1`
+    - Vertices: `4`
+    - Radius: `0.015`
+    - Texture Names: `steel_cable` & `steel_cable_n`
+
+- Type: `rage__ropeWire32`
+    - Rope Type Value: `2`
+    - Vertices: `32`
+    - Radius: `0.025`
+    - Texture Names: `steel_cable` & `steel_cable_n`
+
+- Type: `rage__ropeMesh`
+    - Rope Type Value: `3`
+    - Vertices: `6`
+    - Radius: `0.03`
+    - Texture Names: `rope` & `rope_n`
+
+- Type: `rage__ropeThinWire32`
+    - Rope Type Value: `4`
+    - Vertices: `32`
+    - Radius: `0.01`
+    - Texture Names: `rope` & `rope_n`
+
+- Type: `rage__ropeReins`
+    - Rope Type Value: `5`
+    - Vertices: `32`
+    - Radius: `0.005`
+    - Texture Names: `rope` & `rope_n`
+
+- Type: `rage__ropeThin4`
+    - Rope Type Value: `6`
+    - Vertices: `4`
+    - Radius: `0.03`
+    - Texture Names: `rope` & `rope_n`
+
+- Type: `rage__ropeWire64`
+    - Rope Type Value: `7`
+    - Vertices: `64`
+    - Radius: `0.025`
+    - Texture Names: `steel_cable` & `steel_cable_n`
+
 ## Parameters
 * **x**: Spawn coordinate X component.
 * **y**: Spawn coordinate Y component.
@@ -23,7 +73,7 @@ Rope will sometimes contract and fall to the ground like you'd expect it to, but
 * **rotY**: Rotation Y component.
 * **rotZ**: Rotation Z component.
 * **maxLength**: The maximum length the rope can droop.
-* **ropeType**: 1 to 4 are thick ropes. 5 and up are thin ropes. Ropes types defined in ropedata.xml. An invalid rope type such as 0 will crash the game.
+* **ropeType**: The zero-based index of the entry in the `ropedata.xml` file. *NOTE: An invalid rope type, such as `8`, will crash the game.*
 * **initLength**: The initial length of the rope.
 * **minLength**: The minimum length the rope can be.
 * **lengthChangeRate**: The speed in which the rope will wind if winding is started.
@@ -36,3 +86,45 @@ Rope will sometimes contract and fall to the ground like you'd expect it to, but
 
 ## Return value
 A script handle for the rope
+
+## Examples
+```lua
+RegisterCommand("new_rope", function(soruce, args)
+
+    -- Get the handle for the player's ped
+    local pedHandle = PlayerPedId()
+
+    -- Ensure that the rope textures are loaded
+    local timer = 0
+    while not RopeAreTexturesLoaded() and timer < 1000 do
+        RopeLoadTextures()
+        timer = timer + 1
+        Citizen.Wait(0)
+    end
+
+    -- Get the coordinates for where the rope will be
+    local ropePos = GetOffsetFromEntityInWorldCoords(pedHandle, 0.0, 2.0, 0.5)
+
+    -- Create the rope
+    local newRopeHandle = AddRope(
+        ropePos.x, -- x
+        ropePos.y, -- y
+        ropePos.z, -- z
+        0.0, -- rotX
+        0.0, -- rotY
+        0.0, -- rotZ
+        10.0, -- maxLength
+        1, -- ropeType
+        10.0, -- initLength
+        0.0, -- minLength
+        1.0, -- lengthChangeRate
+        false, -- onlyPPU
+        false, -- collisionOn
+        false, -- lockFromFront
+        1.0, -- timeMultiplier
+        false, -- breakable
+        0 -- unkPtr
+    )
+
+end)
+```
