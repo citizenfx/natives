@@ -1,0 +1,12 @@
+---
+ns: AUDIO
+aliases: ["0x0150B6FF25A9E2E5"]
+---
+## UNREQUEST_TENNIS_BANKS
+
+```c
+// 0x0150B6FF25A9E2E5 0x1134F68B
+void UNREQUEST_TENNIS_BANKS();
+```
+
+Unloads tennis vocalization banks loaded with [`REQUEST_TENNIS_BANKS`](#_0x4ADA3F19BE4A6047).
