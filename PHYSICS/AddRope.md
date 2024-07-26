@@ -15,7 +15,7 @@ Rope does NOT interact with anything you attach it to, in some cases it make int
 Rope will sometimes contract and fall to the ground like you'd expect it to, but since it doesn't interact with the world the effect is just jaring.  
 ```
 
-## Rope Types
+### Rope Types
 There are 8 different rope types in the base game. Full rope data can be found in `ropedata.xml`.
 - Type: `rage__ropeThin`
     - Rope Type Value: `0`
@@ -73,7 +73,7 @@ There are 8 different rope types in the base game. Full rope data can be found i
 * **rotY**: Rotation Y component.
 * **rotZ**: Rotation Z component.
 * **maxLength**: The maximum length the rope can droop.
-* **ropeType**: The zero-based index of the entry in the `ropedata.xml` file. *NOTE: An invalid rope type, such as `8`, will crash the game.*
+* **ropeType**: The zero-based index of the entry in the `ropedata.xml` file. *NOTE: Using an index which does not exist will crash the game. As of right now, valid values are from `0` to `7` inclusive.*
 * **initLength**: The initial length of the rope.
 * **minLength**: The minimum length the rope can be.
 * **lengthChangeRate**: The speed in which the rope will wind if winding is started.
@@ -89,42 +89,49 @@ A script handle for the rope
 
 ## Examples
 ```lua
-RegisterCommand("new_rope", function(soruce, args)
+RegisterCommand("new_rope", function(source, args, rawCommand)
 
-    -- Get the handle for the player's ped
-    local pedHandle = PlayerPedId()
+    Citizen.CreateThread(function()
+        -- Get the handle for the player's ped
+        local pedHandle = PlayerPedId()
 
-    -- Ensure that the rope textures are loaded
-    local timer = 0
-    while not RopeAreTexturesLoaded() and timer < 1000 do
-        RopeLoadTextures()
-        timer = timer + 1
-        Citizen.Wait(0)
-    end
+        -- Ensure that the rope textures are loaded
+        local timer = 0
+        while not RopeAreTexturesLoaded() and timer < 1000 do
+            RopeLoadTextures()
+            timer = timer + 1
+            Citizen.Wait(0)
+        end
 
-    -- Get the coordinates for where the rope will be
-    local ropePos = GetOffsetFromEntityInWorldCoords(pedHandle, 0.0, 2.0, 0.5)
+        if not RopeAreTexturesLoaded() then
+            -- Error handling for the edge case where rope textures are not able to be loaded
+            print("Wasn't able to load rope textures!")
+        else
+            -- Get the coordinates for where the rope will be
+            local ropePos = GetOffsetFromEntityInWorldCoords(pedHandle, 0.0, 2.0, 0.5)
 
-    -- Create the rope
-    local newRopeHandle = AddRope(
-        ropePos.x, -- x
-        ropePos.y, -- y
-        ropePos.z, -- z
-        0.0, -- rotX
-        0.0, -- rotY
-        0.0, -- rotZ
-        10.0, -- maxLength
-        1, -- ropeType
-        10.0, -- initLength
-        0.0, -- minLength
-        1.0, -- lengthChangeRate
-        false, -- onlyPPU
-        false, -- collisionOn
-        false, -- lockFromFront
-        1.0, -- timeMultiplier
-        false, -- breakable
-        0 -- unkPtr
-    )
+            -- Create the rope
+            local newRopeHandle = AddRope(
+                ropePos.x, -- x
+                ropePos.y, -- y
+                ropePos.z, -- z
+                0.0, -- rotX
+                0.0, -- rotY
+                0.0, -- rotZ
+                10.0, -- maxLength
+                1, -- ropeType
+                10.0, -- initLength
+                0.0, -- minLength
+                1.0, -- lengthChangeRate
+                false, -- onlyPPU
+                false, -- collisionOn
+                false, -- lockFromFront
+                1.0, -- timeMultiplier
+                false, -- breakable
+                0 -- unkPtr
+            )
+        end
+    end)
 
-end)
+end, false)
 ```
