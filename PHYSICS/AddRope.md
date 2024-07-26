@@ -96,10 +96,8 @@ RegisterCommand("new_rope", function(source, args, rawCommand)
         local pedHandle = PlayerPedId()
 
         -- Ensure that the rope textures are loaded
-        local timer = 0
-        while not RopeAreTexturesLoaded() and timer < 1000 do
+        while not RopeAreTexturesLoaded() do
             RopeLoadTextures()
-            timer = timer + 1
             Citizen.Wait(0)
         end
 
