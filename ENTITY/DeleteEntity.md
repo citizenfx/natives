@@ -48,15 +48,15 @@ DeleteEntity(vehicle);
 using static CitizenFX.Core.Native.API;
 
 // Retrieve the vehicle the player is currently in.
-Vehicle vehicle = GetVehiclePedIsIn(PlayerPedId(), false);
+int vehicleHandle = GetVehiclePedIsIn(PlayerPedId(), false);
 
 // Check if the vehicle exists in the game world.
-if (!DoesEntityExist(vehicle))
+if (!DoesEntityExist(vehicleHandle))
 {
     // If the vehicle does not exist, end the execution of the code here.
     return;
 }
 
 // If the vehicle does exist, delete the vehicle entity from the game world.
-DeleteEntity(vehicle);
+DeleteEntity(ref vehicleHandle);
 ```
