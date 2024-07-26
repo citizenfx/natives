@@ -30,3 +30,5 @@ The oriented rectangle can then be derived from the direction of the two points 
 * **width**: Width of the angled area
 * **p10**: a debug flag invoking functions in the same path as ``DRAW_MARKER``
 * **includez**: If true, include the Z dimension when doing the height check; otherwise the query becomes two-dimensional
+
+## Return value
