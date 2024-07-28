@@ -8,22 +8,16 @@ ns: CAM
 void RENDER_SCRIPT_CAMS(BOOL render, BOOL ease, int easeTime, BOOL p3, BOOL p4);
 ```
 
-```
-ease - smooth transition between the camera's positions  
-easeTime - Time in milliseconds for the transition to happen  
-If you have created a script (rendering) camera, and want to go back to the   
-character (gameplay) camera, call this native with render set to 0.  
-Setting ease to 1 will smooth the transition.  
-```
+Renders the cams the current script
+
+## Parameters
+* **render**: Whether to render the cams or not.
+* **ease **: If true it will make a smooth transition between the current camera and the new rendered camera.
+* **easeTime **: The in milliseconds for the transition to happen.
+* **easeCoordsAnim**: If false it will only do the smooth transition to the rotation and the coords will be set instantly.
+* **p4**: Doesn't seem to change anything.
 
 ```
 NativeDB Added Parameter 6: Any p5
 ```
-
-## Parameters
-* **render**: 
-* **ease**: 
-* **easeTime**: 
-* **p3**: 
-* **p4**: 
 
