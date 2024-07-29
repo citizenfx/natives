@@ -23,10 +23,28 @@ NativeDB Added Parameter 6: Any p5
 
 ## Examples
 ```lua
-local cam = CreateCam("DEFAULT_SCRIPTED_CAMERA", true) -- We create the cam
-SetCamCoord(cam, vector3(100.0, 100.0, 100.0)) -- We set the cam coords
-RenderScriptCams(true, true, 2000, true, true) -- We render the camera with a smooth transition of 2000 ms
-Wait(7000) -- We wait 5 seconds + 2 extra for the transition
-DestroyCam(cam) -- Remove the cam
-RenderScriptCams(false, false, 0, false, false) -- We reset to the default cam by setting the first value in false
+local casino = vector3(881.31, 74.71, 94.43)
+
+-- Create the camera that will be used for RenderScriptCams
+local cam = CreateCam("DEFAULT_SCRIPTED_CAMERA", true)
+-- Set the camera coordinates to be in front of the Casino
+SetCamCoord(cam, casino.x, casino.y, casino.z)
+-- Rotate the camera towards the casino
+SetCamRot(cam, -25.0, 0.0, -124.22)
+
+-- Render the camera and so a smooth transition for 2000ms
+RenderScriptCams(true, true, 2000, false, true)
+
+-- tell the game to load maps, collisions, objects, etc around the casino.
+SetFocusPosAndVel(casino.x, casino.y, casino.z, 0.0, 0.0, 0.0)
+
+ -- We wait 5 seconds + 2 extra for the transition
+Wait(7000)
+-- Remove the cam, we no longer need it
+DestroyCam(cam) 
+
+-- reset streaming focus to be at the local player ped
+ClearFocus()
+-- Stop rendering the script camera and interpolate back to their player ped
+RenderScriptCams(false, true, 2000, false, false) 
 ```
