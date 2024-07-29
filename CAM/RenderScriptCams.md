@@ -8,7 +8,7 @@ ns: CAM
 void RENDER_SCRIPT_CAMS(BOOL render, BOOL ease, int easeTime, BOOL easeCoordsAnim, BOOL p4);
 ```
 
-Renders the cams the current script.
+Renders the camera previously created with [CREATE_CAM](#_0xC3981DCE61D9E13F) or [CREATE_CAMERA](#_0x5E3CF89C6BCCA67D)
 
 ```
 NativeDB Added Parameter 6: Any p5
