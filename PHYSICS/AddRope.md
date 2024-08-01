@@ -101,34 +101,29 @@ RegisterCommand("new_rope", function(source, args, rawCommand)
             Citizen.Wait(0)
         end
 
-        if not RopeAreTexturesLoaded() then
-            -- Error handling for the edge case where rope textures are not able to be loaded
-            print("Wasn't able to load rope textures!")
-        else
-            -- Get the coordinates for where the rope will be
-            local ropePos = GetOffsetFromEntityInWorldCoords(pedHandle, 0.0, 2.0, 0.5)
+        -- Get the coordinates for where the rope will be
+        local ropePos = GetOffsetFromEntityInWorldCoords(pedHandle, 0.0, 2.0, 0.5)
 
-            -- Create the rope
-            local newRopeHandle = AddRope(
-                ropePos.x, -- x
-                ropePos.y, -- y
-                ropePos.z, -- z
-                0.0, -- rotX
-                0.0, -- rotY
-                0.0, -- rotZ
-                10.0, -- maxLength
-                1, -- ropeType
-                10.0, -- initLength
-                0.0, -- minLength
-                1.0, -- lengthChangeRate
-                false, -- onlyPPU
-                false, -- collisionOn
-                false, -- lockFromFront
-                1.0, -- timeMultiplier
-                false, -- breakable
-                0 -- unkPtr
-            )
-        end
+        -- Create the rope
+        local newRopeHandle = AddRope(
+            ropePos.x, -- x
+            ropePos.y, -- y
+            ropePos.z, -- z
+            0.0, -- rotX
+            0.0, -- rotY
+            0.0, -- rotZ
+            10.0, -- maxLength
+            1, -- ropeType
+            10.0, -- initLength
+            0.0, -- minLength
+            1.0, -- lengthChangeRate
+            false, -- onlyPPU
+            false, -- collisionOn
+            false, -- lockFromFront
+            1.0, -- timeMultiplier
+            false, -- breakable
+            0 -- unkPtr
+        )
     end)
 
 end, false)
