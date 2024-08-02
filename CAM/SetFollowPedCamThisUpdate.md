@@ -45,9 +45,9 @@ enum ePedFollowCameras {
 Return `true` if set camera successfully and `false` otherwise.
 ## Examples
 ```lua
--- Example with zoomed out camera
-while true do
-    SetFollowPedCamThisUpdate("FOLLOW_PED_ATTACHED_TO_ROPE_CAMERA", 500)
-    Citizen.Wait(0)
-end
-```
+CreateThread(function()
+    while true do
+        SetFollowPedCamThisUpdate("FOLLOW_PED_ATTACHED_TO_ROPE_CAMERA", 500) -- Zoomed out the ped camera
+        Wait(0)
+    end
+end)
