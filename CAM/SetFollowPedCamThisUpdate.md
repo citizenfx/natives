@@ -39,7 +39,7 @@ enum ePedFollowCameras {
 
 ## Parameters
 * **camName**: The name of the camera to use this update
-* **easeTime**: The time (in ms) to ease in the camera
+* **easeTime**: The time in milliseconds to ease in the camera
 
 ## Return value
 Return `true` if set camera successfully and `false` otherwise.
