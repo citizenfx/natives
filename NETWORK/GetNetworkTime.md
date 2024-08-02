@@ -10,7 +10,7 @@ int GET_NETWORK_TIME();
 
 
 ## Return value
-Returns the network time as an integer
+Returns the network time this tick, if you want a tick-agnostic version use [`GetNetworkTimeAccurate`](#_0x89023FBBF9200E9F)
 
 ## Examples
 ```lua
