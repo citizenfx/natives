@@ -42,7 +42,7 @@ enum ePedFollowCameras {
 * **easeTime**: The time (in ms) to ease in the camera
 
 ## Return value
-
+Return `true` if set camera successfully and `false` otherwise.
 ## Examples
 ```lua
 -- Example with zoomed out camera
