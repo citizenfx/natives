@@ -28,13 +28,15 @@ enum ePedFollowCameras {
     CUSTOM_TRANSITION_AFTER_WARP_SKY_DIVE_CAMERA,
     FOLLOW_PED_ON_HORSE_CAMERA,
     FOLLOW_PED_ON_LOUNGER_CAMERA,
-
-    // Not yet named camera hashes
-    // 0x5DBBFB6E
-    // 0xA38DB056
-    // 0x16B702A3
-    // 0x41D72A2E
 }
+```
+
+Other camera hashes (names not found yet)
+```c
+// 0x5DBBFB6E
+// 0xA38DB056
+// 0x16B702A3
+// 0x41D72A2E
 ```
 
 ## Parameters
