@@ -34,8 +34,8 @@ using CitizenFX.Core;
 using static CitizenFX.Core.Native.API;
 
 // Create a rope and store the reference
-Rope rope = World.AddRope(RopeType.ThinMetalWire, new Vector3(0f, 0f, 0f), new Vector3(0f, 0f, 0f), 0f, 0f, false);
-int handle = rope.Handle;
+int unkPtr = 0;
+int ropehandle = AddRope(0f, 0f, 0f, 0f, 0f, 0f, 10f, 5, 10f, 0f, 1f, false, false, false, 1f, false, ref unkPtr);
 
 // Check if the rope exists.
 if (!DoesRopeExist(ref handle))
