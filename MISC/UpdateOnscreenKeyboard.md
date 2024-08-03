@@ -10,13 +10,16 @@ int UPDATE_ONSCREEN_KEYBOARD();
 
 Returns the current state of the text input box.
 
-| Name | Value |
-| ---- | ----- |
-| Invalid | -1 |
-| Editing | 0 |
-| Confirmed | 1 |
-| Canceled | 2 |
-| Failed | 3 |
+```
+enum OSK_STATUS
+{
+  OSK_INVALID = -1,
+  OSK_PENDING = 0,
+  OSK_SUCCESS = 1,
+  OSK_CANCELLED = 2,
+  OSK_FAILED = 3
+};
+```
 
 ## Return value
 Returns a value from the list above.
