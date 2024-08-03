@@ -10,16 +10,18 @@ void DISPLAY_ONSCREEN_KEYBOARD(int keyboardType, char* windowTitle, char* descri
 
 Displays a text input box.
 
-`keyboardType` values:
-| Name | Value |
-| ---- | ----- |
-| English | 0 |
-| Localised | 1 |
-| Password | 2 |
-| Gamertag | 3 |
-| Email | 4 |
-| Basic English | 5 |
-| Filename | 6 |
+```
+enum eKeyboardType
+{
+  ONSCREEN_KEYBOARD_ENGLISH = 0,
+  ONSCREEN_KEYBOARD_LOCALISED = 1,
+  ONSCREEN_KEYBOARD_PASSWORD = 2,
+  ONSCREEN_KEYBOARD_GAMERTAG = 3,
+  ONSCREEN_KEYBOARD_EMAIL = 4,
+  ONSCREEN_KEYBOARD_BASIC_ENGLISH = 5,
+  ONSCREEN_KEYBOARD_FILENAME = 6
+};
+```
 
 ## Parameters
 * **keyboardType**: See the list above. Default is `0`.
