@@ -12,13 +12,16 @@ cs_type(Any) void SET_WARNING_MESSAGE_WITH_HEADER_AND_SUBSTRING_FLAGS_EXTENDED(c
 Shows the warning screen but also allows setting subtitle flags and button bit fields that are above the standard 32 bit set.
 
 Upper bit field button indices:
-| Value    | Button                           |
-| :------: | :-------------------------------:|
-| `1 << 0` | No (INPUT_FRONTEND_X)            |
-| `1 << 1` | Host (INPUT_FRONTEND_CANCEL)     |
-| `1 << 2` | Any Job (INPUT_FRONTEND_CANCEL)  |
-| `1 << 3` | No Text (INPUT_FRONTEND_ACCEPT)  |
-| `1 << 4` | Freemode (INPUT_FRONTEND_CANCEL) |
+```
+enum FE_WARNING_FLAGS_EXTENDED
+{
+	No = 1 << 0,
+	Host = 1 << 1,
+	AnyJob = 1 << 2,
+	NoText = 1 << 3,
+	FreeMode = 1 << 4
+};
+```
 
 ## Parameters
 * **headerTextLabel**: Label of the alert's title. 
