@@ -5,7 +5,7 @@ ns: HUD
 
 ```c
 // 0x86A652570E5F25DD 0xD8C3C1CD
-void REMOVE_BLIP(int* blip);
+void REMOVE_BLIP(int blip);
 ```
 
 Removes the blip from your map.
