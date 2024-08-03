@@ -9,17 +9,19 @@ aliases: ["0x3ED1438C1F5C6612"]
 void NEXT_ONSCREEN_KEYBOARD_RESULT_WILL_DISPLAY_USING_THESE_FONTS(int fontBitField);
 ```
 
-`fontBitField` values:
-| Name | Value |
-| ----- | ----- |
-| Standard | 1 |
-| Cursive | 2 |
-| Rockstar Tag | 4 |
-| Leaderboard | 8 |
-| Condensed | 16 |
-| Fixed Width Numbers | 32 |
-| Condensed Not Gamer Name | 64 |
-| Pricedown | 128 |
+```
+enum eFONT_BIT_FIELD
+{
+  FONT_BIT_STANDARD = 1,
+  FONT_BIT_CURSIVE = 2,
+  FONT_BIT_ROCKSTAR_TAG = 4
+  FONT_BIT_LEADERBOARD = 8
+  FONT_BIT_CONDENSED = 16
+  FONT_BIT_FIXED_WIDTH_NUMBERS = 32
+  FONT_BIT_CONDENSED_NOT_GAMERNAME = 64
+  FONT_BIT_PRICEDOWN = 128
+};
+```
 
 ## Parameters
 * **fontBitField**: See the list above.
