@@ -10,18 +10,16 @@ BOOL IS_VEHICLE_A_CONVERTIBLE(Vehicle vehicle, BOOL checkRoofExtras);
 
 Determines if a vehicle is a convertible with an animatable roof. This native checks if the specified vehicle model features a convertible roof that can be lowered or raised through an animation.
 
-**Note**: It appears that `checkRoofExtras` is malfunctioning. When set to true, it returns `true` (`1`) every time.
-
 ```
 NativeDB Introduced: v323
 ```
 
 ## Parameters
 * **vehicle**: The vehicle to check.
-* **checkRoofExtras**: When set to `false`, the function checks only for vehicles with an animatable convertible roof. Set to `true` to include additional checks for vehicles that might have a non-animatable roof (i.e., using vehicle extras)
+* **checkRoofExtras**: When set to `false`, the native checks only for vehicles with an animatable convertible roof. Set to `true` to include additional checks for vehicles that might have a non-animatable roof (i.e., using vehicle extras)
 
 ## Return value
-Returns 1 (`true`) if the vehicle is a convertible with an animatable roof or if `checkRoofExtras` is `true` and the vehicle has a roof (animatable or not). Returns `false` if the vehicle does not meet the criteria. For compatibility, the native returns integer 1 for `true` rather than a boolean `true`.
+Returns `true` if the vehicle is a convertible with an animatable roof or if `checkRoofExtras` is `true` and the vehicle has a roof (animatable or not). Returns `false` if the vehicle does not meet the criteria.
 
 ## Examples
 ```lua

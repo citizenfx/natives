@@ -10,8 +10,6 @@ BOOL DOES_VEHICLE_HAVE_ROOF(Vehicle vehicle);
 
 Determines whether a specific vehicle is equipped with a roof.
 
-**Note**: For compatibility reasons, it's important to note that when a vehicle has a roof, this native returns `1` instead of `true`.
-
 ```
 NativeDB Introduced: v323
 ```
@@ -20,7 +18,7 @@ NativeDB Introduced: v323
 * **vehicle**: The vehicle to check for a roof presence.
 
 ## Return value
-Returns `1` if the vehicle has a roof, `false` otherwise. This is for compatibility purposes.
+Returns `true` if the vehicle has a roof, `false` otherwise.
 
 ## Examples
 ```lua
