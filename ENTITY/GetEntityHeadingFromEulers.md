@@ -15,3 +15,4 @@ Gets the heading of the entity physics in degrees, which tends to be more accura
 * **entity**: The entity to get the heading from.
 
 ## Return value
+Returns a float representing the entity's heading from eulers.
