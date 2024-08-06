@@ -15,7 +15,6 @@ Rope does NOT interact with anything you attach it to, in some cases it make int
 Rope will sometimes contract and fall to the ground like you'd expect it to, but since it doesn't interact with the world the effect is just jaring.  
 ```
 
-### Rope Types
 There are 8 different rope types in the base game. Full rope data can be found in `ropedata.xml`.
 
 Rope types:
