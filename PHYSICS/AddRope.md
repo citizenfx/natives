@@ -38,7 +38,7 @@ enum ePhysicsRopeType {
 * **rotY**: Rotation Y component.
 * **rotZ**: Rotation Z component.
 * **maxLength**: The maximum length the rope can droop.
-* **ropeType**: The zero-based index of the entry in the `ropedata.xml` file. *NOTE: Using an index which does not exist will crash the game. As of right now, valid values are from `0` to `7` inclusive.*
+* **ropeType**: The zero-based index of the entry in the `ropedata.xml` file. *NOTE: Using an index which does not exist will crash the game. As of game build 3258, valid values are from `0` to `7` inclusive.*
 * **initLength**: The initial length of the rope.
 * **minLength**: The minimum length the rope can be.
 * **lengthChangeRate**: The speed in which the rope will wind if winding is started.
