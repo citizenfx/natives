@@ -17,8 +17,6 @@ Rope will sometimes contract and fall to the ground like you'd expect it to, but
 
 There are 8 different rope types in the base game. Full rope data can be found in `ropedata.xml`.
 
-Rope types:
-
 ```c
 enum ePhysicsRopeType {
     RopeThin = 0, // Verticies: 1, Radius: 0.03, Textures: rope & rope_n
