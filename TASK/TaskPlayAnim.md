@@ -9,7 +9,6 @@ void TASK_PLAY_ANIM(Ped ped, char* animDictionary, char* animationName, float bl
 ```
 
 [Animations list](https://alexguirre.github.io/animations-list/)  
-[Animation flags](https://alexguirre.github.io/rage-parser-dumps/dump.html?game=gta5&build=3095&search=eScriptedAnimFlags#eScriptedAnimFlags)
 
 ```c
 enum eScriptedAnimFlags
