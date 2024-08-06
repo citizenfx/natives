@@ -9,10 +9,6 @@ aliases: ["0x5FC472C501CCADB3"]
 BOOL GET_IS_PLAYER_DRIVING_ON_HIGHWAY(Player playerId);
 ```
 
-```
-Appears once in "re_dealgonewrong"  
-```
-
 ## Parameters
 * **playerId**: The local index of the player to check (see [PLAYER_ID](#_0x4F8644AF03D0E0D6))
 
