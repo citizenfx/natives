@@ -1,0 +1,15 @@
+---
+ns: GRAPHICS
+aliases: ["0x36F6626459D91457"]
+---
+## CASCADE_SHADOWS_SET_SPLIT_Z_EXP_WEIGHT
+
+```c
+// 0x36F6626459D91457 0xC07C64C9
+void CASCADE_SHADOWS_SET_SPLIT_Z_EXP_WEIGHT(float p0);
+```
+
+
+## Parameters
+* **p0**: 
+

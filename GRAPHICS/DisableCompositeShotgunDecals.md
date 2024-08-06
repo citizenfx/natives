@@ -1,0 +1,15 @@
+---
+ns: GRAPHICS
+aliases: ["0x0E4299C549F0D1F1"]
+---
+## DISABLE_COMPOSITE_SHOTGUN_DECALS
+
+```c
+// 0x0E4299C549F0D1F1 0x9BABCBA4
+void DISABLE_COMPOSITE_SHOTGUN_DECALS(BOOL toggle);
+```
+
+
+## Parameters
+* **toggle**: 
+
