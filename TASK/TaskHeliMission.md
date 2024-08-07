@@ -13,7 +13,7 @@ All parameters except ped, heli and speed are optional, with `pedTarget`, `vehic
 If you don't want to use a parameter; pass `0.0f` for `x`, `y` and `z`, `0` for `pedTarget`, `vehicleTarget`, `0` for other int parameters, and `-1.0f` for the remaining float parameters.
 
 ```c
-enum HeliMissionFlags
+enum eHeliMissionFlags
 {
   None = 0,
   AttainRequestedOrientation = 1,
@@ -51,7 +51,7 @@ enum HeliMissionFlags
 * **height**: The height the helicopter will fly at (default is -1.0f).
 * **minHeight**: The height the helicopter will not fly below (default is -1.0f).
 * **slowDist**: The distance to the target at which the helicopter will slow down (default is -1.0f).
-* **missionFlags**: The mission flags (default is 0) (see `HeliMissionFlags`).
+* **missionFlags**: The mission flags (default is 0) (see `eHeliMissionFlags`).
 
 ## Examples
 

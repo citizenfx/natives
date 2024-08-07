@@ -13,7 +13,7 @@ All parameters except ped, vehicle, vehicleTarget and speed are optional; with `
 If you don't want to use a parameter; pass `0` for int parameters, and `-1.0f` for the remaining float parameters.
 
 ```c
-enum VehicleMissionType
+enum eVehicleMissionType
 {
   None = 0,
   Cruise = 1,

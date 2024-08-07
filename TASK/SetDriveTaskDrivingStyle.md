@@ -10,10 +10,10 @@ void SET_DRIVE_TASK_DRIVING_STYLE(Ped ped, int drivingStyle);
 
 Sets the driving style for a ped currently performing a driving task.
 
-Each flag in the `VehicleDrivingFlags` enum can be combined to create a driving style, with each enabling or disabling a specific driving behavior. The driving style can be set to one of the predefined driving styles, or a custom driving style can be created by combining the flags. This can be done by using the bitwise OR operator (`|`) to combine the flags or by adding the decimal values of the flags together.
+Each flag in the `eVehicleDrivingFlags` enum can be combined to create a driving style, with each enabling or disabling a specific driving behavior. The driving style can be set to one of the predefined driving styles, or a custom driving style can be created by combining the flags. This can be done by using the bitwise OR operator (`|`) to combine the flags or by adding the decimal values of the flags together.
 
 ```c
-enum VehicleDrivingFlags
+enum eVehicleDrivingFlags
 {
   None = 0,
   StopForVehicles = 1,
@@ -60,7 +60,7 @@ enum VehicleDrivingFlags
 
 ## Parameters
 * **ped**: The ped to have their driving style set.
-* **drivingStyle**: The driving style (see `VehicleDrivingFlags`).
+* **drivingStyle**: The driving style (see `eVehicleDrivingFlags`).
 
 ## Examples
 

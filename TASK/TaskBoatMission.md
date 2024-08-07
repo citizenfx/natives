@@ -13,7 +13,7 @@ All parameters except ped and boat are optional, with `pedTarget`, `vehicleTarge
 If you don't want to use a parameter; pass `0.0f` for `x`, `y` and `z`, `0` for `pedTarget`, `vehicleTarget` and other int parameters, and `-1.0f` for the remaining float parameters.
 
 ```c
-enum BoatMissionFlags
+enum eBoatMissionFlags
 {
   None = 0,
   StopAtEnd = 1,
@@ -48,7 +48,7 @@ enum BoatMissionFlags
 * **speed**: The speed in m/s (default is -1.0f).
 * **drivingStyle**: The driving style (default is 0) (see [SetDriveTaskDrivingStyle](#_0xDACE1BE37D88AF67)).
 * **radius**: The radius of when the task will be completed (default is -1.0f).
-* **missionFlags**: The mission flags (default is 0) (see `BoatMissionFlags`).
+* **missionFlags**: The mission flags (default is 0) (see `eBoatMissionFlags`).
 
 ## Examples
 
