@@ -11,25 +11,23 @@ BOOL SET_FOLLOW_PED_CAM_THIS_UPDATE(char* camName, int easeTime);
 
 Overrides the ped follow camera (not first person camera) with the specified camera. The game loads all camera metadata from `update/update.rpf/x64/data/metadata/cameras.ymt` and `x64a.rpf/data/metadata/cameras.ymt` with the ped follow cameras being of type `camFollowPedCameraMetadata`.
 
-```c
-enum ePedFollowCameras {
-    DEFAULT_FOLLOW_PED_CAMERA,
-    FOLLOW_PED_ATTACHED_TO_ROPE_CAMERA,
-    FOLLOW_PED_ON_EXILE1_LADDER_CAMERA,
-    FOLLOW_PED_SKY_DIVING_CAMERA,
-    FOLLOW_PED_SKY_DIVING_FAMILY5_CAMERA,
-    NIGHTCLUB_FOLLOW_PED_CAMERA,
-    FOLLOW_PED_INTIMIDATION_CAMERA,
-    FOLLOW_PED_IN_WATER_CAMERA,
-    FOLLOW_PED_PRONE_CAMERA,
-    FOLLOW_PED_ON_SEAT_CAMERA,
-    FOLLOW_PED_HANGING_UPSIDE_DOWN_CAMERA,
-    FOLLOW_PED_ATTACHED_TO_ROPE_CAMERA,
-    CUSTOM_TRANSITION_AFTER_WARP_SKY_DIVE_CAMERA,
-    FOLLOW_PED_ON_HORSE_CAMERA,
-    FOLLOW_PED_ON_LOUNGER_CAMERA,
-}
-```
+| Follow Camera Names                          |
+|----------------------------------------------|
+| DEFAULT_FOLLOW_PED_CAMERA                    |
+| FOLLOW_PED_ATTACHED_TO_ROPE_CAMERA           |
+| FOLLOW_PED_ON_EXILE1_LADDER_CAMERA           |
+| FOLLOW_PED_SKY_DIVING_CAMERA                 |
+| FOLLOW_PED_SKY_DIVING_FAMILY5_CAMERA         |
+| NIGHTCLUB_FOLLOW_PED_CAMERA                  |
+| FOLLOW_PED_INTIMIDATION_CAMERA               |
+| FOLLOW_PED_IN_WATER_CAMERA                   |
+| FOLLOW_PED_PRONE_CAMERA                      |
+| FOLLOW_PED_ON_SEAT_CAMERA                    |
+| FOLLOW_PED_HANGING_UPSIDE_DOWN_CAMERA        |
+| FOLLOW_PED_ATTACHED_TO_ROPE_CAMERA           |
+| CUSTOM_TRANSITION_AFTER_WARP_SKY_DIVE_CAMERA |
+| FOLLOW_PED_ON_HORSE_CAMERA                   |
+| FOLLOW_PED_ON_LOUNGER_CAMERA                 |
 
 Other camera hashes (names not found yet)
 ```c
@@ -45,6 +43,7 @@ Other camera hashes (names not found yet)
 
 ## Return value
 Return `true` if set camera successfully and `false` otherwise.
+
 ## Examples
 ```lua
 CreateThread(function()
