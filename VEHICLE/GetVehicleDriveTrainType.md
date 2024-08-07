@@ -14,7 +14,8 @@ NativeDB Introduced: v3258
 
 **Note**: When using this native, the hash of the vehicle needs to be loaded into the client's memory. This can be done by requesting the model with [`REQUEST_MODEL`](#_0x963D27A58DF860AC) or by simply having the vehicle spawned.
 
-```cpp
+```c
+
 enum eVehicleDrivetrainType
 {
 	VehicleDrivetrainType_INVALID = 0,
