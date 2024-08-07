@@ -10,8 +10,8 @@ void TASK_VEHICLE_DRIVE_TO_COORD_LONGRANGE(Ped ped, Vehicle vehicle, float x, fl
 
 You can let your character drive to the destination at the speed and driving style you set. You can use map marks to set the destination.
 
-### Flags
-enum EDriveBehaviorFlags {
+```
+enum eDriveBehaviorFlags {
   DF_StopForCars = 1,
   DF_StopForPeds = 2,
   DF_SwerveAroundAllCars = 4,
@@ -37,7 +37,7 @@ enum EDriveBehaviorFlags {
   DF_AvoidHighways = 536870912,
   DF_ForceJoinInRoadDirection = 1073741824
 }
-
+```
 ## Parameters
 * **ped**: Ped id for the task.
 * **vehicle**: Vehicle entity id for the task. 
@@ -47,9 +47,6 @@ enum EDriveBehaviorFlags {
 * **speed**: Speed of driving.
 * **driveMode**: More info can be found [here](https://vespura.com/fivem/drivingstyle/)
 * **stopRange**: Stops in the specific range near the destination. 20.0 works fine.
-
-
-  
 
 ## Examples
 ```cs
