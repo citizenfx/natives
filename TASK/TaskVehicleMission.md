@@ -41,7 +41,7 @@ enum eVehicleMissionType
 * **ped**: The ped to be tasked.
 * **vehicle**: The vehicles' entity handle.
 * **vehicleTarget**: The target vehicle.
-* **missionType**: The mission type (default is 0) (see `VehicleMissionType`).
+* **missionType**: The mission type (default is 0) (see `eVehicleMissionType`).
 * **speed**: The speed in m/s.
 * **drivingStyle**: The driving style (default is 0) (see [SetDriveTaskDrivingStyle](#_0xDACE1BE37D88AF67)).
 * **radius**: The radius of when the task will be completed (default is -1.0f).
