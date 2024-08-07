@@ -15,7 +15,7 @@ The Text components here refer to placeholders, see [content-formatting-codes](h
 
 To add a custom text entry see [ADD_TEXT_ENTRY](#_0x32CA01C3)
 
-For some example label names see [_GET_LABEL_TEXT](?_0x7B5280EBA9840C72).
+For some example label names see [_GET_LABEL_TEXT](#_0x7B5280EBA9840C72).
 
 ## Parameters
 * **text**: The gxtEntry to use
