@@ -11,7 +11,7 @@ int UPDATE_ONSCREEN_KEYBOARD();
 Returns the current state of the text input box.
 
 ```
-enum OSK_STATUS
+enum eOSKStatus
 {
   OSK_INVALID = -1,
   OSK_PENDING = 0,
