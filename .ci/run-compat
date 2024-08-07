@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# configuration
+ci_root="$(dirname "$0")"
+. "$ci_root"/config.sh
+
+GENERATOR_PATH="$1/compatgen.js"
+OUTPUT_FILE=${2:-"./out/$CONFIG_UPLOAD_COMPAT_FILE.lua"}
+INPUT_FILE=${3:-"./in/$CONFIG_UPLOAD_COMPAT_FILE.lua"}
+IGNORE_MISSING_INPUT=${4:-false}
+FORCE_UPDATE=${5:-false}
+USE_HISTORY=${6:-false}
+DAYS_SINCE_DATE=${7:-"$CONFIG_COMPAT_FROM_DATE"} #YYYY-MM-DD
+VERSION=${8:-2.0}
+
+# execution
+node $GENERATOR_PATH --set-version=$VERSION --force=$FORCE_UPDATE --out=$OUTPUT_FILE --in=$INPUT_FILE --ignore-missing-in=$IGNORE_MISSING_INPUT --use-history=$USE_HISTORY --start-date=$DAYS_SINCE_DATE

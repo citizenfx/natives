@@ -11,3 +11,5 @@ int GET_NUM_UNLOCKED_RADIO_STATIONS();
 
 
 ## Return value
+Returns the number of radio stations currently unlocked in the game. This can change as a result of DLC and/or script calls.
+

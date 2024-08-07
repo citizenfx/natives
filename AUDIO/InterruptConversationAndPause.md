@@ -6,16 +6,13 @@ aliases: ["0x8A694D7A68F8DC38"]
 
 ```c
 // 0x8A694D7A68F8DC38 0xDD4A3F1F
-void INTERRUPT_CONVERSATION_AND_PAUSE(Ped ped, char* p1, char* p2);
+void INTERRUPT_CONVERSATION_AND_PAUSE(Ped interrupterPed, char* context, char* voiceName);
 ```
 
-```
-One call found in the b617d scripts:
-AUDIO::_8A694D7A68F8DC38(NETWORK::NET_TO_PED(l_3989._f26F[0/*1*/]), "CONV_INTERRUPT_QUIT_IT", "LESTER");
-```
+Handles conversation interrupts and pauses, using the code-side system for improved timing and to minimize unfriendly logic interactions.
 
 ## Parameters
-* **ped**: 
-* **p1**: 
-* **p2**: 
+* **interrupterPed**: the ped speaking
+* **context**: the line to use
+* **voiceName**: the voicename for the audio asset
 

@@ -8,9 +8,7 @@ ns: OBJECT
 Object CREATE_PORTABLE_PICKUP(Hash pickupHash, float x, float y, float z, BOOL placeOnGround, Hash modelHash);
 ```
 
-```
-Pickup hashes: pastebin.com/8EuSv2r1
-```
+Pickup hashes can be found [here](https://gist.github.com/4mmonium/1eabfb6b3996e3aa6b9525a3eccf8a0b). 
 
 ## Parameters
 * **pickupHash**: 

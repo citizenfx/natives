@@ -10,6 +10,7 @@ cs_type(int) BOOL IS_MISSION_NEWS_STORY_UNLOCKED(int newsStory);
 ```
 
 ## Parameters
-* **newsStory**: 
+* **newsStory**:
 
 ## Return value
+Returns true of the specific story is available to be played back

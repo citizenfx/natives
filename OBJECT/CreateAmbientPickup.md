@@ -8,10 +8,7 @@ ns: OBJECT
 Pickup CREATE_AMBIENT_PICKUP(Hash pickupHash, float posX, float posY, float posZ, int flags, int value, Hash modelHash, BOOL returnHandle, BOOL p8);
 ```
 
-```
-Used for doing money drop  
-Pickup hashes: pastebin.com/8EuSv2r1  
-```
+Creates an ambient pickup given the hash. Pickup hashes can be found [here](https://gist.github.com/4mmonium/1eabfb6b3996e3aa6b9525a3eccf8a0b).
 
 ## Parameters
 * **pickupHash**: 

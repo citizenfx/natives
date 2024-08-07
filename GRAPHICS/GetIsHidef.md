@@ -8,9 +8,11 @@ ns: GRAPHICS
 BOOL GET_IS_HIDEF();
 ```
 
+This native indicates whether the game is running in high-definition (HD) resolution. It returns `false` if the resolution is less than `1280x720` and `true` if it's equal to or greater than `1280x720`.
+
 ```
-false = Any resolution < 1280x720  
-true = Any resolution >= 1280x720  
+NativeDB Introduced: v323
 ```
 
 ## Return value
+A boolean value indicating whether the game is running in high-definition (`true`) or not (`false`).

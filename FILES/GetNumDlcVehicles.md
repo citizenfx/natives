@@ -8,5 +8,6 @@ ns: FILES
 int GET_NUM_DLC_VEHICLES();
 ```
 
+Returns the total number of DLC vehicles.
 
 ## Return value

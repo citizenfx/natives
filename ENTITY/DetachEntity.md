@@ -10,6 +10,6 @@ void DETACH_ENTITY(Entity entity, BOOL dynamic, BOOL collision);
 
 ## Parameters
 * **entity**: 
-* **dynamic**: Set to `true` to keep velocity after dettaching
+* **dynamic**: Set to `true` to keep velocity after detaching
 * **collision**: 
 

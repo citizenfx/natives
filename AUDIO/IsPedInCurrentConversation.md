@@ -10,6 +10,7 @@ BOOL IS_PED_IN_CURRENT_CONVERSATION(Ped ped);
 
 
 ## Parameters
-* **ped**: 
+* **ped**:
 
 ## Return value
+Returns true if the ped is in the currently playing conversation

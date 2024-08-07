@@ -8,4 +8,4 @@ ns: AUDIO
 void RESTART_SCRIPTED_CONVERSATION();
 ```
 
-
+Restarts a conversation that was previously paused with [PAUSE_SCRIPTED_CONVERSATION](#_0x8530AD776CD72B12)

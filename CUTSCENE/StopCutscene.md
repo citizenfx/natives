@@ -8,7 +8,6 @@ ns: CUTSCENE
 void STOP_CUTSCENE(BOOL p0);
 ```
 
-
 ## Parameters
-* **p0**: 
+* **p0**: Always false
 

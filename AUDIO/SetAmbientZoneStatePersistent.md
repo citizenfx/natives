@@ -5,12 +5,12 @@ ns: AUDIO
 
 ```c
 // 0x1D6650420CEC9D3B 0xC1FFB672
-void SET_AMBIENT_ZONE_STATE_PERSISTENT(char* ambientZone, BOOL p1, BOOL p2);
+void SET_AMBIENT_ZONE_STATE_PERSISTENT(char* zoneName, BOOL enabled, BOOL forceUpdate);
 ```
 
 
 ## Parameters
-* **ambientZone**: 
-* **p1**: 
-* **p2**: 
+* **zoneName**:
+* **enabled**: Enables/disables an ambient zone for the duration of this script
+* **forceUpdate**: Set to true to force a zone to become disabled even if its currently active, default behaviour is to only change state when the player leaves the zone.
 

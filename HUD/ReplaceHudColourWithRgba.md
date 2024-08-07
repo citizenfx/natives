@@ -9,9 +9,7 @@ aliases: ["0xF314CF4F0211894E","_SET_HUD_COLOUR"]
 void REPLACE_HUD_COLOUR_WITH_RGBA(int hudColorIndex, int r, int g, int b, int a);
 ```
 
-```
-HUD colors and their values: pastebin.com/d9aHPbXN  
-```
+Hud colors can be found [here](https://docs.fivem.net/docs/game-references/hud-colors/)
 
 ## Parameters
 * **hudColorIndex**: 

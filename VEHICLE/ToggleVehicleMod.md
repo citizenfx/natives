@@ -8,9 +8,12 @@ ns: VEHICLE
 void TOGGLE_VEHICLE_MOD(Vehicle vehicle, int modType, BOOL toggle);
 ```
 
+Enables or disables a vehicle mod by index (`modType`) for a given vehicle.  
+
+`eVehicleModType` enum, used for `modType` index can be found under [`SET_VEHICLE_MOD`](#_0x6AF0636DDEDCB6DD).
 
 ## Parameters
-* **vehicle**: 
+* **vehicle**: The vehicle handle
 * **modType**: Refer to eVehicleModType in [`SET_VEHICLE_MOD`](#_0x6AF0636DDEDCB6DD).
-* **toggle**: 
+* **toggle**: A bool indicating whether the mod should be enabled/disabled (true/false)
 

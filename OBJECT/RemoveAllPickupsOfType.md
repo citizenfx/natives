@@ -8,9 +8,7 @@ ns: OBJECT
 void REMOVE_ALL_PICKUPS_OF_TYPE(Hash pickupHash);
 ```
 
-```
-Pickup hashes: pastebin.com/8EuSv2r1  
-```
+Pickup hashes can be found [here](https://gist.github.com/4mmonium/1eabfb6b3996e3aa6b9525a3eccf8a0b).
 
 ## Parameters
 * **pickupHash**: 

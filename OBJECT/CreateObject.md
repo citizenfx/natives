@@ -22,3 +22,40 @@ This object will initially be owned by the creating script as a mission entity, 
 
 ## Return value
 A script handle (fwScriptGuid index) for the object, or `0` if the object failed to be created.
+
+## Examples
+```lua
+local modelHash = `prop_weed_01` -- The ` return the jenkins hash of a string. see more at: https://cookbook.fivem.net/2019/06/23/lua-support-for-compile-time-jenkins-hashes/
+
+if not HasModelLoaded(modelHash) then
+    -- If the model isnt loaded we request the loading of the model and wait that the model is loaded
+    RequestModel(modelHash)
+
+    while not HasModelLoaded(modelHash) do
+        Citizen.Wait(1)
+    end
+end
+
+-- At this moment the model its loaded, so now we can create the object
+local obj = CreateObject(modelHash, vector3(0.0, 0.0, 0.0), true)
+```
+
+```js  
+async function Main() {
+    const modelHash = GetHashKey("prop_weed_01");
+
+    if (!HasModelLoaded(modelHash)) {
+        // If the model isnt loaded we request the loading of the model and wait that the model is loaded
+        RequestModel(modelHash);
+        do {
+            new Promise(resolve => setTimeout(resolve, 100));
+        } while (!HasModelLoaded(modelHash));
+    }
+
+    // At this moment the model its loaded, so now we can create the object
+    let [x, y, z] = GetEntityCoords(PlayerPedId());
+    const obj = CreateObject(modelHash, x, y, z, true);
+}
+
+Main();
+```

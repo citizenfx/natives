@@ -32,8 +32,8 @@ A script handle (fwScriptGuid index) for the vehicle, or `0` if the vehicle fail
 local ModelHash = `adder` -- Use Compile-time hashes to get the hash of this model
 if not IsModelInCdimage(ModelHash) then return end
 RequestModel(ModelHash) -- Request the model
-while not HasModelLoaded(ModelHash) do -- Waits for the model to load with a check so it does not get stuck in an infinite loop
-  Citizen.Wait(10)
+while not HasModelLoaded(ModelHash) do -- Waits for the model to load
+  Wait(0)
 end
 local MyPed = PlayerPedId()
 local Vehicle = CreateVehicle(ModelHash, GetEntityCoords(MyPed), GetEntityHeading(MyPed), true, false) -- Spawns a networked vehicle on your current coords

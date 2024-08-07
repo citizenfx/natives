@@ -8,16 +8,10 @@ ns: ENTITY
 float GET_ENTITY_SPEED(Entity entity);
 ```
 
-```
-result is in meters per second  
-------------------------------------------------------------  
-So would the conversion to mph and km/h, be along the lines of this.  
-float speed = GET_ENTITY_SPEED(veh);  
-float kmh = (speed * 3.6);  
-float mph = (speed * 2.236936);  
-```
+Get the speed of a entity.
 
 ## Parameters
-* **entity**: 
+* **entity**: Entity id you want to test for speed.
 
 ## Return value
+Speed of a entity in m/s. You can convert to km/h using the value you get and multiply by 3.6, and miles/h by 2.236936. Also, the float returned is the length of [GET_ENTITY_SPEED_VECTOR](?_0x9A8D700A51CB7B0D)

@@ -14,7 +14,7 @@ Sets a gamer tag's component colour
 ## Parameters
 * **gamerTagId**: a gamerTagId obtained using  for example: [`CREATE_FAKE_MP_GAMER_TAG`](#_0xBFEFE3321A3F5015).
 * **component**: a component id, see the full list here: [link](https://docs.fivem.net/docs/game-references/gamer-tags/#components-list)
-* **hudColorIndex**: a hud color index, see the full list here: [link](https://pastebin.com/d9aHPbXN)  
+* **hudColorIndex**: a hud color index, see the full list here: [link](https://docs.fivem.net/docs/game-references/hud-colors/)  
 
 ## Examples
 ```lua

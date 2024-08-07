@@ -3,12 +3,19 @@
 set -eu
 
 # include common script
-. "$(dirname "$0")"/common.sh
+. "$(dirname "$BASH_SOURCE")"/common.sh
 
 sudo ln -s libclang-10.so.1 /usr/lib/x86_64-linux-gnu/libclang.so
 
 mkdir -p $BUILDER_ROOT
 cd $BUILDER_ROOT
 
-git clone https://github.com/citizenfx/native-doc-tooling.git .
+# shallow clone latest
+git clone --depth=1 https://github.com/citizenfx/native-doc-tooling.git ./
+
+# shallow clone specific commit
+#git init -q .
+#git fetch -q --depth=1 https://github.com/citizenfx/native-doc-tooling.git 59821abdd96caf23be103bfa0da3c799ce690df9
+#git checkout FETCH_HEAD
+
 yarn

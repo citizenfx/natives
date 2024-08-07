@@ -8,4 +8,4 @@ ns: CUTSCENE
 void STOP_CUTSCENE_IMMEDIATELY();
 ```
 
-
+Stop cutscene instantly, will dump registered entities right where they were when ran.

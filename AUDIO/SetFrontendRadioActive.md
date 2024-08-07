@@ -8,7 +8,8 @@ ns: AUDIO
 void SET_FRONTEND_RADIO_ACTIVE(BOOL active);
 ```
 
+Allows the radio to be played in the frontend.
 
 ## Parameters
-* **active**: 
+* **active**:
 

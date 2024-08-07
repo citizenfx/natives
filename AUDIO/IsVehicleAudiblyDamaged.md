@@ -10,6 +10,7 @@ BOOL IS_VEHICLE_AUDIBLY_DAMAGED(Vehicle vehicle);
 ```
 
 ## Parameters
-* **vehicle**: 
+* **vehicle**:
 
 ## Return value
+Returns true if the vehicle has any audible damage effects applied to it.

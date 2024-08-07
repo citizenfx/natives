@@ -5,29 +5,71 @@ ns: TASK
 
 ```c
 // 0x15C86013127CE63F 0x5865B031
-void TASK_BOAT_MISSION(Ped pedDriver, Vehicle boat, Any p2, Any p3, float x, float y, float z, Any p7, float maxSpeed, int drivingStyle, float p10, Any p11);
+void TASK_BOAT_MISSION(Ped ped, Vehicle boat, Vehicle vehicleTarget, Ped pedTarget, float x, float y, float z, int missionType, float speed, int drivingStyle, float radius, int missionFlags);
 ```
 
-```
-You need to call PED::SET_BLOCKING_OF_NON_TEMPORARY_EVENTS after TASK_BOAT_MISSION in order for the task to execute.
-Working example
-float vehicleMaxSpeed = VEHICLE::_GET_VEHICLE_MAX_SPEED(ENTITY::GET_ENTITY_MODEL(pedVehicle));
-TASK::TASK_BOAT_MISSION(pedDriver, pedVehicle, 0, 0, waypointCoord.x, waypointCoord.y, waypointCoord.z, 4, vehicleMaxSpeed, 786469, -1.0, 7);
-PED::SET_BLOCKING_OF_NON_TEMPORARY_EVENTS(pedDriver, 1);
-P8 appears to be driving style flag - see gtaforums.com/topic/822314-guide-driving-styles/ for documentation
+All parameters except ped and boat are optional, with `pedTarget`, `vehicleTarget`, `x`, `y`, `z` being dependent on `missionType` (ie. Attack/Flee mission types require a target ped/vehicle, whereas GoTo mission types require either `x`, `y`, `z` or a target ped/vehicle).
+
+If you don't want to use a parameter; pass `0.0f` for `x`, `y` and `z`, `0` for `pedTarget`, `vehicleTarget` and other int parameters, and `-1.0f` for the remaining float parameters.
+
+```c
+enum eBoatMissionFlags
+{
+  None = 0,
+  StopAtEnd = 1,
+  StopAtShore = 2,
+  AvoidShore = 4,
+  PreferForward = 8,
+  NeverStop = 16,
+  NeverNavMesh = 32,
+  NeverRoute = 64,
+  ForceBeached = 128,
+  UseWanderRoute = 256,
+  UseFleeRoute = 512,
+  NeverPause = 1024,
+  // StopAtEnd | StopAtShore | AvoidShore
+  DefaultSettings = 7,
+  // StopAtEnd | StopAtShore | AvoidShore | PreferForward | NeverNavMesh | NeverRoute
+  OpenOceanSettings = 111,
+  // StopAtEnd | StopAtShore | AvoidShore | PreferForward | NeverNavMesh | NeverPause
+  BoatTaxiSettings = 1071,
+}
 ```
 
 ## Parameters
-* **pedDriver**: 
-* **boat**: 
-* **p2**: 
-* **p3**: 
-* **x**: 
-* **y**: 
-* **z**: 
-* **p7**: 
-* **maxSpeed**: 
-* **drivingStyle**: 
-* **p10**: 
-* **p11**: 
+* **ped**: The ped to be tasked.
+* **boat**: The boats' entity handle.
+* **vehicleTarget**: The target vehicle (default is 0).
+* **pedTarget**: The target ped (default is 0).
+* **x**: The x coordinate of the target (default is 0.0f).
+* **y**: The y coordinate of the target (default is 0.0f).
+* **z**: The z coordinate of the target (default is 0.0f).
+* **missionType**: The mission type (default is 0) (see [TaskVehicleMission](#_0x659427E0EF36BCDE)).
+* **speed**: The speed in m/s (default is -1.0f).
+* **drivingStyle**: The driving style (default is 0) (see [SetDriveTaskDrivingStyle](#_0xDACE1BE37D88AF67)).
+* **radius**: The radius of when the task will be completed (default is -1.0f).
+* **missionFlags**: The mission flags (default is 0) (see `eBoatMissionFlags`).
 
+## Examples
+
+```lua
+local boat_model = `tropic`
+RequestModel(boat_model)
+repeat Wait(0) until HasModelLoaded(boat_model)
+
+local ped = PlayerPedId() -- Player needs to be in open water & in a boat for this to work
+local coords = GetEntityCoords(ped) - GetEntityForwardVector(ped) * 15.0
+local vehicle = CreateVehicle(boat_model, coords.x, coords.y, coords.z, GetEntityHeading(ped), true, false)
+SetModelAsNoLongerNeeded(boat_model) -- Allow the game engine to clear the model from memory
+
+local ped_model = `a_m_m_skater_01`
+RequestModel(ped_model)
+repeat Wait(0) until HasModelLoaded(ped_model)
+
+local driver = CreatePedInsideVehicle(vehicle, 0, ped_model, -1, true, false)
+SetModelAsNoLongerNeeded(ped_model) -- Allow the game engine to clear the model from memory
+
+TaskBoatMission(driver, vehicle, GetVehiclePedIsIn(ped, false), 0, 0.0, 0.0, 0.0, 7, -1.0, 786468, -1.0, 1044)
+-- Mission Type: Follow | Drive Style: DrivingModeAvoidVehiclesReckless | Mission Flags: AvoidShore | NeverStop | NeverPause
+SetPedKeepTask(driver, true)
+```

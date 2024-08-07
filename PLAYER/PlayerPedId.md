@@ -8,8 +8,7 @@ ns: PLAYER
 Ped PLAYER_PED_ID();
 ```
 
-```
-Returns current player ped  
-```
+Returns the entity handle for the local player ped. Note that this entity handle will change after using commands such as SET\_PLAYER\_MODEL.
 
 ## Return value
+The local player ped's entity handle.

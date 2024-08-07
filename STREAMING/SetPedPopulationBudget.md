@@ -5,12 +5,11 @@ ns: STREAMING
 
 ```c
 // 0x8C95333CFC3340F3 0xD2D026CD
-void SET_PED_POPULATION_BUDGET(int p0);
+void SET_PED_POPULATION_BUDGET(int budgetLevel);
 ```
 
-Control how many new (ambient?) peds will spawn in the game world.
-Range for p0 seems to be 0-3, where 0 is none and 3 is the normal level.
+Sets the memory budget level for ped population.
 
 ## Parameters
-* **p0**: 
+* **budgetLevel**: Ranges from `0` to `3`, where `0` is lowest (no peds) and `3` is the full budget level.
 

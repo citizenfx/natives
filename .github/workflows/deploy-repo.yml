@@ -2,7 +2,8 @@ name: Deploy natives
 on:
   push:
     branches:
-     - master
+     - publish
+  workflow_dispatch:
 
 jobs:
   deploy:
@@ -12,21 +13,30 @@ jobs:
       - uses: actions/checkout@v2
         with: 
           path: './'
+          fetch-depth: 2
       - uses: actions/setup-node@v2
         with:
           node-version: '12' # while 14+ technically works, it's 25-50x slower at running native-doc-tooling
-      - name: Run build
-        run: |
-          set -xe
-          bash ./.ci/setup-builder
-          bash ./.ci/run-deploy
       - name: Install SSH key
         uses: shimataro/ssh-key-action@v2
         with:
           key: ${{ secrets.NATIVE_DEPLOY_KEY }}
           known_hosts: ${{ secrets.NATIVE_DEPLOY_KNOWN_HOSTS }}
+      - name: Acquire latest compat file
+        env:
+          NATIVE_DEPLOY_URL: ${{ secrets.NATIVE_DEPLOY_URL }}
+        run: |
+          mkdir ./in
+          . ./.ci/config.sh
+          rsync -q --ignore-missing-args $NATIVE_DEPLOY_URL/$CONFIG_UPLOAD_COMPAT_FILE.lua ./in/$CONFIG_UPLOAD_COMPAT_FILE.lua
+      - name: Run build
+        run: |
+          set -xe
+          bash ./.ci/setup-builder
+          bash ./.ci/run-deploy
       - name: Deploy
         env:
           NATIVE_DEPLOY_URL: ${{ secrets.NATIVE_DEPLOY_URL }}
         run: |
-          rsync -r --delete-after --quiet ./out/ $NATIVE_DEPLOY_URL
+          rsync -rq --exclude=*compat.lua* ./out/ $NATIVE_DEPLOY_URL
+          rsync -rqb --backup-dir=./ --suffix=.bak --include=*compat.lua --exclude=* ./out/ $NATIVE_DEPLOY_URL

@@ -8,4 +8,4 @@ ns: CUTSCENE
 void REGISTER_SYNCHRONISED_SCRIPT_SPEECH();
 ```
 
-
+Only used twice in armenian1.c
