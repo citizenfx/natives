@@ -9,8 +9,6 @@ aliases: ["0xD80A80346A45D761", "_GET_SCALEFORM_MOVIE_METHOD_RETURN_VALUE_BOOL"]
 BOOL GET_SCALEFORM_MOVIE_METHOD_RETURN_VALUE_BOOL(int methodReturn);
 ```
 
-Returns a boolean value that is returned by a scaleform movie's actionscript.
-
 ## Parameters
 * **methodReturn**: Operation handle returned by [`END_SCALEFORM_MOVIE_METHOD_RETURN_VALUE`](#_0xC50AA39A577AF886)
 
