@@ -10,28 +10,48 @@ void _CELL_CAM_MOVE_FINGER(int direction);
 ```
 
 Moves the character's finger in a swiping motion when holding a cellphone in their hand through the use of the [CREATE_MOBILE_PHONE](#_0xA4E8E696C532FBC7) native.
-The direction parameter is limited from one to five (inclusive), with the direction of the swipe following the order: up, down, left, right, and tapping the screen.
+
+```c
+enum eCellInput {
+    CELL_INPUT_NONE = 0,
+    CELL_INPUT_UP,
+    CELL_INPUT_DOWN,
+    CELL_INPUT_LEFT,
+    CELL_INPUT_RIGHT,
+    CELL_INPUT_SELECT
+}
+```
 
 ## Parameters
-* **direction**: Integer representing the direction the character will swipe.
+* **direction**: The direction to swipe to, refer to `eCellInput` enum.
 
 ## Examples
 ```lua
--- Create a mobile phone object and animate the character
-CreateMobilePhone(0)
+CreateThread(function()
+	local eCellInput = {
+		CELL_INPUT_NONE = 0,
+		CELL_INPUT_UP = 1,
+		CELL_INPUT_DOWN = 2,
+		CELL_INPUT_LEFT = 3,
+		CELL_INPUT_RIGHT = 4,
+		CELL_INPUT_SELECT = 5
+	}
+	-- Create a mobile phone object and animate the character
+	CreateMobilePhone(eCellInput.CELL_INPUT_NONE)
 
-Wait(2000)
+	Wait(2000)
 
--- Swipe up
-CellCamMoveFinger(1)
+	-- Swipe up
+	CellCamMoveFinger(eCellInput.CELL_INPUT_UP)
 
-Wait(1500)
+	Wait(1500)
 
--- Swipe right
-CellCamMoveFinger(4)
+	-- Swipe right
+	CellCamMoveFinger(eCellInput.CELL_INPUT_RIGHT)
 
-Wait(1500)
+	Wait(1500)
 
--- Tap the screen
-CellCamMoveFinger(5)
+	-- Tap the screen
+	CellCamMoveFinger(eCellInput.CELL_INPUT_SELECT)
+end)
 ```
