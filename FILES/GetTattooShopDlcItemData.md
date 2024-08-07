@@ -40,7 +40,7 @@ struct sTattooShopItemValues
 
 
 ## Parameters
-* **characterType**: Which character to get the tattoo data for.
+* **characterType**: Which character to get the tattoo data for (Refer to `eTattooFaction` above).
 * **decorationIndex**: Tattoo index, value between 0 and [GET_NUM_TATTOO_SHOP_DLC_ITEMS](#_0x278F76C3B0A8F109).
 * **outComponent**: The referenced struct.
 
@@ -60,7 +60,6 @@ if (Citizen.invokeNative("0xFF56381874F82086", characterType, tattooIndex, struc
 }
 ```
 ```lua
--- CREDIT GOES TO manups4e FOR THIS CODE.
 local function TattooBlobToTable(blob)
     local LockHash = string.unpack('<i4', blob, 1) & 0xFFFFFFFF -- uint (hash)
     local Index = string.unpack('<i4', blob, 9) -- int
