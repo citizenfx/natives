@@ -12,25 +12,31 @@ BOOL GET_TATTOO_SHOP_DLC_ITEM_DATA(int characterType, int decorationIndex, Any* 
 Returns data that adheres to the tattoo shop item data that is used in shop_tattoo.meta
 
 Character types:
-| Value |   Character   |
-| :---: | :-----------: |
-| `0`   | Michael       |
-| `1`   | Franklin      |
-| `2`   | Trevor        |
-| `3`   | MPMale        |
-| `4`   | MPFemale      |
+```
+enum eTattooFaction
+{
+	TATTOO_SP_MICHAEL = 0,
+	TATTOO_SP_FRANKLIN = 1,
+	TATTOO_SP_TREVOR = 2,
+	TATTOO_MP_FM = 3,
+	TATTOO_MP_FM_F = 4
+}
+```
 
 Returned struct properties:
-|      Type     |     Value     |                                Information                             |
-| :-----------: | :------------:| :-------------------------------------------------------------------:  |
-| `uint`        |   LockHash    |  Lock hash, used with [`IS_CONTENT_ITEM_LOCKED`](#_0xD4D7B033C3AA243C) |
-| `int`         |   Index       |  Unique ID of this slot. Can also be 0.                                |
-| `uint`        |   Collection  |  Collection of the tattoo.                                             |
-| `uint`        |   Preset      |  Preset of this tattoo.                                                |
-| `int`         |   Cost        |  Cost of this tattoo in shops.                                         |
-| `int`         |   eFacing     |  Facing (Secondary placement value) of this tattoo.                    |
-| `uint`        |   UpdateGroup |  Location of this tattoo.                                              |
-| `const char*` | NameTextLabel |   This tattoo's name as a text label.                                  |
+```
+struct sTattooShopItemValues
+{
+	int LockHash; // Lock hash, used with IS_CONTENT_ITEM_LOCKED
+	int Index; // Unique ID of this slot. It can also be 0.
+	int CollectionHash; // Collection hash of this tattoo
+	int PresetHash; // Preset hash of this tattoo
+	int Cost; // Cost of this tattoo in shops.
+	int eFacing; // Secondary placement of this tattoo.
+	int UpdateGroup; // Location of this tattoo on the body (for example, for torso there would be chest upper, stomach, etc)
+	const char* NameTextLabel; // This tattoo's name in the form of a text label.
+};
+```
 
 
 ## Parameters
