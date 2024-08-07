@@ -10,7 +10,7 @@ void TASK_VEHICLE_DRIVE_TO_COORD_LONGRANGE(Ped ped, Vehicle vehicle, float x, fl
 
 You can let your character drive to the destination at the speed and driving style you set. You can use map marks to set the destination.
 
-```
+```c
 enum eDriveBehaviorFlags {
   DF_StopForCars = 1,
   DF_StopForPeds = 2,
