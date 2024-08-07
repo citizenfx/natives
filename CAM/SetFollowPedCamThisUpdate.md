@@ -42,7 +42,7 @@ Other camera hashes (names not found yet)
 * **easeTime**: The time in milliseconds to ease in the camera
 
 ## Return value
-Return `true` if set camera successfully and `false` otherwise.
+Return `true` if the camera is set successfully and `false` otherwise.
 
 ## Examples
 ```lua
