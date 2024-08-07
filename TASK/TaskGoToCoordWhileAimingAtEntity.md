@@ -10,6 +10,22 @@ void TASK_GO_TO_COORD_WHILE_AIMING_AT_ENTITY(Ped ped, float x, float y, float z,
 
 Will make the ped move to a coordinate while aiming (and optionally shooting) at the given entity.
 
+```c
+enum eFiringPatternHashes {
+    FIRING_PATTERN_DEFAULT = 0,
+    FIRING_PATTERN_BURST_FIRE = -687903391,
+    FIRING_PATTERN_BURST_FIRE_DRIVEBY = -753768974,
+    FIRING_PATTERN_FULL_AUTO = -957453492,
+    FIRING_PATTERN_SINGLE_SHOT = 1566631136,
+    FIRING_PATTERN_DELAY_FIRE_BY_ONE_SEC = 2055493265,
+    FIRING_PATTERN_BURST_FIRE_HELI = -1857128337,
+    FIRING_PATTERN_SHORT_BURSTS = 445831135,
+    FIRING_PATTERN_BURST_FIRE_MICRO = 1122960381,
+    FIRING_PATTERN_SLOW_FIRE_TANK = -490063247,
+    FIRING_PATTERN_TAMPA_MORTAR = -1842093953
+}
+```
+
 ## Parameters
 * **ped**: Ped to task 
 * **x**: Destination X position
@@ -23,6 +39,6 @@ Will make the ped move to a coordinate while aiming (and optionally shooting) at
 * **useNavMesh**: 
 * **navFlags**: Usually 0 or 64
 * **instantBlendAtAim**: 
-* **firingPattern**: ${firing_pattern_full_auto}, 0xC6EE6B4C
+* **firingPattern**: The firing pattern to use, refer to `eFiringPatternHashes`
 * **time**: Usually 20000 (ms)
 
