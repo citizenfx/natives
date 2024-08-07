@@ -25,7 +25,7 @@ This native is often times used with [`TASK_FLUSH_ROUTE`](#_0x841142A1376E9006) 
 ## Parameters
 * **ped**: The ped to give the task to.
 * **speed**: The speed to move at in m/s.
-* **routeMode**: Can be 0, 1, 2 or 3. (See flags)
+* **routeMode**: The route mode to use, refer to `eFollowPointRouteMode`
 
 ## Examples
 ```lua
