@@ -10,7 +10,6 @@ void TASK_FOLLOW_POINT_ROUTE(Ped ped, float speed, int routeMode);
 
 Makes the ped go on a point route.
 
-### Flags
 ```c
 enum eFollowPointRouteMode {
 	TICKET_SINGLE = 0,
@@ -20,9 +19,7 @@ enum eFollowPointRouteMode {
 }
 ```
 
-### Related natives
-* [`TASK_FLUSH_ROUTE`](#_0x841142A1376E9006)
-* [`TASK_EXTEND_ROUTE`](#_0x1E7889778264843A)
+This native is often times used with [`TASK_FLUSH_ROUTE`](#_0x841142A1376E9006) and [`TASK_EXTEND_ROUTE`](#_0x1E7889778264843A)
 
 
 ## Parameters
