@@ -17,7 +17,7 @@ NativeDB Introduced: v323
 ```
 
 ## Parameters
-* **camHash**: The hash of the camera type, use [GET_HASH_KEY](#_0xD24D37CC275948CC) to get the camera hash from the name
+* **camHash**: The hash of the camera type, use [GET_HASH_KEY](#_0xD24D37CC275948CC) to get the camera hash from the name.
 * **active**: Set to true if you wish to make this new camera the active camera.
 
 ## Return value
@@ -28,11 +28,13 @@ A camera handle referencing the camera that was created.
 ## Examples
 ```lua
 local cam = CreateCamera(GetHashKey("DEFAULT_SCRIPTED_CAMERA"), true) -- creates a camera with the "DEFAULT_SCRIPTED_CAMERA" type
+
 RenderScriptCams(true, false, 0, true, true)
 ```
 
 ```js
 const cam = CreateCamera(GetHashKey("DEFAULT_SCRIPTED_CAMERA"), true); // creates a camera with the "DEFAULT_SCRIPTED_CAMERA" type
+
 RenderScriptCams(true, false, 0, true, true)
 ```
 
@@ -41,5 +43,6 @@ using static CitizenFX.Core.Native.API;
 // ...
 int handle = CreateCamera(GetHashKey("DEFAULT_SCRIPTED_CAMERA"), true); // creates a camera with the "DEFAULT_SCRIPTED_CAMERA" type
 Camera cam = new Camera(handle);
+
 RenderScriptCams(true, false, 0, true, true);
 ```
