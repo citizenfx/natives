@@ -8,12 +8,7 @@ ns: PED
 void SET_PED_MAX_HEALTH(Ped ped, int value);
 ```
 
-```
-sets the maximum health of a ped  
-I think it's never been used in any script  
-```
-
 ## Parameters
-* **ped**: 
-* **value**: 
+* **ped**: The ped handle we're setting this for.
+* **value**: The new max health.
 
