@@ -6,14 +6,24 @@ aliases: ["0x3ED1438C1F5C6612"]
 
 ```c
 // 0x3ED1438C1F5C6612 0x3301EA47
-void NEXT_ONSCREEN_KEYBOARD_RESULT_WILL_DISPLAY_USING_THESE_FONTS(int p0);
+void NEXT_ONSCREEN_KEYBOARD_RESULT_WILL_DISPLAY_USING_THESE_FONTS(int fontBitField);
 ```
 
 ```
-p0 was always 2 in R* scripts.
-Called before calling DISPLAY_ONSCREEN_KEYBOARD if the input needs to be saved.
+enum eFontBitField
+{
+  FONT_BIT_STANDARD = 1,
+  FONT_BIT_CURSIVE = 2,
+  FONT_BIT_ROCKSTAR_TAG = 4
+  FONT_BIT_LEADERBOARD = 8
+  FONT_BIT_CONDENSED = 16
+  FONT_BIT_FIXED_WIDTH_NUMBERS = 32
+  FONT_BIT_CONDENSED_NOT_GAMERNAME = 64
+  FONT_BIT_PRICEDOWN = 128
+};
 ```
 
 ## Parameters
-* **p0**: 
+* **fontBitField**: See the list above.
+  
 
