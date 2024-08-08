@@ -5,14 +5,14 @@ ns: PHYSICS
 
 ```c
 // 0x52B4829281364649 0x748D72AF
-void DELETE_ROPE(int* ropeHandle);
+void DELETE_ROPE(int* ropeId);
 ```
 
 Deletes the rope with the specified handle.
 You might want to check if the rope exists before with [DOES_ROPE_EXIST](#_0xFD5448BE3111ED96).
 
 ## Parameters
-* **ropeHandle**: The handle of the rope to delete
+* **ropeId**: The handle of the rope to delete
 
 ## Examples
 ```lua
@@ -52,19 +52,76 @@ end)
 ```
 
 ```cs
-using static CitizenFX.Core.Native.API;
-
-// Create a rope and store the reference
-int unkPtr = 0;
-int ropehandle = AddRope(0f, 0f, 0f, 0f, 0f, 0f, 10f, 5, 10f, 0f, 1f, false, false, false, 1f, false, ref unkPtr);
-
-// Check if the rope exists.
-if (!DoesRopeExist(ref ropehandle))
+async Task CreateRope()
 {
-    // If the rope does not exist, end the execution of the code here.
-    return;
-}
+    // wait for the textures to be loaded before we create the rope,
+    // otherwise it will be invisible.
+    bool isLoadedByAnotherScript = RopeAreTexturesLoaded();
+    if (!isLoadedByAnotherScript)
+    {
+        RopeLoadTextures();
+        while (!RopeAreTexturesLoaded())
+        {
+            await BaseScript.Delay(0);
+        }
+    }
 
-// If the rope does exist, delete the rope.
-DeleteRope(ref ropehandle);
+    /// <summary>
+    /// Unloads the rope texture if we were the script that requested it.
+    /// NOTE: This is bug prone, if possible you should do your own reference
+    /// counting via global state bags.
+    /// </summary>
+    void CleanupRopeTextures(bool alreadyLoadedByOtherScript)
+    {
+        // if we were the script to load the textures then we want to cleanup
+        // the textures,
+        if (!alreadyLoadedByOtherScript)
+        {
+            RopeUnloadTextures();
+        }
+    }
+
+    // not used by anything
+    int _unusedStringPtr = 0;
+
+    Vector3 ropePosition = new Vector3(-2096.09f, -311.90f, 14.51f);
+    Vector3 ropeRotation = Vector3.Zero;
+
+    // Create a rope and store the handle
+    int ropehandle = AddRope(
+            ropePosition.X,
+            ropePosition.Y,
+            ropePosition.Z,
+            ropeRotation.X,
+            ropeRotation.Y,
+            ropeRotation.Z,
+            10f /* max length */,
+            1 /* rope type */,
+            10f /* init length */,
+            0.5f /* min length */,
+            0.5f /* length change rate */,
+            false /* ppu only */,
+            false /* collision on */,
+            false /* lock from front */,
+            1f /* time multiplier */,
+            false /* breakable */,
+            ref _unusedStringPtr /* unused */
+    );
+
+    // Check if the rope exists.
+    if (!DoesRopeExist(ref ropehandle))
+    {
+        CleanupRopeTextures(isLoadedByAnotherScript);
+        // whoops, the rope doesn't exist, we don't want we don't want to do
+        // anything with an invalid reference
+        return;
+    }
+
+    // We want to see the rope for 3 seconds
+    await BaseScript.Delay(3000);
+
+    // begone rope!
+    DeleteRope(ref ropehandle);
+    CleanupRopeTextures(isLoadedByAnotherScript);
+}
 ```
