@@ -52,6 +52,8 @@ end)
 ```
 
 ```cs
+using static CitizenFX.Core.Native.API;
+
 async Task CreateRope()
 {
     // wait for the textures to be loaded before we create the rope,
