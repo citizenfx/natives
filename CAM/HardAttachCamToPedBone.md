@@ -19,22 +19,23 @@ NativeDB Introduced: v1180
 ## Parameters
 * **cam**: The camera handle.
 * **ped**: The ped handle.
-* **boneIndex**: This is different to boneID, use ['GET_PED_BONE_INDEX'](#_0x3F428D08BE5AAE31) to get the index from the ID. use the index for attaching to specific bones. ```cam``` will be attached to the center of ```ped``` if bone index given doesn't correspond to bone indexes for that entity type.
+* **boneIndex**: This is different to boneID, use ['GET_PED_BONE_INDEX'](#_0x3F428D08BE5AAE31) to get the index from the ID. use the index for attaching to specific bones. `cam` will be attached to the center of `ped` if bone index given doesn't correspond to bone indexes for that entity type.
 * **xRot**: X-axis rotation.
 * **yRot**: Y-axis rotation.
 * **zRot**: Z-axis rotation.
-* **xOffset**: X-axis offset
-* **yOffset**: Y-axis offset
-* **zOffset**: Z-axis offset
-* **isRelative**: Whether or not the camera position will be relative to the bone rotation
+* **xOffset**: X-axis offset.
+* **yOffset**: Y-axis offset.
+* **zOffset**: Z-axis offset.
+* **isRelative**: Whether or not the camera position will be relative to the bone rotation.
 
 ## Examples
 
 ```lua
 local ped = PlayerPedId()
 local cam = CreateCam("DEFAULT_SCRIPTED_CAMERA", true)
+local BONE_NAME = 4089
 
-HardAttachCamToPedBone(cam, ped, 4089, 90.0, 0.0, 0.0, 0.0, 0.0, 0.0, true) -- attach it to a finger on the left hand and rotates it 90 degrees on the X-axis
+HardAttachCamToPedBone(cam, ped, BONE_NAME, 90.0, 0.0, 0.0, 0.0, 0.0, 0.0, true) -- attach it to a finger on the left hand and rotates it 90 degrees on the X-axis
 
 RenderScriptCams(true, false, 0, true, true) -- renders the camera
 
@@ -43,8 +44,9 @@ RenderScriptCams(true, false, 0, true, true) -- renders the camera
 ```js
 const ped = PlayerPedId()
 const cam = CreateCam("DEFAULT_SCRIPTED_CAMERA", true)
+const BONE_NAME = 4089
 
-HardAttachCamToPedBone(cam, ped, 4089, 90.0, 0.0, 0.0, 0.0, 0.0, 0.0, true) // attach it to a finger on the left hand and rotates it 90 degrees on the X-axis
+HardAttachCamToPedBone(cam, ped, BONE_NAME, 90.0, 0.0, 0.0, 0.0, 0.0, 0.0, true) // attach it to a finger on the left hand and rotates it 90 degrees on the X-axis
 
 RenderScriptCams(true, false, 0, true, true) // renders the camera
 ```
@@ -55,8 +57,9 @@ using static CitizenFX.Core.Native.API;
 Ped ped = PlayerPedId();
 int handle = CreateCam("DEFAULT_SCRIPTED_CAMERA", true);
 Camera cam = new Camera(handle);
+Int BONE_NAME = 4089;
 
-HardAttachCamToPedBone(cam, ped, 4089, 90.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, true); // attach it to a finger on the left hand and rotates it 90 degrees on the X-axis
+HardAttachCamToPedBone(cam, ped, BONE_NAME, 90.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, true); // attach it to a finger on the left hand and rotates it 90 degrees on the X-axis
 
 RenderScriptCams(true, false, 0, true, true); // renders the camera
 ```

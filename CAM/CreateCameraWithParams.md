@@ -18,16 +18,16 @@ NativeDB Introduced: v323
 ```
 
 ## Parameters
-* **camHash**: The hash of the camera type, use [GET_HASH_KEY](#_0xD24D37CC275948CC) to get the camera hash from the name
-* **posX**: The x position of the camera (you can also send a vector3 instead of the bulk coordinates)
-* **posY**: The y position of the camera (you can also send a vector3 instead of the bulk coordinates)
-* **posZ**: The z position of the camera (you can also send a vector3 instead of the bulk coordinates)
-* **rotX**: The x rotation of the camera
-* **rotY**: The y rotation of the camera
-* **rotZ**: The z rotation of the camera
-* **fov**: The Field Of View of the camera, is the observable world that is seen
+* **camHash**: The hash of the camera type, use [GET_HASH_KEY](#_0xD24D37CC275948CC) to get the camera hash from the name.
+* **posX**: The x position of the camera.
+* **posY**: The y position of the camera.
+* **posZ**: The z position of the camera.
+* **rotX**: The x rotation of the camera.
+* **rotY**: The y rotation of the camera.
+* **rotZ**: The z rotation of the camera.
+* **fov**: The Field Of View of the camera, is the observable world that is seen.
 * **active**: Set to true if you wish to make this new camera the active camera.
-* **rotationOrder**: The order of rotation, see [`GET_ENTITY_ROTATION`](#_0xAFBD61CC738D9EB9)
+* **rotationOrder**: The order of rotation, see [`GET_ENTITY_ROTATION`](#_0xAFBD61CC738D9EB9).
 
 
 ## Return value

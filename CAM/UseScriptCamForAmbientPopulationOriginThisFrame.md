@@ -10,7 +10,6 @@ void USE_SCRIPT_CAM_FOR_AMBIENT_POPULATION_ORIGIN_THIS_FRAME(BOOL vehicles, BOOL
 ```
 Sets the ambient ped & vehicle population spawning origin to be based around the active scripted camera for this frame
 This will prevent vehicles from being created close to the camera and/or on-screen
-Call this repeatedly during scripted camera sequences where this behaviour is required.
 
 ## Parameters
 * **vehicles**: 
