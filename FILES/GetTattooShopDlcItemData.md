@@ -12,7 +12,7 @@ BOOL GET_TATTOO_SHOP_DLC_ITEM_DATA(int characterType, int decorationIndex, Any* 
 Returns data that adheres to the tattoo shop item data that is used in shop_tattoo.meta
 
 Character types:
-```
+```c
 enum eTattooFaction
 {
 	TATTOO_SP_MICHAEL = 0,
@@ -24,7 +24,7 @@ enum eTattooFaction
 ```
 
 Returned struct properties:
-```
+```c
 struct sTattooShopItemValues
 {
 	int LockHash; // Lock hash, used with IS_CONTENT_ITEM_LOCKED
