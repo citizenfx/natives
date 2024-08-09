@@ -24,4 +24,4 @@ The default threshold is 100, these are stored in the `pedhealth.meta` file loca
 * **ped**: The ped to check for injuries.
 
 ## Return value
-A boolean representing whether the passed ped is injured or not.
+Returns `true` if the ped is injured, `false` otherwise.
