@@ -50,8 +50,7 @@ RenderScriptCams(true, false, 0, true, true) // renders the camera
 using static CitizenFX.Core.Native.API;
 
 // assuming that the obj variable was created earlier in the script
-int handle = CreateCam("DEFAULT_SCRIPTED_CAMERA", true);
-Camera cam = new Camera(handle);
+int cam = CreateCam("DEFAULT_SCRIPTED_CAMERA", true);
 
 HardAttachCamToEntity(cam, obj, 0.0f, 0.0f, 90.0f, 10.0f, 0.0f, 0.0f, true); // attaches the camera to the object rotated 90 degrees and offset 10 x values
 

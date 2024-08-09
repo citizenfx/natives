@@ -33,9 +33,9 @@ NativeDB Introduced: v1180
 ```lua
 local ped = PlayerPedId()
 local cam = CreateCam("DEFAULT_SCRIPTED_CAMERA", true)
-local BONE_NAME = 4089
+local BONETAG_L_FINGER01 = 4089
 
-HardAttachCamToPedBone(cam, ped, BONE_NAME, 90.0, 0.0, 0.0, 0.0, 0.0, 0.0, true) -- attach it to a finger on the left hand and rotates it 90 degrees on the X-axis
+HardAttachCamToPedBone(cam, ped, BONETAG_L_FINGER01, 90.0, 0.0, 0.0, 0.0, 0.0, 0.0, true) -- attach it to a finger on the left hand and rotates it 90 degrees on the X-axis
 
 RenderScriptCams(true, false, 0, true, true) -- renders the camera
 
@@ -44,9 +44,9 @@ RenderScriptCams(true, false, 0, true, true) -- renders the camera
 ```js
 const ped = PlayerPedId()
 const cam = CreateCam("DEFAULT_SCRIPTED_CAMERA", true)
-const BONE_NAME = 4089
+const BONETAG_L_FINGER01= 4089
 
-HardAttachCamToPedBone(cam, ped, BONE_NAME, 90.0, 0.0, 0.0, 0.0, 0.0, 0.0, true) // attach it to a finger on the left hand and rotates it 90 degrees on the X-axis
+HardAttachCamToPedBone(cam, ped, BONETAG_L_FINGER01, 90.0, 0.0, 0.0, 0.0, 0.0, 0.0, true) // attach it to a finger on the left hand and rotates it 90 degrees on the X-axis
 
 RenderScriptCams(true, false, 0, true, true) // renders the camera
 ```
@@ -54,12 +54,11 @@ RenderScriptCams(true, false, 0, true, true) // renders the camera
 ```cs
 using static CitizenFX.Core.Native.API;
 
-Ped ped = PlayerPedId();
-int handle = CreateCam("DEFAULT_SCRIPTED_CAMERA", true);
-Camera cam = new Camera(handle);
-Int BONE_NAME = 4089;
+int ped = PlayerPedId();
+int cam = CreateCam("DEFAULT_SCRIPTED_CAMERA", true);
+int BONETAG_L_FINGER01 = 4089;
 
-HardAttachCamToPedBone(cam, ped, BONE_NAME, 90.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, true); // attach it to a finger on the left hand and rotates it 90 degrees on the X-axis
+HardAttachCamToPedBone(cam, ped, BONETAG_L_FINGER01, 90.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, true); // attach it to a finger on the left hand and rotates it 90 degrees on the X-axis
 
 RenderScriptCams(true, false, 0, true, true); // renders the camera
 ```

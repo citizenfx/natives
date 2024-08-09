@@ -41,8 +41,7 @@ RenderScriptCams(true, false, 0, true, true)
 ```cs
 using static CitizenFX.Core.Native.API;
 // ...
-int handle = CreateCamera(GetHashKey("DEFAULT_SCRIPTED_CAMERA"), true); // creates a camera with the "DEFAULT_SCRIPTED_CAMERA" type
-Camera cam = new Camera(handle);
+int cam = CreateCamera(GetHashKey("DEFAULT_SCRIPTED_CAMERA"), true); // creates a camera with the "DEFAULT_SCRIPTED_CAMERA" type
 
 RenderScriptCams(true, false, 0, true, true);
 ```
