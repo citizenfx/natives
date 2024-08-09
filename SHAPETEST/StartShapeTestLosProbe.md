@@ -6,7 +6,7 @@ aliases: ["0x7EE9F5D83DD4F90E"]
 
 ```c
 // 0x7EE9F5D83DD4F90E 0xEFAF4BA6
-int START_SHAPE_TEST_LOS_PROBE(float x1, float y1, float z1, float x2, float y2, float z2, int flags, Entity entity, int p8);
+int START_SHAPE_TEST_LOS_PROBE(float x1, float y1, float z1, float x2, float y2, float z2, int flags, Entity entity, int options);
 ```
 
 Asynchronously starts a line-of-sight (raycast) world probe shape test.
