@@ -33,7 +33,7 @@ local playerPed = PlayerPedId()
 local vehicle = GetVehiclePedIsIn(playerPed, false)
 
 -- Check if the vehicle exists in the game world.
-if (vehicle == 0) then return end
+if vehicle == 0 then return end
 
 -- Configure the vehicle's nitrous system with custom settings for maximum effect.
 SetOverrideNitrousLevel(vehicle, true, 100, 100, 99999999999, false);
@@ -57,10 +57,10 @@ SetOverrideNitrousLevel(vehicle, true, 100, 100, 99999999999, false);
 using static CitizenFX.Core.Native.API;
 
 // Retrieve the player ped
-Ped playerPed = PlayerPedId();
+int playerPed = PlayerPedId();
 
 // Retrieve the vehicle the player is currently in.
-Vehicle vehicle = GetVehiclePedIsIn(playerPed, false);
+int vehicle = GetVehiclePedIsIn(playerPed, false);
 
 // Check if the vehicle exists in the game world.
 if (vehicle == 0) return;

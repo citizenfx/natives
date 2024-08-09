@@ -27,10 +27,10 @@ local playerPed = PlayerPedId()
 local vehicle = GetVehiclePedIsIn(playerPed, false)
 
 -- Check if the vehicle exists in the game world.
-if (vehicle == 0) then return end
+if vehicle == 0 then return end
 
 -- Check if nitrous is active on the vehicle.
-if (IsNitrousActive(vehicle)) then
+if IsNitrousActive(vehicle) then
     -- If nitrous is active, clear the nitrous boost from the vehicle.
     ClearNitrous(vehicle)
 end
@@ -57,10 +57,10 @@ if (IsNitrousActive(vehicle)) {
 using static CitizenFX.Core.Native.API;
 
 // Retrieve the player ped
-Ped playerPed = PlayerPedId();
+int playerPed = PlayerPedId();
 
 // Retrieve the vehicle the player is currently in.
-Vehicle vehicle = GetVehiclePedIsIn(playerPed, false);
+int vehicle = GetVehiclePedIsIn(playerPed, false);
 
 // Check if the vehicle exists in the game world.
 if (vehicle == 0) return;

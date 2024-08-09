@@ -23,7 +23,7 @@ The amount of time that the nitrous boost can still be active for the given vehi
 ```lua
 CreateThread(function()
     local playerPed, vehicle
-    while (true) do
+    while true do
         -- Retrieve the player ped.
         playerPed = PlayerPedId()
 
