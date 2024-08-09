@@ -8,6 +8,12 @@ ns: PLAYER
 void SET_PLAYER_HEALTH_RECHARGE_MULTIPLIER(Player player, float regenRate);
 ```
 
+This multiplier is reset to `1.0` every time the player ped is changed, often times via [`SET_PLAYER_MODEL`](#_0x00A1CADD00108836) or [`CHANGE_PLAYER_PED`](#_0x048189FAC643DEEE).
+
+## Parameters
+* **player**: The local player ID, see [PLAYER_ID](#_0x4F8644AF03D0E0D6).
+* **regenRate**: The recharge multiplier, this value needs to be a positive float value to work.
+
 ## Examples
 ```lua
 -- To disable the health recharge completely:
@@ -17,6 +23,3 @@ SetPlayerHealthRechargeMultiplier(PlayerId(), 0.0)
 SetPlayerHealthRechargeMultiplier(PlayerId(), 1.0)
 ```
 
-## Parameters
-* **player**: The local player ID.
-* **regenRate**: The recharge multiplier, a value between 0.0 and 1.0.
