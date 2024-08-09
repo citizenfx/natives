@@ -18,21 +18,24 @@ When used on a entity which isn't invisible or faded out then the native will st
 
 ## Parameters
 * **entity**: The entity to fade in
-* **flash**: When set to true the entity will flash rapidly while fading out
+* **network**: When set to true the fade in will be networked.
 
 ## Examples
 
 ```lua
-NetworkFadeOutEntity(PlayerPedId(), false, false)
-while NetworkIsEntityFading(PlayerPedId()) do
-  Citizen.Wait(0)
+local playerPed = PlayerPedId()
+
+-- fade out the player while flashing them
+NetworkFadeOutEntity(playerPed, true, false)
+while NetworkIsEntityFading(playerPed) do
+  Wait(0)
 end
 
 --- Do something like a teleport, or warp into a vehicle
 
--- Last parameter here is slow, this parameter is missing in decleration
-NetworkFadeInEntity(PlayerPedId(), false, false)
-while NetworkIsEntityFading(PlayerPedId()) do
-  Citizen.Wait(0)
+-- while generally frowned upon when you can use natives, this declaration has
+-- a missing parameter, which doesn't work without manually invoking.
+Citizen.InvokeNative(0x1F4ED342ACEFE62D, playerPed, false, true)
+while NetworkIsEntityFading(playerPed) do
+  Wait(0)
 end
-```
