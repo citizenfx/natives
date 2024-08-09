@@ -17,7 +17,7 @@ enum eVehiclePlateIndicies {
 	SRExcept = 4,
 	NorthYankton = 5,
 	// All indicies below this require b3095
-	eCola = 6,
+	ECola = 6,
 	LasVenturas = 7,
 	LiberyCity = 8,
 	LSCarMeet = 9,
@@ -25,6 +25,7 @@ enum eVehiclePlateIndicies {
 	LSPounders = 11,
 	Sprunk = 12,
 }
+```
 
 ## Parameters
 * **vehicle**: The vehicle to get the plate index of
