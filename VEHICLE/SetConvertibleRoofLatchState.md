@@ -38,7 +38,7 @@ SetConvertibleRoofLatchState(vehicle, true);
 // To latch (lock) the convertible roof, preventing it from being opened
 using static CitizenFX.Core.Native.API;
 
-Vehicle vehicle = GetVehiclePedIsIn(PlayerPedId(), false);
+int vehicle = GetVehiclePedIsIn(PlayerPedId(), false);
 if (!DoesVehicleHaveRoof(vehicle)) return;
 SetConvertibleRoofLatchState(vehicle, true);
 ```

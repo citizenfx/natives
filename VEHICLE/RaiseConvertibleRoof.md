@@ -38,7 +38,7 @@ RaiseConvertibleRoof(vehicle, false);
 ```cs
 using static CitizenFX.Core.Native.API;
 
-Vehicle vehicle = GetVehiclePedIsIn(PlayerPedId(), false);
+int vehicle = GetVehiclePedIsIn(PlayerPedId(), false);
 if (!IsVehicleAConvertible(vehicle, false)) return;
 RaiseConvertibleRoof(vehicle, false);
 ```

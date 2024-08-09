@@ -43,7 +43,7 @@ if (IsVehicleAConvertible(vehicle, false)) {
 ```cs
 using static CitizenFX.Core.Native.API;
 
-Vehicle vehicle = GetVehiclePedIsIn(PlayerPedId(), false);
+int vehicle = GetVehiclePedIsIn(PlayerPedId(), false);
 if (IsVehicleAConvertible(vehicle, false)) {
     Debug.WriteLine("The vehicle is a convertible with an animatable roof.");
 } else {
