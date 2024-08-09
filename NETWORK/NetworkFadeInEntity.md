@@ -18,7 +18,7 @@ When used on a entity which isn't invisible or faded out then the native will st
 
 ## Parameters
 * **entity**: The entity to fade in
-* **network**: When set to true the fade in will be networked.
+* **bNetwork**: When set to true the fade in will be networked.
 
 ## Examples
 
