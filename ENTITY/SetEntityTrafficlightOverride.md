@@ -8,13 +8,18 @@ ns: ENTITY
 void SET_ENTITY_TRAFFICLIGHT_OVERRIDE(Entity entity, int state);
 ```
 
-```
-Example here: www.gtaforums.com/topic/830463-help-with-turning-lights-green-and-causing-peds-to-crash-into-each-other/#entry1068211340
-0 = green
-1 = red
-2 = yellow
-3 = reset changes
-changing lights may not change the behavior of vehicles
+Changing traffic-lights will not change the behavior of NPCs.
+
+Example: [here](https://www.gtaforums.com/topic/830463-help-with-turning-lights-green-and-causing-peds-to-crash-into-each-other/#entry1068211340)
+
+```cpp
+enum eTrafficlightOverrideMode
+{
+    TLO_RED = 0,
+    TLO_AMBER = 1,
+    TLO_GREEN = 2,
+    TLO_NONE = 3
+}
 ```
 
 ## Parameters
