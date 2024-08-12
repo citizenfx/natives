@@ -8,12 +8,14 @@ ns: MISC
 void SET_GRAVITY_LEVEL(int level);
 ```
 
-```
-level can be from 0 to 3  
-0: 9.8   
-1: 2.4   
-2: 0.1 - very low  
-3: 0.0  
+```cpp
+enum eGravityLevel
+{
+    GRAV_EARTH = 0, // earth gravity 9.8m/s2
+    GRAV_MOON = 1, // moon gravity 2.4m/s2
+	GRAV_LOW = 2, // very low gravity
+    GRAV_ZERO = 3 // zero gravity
+}
 ```
 
 ## Parameters
