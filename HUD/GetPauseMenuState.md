@@ -8,7 +8,7 @@ ns: HUD
 int GET_PAUSE_MENU_STATE();
 ```
 
-```cpp
+```c
 enum ePauseMenuState
 {
     PM_INACTIVE 	 =  0,

@@ -8,7 +8,7 @@ ns: HUD
 void SET_TEXT_FONT(int fontType);
 ```
 
-```cpp
+```c
 enum eTextFonts
 {
     FONT_STANDARD = 0,

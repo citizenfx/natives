@@ -8,7 +8,7 @@ ns: PED
 BOOL FORCE_PED_MOTION_STATE(Ped ped, Hash motionStateHash, BOOL p2, cs_type(BOOL) int p3, BOOL p4);
 ```
 
-```cpp
+```c
 enum ePedMotionState
 {
     MS_ON_FOOT_IDLE		= -1871534317, // motionstate_idle

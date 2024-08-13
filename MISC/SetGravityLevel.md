@@ -8,7 +8,7 @@ ns: MISC
 void SET_GRAVITY_LEVEL(int level);
 ```
 
-```cpp
+```c
 enum eGravityLevel
 {
     GRAV_EARTH = 0, // earth gravity 9.8m/s2
