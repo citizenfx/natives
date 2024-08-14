@@ -13,7 +13,7 @@ enum eGravityLevel
 {
     GRAV_EARTH = 0, // earth gravity 9.8m/s2
     GRAV_MOON = 1, // moon gravity 2.4m/s2
-	GRAV_LOW = 2, // very low gravity
+    GRAV_LOW = 2, // very low gravity
     GRAV_ZERO = 3 // zero gravity
 }
 ```
