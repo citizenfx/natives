@@ -5,7 +5,7 @@ ns: VEHICLE
 
 ```c
 // 0xBA291848A0815CA9 0x48C80210
-BOOL IS_VEHICLE_TYRE_BURST(Vehicle vehicle, int wheelID, BOOL completely);
+BOOL IS_VEHICLE_TYRE_BURST(Vehicle vehicle, int wheelID, BOOL isBurstToRim);
 ```
 
 ```c
@@ -26,7 +26,7 @@ enum eVehicleWheels
 ## Parameters
 * **vehicle**: The vehicle to check the tire status of
 * **wheelID**: The wheel id to check, see `eVehicleWheels`
-* **completely**: Whether it should only be counted if its completely bursted (when its on its rims)
+* **isBurstToRim**: Whether it should only return `true` if the tire is bursted to its rims
 
 ## Return value
 Returns `true` if the vehicle tire is poped, `false` otherwise.
