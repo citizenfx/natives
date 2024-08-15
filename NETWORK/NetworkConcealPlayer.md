@@ -28,28 +28,39 @@ This setup keeps instance players separate from each other while allowing intera
 * **bAllowDamagingWhileConcealed**: 
 
 ```lua
+function GetPlayerInstance(player)
+	-- you can replace this with your own data
+    local playerServerId = GetPlayerServerId(player)
+    return Player(playerServerId).state.instance_id or 0
+end
+
+local playerId = PlayerId()
 -- Function to manage player visibility
-function concealPlayers(instanceId)
-    local allPlayers = GetPlayers()
+function concealPlayers()
+    local allPlayers = GetActivePlayers()
+	local localPlayerInstance = GetPlayerInstance(playerId)
 
     for _, player in ipairs(allPlayers) do
-        local playerInstance = GetPlayerInstance(player)  -- You need to define this function
+        if player == playerId then goto continue end
 
-        if instanceId == nil then
-            -- General population: hide players in any instance
-            if playerInstance ~= nil then
-                NetworkConcealPlayer(player, true, false)
-            else
-                NetworkConcealPlayer(player, false, false)
-            end
-        else
-            -- Instance players: hide players not in the same instance
-            if playerInstance ~= instanceId then
-                NetworkConcealPlayer(player, true, false)
-            else
-                NetworkConcealPlayer(player, false, false)
-            end
-        end
+        local playerInstance = GetPlayerInstance(player) 
+
+		if playerInstance == localPlayerInstance then
+			-- if we're in the same instance then we want to be able to see them
+			NetworkConcealPlayer(player, false, false)
+		else
+			-- they're in a different instance, so hide them
+			NetworkConcealPlayer(player, true, false)
+		end
+
+		::continue::
     end
 end
+
+CreateThread(function()
+	while true do
+		concealPlayers()
+		Wait(250)
+	end
+end)
 ```
