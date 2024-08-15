@@ -12,4 +12,4 @@ float ASIN(float value);
 * **value**: 
 
 ## Return value
-Returns the inverse sine in radians of a number.
+Returns the inverse sine in radians of the specified value
