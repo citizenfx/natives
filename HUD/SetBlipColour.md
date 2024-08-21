@@ -8,11 +8,11 @@ ns: HUD
 void SET_BLIP_COLOUR(Blip blip, int color);
 ```
 
+Sets the color of a blip. The color can also be a hex if you want a color that's not included in the list above.
+
 ## Parameters
 * **blip**: A blip handle
 * **color**: See [blip colors here](https://docs.fivem.net/docs/game-references/blips/#blip-colors)
-
-Sets the color of a blip. The color can also be a hex if you want a color that's not included in the list above.
 
 ## Examples
 ```lua
