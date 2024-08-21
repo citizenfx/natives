@@ -5,7 +5,7 @@ ns: NETWORK
 
 ```c
 // 0x7E58745504313A2E 0x95481343
-BOOL NETWORK_IS_INACTIVE_PROFILE(int* networkHandle);
+BOOL NETWORK_IS_INACTIVE_PROFILE(Any* networkHandle);
 ```
 
 Checks if the networkHandle is the same as any other user that is signed in on the local machine.

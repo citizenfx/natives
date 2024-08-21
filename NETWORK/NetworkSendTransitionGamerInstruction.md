@@ -5,7 +5,7 @@ ns: NETWORK
 
 ```c
 // 0x31D1D2B858D25E6B 0x468B0884
-BOOL NETWORK_SEND_TRANSITION_GAMER_INSTRUCTION(int* networkHandle, char* p1, int p2, int p3, BOOL p4);
+BOOL NETWORK_SEND_TRANSITION_GAMER_INSTRUCTION(Any* networkHandle, char* p1, int p2, int p3, BOOL p4);
 ```
 
 ```

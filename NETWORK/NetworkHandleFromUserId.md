@@ -5,7 +5,7 @@ ns: NETWORK
 
 ```c
 // 0xDCD51DD8F87AEC5C 0x74C2C1B7
-void NETWORK_HANDLE_FROM_USER_ID(char* userId, int* networkHandle, int bufferSize);
+void NETWORK_HANDLE_FROM_USER_ID(char* userId, Any* networkHandle, int bufferSize);
 ```
 
 ```

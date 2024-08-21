@@ -6,7 +6,7 @@ aliases: ["0x71DC455F5CD1C2B1"]
 
 ```c
 // 0x71DC455F5CD1C2B1 0xF6F9D1B9
-BOOL NETWORK_HAS_INVITE_BEEN_ACKED(int* networkHandle);
+BOOL NETWORK_HAS_INVITE_BEEN_ACKED(Any* networkHandle);
 ```
 
 ## Parameters

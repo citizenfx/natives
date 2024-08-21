@@ -5,7 +5,7 @@ ns: NETWORK
 
 ```c
 // 0x859ED1CEA343FCA8 0xF00A20B0
-void NETWORK_SHOW_PROFILE_UI(int* networkHandle);
+void NETWORK_SHOW_PROFILE_UI(Any* networkHandle);
 ```
 
 ```

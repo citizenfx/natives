@@ -5,7 +5,7 @@ ns: NETWORK
 
 ```c
 // 0x676ED266AADD31E0 0x1D0C929D
-BOOL NETWORK_IS_PARTY_MEMBER(int* networkHandle);
+BOOL NETWORK_IS_PARTY_MEMBER(Any* networkHandle);
 ```
 
 ```

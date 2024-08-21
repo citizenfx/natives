@@ -6,7 +6,7 @@ aliases: ["0x236406F60CF216D6"]
 
 ```c
 // 0x236406F60CF216D6 0x0EC62629
-void NETWORK_ADD_FOLLOWERS(int* p0, int p1);
+void NETWORK_ADD_FOLLOWERS(Any* p0, int p1);
 ```
 
 ```
