@@ -4,10 +4,18 @@ ns: PAD
 ## DISABLE_ALL_CONTROL_ACTIONS
 
 ```c
-// 0x5F4B6931816E599B 0x16753CF4
-void DISABLE_ALL_CONTROL_ACTIONS(int padIndex);
+// 0x16753CF4
+void DISABLE_ALL_CONTROL_ACTIONS(int controlType);
+```
+
+```
+controlType:
+PLAYER_CONTROL = 0
+CAMERA_CONTROL = 1
+FRONTEND_CONTROL = 2
 ```
 
 ## Parameters
-* **padIndex**: The control system instance to use. See [`ENABLE_ALL_CONTROL_ACTIONS`](#_0xA5FFE9B05F199DE7).
+* **controlType**: The type of control inputs.
 
+Disables all the inputs for a player control.
