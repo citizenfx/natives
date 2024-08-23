@@ -42,7 +42,7 @@ const playerCoords = GetEntityCoords(playerPed, false);
 const objectHash = GetHashKey("v_ret_gc_chair03");
 
 const object = GetClosestObjectOfType(playerCoords[0], playerCoords[1], playerCoords[2], 10.0, objectHash, true, false, false);
-if object === 0 return;
+if (object === 0) return;
 
 // If the object is a mission entity, we have to set it to false. Otherwise, it won't be possible to delete the object.
 if (IsEntityAMissionEntity(object)) {
@@ -57,15 +57,15 @@ using static CitizenFX.Core.Native.API;
 
 int playerPed = PlayerPedId();
 Vector3 playerCoords = GetEntityCoords(playerPed, false);
-uint objectHash = GetHashKey("v_ret_gc_chair03");
+uint objectHash = Game.GenerateHashASCII("v_ret_gc_chair03");
 
 int prop = GetClosestObjectOfType(playerCoords.X, playerCoords.Y, playerCoords.Z, 10.0f, objectHash, true, false, false);
-
+if (prop == 0) return;
 // If the object is a mission entity, we have to set it to false. Otherwise, it won't be possible to delete the object.
 if (IsEntityAMissionEntity(prop))
 {
     SetEntityAsMissionEntity(prop, false, true);
 }
 
-DeleteObject(ref object);
+DeleteObject(ref prop);
 ```
