@@ -15,7 +15,7 @@ Texture dictionary and texture name parameters are usually the same exact value.
 
 Example result:
 
-![](https://i.imgur.com/LviutDl.png)
+![](https://docs.fivem.net/natives/0x1CCD9A37359072CF.png)
 
 Old description with list of possible icons and texture names:
 

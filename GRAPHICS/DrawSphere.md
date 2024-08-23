@@ -11,7 +11,7 @@ void _DRAW_SPHERE(float x, float y, float z, float radius, int r, int g, int b, 
 
 Draws a 3D sphere, typically seen in the GTA:O freemode event "Penned In".
 
-Example [image](https://imgur.com/nCbtS4H):
+Example [image](https://docs.fivem.net/natives/0x799017F9E3B10112.png):
 ```lua
 DrawSphere(35.45, 172.66, 126.22, 1.0, 0, 0, 255, 0.2)
 ```

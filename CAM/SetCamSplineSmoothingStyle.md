@@ -49,7 +49,7 @@ Using 1-3 will result in misalignment from the passed durations for the spline n
 
 Graph below demonstrates interpolation between 0-1000 and back 10 times.
 
-![](https://i.imgur.com/cixWh7m.png)
+![](https://docs.fivem.net/natives/0xD1B0F412F109EA5D.png)
 
 ## Parameters
 * **cam**: The DEFAULT_SPLINE_CAMERA to apply the smoothing to

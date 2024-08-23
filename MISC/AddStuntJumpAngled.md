@@ -34,11 +34,6 @@ The final coordinate in this native is the Camera position. Rotation and zoom/FO
 
 Not sure what these are for, but they're always `150, 0, 0` in decompiled scripts.
 
-
-Visualized example in-game:
-
-![](https://d.fivem.dev/2019-03-15_18-24_c7802_846.png)
-
 Here is a list of almost all of the stunt jumps from GTA V (taken from decompiled scripts): https://pastebin.com/EW1jBPkY
 
 

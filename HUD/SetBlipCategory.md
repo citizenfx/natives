@@ -10,7 +10,7 @@ void SET_BLIP_CATEGORY(Blip blip, int index);
 
 Examples result:
 
-![](https://i.imgur.com/skY6vAJ.png)
+![](https://docs.fivem.net/natives/0x234CDD44D996FD9A.png)
 
 
 **index:**

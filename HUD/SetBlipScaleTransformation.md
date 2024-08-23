@@ -8,7 +8,7 @@ ns: HUD
 void _SET_BLIP_SCALE_TRANSFORMATION(Blip blip, float xScale, float yScale);
 ```
 
-See https://imgur.com/a/lLkEsMN
+See https://docs.fivem.net/natives/0xCD6524439909C979.png
 
 ```
 NativeDB Introduced: v1734

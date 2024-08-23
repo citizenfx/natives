@@ -15,7 +15,7 @@ int END_TEXT_COMMAND_THEFEED_POST_STATS(char* statTitle, int iconEnum, BOOL step
 Example result:
 
 
-![](https://i.imgur.com/SdEZ22m.png)
+![](https://docs.fivem.net/natives/0x2B7E9A4EAAA93C89.png)
 
 
 ## Parameters
