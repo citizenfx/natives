@@ -4,18 +4,17 @@ ns: PAD
 ## ENABLE_ALL_CONTROL_ACTIONS
 
 ```c
-// 0xFC2F119F
+// 0xA5FFE9B05F199DE7  0xFC2F119F
 void ENABLE_ALL_CONTROL_ACTIONS(int controlType);
-```
-
-```
-controlType:
-PLAYER_CONTROL = 0
-CAMERA_CONTROL = 1
-FRONTEND_CONTROL = 2
 ```
 
 ## Parameters
 * **controlType**: The type of control inputs.
 
-Enables all the inputs for a player control.
+```
+enum CONTROL_TYPE {
+  PLAYER_CONTROL = 0,
+	CAMERA_CONTROL,
+	FRONTEND_CONTROL
+};
+```
