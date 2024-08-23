@@ -5,9 +5,16 @@ ns: PAD
 
 ```c
 // 0x5F4B6931816E599B 0x16753CF4
-void DISABLE_ALL_CONTROL_ACTIONS(int padIndex);
+void DISABLE_ALL_CONTROL_ACTIONS(int controlType);
+```
+
+```
+enum CONTROL_TYPE {
+  PLAYER_CONTROL,
+  CAMERA_CONTROL,
+  FRONTEND_CONTROL
+};
 ```
 
 ## Parameters
-* **padIndex**: The control system instance to use. See [`ENABLE_ALL_CONTROL_ACTIONS`](#_0xA5FFE9B05F199DE7).
-
+* **controlType**: The type of control inputs.
