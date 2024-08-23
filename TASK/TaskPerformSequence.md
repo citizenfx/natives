@@ -8,8 +8,9 @@ ns: TASK
 cs_type(Any) void TASK_PERFORM_SEQUENCE(Ped ped, int taskSequenceId);
 ```
 
-## Parameters
-* **ped**: 
-* **taskSequenceId**: 
+For an example on how to use this please refer to [OPEN_SEQUENCE_TASK](#_0xE8854A4326B9E12B)
 
-## Return value
+
+## Parameters
+* **ped**: The ped to perform the sequence on
+* **taskSequenceId**: The sequenceId to perform

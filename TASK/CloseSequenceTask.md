@@ -8,7 +8,10 @@ ns: TASK
 cs_type(Any) void CLOSE_SEQUENCE_TASK(int taskSequenceId);
 ```
 
-## Parameters
-* **taskSequenceId**: 
+For an example on how to use this please refer to [OPEN_SEQUENCE_TASK](#_0xE8854A4326B9E12B)
 
-## Return value
+#### NOTE
+If you fail to call `CLOSE_SEQUENCE_TASK` and [`CLEAR_SEQUENCE_TASK`](#_0x3841422E9C488D8C) this can get stuck in a broken state until you restart your client.
+
+## Parameters
+* **taskSequenceId**: The task sequence to close
