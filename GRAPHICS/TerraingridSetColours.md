@@ -12,7 +12,6 @@ void TERRAINGRID_SET_COLOURS(int lowR, int lowG, int lowB, int lowAlpha, int R, 
 
 This native is used along with these two natives: [`TERRAINGRID_ACTIVATE`](#_0xA356990E161C9E65) and [`TERRAINGRID_SET_PARAMS`](#_0x1C4FC5752BCD8E48). 
 This native sets the colors for the golf putting grid. the 'min...' values are for the lower areas that the grid covers, the 'max...' values are for the higher areas that the grid covers, all remaining values are for the 'normal' ground height.
-All those natives combined they will output something like this: https://i.imgur.com/TC6cku6.png
 
 Old description:
 Only called in golf and golf_mp  
@@ -35,13 +34,23 @@ GRAPHICS::_0x5CE62918F8D703C7(255, 0, 0, 64, 255, 255, 255, 5, 255, 255, 0, 64);
 
 ## Examples
 ```cs
-N_0xa356990e161c9e65(true); // toggle on/off
+TerraingridActivate(true); // toggle on/off
 
 // this native configures the location, size, rotation, normal height, and the difference ratio between min, normal and max.
-N_0x1c4fc5752bcd8e48(-1114.121f, 220.789f, 63.78f, -1f, 0.85f, 0f, 15f, 15f, -1f, 20f, 40f, 63.78f, 0.2f);
+TerraingridSetParams(-1114.121f, 220.789f, 63.78f, -1f, 0.85f, 0f, 15f, 15f, -1f, 20f, 40f, 63.78f, 0.2f);
 
 // This native defines the colors (and alpha/opacity levels) for min, normal and max heights.
 // (in this case: red for lower, white for normal, yellow for higher)
-N_0x5ce62918f8d703c7(255, 0, 0, 64, 255, 255, 255, 5, 255, 255, 0, 64);
+TerraingridSetColours(255, 0, 0, 64, 255, 255, 255, 5, 255, 255, 0, 64);
 ```
 
+```lua
+TerraingridActivate(true) -- toggle on/off
+
+-- this native configures the location, size, rotation, normal height, and the difference ratio between min, normal and max.
+TerraingridSetParams(-1114.121, 220.789, 63.78, -1, 0.85, 0, 15, 15, -1, 20, 40, 63.78, 0.2);
+    
+-- This native defines the colors (and alpha/opacity levels) for min, normal and max heights.
+-- (in this case: red for lower, white for normal, yellow for higher)
+TerraingridSetColours(255, 0, 0, 64, 255, 255, 255, 5, 255, 255, 0, 64);
+```

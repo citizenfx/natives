@@ -18,7 +18,7 @@ The frame time (in seconds) of the last frame.
 ## Examples
 ```lua
 local time1 = GetGameTimer()
-Citizen.Wait(0)
+Wait(0)
 
 -- Prints for example 0.01253530010581 at around 90 FPS
 print(GetFrameTime())

@@ -55,7 +55,7 @@ Alt = {
 }
 ```
 
-**Result of the example code:** [https://i.imgur.com/TvmNF4k.png](https://i.imgur.com/TvmNF4k.png)
+**Result of the example code:** [Image](https://r2.fivemanage.com/qFztShHCe1bhCDvTI4vxv/image_2024-08-24_103558113.png)
 
 ## Parameters
 * **labelTitle**: Label of the alert's title. 
@@ -73,12 +73,12 @@ Alt = {
 
 ## Examples
 ```lua
-Citizen.CreateThread(function()
+CreateThread(function()
 	AddTextEntry("FACES_WARNH2", "Nice title")
 	AddTextEntry("QM_NO_0", "Cool message")
 	AddTextEntry("QM_NO_3", "Cool message 2")
 	while true do
-		Citizen.Wait(0)
+		Wait(0)
 		DrawFrontendAlert("FACES_WARNH2", "QM_NO_0", 3, 3, "QM_NO_3", 2, -1, false, "FM_NXT_RAC", "QM_NO_1", true, 10)
 	end
 end)

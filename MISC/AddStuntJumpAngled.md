@@ -102,7 +102,7 @@ local stuntjump = AddStuntJumpAngled(
 
 print("New stunt jump added, id: " .. stuntjump)
 
-Citizen.CreateThread(function()
+CreateThread(function()
     while true do
         Wait(0)
         DrawLine(data.entry.leftbottom, data.entry.righttop, 255, 255, 255, 255)

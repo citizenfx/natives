@@ -19,13 +19,13 @@ It basically OR's a flag for a single frame, allowing the ped to perform a super
 
 ## Examples
 ```lua
-Citizen.CreateThread(function()
+CreateThread(function()
     while true do
         SetSuperJumpThisFrame(PlayerId())
         -- Try enabling the two down below if you also want invincibility and no ragdoll effects
         --SetPlayerInvincible(PlayerId(), true)
         --SetPedCanRagdoll(PlayerPedId(), false)
-        Citizen.Wait(0)
+        Wait(0)
     end
 end)
 ```

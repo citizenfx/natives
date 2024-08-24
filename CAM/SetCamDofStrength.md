@@ -35,7 +35,7 @@ CreateThread(function()
     while DoesCamExist(camera) do
         -- Use DoF effect (needs to be called every tick)
         SetUseHiDof()
-        Citizen.Wait(0)  
+        Wait(0)  
     end
 end)
 ```

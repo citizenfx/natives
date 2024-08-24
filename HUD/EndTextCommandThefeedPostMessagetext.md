@@ -15,7 +15,7 @@ Texture dictionary and texture name parameters are usually the same exact value.
 
 Example result:
 
-![](https://i.imgur.com/LviutDl.png)
+![Image](https://r2.fivemanage.com/qFztShHCe1bhCDvTI4vxv/image_2024-08-24_111233888.png)
 
 Old description with list of possible icons and texture names:
 
@@ -49,11 +49,11 @@ The notification handle.
 
 ## Examples
 ```lua
-Citizen.CreateThread(function()
+CreateThread(function()
     -- Get the ped headshot image.
     local handle = RegisterPedheadshot(PlayerPedId())
     while not IsPedheadshotReady(handle) or not IsPedheadshotValid(handle) do
-        Citizen.Wait(0)
+        Wait(0)
     end
     local txd = GetPedheadshotTxdString(handle)
 

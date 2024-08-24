@@ -24,7 +24,7 @@ Must be called each frame, will play at specified position on screen when called
 
 ## Examples
 ```lua
-Citizen.CreateThread(function()
+CreateThread(function()
     local binkint = SetBinkMovie("casino_trailer") -- BINK movie, list can be found at https://gist.github.com/ItsJunction/8046f28c29ea8ff2821e9e4f933f595f
     SetBinkMovieTime(binkint, 0.0) -- Seeks to 0%, just incase of errors.
 
@@ -32,7 +32,7 @@ Citizen.CreateThread(function()
         print(math.floor(GetBinkMovieTime(binkint) * 100)/100 .. "%") -- Prints current playtime (as percentage).
         PlayBinkMovie(binkint)
         DrawBinkMovie(binkint, 0.5, 0.5, 1.0, 1.0, 0.0, 255, 255, 255, 255) -- This example draws and plays in fullscreen in the center (no matter the resolution).
-        Citizen.Wait(0)
+        Wait(0)
     end
 end)
 ```

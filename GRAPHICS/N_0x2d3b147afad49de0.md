@@ -32,12 +32,12 @@ NativeDB Introduced: v1290
 
 ```lua
 -- drawing the game area for penetrator arcade game
-Citizen.CreateThread(function()
+CreateThread(function()
     RequestStreamedTextureDict("MPArcadeDegenatron", false)
-    while not HasStreamedTextureDictLoaded("MPArcadeDegenatron") do Citizen.Wait(1) end
+    while not HasStreamedTextureDictLoaded("MPArcadeDegenatron") do Wait(1) end
     while true do
         N_0x2d3b147afad49de0("MPArcadeDegenatron", "penetrator_scene_frame", 0.5, 0.5, 0.4, 0.6, 0.0, 255, 0, 0, 255, 0)
-        Citizen.Wait(1)
+        Wait(1)
     end
 end)
 ```

@@ -20,7 +20,7 @@ RegisterCommand("switchPlayer", function()
     if IsPlayerSwitchInProgress() then return end
     local ped = PlayerPedId()
     SwitchToMultiFirstPart(ped, 0, 1)
-    Citizen.Wait(5000)
+    Wait(5000)
     SwitchToMultiSecondPart(ped)
 end, false)
 ```

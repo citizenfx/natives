@@ -42,7 +42,7 @@ RegisterCommand('360', function()
         local currentYaw = yaw
         -- Loop to adjust the rotation in steps
         for i = 1, steps do
-            Citizen.Wait(20) -- Increases the delay between each adjustment to make the animation slower
+            Wait(20) -- Increases the delay between each adjustment to make the animation slower
             currentYaw = currentYaw + (360 / steps) -- Increments the rotation
             if currentYaw >= finalYaw then
                 currentYaw = finalYaw
@@ -55,6 +55,6 @@ RegisterCommand('360', function()
         end
     end
     -- Execute the rotation in a coroutine to not block the main thread
-    Citizen.CreateThread(doRotation)
+    CreateThread(doRotation)
 end, false)
 ```

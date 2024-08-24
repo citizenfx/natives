@@ -11,7 +11,7 @@ int END_TEXT_COMMAND_THEFEED_POST_AWARD(char* textureDict, char* textureName, in
 
 Shows an "award" notification above the minimap, lua example result:
 
-![](https://i.imgur.com/e2DNaKX.png)
+![Image](https://r2.fivemanage.com/qFztShHCe1bhCDvTI4vxv/image_2024-08-24_111337272.png)
 
 
 
@@ -34,11 +34,11 @@ The notification handle.
 
 ## Examples
 ```lua
-Citizen.CreateThread(function()
+CreateThread(function()
     -- Get the ped headshot image.
     local handle = RegisterPedheadshot(PlayerPedId())
     while not IsPedheadshotReady(handle) or not IsPedheadshotValid(handle) do
-        Citizen.Wait(0)
+        Wait(0)
     end
     local txd = GetPedheadshotTxdString(handle)
 

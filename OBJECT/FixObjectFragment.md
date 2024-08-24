@@ -31,7 +31,7 @@ RegisterCommand("fixobject", function(source, args, rawCommand)
     if not HasModelLoaded(modelHash) then
         RequestModel(modelHash)
         while not HasModelLoaded(modelHash) do
-            Citizen.Wait(1)
+            Wait(1)
         end
     end
 

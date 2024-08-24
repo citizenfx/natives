@@ -22,7 +22,7 @@ https://pastebin.com/zd9XYUWY : here is the content of a SRL file opened with co
 ```lua
 PrefetchSrl('GTAO_INTRO_MALE')
 while not IsSrlLoaded() do
-	Citizen.Wait(100)
+	Wait(100)
 end
 BeginSrl()
 ```

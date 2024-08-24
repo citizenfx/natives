@@ -16,8 +16,8 @@ It is recommended to use [SET_BLIP_ROTATION](#_0xF87683CDF73C3F6E) and [SET_BLIP
 By default, the blip will show as a _regular_ blip with the specified color/sprite if it is outside of the minimap view.
 
 Example image:
-![minimap](https://i.imgur.com/qLbXWcQ.png)
-![big map](https://i.imgur.com/0j7O7Rh.png)
+![minimap](https://r2.fivemanage.com/qFztShHCe1bhCDvTI4vxv/Screenshot%202024-08-24%20095352.png)
+![big map](https://r2.fivemanage.com/qFztShHCe1bhCDvTI4vxv/Screenshot%202024-08-24%20095301.png)
 
 (Native name is _likely_ to actually be ADD_BLIP_FOR_AREA, but due to the usual reasons this can't be confirmed)
 

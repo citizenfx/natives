@@ -13,13 +13,6 @@ Disables the GPS route displayed on the minimap while within a certain zone (are
 
 You can clear the disabled zone with CLEAR_GPS_DISABLED_ZONE_AT_INDEX.
 
-**Setting a waypoint at the same coordinate:**
-
-Disabled Zone: [https://i.imgur.com/P9VUuxM.png](https://i.imgur.com/P9VUuxM.png)
-
-Enabled Zone (normal): [https://i.imgur.com/BPi24aw.png](https://i.imgur.com/BPi24aw.png)
-
-
 ## Parameters
 * **x1**: X coordinate of first vector.
 * **y1**: Y coordinate of first vector.

@@ -13,7 +13,7 @@ Resets the idle camera timer. Calling that in a loop once every few seconds is e
 
 ## Examples
 ```lua
-Citizen.CreateThread(function()
+CreateThread(function()
 	while true do
 		InvalidateIdleCam()
 		InvalidateVehicleIdleCam()

@@ -8,10 +8,9 @@ ns: HUD
 void SET_BLIP_CATEGORY(Blip blip, int index);
 ```
 
-Examples result:
+**Examples result:**
 
-![](https://i.imgur.com/skY6vAJ.png)
-
+![Image](https://r2.fivemanage.com/qFztShHCe1bhCDvTI4vxv/image_2024-08-24_105454458.png)
 
 **index:**
 ```

@@ -22,7 +22,7 @@ local function IsPlayerUsingPausemap()
   return IsPauseMenuActive() and GetNumberOfReferencesOfScriptWithNameHash(`pausemenu_map`) > 0
 end
 
-Citizen.CreateThread(function()
+CreateThread(function()
   while true do
     Wait(0) -- Not using Wait will cause the game to hang.
 

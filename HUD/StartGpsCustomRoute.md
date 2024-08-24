@@ -15,7 +15,7 @@ The GPS custom route works like the GPS multi route, except it does not follow r
 
 **Example result:**
 
-![](https://i.imgur.com/BDm5pzt.png)
+![](https://r2.fivemanage.com/qFztShHCe1bhCDvTI4vxv/Screenshot%202024-08-24%20102747.png)
 
 ## Parameters
 * **hudColor**: The HUD color of the GPS path.

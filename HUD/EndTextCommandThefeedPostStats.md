@@ -6,7 +6,7 @@ aliases: ["0x2B7E9A4EAAA93C89", "_SET_NOTIFICATION_MESSAGE_2"]
 
 ```c
 // 0x2B7E9A4EAAA93C89 0xED130FA1
-int END_TEXT_COMMAND_THEFEED_POST_STATS(char* statTitle, int iconEnum, BOOL stepVal, int barValue, BOOL isImportant, char* picTxd, char* picTxn);
+int END_TEXT_COMMAND_THEFEED_POST_STATS(char* statTitle, int iconEnum, int stepVal, int barValue, BOOL isImportant, char* picTxd, char* picTxn);
 ```
 
 [List of picture names](https://pastebin.com/XdpJVbHz)
@@ -14,8 +14,7 @@ int END_TEXT_COMMAND_THEFEED_POST_STATS(char* statTitle, int iconEnum, BOOL step
 
 Example result:
 
-
-![](https://i.imgur.com/SdEZ22m.png)
+![Image](https://r2.fivemanage.com/qFztShHCe1bhCDvTI4vxv/Screenshot%202024-08-24%20105749.png)
 
 
 ## Parameters
@@ -33,11 +32,11 @@ The notification handle.
 
 ## Examples
 ```lua
-Citizen.CreateThread(function()
+CreateThread(function()
     -- Get the ped headshot image.
     local handle = RegisterPedheadshot(PlayerPedId())
     while not IsPedheadshotReady(handle) or not IsPedheadshotValid(handle) do
-        Citizen.Wait(0)
+        Wait(0)
     end
     local txd = GetPedheadshotTxdString(handle)
 

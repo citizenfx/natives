@@ -13,7 +13,7 @@ Resets the vehicle idle camera timer. Calling this in a loop will disable the id
 
 ## Examples
 ```lua
-Citizen.CreateThread(function()
+CreateThread(function()
 	while true do
 		InvalidateIdleCam()
 		InvalidateVehicleIdleCam()

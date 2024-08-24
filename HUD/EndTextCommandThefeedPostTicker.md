@@ -12,7 +12,7 @@ int END_TEXT_COMMAND_THEFEED_POST_TICKER(BOOL isImportant, BOOL bHasTokens);
 Example output preview:
 
 
-![](https://i.imgur.com/TJvqkYq.png)
+![Image](https://r2.fivemanage.com/qFztShHCe1bhCDvTI4vxv/image_2024-08-24_105638029.png)
 
 
 ## Examples

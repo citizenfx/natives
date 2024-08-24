@@ -35,7 +35,7 @@ function func_8(vParam0)
     return (-(Sin(vParam0.z)) * Cos(vParam0.x)), (Cos(vParam0.z) * Cos(vParam0.x)), Sin(vParam0.x)
 end
 
-Citizen.CreateThread(function()
+CreateThread(function()
     local vLocal_43 = vector3(1691.228, 3251.785, 44.2574)
     local vLocal_44 = vector3(2.5652, 0, -4.1481)
 
@@ -44,7 +44,7 @@ Citizen.CreateThread(function()
           local gameTimer = GetGameTimer()
 
           while not IsNewLoadSceneLoaded() and (GetGameTimer() - gameTimer < 20) do
-              Citizen.Wait(0)
+              Wait(0)
           end
 
           NewLoadSceneStop()

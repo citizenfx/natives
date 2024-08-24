@@ -32,7 +32,7 @@ if (STREAMING::HAS_NAMED_PTFX_ASSET_LOADED("scr_rcbarry2"))
 ```lua
 RequestNamedPtfxAsset("scr_rcbarry2") -- Request the PTFX
 while not HasNamedPtfxAssetLoaded("scr_rcbarry2") do
-  Citizen.Wait(0)
+  Wait(0)
 end
 EnableClownBloodVfx(true) -- Enable the clown PTFX
 ```

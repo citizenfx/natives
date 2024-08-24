@@ -28,7 +28,7 @@ local playerPedCoords = GetEntityCoords(PlayerPedId())
 -- Hides all entities with the hash "1437508529" within 1.0 gta units.
 CreateModelHide(playerPedCoords, 1.0, 1437508529, true)
 
-Citizen.Wait(2500)
+Wait(2500)
 
 -- This will make all hidden entities with the hash "1437508529" within 1.0 gta units visible.
 RemoveModelHide(playerPedCoords, 1.0, 1437508529, false)

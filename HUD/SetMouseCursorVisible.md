@@ -16,11 +16,11 @@ Toggles the visibility of the cursor. Do note that if the game loses focus and t
 
 ## Examples
 ```lua
-Citizen.CreateThread(function()
+CreateThread(function()
     local menuType = "FE_MENU_VERSION_CORONA_LOBBY"
     ActivateFrontendMenu(GetHashKey(menuType), false, -1)
     --100 works as well
-    Citizen.Wait(1000)
+    Wait(1000)
     --Hide frontend cursor
     SetMouseCursorVisible(false)
 end)

@@ -33,7 +33,7 @@ local coords = vector3(100.0, 100.0, 50.0)
 StartPlayerTeleport(PlayerId(), coords.x, coords.y, coords.z, 0.0, false, true, true)
 
 while IsPlayerTeleportActive() do
-  Citizen.Wait(0)
+  Wait(0)
 end
 
 --- If you would want to make 100% sure the ped is on the ground here you would have to do some additional checks here

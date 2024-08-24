@@ -69,7 +69,7 @@ function loadTrainModels()
         RequestModel(modelHashKey) -- load the model
         -- wait for the model to load
         while not HasModelLoaded(modelHashKey) do
-            Citizen.Wait(500)
+            Wait(500)
         end
     end
 end

@@ -49,8 +49,6 @@ Using 1-3 will result in misalignment from the passed durations for the spline n
 
 Graph below demonstrates interpolation between 0-1000 and back 10 times.
 
-![](https://i.imgur.com/cixWh7m.png)
-
 ## Parameters
 * **cam**: The DEFAULT_SPLINE_CAMERA to apply the smoothing to
 * **smoothingStyle**: 0 to 3, 0 no additional smoothing, 1 smooth lead-in, 2 smooth lead-out, 3 smooth lead-in & lead-out

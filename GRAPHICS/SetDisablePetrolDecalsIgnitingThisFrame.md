@@ -15,10 +15,10 @@ Prevents gas / petrol decals (aka gas / petrol trails and puddles) to be ignited
 
 ## Examples
 ```lua
-Citizen.CreateThread(function()
+CreateThread(function()
     while true do
         SetDisablePetrolDecalsIgnitingThisFrame()
-        Citizen.Wait(0)
+        Wait(0)
     end
 end)
 ```

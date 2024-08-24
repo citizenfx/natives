@@ -37,12 +37,12 @@ local playerPed = PlayerPedId()
 local coords = GetOffsetFromEntityInWorldCoords(playerPed, 0.0, 6.0, 0.0)
 TaskGoStraightToCoord(playerPed, coords, 1.0, 5000, GetEntityHeading(playerPed), 0.15)
 
-Citizen.CreateThread(function()
+CreateThread(function()
     while true do
         local taskStatus = GetScriptTaskStatus(PlayerPedId(), "SCRIPT_TASK_GO_STRAIGHT_TO_COORD")
         print(taskStatus)
         if taskStatus == 7 then print("task was finished!"); break end
-        Citizen.Wait(250)
+        Wait(250)
     end
 end)
 ```

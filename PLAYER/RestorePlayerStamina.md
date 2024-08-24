@@ -15,10 +15,10 @@ Adds a percentage to a players stamina
 
 ## Examples
 ```lua
-Citizen.CreateThread(function()
+CreateThread(function()
   while true do
     RestorePlayerStamina(PlayerId(), 0.3)
-    Citizen.Wait(15000) -- 15 seconds
+    Wait(15000) -- 15 seconds
   end
 end)
 ```

@@ -16,7 +16,7 @@ The number of the current frame being displayed.
 ## Examples
 ```lua
 -- Create a thread
-Citizen.CreateThread(function()
+CreateThread(function()
     -- Loop forever
     while true do
         -- Get the number of the current frame being displayed

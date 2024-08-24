@@ -28,19 +28,19 @@ local handle2 = GetRayfireMapObject(7.25, -656.98, 17.14, 50.0, "des_finale_vaul
 SetStateOfRayfireMapObject(handle, 4) -- set to pre-start state
 SetStateOfRayfireMapObject(handle2, 4) -- set to pre-start state
 
-Citizen.Wait(100)
+Wait(100)
 
 SetStateOfRayfireMapObject(handle, 6) -- set to start animation state.
 SetStateOfRayfireMapObject(handle2, 6) -- set to start animation state.
 
-Citizen.CreateThread(function()
-    Citizen.Wait(10)
+CreateThread(function()
+    Wait(10)
     while GetRayfireMapObjectAnimPhase(handle) > 0.0 do
-        Citizen.Wait(0)
+        Wait(0)
     end
     print("Animation 1 is done!")
     while GetRayfireMapObjectAnimPhase(handle2) > 0.0 do
-        Citizen.Wait(0)
+        Wait(0)
     end
     print("Animation 2 is done!")
 end)

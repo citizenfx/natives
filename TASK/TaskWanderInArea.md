@@ -29,7 +29,7 @@ Use `GetIsTaskActive(ped, 222)` to check if the ped is still wandering the area.
 local model = `a_c_panther`
 RequestModel(model)
 while not HasModelLoaded(model) do
-  Citizen.Wait(0)
+  Wait(0)
 end
 
 -- Spawn a panther at current coordinates
@@ -44,6 +44,6 @@ TaskWanderInArea(ped, coords.x, coords.y, coords.z, 100.0, 2, 10.0)
 
 -- Check if the ped is wandering
 -- Tasks don't trigger instantly, so wait a bit before checking
-Citizen.Wait(1000)
+Wait(1000)
 print(GetIsTaskActive(ped, 222)) -- 1
 ```

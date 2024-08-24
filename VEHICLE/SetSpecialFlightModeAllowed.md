@@ -19,7 +19,7 @@ Allows locking the hover/non-hover mode of a vehicle, such as the flying mode of
 ```lua
 -- Checks the altitude of the Deluxo and locks its current mode when above 150 meters.
 -- If the Deluxo is in flying mode at this altitude, it will be unable to switch to driving mode, and vice versa.
-Citizen.CreateThread(function()
+CreateThread(function()
     local coords -- Variable to store the vehicle's coordinates.
     local vehicle -- Variable to store the vehicle entity.
     
@@ -30,7 +30,7 @@ Citizen.CreateThread(function()
             coords = GetEntityCoords(vehicle) -- Get the current coordinates of the vehicle.
         end
         
-        Citizen.Wait(0) -- Wait for the next frame.
+        Wait(0) -- Wait for the next frame.
         
     until coords.z >= 150.0 -- Keep looping until the Deluxo is above 150 meters.
     

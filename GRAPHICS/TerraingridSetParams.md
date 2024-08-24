@@ -13,8 +13,6 @@ This native is used along with these two natives: [`TERRAINGRID_ACTIVATE`](#_0xA
 
 This native configures the location, size, rotation, normal height, and the difference ratio between min, normal and max.
 
-All those natives combined they will output something like this: https://i.imgur.com/TC6cku6.png
-
 ## Parameters
 * **x**: Grid center x coord.
 * **y**: Grid center y coord.
@@ -32,14 +30,23 @@ All those natives combined they will output something like this: https://i.imgur
 
 ## Examples
 ```cs
-N_0xa356990e161c9e65(true); // toggle on/off
+TerraingridActivate(true); // toggle on/off
 
 // this native configures the location, size, rotation, normal height, and the difference ratio between min, normal and max.
-N_0x1c4fc5752bcd8e48(-1114.121f, 220.789f, 63.78f, -1f, 0.85f, 0f, 15f, 15f, -1f, 20f, 40f, 63.78f, 0.2f);
+TerraingridSetParams(-1114.121f, 220.789f, 63.78f, -1f, 0.85f, 0f, 15f, 15f, -1f, 20f, 40f, 63.78f, 0.2f);
 
 // This native defines the colors (and alpha/opacity levels) for min, normal and max heights.
 // (in this case: red for lower, white for normal, yellow for higher)
-N_0x5ce62918f8d703c7(255, 0, 0, 64, 255, 255, 255, 5, 255, 255, 0, 64);
+TerraingridSetColours(255, 0, 0, 64, 255, 255, 255, 5, 255, 255, 0, 64);
 ```
 
+```lua
+TerraingridActivate(true) -- toggle on/off
 
+-- this native configures the location, size, rotation, normal height, and the difference ratio between min, normal and max.
+TerraingridSetParams(-1114.121, 220.789, 63.78, -1, 0.85, 0, 15, 15, -1, 20, 40, 63.78, 0.2);
+    
+-- This native defines the colors (and alpha/opacity levels) for min, normal and max heights.
+-- (in this case: red for lower, white for normal, yellow for higher)
+TerraingridSetColours(255, 0, 0, 64, 255, 255, 255, 5, 255, 255, 0, 64);
+```
