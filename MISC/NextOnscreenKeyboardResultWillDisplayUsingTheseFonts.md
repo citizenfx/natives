@@ -9,7 +9,7 @@ aliases: ["0x3ED1438C1F5C6612"]
 void NEXT_ONSCREEN_KEYBOARD_RESULT_WILL_DISPLAY_USING_THESE_FONTS(int fontBitField);
 ```
 
-```
+```c
 enum eFontBitField
 {
   FONT_BIT_STANDARD = 1,
@@ -25,5 +25,3 @@ enum eFontBitField
 
 ## Parameters
 * **fontBitField**: See the list above.
-  
-

@@ -36,14 +36,17 @@ local ped = PlayerPedId()
 local coords = GetEntityCoords(ped)
 local spawn_coords = coords - GetEntityForwardVector(ped) * 15.0
 local vehicle = CreateVehicle(vehicle_model, spawn_coords.x, spawn_coords.y, spawn_coords.z, GetEntityHeading(ped), true, false)
-SetModelAsNoLongerNeeded(vehicle_model) -- Allow the game engine to clear the model from memory
+
+-- Allow the game engine to clear the model from memory
+SetModelAsNoLongerNeeded(vehicle_model)
 
 local ped_model = `a_m_m_skater_01`
 RequestModel(ped_model)
 repeat Wait(0) until HasModelLoaded(ped_model)
 
 local driver = CreatePedInsideVehicle(vehicle, 0, ped_model, -1, true, false)
-SetModelAsNoLongerNeeded(ped_model) -- Allow the game engine to clear the model from memory
+-- Allow the game engine to clear the model from memory
+SetModelAsNoLongerNeeded(ped_model)
 
 TaskVehicleMissionCoorsTarget(driver, vehicle, coords.x, coords.y, coords.z, 8, 35.0, 786468, -1.0, -1.0, true)
 -- Mission Type: Flee | Drive Style: DrivingModeAvoidVehiclesReckless

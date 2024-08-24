@@ -57,17 +57,20 @@ local boat_model = `tropic`
 RequestModel(boat_model)
 repeat Wait(0) until HasModelLoaded(boat_model)
 
-local ped = PlayerPedId() -- Player needs to be in open water & in a boat for this to work
+-- Player needs to be in open water & in a boat for this to work
+local ped = PlayerPedId()
 local coords = GetEntityCoords(ped) - GetEntityForwardVector(ped) * 15.0
 local vehicle = CreateVehicle(boat_model, coords.x, coords.y, coords.z, GetEntityHeading(ped), true, false)
-SetModelAsNoLongerNeeded(boat_model) -- Allow the game engine to clear the model from memory
+-- Allow the game engine to clear the model from memory
+SetModelAsNoLongerNeeded(boat_model)
 
 local ped_model = `a_m_m_skater_01`
 RequestModel(ped_model)
 repeat Wait(0) until HasModelLoaded(ped_model)
 
 local driver = CreatePedInsideVehicle(vehicle, 0, ped_model, -1, true, false)
-SetModelAsNoLongerNeeded(ped_model) -- Allow the game engine to clear the model from memory
+-- Allow the game engine to clear the model from memory
+SetModelAsNoLongerNeeded(ped_model)
 
 TaskBoatMission(driver, vehicle, GetVehiclePedIsIn(ped, false), 0, 0.0, 0.0, 0.0, 7, -1.0, 786468, -1.0, 1044)
 -- Mission Type: Follow | Drive Style: DrivingModeAvoidVehiclesReckless | Mission Flags: AvoidShore | NeverStop | NeverPause

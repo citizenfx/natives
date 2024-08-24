@@ -10,7 +10,7 @@ void DISPLAY_ONSCREEN_KEYBOARD(int keyboardType, char* windowTitle, char* descri
 
 Displays a text input box.
 
-```
+```c
 enum eKeyboardType
 {
   ONSCREEN_KEYBOARD_ENGLISH = 0,
@@ -26,11 +26,11 @@ enum eKeyboardType
 ## Parameters
 * **keyboardType**: See the list above. Default is `0`.
 * **windowTitle**: Text label for the title of the box.
-* **description**: Has no use on PC. 
+* **description**: Has no use on PC.
 * **defaultText**: Default text that is written in the input field.
-* **defaultConcat1**: 
-* **defaultConcat2**: 
-* **defaultConcat3**: 
+* **defaultConcat1**:
+* **defaultConcat2**:
+* **defaultConcat3**:
 * **maxInputLength**: Max number of characters that can be typed (2 - 256).
 
 

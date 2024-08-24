@@ -19,7 +19,7 @@ NativeDB Introduced: v1180
 ## Parameters
 * **cam**: The camera handle.
 * **ped**: The ped handle.
-* **boneIndex**: This is different to boneID, use ['GET_PED_BONE_INDEX'](#_0x3F428D08BE5AAE31) to get the index from the ID. use the index for attaching to specific bones. `cam` will be attached to the center of `ped` if bone index given doesn't correspond to bone indexes for that entity type.
+* **boneIndex**: This is different to boneID, use [`GET_PED_BONE_INDEX`](#_0x3F428D08BE5AAE31) to get the index from the ID. use the index for attaching to specific bones. `cam` will be attached to the center of `ped` if bone index given doesn't correspond to bone indexes for that entity type.
 * **xRot**: X-axis rotation.
 * **yRot**: Y-axis rotation.
 * **zRot**: Z-axis rotation.
@@ -35,9 +35,11 @@ local ped = PlayerPedId()
 local cam = CreateCam("DEFAULT_SCRIPTED_CAMERA", true)
 local BONETAG_L_FINGER01 = 4089
 
-HardAttachCamToPedBone(cam, ped, BONETAG_L_FINGER01, 90.0, 0.0, 0.0, 0.0, 0.0, 0.0, true) -- attach it to a finger on the left hand and rotates it 90 degrees on the X-axis
+-- attach it to a finger on the left hand and rotates it 90 degrees on the X-axis
+HardAttachCamToPedBone(cam, ped, BONETAG_L_FINGER01, 90.0, 0.0, 0.0, 0.0, 0.0, 0.0, true)
 
-RenderScriptCams(true, false, 0, true, true) -- renders the camera
+-- renders the camera
+RenderScriptCams(true, false, 0, true, true)
 
 ```
 
@@ -46,9 +48,11 @@ const ped = PlayerPedId()
 const cam = CreateCam("DEFAULT_SCRIPTED_CAMERA", true)
 const BONETAG_L_FINGER01= 4089
 
-HardAttachCamToPedBone(cam, ped, BONETAG_L_FINGER01, 90.0, 0.0, 0.0, 0.0, 0.0, 0.0, true) // attach it to a finger on the left hand and rotates it 90 degrees on the X-axis
+// attach it to a finger on the left hand and rotates it 90 degrees on the X-axis
+HardAttachCamToPedBone(cam, ped, BONETAG_L_FINGER01, 90.0, 0.0, 0.0, 0.0, 0.0, 0.0, true)
 
-RenderScriptCams(true, false, 0, true, true) // renders the camera
+// renders the camera
+RenderScriptCams(true, false, 0, true, true)
 ```
 
 ```cs
@@ -58,7 +62,9 @@ int ped = PlayerPedId();
 int cam = CreateCam("DEFAULT_SCRIPTED_CAMERA", true);
 int BONETAG_L_FINGER01 = 4089;
 
-HardAttachCamToPedBone(cam, ped, BONETAG_L_FINGER01, 90.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, true); // attach it to a finger on the left hand and rotates it 90 degrees on the X-axis
+// attach it to a finger on the left hand and rotates it 90 degrees on the X-axis
+HardAttachCamToPedBone(cam, ped, BONETAG_L_FINGER01, 90.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, true);
 
-RenderScriptCams(true, false, 0, true, true); // renders the camera
+// renders the camera
+RenderScriptCams(true, false, 0, true, true);
 ```

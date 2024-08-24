@@ -23,10 +23,11 @@ To manage player visibility with NetworkConcealPlayer, here’s a solid approach
 This setup keeps instance players separate from each other while allowing interaction with the general population.
 
 ## Parameters
-* **player**: 
-* **toggle**: 
-* **bAllowDamagingWhileConcealed**: 
+* **player**:
+* **toggle**:
+* **bAllowDamagingWhileConcealed**:
 
+## Examples
 ```lua
 function GetPlayerInstance(player)
 	-- you can replace this with your own data
@@ -43,7 +44,7 @@ function concealPlayers()
     for _, player in ipairs(allPlayers) do
         if player == playerId then goto continue end
 
-        local playerInstance = GetPlayerInstance(player) 
+        local playerInstance = GetPlayerInstance(player)
 
 		if playerInstance == localPlayerInstance then
 			-- if we're in the same instance then we want to be able to see them
