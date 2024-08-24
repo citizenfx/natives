@@ -9,8 +9,8 @@ void ENABLE_ALL_CONTROL_ACTIONS(int controlType);
 ```
 
 ```
-enum CONTROL_TYPE {
-  PLAYER_CONTROL,
+enum ePadType {
+  PLAYER_CONTROL = 0,
   CAMERA_CONTROL,
   FRONTEND_CONTROL
 };
