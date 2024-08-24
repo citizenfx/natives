@@ -17,4 +17,4 @@ enum ePadType {
 ```
 
 ## Parameters
-* **controlType**: The type of control inputs.
+* **padIndex**: The control system instance to use.
