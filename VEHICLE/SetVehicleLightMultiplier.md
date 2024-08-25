@@ -17,5 +17,5 @@ multiplier = 1.0 default game value
 
 ## Parameters
 * **vehicle**: The vehicle handle.
-* **multiplier**: The multiplier applied to the vehicle's headlights
+* **multiplier**: The multiplier applied to the vehicle's headlights.
 
