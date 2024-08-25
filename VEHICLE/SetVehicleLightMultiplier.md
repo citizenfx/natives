@@ -9,13 +9,13 @@ void SET_VEHICLE_LIGHT_MULTIPLIER(Vehicle vehicle, float multiplier);
 ```
 
 ```
-multiplier = brightness of head lights.  
-this value isn't capped afaik.  
+The multiplier has no limit.
+
 multiplier = 0.0 no lights  
 multiplier = 1.0 default game value  
 ```
 
 ## Parameters
-* **vehicle**: 
-* **multiplier**: 
+* **vehicle**: The vehicle handle.
+* **multiplier**: The multiplier applied to the vehicle's headlights
 
