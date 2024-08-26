@@ -15,26 +15,39 @@ Sets the IK target for a given IK part belonging to the ped.
 ```c
 enum eIkPart {
   IK_PART_INVALID = 0,
-  IK_PART_HEAD = 1, // head
-  IK_PART_SPINE = 2, // spine
-  IK_PART_ARM_LEFT = 3, // Left Arm
-  IK_PART_ARM_RIGHT = 4, // Right Arm
-  IK_PART_LEG_LEFT = 5, // Left Leg
-  IK_PART_LEG_RIGHT = 6 // Right Leg
+  // head
+  IK_PART_HEAD = 1,
+  // spine
+  IK_PART_SPINE = 2,
+  // Left Arm
+  IK_PART_ARM_LEFT = 3,
+  // Right Arm
+  IK_PART_ARM_RIGHT = 4,
+  // Left Leg
+  IK_PART_LEG_LEFT = 5,
+  // Right Leg
+  IK_PART_LEG_RIGHT = 6
 };
 
 ```
 
 ```c
 enum eIkTargetFlags {
-	ITF_DEFAULT = 0,
-	ITF_ARM_TARGET_WRT_HANDBONE	= 1, // arm target relative to the handbone
-	ITF_ARM_TARGET_WRT_POINTHELPER = 2, // arm target relative to the pointhelper
-	ITF_ARM_TARGET_WRT_IKHELPER	= 4, // arm target relative to the ikhelper
-	ITF_IK_TAG_MODE_NORMAL = 8, // use animation tags directly
-	ITF_IK_TAG_MODE_ALLOW	= 16, // use animation tags in ALLOW mode
-	ITF_IK_TAG_MODE_BLOCK	= 32, // use animation tags in BLOCK mode
-	ITF_ARM_USE_ORIENTATION	= 64 // solve for orientation in addition to position
+  ITF_DEFAULT = 0,
+  // arm target relative to the handbone
+  ITF_ARM_TARGET_WRT_HANDBON = 1,
+  // arm target relative to the pointhelper
+  ITF_ARM_TARGET_WRT_POINTHELPER = 2,
+  // arm target relative to the ikhelper
+  ITF_ARM_TARGET_WRT_IKHELPE = 4,
+  // use animation tags directly
+  ITF_IK_TAG_MODE_NORMAL = 8,
+  // use animation tags in ALLOW mode
+  ITF_IK_TAG_MODE_ALLOW = 16,
+  // use animation tags in BLOCK mode
+  ITF_IK_TAG_MODE_BLOCK = 32,
+  // solve for orientation in addition to position
+  ITF_ARM_USE_ORIENTATION = 64
 };
 
 ```
@@ -55,12 +68,10 @@ NativeDB Introduced: v323
 * **blendInDuration**: Animation blending in (in ms). `-1` by default.
 * **blendOutDuration**: Animation blending out (in ms). `-1` by default.
 
-
-
 ## Examples
 ```lua
 -- Points the right arm to -1849.0, -1231.0, 13.0 for 10 seconds
-SetIkTarget(PlayerPedId(), 4, 0, 0, -1849.0, -1231.0, 13.0, 0, 0, 10000) 
+SetIkTarget(PlayerPedId(), 4, 0, 0, -1849.0, -1231.0, 13.0, 0, 0, 10000)
 ```
 ```js
 // Points the right arm to -1849.0, -1231.0, 13.0 for 10 seconds

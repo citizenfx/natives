@@ -27,14 +27,22 @@ Returned struct properties:
 ```c
 struct sTattooShopItemValues
 {
-	int LockHash; // Lock hash, used with IS_CONTENT_ITEM_LOCKED
-	int Index; // Unique ID of this slot. It can also be 0.
-	int CollectionHash; // Collection hash of this tattoo
-	int PresetHash; // Preset hash of this tattoo
-	int Cost; // Cost of this tattoo in shops.
-	int eFacing; // Secondary placement of this tattoo.
-	int UpdateGroup; // Location of this tattoo on the body (for example, for torso there would be chest upper, stomach, etc)
-	const char* NameTextLabel; // This tattoo's name in the form of a text label.
+	// Lock hash, used with IS_CONTENT_ITEM_LOCKED
+	int LockHash;
+	// Unique ID of this slot. It can also be 0.
+	int Index;
+	// Collection hash of this tattoo
+	int CollectionHash;
+	// Preset hash of this tattoo
+	int PresetHash;
+	// Cost of this tattoo in shops.
+	int Cost;
+	// Secondary placement of this tattoo.
+	int eFacing;
+	// Location of this tattoo on the body (for example, for torso there would be chest upper, stomach, etc)
+	int UpdateGroup;
+	// This tattoo's name in the form of a text label.
+	const char* NameTextLabel;
 };
 ```
 
@@ -48,17 +56,6 @@ struct sTattooShopItemValues
 A bool indicating that the tattoo data exists in the files.
 
 ## Examples
-```js
-var characterType = 4; // MPFemale.
-var tattooIndex = 0; // Value between 0 and GetNumDecorations(characterType).
-
-var structArray = new Uint32Array(new ArrayBuffer(10 * 8));
-
-if (Citizen.invokeNative("0xFF56381874F82086", characterType, tattooIndex, structArray))
-{
-    Console.Log(JSON.stringify(structArray));
-}
-```
 ```lua
 local function TattooBlobToTable(blob)
     local LockHash = string.unpack('<i4', blob, 1) & 0xFFFFFFFF -- uint (hash)
@@ -85,7 +82,7 @@ end
 function GetTattooDlcItemDataTable(CharacterType, DecorationIndex)
 	local blob = string.rep('\0\0\0\0\0\0\0\0', 7+16)
 	if not Citizen.InvokeNative(0xFF56381874F82086, CharacterType, DecorationIndex, blob) then return nil end -- Data doesn't exist, return a nil
-	
+
 	return TattooBlobToTable(blob) -- Return the data table
 end
 
@@ -94,5 +91,15 @@ for i = 0, numberOfTattoos - 1 do
 	local tattooData = GetTattooDlcItemDataTable(3, i)
 	-- Do stuff with your tattoo data
 end
+```
+```js
+const characterType = 4; // MPFemale.
+const tattooIndex = 0; // Value between 0 and GetNumDecorations(characterType).
 
+const structArray = new Uint32Array(new ArrayBuffer(10 * 8));
+
+if (Citizen.invokeNative("0xFF56381874F82086", characterType, tattooIndex, structArray))
+{
+    console.log(JSON.stringify(structArray));
+}
 ```

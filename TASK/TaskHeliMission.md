@@ -60,10 +60,12 @@ local heli_model = `akula`
 RequestModel(heli_model)
 repeat Wait(0) until HasModelLoaded(heli_model)
 
-local ped = PlayerPedId() -- Player needs to be outside for this to work
+-- Player needs to be outside for this to work
+local ped = PlayerPedId()
 local coords = GetEntityCoords(ped) + GetEntityForwardVector(ped) * 100.0
 local heli = CreateVehicle(heli_model, coords.x, coords.y, coords.z + 50.0, GetEntityHeading(ped) - 180.0, true, false)
-SetModelAsNoLongerNeeded(heli_model) -- Allow the game engine to clear the model from memory
+-- Allow the game engine to clear the model from memory
+SetModelAsNoLongerNeeded(heli_model)
 SetHeliBladesFullSpeed(heli)
 
 local ped_model = `a_m_m_skater_01`
@@ -71,7 +73,8 @@ RequestModel(ped_model)
 repeat Wait(0) until HasModelLoaded(ped_model)
 
 local pilot = CreatePedInsideVehicle(heli, 0, ped_model, -1, true, false)
-SetModelAsNoLongerNeeded(ped_model) -- Allow the game engine to clear the model from memory
+-- Allow the game engine to clear the model from memory
+SetModelAsNoLongerNeeded(ped_model)
 
 TaskHeliMission(pilot, heli, 0, 0, coords.x, coords.y, coords.z, 19, 10.0, -1.0, -1.0, -1.0, -1.0, -1.0, 96)
 -- Mission Type: Land | Mission Flags: LandOnArrival | DontDoAvoidance

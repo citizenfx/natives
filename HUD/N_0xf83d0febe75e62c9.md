@@ -30,7 +30,7 @@ radians = degrees * pi / 180
 * **blip**: A blip from an entity. The entity can not be a ped. The width and length will not change if it is a ped.
 * **p1**: -1.0 in decompiled scripts (unk)
 * **p2**: 1.0 in decompiled scripts (unk)
-* **width**: Width of the cone (0.0 to ~3.0) 
+* **width**: Width of the cone (0.0 to ~3.0)
 * **p4**: 1.0 in decompiled scripts (unk)
 * **length**: Length of the cone. (8.2 is 'normal' sized)
 * **heading**: This heading is in radians, this can be calculated with (heading + 180.00) * (pi/180)
@@ -39,8 +39,9 @@ radians = degrees * pi / 180
 ## Examples
 
 ```lua
-blip = AddBlipForEntity(--[[entity]])
--- ...
-Citizen.InvokeNative(0xf83d0febe75e62c9, blip, -1.0, 1.0, 0.36, 1.0, 8.2, (0.5 * math.pi), 0, 11)
+local ped = PlayerPedId()
+local blip = AddBlipForEntity(ped)
+
+Citizen.InvokeNative(0xF83D0FEBE75E62C9, blip, -1.0, 1.0, 0.36, 1.0, 8.2, (0.5 * math.pi), 0, 11)
 SetBlipShowCone(blip, true, 11)
 ```
