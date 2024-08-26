@@ -39,3 +39,4 @@ Citizen.InvokeNative(0x1F4ED342ACEFE62D, playerPed, false, true)
 while NetworkIsEntityFading(playerPed) do
   Wait(0)
 end
+```
