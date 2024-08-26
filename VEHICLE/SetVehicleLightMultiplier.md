@@ -8,7 +8,6 @@ ns: VEHICLE
 void SET_VEHICLE_LIGHT_MULTIPLIER(Vehicle vehicle, float multiplier);
 ```
 
-```
 This multiplier has no limit, by default the game has this set to `1.0`.
 
 ## Parameters
