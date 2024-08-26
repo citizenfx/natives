@@ -9,11 +9,7 @@ void SET_VEHICLE_LIGHT_MULTIPLIER(Vehicle vehicle, float multiplier);
 ```
 
 ```
-The multiplier has no limit.
-
-multiplier = 0.0 no lights  
-multiplier = 1.0 default game value  
-```
+This multiplier has no limit, by default the game has this set to `1.0`.
 
 ## Parameters
 * **vehicle**: The vehicle handle.
