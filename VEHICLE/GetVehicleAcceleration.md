@@ -67,10 +67,10 @@ console.log(`Vehicle Acceleration: ${acceleration}`);
 using static CitizenFX.Core.Native.API;
 
 // Retrieve the player ped.
-Ped playerPed = PlayerPedId();
+int playerPed = PlayerPedId();
 
 // Retrieve the vehicle the player is currently in.
-Vehicle vehicle = GetVehiclePedIsIn(playerPed, false);
+int vehicle = GetVehiclePedIsIn(playerPed, false);
 
 // If the vehicle does not exist, end the execution of the code here.
 if (!DoesEntityExist(vehicle)) {
@@ -78,7 +78,7 @@ if (!DoesEntityExist(vehicle)) {
 }
 
 // Retrieve the acceleration of the vehicle.
-const float acceleration = GetVehicleAcceleration(vehicle);
+float acceleration = GetVehicleAcceleration(vehicle);
 
 // Print the acceleration of the vehicle.
 Debug.WriteLine($"Vehicle Acceleration: {acceleration}");

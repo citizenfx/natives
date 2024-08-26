@@ -77,10 +77,10 @@ using static CitizenFX.Core.Native.API;
 // This example detaches a specific entity from a Cargobob.
 
 // Retrieve the player ped.
-Ped playerPed = PlayerPedId();
+int playerPed = PlayerPedId();
 
 // Retrieve the player's vehicle.
-Vehicle cargobob = GetVehiclePedIsIn(playerPed, false);
+int cargobob = GetVehiclePedIsIn(playerPed, false);
 
 // Retrieve the model hash of the cargobob.
 uint cargobobModel = (uint)GetEntityModel(cargobob);

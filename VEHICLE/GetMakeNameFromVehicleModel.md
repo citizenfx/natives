@@ -75,10 +75,10 @@ console.log(`Vehicle Manufacturer: ${manufacturer}`);
 using static CitizenFX.Core.Native.API;
 
 // Retrieve the player ped.
-Ped playerPed = PlayerPedId();
+int playerPed = PlayerPedId();
 
 // Retrieve the vehicle the player is currently in.
-Vehicle vehicle = GetVehiclePedIsIn(playerPed, false);
+int vehicle = GetVehiclePedIsIn(playerPed, false);
 
 // If the vehicle does not exist, end the execution of the code here.
 if (!DoesEntityExist(vehicle)) {

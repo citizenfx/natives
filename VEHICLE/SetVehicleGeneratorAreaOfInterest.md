@@ -51,7 +51,7 @@ SetVehicleGeneratorAreaOfInterest(coords.x, coords.y, coords.z, 100.0);
 using static CitizenFX.Core.Native.API;
 
 // Retrieve the player ped
-Ped playerPed = PlayerPedId();
+int playerPed = PlayerPedId();
 
 // Retrieve the coordinates of the player.
 Vector3 coords = GetEntityCoords(playerPed, false);

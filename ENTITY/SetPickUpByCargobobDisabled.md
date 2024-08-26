@@ -63,10 +63,10 @@ SetPickUpByCargobobDisabled(vehicle, true);
 using static CitizenFX.Core.Native.API;
 
 // Retrieve the player ped.
-Ped playerPed = PlayerPedId();
+int playerPed = PlayerPedId();
 
 // Retrieve the player's vehicle.
-Vehicle vehicle = GetVehiclePedIsIn(playerPed, false);
+int vehicle = GetVehiclePedIsIn(playerPed, false);
 
 // Check if the vehicle exists in the game world.
 if (!DoesEntityExist(vehicle)) {

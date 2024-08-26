@@ -72,21 +72,21 @@ RegisterCommand("unlockcar", () => {
 }, false);
 ```
 
-```csharp
+```cs
 using static CitizenFX.Core.Native.API;
 
 // Command to lock the car of the player for everyone.
 RegisterCommand("lockcar", () => {
-    Ped playerPed = PlayerPedId(); // Get the player ped
-    Vehicle vehicle = GetVehiclePedIsIn(playerPed, false); // Get the vehicle the player is in
+    int playerPed = PlayerPedId(); // Get the player ped
+    int vehicle = GetVehiclePedIsIn(playerPed, false); // Get the vehicle the player is in
     if (vehicle == 0) return; // If the player is not in a vehicle, return
     SetVehicleDoorsLocked(vehicle, 2); // Lock the doors of the vehicle
 }, false);
 
 // Command to unlock the car of the player for everyone.
 RegisterCommand("unlockcar", () => {
-    Ped playerPed = PlayerPedId(); // Get the player ped
-    Vehicle vehicle = GetVehiclePedIsIn(playerPed, false); // Get the vehicle the player is in
+    int playerPed = PlayerPedId(); // Get the player ped
+    int vehicle = GetVehiclePedIsIn(playerPed, false); // Get the vehicle the player is in
     if (vehicle == 0) return; // If the player is not in a vehicle, return
     SetVehicleDoorsLocked(vehicle, 1); // Unlock the doors of the vehicle
 }, false);

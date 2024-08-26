@@ -68,10 +68,10 @@ console.log(`Estimated Max Speed: ${estimatedMaxSpeed}`);
 using static CitizenFX.Core.Native.API;
 
 // Retrieve the player ped.
-Ped playerPed = PlayerPedId();
+int playerPed = PlayerPedId();
 
 // Retrieve the vehicle the player is currently in.
-Vehicle vehicle = GetVehiclePedIsIn(playerPed, false);
+int vehicle = GetVehiclePedIsIn(playerPed, false);
 
 // If the vehicle does not exist, end the execution of the code here.
 if (!DoesEntityExist(vehicle)) {
@@ -79,7 +79,7 @@ if (!DoesEntityExist(vehicle)) {
 }
 
 // Retrieve the estimated max speed of the vehicle.
-const float estimatedMaxSpeed = GetVehicleEstimatedMaxSpeed(vehicle);
+float estimatedMaxSpeed = GetVehicleEstimatedMaxSpeed(vehicle);
 
 // Print the estimated max speed of the vehicle.
 Debug.WriteLine($"Estimated Max Speed: {estimatedMaxSpeed}");

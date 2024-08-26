@@ -36,7 +36,7 @@ if IsNitrousActive(vehicle) then
 end
 ```
 
-```javascript
+```js
 // Retrieve the player ped.
 const playerPed = PlayerPedId();
 
@@ -53,7 +53,7 @@ if (IsNitrousActive(vehicle)) {
 }
 ```
 
-```csharp
+```cs
 using static CitizenFX.Core.Native.API;
 
 // Retrieve the player ped

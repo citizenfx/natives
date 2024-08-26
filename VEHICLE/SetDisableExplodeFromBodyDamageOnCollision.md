@@ -33,7 +33,7 @@ local vehicle = GetVehiclePedIsIn(playerPed, false)
 SetDisableExplodeFromBodyDamageOnCollision(vehicle, true)
 ```
 
-```javascript
+```js
 // Retrieve the player ped
 const playerPed = PlayerPedId();
 
@@ -44,14 +44,14 @@ const vehicle = GetVehiclePedIsIn(playerPed, false);
 SetDisableExplodeFromBodyDamageOnCollision(vehicle, true);
 ```
 
-```csharp
+```cs
 using static CitizenFX.Core.Native.API;
 
 // Retrieve the player ped
-Ped playerPed = PlayerPedId();
+int playerPed = PlayerPedId();
 
 // Retrieve the vehicle the player is currently in
-Vehicle vehicle = GetVehiclePedIsIn(playerPed, false);
+int vehicle = GetVehiclePedIsIn(playerPed, false);
 
 // Disable explosion from body damage on collision for the vehicle
 SetDisableExplodeFromBodyDamageOnCollision(vehicle, true);

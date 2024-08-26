@@ -65,10 +65,10 @@ SetTransformRateForAnimation(vehicle, 2.5);
 using static CitizenFX.Core.Native.API;
 
 // Retrieve the player ped
-Ped playerPed = PlayerPedId();
+int playerPed = PlayerPedId();
 
 // Retrieve the vehicle in which the player is currently seated
-Vehicle vehicle = GetVehiclePedIsIn(playerPed, false); // Get the vehicle in which the player is currently seated
+int vehicle = GetVehiclePedIsIn(playerPed, false); // Get the vehicle in which the player is currently seated
 
 // Retrieve the vehicle model hash
 uint vehicleHash = (uint)GetEntityModel(vehicle);

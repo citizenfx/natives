@@ -43,6 +43,6 @@ float dist = GetDistanceBetweenCoords(0f, 0f, 0f, 5f, 5f, 5f, true)
 Vector3 firstVec = new Vector3(0f, 0f, 0f);
 Vector3 secondVec = new Vector3(5f, 5f, 5f);
 
-float dist = firstVec.DistanceToSquared(secondVec); -- Use Z
-float dist = firstVec.DistanceToSquared2D(secondVec); -- Do not use Z
+float dist = firstVec.DistanceToSquared(secondVec); // Use Z
+float dist = firstVec.DistanceToSquared2D(secondVec); // Do not use Z
 ```
