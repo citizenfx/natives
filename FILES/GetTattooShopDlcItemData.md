@@ -100,6 +100,6 @@ const structArray = new Uint32Array(new ArrayBuffer(10 * 8));
 
 if (Citizen.invokeNative("0xFF56381874F82086", characterType, tattooIndex, structArray))
 {
-    console.Log(JSON.stringify(structArray));
+    console.log(JSON.stringify(structArray));
 }
 ```
