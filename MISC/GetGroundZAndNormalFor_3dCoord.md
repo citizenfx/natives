@@ -50,7 +50,7 @@ if (success) {
 }
 ```
 
-```csharp
+```cs
 using static CitizenFX.Core.Native.API;
 
 float x = 100.0f, y = -200.0f, z = 50.0f;

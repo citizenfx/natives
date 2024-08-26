@@ -36,7 +36,7 @@ if vehicle == 0 then return end
 print(IsNitrousActive(vehicle))
 ```
 
-```javascript
+```js
 // Retrieve the player ped
 const playerPed = PlayerPedId();
 

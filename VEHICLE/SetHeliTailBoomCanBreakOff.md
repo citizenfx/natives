@@ -27,14 +27,14 @@ if heli == 0 or GetVehicleType(heli) ~= "heli" then return end
 SetHeliTailBoomCanBreakOff(heli, true)
 ```
 
-```javascript
+```js
 const heli = GetVehiclePedIsIn(PlayerPedId(), false);
 if (heli === 0 || GetVehicleType(heli) !== "heli") return;
 
 SetHeliTailBoomCanBreakOff(heli, true);
 ```
 
-```csharp
+```cs
 using static CitizenFX.Core.Native.API;
 
 int heli = GetVehiclePedIsIn(PlayerPedId(), false);

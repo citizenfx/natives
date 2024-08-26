@@ -25,7 +25,7 @@ SetEntityAlpha(PlayerPedId(), 51, false)
 SetEntityAlpha(PlayerPedId(), 51, false);
 ```
 
-```csharp
+```cs
 using static CitizenFX.Core.Native.API;
 // ...
 

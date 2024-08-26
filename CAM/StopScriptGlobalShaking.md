@@ -31,7 +31,7 @@ if (IsScriptGlobalShaking()) {
     StopScriptGlobalShaking(false);
 }
 ```
-```csharp
+```cs
 using static CitizenFX.Core.Native.API;
 
 // Stops the currently active global camera shake with a gradual fade out

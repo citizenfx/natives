@@ -36,7 +36,7 @@ SetOverrideNitrousLevel(vehicle, true, 1.5, 2.0, 0.5, false)
 FullyChargeNitrous(vehicle)
 ```
 
-```javascript
+```js
 // Retrieve the player ped
 const playerPed = PlayerPedId();
 
@@ -53,7 +53,7 @@ SetOverrideNitrousLevel(vehicle, true, 1.5, 2.0, 0.5, false);
 FullyChargeNitrous(vehicle);
 ```
 
-```csharp
+```cs
 using static CitizenFX.Core.Native.API;
 
 // Retrieve the player ped

@@ -25,8 +25,6 @@ AddTextEntry('HelpMsg', 'Press ~INPUT_CONTEXT~ to do something.')
 BeginTextCommandDisplayHelp('HelpMsg')
 EndTextCommandDisplayHelp(0, false, true, -1)
 
-
-
 -- Shows a floating help text which uses FLOATING_HELP_TEXT_1 hud component.
 AddTextEntry('FloatingHelpText', 'Press E to show respect.')
 SetFloatingHelpTextWorldPosition(0, vector3(100, 100, 100))

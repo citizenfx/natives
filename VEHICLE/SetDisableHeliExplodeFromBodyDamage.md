@@ -34,7 +34,7 @@ if (helicopter == 0) or (not IsThisModelAHeli(GetEntityModel(helicopter))) then 
 SetDisableHeliExplodeFromBodyDamage(helicopter, true)
 ```
 
-```javascript
+```js
 // Retrieve the player ped.
 const playerPed = PlayerPedId();
 
@@ -48,7 +48,7 @@ if (helicopter === 0 || !IsThisModelAHeli(GetEntityModel(helicopter))) return;
 SetDisableHeliExplodeFromBodyDamage(helicopter, true);
 ```
 
-```csharp
+```cs
 using static CitizenFX.Core.Native.API;
 
 // Retrieve the player ped.
