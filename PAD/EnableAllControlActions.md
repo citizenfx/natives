@@ -8,13 +8,13 @@ ns: PAD
 void ENABLE_ALL_CONTROL_ACTIONS(int padIndex);
 ```
 
-```
-padIndex: 
-0 - PLAYER_CONTROL
-1 - Unknown 
-2 - FRONTEND_CONTROL
+```c
+enum ePadType {
+  PLAYER_CONTROL = 0,
+  CAMERA_CONTROL,
+  FRONTEND_CONTROL
+};
 ```
 
 ## Parameters
 * **padIndex**: The control system instance to use.
-
