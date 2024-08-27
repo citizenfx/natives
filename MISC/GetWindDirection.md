@@ -53,5 +53,27 @@ setTick(() => {
 ```
 
 ```cs
-// TODO
+using static CitizenFX.Core.Native.API;
+// ...
+
+public Main() 
+{
+    Tick += OnTick;
+}
+
+private async Task OnTick()
+{
+    Vector3 windDirection = GetWindDirection();
+
+    // Gets the wind direction in degrees (Math.Atan2 converts the inverse tangent into radians and then we coverte the radians to degrees)
+    var degrees = Math.Atan2(windDirection.X, windDirection.Y) * (180 / Math.PI);
+    Debug.WriteLine($"wind direction in degrees: {degrees}");
+
+    // Draws an airplane marker above the player's head to show the wind direction
+    Vector3 playerCoords = Game.PlayerPed.Position;
+    DrawMarker(7, playerCoords.X, playerCoords.Y, playerCoords.Z + 1f, windDirection.X, windDirection.Y, 0f, 0f, 0f, 0f, 2f, 2f, 2f, 255, 128, 0, 50, false, false, 2, false, null, null, false);
+
+    // Get world heading from the direction
+    Debug.WriteLine($"wind direction in world heading: {GetHeadingFromVector_2d(windDirection.X, windDirection.Y)}");
+}
 ```

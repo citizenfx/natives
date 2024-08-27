@@ -65,5 +65,18 @@ for (let i = 0; i < beaufortScale.length; i++) {
 ```
 
 ```cs
-// TODO
+using static CitizenFX.Core.Native.API;
+// ...
+
+float[] beaufortScale = { 0.2f, 1.5f, 3.3f, 5.4f, 7.9f, 10.7f, 13.8f, 17.1f, 20.7f, 24.4f, 28.4f, 32.6f, 32.7f };
+var windSpeed = GetWindSpeed();
+
+for (int i = 0; i < beaufortScale.Length; i++)
+{
+    if (windSpeed <= beaufortScale[i] || i == 12)
+    {
+        Debug.WriteLine($"The current wind speed ({windSpeed} m/s) the equivalent to Beaufort number {i} on the Beaufort scale");
+        break;
+    }
+}
 ```
