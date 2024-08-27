@@ -39,13 +39,12 @@ end)
 setTick(() => {
     const [windDirectionX, windDirectionY, _windDirectionZ] = GetWindDirection();
 
-    // Gets the wind direction in degrees (Math.atan converts the inverse tangent into radians and then we coverte the radians to degrees)
-    const degrees = Math.atan(windDirectionX, windDirectionY) / (Math.PI / 180);
+    // Gets the wind direction in degrees (Math.atan2 converts the inverse tangent into radians and then we coverte the radians to degrees)
+    const degrees = Math.atan2(windDirectionX, windDirectionY) * (180 / Math.PI);
     console.log(`wind direction in degrees: ${degrees}`);
 
     // Draws an airplane marker above the player's head to show the wind direction
     const [playerX, playerY, playerZ] = GetEntityCoords(PlayerPedId());
-
     DrawMarker(7, playerX, playerY, playerZ + 1.0, windDirectionX, windDirectionY, 0.0, 0.0, 0.0, 0.0, 2.0, 2.0, 2.0, 255, 128, 0, 50, false, false, 2, false, null, null, false);
 
     // Get world heading from the direction
