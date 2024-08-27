@@ -68,7 +68,7 @@ const playerPed = PlayerPedId();
 SetPedPhonePaletteIdx(playerPed, PhoneColors.Green);
 ```
 
-```csharp
+```cs
 using static CitizenFX.Core.Native.API;
 
 // Define an enum with color names and their corresponding indices
@@ -84,7 +84,7 @@ public enum PhoneColors
 }
 
 // Retrieve the current player ped
-Ped playerPed = PlayerPedId();
+int playerPed = PlayerPedId();
 
 // Set the phone color of the player's ped to Green using the enum value
 SetPedPhonePaletteIdx(playerPed, (int)PhoneColors.Green);

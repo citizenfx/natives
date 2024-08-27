@@ -75,10 +75,10 @@ console.log(`Boat Agility: ${agility}`);
 using static CitizenFX.Core.Native.API;
 
 // Retrieve the player ped.
-Ped playerPed = PlayerPedId();
+int playerPed = PlayerPedId();
 
 // Retrieve the vehicle the player is currently in.
-Vehicle vehicle = GetVehiclePedIsIn(playerPed, false);
+int vehicle = GetVehiclePedIsIn(playerPed, false);
 
 // Retrieve the model hash of the boat.
 uint boatHash = GetEntityModel(vehicle);
@@ -89,7 +89,7 @@ if (!DoesEntityExist(vehicle) || !IsThisModelABoat(boatHash)) {
 }
 
 // Retrieve the agility of the boat.
-const float agility = GetBoatVehicleModelAgility(boatHash);
+float agility = GetBoatVehicleModelAgility(boatHash);
 
 // Print the agility of the boat.
 Debug.WriteLine($"Boat Agility: {agility}");

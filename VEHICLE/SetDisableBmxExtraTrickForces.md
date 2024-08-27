@@ -33,7 +33,7 @@ if not IsThisModelABicycle(GetEntityModel(bmx)) then return end
 SetDisableBmxExtraTrickForces(bmx, true)
 ```
 
-```javascript
+```js
 // Retrieve the player ped
 const playerPed = PlayerPedId();
 
@@ -47,14 +47,14 @@ if (!IsThisModelABicycle(GetEntityModel(bmx))) return;
 SetDisableBmxExtraTrickForces(bmx, true);
 ```
 
-```csharp
+```cs
 using static CitizenFX.Core.Native.API;
 
 // Retrieve the player ped
-Ped playerPed = PlayerPedId();
+int playerPed = PlayerPedId();
 
 // Retrieve the BMX bike the player is currently riding
-Vehicle bmx = GetVehiclePedIsIn(playerPed, false);
+int bmx = GetVehiclePedIsIn(playerPed, false);
 
 // If the player is not riding a BMX bike, return
 if (!IsThisModelABicycle(GetEntityModel(bmx))) return;

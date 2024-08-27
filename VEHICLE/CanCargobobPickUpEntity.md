@@ -89,16 +89,16 @@ if (CanCargobobPickUpEntity(vehicle, entityID)) {
 using static CitizenFX.Core.Native.API;
 
 // Retrieve the player ped.
-Ped playerPed = PlayerPedId();
+int playerPed = PlayerPedId();
 
 // Retrieve the player's vehicle (cargobob).
-Vehicle cargobob = GetVehiclePedIsIn(playerPed, false);
+int cargobob = GetVehiclePedIsIn(playerPed, false);
 
 // Retrieve the model hash of the cargobob.
 uint model = GetEntityModel(cargobob);
 
 // Check if the vehicle exists and if it's a Cargobob. If not, terminate the script.
-if (!DoesEntityExist(cargobob) || (uint)GetHashKey("cargobob") != model) {
+if (!DoesEntityExist(cargobob) || model != (uint)GetHashKey("cargobob")) {
     return;
 }
 
