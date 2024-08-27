@@ -39,23 +39,9 @@ end
 ```
 
 ```js
-const beaufortScale = [
-    0.2,
-    1.5,
-    3.3,
-    5.4,
-    7.9,
-    10.7,
-    13.8,
-    17.1,
-    20.7,
-    24.4,
-    28.4,
-    32.6,
-    32.7
-];
-
+const beaufortScale = [ 0.2, 1.5, 3.3, 5.4, 7.9, 10.7, 13.8, 17.1, 20.7, 24.4, 28.4, 32.6, 32.7 ];
 const windSpeed = GetWindSpeed();
+
 for (let i = 0; i < beaufortScale.length; i++) {
     if (windSpeed <= beaufortScale[i] || i == 12) {
         console.log(`The current wind speed (${windSpeed.toFixed(2)} m/s) is the equivalent to Beaufort number ${i} on the Beaufort scale`);
