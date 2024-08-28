@@ -34,7 +34,7 @@ if vehicle == 0 then return end
 SetVehicleUseHornButtonForNitrous(vehicle, true)
 ```
 
-```javascript
+```js
 // Retrieve the player ped
 const playerPed = PlayerPedId();
 
@@ -48,7 +48,7 @@ if (vehicle == 0) return;
 SetVehicleUseHornButtonForNitrous(vehicle, true);
 ```
 
-```csharp
+```cs
 using static CitizenFX.Core.Native.API;
 
 // Retrieve the player ped

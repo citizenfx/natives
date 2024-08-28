@@ -22,7 +22,7 @@ if stateSwitch == 5 then
 end
 ```
 
-```javascript
+```js
 const stateSwitch = GetPlayerSwitchState();
 if (stateSwitch == 5) {
     // Player is in the air
@@ -31,7 +31,7 @@ if (stateSwitch == 5) {
 }
 ```
 
-```csharp
+```cs
 using static CitizenFX.Core.Native.API;
 
 int stateSwitch = GetPlayerSwitchState();

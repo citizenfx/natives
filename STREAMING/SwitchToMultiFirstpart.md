@@ -38,7 +38,7 @@ if (!IsPlayerSwitchInProgress()) {
 }
 ```
 
-```csharp
+```cs
 using static CitizenFX.Core.Native.API;
 
 // Check if the player is in a Switch "state"

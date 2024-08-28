@@ -27,7 +27,7 @@ print(IsScriptGlobalShaking())
 // Print whether a global camera shake is currently active
 console.log(IsScriptGlobalShaking());
 ```
-```csharp
+```cs
 using static CitizenFX.Core.Native.API;
 
 // Print whether a global camera shake is currently active

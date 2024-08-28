@@ -15,16 +15,16 @@ Example output preview:
 ![](https://i.imgur.com/TJvqkYq.png)
 
 
-## Examples
-```lua
-BeginTextCommandThefeedPost("STRING")
-AddTextComponentSubstringPlayerName("Hello " .. GetPlayerName(PlayerId()) .. ".")
-EndTextCommandThefeedPostTicker(true, true)
-```
-
 ## Parameters
 * **isImportant**: Makes the notification flash on the screen.
 * **bHasTokens**: Makes the notification appear in the "Pause Menu > Info/Brief > Notifications" section.
 
 ## Return value
 The notification handle.
+
+## Examples
+```lua
+BeginTextCommandThefeedPost("STRING")
+AddTextComponentSubstringPlayerName("Hello " .. GetPlayerName(PlayerId()) .. ".")
+EndTextCommandThefeedPostTicker(true, true)
+```

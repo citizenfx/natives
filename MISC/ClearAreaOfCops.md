@@ -10,12 +10,6 @@ void CLEAR_AREA_OF_COPS(float x, float y, float z, float radius, cs_type(int) BO
 
 Clears an area of cops at the given coordinates and radius.
 
-## Examples
-```lua
--- Clear the area, do also create an event
-ClearAreaOfCops(0.0, 0.0, 0.0, 10000.0, true)
-```
-
 ## Parameters
 * **x**: The x coordinate of where to clear cops.
 * **y**: The y coordinate of where to clear cops.
@@ -23,3 +17,8 @@ ClearAreaOfCops(0.0, 0.0, 0.0, 10000.0, true)
 * **radius**: The area radius to clear cops.
 * **createNetEvent**: specifies whether a `CClearAreaEvent` event of should be created for online use.
 
+## Examples
+```lua
+-- Clear the area, do also create an event
+ClearAreaOfCops(0.0, 0.0, 0.0, 10000.0, true)
+```

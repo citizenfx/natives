@@ -12,12 +12,11 @@ Sets whether the player is able to do drive-bys in vehicle (shooting & aiming in
 
 This is a toggle, it does not have to be ran every frame.
 
-Example:
-```lua
-SetPlayerCanDoDriveBy(PlayerId(), false)
-```
-
 ## Parameters
 * **player**: The player to target.
 * **toggle**: If set to false, disables the players ability to do drive bys.
 
+## Example
+```lua
+SetPlayerCanDoDriveBy(PlayerId(), false)
+```

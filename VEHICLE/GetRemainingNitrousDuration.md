@@ -40,7 +40,7 @@ CreateThread(function()
 end)
 ```
 
-```javascript
+```js
 setTick(async () => {
     // Retrieve the player ped.
     let playerPed = PlayerPedId();

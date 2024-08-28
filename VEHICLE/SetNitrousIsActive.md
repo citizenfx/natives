@@ -35,7 +35,7 @@ if vehicle == 0 then return end
 SetNitrousIsActive(vehicle, true)
 ```
 
-```javascript
+```js
 // Retrieve the player ped
 const playerPed = PlayerPedId();
 
@@ -49,7 +49,7 @@ if (vehicle == 0) return;
 SetNitrousIsActive(vehicle, true);
 ```
 
-```csharp
+```cs
 using static CitizenFX.Core.Native.API;
 
 // Retrieve the player ped

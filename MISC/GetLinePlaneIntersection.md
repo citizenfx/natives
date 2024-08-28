@@ -82,7 +82,7 @@ if (success) {
 }
 ```
 
-```csharp
+```cs
 using static CitizenFX.Core.Native.API;
 
 // Define the line segment with start and end points

@@ -52,7 +52,7 @@ if (IsEntityAMissionEntity(object)) {
 DeleteObject(object);
 ```
 
-```csharp
+```cs
 using static CitizenFX.Core.Native.API;
 
 int playerPed = PlayerPedId();

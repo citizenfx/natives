@@ -39,7 +39,7 @@ if vehicle == 0 then return end
 SetOverrideNitrousLevel(vehicle, true, 100, 100, 99999999999, false);
 ```
 
-```javascript
+```js
 // Retrieve the player ped
 const playerPed = PlayerPedId();
 
@@ -53,7 +53,7 @@ if (vehicle == 0) return;
 SetOverrideNitrousLevel(vehicle, true, 100, 100, 99999999999, false);
 ```
 
-```csharp
+```cs
 using static CitizenFX.Core.Native.API;
 
 // Retrieve the player ped

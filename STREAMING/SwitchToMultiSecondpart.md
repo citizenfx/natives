@@ -25,7 +25,7 @@ RegisterCommand("switchPlayer", function()
 end, false)
 ```
 
-```javascript
+```js
 RegisterCommand("switchPlayer", () => {
     if (IsPlayerSwitchInProgress()) return;
     const ped = PlayerPedId();
@@ -35,7 +35,7 @@ RegisterCommand("switchPlayer", () => {
 }, false);
 ```
 
-```csharp
+```cs
 using static CitizenFX.Core.Native.API;
 RegisterCommand("switchPlayer", new Action<int, List<object>, string>(async (user, args, raw) =>
 {
