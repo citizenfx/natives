@@ -8,7 +8,7 @@ ns: TASK
 BOOL IS_PED_ACTIVE_IN_SCENARIO(Ped ped);
 ```
 
-This is a stricter version of [`IS_PED_USING_ANY_SCENARIO`](#_0x57AB4A3080F85143)
+This is a stricter version of [`IS_PED_USING_ANY_SCENARIO`](#_0x57AB4A3080F85143). It only returns true if the ped is playing the ambient animations associated with the scenario.
 
 ## Parameters
 * **ped**: The ped handle.
