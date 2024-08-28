@@ -14,3 +14,4 @@ This is a stricter version of [`IS_PED_USING_ANY_SCENARIO`](#_0x57AB4A3080F85143
 * **ped**: The ped handle.
 
 ## Return value
+Returns true if the ped is in a using a scenario and is doing the ambient animations.
