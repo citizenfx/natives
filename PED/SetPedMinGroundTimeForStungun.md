@@ -76,7 +76,7 @@ public Main()
 
 private async Task OnTick()
 {
-    var playerPed = Game.PlayerPed.Handle;
+    int playerPed = PlayerPedId();
 
     // Checks if the player ped has changed
     if (currentPed != playerPed)
