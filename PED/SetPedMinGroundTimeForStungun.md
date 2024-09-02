@@ -44,21 +44,18 @@ end)
 // This sets the minimum stun ground time for the player's ped to 10 seconds (and re-applies it if the player's ped changes)
 
 let currentPed = 0;
-Delay = (ms) => new Promise(res => setTimeout(res, ms));
 
-setTick(async () => {
+setInterval(() => {
     const playerPed = PlayerPedId();
 
     // Checks if the player ped has changed
-    if (currentPed != playerPed) {
+    if (currentPed !== playerPed) {
         currentPed = playerPed;
 
         // Sets the minimum stun ground time to 10 seconds
         SetPedMinGroundTimeForStungun(currentPed, 10000);
     };
-
-    await Delay(1000);
-});
+}, 1000);
 ```
 
 ```cs
