@@ -5,18 +5,18 @@ ns: PED
 
 ```c
 // 0xFA0675AB151073FA 0x2F0D0973
-void SET_PED_MIN_GROUND_TIME_FOR_STUNGUN(Ped ped, int ms);
+void SET_PED_MIN_GROUND_TIME_FOR_STUNGUN(Ped ped, int minTimeInMs);
 ```
 
-Overwrites the minimum time the ped will stay on the ground for after being stunned. Setting this while the ped is stunned will not alter the duration of the current stun (but will still effect future stunns).
+Overwrites the minimum time the ped will stay on the ground for after being stunned. Setting this while the ped is stunned will not alter the duration of the current stun but will still effect future stuns.
 
 Unlike what this native's name suggests, it also effects the time for other "weapons", such as WEAPON_ELECTRIC_FENCE.
 
-Passing a negative value (usually -1) into the second parameter (ms) will reset the ground time back to default (ground time will then depend on the weapon that inflicts the stun).
+Passing -1 into the second parameter `minTimeInMs` will reset the modifier, making it use the weapons original `DamageTime` as the stun duration (see `update/update.rpf/common/data/ai/weapons.meta`)
 
 ## Parameters
 * **ped**: The ped to set the min ground time for
-* **ms**: The minimum time in milliseconds
+* **minTimeInMs**: The minimum time the stun should last in milliseconds.
 
 ## Examples
 ```lua
