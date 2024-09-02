@@ -8,7 +8,6 @@ ns: ENTITY
 BOOL HAS_ENTITY_BEEN_DAMAGED_BY_ENTITY(Entity entity, Entity damager, BOOL bCheckDamagerVehicle);
 ```
 
-Checks if the damager entity has damaged the specified entity.
 
 ## Parameters
 * **entity**: The entity to check.
