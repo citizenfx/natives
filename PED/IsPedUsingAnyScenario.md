@@ -8,8 +8,8 @@ ns: PED
 BOOL IS_PED_USING_ANY_SCENARIO(Ped ped);
 ```
 
-
 ## Parameters
-* **ped**: 
+* **ped**: The ped handle.
 
 ## Return value
+Returns true if the ped is using any scenario.
