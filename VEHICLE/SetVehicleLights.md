@@ -5,22 +5,20 @@ ns: VEHICLE
 
 ```c
 // 0x34E710FF01247C5A 0xE8930226
-void SET_VEHICLE_LIGHTS(Vehicle vehicle, int state);
+void SET_VEHICLE_LIGHTS(Vehicle vehicle, int setting);
 ```
 
-```
-set's if the vehicle has lights or not.  
-not an on off toggle.  
-p1 = 0 ;vehicle normal lights, off then lowbeams, then highbeams  
-p1 = 1 ;vehicle doesn't have lights, always off  
-p1 = 2 ;vehicle has always on lights  
-p1 = 3 ;or even larger like 4,5,... normal lights like =1  
-note1: when using =2 on day it's lowbeam,highbeam  
-but at night it's lowbeam,lowbeam,highbeam  
-note2: when using =0 it's affected by day or night for highbeams don't exist in daytime.  
+```cpp
+enum eVehicleLightSetting {
+    NO_VEHICLE_LIGHT_OVERRIDE = 0,
+    FORCE_VEHICLE_LIGHTS_OFF = 1,
+    FORCE_VEHICLE_LIGHTS_ON = 2,
+    SET_VEHICLE_LIGHTS_ON = 3,
+    SET_VEHICLE_LIGHTS_OFF = 4
+}
 ```
 
 ## Parameters
-* **vehicle**: 
-* **state**: 
+* **vehicle**: The vehicle handle.
+* **setting**: The vehicle light setting.
 

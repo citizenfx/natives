@@ -10,6 +10,8 @@ void _SET_VEHICLE_LIGHTS_MODE(Vehicle vehicle, int p1);
 ```
 
 ```
+Could be SET_VEHICLE_HEADLIGHT_SHADOWS?
+
 p1 can be either 0, 1 or 2.  
 Determines how vehicle lights behave when toggled.  
 0 = Default (Lights can be toggled between off, normal and high beams)  
