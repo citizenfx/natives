@@ -5,7 +5,7 @@ ns: TASK
 
 ```c
 // 0x9B53BB6E8943AF53 0xBE32B3B6
-void TASK_AIM_GUN_AT_ENTITY(Ped ped, Entity entity, int duration, BOOL p3);
+void TASK_AIM_GUN_AT_ENTITY(Ped ped, Entity entity, int duration, BOOL bInstantBlendToAim);
 ```
 
 ```
@@ -16,5 +16,5 @@ duration: the amount of time in milliseconds to do the task.  -1 will keep the t
 * **ped**: 
 * **entity**: 
 * **duration**: 
-* **p3**: 
+* **bInstantBlendToAim**:
 
