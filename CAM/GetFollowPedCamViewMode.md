@@ -10,7 +10,7 @@ int GET_FOLLOW_PED_CAM_VIEW_MODE();
 
 ```c
 // view mode enumeration
-enum _0xA11D7CA8
+enum eCamViewMode 
 {
 	THIRD_PERSON_NEAR = 0,
 	THIRD_PERSON_MEDIUM = 1,

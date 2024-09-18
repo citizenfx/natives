@@ -12,7 +12,7 @@ void SET_AUDIO_SPECIAL_EFFECT_MODE(int mode);
 Needs to be called every frame.
 
 ```c
-enum audSpecialEffectMode
+enum eAudSpecialEffectMode
 {
 	kSpecialEffectModeNormal = 0,
 	kSpecialEffectModeUnderwater = 1,
