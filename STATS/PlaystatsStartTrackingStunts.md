@@ -16,13 +16,13 @@ Event types are shown below:
 ```c
 enum eTrackedStuntType
 {
-    ST_FRONTFLIP,
-    ST_BACKFLIP,
-    ST_SPIN,
-    ST_WHEELIE,
-    ST_STOPPIE,
-    ST_BOWLING_PIN,
-    ST_FOOTBALL,
-    ST_ROLL
+    ST_FRONTFLIP = 0,
+    ST_BACKFLIP = 1,
+    ST_SPIN = 2,
+    ST_WHEELIE = 3,
+    ST_STOPPIE = 4,
+    ST_BOWLING_PIN = 5,
+    ST_FOOTBALL = 6,
+    ST_ROLL = 7
 };
 ```

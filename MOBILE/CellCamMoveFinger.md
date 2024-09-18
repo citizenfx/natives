@@ -14,11 +14,11 @@ Moves the character's finger in a swiping motion when holding a cellphone in the
 ```c
 enum eCellInput {
     CELL_INPUT_NONE = 0,
-    CELL_INPUT_UP,
-    CELL_INPUT_DOWN,
-    CELL_INPUT_LEFT,
-    CELL_INPUT_RIGHT,
-    CELL_INPUT_SELECT
+    CELL_INPUT_UP = 1,
+    CELL_INPUT_DOWN = 2,
+    CELL_INPUT_LEFT = 3,
+    CELL_INPUT_RIGHT = 4,
+    CELL_INPUT_SELECT = 5
 }
 ```
 
