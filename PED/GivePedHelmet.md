@@ -8,7 +8,7 @@ ns: PED
 void GIVE_PED_HELMET(Ped ped, BOOL cannotRemove, int helmetFlag, int textureIndex);
 ```
 
-Gives the ped a helmet. Can be removed by invoking [`REMOVE_PED_HELMET`](#0xA7B2458D0AD6DED8).
+Gives the ped a helmet. Can be removed by invoking [`REMOVE_PED_HELMET`](#_0xA7B2458D0AD6DED8).
 
 ```c
 enum ePedCompFlags {
