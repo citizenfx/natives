@@ -17,7 +17,7 @@ Parameters:
 * brightness - the brightness of the light  
 * roundness - "smoothness" of the circle edge  
 * radius - the radius size of the spotlight  
-* falloff - the falloff size of the light's edge (example: www.i.imgur.com/DemAWeO.jpg)  
+* falloff - the falloff size of the light's edge (example: https://docs.fivem.net/natives/0xD0F64B265C8C8B33.png)  
 Example in C# (spotlight aims at the closest vehicle):  
 Vector3 myPos = Game.Player.Character.Position;  
 Vehicle nearest = World.GetClosestVehicle(myPos , 1000f);  

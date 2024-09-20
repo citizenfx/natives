@@ -18,7 +18,7 @@ You can find the list of colors and ids here: [_GET_VEHICLE_HEADLIGHTS_COLOUR](#
 * **color**: The paint index.
 
 **Result**:
-> ![](https://i.imgur.com/yV3cpG9.png)
+> ![](https://docs.fivem.net/natives/0xE41033B25D003A07.png)
 
 ## Examples
 

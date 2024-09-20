@@ -37,6 +37,6 @@ SetRadarBigmapEnabled(false, false);
 int blip = AddBlipForCoord(-1321.98f, 158.93f, 57.8f);
 SetBlipSprite(blip, 358);
 
-// result of this code example: https://i.imgur.com/DUnUzKS.png
+// result of this code example: https://docs.fivem.net/natives/0x71BDB63DBAF8DA59.png
 ```
 

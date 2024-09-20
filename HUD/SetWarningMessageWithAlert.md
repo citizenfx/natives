@@ -55,7 +55,7 @@ Alt = {
 }
 ```
 
-**Result of the example code:** [https://i.imgur.com/TvmNF4k.png](https://i.imgur.com/TvmNF4k.png)
+**Result of the example code:** [https://docs.fivem.net/natives/0x15803FEC3B9A872B.png](https://docs.fivem.net/natives/0x15803FEC3B9A872B.png)
 
 ## Parameters
 * **labelTitle**: Label of the alert's title. 

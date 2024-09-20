@@ -14,7 +14,7 @@ Only works on bikes, both X and Y work in the -1 - 1 range.
 X forces the bike to turn left or right (-1, 1)
 Y forces the bike to lean to the left or to the right (-1, 1)
 Example with X -1/Y 1
-http://i.imgur.com/TgIuAPJ.jpg
+https://docs.fivem.net/natives/0x9CFA4896C3A53CBB.jpg
 ```
 
 ## Parameters

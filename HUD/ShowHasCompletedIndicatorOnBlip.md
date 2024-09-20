@@ -10,7 +10,7 @@ void _SHOW_HAS_COMPLETED_INDICATOR_ON_BLIP(Blip blip, BOOL toggle);
 ```
 
 ```
-Adds a orange checkmark on top of a given blip handle: https://imgur.com/a/aw5OTMF
+Adds a orange checkmark on top of a given blip handle: https://docs.fivem.net/natives/0xCAC2031EBF79B1A8.png
 _SHOW_FRIEND_INDICATOR_ON_BLIP* - _SHOW_HEADING_INDICATOR_ON_BLIP*
 ```
 

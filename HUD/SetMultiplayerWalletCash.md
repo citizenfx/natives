@@ -11,7 +11,7 @@ void SET_MULTIPLAYER_WALLET_CASH();
 
 Preview image:
 
-![](https://i.imgur.com/1BTmdyv.png)
+![](https://docs.fivem.net/natives/0xDD21B55DF695CD0A.png)
 
 To change money value use [`STAT_SET_INT`](#_0xB3271D7AB655B441) with "MP0_WALLET_BALANCE" to whatever value you need to.
 

@@ -15,9 +15,9 @@ You can clear the disabled zone with CLEAR_GPS_DISABLED_ZONE_AT_INDEX.
 
 **Setting a waypoint at the same coordinate:**
 
-Disabled Zone: [https://i.imgur.com/P9VUuxM.png](https://i.imgur.com/P9VUuxM.png)
+Disabled Zone: [https://docs.fivem.net/natives/0xD0BC1C6FB18EE154_1.png](https://docs.fivem.net/natives/0xD0BC1C6FB18EE154_1.png)
 
-Enabled Zone (normal): [https://i.imgur.com/BPi24aw.png](https://i.imgur.com/BPi24aw.png)
+Enabled Zone (normal): [https://docs.fivem.net/natives/0xD0BC1C6FB18EE154_2.png](https://docs.fivem.net/natives/0xD0BC1C6FB18EE154_2.png)
 
 
 ## Parameters

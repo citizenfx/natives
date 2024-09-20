@@ -23,15 +23,15 @@ Since there's no joaat hash for this, I find `_SET_PED_ILLUMINATED_CLOTHING_GLOW
 Use [`GetPedIlluminatedClothingGlowIntensity`](#_0x1461B28A06717D68) to get the illuminated clothing glow intensity of a specific ped.
 
 Intensity: `1.0`:
-![](https://www.vespura.com/hi/i/2018-11-13_17-03_c2e23_229.png)
+![](https://docs.fivem.net/natives/0x4E90D746056E273D_1.png)
 
 Intensity: `0.0`:
-![](https://www.vespura.com/hi/i/2018-11-13_17-03_35c33_230.png)
+![](https://docs.fivem.net/natives/0x4E90D746056E273D_2.png)
 
 **Examples code result**:
-![](https://www.vespura.com/hi/i/2018-11-13_17-11_10199_232.gif)
+![](https://docs.fivem.net/natives/0x4E90D746056E273D_3.gif)
 
-(Direct link if embed doesn't work: [here](https://www.vespura.com/hi/i/2018-11-13_17-11_10199_232.gif))
+(Direct link if embed doesn't work: [here](https://docs.fivem.net/natives/0x4E90D746056E273D_3.gif))
 
 
 ## Parameters

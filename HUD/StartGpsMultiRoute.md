@@ -17,7 +17,7 @@ Works independently from the player-placed waypoint and blip routes.
 
 **Example result:**
 
-![](https://i.imgur.com/ZZHQatX.png)
+![](https://docs.fivem.net/natives/0x3D3D15AF7BCAAF83.png)
 
 ## Parameters
 * **hudColor**: The HUD color of the GPS path.

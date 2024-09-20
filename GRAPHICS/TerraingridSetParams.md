@@ -13,7 +13,7 @@ This native is used along with these two natives: [`TERRAINGRID_ACTIVATE`](#_0xA
 
 This native configures the location, size, rotation, normal height, and the difference ratio between min, normal and max.
 
-All those natives combined they will output something like this: https://i.imgur.com/TC6cku6.png
+All those natives combined they will output something like this: https://docs.fivem.net/natives/0x1C4FC5752BCD8E48.png
 
 ## Parameters
 * **x**: Grid center x coord.

@@ -14,7 +14,7 @@ rotationOrder refers to the order yaw pitch roll is applied; value ranges from 0
 What you use for rotationOrder when getting must be the same as rotationOrder when setting the rotation.
 
 What it returns is the yaw on the z part of the vector, which makes sense considering R* considers z as vertical. Here's a picture for those of you who don't understand pitch, yaw, and roll:
-www.allstar.fiu.edu/aero/images/pic5-1.gif
+https://docs.fivem.net/natives/0xAFBD61CC738D9EB9.gif
 ```
 
 ### Rotation Orders

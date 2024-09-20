@@ -22,7 +22,7 @@ Any numeric value greater than 4 will result in a right arrow (Index 4)
 ### Important
 Needs to be called every frame
 
-![Preview of the provided example code](https://forum.cfx.re/uploads/default/original/4X/7/f/3/7f319bc93c3a00b8829bd4ac8dddc235fbf3a9ef.png)
+![Preview of the provided example code](https://docs.fivem.net/natives/0x788E7FD431BD67F1.png)
 
 ## Parameters
 * **hudIndex**: The hud index for the floating help message

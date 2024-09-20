@@ -10,7 +10,7 @@ void ADD_TEXT_COMPONENT_FLOAT(float value, int decimalPlaces);
 
 Adds a float to a text component placeholder, replacing `~1~` in the current text command's text label.
 
-![Example output](https://i.imgur.com/jvuQ0II.png)
+![Example output](https://docs.fivem.net/natives/0xE7DCB5B874BCD96E.png)
 
 ## Parameters
 * **value**: The number to substitute in the label.
