@@ -24,12 +24,15 @@ local isHandcuffed = false
 local function whileCuffed()
     while isHandcuffed do
         local playerPed = PlayerPedId()
+        -- The ragdoll and getting up checks prevents race-conditions when the game syncs the animation to other players
         if not (IsPedRagdoll(playerPed) or IsPedGettingUp(playerPed)) and not IsEntityPlayingAnim(playerPed, 'mp_arresting', 'idle', 3) then
             TaskPlayAnim(playerPed, 'mp_arresting', 'idle', 8.0, -8, -1, 49, 0.0, false, false, false)
         end
 
+        -- Prevents the player from punching / firing weapons
         DisablePlayerFiring(playerId, true)
         DisableControlAction(0, 140, true) -- INPUT_MELEE_ATTACK_LIGHT
+
         Wait(0)
     end
 end
@@ -40,11 +43,15 @@ local function setPlayerInHandcuffs(state)
     isHandcuffed = state
 
     if state then
+        -- Request the handcuff animations (and don't proceed until it has loaded)
         RequestAnimDict('mp_arresting')
         while not HasAnimDictLoaded('mp_arresting') do Wait(0) end
+
+        -- Disarms the player and calls the whileCuffed function inside a thread
         SetCurrentPedWeapon(playerPed, `WEAPON_UNARMED`, true)
         CreateThread(whileCuffed)
     else
+        -- Unloads and stops the handcuff animation
         RemoveAnimDict('mp_arresting')
         StopAnimTask(playerPed, 'mp_arresting', 'idle', 2.0)
     end
