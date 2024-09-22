@@ -9,11 +9,9 @@ aliases: ["0xF3365489E0DD50F9"]
 void SET_VEHICLE_MISSILE_WARNING_ENABLED(Vehicle vehicle, BOOL toggle);
 ```
 
-```
-toggles the incoming missile warning system for specified vehicle.
-```
+Toggles the incoming missile warning system for specified vehicle.
 
 ## Parameters
 * **vehicle**: Vehicle to toggle warning system for.
-* **toggle**: True(Enabled), False(Disabled).
+* **toggle**: `true` to enable, `false` to disable.
 
