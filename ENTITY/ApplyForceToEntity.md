@@ -10,10 +10,8 @@ void APPLY_FORCE_TO_ENTITY(Entity entity, int forceType, float x, float y, float
 
 Applies a force to the specified entity.
 
-**List of force types (p1)**:
-
-```
-public enum ForceType
+```c
+enum eForceType
 {
     MinForce = 0,
     MaxForceRot = 1,
@@ -29,7 +27,7 @@ Research/documentation on the gtaforums can be found [here](https://gtaforums.co
 
 ## Parameters
 * **entity**: The entity you want to apply a force on
-* **forceType**: See native description above for a list of commonly used values
+* **forceType**: Refer to `eForceType`
 * **x**: Force amount (X)
 * **y**: Force amount (Y)
 * **z**: Force amount (Z)

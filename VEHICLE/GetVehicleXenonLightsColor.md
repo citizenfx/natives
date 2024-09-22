@@ -9,25 +9,24 @@ aliases: ["0x3DFF319A831E0CDB","_GET_VEHICLE_HEADLIGHTS_COLOUR","_GET_VEHICLE_XE
 int _GET_VEHICLE_XENON_LIGHTS_COLOR(Vehicle vehicle);
 ```
 
-Returns the headlight color index from the vehicle. Value between 0, 12.
 Use [_SET_VEHICLE_HEADLIGHTS_COLOUR](#_0xE41033B25D003A07) to set the headlights color for the vehicle.
-Must enable xenon headlights before it'll take affect.
 
-List of colors and ids:
-```
-enum headlightColors {
-    Default = -1,
+You must enable xenon headlights for this native to work properly.
+
+```c
+enum eHeadlightColors {
+    Default = 255,
     White = 0,
     Blue = 1,
-    Electric_Blue = 2,
-    Mint_Green = 3,
-    Lime_Green = 4,
+    ElectricBlue = 2,
+    MintGreen = 3,
+    LimeGreen = 4,
     Yellow = 5,
-    Golden_Shower = 6,
+    GoldenShower = 6,
     Orange = 7,
     Red = 8,
-    Pony_Pink = 9,
-    Hot_Pink = 10,
+    PonyPink = 9,
+    HotPink = 10,
     Purple = 11,
     Blacklight = 12
 }
@@ -37,7 +36,4 @@ enum headlightColors {
 * **vehicle**: The vehicle to get the headlight color from.
 
 ## Return value
-Returns an int, value between 0-12 or 255 if no color is set.
-
-
-
+Returns the xenons light color, refer to `eHeadlightColors`

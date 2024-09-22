@@ -10,15 +10,15 @@ void SET_ANIMAL_MOOD(Ped animal, int mood);
 
 ```c
 enum eAudAnimalMood {
-	AUD_ANIMAL_MOOD_ANGRY,
-	AUD_ANIMAL_MOOD_PLAYFUL,
+	AUD_ANIMAL_MOOD_ANGRY = 0,
+	AUD_ANIMAL_MOOD_PLAYFUL = 1,
 
-	AUD_ANIMAL_MOOD_NUM_MOODS
+	AUD_ANIMAL_MOOD_NUM_MOODS = 2
 }
 ```
 
 
 ## Parameters
 * **animal**:
-* **mood**: Refer to eAudAnimalMood
+* **mood**: Refer to `eAudAnimalMood`
 
