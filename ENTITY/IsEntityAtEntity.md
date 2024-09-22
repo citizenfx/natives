@@ -5,7 +5,7 @@ ns: ENTITY
 
 ```c
 // 0x751B70C3D034E187 0xDABDCB52
-BOOL IS_ENTITY_AT_ENTITY(Entity entity1, Entity entity2, float xSize, float ySize, float zSize, BOOL p5, BOOL p6, int p7);
+BOOL IS_ENTITY_AT_ENTITY(Entity entity1, Entity entity2, float xSize, float ySize, float zSize, BOOL highlightArea, BOOL do3dCheck, int transportMode);
 ```
 
 ```
@@ -19,8 +19,8 @@ Last three parameters are almost alwasy p5 = 0, p6 = 1, p7 = 0
 * **xSize**: 
 * **ySize**: 
 * **zSize**: 
-* **p5**: 
-* **p6**: 
-* **p7**: 
+* **highlightArea**:
+* **do3dCheck**:
+* **transportMode**:
 
 ## Return value

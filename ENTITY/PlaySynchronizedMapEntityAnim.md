@@ -5,23 +5,23 @@ ns: ENTITY
 
 ```c
 // 0xB9C54555ED30FBC4 0xEB4CBA74
-BOOL PLAY_SYNCHRONIZED_MAP_ENTITY_ANIM(float p0, float p1, float p2, float p3, Any p4, Any p5, Any* p6, Any* p7, float p8, float p9, Any p10, float p11);
+BOOL PLAY_SYNCHRONIZED_MAP_ENTITY_ANIM(float x, float y, float z, float radius, cs_type(Any) int modelHash, cs_type(Any) int sceneId, cs_type(Any*) char* pAnimName, cs_type(Any*) char* pAnimDictName, float fBlendDelta, float fBlendOutDelta, cs_type(Any) int flags, float fMoverBlendInDelta);
 ```
 
 [Animations list](https://alexguirre.github.io/animations-list/)
 
 ## Parameters
-* **p0**: 
-* **p1**: 
-* **p2**: 
-* **p3**: 
-* **p4**: 
-* **p5**: 
-* **p6**: 
-* **p7**: 
-* **p8**: 
-* **p9**: 
-* **p10**: 
-* **p11**: 
+* **x**:
+* **y**:
+* **z**:
+* **radius**:
+* **modelHash**:
+* **sceneId**:
+* **pAnimName**:
+* **pAnimDictName**:
+* **fBlendDelta**:
+* **fBlendOutDelta**:
+* **flags**:
+* **fMoverBlendInDelta**:
 
 ## Return value
