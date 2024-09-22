@@ -5,11 +5,7 @@ ns: ENTITY
 
 ```c
 // 0xC77720A12FE14A86 0x012760AA
-BOOL PLAY_SYNCHRONIZED_ENTITY_ANIM(Entity entity, int syncedScene, char* animation, char* propName, float p4, float p5, Any p6, float p7);
-```
-
-```
-p4 and p7 are usually 1000.0f.  
+BOOL PLAY_SYNCHRONIZED_ENTITY_ANIM(Entity entity, int syncedScene, char* animation, char* propName, float fBlendInDelta, float fBlendOutDelta, cs_type(Any) int iFlags, float fMoverBlendInDelta);
 ```
 
 [Animations list](https://alexguirre.github.io/animations-list/)
@@ -19,9 +15,9 @@ p4 and p7 are usually 1000.0f.
 * **syncedScene**: 
 * **animation**: 
 * **propName**: 
-* **p4**: 
-* **p5**: 
-* **p6**: 
-* **p7**: 
+* **fBlendInDelta**:
+* **fBlendOutDelta**:
+* **iFlags**:
+* **fMoverBlendInDelta**:
 
 ## Return value
