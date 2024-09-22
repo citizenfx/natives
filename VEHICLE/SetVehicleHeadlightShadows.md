@@ -17,10 +17,13 @@ NativeDB Introduced: v323
 
 ```c
 enum eVehicleHeadlightShadowFlags {
-    NO_HEADLIGHT_SHADOWS            = 0, // Default (Lights can be toggled between off, normal and high beams)
-    HEADLIGHTS_CAST_DYNAMIC_SHADOWS = 1, // Lights Disabled (Lights are fully disabled, cannot be toggled)
-    HEADLIGHTS_CAST_STATIC_SHADOWS  = 2, // Always On (Lights can be toggled between normal and high beams)
-    HEADLIGHTS_CAST_FULL_SHADOWS    = 3 
+    // Default (Lights can be toggled between off, normal and high beams)
+    NO_HEADLIGHT_SHADOWS = 0,
+    // Lights Disabled (Lights are fully disabled, cannot be toggled)
+    HEADLIGHTS_CAST_DYNAMIC_SHADOWS = 1,
+    // Always On (Lights can be toggled between normal and high beams)
+    HEADLIGHTS_CAST_STATIC_SHADOWS = 2,
+    HEADLIGHTS_CAST_FULL_SHADOWS = 3 
 };
 ```
 
