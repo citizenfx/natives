@@ -11,7 +11,7 @@ void ADD_TEXT_COMPONENT_SUBSTRING_TIME(int timestamp, int format);
 Takes a time in milliseconds and converts it to a string. Use `~a~` to mark the position in your line of text where you want this substring inserted.
 
 ```cpp
-enum {
+enum eTimeFormat {
     TEXT_FORMAT_MILLISECONDS = 1,
     TEXT_FORMAT_SECONDS = 2,
     TEXT_FORMAT_MINUTES = 4,
