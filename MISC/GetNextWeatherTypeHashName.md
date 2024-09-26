@@ -9,6 +9,6 @@ aliases: ["_GET_NEXT_WEATHER_TYPE"]
 Hash GET_NEXT_WEATHER_TYPE_HASH_NAME();
 ```
 
-Refer to [`SET_WEATHER_TYPE_NOW_PERSIST`](#_0xED712CA327900C8A) for weather types.
+Refer to [`SET_WEATHER_TYPE_NOW`](#_0x29B487C359E19889) for weather types.
 
 ## Return value

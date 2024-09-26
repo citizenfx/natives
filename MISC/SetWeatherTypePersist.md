@@ -17,4 +17,4 @@ NativeDB Introduced: v323
 ```
 
 ## Parameters
-* **weatherType**: The weather type to be set as persistent. Refer to [`SET_WEATHER_TYPE_NOW_PERSIST`](#_0xED712CA327900C8A) for a list of weather type strings.
+* **weatherType**: The weather type to be set as persistent. Refer to [`SET_WEATHER_TYPE_NOW`](#_0x29B487C359E19889) for a list of weather type strings.
