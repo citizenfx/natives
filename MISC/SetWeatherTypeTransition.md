@@ -8,7 +8,7 @@ ns: MISC
 void _SET_WEATHER_TYPE_TRANSITION(Hash weatherType1, Hash weatherType2, float percentWeather2);
 ```
 
-Refer to [`SET_WEATHER_TYPE_NOW_PERSIST`](#_0xED712CA327900C8A) for weather types.
+Refer to [`SET_WEATHER_TYPE_NOW`](#_0x29B487C359E19889) for weather types.
 
 ```
 Mixes two weather types. If percentWeather2 is set to 0.0f, then the weather will be entirely of weatherType1, if it is set to 1.0f it will be entirely of weatherType2. If it's set somewhere in between, there will be a mixture of weather behaviors. To test, try this in the RPH console, and change the float to different values between 0 and 1:  
