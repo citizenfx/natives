@@ -12,6 +12,6 @@ Whether or not it is safe to run functions on the camera,
 as the camera is now no longer being used by the cutscene.
 
 ## Parameters
-* **p0**: Mostly false
+* **p0**: 
 
 ## Return value
