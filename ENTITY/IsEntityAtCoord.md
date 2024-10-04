@@ -18,7 +18,7 @@ The marker also doesn't scale, so it is always the same size (around half a mete
 So unfortunately the marker isn't that useful as it doesn't convey the correct information about the area (the marker doesn't reflect when the player is actually in the marker or not)
 
 ## Parameters
-* **entity**: 
+* **entity**: The entity to check the position of
 * **xPos**: The position of the square along the x-axis
 * **yPos**: The position of the square along the y-axis
 * **zPos**: The position of the square along the z-axis (only applicable if do3dCheck is true)
@@ -31,3 +31,16 @@ So unfortunately the marker isn't that useful as it doesn't convey the correct i
 
 ## Return value
 true if the entity is within the given square area
+
+## Examples
+```lua
+-- Simple demonstration which slides the ped along the x and y axis until the ped is outside the given area
+local offset = 10
+while IsEntityAtCoord(PlayerPedId(), coords.x, coords.y, coords.z, 20.0, 20.0, 20.0, false, false, 0) do
+    offset += 0.1
+    local targetCoords = coords + vector3(offset, offset, 0)
+    SetEntityCoords(PlayerPedId(), targetCoords.x, targetCoords.y, targetCoords.z)
+    Citizen.Wait(0)
+end
+print(i) -- Prints 20.1, as expected
+```
