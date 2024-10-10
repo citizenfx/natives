@@ -6,7 +6,7 @@ aliases: ["0x44B37CDCAE765AAE"]
 
 ```c
 // 0x44B37CDCAE765AAE 0x13301529
-BOOL NETWORK_CHECK_DATA_MANAGER_SUCCEEDED_FOR_HANDLE(int friendDataIndex, int* networkHandle);
+BOOL NETWORK_CHECK_DATA_MANAGER_SUCCEEDED_FOR_HANDLE(int friendDataIndex, Any* networkHandle);
 ```
 
 Checks if the friendDataIndex in the friend data manager contains the data for the specified networkHandle

@@ -5,7 +5,7 @@ ns: NETWORK
 
 ```c
 // 0xE86051786B66CD8E 0x08023B16
-void NETWORK_GET_LOCAL_HANDLE(int* networkHandle, int bufferSize);
+void NETWORK_GET_LOCAL_HANDLE(Any* networkHandle, int bufferSize);
 ```
 
 ```
