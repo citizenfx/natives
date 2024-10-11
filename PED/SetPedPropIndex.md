@@ -19,7 +19,6 @@ This native is used to set prop variation on a ped. Components, drawables and te
 
 List of Prop IDs
 ```c
-// Props
 enum eAnchorPoints
 {
     ANCHOR_HEAD = 0, // "p_head"

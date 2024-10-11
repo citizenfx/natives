@@ -9,9 +9,9 @@ aliases: ["_ENABLE_CARGOBOB_HOOK"]
 void CREATE_PICK_UP_ROPE_FOR_CARGOBOB(Vehicle cargobob, int state);
 ```
 
-```
 Drops the Hook/Magnet on a cargobob  
-state  
+
+```c
 enum eCargobobHook  
 {  
 	CARGOBOB_HOOK = 0,  

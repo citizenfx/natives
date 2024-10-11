@@ -20,4 +20,3 @@ Apply a force to an entity.
 * **bLocalForce**: Specifies whether the force vector passed in is in local or world coordinates. `true` means the force will get automatically transformed into world space before being applied
 * **bScaleByMass**: Specifies whether to scale the force by mass
 * **bApplyToChildren**: Default `false`. If the force should be applied to any attached children
-
