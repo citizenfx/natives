@@ -16,7 +16,7 @@ p4/p5: Unusued in TU27
 **Else**: CTaskNMBalance
 
 ## Parameters
-* **ped**: 
+* **ped**: The ped to ragdoll.
 * **minTime**: Time(ms) Ped is in ragdoll mode; only applies to ragdoll types 0 and not 1.
 * **maxTime**:
 * **ragdollType**: 

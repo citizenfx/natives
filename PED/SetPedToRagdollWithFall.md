@@ -5,7 +5,7 @@ ns: PED
 
 ```c
 // 0xD76632D99E4966C8 0xFA12E286
-BOOL SET_PED_TO_RAGDOLL_WITH_FALL(Ped ped, int minTime, int maxTime, int nFallType, float x, float y, float z, float fGroundHeight, float grab1X, float grab1Y, float grab1Z, float grab2X, float grab2Y, float grab2Z);
+BOOL SET_PED_TO_RAGDOLL_WITH_FALL(Ped ped, int minTime, int maxTime, int nFallType, float dirX, float dirY, float dirZ, float fGroundHeight, float grab1X, float grab1Y, float grab1Z, float grab2X, float grab2Y, float grab2Z);
 ```
 
 ```cpp
@@ -31,19 +31,19 @@ ped::set_ped_to_ragdoll_with_fall(ped, 1500, 2000, 1, -entity::get_entity_forwar
 ```
 
 ## Parameters
-* **ped**: 
+* **ped**: The ped to ragdoll.
 * **minTime**:
 * **maxTime**:
-* **nFallType**:
-* **x**: 
-* **y**: 
-* **z**: 
-* **fGroundHeight**:
-* **grab1X**:
-* **grab1Y**:
-* **grab1Z**:
-* **grab2X**:
-* **grab2Y**:
-* **grab2Z**:
+* **nFallType**: The type of fall.
+* **dirX**: The x direction of the fall.
+* **dirY**: The y direction of the fall.
+* **dirZ**: The z direction of the fall.
+* **fGroundHeight**: The ground height (z).
+* **grab1X**: unused
+* **grab1Y**: unused
+* **grab1Z**: unused
+* **grab2X**: unused
+* **grab2Y**: unused
+* **grab2Z**: unused
 
 ## Return value
