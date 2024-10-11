@@ -14,13 +14,13 @@ Both coordinates are from objects in the decompiled scripts.
 Native related to [_0xECDC202B25E5CF48](#_0xECDC202B25E5CF48) p1 value. The only weapon hash used in the decompiled scripts is weapon_air_defence_gun. These two natives are used by the yacht script, decompiled scripts suggest it and the weapon hash used (valkyrie's rockets) are also used by yachts.
 
 ## Parameters
-* **x**: X coordinate
-* **y**: Y coordinate
-* **z**: Z coordinate
+* **x**:
+* **y**:
+* **z**:
 * **radius**: Unknown float 150.0 is used in freemode script.
-* **weaponPositionX**: X coordinate
-* **weaponPositionY**: Y coordinate
-* **weaponPositionZ**: Z coordinate
+* **weaponPositionX**:
+* **weaponPositionY**:
+* **weaponPositionZ**:
 * **weaponHash**: weapon_air_defence_gun and 0 are used in the decompiled scripts.
 
 ## Return value
