@@ -8,7 +8,7 @@ ns: ENTITY
 void APPLY_FORCE_TO_ENTITY_CENTER_OF_MASS(Entity entity, int forceType, float x, float y, float z, cs_type(BOOL) int nComponent, BOOL bLocalForce, BOOL bScaleByMass, BOOL bApplyToChildren);
 ```
 
-Apply a force to an entity.
+Apply a force to an entity. More research/documentation on the gtaforums can be found [here](https://gtaforums.com/topic/885669-precisely-define-object-physics/) and [here](https://gtaforums.com/topic/887362-apply-forces-and-momentums-to-entityobject/).
 
 ## Parameters
 * **entity**: The entity handle
