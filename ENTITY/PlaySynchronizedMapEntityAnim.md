@@ -5,7 +5,7 @@ ns: ENTITY
 
 ```c
 // 0xB9C54555ED30FBC4 0xEB4CBA74
-BOOL PLAY_SYNCHRONIZED_MAP_ENTITY_ANIM(float x, float y, float z, float radius, cs_type(Any) int modelHash, cs_type(Any) int sceneId, cs_type(Any*) char* pAnimName, cs_type(Any*) char* pAnimDictName, float fBlendDelta, float fBlendOutDelta, cs_type(Any) int flags, float fMoverBlendInDelta);
+BOOL PLAY_SYNCHRONIZED_MAP_ENTITY_ANIM(float x, float y, float z, float radius, cs_type(Any) int objectModelHash, cs_type(Any) int sceneId, cs_type(Any*) char* pAnimName, cs_type(Any*) char* pAnimDictName, float fBlendDelta, float fBlendOutDelta, cs_type(Any) int flags, float fMoverBlendInDelta);
 ```
 
 [Animations list](https://alexguirre.github.io/animations-list/)
@@ -15,13 +15,13 @@ BOOL PLAY_SYNCHRONIZED_MAP_ENTITY_ANIM(float x, float y, float z, float radius, 
 * **y**:
 * **z**:
 * **radius**:
-* **modelHash**:
+* **objectModelHash**:
 * **sceneId**:
-* **pAnimName**:
-* **pAnimDictName**:
-* **fBlendDelta**:
-* **fBlendOutDelta**:
-* **flags**:
+* **pAnimName**: The name of the animation to play.
+* **pAnimDictName**: The name of the animation dictionary to use.
+* **fBlendDelta**: Blend in time.
+* **fBlendOutDelta**: Blend out time.
+* **flags**: The flags to use when playing the animation. See [`TASK_PLAY_ANIM`](#_0xEA47FE3719165B94).
 * **fMoverBlendInDelta**:
 
 ## Return value
