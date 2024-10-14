@@ -11,8 +11,8 @@ void ENABLE_ALL_CONTROL_ACTIONS(int padIndex);
 ```c
 enum ePadType {
   PLAYER_CONTROL = 0,
-  CAMERA_CONTROL,
-  FRONTEND_CONTROL
+  CAMERA_CONTROL = 1,
+  FRONTEND_CONTRO = 2
 };
 ```
 

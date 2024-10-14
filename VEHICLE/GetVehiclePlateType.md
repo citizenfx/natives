@@ -10,7 +10,7 @@ int GET_VEHICLE_PLATE_TYPE(Vehicle vehicle);
 
 Returns the plates a vehicle has.
 
-```
+```c
 enum eVehiclePlateType
 {
 	VPT_FRONT_AND_BACK_PLATES = 0,
@@ -26,3 +26,4 @@ Motorcycles with no visible plates will sometimes return a 2 for unknown reasons
 * **vehicle**: 
 
 ## Return value
+Returns the vehicle plate type, refer to `eVehiclePlateType`

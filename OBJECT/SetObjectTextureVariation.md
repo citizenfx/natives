@@ -9,8 +9,8 @@ aliases: ["0x971DA0055324D033","_SET_OBJECT_TEXTURE_VARIANT"]
 void _SET_OBJECT_TEXTURE_VARIATION(Object object, int textureVariation);
 ```
 
-```
-enum ObjectPaintVariants  
+```c
+enum eObjectPaintVariants
 {  
 	Pacific = 0,  
 	Azure = 1,  
