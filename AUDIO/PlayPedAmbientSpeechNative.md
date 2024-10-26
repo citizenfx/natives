@@ -11,7 +11,7 @@ void PLAY_PED_AMBIENT_SPEECH_NATIVE(Ped ped, char* speechName, char* speechParam
 
 Plays ambient speech; see also [`PLAY_PED_AMBIENT_SPEECH_AND_CLONE_NATIVE`](#_0xC6941B4A3A8FBBB9). Some speeches only play on certain ped models.
 
-A full list of speech names can be found here: [pastebin.com/GEtEq86R](https://pastebin.com/GEtEq86R).
+A full list of speech names can be found [here](https://pastebin.com/GEtEq86R).
 
 ```cpp
 static const char *SpeechParams[] = {
