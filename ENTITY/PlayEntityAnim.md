@@ -5,7 +5,7 @@ ns: ENTITY
 
 ```c
 // 0x7FB218262B810701 0x878753D5
-BOOL PLAY_ENTITY_ANIM(Entity entity, char* animName, char* animDict, float fBlendDelta, BOOL bLoop, BOOL bHoldLastFrame, BOOL bDriveToPose, float fStartPhase, int nFlags);
+BOOL PLAY_ENTITY_ANIM(Entity entity, char* animName, char* animDict, float fBlendDelta, BOOL bLoop, BOOL bHoldLastFrame, BOOL bDriveToPose, float fStartPhase, int iFlags);
 ```
 
 [Animations list](https://alexguirre.github.io/animations-list/)
@@ -19,6 +19,6 @@ BOOL PLAY_ENTITY_ANIM(Entity entity, char* animName, char* animDict, float fBlen
 * **bHoldLastFrame**: Sets `AF_HOLD_LAST_FRAME` in the flags.
 * **bDriveToPose**: unused
 * **fStartPhase**: Clamped between `0.0` and `1.0`. Sets the start phase of the animation.
-* **nFlags**: The flags to use when playing the animation. See [`TASK_PLAY_ANIM`](#_0xEA47FE3719165B94).
+* **iFlags**: The flags to use when playing the animation. See [`TASK_PLAY_ANIM`](#_0xEA47FE3719165B94).
 
 ## Return value
