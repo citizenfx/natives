@@ -1,6 +1,6 @@
 ---
 ns: WEAPON
-aliases: ["_0x50276EF8172F5F12"]
+aliases: ["0x50276EF8172F5F12"]
 ---
 ## SET_PED_CYCLE_VEHICLE_WEAPONS_ONLY
 
