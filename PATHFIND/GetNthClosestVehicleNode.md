@@ -5,7 +5,7 @@ ns: PATHFIND
 
 ```c
 // 0xE50E52416CCF948B 0xF125BFCC
-BOOL GET_NTH_CLOSEST_VEHICLE_NODE(float x, float y, float z, int nthClosest, Vector3* outPosition, cs_type(Any) int nodeFlags, cs_type(Any) float zMeasureMult, cs_type(Any) float zTolerance);
+BOOL GET_NTH_CLOSEST_VEHICLE_NODE(float x, float y, float z, int nthClosest, Vector3* outPosition, int nodeFlags, cs_type(Any) float zMeasureMult, cs_type(Any) float zTolerance);
 ```
 
 Same as [`GET_CLOSEST_VEHICLE_NODE`](#_0x240A18690AE96513), but returns the nth closest node instead of the first.
