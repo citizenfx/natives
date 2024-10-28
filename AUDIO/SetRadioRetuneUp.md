@@ -9,7 +9,5 @@ aliases: ["0xFF266D1D0EB1195D"]
 void SET_RADIO_RETUNE_UP();
 ```
 
-```
 Sets the radio to tune up. (changes radio station)
-```
 
