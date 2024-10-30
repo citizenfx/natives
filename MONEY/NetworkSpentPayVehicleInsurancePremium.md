@@ -5,7 +5,7 @@ ns: MONEY
 
 ```c
 // 0x9FF28D88C766E3E8 0x4E665BB2
-void NETWORK_SPENT_PAY_VEHICLE_INSURANCE_PREMIUM(int amount, Hash vehicleModel, int* networkHandle, BOOL notBankrupt, BOOL hasTheMoney);
+void NETWORK_SPENT_PAY_VEHICLE_INSURANCE_PREMIUM(int amount, Hash vehicleModel, Any* networkHandle, BOOL notBankrupt, BOOL hasTheMoney);
 ```
 
 ```
