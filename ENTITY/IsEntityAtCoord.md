@@ -5,7 +5,7 @@ ns: ENTITY
 
 ```c
 // 0x20B60995556D004F 0xD749B606
-BOOL IS_ENTITY_AT_COORD(Entity entity, float xPos, float yPos, float zPos, float xSize, float ySize, float zSize, BOOL p7, BOOL p8, int p9);
+BOOL IS_ENTITY_AT_COORD(Entity entity, float xPos, float yPos, float zPos, float xSize, float ySize, float zSize, BOOL highlightArea, BOOL do3dCheck, int transportMode);
 ```
 
 Checks if the entity is within the given square of size xSize, ySize, zSize centered around the given coordinates.
@@ -30,7 +30,7 @@ So unfortunately the marker isn't that useful as it doesn't convey the correct i
 * **transportMode**: Checks the transport mode the ped is using, only does something if entity is a ped. Transport modes are: 0 (any), 1 (on foot), 2 (in vehicle)
 
 ## Return value
-true if the entity is within the given square area
+A boolean value which represents if the entity is within the given square area.
 
 ## Examples
 ```lua
