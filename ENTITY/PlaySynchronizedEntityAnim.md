@@ -14,7 +14,7 @@ BOOL PLAY_SYNCHRONIZED_ENTITY_ANIM(Entity entity, int syncedScene, char* animNam
 * **entity**: The entity handle to play the animation on.
 * **syncedScene**:
 * **animName**: The name of the animation to play.
-* **animDict**: The name of the animation dictionary to use.
+* **animDictName**: The name of the animation dictionary to use.
 * **fBlendInDelta**: Blend in time.
 * **fBlendOutDelta**: Blend out time.
 * **iFlags**: The flags to use when playing the animation. See [`TASK_PLAY_ANIM`](#_0xEA47FE3719165B94).
