@@ -5,7 +5,7 @@ ns: TASK
 
 ```c
 // 0x23703CD154E83B88 0x1D007E65
-void TASK_PLANE_MISSION(Ped ped, Vehicle vehicle, Vehicle targetVehicle, Ped targetPed, float fTargetCoordX, float fTargetCoordY, float fTargetCoordZ, int iMissionIndex, float fCruiseSpeed, float fTargetReachedDist, float fOrientation, cs_type(float) int iFlightHeight, cs_type(float) int iMinHeightAboveTerrain);
+void TASK_PLANE_MISSION(Ped ped, Vehicle vehicle, Vehicle targetVehicle, Ped targetPed, float fTargetCoordX, float fTargetCoordY, float fTargetCoordZ, int iMissionIndex, float fCruiseSpeed, float fTargetReachedDist, float fOrientation, cs_type(float) int iFlightHeight, cs_type(float) int iMinHeightAboveTerrain, cs_split BOOL bPrecise);
 ```
 
 Gives the plane a mission (purpose or objective), the mission is passed onto the `iMissionIndex` parameter.
