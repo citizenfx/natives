@@ -5,36 +5,41 @@ ns: ENTITY
 
 ```c
 // 0xC3675780C92F90F9 0x0547417F
-void ATTACH_ENTITY_TO_ENTITY_PHYSICALLY(Entity entity1, Entity entity2, int boneIndex1, int boneIndex2, float xPos1, float yPos1, float zPos1, float xPos2, float yPos2, float zPos2, float xRot, float yRot, float zRot, float breakForce, BOOL fixedRot, BOOL p15, BOOL collision, BOOL teleport, int p18);
+void ATTACH_ENTITY_TO_ENTITY_PHYSICALLY(Entity entity1, Entity entity2, int boneIndex1, int boneIndex2, float xPos1, float yPos1, float zPos1, float xPos2, float yPos2, float zPos2, float xRot, float yRot, float zRot, float physicalStrength, BOOL constrainRotation, BOOL doInitialWarp, BOOL collision, BOOL addInitialSeperation, int rotOrder);
 ```
 
-```
-breakForce is the amount of force required to break the bond.
-p14 - is always 1 in scripts
-p15 - is 1 or 0 in scripts - unknown what it does
-p16 - controls collision between the two entities (FALSE disables collision).
-p17 - do not teleport entity to be attached to the position of the bone Index of the target entity (if 1, entity will not be teleported to target bone)
-p18 - is always 2 in scripts.
+Attaches an entity to another entity using a physical attachment
+
+```c
+enum EulerRotOrder
+{
+	EULER_XYZ = 0,
+	EULER_XZY,
+	EULER_YXZ,
+	EULER_YZX,
+	EULER_ZXY,
+	EULER_ZYX
+}
 ```
 
 ## Parameters
 * **entity1**: 
 * **entity2**: 
-* **boneIndex1**: 
-* **boneIndex2**: 
-* **xPos1**: 
-* **yPos1**: 
-* **zPos1**: 
-* **xPos2**: 
-* **yPos2**: 
-* **zPos2**: 
+* **boneIndex1**: refers to the bone on the first entity which is being attached
+* **boneIndex2**: refers to the bone on the second entity that you're attaching the first entity to
+* **xPos1**: the x offset from the root of the bone on the the first entity
+* **yPos1**: the y offset from the root of the bone on the the first entity
+* **zPos1**: the z offset from the root of the bone on the the first entity
+* **xPos2**: the x offset from the root of the bone on the the second entity
+* **yPos2**: the y offset from the root of the bone on the the second entity
+* **zPos2**: the z offset from the root of the bone on the the second entity
 * **xRot**: 
 * **yRot**: 
 * **zRot**: 
-* **breakForce**: 
-* **fixedRot**: 
-* **p15**: 
-* **collision**: 
-* **teleport**: 
-* **p18**: 
+* **physicalStrength**: 
+* **constrainRotation**: specifies whether you wish to constrain rotation as well as position. usually yes, unless you want to have a hanging/swinging thing.
+* **doInitialWarp**: specifies whether to warp the object to the specified attach point. If not, then the initial seperation will be used as an allowed give in the attachment (e.g. a rope length)
+* **collision**: if set the two entities will collide with each other once attached
+* **addInitialSeperation**: 
+* **rotOrder**: euler order of rotation angles
 

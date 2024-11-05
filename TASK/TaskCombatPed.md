@@ -5,18 +5,29 @@ ns: TASK
 
 ```c
 // 0xF166E48407BAC484 0xCB0D8932
-void TASK_COMBAT_PED(Ped ped, Ped targetPed, int p2, int p3);
+void TASK_COMBAT_PED(Ped ped, Ped targetPed, int combatFlags, int taskThreatResponseFlags);
 ```
 
-```
 Makes the specified ped attack the target ped.  
-p2 should be 0  
-p3 should be 16  
+
+```c
+enum TaskCombatPedFlags
+{
+	COMBAT_PED_NONE							= 0,
+	COMBAT_PED_PREVENT_CHANGING_TARGET		= 67108864,
+	COMBAT_PED_DISABLE_AIM_INTRO			= 134217728
+}
+
+enum TaskThreatResponseFlags
+{
+	TASK_THREAT_RESPONSE_NONE									= 0,
+	TASK_THREAT_RESPONSE_CAN_FIGHT_ARMED_PEDS_WHEN_NOT_ARMED	= 16
+}
 ```
 
 ## Parameters
-* **ped**: 
-* **targetPed**: 
-* **p2**: 
-* **p3**: 
+* **ped**: the ped to combat the target ped
+* **targetPed**: the target ped
+* **combatFlags**: flags determining how the ped will combat the target ped (usually 0)
+* **taskThreatResponseFlags**: flags determining how the ped will respond to threats from the target ped (usually 16)
 

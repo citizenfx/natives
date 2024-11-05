@@ -5,23 +5,19 @@ ns: ENTITY
 
 ```c
 // 0xFAEE099C6F890BB8 0x7E9EAB66
-void SET_ENTITY_PROOFS(Entity entity, BOOL bulletProof, BOOL fireProof, BOOL explosionProof, BOOL collisionProof, BOOL meleeProof, BOOL steamProof, BOOL p7, BOOL drownProof);
+void SET_ENTITY_PROOFS(Entity entity, BOOL bulletProof, BOOL fireProof, BOOL explosionProof, BOOL collisionProof, BOOL meleeProof, BOOL steamProof, BOOL dontResetDamageFlagsOnCleanupMissionState, BOOL smokeProof);
 ```
 
-```
-Enable / disable each type of damage.  
---------------  
-p7 is to to '1' in am_mp_property_ext/int: entity::set_entity_proofs(uParam0->f_19, true, true, true, true, true, true, 1, true);  
-```
+Enable/disable damage of each type
 
 ## Parameters
-* **entity**: 
-* **bulletProof**: 
-* **fireProof**: 
-* **explosionProof**: 
-* **collisionProof**: 
-* **meleeProof**: 
-* **steamProof**: 
-* **p7**: 
-* **drownProof**: 
+* **entity**: entity to apply flags to
+* **bulletProof**: whether or not the entity is bulletproof
+* **fireProof**: whether or not the entity is fireproof
+* **explosionProof**: whether or not the entity is explosion proof
+* **collisionProof**: whether or not the entity is collision proof
+* **meleeProof**: whether or not the entity is melee proof
+* **steamProof**: whether or not the entity is steam proof
+* **dontResetDamageFlagsOnCleanupMissionState**: whether or not to reset the damage flags after mission cleanup
+* **smokeProof**: whether or not the entity is smoke proof
 

@@ -8,11 +8,9 @@ ns: ENTITY
 void SET_ENTITY_LOD_DIST(Entity entity, int value);
 ```
 
-```
-LOD distance can be 0 to 0xFFFF (higher values will result in 0xFFFF) as it is actually stored as a 16-bit value (aka uint16_t).  
-```
+Set the fading distance for the entity identified by the given entity index
 
 ## Parameters
-* **entity**: 
-* **value**: 
+* **entity**: The entity to set LOD distance on
+* **value**: The distance for this entity to fade out at 
 
