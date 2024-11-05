@@ -39,9 +39,6 @@ enum eVehicleMission {
 };
 ```
 
-### Added parameters
-* **bPrecise**: A boolean value, defaults to `true`.
-
 ## Parameters
 * **ped**: The `Ped` handle.
 * **vehicle**: The `Vehicle` handle for the actual plane that will be flown.
@@ -56,4 +53,5 @@ enum eVehicleMission {
 * **fOrientation**: Used to specify the desired orientation of the plane in degrees (`0` to `360`). Use `-1` if no specific orientation is required.
 * **iFlightHeight**: The height above sea level the plane tries to maintain, i.e. `50` meters.
 * **iMinHeightAboveTerrain**: The minimum height above terrain, i.e. `30` meters.
+* **bPrecise**: A boolean value, defaults to `true`.
 
