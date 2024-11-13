@@ -5,69 +5,53 @@ ns: TASK
 
 ```c
 // 0x23703CD154E83B88 0x1D007E65
-void TASK_PLANE_MISSION(Ped pilot, Vehicle aircraft, Vehicle targetVehicle, Ped targetPed, float destinationX, float destinationY, float destinationZ, int missionFlag, float angularDrag, float unk, float targetHeading, float maxZ, float minZ);
+void TASK_PLANE_MISSION(Ped ped, Vehicle vehicle, Vehicle targetVehicle, Ped targetPed, float fTargetCoordX, float fTargetCoordY, float fTargetCoordZ, int iMissionIndex, float fCruiseSpeed, float fTargetReachedDist, float fOrientation, cs_type(float) int iFlightHeight, cs_type(float) int iMinHeightAboveTerrain, cs_split BOOL bPrecise);
 ```
 
-```
-EDITED (7/13/2017)  
-NOTE: If you want air combat, AI::TASK_COMBAT_PED (while your pilot is in an aircraft) also does the same thing as this native.  
-DESCRIPTION:  
-Ever wish your buddy could shoot down one of your enemies for you? Ever wanted an auto-pilot? Well look no further! This is the native for you! (Ped intelligence may vary)  
-USAGE:  
--- REQUIRED --  
-• pilot = The ped flying the aircraft.  
-• aircraft = The aircraft the pilot is flying  
--- OPTIONAL -- [atleast 1 must be assigned]  
-• targetVehicle = The vehicle the pilot will target.  
-• targetPed = The ped the pilot will target.  
-• destinationX, destinationY, destinationZ = The location the pilot will target.  
--- LOGIC --  
-• missionFlag = The type of mission. pastebin.com/R8x73dbv  
-• angularDrag = The higher the value, the slower the plane will rotate. Value ranges from 0 - Infinity.  
-• unk = Set to 0, and you'll be fine.  
-• targetHeading = The target angle (from world space north) that the pilot will try to acheive before executing an attack/landing.  
-• maxZ = Maximum Z coordinate height for flying.  
-• minZ = Minimum Z coordinate height for flying.  
-Z: 2,700 is the default max height a pilot will be able to fly. Anything greater and he will fly downward until reaching 2,700 again.  
-Mission Types (incase you don't like links..):  
-0 = None  
-1 = Unk  
-2 = CTaskVehicleRam  
-3 = CTaskVehicleBlock  
-4 = CTaskVehicleGoToPlane  
-5 = CTaskVehicleStop  
-6 = CTaskVehicleAttack  
-7 = CTaskVehicleFollow  
-8 = CTaskVehicleFleeAirborne  
-9 = CTaskVehicleCircle  
-10 = CTaskVehicleEscort  
-15 = CTaskVehicleFollowRecording  
-16 = CTaskVehiclePoliceBehaviour  
-17 = CTaskVehicleCrash  
-Example C#:  
-Function.Call(Hash.TASK_PLANE_MISSION, pilot, vehicle, 0, Game.Player.Character, 0, 0, 0, 6, 0f, 0f, 0f, 2500.0f, -1500f);  
-Example C++  
-AI::TASK_PLANE_MISSION(pilot, vehicle, 0, PLAYER::GET_PLAYER_PED(PLAYER::GET_PLAYER_INDEX()), 0, 0, 0, 6, 0.0, 0.0, 0.0, 2500.0, -1500.0);  
-[DEPRECATED] EXAMPLE USAGE:  
-pastebin.com/gx7Finsk  
-```
+Gives the plane a mission (purpose or objective), the mission is passed onto the `iMissionIndex` parameter.
 
-```
-NativeDB Added Parameter 14: Any p13
+```c
+enum eVehicleMission {
+    MISSION_NONE = 0,
+    MISSION_CRUISE, // 1
+    MISSION_RAM, // 2
+    MISSION_BLOCK, // 3
+    MISSION_GOTO, // 4
+    MISSION_STOP, // 5
+    MISSION_ATTACK, // 6
+    MISSION_FOLLOW, // 7
+    MISSION_FLEE, // 8
+    MISSION_CIRCLE, // 9
+    MISSION_ESCORT_LEFT, // 10
+    MISSION_ESCORT_RIGHT, // 11
+    MISSION_ESCORT_REAR, // 12
+    MISSION_ESCORT_FRONT, // 13
+    MISSION_GOTO_RACING, // 14
+    MISSION_FOLLOW_RECORDING, // 15
+    MISSION_POLICE_BEHAVIOUR, // 16
+    MISSION_PARK_PERPENDICULAR, // 17
+    MISSION_PARK_PARALLEL, // 18
+    MISSION_LAND, // 19
+    MISSION_LAND_AND_WAIT, // 20
+    MISSION_CRASH, // 21
+    MISSION_PULL_OVER, // 22
+    MISSION_PROTECT // 23
+};
 ```
 
 ## Parameters
-* **pilot**: 
-* **aircraft**: 
-* **targetVehicle**: 
-* **targetPed**: 
-* **destinationX**: 
-* **destinationY**: 
-* **destinationZ**: 
-* **missionFlag**: 
-* **angularDrag**: 
-* **unk**: 
-* **targetHeading**: 
-* **maxZ**: 
-* **minZ**: 
+* **ped**: The `Ped` handle.
+* **vehicle**: The `Vehicle` handle for the actual plane that will be flown.
+* **targetVehicle**: The target `Vehicle` handle (in case `eVehicleMission` requires one).
+* **targetPed**: The target `Ped` (in case `eVehicleMission` requires one).
+* **fTargetCoordX**: 
+* **fTargetCoordY**: 
+* **fTargetCoordZ**: 
+* **iMissionIndex**: The mission to be executed. See `eVehicleMission`.
+* **fCruiseSpeed**: The cruise speed (in m/s).
+* **fTargetReachedDist**: Distance (in meters) (at which the plane thinks it has arrived), this is also used as the hover distance for `MISSION_ATTACK` and `MISSION_CIRCLE`.
+* **fOrientation**: Used to specify the desired orientation of the plane in degrees (`0` to `360`). Use `-1` if no specific orientation is required.
+* **iFlightHeight**: The height above sea level the plane tries to maintain, i.e. `50` meters.
+* **iMinHeightAboveTerrain**: The minimum height above terrain, i.e. `30` meters.
+* **bPrecise**: A boolean value, defaults to `true`.
 
