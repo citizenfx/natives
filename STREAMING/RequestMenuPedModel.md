@@ -9,6 +9,8 @@ aliases: ["0xA0261AEF7ACFC51E"]
 void REQUEST_MENU_PED_MODEL(Hash model);
 ```
 
+Calls [`REQUEST_MODEL`](#_0x963D27A58DF860AC) with the `STRFLAG_PRIORITY_LOAD` and `STRFLAG_FORCE_LOAD` set.
+
 ## Parameters
-* **model**: 
+* **model**: The model to request.
 
