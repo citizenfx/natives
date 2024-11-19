@@ -10,17 +10,6 @@ void ATTACH_ENTITY_TO_ENTITY_PHYSICALLY(Entity entity1, Entity entity2, int bone
 
 Attaches an entity to another entity using a physical attachment
 
-```c
-enum EulerRotOrder
-{
-	EULER_XYZ = 0,
-	EULER_XZY,
-	EULER_YXZ,
-	EULER_YZX,
-	EULER_ZXY,
-	EULER_ZYX
-}
-```
 
 ## Parameters
 * **entity1**: 
