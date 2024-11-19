@@ -21,30 +21,30 @@ enum eForceType
     ForceRotPlusForce = 5
 }
 
-enum RagdollComponent
+enum eRagdollComponent
 {
-	RAGDOLL_INVALID = -1,	 //-1  Invalid
-	RAGDOLL_BUTTOCKS = 0,	 //0  Buttocks
-	RAGDOLL_THIGH_LEFT,		 //1  Thigh_Left
-	RAGDOLL_SHIN_LEFT,		 //2  Shin_Left
-	RAGDOLL_FOOT_LEFT,		 //3  Foot_Left
-	RAGDOLL_THIGH_RIGHT,	 //4  Thigh_Right
-	RAGDOLL_SHIN_RIGHT,		 //5  Shin_Right
-	RAGDOLL_FOOT_RIGHT,		 //6  Foot_Right
-	RAGDOLL_SPINE0,			 //7  Spine0
-	RAGDOLL_SPINE1,			 //8  Spine1
-	RAGDOLL_SPINE2,			 //9  Spine2
-	RAGDOLL_SPINE3,			 //10 Spine3
-	RAGDOLL_CLAVICLE_LEFT,	 //11 Clavicle_Left
-	RAGDOLL_UPPER_ARM_LEFT,	 //12 Upper_Arm_Left
-	RAGDOLL_LOWER_ARM_LEFT,	 //13 Lower_Arm_Left
-	RAGDOLL_HAND_LEFT,		 //14 Hand_Left
-	RAGDOLL_CLAVICLE_RIGHT,	 //15 Clavicle_Right
-	RAGDOLL_UPPER_ARM_RIGHT, //16 Upper_Arm_Right
-	RAGDOLL_LOWER_ARM_RIGHT, //17 Lower_Arm_Right
-	RAGDOLL_HAND_RIGHT,		 //18 Hand_Right
-	RAGDOLL_NECK,			 //19 Neck
-	RAGDOLL_HEAD 			 //20 Head
+	RAGDOLL_INVALID = -1, // Invalid
+	RAGDOLL_BUTTOCKS = 0, // Buttocks
+	RAGDOLL_THIGH_LEFT = 1, // Thigh_Left
+	RAGDOLL_SHIN_LEFT = 2, // Shin_Left
+	RAGDOLL_FOOT_LEFT = 3, // Foot_Left
+	RAGDOLL_THIGH_RIGHT = 4, // Thigh_Right
+	RAGDOLL_SHIN_RIGHT = 5, // Shin_Right
+	RAGDOLL_FOOT_RIGHT = 6, // Foot_Right
+	RAGDOLL_SPINE0 = 7, // Spine0
+	RAGDOLL_SPINE1 = 8, // Spine1
+	RAGDOLL_SPINE2 = 9, // Spine2
+	RAGDOLL_SPINE3 = 10, // Spine3
+	RAGDOLL_CLAVICLE_LEFT = 11, // Clavicle_Left
+	RAGDOLL_UPPER_ARM_LEFT = 12, // Upper_Arm_Left
+	RAGDOLL_LOWER_ARM_LEFT = 13, // Lower_Arm_Left
+	RAGDOLL_HAND_LEFT = 14, // Hand_Left
+	RAGDOLL_CLAVICLE_RIGHT = 15, // Clavicle_Right
+	RAGDOLL_UPPER_ARM_RIGHT = 16, // Upper_Arm_Right
+	RAGDOLL_LOWER_ARM_RIGHT = 17, // Lower_Arm_Right
+	RAGDOLL_HAND_RIGHT = 18, // Hand_Right
+	RAGDOLL_NECK = 19, // Neck
+	RAGDOLL_HEAD = 20 // Head
 }
 
 ```
