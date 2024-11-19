@@ -16,4 +16,4 @@ Add or update a INT decorator on an object
 * **value**: value of the decorator
 
 ## Return value
-* **BOOL** true if completed successfuly else false
+Returns `true` if completed successfully, `false` otherwise
