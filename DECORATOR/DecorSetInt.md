@@ -11,8 +11,8 @@ BOOL DECOR_SET_INT(Entity entity, char* decoratorName, int value);
 Add or update a INT decorator on an object
 
 ## Parameters
-* **entity**: object to remove decorators from
-* **decoratorName**: Name of the decorator
+* **entity**: entity to modify decorators on
+* **decoratorName**: name of the decorator
 * **value**: value of the decorator
 
 ## Return value
