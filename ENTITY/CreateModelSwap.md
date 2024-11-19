@@ -5,7 +5,7 @@ ns: ENTITY
 
 ```c
 // 0x92C47782FDA8B2A3 0x0BC12F9E
-void CREATE_MODEL_SWAP(float x, float y, float z, float radius, Hash originalModel, Hash newModel, BOOL p6);
+void CREATE_MODEL_SWAP(float x, float y, float z, float radius, Hash originalModel, Hash newModel, BOOL bSurviveMapReload);
 ```
 
 ```
@@ -20,5 +20,5 @@ Network players do not see changes done with this.
 * **radius**: 
 * **originalModel**: 
 * **newModel**: 
-* **p6**: 
+* **bSurviveMapReload**:
 
