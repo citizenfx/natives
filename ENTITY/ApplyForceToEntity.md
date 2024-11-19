@@ -61,7 +61,7 @@ Research/documentation on the gtaforums can be found [here](https://gtaforums.co
 * **offX**: Rotation/offset force (X)
 * **offY**: Rotation/offset force (Y)
 * **offZ**: Rotation/offset force (Z)
-* **component**: Component of the entity to apply the force too - only matters for breakable or articulated (ragdoll) physics. 0 means the root or parent component. Reger to `RagdollComponent`
+* **component**: Component of the entity to apply the force too - only matters for breakable or articulated (ragdoll) physics. 0 means the root or parent component. Reger to `eRagdollComponent` enum
 If the command is being called on a ped, the component passed in is one returned from GET_PED_RAGDOLL_BONE_INDEX, not GET_PED_BONE_INDEX
 * **localForce**: Specifies whether the force vector passed in is in local or world coordinates. Local coordinates (TRUE) means the force will get automatically transformed into world space before being applied. 
 * **localOffset**: Specifies whether the offset passed in is in local or world coordinates.
