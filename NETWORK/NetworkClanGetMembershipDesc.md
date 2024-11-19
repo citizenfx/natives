@@ -5,7 +5,7 @@ ns: NETWORK
 
 ```c
 // 0x48DE78AF2C8885B8 0x3369DD1F
-BOOL NETWORK_CLAN_GET_MEMBERSHIP_DESC(int* memberDesc, int p1);
+BOOL NETWORK_CLAN_GET_MEMBERSHIP_DESC(Any* memberDesc, int p1);
 ```
 
 ## Parameters

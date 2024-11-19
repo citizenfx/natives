@@ -5,7 +5,7 @@ ns: NETWORK
 
 ```c
 // 0xCE5F689CF5A0A49D 0x2E96EF1E
-Player NETWORK_GET_PLAYER_FROM_GAMER_HANDLE(int* networkHandle);
+Player NETWORK_GET_PLAYER_FROM_GAMER_HANDLE(Any* networkHandle);
 ```
 
 

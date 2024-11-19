@@ -6,7 +6,7 @@ aliases: ["0xF45352426FF3A4F0"]
 
 ```c
 // 0xF45352426FF3A4F0 0xF633805A
-void NETWORK_CLAN_GET_UI_FORMATTED_TAG(int* clanDesc, int bufferSize, cs_type(intPtr) char* formattedTag);
+void NETWORK_CLAN_GET_UI_FORMATTED_TAG(Any* clanDesc, int bufferSize, cs_type(intPtr) char* formattedTag);
 ```
 
 ```
