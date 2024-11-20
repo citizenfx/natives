@@ -28,6 +28,6 @@ enum eTaskThreatResponseFlags
 ## Parameters
 * **ped**: the ped to combat the target ped
 * **targetPed**: the target ped
-* **combatFlags**: flags determining how the ped will combat the target ped (usually 0)
-* **taskThreatResponseFlags**: flags determining how the ped will respond to threats from the target ped (usually 16)
+* **combatFlags**: flags determining how the ped will combat the target ped, usually 0. See `eTaskCombatPedFlags` enum
+* **taskThreatResponseFlags**: flags determining how the ped will respond to threats from the target ped, usually 16. See `eTaskThreatResponseFlags` enum
 
