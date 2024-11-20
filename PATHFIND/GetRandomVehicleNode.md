@@ -21,5 +21,4 @@ BOOL GET_RANDOM_VEHICLE_NODE(float x, float y, float z, float radius, int minLan
 * **nodeId**: if the command returns TRUE then this will contain a value that can be used in GET_SPAWN_COORDS_FOR_VEHICLE_NODE
 
 ## Return value
-* **TRUE**: if the command finds a vehicle node within the defined circle
-* **FALSE**: if the command fails to find a vehicle node
+Returns `true` if a vehicle node is found within the defined circle, `false` otherwise.
