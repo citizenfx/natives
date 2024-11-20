@@ -33,8 +33,7 @@ enum eTransportMode
 * **transportMode**: The transport mode used for the check (See `eTransportMode` enum)
 
 ## Return value
-* **TRUE**: if the entity is within the bounds specified and aligns with the transport mode
-* **FALSE**: if the entity is not within the bounds specified or does not align with the transport mode
+Returns `true` if the entity is within the bounds specified and aligns with the transport mode, `false` otherwise.
 
 ## Examples
 ```lua
