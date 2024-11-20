@@ -12,11 +12,11 @@ Checks if the entity's root is located in the given area defined by a centre poi
 Specifying a non-zero transport mode will return false early if the entity does not meet the requirements of the transport mode.
 
 ```c
-enum transportMode
+enum eTransportMode
 {
-    TM_ANY,
-    TM_ON_FOOT,
-    TM_IN_VEHICLE,
+    TM_ANY = 0,
+    TM_ON_FOOT = 1,
+    TM_IN_VEHICLE = 2,
 }
 ```
 
