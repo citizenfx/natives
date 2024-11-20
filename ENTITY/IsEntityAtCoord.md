@@ -30,7 +30,7 @@ enum eTransportMode
 * **zSize**: Z size of area to check
 * **highlightArea**: draws a small marker at the center of the point
 * **do3dCheck**: whether or not to check the z dimension
-* **transportMode**: 0 for any, 1 for on foot, 2 for in vehicle. 
+* **transportMode**: The transport mode used for the check (See `eTransportMode` enum)
 
 ## Return value
 * **TRUE**: if the entity is within the bounds specified and aligns with the transport mode
