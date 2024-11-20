@@ -20,12 +20,9 @@ Adds an area of the map where the portable pickups will use extended probe when 
 
 
 ## Examples
-
 ```lua
-
 local position = vector3(-323.59, -757.83, 53.25)
 local radius = 25.0
 
 AddExtendedPickupProbeArea(position.x, position.y, position.z, radius)
-
 ```
