@@ -11,17 +11,17 @@ void TASK_COMBAT_PED(Ped ped, Ped targetPed, int combatFlags, int taskThreatResp
 Makes the specified ped attack the target ped.  
 
 ```c
-enum TaskCombatPedFlags
+enum eTaskCombatPedFlags
 {
-	COMBAT_PED_NONE							= 0,
-	COMBAT_PED_PREVENT_CHANGING_TARGET		= 67108864,
-	COMBAT_PED_DISABLE_AIM_INTRO			= 134217728
+	COMBAT_PED_NONE = 0,
+	COMBAT_PED_PREVENT_CHANGING_TARGET = 67108864,
+	COMBAT_PED_DISABLE_AIM_INTRO = 134217728
 }
 
-enum TaskThreatResponseFlags
+enum eTaskThreatResponseFlags
 {
-	TASK_THREAT_RESPONSE_NONE									= 0,
-	TASK_THREAT_RESPONSE_CAN_FIGHT_ARMED_PEDS_WHEN_NOT_ARMED	= 16
+	TASK_THREAT_RESPONSE_NONE = 0,
+	TASK_THREAT_RESPONSE_CAN_FIGHT_ARMED_PEDS_WHEN_NOT_ARMED = 16
 }
 ```
 
