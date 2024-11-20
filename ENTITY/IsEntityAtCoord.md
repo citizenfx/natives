@@ -37,13 +37,13 @@ Returns `true` if the entity is within the bounds specified and aligns with the 
 
 ## Examples
 ```lua
-Citizen.CreateThread(function()
+CreateThread(function()
     while true do
-        Citizen.Wait(0)
+        Wait(0)
 
         local player = PlayerPedId()
-        local point = vec3(-3041.72, 32.72, 8.52)
-        local size = vec3(10.0, 10.0, 0.0)
+        local point = vector3(-3041.72, 32.72, 8.52)
+        local size = vector3(10.0, 10.0, 0.0)
         local highlightArea = true
         local do3DCheck = false
         local transportMode = 0
