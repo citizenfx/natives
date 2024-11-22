@@ -15,19 +15,19 @@ Similar in functionality to [`TASK_PLAY_ANIM`](#_0xEA47FE3719165B94), except the
 
 ## Parameters
 
--   **ped**: The ped you want to play the animation
--   **animDictionary**: The animation dictionary
--   **animationName**: The animation name
--   **posX**: Initial X position of the task
--   **posY**: Initial Y position of the task
--   **posZ**: Initial Z position of the task
--   **rotX**: Initial X rotation of the task
--   **rotY**: Initial Y rotation of the task
--   **rotZ**: Initial Z rotation of the task
--   **blendInSpeed**: The speed at which the animation blends in. Lower is slower and higher is faster, 1.0 is normal, 8.0 is basically instant
--   **blendOutSpeed**: The speed at which the animation blends out. Lower is slower and higher is faster, 1.0 is normal, 8.0 is basically instant
--   **duration**: The duration of the animation in milliseconds. -1 will play the animation until canceled
--   **flag**: See [`TASK_PLAY_ANIM`](#_0xEA47FE3719165B94)
--   **animTime**: Value between 0.0 and 1.0, lets you start an animation from the given point
--   **rotationOrder**: 2 is most common. See [`GET_ENTITY_ROTATION`](#_0xAFBD61CC738D9EB9)
--   **ikFlags**: Inverse kinematics flags. Default is 0.
+- * **ped**: The ped you want to play the animation
+- * **animDictionary**: The animation dictionary
+- * **animationName**: The animation name
+- * **posX**: Initial X position of the task
+- * **posY**: Initial Y position of the task
+- * **posZ**: Initial Z position of the task
+- * **rotX**: Initial X rotation of the task
+- * **rotY**: Initial Y rotation of the task
+- * **rotZ**: Initial Z rotation of the task
+- * **blendInSpeed**: The speed at which the animation blends in. Lower is slower and higher is faster, 1.0 is normal, 8.0 is basically instant
+- * **blendOutSpeed**: The speed at which the animation blends out. Lower is slower and higher is faster, 1.0 is normal, 8.0 is basically instant
+- * **duration**: The duration of the animation in milliseconds. -1 will play the animation until canceled
+- * **flag**: See [`TASK_PLAY_ANIM`](#_0xEA47FE3719165B94)
+- * **animTime**: Value between 0.0 and 1.0, lets you start an animation from the given point
+- * **rotationOrder**: 2 is most common. See [`GET_ENTITY_ROTATION`](#_0xAFBD61CC738D9EB9)
+- * **ikFlags**: Inverse kinematics flags. Default is 0.
