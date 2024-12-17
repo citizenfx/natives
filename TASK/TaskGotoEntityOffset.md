@@ -5,16 +5,24 @@ ns: TASK
 
 ```c
 // 0xE39B4FF4FDEBDE27 0x1A17A85E
-void TASK_GOTO_ENTITY_OFFSET(Ped ped, Any p1, Any p2, float x, float y, float z, int duration);
+void TASK_GOTO_ENTITY_OFFSET(Ped ped, cs_type(Any) Entity entity, cs_type(Any) int duration, float seekRadius, float seekAngleDeg, float moveBlendRatio, int gotoEntityOffsetFlags);
 ```
 
+Instructs the ped to go to the entity with the given offset.
+
+```cpp
+enum eSeekEntityOffsetFlags {
+    ESEEK_OFFSET_ORIENTATES_WITH_ENTITY = 1,
+    ESEEK_KEEP_TO_PAVEMENTS = 2
+};
+```
 
 ## Parameters
-* **ped**: 
-* **p1**: 
-* **p2**: 
-* **x**: 
-* **y**: 
-* **z**: 
-* **duration**: 
+* **ped**: The ped handle
+* **entity**: The target entity handle
+* **duration**: The duration in seconds or -1 for forever
+* **seekRadius**: How many meters the destination is from the entity
+* **seekAngleDeg**: The angle the destination is from the entity
+* **moveBlendRatio**: The move blend ratio (speed)
+* **gotoEntityOffsetFlags**: The goto entity offset flags
 
