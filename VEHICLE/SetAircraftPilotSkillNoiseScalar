@@ -1,0 +1,17 @@
+---
+ns: VEHICLE
+---
+## SET_AIRCRAFT_PILOT_SKILL_NOISE_SCALAR
+
+```c
+// 0xE5810AC70602F2F5 0xB6BE07E0
+void SET_AIRCRAFT_PILOT_SKILL_NOISE_SCALAR(Vehicle vehicle, FLOAT scalar);
+```
+
+```
+Appears to make the helicopter engine quieter the higher p2 is. 0.0 = lowest, 1.0 = highest.
+```
+
+## Parameters
+* **vehicle**: 
+* **scalar**: 
