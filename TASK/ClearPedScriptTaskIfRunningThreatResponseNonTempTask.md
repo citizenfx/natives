@@ -1,0 +1,17 @@
+---
+ns: TASK
+---
+## CLEAR_PED_SCRIPT_TASK_IF_RUNNING_THREAT_RESPONSE_NON_TEMP_TASK
+
+```c
+// 0xF6DC48E56BE1243A
+void CLEAR_PED_SCRIPT_TASK_IF_RUNNING_THREAT_RESPONSE_NON_TEMP_TASK(Ped ped);
+```
+
+```
+NativeDB Introduced: v3407
+```
+
+
+## Parameters
+* **ped**: 

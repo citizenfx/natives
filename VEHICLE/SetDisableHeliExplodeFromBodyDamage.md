@@ -9,7 +9,9 @@ aliases: ["0xEDBC8405B3895CC9"]
 void SET_DISABLE_HELI_EXPLODE_FROM_BODY_DAMAGE(Vehicle helicopter, cs_type(Any) BOOL disableExplode);
 ```
 
-Prevents a helicopter from exploding due to relatively minor body damage.
+This works on helicopters and planes.
+
+Prevents a helicopter from exploding due to relatively minor body damage. 
 
 ```
 NativeDB Introduced: v1103
