@@ -10,6 +10,8 @@ void SET_HELI_BLADES_SPEED(Vehicle vehicle, float speed);
 
 Sets the speed of the helicopter blades in percentage of the full speed.
 
+Works with planes too.
+
 ## Parameters
 * **vehicle**: The helicopter or the plane
 * **speed**: Desired blade rotation speed from 0.0f to 1.0f
