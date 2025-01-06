@@ -10,7 +10,7 @@ void SET_HELI_BLADES_FULL_SPEED(Vehicle vehicle);
 
 ```
 Equivalent of SET_HELI_BLADES_SPEED(vehicleHandle, 1.0f);  
-this native works on planes to?  
+Works with planes too.
 ```
 
 ## Parameters
