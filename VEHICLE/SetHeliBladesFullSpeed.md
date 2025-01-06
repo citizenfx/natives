@@ -8,13 +8,10 @@ ns: VEHICLE
 void SET_HELI_BLADES_FULL_SPEED(Vehicle vehicle);
 ```
 
-```
 Sets the speed of the helicopter blades to full speed.
-Equivalent of SET_HELI_BLADES_SPEED(vehicleHandle, 1.0f);
+Equivalent of `SET_HELI_BLADES_SPEED(vehicleHandle, 1.0f);`.
   
 Works with planes too.
-```
 
 ## Parameters
-* **vehicle**: The helicopter.
-
+* **vehicle**: The helicopter or the plane
