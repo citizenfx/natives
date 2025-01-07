@@ -8,6 +8,8 @@ ns: VEHICLE
 void SET_HELI_BLADES_SPEED(Vehicle vehicle, float speed);
 ```
 
+Despite its name this, works on Helicopters and Planes.
+
 Sets the speed of the helicopter blades in percentage of the full speed.
 
 Works with planes too.
