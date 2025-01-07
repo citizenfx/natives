@@ -15,4 +15,4 @@ Sets the speed of the helicopter blades in percentage of the full speed.
 
 ## Parameters
 * **vehicle**: The helicopter or the plane
-* **speed**: Desired blade rotation speed from 0.0f to 1.0f
+* **speed**: Desired blade rotation speed from 0.0 to 1.0
