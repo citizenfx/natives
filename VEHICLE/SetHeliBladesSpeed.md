@@ -12,7 +12,6 @@ Despite its name this, works on Helicopters and Planes.
 
 Sets the speed of the helicopter blades in percentage of the full speed.
 
-Works with planes too.
 
 ## Parameters
 * **vehicle**: The helicopter or the plane
