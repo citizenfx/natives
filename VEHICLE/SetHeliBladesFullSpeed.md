@@ -13,8 +13,6 @@ Despite its name, this works on Helicopters and Planes.
 Sets the speed of the helicopter blades to full speed.
 
 This is equivalent to calling `SetHeliBladesSpeed(vehicleHandle, 1.0);`
-  
-Works with planes too.
 
 ## Parameters
 * **vehicle**: The helicopter or the plane
