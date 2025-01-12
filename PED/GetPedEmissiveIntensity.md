@@ -9,7 +9,7 @@ aliases: ["0x1461B28A06717D68","_GET_PED_ILLUMINATED_CLOTHING_GLOW_INTENSITY"]
 float _GET_PED_EMISSIVE_INTENSITY(Ped ped);
 ```
 
-Use [`SetPedIlluminatedClothingGlowIntensity`](#_0x4E90D746056E273D) to set the illuminated clothing glow intensity for a specific ped.
+Use [`SetPedEmissiveIntensity`](#_0x4E90D746056E273D) to set the illuminated clothing glow intensity for a specific ped.
 
 
 ## Parameters
