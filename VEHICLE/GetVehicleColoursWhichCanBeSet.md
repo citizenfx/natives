@@ -9,7 +9,7 @@ aliases: ["0xEEBFC7A7EFDC35B4"]
 int GET_VEHICLE_COLOURS_WHICH_CAN_BE_SET(Vehicle vehicle);
 ```
 
-```cpp
+```c
 enum eColourBitField {
     HAS_BODY_COLOUR1 = 1,
     HAS_BODY_COLOUR2 = 2,
