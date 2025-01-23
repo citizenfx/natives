@@ -10,7 +10,7 @@ BOOL IS_ENTITY_AT_ENTITY(Entity entity, Entity target, float xSize, float ySize,
 
 Checks if entity is within the specified axis aligned box around the target entity.
 
-```cpp
+```c
 enum eTransportMode {
     SCRIPT_TM_ANY = 0,
     SCRIPT_TM_ON_FOOT = 1,

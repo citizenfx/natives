@@ -8,7 +8,7 @@ ns: PED
 BOOL SET_PED_TO_RAGDOLL_WITH_FALL(Ped ped, int minTime, int maxTime, int nFallType, float dirX, float dirY, float dirZ, float fGroundHeight, float grab1X, float grab1Y, float grab1Z, float grab2X, float grab2Y, float grab2Z);
 ```
 
-```cpp
+```c
 enum eNMFallType {
     TYPE_FROM_HIGH = 0,
     TYPE_OVER_WALL = 1,
