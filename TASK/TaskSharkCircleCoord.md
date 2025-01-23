@@ -25,13 +25,13 @@ NativeDB Introduced: v3407
 ## Examples
 ```lua
 CreateThread(function()
+    local sharkModel = GetHashKey("a_c_sharktiger")
     RequestModel(sharkModel)
     
     while not HasModelLoaded(sharkModel) do
         Wait(0)
     end
 
-    local sharkModel = GetHashKey("a_c_sharktiger")
     local coords = GetEntityCoords(PlayerPedId(), false)
     local shark = CreatePed(28, sharkModel, coords.x, coords.y, coords.z, 0.0, true, true)
     

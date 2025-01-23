@@ -9,7 +9,9 @@ aliases: ["0x26E13D440E7F6064"]
 void SET_DISABLE_EXPLODE_FROM_BODY_DAMAGE_ON_COLLISION(Vehicle vehicle, cs_type(float) BOOL disableExplode);
 ```
 
-Prevents a vehicle from exploding upon sustaining body damage from physical collisions. Only works for planes.
+This only works for planes.
+
+Prevents a vehicle from exploding upon sustaining body damage from physical collisions. 
 
 For helicopters, you might want to check [`SET_DISABLE_HELI_EXPLODE_FROM_BODY_DAMAGE`](#_0xEDBC8405B3895CC9) instead.
 
