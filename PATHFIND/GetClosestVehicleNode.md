@@ -8,7 +8,7 @@ ns: PATHFIND
 BOOL GET_CLOSEST_VEHICLE_NODE(float x, float y, float z, Vector3* outPosition, int nodeFlags, float zMeasureMult, float zTolerance);
 ```
 
-```cpp
+```c
 enum eGetClosestNodeFlags {
     GCNF_INCLUDE_SWITCHED_OFF_NODES = 1,
     GCNF_INCLUDE_BOAT_NODES = 2,
