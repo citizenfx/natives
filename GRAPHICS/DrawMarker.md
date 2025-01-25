@@ -32,7 +32,7 @@ There's a [list of markers](https://docs.fivem.net/game-references/markers/) on 
 * **alpha**: The alpha component of the marker color, on a scale from 0-255.
 * **bobUpAndDown**: Whether or not the marker should slowly animate up/down.
 * **faceCamera**: Whether the marker should be a 'billboard', as in, should constantly face the camera.
-* **p19**: Typically set to `2`. Does not seem to matter directly.
+* **rotationOrder**: The order yaw, pitch and roll is applied. Usually `2`.
 * **rotate**: Rotations only apply to the heading.
 * **textureDict**: A texture dictionary to draw the marker with, or NULL. Example: 'GolfPutting'
 * **textureName**: A texture name in `textureDict` to draw the marker with, or NULL. Example: 'PuttingMarker'
