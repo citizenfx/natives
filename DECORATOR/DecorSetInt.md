@@ -5,16 +5,15 @@ ns: DECORATOR
 
 ```c
 // 0x0CE3AA5E1CA19E10 0xDB718B21
-BOOL DECOR_SET_INT(Entity entity, char* propertyName, int value);
+BOOL DECOR_SET_INT(Entity entity, char* decoratorName, int value);
 ```
 
-```
-Sets property to int.  
-```
+Add or update a INT decorator on an object
 
 ## Parameters
-* **entity**: 
-* **propertyName**: 
-* **value**: 
+* **entity**: entity to modify decorators on
+* **decoratorName**: name of the decorator
+* **value**: value of the decorator
 
 ## Return value
+Returns `true` if completed successfully, `false` otherwise

@@ -5,123 +5,85 @@ ns: AUDIO
 
 ```c
 // 0xB9EFD5C25018725A 0x1C09C9E0
-void SET_AUDIO_FLAG(char* flagName, BOOL toggle);
+void SET_AUDIO_FLAG(char* flagName, BOOL enabled);
 ```
 
 Generic interface to toggle audio functionality, with auto-reset on script termination and support for multiple script threads
 
-Flags used in game scripts:
-| Flag Name | Description of Usage | 
-| ----- | -------- |
-| ActivateSwitchWheelAudio | |
-| AllowAmbientSpeechInSlowMo | |
-| AllowCutsceneOverScreenFade | |
-| AllowForceRadioAfterRetune | |
-| AllowPainAndAmbientSpeechToPlayDuringCutscene | |
-| AllowPlayerAIOnMission | |
-| AllowPoliceScannerWhenPlayerHasNoControl | |
-| AllowRadioDuringSwitch | |
-| AllowRadioOverScreenFade | |
-| AllowScoreAndRadio | |
-| AllowScriptedSpeechInSlowMo | |
-| AvoidMissionCompleteDelay | |
-| DisableAbortConversationForDeathAndInjury | |
-| DisableAbortConversationForRagdoll | |
-| DisableBarks | |
-| DisableFlightMusic | |
-| DisableNPCHeadsetSpeechAttenuation | |
-| DisableReplayScriptStreamRecording | |
-| EnableHeadsetBeep | |
-| EnableMissileLockWarningForAllVehicles | |
-| ForceConversationInterrupt | |
-| ForceSeamlessRadioSwitch | |
-| ForceSniperAudio | |
-| FrontendRadioDisabled | |
-| HoldMissionCompleteWhenPrepared | |
-| IsDirectorModeActive |  Allows you to play speech infinitely without any pauses like in Director Mode. |
-| IsPlayerOnMissionForSpeech | |
-| ListenerReverbDisabled | |
-| LoadMPData | |
-| MobileRadioInGame | |
-| OnlyAllowScriptTriggerPoliceScanner | |
-| PlayerOnDLCHeist4Island | |
-| PlayMenuMusic | |
-| PoliceScannerDisabled | |
-| ScriptedConvListenerMaySpeak | |
-| SpeechDucksScore | |
-| SuppressPlayerScubaBreathing | |
-| UseQuietSceneSoftVersion | |
-| WantedMusicDisabled | |
-| WantedMusicOnMission | |
-
 ```
-All flag IDs and hashes:
-ID: 01 | Hash: 0x20A7858F
-ID: 02 | Hash: 0xA11C2259
-ID: 03 | Hash: 0x08DE4700
-ID: 04 | Hash: 0x989F652F
-ID: 05 | Hash: 0x3C9E76BA
-ID: 06 | Hash: 0xA805FEB0
-ID: 07 | Hash: 0x4B94EA26
-ID: 08 | Hash: 0x803ACD34
-ID: 09 | Hash: 0x7C741226
-ID: 10 | Hash: 0x31DB9EBD
-ID: 11 | Hash: 0xDF386F18
-ID: 12 | Hash: 0x669CED42
-ID: 13 | Hash: 0x51F22743
-ID: 14 | Hash: 0x2052B35C
-ID: 15 | Hash: 0x071472DC
-ID: 16 | Hash: 0xF9928BCC
-ID: 17 | Hash: 0x7ADBDD48
-ID: 18 | Hash: 0xA959BA1A
-ID: 19 | Hash: 0xBBE89B60
-ID: 20 | Hash: 0x87A08871
-ID: 21 | Hash: 0xED1057CE
-ID: 22 | Hash: 0x1584AD7A
-ID: 23 | Hash: 0x8582CFCB
-ID: 24 | Hash: 0x7E5E2FB0
-ID: 25 | Hash: 0xAE4F72DB
-ID: 26 | Hash: 0x5D16D1FA
-ID: 27 | Hash: 0x06B2F4B8
-ID: 28 | Hash: 0x5D4CDC96
-ID: 29 | Hash: 0x8B5A48BA
-ID: 30 | Hash: 0x98FBD539
-ID: 31 | Hash: 0xD8CB0473
-ID: 32 | Hash: 0x5CBB4874
-ID: 33 | Hash: 0x2E9F93A9
-ID: 34 | Hash: 0xD93BEA86
-ID: 35 | Hash: 0x92109B7D
-ID: 36 | Hash: 0xB7EC9E4D
-ID: 37 | Hash: 0xCABDBB1D
-ID: 38 | Hash: 0xB3FD4A52
-ID: 39 | Hash: 0x370D94E5
-ID: 40 | Hash: 0xA0F7938F
-ID: 41 | Hash: 0xCBE1CE81
-ID: 42 | Hash: 0xC27F1271
-ID: 43 | Hash: 0x9E3258EB
-ID: 44 | Hash: 0x551CDA5B
-ID: 45 | Hash: 0xCB6D663C
-ID: 46 | Hash: 0x7DACE87F
-ID: 47 | Hash: 0xF9DE416F
-ID: 48 | Hash: 0x882E6E9E
-ID: 49 | Hash: 0x16B447E7
-ID: 50 | Hash: 0xBD867739
-ID: 51 | Hash: 0xA3A58604
-ID: 52 | Hash: 0x7E046BBC
-ID: 53 | Hash: 0xD95FDB98
-ID: 54 | Hash: 0x5842C0ED
-ID: 55 | Hash: 0x285FECC6
-ID: 56 | Hash: 0x9351AC43
-ID: 57 | Hash: 0x50032E75
-ID: 58 | Hash: 0xAE6D0D59
-ID: 59 | Hash: 0xD6351785
-ID: 60 | Hash: 0xD25D71BC
-ID: 61 | Hash: 0x1F7F6423
-ID: 62 | Hash: 0xE24C3AA6
-ID: 63 | Hash: 0xBFFDD2B7
+All flag names and hashes:
+Name: RadioOverlapDisabled | Hash: 0xFED7A7F
+Name: AggressiveHorns | Hash: 0x20A7858F
+Name: CarsStartFirstTime | Hash: 0xA11C2259
+Name: BoostPlayerCarVolume | Hash: 0x8DE4700
+Name: UserRadioControlDisabled | Hash: 0x989F652F
+Name: FrontendRadioDisabled | Hash: 0x3C9E76BA
+Name: MobileRadioInGame | Hash: 0xA805FEB0
+Name: ForceSeamlessRadioSwitch | Hash: 0x4B94EA26
+Name: AllowScoreAndRadio | Hash: 0x803ACD34
+Name: PoliceScannerDisabled | Hash: 0x7C741226
+Name: OnlyAllowScriptTriggerPoliceScanner | Hash: 0x31DB9EBD
+Name: AllowPoliceScannerWhenPlayerHasNoControl | Hash: 0xDF386F18
+Name: DisableAbortConversationForRagdoll | Hash: 0x669CED42
+Name: DisableAbortConversationForOnFire | Hash: 0x51F22743
+Name: DisableAbortConversationForDeathAndInjury | Hash: 0x2052B35C
+Name: LimitAmbientRadioStations | Hash: 0x71472DC
+Name: SpeechDucksScore | Hash: 0xF9928BCC
+Name: ListenerReverbDisabled | Hash: 0x7ADBDD48
+Name: ScriptedSpeechDuckingDisabled | Hash: 0xA959BA1A
+Name: ScriptedConvListenerMaySpeak | Hash: 0xBBE89B60
+Name: OnlyAllowCombatSay | Hash: 0x87A08871
+Name: AllowPlayerAIOnMission | Hash: 0xED1057CE
+Name: AllowBuddyAIOnMission  | Hash: 0x1584AD7A
+Name: GroupShootout | Hash: 0x8582cfcb
+Name: TrevorRageIsOverriden | Hash: 0x7E5E2FB0
+Name: UnderWaterStreamOverriden | Hash: 0xAE4F72DB
+Name: WantedMusicDisabled | Hash: 0x5D16D1FA
+Name: DisablePlayerBreathing | Hash: 0x6B2F4B8
+Name: WantedMusicOnMission | Hash: 0x5D4CDC96
+Name: DisableSniperAudio | Hash: 0x8B5A48BA
+Name: ForceSniperAudio | Hash: 0x98FBD539
+Name: OverridePlayerGroundMaterial | Hash: 0xD8CB0473
+Name: ScriptForceMicPosition | Hash: 0x5CBB4874
+Name: ScriptForceGunfightConductorIntensity | Hash: 0x2E9F93A9
+Name: DisableFlightMusic | Hash: 0xD93BEA86
+Name: DoNotBlipScriptedSpeech | Hash: 0x92109B7D
+Name: DisableBarks | Hash: 0xB7EC9E4D
+Name: RepeatLineForRagdolling | Hash: 0xCABDBB1D
+Name: DontRepeatLineForPlayerRagdolling | Hash: 0xB3FD4A52
+Name: OverrideElevationWind | Hash: 0x370D94E5
+Name: HoldMissionCompleteWhenPrepared | Hash: 0xA0F7938F
+Name: AvoidMissionCompleteDelay | Hash: 0xCBE1CE81
+Name: AllowScriptedSpeechInSlowMo | Hash: 0xC27F1271
+Name: ActivateSwitchWheelAudio | Hash: 0x9E3258EB
+Name: AllowAmbientSpeechInSlowMo | Hash: 0x551CDA5B
+Name: AllowRadioOverScreenFade | Hash: 0xCB6D663C
+Name: ScriptPlayingDistantSiren | Hash: 0x7DACE87F
+Name: AllowRadioDuringSwitch | Hash: 0xF9DE416F
+Name: LoadMPData | Hash: 0x882E6E9E
+Name: UseQuietSceneSoftVersion | Hash: 0x16B447E7
+Name: PlayMenuMusic | Hash: 0xBD867739
+Name: OverrideMicrophoneSettings | Hash: 0xA3A58604
+Name: SuppressPlayerScubaBreathing | Hash: 0x7E046BBC
+Name: IsPlayerOnMissionForSpeech | Hash: 0xD95FDB98
+Name: AllowPainAndAmbientSpeechToPlayDuringCutscene | Hash: 0x5842C0ED
+Name: ForceConversationInterrupt | Hash: 0x285FECC6
+Name: DisableReplayScriptStreamRecording | Hash: 0x9351AC43
+Name: DisableReplayScriptFrontendStreamRecording | Hash:0x50032E75
+Name: AllowForceRadioAfterRetune | Hash: 0xAE6D0D59
+Name: IsDirectorModeActive | Hash: 0xD6351785
+Name: EnableHeadsetBeep | Hash: 0xD25D71BC
+Name: DisableHeadsetOnBeep | Hash: 0x1F7F6423
+Name: DisableHeadsetOffBeep | Hash: 0xE24C3AA6
+Name: AllowCutsceneOverScreenFade | Hash: 0xBFFDD2B7
+Name: SuppressRadioSwitchBeep | Hash: 0x3FCC2ABF
+Name: EnableGameplayCriticalMusicEmitters | Hash: 0x2EB25AD0
+Name: EnableMissileLockWarningForAllVehicles | Hash: 0x2B56D9D0
+Name: PlayerOnDLCHeist4Island | Hash: 0xAE6A6DE9
+Name: DisableNPCHeadsetSpeechAttenuation | Hash: 0x49D479E5
 ```
 
 ## Parameters
-* **flagName**:
-* **toggle**:
+* **flagName**: name of the flag
+* **enabled**: whether flag is enabler or not
 
