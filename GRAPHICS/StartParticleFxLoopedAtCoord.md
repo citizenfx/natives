@@ -28,5 +28,4 @@ The returned id of the particle effect needs to be passed into any other functio
 * **localOnly**: 
 
 ## Return value
-
-* **INT**: the id of the created particle effect - this will be 0 if creation fails 
+Returns the id of the created particle effect as an int, or 0 if the creation failed.

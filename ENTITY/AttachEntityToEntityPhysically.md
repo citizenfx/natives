@@ -30,5 +30,5 @@ Attaches an entity to another entity using a physical attachment
 * **doInitialWarp**: specifies whether to warp the object to the specified attach point. If not, then the initial seperation will be used as an allowed give in the attachment (e.g. a rope length)
 * **collision**: if set the two entities will collide with each other once attached
 * **addInitialSeperation**: 
-* **rotOrder**: euler order of rotation angles
+* **rotOrder**: The order in which the rotation is applied. See [`GET_ENTITY_ROTATION`](#_0xAFBD61CC738D9EB9)
 

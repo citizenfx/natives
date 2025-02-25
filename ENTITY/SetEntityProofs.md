@@ -5,7 +5,7 @@ ns: ENTITY
 
 ```c
 // 0xFAEE099C6F890BB8 0x7E9EAB66
-void SET_ENTITY_PROOFS(Entity entity, BOOL bulletProof, BOOL fireProof, BOOL explosionProof, BOOL collisionProof, BOOL meleeProof, BOOL steamProof, BOOL dontResetDamageFlagsOnCleanupMissionState, BOOL smokeProof);
+void SET_ENTITY_PROOFS(Entity entity, BOOL bulletProof, BOOL fireProof, BOOL explosionProof, BOOL collisionProof, BOOL meleeProof, BOOL steamProof, BOOL noDamageResetOnCleanup, BOOL smokeProof);
 ```
 
 Enable/disable damage of each type

@@ -13,4 +13,4 @@ Sets the collision around the entity to load.
 ## Parameters
 * **entity**: entity to load collisions around for 
 * **loadCollisionFlag**: flags to load collisions or not
-* **doDeadCheck**: check if entity is dead. if arg true and entity is dead, the collisions will not be loaded
+* **doDeadCheck**: Check if entity is dead. If `true` and entity is dead, the collisions will not be loaded
