@@ -8,10 +8,9 @@ ns: ENTITY
 void APPLY_FORCE_TO_ENTITY(Entity entity, int forceType, float x, float y, float z, float offX, float offY, float offZ, int nComponent, BOOL bLocalForce, BOOL bLocalOffset, BOOL bScaleByMass, BOOL bPlayAudio, BOOL bScaleByTimeWarp);
 ```
 
-Apply a force to an entity. More research/documentation on the gtaforums can be found [here](https://gtaforums.com/topic/885669-precisely-define-object-physics/) and [here](https://gtaforums.com/topic/887362-apply-forces-and-momentums-to-entityobject/).
 
-```cpp
-enum eCommandApplyForceTypes {
+```c
+enum eApplyForceTypes {
     APPLY_TYPE_FORCE = 0,
     APPLY_TYPE_IMPULSE = 1,
     APPLY_TYPE_EXTERNAL_FORCE = 2,
