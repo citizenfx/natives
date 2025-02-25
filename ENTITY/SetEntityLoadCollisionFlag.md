@@ -5,7 +5,7 @@ ns: ENTITY
 
 ```c
 // 0x0DC7CABAB1E9B67E 0xC52F295B
-void SET_ENTITY_LOAD_COLLISION_FLAG(Entity entity, BOOL loadCollisionFlag, BOOL doDeadCheck);
+void SET_ENTITY_LOAD_COLLISION_FLAG(Entity entity, BOOL loadCollisionFlag, cs_split BOOL doDeadCheck);
 ```
 
 Sets the collision around the entity to load.
