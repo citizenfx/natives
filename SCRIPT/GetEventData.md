@@ -5,7 +5,7 @@ ns: SCRIPT
 
 ```c
 // 0x2902843FCD2B2D79 0x4280F92F
-BOOL GET_EVENT_DATA(int eventGroup, int eventIndex, int* eventData, int eventDataSize);
+BOOL GET_EVENT_DATA(int eventGroup, int eventIndex, Any* eventData, int eventDataSize);
 ```
 
 ```

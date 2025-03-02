@@ -6,7 +6,7 @@ aliases: ["0x137BC35589E34E1E","_NOTIFICATION_SEND_CLAN_INVITE","_DRAW_NOTIFICAT
 
 ```c
 // 0x137BC35589E34E1E 0x88B9B909
-int END_TEXT_COMMAND_THEFEED_POST_CREWTAG_WITH_GAME_NAME(BOOL crewTypeIsPrivate, BOOL crewTagContainsRockstar, int* crewTag, int rank, BOOL isLeader, BOOL isImportant, int clanHandle, char* gamerStr, int r, int g, int b);
+int END_TEXT_COMMAND_THEFEED_POST_CREWTAG_WITH_GAME_NAME(BOOL crewTypeIsPrivate, BOOL crewTagContainsRockstar, Any* crewTag, int rank, BOOL isLeader, BOOL isImportant, int clanHandle, char* gamerStr, int r, int g, int b);
 ```
 
 ```

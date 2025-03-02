@@ -5,7 +5,7 @@ ns: NETWORK
 
 ```c
 // 0xC8BC2011F67B3411 0xCDC4A590
-BOOL NETWORK_CLAN_GET_MEMBERSHIP(int* networkHandle, int* clanMembership, int membershipIndex);
+BOOL NETWORK_CLAN_GET_MEMBERSHIP(Any* networkHandle, Any* clanMembership, int membershipIndex);
 ```
 
 Retrieves a membership for a player, from the cache (i.e. downloaded via NETWORK_CLAN_DOWNLOAD_MEMBERSHIP).
