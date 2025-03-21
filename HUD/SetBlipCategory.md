@@ -20,10 +20,12 @@ Examples result:
 7 = "Other Players" category, also shows distance in legend
 10 = "Property" category
 11 = "Owned Property" category
+12 - 133 = Custom named categories
+134 - 254 = Custom unnamed categories
 ```
-Any other value behaves like `index = 1`, `index` wraps around after 255
+`index` wraps around after 255.
 
-Blips with categories `7`, `10` or `11` will all show under the specific categories listing in the map legend, regardless of sprite or name.
+Blips with categories `7`, `10`, `11` or `12 - 254` (custom categories) will all show under the specific categories listing in the map legend, regardless of sprite or name.
 
 
 **Legend entries**
@@ -33,6 +35,8 @@ Blips with categories `7`, `10` or `11` will all show under the specific categor
 | 7 | Other Players | `BLIP_OTHPLYR` |
 | 10 | Property | `BLIP_PROPCAT` |
 | 11 | Owned Property | `BLIP_APARTCAT` |
+| 12 - 133 | Custom categories (Named) | `BLIP_CAT_` + `index` |
+| 134 - 254 | Custom categories (Unnamed) | `-` |
 
 
 ## Parameters
@@ -52,5 +56,11 @@ SetBlipCategory(blip, 10)
 blip = AddBlipForCoord(-927.92755126953, -2824.1362304688, 13.947744369507)
 SetBlipSprite(blip, 372) -- Hangar For Sale
 SetBlipCategory(blip, 10)
+
+-- Custom named categories
+blip = AddBlipForCoord(0.0, 0.0, 0.0)
+SetBlipSprite(blip, 375) -- Business For Sale
+SetBlipCategory(blip, 12)
+AddTextEntry("BLIP_CAT_" .. 12, "Businesses For Sale")
 ```
 
