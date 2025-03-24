@@ -3,7 +3,7 @@ GTA V Natives Documentation
 
 Documentation of GTA V's native function database.
 
-https://runtime.fivem.net/doc/natives/
+https://docs.fivem.net/natives/
 
 Contributing
 ------------
