@@ -12,7 +12,8 @@ int REGISTER_PEDHEADSHOT_TRANSPARENT(Ped ped);
 Similar to REGISTER_PEDHEADSHOT but creates a transparent background instead of black.
 
 **Result of the example code:**
-[https://i.imgur.com/iHz8ztn.png](https://i.imgur.com/iHz8ztn.png)
+
+![](./RegisterPedheadshotTransparent/vMj15QZ.webp)
 
 ## Parameters
 * **ped**: A ped handle.
