@@ -28,7 +28,7 @@ jobs:
         run: |
           mkdir ./in
           . ./.ci/config.sh
-          rsync -q --ignore-missing-args $NATIVE_DEPLOY_URL/$CONFIG_UPLOAD_COMPAT_FILE.lua ./in/$CONFIG_UPLOAD_COMPAT_FILE.lua
+          rsync -e "ssh" -q --ignore-missing-args $NATIVE_DEPLOY_URL/$CONFIG_UPLOAD_COMPAT_FILE.lua ./in/$CONFIG_UPLOAD_COMPAT_FILE.lua
       - name: Run build
         run: |
           set -xe
@@ -38,5 +38,5 @@ jobs:
         env:
           NATIVE_DEPLOY_URL: ${{ secrets.NATIVE_DEPLOY_URL }}
         run: |
-          rsync -rq --exclude=*compat.lua* ./out/ $NATIVE_DEPLOY_URL
-          rsync -rqb --backup-dir=./ --suffix=.bak --include=*compat.lua --exclude=* ./out/ $NATIVE_DEPLOY_URL
+          rsync -e "ssh" -rq --exclude=*compat.lua* ./out/ $NATIVE_DEPLOY_URL
+          rsync -e "ssh" -rqb --backup-dir=./ --suffix=.bak --include=*compat.lua --exclude=* ./out/ $NATIVE_DEPLOY_URL
