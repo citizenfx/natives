@@ -6,7 +6,7 @@ aliases: ["0x97C9E4E7024A8F2C","_NOTIFICATION_SEND_APARTMENT_INVITE","_DRAW_NOTI
 
 ```c
 // 0x97C9E4E7024A8F2C 0xA9CCEF66
-int END_TEXT_COMMAND_THEFEED_POST_CREWTAG(BOOL crewTypeIsPrivate, BOOL crewTagContainsRockstar, int* crewTag, int rank, BOOL hasFounderStatus, BOOL isImportant, int clanHandle, int r, int g, int b);
+int END_TEXT_COMMAND_THEFEED_POST_CREWTAG(BOOL crewTypeIsPrivate, BOOL crewTagContainsRockstar, Any* crewTag, int rank, BOOL hasFounderStatus, BOOL isImportant, int clanHandle, int r, int g, int b);
 ```
 
 ```

@@ -6,7 +6,7 @@ aliases: ["0x7543BB439F63792B"]
 
 ```c
 // 0x7543BB439F63792B 0x54E79E9C
-BOOL NETWORK_CLAN_IS_ROCKSTAR_CLAN(int* clanDesc, int bufferSize);
+BOOL NETWORK_CLAN_IS_ROCKSTAR_CLAN(Any* clanDesc, int bufferSize);
 ```
 
 ```
