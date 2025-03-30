@@ -1,15 +1,15 @@
 ---
 ns: HUD
-aliases: ["0x632B2940C67F4EA9"]
+aliases: ["0x632B2940C67F4EA9", "_GET_SCALEFORM_MOVIE_CURSOR_SELECTION"]
 ---
-## _GET_SCALEFORM_MOVIE_CURSOR_SELECTION
+## GET_MOUSE_EVENT
  
 ```c
 // 0x632B2940C67F4EA9
-BOOL _GET_SCALEFORM_MOVIE_CURSOR_SELECTION(int scaleformHandle, cs_type(Any*) bool* received, cs_type(Any*) int* selectionType, cs_type(Any*) int* context, int* slotIndex);
+BOOL GET_MOUSE_EVENT(int scaleformHandle, cs_type(Any*) bool* received, cs_type(Any*) int* selectionType, cs_type(Any*) int* context, int* slotIndex);
 ```
 
-Gets mouse selection data from scaleforms with mouse support. Must be checked every frame.
+Gets mouse event data from scaleforms with mouse support. Must be checked every frame.
 Returns item index if using the COLOUR_SWITCHER_02 scaleform.
 Selection types, found in MOUSE_EVENTS.as:
 MOUSE_DRAG_OUT = 0;
@@ -36,7 +36,7 @@ This native, due to its erroneous redundancy of the returned boolean value, work
 
 ## Examples
 ```lua
-local success, _eventType, _context, _itemId = GetScaleformMovieCursorSelection(scaleform)
+local success, _eventType, _context, _itemId = GetMouseEvent(scaleform)
 ```
 ```cs
 int eventType = 0;
@@ -44,7 +44,7 @@ int itemId = 0;
 int context = 0;
 int unused = 0;
 
-var success = GetScaleformMovieCursorSelection(scaleform.Handle, ref eventType, ref context, ref itemId, ref unused);
+var success = GetMouseEvent(scaleform.Handle, ref eventType, ref context, ref itemId, ref unused);
 ```
 
 ## Parameters
