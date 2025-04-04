@@ -55,7 +55,9 @@ Alt = {
 }
 ```
 
-**Result of the example code:** [https://i.imgur.com/TvmNF4k.png](https://i.imgur.com/TvmNF4k.png)
+**Result of the example code:**
+
+![](./SetWarningMessageWithAlert/rZ54JGW.webp)
 
 ## Parameters
 * **labelTitle**: Label of the alert's title. 

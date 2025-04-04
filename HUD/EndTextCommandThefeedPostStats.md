@@ -11,11 +11,9 @@ int END_TEXT_COMMAND_THEFEED_POST_STATS(char* statTitle, int iconEnum, BOOL step
 
 [List of picture names](https://pastebin.com/XdpJVbHz)
 
-
 Example result:
 
-
-![](https://i.imgur.com/SdEZ22m.png)
+![](./EndTextCommandThefeedPostStats/LCHQpjg.webp)
 
 
 ## Parameters
