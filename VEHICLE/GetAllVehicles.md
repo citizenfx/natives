@@ -1,6 +1,6 @@
 ---
 ns: VEHICLE
-aliases: [" _GET_ALL_VEHICLES"]
+aliases: ["_GET_ALL_VEHICLES"]
 ---
 ## GET_ALL_VEHICLES
 
