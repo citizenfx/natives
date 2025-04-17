@@ -6,7 +6,7 @@ aliases: ["0xDA024BDBD600F44A"]
 
 ```c
 // 0xDA024BDBD600F44A 0x0B9A3512
-void _SC_INBOX_MESSAGE_PUSH_GAMER_TO_EVENT_RECIP_LIST(int* networkHandle);
+void _SC_INBOX_MESSAGE_PUSH_GAMER_TO_EVENT_RECIP_LIST(Any* networkHandle);
 ```
 
 ## Parameters
