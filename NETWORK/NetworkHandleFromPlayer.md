@@ -5,7 +5,7 @@ ns: NETWORK
 
 ```c
 // 0x388EB2B86C73B6B3 0xD3498917
-void NETWORK_HANDLE_FROM_PLAYER(Player player, int* networkHandle, int bufferSize);
+void NETWORK_HANDLE_FROM_PLAYER(Player player, Any* networkHandle, int bufferSize);
 ```
 
 ```
