@@ -17,7 +17,7 @@ Works independently from the player-placed waypoint and blip routes.
 
 **Example result:**
 
-![](https://i.imgur.com/ZZHQatX.png)
+![](./StartGpsMultiRoute/E5CzggL.webp)
 
 ## Parameters
 * **hudColor**: The HUD color of the GPS path.

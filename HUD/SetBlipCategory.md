@@ -10,7 +10,7 @@ void SET_BLIP_CATEGORY(Blip blip, int index);
 
 Examples result:
 
-![](https://i.imgur.com/skY6vAJ.png)
+![](./SetBlipCategory/3ralFxl.webp)
 
 
 **index:**
@@ -63,4 +63,3 @@ SetBlipSprite(blip, 375) -- Business For Sale
 SetBlipCategory(blip, 12)
 AddTextEntry("BLIP_CAT_" .. 12, "Businesses For Sale")
 ```
-
