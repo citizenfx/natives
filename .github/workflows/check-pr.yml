@@ -3,7 +3,7 @@ on: [pull_request]
 
 jobs:
   validate:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-24.04
     name: Validate PR
     steps:
       - name: Get PR commits
