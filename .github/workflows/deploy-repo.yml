@@ -17,6 +17,9 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: '12' # while 14+ technically works, it's 25-50x slower at running native-doc-tooling
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.8' # node-gyp compatibility
       - name: Install SSH key
         uses: shimataro/ssh-key-action@v2
         with:

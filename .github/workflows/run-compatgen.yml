@@ -48,6 +48,11 @@ jobs:
       - name: Install Node.js
         uses: actions/setup-node@v2
       
+      - name: Install Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.8' # node-gyp compatibility
+
       - name: Install SSH key
         if: inputs.no_input == false || inputs.output_action == 'Deploy to remote'
         uses: shimataro/ssh-key-action@v2
