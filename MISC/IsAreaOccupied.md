@@ -5,23 +5,27 @@ ns: MISC
 
 ```c
 // 0xA61B4DF533DCB56E 0xC013972F
-BOOL IS_AREA_OCCUPIED(float p0, float p1, float p2, float p3, float p4, float p5, BOOL p6, BOOL p7, BOOL p8, BOOL p9, BOOL p10, Any p11, BOOL p12);
+BOOL IS_AREA_OCCUPIED(float x, float y, float z, float x2, float y2, float z2, BOOL p6, BOOL vehicles, BOOL peds, BOOL objects, BOOL p10, Entity entity, BOOL p12);
 ```
 
+The first coords are for the starting point, with the second coords it will make a box (or square if you don't change height) and that will be the area in which it detects if it's occupied.
+Excluded entities aren't detected to determine whether the area is occupied or not.
+With the unknown parameters, I've tried with police cars, boats, helicopters, planes and trains but none of them returned true it seems they're included in vehicles.
 
 ## Parameters
-* **p0**: 
-* **p1**: 
-* **p2**: 
-* **p3**: 
-* **p4**: 
-* **p5**: 
-* **p6**: 
-* **p7**: 
-* **p8**: 
-* **p9**: 
-* **p10**: 
-* **p11**: 
-* **p12**: 
+* **x**: Spawn coordinate X component.
+* **y**: Spawn coordinate Y component.
+* **z**: Spawn coordinate Z component.
+* **x2**: Spawn coordinate X component.
+* **y2**: Spawn coordinate Y component.
+* **z2**: Spawn coordinate Z component.
+* **p6**: If enabled always returns true.
+* **vehicles**: It will include cars in the detection.
+* **peds**: It will include peds in the detection.
+* **objects**: It will include objs in the detection.
+* **p10**: Couldn't figure out what includes in the detection.
+* **entity**: Entity handle to exclude.
+* **p12**: Couldn't figure out what includes in the detection.
 
 ## Return value
+If the area is occupied or not.
