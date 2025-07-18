@@ -1,6 +1,7 @@
 ---
-ns: PLAYER
----
+ns: PLAYERuu
+
+
 ## SET_POLICE_IGNORE_PLAYER
 
 ```c
