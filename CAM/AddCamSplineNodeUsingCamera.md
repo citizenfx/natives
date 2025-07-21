@@ -11,12 +11,11 @@ void ADD_CAM_SPLINE_NODE_USING_CAMERA(Cam cam, Cam cam2, int length, int p3);
 
 Takes a camera and uses the information from it as a camera spline node. 
 
-
 ## Parameters
 * **cam**: Camera to add cam2 as a node to
 * **cam2**: Camera used for reference
 * **length**: Duration used for transition, has no effect for the first node.
-* **p3**: 
+* **flags**: Flags to be set, see [`ADD_CAM_SPLINE_NODE`](#_0x8609C75EC438FB3B)
 
 ## Examples
 ```cs
