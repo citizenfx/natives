@@ -6,7 +6,7 @@ aliases: ["0x0FB82563989CF4FB"]
 
 ```c
 // 0x0FB82563989CF4FB 0xBA6C085B
-void ADD_CAM_SPLINE_NODE_USING_CAMERA(Cam cam, Cam cam2, int length, int p3);
+void ADD_CAM_SPLINE_NODE_USING_CAMERA(Cam cam, Cam cam2, int length, int flags);
 ```
 
 Takes a camera and uses the information from it as a camera spline node. 
