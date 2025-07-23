@@ -8,9 +8,6 @@ ns: CAM
 void ADD_CAM_SPLINE_NODE(Cam camera, float x, float y, float z, float xRot, float yRot, float zRot, int duration, int flags, int rotOrder);
 ```
 
-
-Rotation order: For what I've tested so far cam natives only have XYZ rotation orden available which equals to 0, using another number gets the same result.
-
 Flags:
 ```c
 enum CAM_SPLINE_NODE_FLAGS {
@@ -33,4 +30,4 @@ enum CAM_SPLINE_NODE_FLAGS {
 * **zRot**: The yaw (Z-axis) rotation in degrees
 * **duration**: The time taken to transition from the previous node to this node, in milliseconds.
 * **flags**: Read description.
-* **rotOrder**: Rotation order to use. Read description
+* **rotOrder**: Rotation order to use. See [`GET_ENTITY_ROTATION`](#_0xAFBD61CC738D9EB9)

@@ -14,4 +14,7 @@ NativeDB Introduced: v2699
 ```
 
 ## Parameters
-* **cam**:
+* **cam**: Cam handle to get DOF
+
+## Return value
+Returns the "strength" of the camera's Depth Of Field.

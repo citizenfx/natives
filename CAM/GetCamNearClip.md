@@ -10,6 +10,7 @@ float GET_CAM_NEAR_CLIP(Cam cam);
 
 
 ## Parameters
-* **cam**: 
+* **cam**: Cam handle to get the near clip distance.
 
 ## Return value
+Returns the camera's near clip distance (in m.)

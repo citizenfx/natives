@@ -10,9 +10,20 @@ Vector3 GET_CAM_ROT(Cam cam, int rotationOrder);
 
 Gets a camera's rotation by handle (`cam`) lookup, outputs a `Vector3` in degrees.
 
+```c
+enum rotOrder {
+	EULER_XYZ = 0,
+	EULER_XZY = 1,
+	EULER_YXZ = 2,
+	EULER_YZX = 3,
+	EULER_ZXY = 4,
+	EULER_ZYX = 5
+}
+```
+
 ## Parameters
 * **cam**: The camera handle.
-* **rotationOrder**: The order of rotation, see [`GET_ENTITY_ROTATION`](#_0xAFBD61CC738D9EB9)
+* **rotationOrder**: The rotation order. See enumerator and description.
 
 ## Return value
 A `Vector3` representing the camera rotation in degrees.

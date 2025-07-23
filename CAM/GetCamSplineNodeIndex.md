@@ -12,3 +12,4 @@ int GET_CAM_SPLINE_NODE_INDEX(Cam cam);
 * **cam**: 
 
 ## Return value
+Returns current index of specified spline camera. Returns 0 if camera is invalid.

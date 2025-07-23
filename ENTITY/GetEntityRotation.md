@@ -12,19 +12,13 @@ Vector3 GET_ENTITY_ROTATION(Entity entity, int rotationOrder);
 
 
 ```c
-enum eRotationOrder {
-    // Rotate around the z-axis, then the y-axis and finally the x-axis.
-    ROT_ZYX = 0,
-    // Rotate around the y-axis, then the z-axis and finally the x-axis.
-    ROT_YZX = 1,
-    // Rotate around the z-axis, then the x-axis and finally the y-axis.
-    ROT_ZXY = 2,
-    // Rotate around the x-axis, then the z-axis and finally the y-axis.
-    ROT_XZY = 3,
-    // Rotate around the y-axis, then the x-axis and finally the z-axis.
-    ROT_YXZ = 4,
-    // Rotate around the x-axis, then the y-axis and finally the z-axis.
-    ROT_XYZ = 5,
+enum rotOrder {
+	EULER_XYZ = 0,
+	EULER_XZY = 1,
+	EULER_YXZ = 2,
+	EULER_YZX = 3,
+	EULER_ZXY = 4,
+	EULER_ZYX = 5
 }
 ```
 
