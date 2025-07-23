@@ -10,15 +10,14 @@ Vector3 GET_ENTITY_ROTATION(Entity entity, int rotationOrder);
 
 **NOTE**: What you use for rotationOrder when getting must be the same as rotationOrder when setting the rotation.
 
-
 ```c
-enum rotOrder {
-	EULER_XYZ = 0,
-	EULER_XZY = 1,
-	EULER_YXZ = 2,
-	EULER_YZX = 3,
-	EULER_ZXY = 4,
-	EULER_ZYX = 5
+enum EulerAngleOrder {
+  EULER_XYZ, // 0
+  EULER_XZY, // 1
+  EULER_YXZ, // 2
+  EULER_YZX, // 3
+  EULER_ZXY, // 4
+  EULER_ZYX, // 5
 }
 ```
 
