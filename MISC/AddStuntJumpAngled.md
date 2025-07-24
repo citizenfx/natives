@@ -5,7 +5,7 @@ ns: MISC
 
 ```c
 // 0xBBE5D803A5360CBF 0xB9B7E777
-int ADD_STUNT_JUMP_ANGLED(float x1, float y1, float z1, float x2, float y2, float z2, float radius1, float x3, float y3, float z3, float x4, float y4, float z4, float radius2, float camX, float camY, float camZ, int reward, int set, bool camOptional);
+int ADD_STUNT_JUMP_ANGLED(float x1, float y1, float z1, float x2, float y2, float z2, float startWidth, float x3, float y3, float z3, float x4, float y4, float z4, float endWidth, float camX, float camY, float camZ, int reward, int set, bool camOptional);
 ```
 
 Creates a new stunt jump. 
@@ -28,8 +28,12 @@ Next part are the coordinates the landingarea, it creates box with the two vecto
 
 The final coordinate in this native is the Camera position. Rotation and zoom/FOV is managed by the game itself, you just need to provide the camera location.
 
+
+
 **reward**
 It just gives points, I'm not really sure what type of points it gives,
+
+
 
 **set**
 By default only set 0 stunt jumps are enabled. This value can only be in the range 0 to 31. You can enable a set of stunt jumps with [`ENABLE_STUNT_JUMP_SET`](#_0xE369A5783B866016)
@@ -57,7 +61,7 @@ By default only set 0 stunt jumps are enabled. This value can only be in the ran
 * **camOptional**: Wether the cinematic camera of the stunt jump is optional or not. Usually false.
 
 ## Return value
-The ID of the stuntjump that was created.
+The ID of the stunt jump that was created.
 
 ## Examples
 ```lua
