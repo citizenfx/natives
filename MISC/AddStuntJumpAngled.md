@@ -5,7 +5,7 @@ ns: MISC
 
 ```c
 // 0xBBE5D803A5360CBF 0xB9B7E777
-int ADD_STUNT_JUMP_ANGLED(float x1, float y1, float z1, float x2, float y2, float z2, float radius1, float x3, float y3, float z3, float x4, float y4, float z4, float radius2, float camX, float camY, float camZ, int unk1, int unk2, int unk3);
+int ADD_STUNT_JUMP_ANGLED(float x1, float y1, float z1, float x2, float y2, float z2, float radius1, float x3, float y3, float z3, float x4, float y4, float z4, float radius2, float camX, float camY, float camZ, int reward, int set, bool camOptional);
 ```
 
 Creates a new stunt jump. 
