@@ -8,7 +8,7 @@ ns: PED
 int GET_PED_BONE_INDEX(Ped ped, int boneId);
 ```
 
-```
+```c
 enum ePedBoneId : uint16_t
 {
     SKEL_ROOT = 0x0,

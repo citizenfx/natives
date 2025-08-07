@@ -12,7 +12,7 @@ int _GET_CAM_ACTIVE_VIEW_MODE_CONTEXT();
 Enumerated type defined in camControlHelperMetadataViewModes:
 
 ```c
-enum Context {
+enum eContext {
     ON_FOOT = 0, // [G|S]ET_FOLLOW_PED_CAM_*
     IN_VEHICLE = 1, // [G|S]ET_FOLLOW_VEHICLE_CAM_*
     ON_BIKE = 2,

@@ -32,6 +32,8 @@ NativeDB Introduced: v323
 - BLIZZARD
 - HALLOWEEN
 - NEUTRAL
+- RAIN_HALLOWEEN
+- SNOW_HALLOWEEN
 
 ## Parameters
 * **weatherType**: The weather type to set. This should be one of the predefined weather type strings.

@@ -8,10 +8,8 @@ ns: HUD
 void SET_WARNING_MESSAGE(char* entryLine1, int instructionalKey, char* entryLine2, BOOL p3, int p4, cs_type(AnyPtr) char* background, cs_type(AnyPtr) char* p6, BOOL showBg, int errorCode);
 ```
 
-**instructionalKey enum list**:
-
-```
-enum INSTRUCTIONAL_BUTTON_TYPES
+```c
+enum eInstructionalButtonTypes
 {
     NONE = 0,
     SELECT = 1,

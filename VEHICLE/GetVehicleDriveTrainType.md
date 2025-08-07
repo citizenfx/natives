@@ -18,10 +18,10 @@ NativeDB Introduced: v3258
 
 enum eVehicleDrivetrainType
 {
-	VehicleDrivetrainType_INVALID = 0,
-	VehicleDrivetrainType_FWD,
-	VehicleDrivetrainType_RWD,
-	VehicleDrivetrainType_AWD
+    INVALID = 0,
+    FWD = 1,
+    RWD = 2,
+    AWD = 3
 };
 ```
 

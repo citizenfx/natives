@@ -1,6 +1,6 @@
 ---
 ns: HUD
-aliases: ['0x5BFF36D6ED83E0AE']
+aliases: ["0x5BFF36D6ED83E0AE"]
 ---
 ## _GET_PAUSE_MENU_CURSOR_POSITION
 

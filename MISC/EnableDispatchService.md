@@ -13,24 +13,24 @@ Enables or disables the specified 'dispatch service' type. 'Dispatch services' a
 
 List of dispatch services:
 
-```cpp
-enum DispatchType
+```c
+enum eDispatchType
 {
 	DT_Invalid = 0,
-	DT_PoliceAutomobile,
-	DT_PoliceHelicopter,
-	DT_FireDepartment,
-	DT_SwatAutomobile,
-	DT_AmbulanceDepartment,
-	DT_PoliceRiders,
-	DT_PoliceVehicleRequest,
-	DT_PoliceRoadBlock,
-	DT_PoliceAutomobileWaitPulledOver,
-	DT_PoliceAutomobileWaitCruising,
-	DT_Gangs,
-	DT_SwatHelicopter,
-	DT_PoliceBoat,
-	DT_ArmyVehicle,
+	DT_PoliceAutomobile = 1,
+	DT_PoliceHelicopter = 2,
+	DT_FireDepartment = 3,
+	DT_SwatAutomobile = 4,
+	DT_AmbulanceDepartment = 5,
+	DT_PoliceRiders = 6,
+	DT_PoliceVehicleRequest = 7,
+	DT_PoliceRoadBlock = 8,
+	DT_PoliceAutomobileWaitPulledOver = 9,
+	DT_PoliceAutomobileWaitCruising = 10,
+	DT_Gangs = 11,
+	DT_SwatHelicopter = 13,
+	DT_PoliceBoat = 14,
+	DT_ArmyVehicle = 15,
 	DT_BikerBackup = 15
 };
 ```

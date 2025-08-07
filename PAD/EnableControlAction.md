@@ -9,7 +9,7 @@ void ENABLE_CONTROL_ACTION(int padIndex, int control, BOOL enable);
 ```
 
 ```
-control values and meaning: github.com/crosire/scripthookvdotnet/blob/dev_v3/source/scripting/Control.cs  
+control values and meaning: https://github.com/scripthookvdotnet/scripthookvdotnet/blob/47f8bb02a50e27d4bb982f43a78091feac59b21c/source/scripting_v3/GTA/Control.cs
 and  
 https://docs.fivem.net/game-references/controls/
 0, 1 and 2 used in the scripts.  

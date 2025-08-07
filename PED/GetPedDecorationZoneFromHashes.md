@@ -9,8 +9,7 @@ aliases: ["_GET_TATTOO_ZONE"]
 int GET_PED_DECORATION_ZONE_FROM_HASHES(Hash collection, Hash overlay);
 ```
 
-```
-Returns the zoneID for the overlay if it is a member of collection.
+```c
 enum ePedDecorationZone
 {
 	ZONE_TORSO = 0,
@@ -29,3 +28,4 @@ enum ePedDecorationZone
 * **overlay**: 
 
 ## Return value
+Returns the doeciration zone for the specific collection and overlay combination, refer to `ePedDecorationZone`

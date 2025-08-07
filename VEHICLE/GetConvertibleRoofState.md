@@ -12,24 +12,22 @@ Returns the convertible state of the specified vehicle.
 
 
 ```c
-enum RoofState
-{
-     ROOFSTATE_UP = 0,
-     ROOFSTATE_LOWERING = 1,
-     ROOFSTATE_DOWN = 2,
-     ROOFSTATE_RAISING = 3
-};
+enum eRoofState {
+    RAISED = 0,
+    LOWERING = 1,
+    LOWERED = 2,
+    RAISING = 3,
+    CLOSING_BOOT = 4,
+    ROOF_STUCK_RAISED = 5,
+    ROOF_STUCK_LOWERED = 6
+}
 ```
 
 ## Parameters
 * **vehicle**: Vehicle to get the state of
 
 ## Return value
-- 0 when closed/up, the vehicle is not a convertible or the vehicle is null/not provided
-- 1 when closing
-- 2 when open/down
-- 3 when opening
-- 6 unknown/unverified -- possibly stopped but not full open
+Returns the current roof state, refer to `eRoofState`
 
 ## Examples
 ```lua
