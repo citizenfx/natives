@@ -36,5 +36,15 @@ enum eTimeFormat {
 
 ## Parameters
 * **timestamp**: The timestamp in milliseconds
-* **format**: The format of the timestamp
+* **format**: The format of the timestamp, as bitwise flags
 
+## Examples
+
+```lua
+-- Renders the current game time in hours, minutes and seconds
+local time = GetGameTimer()
+AddTextEntry('TIME_LABEL', 'Game time: ~a~')
+BeginTextCommandDisplayText("TIME_LABEL")
+AddTextComponentSubstringTime(time, 2 | 4 | 8)
+EndTextCommandDisplayText(0, 0)
+```
