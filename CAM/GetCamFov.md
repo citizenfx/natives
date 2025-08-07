@@ -10,6 +10,7 @@ float GET_CAM_FOV(Cam cam);
 
 
 ## Parameters
-* **cam**: 
+* **cam**: Cam handle to get FOV.
 
 ## Return value
+Retusn the cam field of view (in degrees).

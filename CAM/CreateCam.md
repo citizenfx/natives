@@ -19,6 +19,7 @@ Make sure to call [RENDER_SCRIPT_CAMS](#_0x07E5B515DB0636FC) once the camera is 
 - CUSTOM_TIMED_SPLINE_CAMERA
 - ROUNDED_SPLINE_CAMERA
 - SMOOTHED_SPLINE_CAMERA
+- CUSTOM_TIMED_SPLINE_CAMERA
 
 ## Parameters
 * **camName**: A string representing the camera type, the game will convert the string into a joaat hash upon native execution.

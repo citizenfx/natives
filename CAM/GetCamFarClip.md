@@ -10,6 +10,7 @@ float GET_CAM_FAR_CLIP(Cam cam);
 
 
 ## Parameters
-* **cam**: 
+* **cam**: Cam handle to get the far clip dist.
 
 ## Return value
+Get the camera's far clip distance (in m.)

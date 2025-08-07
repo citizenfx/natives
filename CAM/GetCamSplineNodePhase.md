@@ -8,11 +8,8 @@ ns: CAM
 float GET_CAM_SPLINE_NODE_PHASE(Cam cam);
 ```
 
-```
-I'm pretty sure the parameter is the camera as usual, but I am not certain so I'm going to leave it as is.  
-```
-
 ## Parameters
 * **cam**: 
 
 ## Return value
+Returns the phase of spline cam between the current node and its next one. Return phase will be between be 0.0 and 1.0

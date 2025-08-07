@@ -15,3 +15,6 @@ NativeDB Introduced: v2699
 
 ## Parameters
 * **cam**:
+
+## Return value
+Returns the camera's near depth of field distance (in m.)

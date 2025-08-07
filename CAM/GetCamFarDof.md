@@ -10,6 +10,7 @@ float GET_CAM_FAR_DOF(Cam cam);
 
 
 ## Parameters
-* **cam**: 
+* **cam**: Cam handle to get the far DOF distance.
 
 ## Return value
+Returns the camera's far depth of field distance (in m.)

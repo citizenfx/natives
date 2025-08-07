@@ -5,18 +5,22 @@ ns: AUDIO
 
 ```c
 // 0x2F9D3834AEB9EF79 0xF67BB44C
-void SET_VARIABLE_ON_STREAM(char* p0, float p1);
+void SET_VARIABLE_ON_STREAM(char* variableName, float variableAudio);
 ```
 
-```
-From the scripts, p0:  
-"ArmWrestlingIntensity",  
-"INOUT",  
-"Monkey_Stream",  
-"ZoomLevel"  
-```
+Sets a variable on the current streaming sound.
+
+### Variable names:
+- INOUT
+- ZoomLevel
+- Monkey_Stream
+- PedDensity
+- Crowd_Size
+- ArmWrestlingIntensity
+- distance_to_ship: Never used, seen it in a commented code.
+- above_water: Same as distance_to_ship
 
 ## Parameters
-* **p0**: 
-* **p1**: 
+* **variableName**: Variable name to set a value.
+* **variableAudio**: Value to set.
 
