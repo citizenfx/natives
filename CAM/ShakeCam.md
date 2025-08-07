@@ -5,7 +5,7 @@ ns: CAM
 
 ```c
 // 0x6A25241C340D3822 0x1D4211B0
-void SHAKE_CAM(Cam cam, char* shakeName, float amplitude);
+void SHAKE_CAM(Cam cam, char* shakeName, float intensity);
 ```
 
 See [`SHAKE_GAMEPLAY_CAM`](#_0xFD55E49555E017CF) for a full list of camera shakes.
@@ -13,4 +13,4 @@ See [`SHAKE_GAMEPLAY_CAM`](#_0xFD55E49555E017CF) for a full list of camera shake
 ## Parameters
 * **cam**: The camera handle.
 * **shakeName**: The name of the shake.
-* **amplitude**: The intensity of the shake.
+* **intensity**: The intensity of the shake.
