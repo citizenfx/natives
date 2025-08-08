@@ -10,3 +10,4 @@ BOOL IS_STUNT_JUMP_IN_PROGRESS();
 
 
 ## Return value
+Returns true if a stunt jump is in progress.

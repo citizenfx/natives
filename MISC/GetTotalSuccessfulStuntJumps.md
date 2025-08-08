@@ -11,3 +11,4 @@ int GET_TOTAL_SUCCESSFUL_STUNT_JUMPS();
 
 
 ## Return value
+Returns the total of completed stunt jumps (counting the same jump more than one time).
