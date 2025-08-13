@@ -8,24 +8,12 @@ ns: PLAYER
 BOOL GET_PLAYER_INVINCIBLE(Player player);
 ```
 
-```
-Returns the Player's Invincible status.  
-This function will always return false if 0x733A643B5B0C53C1 is used to set the invincibility status. To always get the correct result, use this:  
-	bool IsPlayerInvincible(Player player)  
-	{  
-auto addr = getScriptHandleBaseAddress(GET_PLAYER_PED(player));	  
-if (addr)  
-{  
-	DWORD flag = *(DWORD *)(addr + 0x188);  
-	return ((flag & (1 << 8)) != 0) || ((flag & (1 << 9)) != 0);  
-}  
-return false;  
-	}  
-============================================================  
-This has bothered me for too long, whoever may come across this, where did anyone ever come up with this made up hash? 0x733A643B5B0C53C1 I've looked all over old hash list, and this nativedb I can not find that PC hash anywhere. What native name is it now or was it?  
-```
+This native will only return true if a player was made invincible with [`SET_PLAYER_INVINCIBLE`](#_0x239528EACDC3E7DE).
+
+You should use [`GET_PLAYER_INVINCIBLE_2`](#_0xF2E3912B) to get both [`SET_PLAYER_INVINCIBLE`](#_0x239528EACDC3E7DE) and [`SET_PLAYER_INVINCIBLE_KEEP_RAGDOLL_ENABLED`](#_0x6BC97F4F4BB3C04B) invincibility state.
 
 ## Parameters
-* **player**: 
+* **player**: The player index 
 
 ## Return value
+A boolean to tell if the player is invincible.
