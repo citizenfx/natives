@@ -20,7 +20,7 @@ If lazy is true, objects will only reappear when their map is reloaded.
 * **z**: Z Coordinate of the sphere center.
 * **radius**: Radius of the sphere.
 * **model**: The model hash to make visible again.
-* **lazy**: false to apply the change immediately.
+* **lazy**: The area would need to stream out and back in again to take effect
 
 ## Examples
 ```lua
