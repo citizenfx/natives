@@ -5,7 +5,7 @@ ns: ENTITY
 
 ```c
 // 0xEA1C610A04DB6BBB 0xD043E8E1
-void SET_ENTITY_VISIBLE(Entity entity, BOOL toggle, BOOL unk);
+void SET_ENTITY_VISIBLE(Entity entity, BOOL toggle, BOOL ResetRenderPhaseVisibilityMask);
 ```
 
 Toggle the visibility of a given entity.
@@ -13,9 +13,9 @@ Toggle the visibility of a given entity.
 ## Parameters
 * **entity**: The entity to change the visibility of
 * **toggle**: Whether or not the entity will be visible
-* **unk**: Always 0 in scripts
+* **ResetRenderPhaseVisibilityMask**: Always false in scripts
 
 ## Examples
 ```lua
-SetEntityVisible(PlayerPedId(), false, 0)
+SetEntityVisible(PlayerPedId(), false, false)
 ```
