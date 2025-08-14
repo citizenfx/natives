@@ -8,6 +8,9 @@ ns: ENTITY
 BOOL PLAY_SYNCHRONIZED_MAP_ENTITY_ANIM(float x, float y, float z, float radius, cs_type(Any) Hash objectModelHash, int sceneId, cs_type(AnyPtr) char* pAnimName, cs_type(AnyPtr) char* pAnimDictName, float fBlendDelta, float fBlendOutDelta, int flags, float fMoverBlendInDelta);
 ```
 
+For some reason you must put every coordinate indivually in the arguments, adding a vector3() will give error.
+Correct: ``PLAY_SYNCHRONIZED_MAP_ENTITY_ANIM(coords.x, coords.y, coords.z, ...)``
+Incorrect: ``PLAY_SYNCHRONIZED_MAP_ENTITY_ANIM(coords, ...)``
 [Animations list](https://alexguirre.github.io/animations-list/)
 
 ## Parameters
