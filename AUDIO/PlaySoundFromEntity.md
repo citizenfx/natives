@@ -20,5 +20,5 @@ gtaforums.com/topic/795622-audio-for-mods
 * **entity**: 
 * **audioRef**: 
 * **isNetwork**: 
-* **p5**: 
+* **nNetworkRange**:
 
