@@ -5,19 +5,22 @@ ns: TASK
 
 ```c
 // 0xF2EAB31979A7F910 0x8DCC19C5
-void TASK_HANDS_UP(Ped ped, int duration, Ped facingPed, int p3, BOOL p4);
+void TASK_HANDS_UP(Ped ped, int duration, Ped pedToFace, int timeToFacePed, int flags);
 ```
 
-```
-In the scripts, p3 was always -1.  
-p3 seems to be duration or timeout of turn animation.  
-Also facingPed can be 0 or -1 so ped will just raise hands up.  
+Sets the hands up to the specified ped.
+Flags:
+```c
+enum TASK_HANDS_UP_FLAGS {
+	HANDS_UP_NOTHING = 0,
+	HANDS_UP_STRAIGHT_TO_LOOP = 1
+}
 ```
 
 ## Parameters
-* **ped**: 
-* **duration**: 
-* **facingPed**: 
-* **p3**: 
-* **p4**: 
+* **ped**: Ped to set hands up.
+* **duration**: Time to perform the task. -1 to make it forever
+* **pedToFace**: The ped to face. Null to not face any ped.
+* **timeToFacePed**: Time to face the ped.
+* **flags**: Flag to set. Read description
 
