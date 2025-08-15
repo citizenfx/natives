@@ -5,7 +5,7 @@ ns: AUDIO
 
 ```c
 // 0xE65F427EB70AB1ED 0x95AE00F8
-void PLAY_SOUND_FROM_ENTITY(int soundId, char* audioName, Entity entity, char* audioRef, BOOL isNetwork, Any p5);
+void PLAY_SOUND_FROM_ENTITY(int soundId, char* audioName, Entity entity, char* audioRef, BOOL isNetwork, int nNetworkRange);
 ```
 
 ```
