@@ -11,7 +11,7 @@ set -eu
 changed_docs() {
     local commit_ish="$1"
 
-    git diff-tree -r --name-only --diff-filter=ACMR "$commit_ish" -- '*.md' | xargs
+    git diff-tree -r --name-only --diff-filter=ACMR "$commit_ish" -- ':!.ci/' ':!.github/' '*.md' | xargs
 }
 
 # determine commit range

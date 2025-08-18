@@ -41,7 +41,7 @@ using static CitizenFX.Core.Native.API;
 // Freeze the local player.
 
 // Retrieve the player ped
-Ped playerPed = PlayerPedId();
+int playerPed = PlayerPedId();
 
 // Freeze the ped
 FreezeEntityPosition(playerPed, true);

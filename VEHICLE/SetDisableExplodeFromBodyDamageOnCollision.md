@@ -9,7 +9,9 @@ aliases: ["0x26E13D440E7F6064"]
 void SET_DISABLE_EXPLODE_FROM_BODY_DAMAGE_ON_COLLISION(Vehicle vehicle, cs_type(float) BOOL disableExplode);
 ```
 
-Prevents a vehicle from exploding upon sustaining body damage from physical collisions. This can be used to increase the durability of vehicles in high-impact scenarios, such as races or combat situations, by preventing them from being destroyed due to collision-induced body damage.
+This only works for planes.
+
+Prevents a vehicle from exploding upon sustaining body damage from physical collisions. 
 
 For helicopters, you might want to check [`SET_DISABLE_HELI_EXPLODE_FROM_BODY_DAMAGE`](#_0xEDBC8405B3895CC9) instead.
 
@@ -33,7 +35,7 @@ local vehicle = GetVehiclePedIsIn(playerPed, false)
 SetDisableExplodeFromBodyDamageOnCollision(vehicle, true)
 ```
 
-```javascript
+```js
 // Retrieve the player ped
 const playerPed = PlayerPedId();
 
@@ -44,14 +46,14 @@ const vehicle = GetVehiclePedIsIn(playerPed, false);
 SetDisableExplodeFromBodyDamageOnCollision(vehicle, true);
 ```
 
-```csharp
+```cs
 using static CitizenFX.Core.Native.API;
 
 // Retrieve the player ped
-Ped playerPed = PlayerPedId();
+int playerPed = PlayerPedId();
 
 // Retrieve the vehicle the player is currently in
-Vehicle vehicle = GetVehiclePedIsIn(playerPed, false);
+int vehicle = GetVehiclePedIsIn(playerPed, false);
 
 // Disable explosion from body damage on collision for the vehicle
 SetDisableExplodeFromBodyDamageOnCollision(vehicle, true);

@@ -9,7 +9,9 @@ aliases: ["0xEDBC8405B3895CC9"]
 void SET_DISABLE_HELI_EXPLODE_FROM_BODY_DAMAGE(Vehicle helicopter, cs_type(Any) BOOL disableExplode);
 ```
 
-Prevents a helicopter from exploding due to relatively minor body damage. This native can be particularly useful in gameplay scenarios or missions where helicopters are subject to damage that would not realistically cause an explosion, ensuring they remain operational unless subjected to more significant damage.
+This works on helicopters and planes.
+
+Prevents a helicopter from exploding due to relatively minor body damage. 
 
 ```
 NativeDB Introduced: v1103
@@ -34,7 +36,7 @@ if (helicopter == 0) or (not IsThisModelAHeli(GetEntityModel(helicopter))) then 
 SetDisableHeliExplodeFromBodyDamage(helicopter, true)
 ```
 
-```javascript
+```js
 // Retrieve the player ped.
 const playerPed = PlayerPedId();
 
@@ -48,14 +50,14 @@ if (helicopter === 0 || !IsThisModelAHeli(GetEntityModel(helicopter))) return;
 SetDisableHeliExplodeFromBodyDamage(helicopter, true);
 ```
 
-```csharp
+```cs
 using static CitizenFX.Core.Native.API;
 
 // Retrieve the player ped.
-Ped playerPed = PlayerPedId();
+int playerPed = PlayerPedId();
 
 // Retrieve the helicopter the player is currently in.
-Vehicle helicopter = GetVehiclePedIsIn(playerPed, false);
+int helicopter = GetVehiclePedIsIn(playerPed, false);
 
 // If the player is not in a helicopter, or the vehicle is not a helicopter, return.
 if (helicopter == 0 || !IsThisModelAHeli(GetEntityModel(helicopter))) return;

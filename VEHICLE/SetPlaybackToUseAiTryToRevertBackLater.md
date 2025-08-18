@@ -15,6 +15,6 @@ Time is number of milliseconds before reverting, zero for indefinitely.
 ## Parameters
 * **vehicle**: 
 * **time**: 
-* **drivingStyle**: 
+* **drivingStyle**: The driving style (default is 0) (see [SetDriveTaskDrivingStyle](#_0xDACE1BE37D88AF67)).
 * **p3**: 
 

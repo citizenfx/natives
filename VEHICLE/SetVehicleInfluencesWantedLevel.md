@@ -68,13 +68,13 @@ SetVehicleInfluencesWantedLevel(vehicle, false);
 using static CitizenFX.Core.Native.API;
 
 // Retrieve the LocalPlayer
-Ped playerPed = PlayerPedId();
+int playerPed = PlayerPedId();
 
 // Retrive the coordinates of the player.
 Vector3 playerCoords = GetEntityCoords(playerPed);
 
 // Retrieve the closest vehicle.
-Vehicle vehicle = GetClosestVehicle(playerCoords.X, playerCoords.Y, playerCoords.Z, 3, 0, 70);
+int vehicle = GetClosestVehicle(playerCoords.X, playerCoords.Y, playerCoords.Z, 3, 0, 70);
 
 // Check if the vehicle exists in the game world.
 if (!DoesEntityExist(vehicle))

@@ -9,7 +9,11 @@ aliases: ["0x500873A45724C863","_DISABLE_PLANE_PROPELLER"]
 void DISABLE_INDIVIDUAL_PLANE_PROPELLER(Vehicle vehicle, int propeller);
 ```
 
+```
+NativeDB Introduced: v323
+```
+
 ## Parameters
-* **vehicle**: 
-* **propeller**: 
+* **vehicle**: The propeller plane
+* **propeller**: The propeller index to disable (starts at 0).
 

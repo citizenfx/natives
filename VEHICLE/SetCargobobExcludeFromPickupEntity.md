@@ -80,10 +80,10 @@ SetCargobobExcludeFromPickupEntity(cargobob, entityID);
 using static CitizenFX.Core.Native.API;
 
 // Retrieve the player ped
-Ped playerPed = PlayerPedId();
+int playerPed = PlayerPedId();
 
 // Retrieve the player's vehicle (cargobob)
-Vehicle cargobob = GetVehiclePedIsIn(playerPed, false);
+int cargobob = GetVehiclePedIsIn(playerPed, false);
 
 // Retrieve the model hash of the cargobob.
 uint cargobobModel = GetEntityModel(cargobob);

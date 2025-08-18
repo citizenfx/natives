@@ -69,10 +69,10 @@ SetTransformToSubmarineUsesAlternateInput(vehicle, true);
 using static CitizenFX.Core.Native.API;
 
 // Retrieve the player ped
-Ped playerPed = PlayerPedId();
+int playerPed = PlayerPedId();
 
 // Retrieve the vehicle in which the player is currently seated
-Vehicle vehicle = GetVehiclePedIsIn(playerPed, false);
+int vehicle = GetVehiclePedIsIn(playerPed, false);
 
 // Retrieve the vehicle model hash
 uint vehicleHash = (uint)GetEntityModel(vehicle);

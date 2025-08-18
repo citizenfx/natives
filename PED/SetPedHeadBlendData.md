@@ -15,7 +15,7 @@ For more info please refer to [this](https://gtaforums.com/topic/858970-all-gtao
 IDs start at zero and go Male Non-DLC, Female Non-DLC, Male DLC, and Female DLC.</br>
 
 This native function is often called prior to calling natives such as:
-- [`SetPedHairColor`](#_0xBB43F090)
+- [`SetPedHairColor`](#_0xA23FE32C)
 - [`SetPedHeadOverlayColor`](#_0x78935A27)
 - [`SetPedHeadOverlay`](#_0xD28DBA90)
 - [`SetPedFaceFeature`](#_0x6C8D4458)

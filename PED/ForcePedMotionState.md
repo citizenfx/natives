@@ -5,36 +5,45 @@ ns: PED
 
 ```c
 // 0xF28965D04F570DCA 0x164DDEFF
-BOOL FORCE_PED_MOTION_STATE(Ped ped, Hash motionStateHash, BOOL p2, cs_type(BOOL) int p3, BOOL p4);
+BOOL FORCE_PED_MOTION_STATE(Ped ped, Hash motionStateHash, BOOL shouldReset, cs_type(BOOL) int updateState, BOOL forceAIPreCameraUpdate);
 ```
 
-```
-Some motionstate hashes are  
-0xec17e58 (standing idle), 0xbac0f10b (nothing?), 0x3f67c6af (aiming with pistol 2-h), 0x422d7a25 (stealth), 0xbd8817db, 0x916e828c  
-and those for the strings  
-"motionstate_idle", "motionstate_walk", "motionstate_run", "motionstate_actionmode_idle", and "motionstate_actionmode_walk".  
-Regarding p2, p3 and p4: Most common is 0, 0, 0); followed by 0, 1, 0); and 1, 1, 0); in the scripts. p4 is very rarely something other than 0.  
- [31/03/2017] ins1de :  
-        enum MotionState  
-        {  
-            StopRunning = -530524,  
-            StopWalking = -668482597,  
-            Idle = 247561816, // 1, 1, 0  
-            Idl2 = -1871534317,  
-            SkyDive =-1161760501, // 0, 1, 0  
-            Stealth = 1110276645,  
-            Sprint = -1115154469,  
-            Swim = -1855028596,  
-            Unknown1 = 1063765679,  
-            Unknown2 = -633298724,  
-        }  
+```c
+enum ePedMotionState
+{
+    MOTIONSTATE_NONE = -294553821, // MotionState_None
+    MOTIONSTATE_IDLE = -1871534317, // MotionState_Idle
+    MOTIONSTATE_WALK = -668482597, // MotionState_Walk
+    MOTIONSTATE_RUN = -530524, // MotionState_Run
+    MOTIONSTATE_SPRINT = -1115154469, // MotionState_Sprint
+    MOTIONSTATE_CROUCH_IDLE = 1140525470, // MotionState_Crouch_Idle
+    MOTIONSTATE_CROUCH_WALK = 147004056, // MotionState_Crouch_Walk
+    MOTIONSTATE_CROUCH_RUN = 898879241, // MotionState_Crouch_Run
+    MOTIONSTATE_DONOTHING = 247561816, // MotionState_DoNothing
+    MOTIONSTATE_ANIMATEDVELOCITY = 1427811395, // MotionState_AnimatedVelocity
+    MOTIONSTATE_INVEHICLE = -1797663347, // MotionState_InVehicle
+    MOTIONSTATE_AIMING = 1063765679, // MotionState_Aiming
+    MOTIONSTATE_DIVING_IDLE = 1212730861, // MotionState_Diving_Idle
+    MOTIONSTATE_DIVING_SWIM = -1855028596, // MotionState_Diving_Swim
+    MOTIONSTATE_SWIMMING_TREADWATER = -776007225, // MotionState_Swimming_TreadWater
+    MOTIONSTATE_DEAD = 230360860, // MotionState_Dead
+    MOTIONSTATE_STEALTH_IDLE = 1110276645, // MotionState_Stealth_Idle
+    MOTIONSTATE_STEALTH_WALK = 69908130, // MotionState_Stealth_Walk
+    MOTIONSTATE_STEALTH_RUN = -83133983, // MotionState_Stealth_Run
+    MOTIONSTATE_PARACHUTING = -1161760501, // MotionState_Parachuting
+    MOTIONSTATE_ACTIONMODE_IDLE = -633298724, // MotionState_ActionMode_Idle
+    MOTIONSTATE_ACTIONMODE_WALK = -762290521, // MotionState_ActionMode_Walk
+    MOTIONSTATE_ACTIONMODE_RUN = 834330132, // MotionState_ActionMode_Run
+    MOTIONSTATE_JETPACK = 1398696542 // MotionState_Jetpack
+}
 ```
 
 ## Parameters
-* **ped**: 
-* **motionStateHash**: 
-* **p2**: 
-* **p3**: 
-* **p4**: 
+* **ped**: The ped handle.
+* **motionStateHash**: The motion state hash.
+* **shouldReset**: If the motion state should be set even if the ped is already in the specified motion state.
+* **updateState**: Integer but treated as a boolean (only allows 1 or 0). Sets ped reset flags `CPED_RESET_FLAG_ForcePreCameraAiAnimUpdateIfFirstPerson` and `CPED_RESET_FLAG_ForcePostCameraAnimUpdate`.
+* **forceAIPreCameraUpdate**: If `updateState` is 1, will set either `CPED_RESET_FLAG_ForcePreCameraAIUpdate` (if true) or `CPED_RESET_FLAG_ForcePostCameraAIUpdate` (if false) ped reset flags.
 
 ## Return value
+Whether or not the motion state was forced on the ped successfully.

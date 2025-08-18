@@ -80,11 +80,11 @@ if (modelVehicle === hashStockade) {
 using static CitizenFX.Core.Native.API;
 // This example disables the rear doors of the vehicle from opening upon explosion.
 
-// Retrieve the LocalPlayer.
-Ped playerPed = PlayerPedId();
+// Retrieve the local ped.
+int playerPed = PlayerPedId();
 
 // Retrieve the vehicle the player is currently in.
-Vehicle vehicle = GetVehiclePedIsIn(playerPed, false);
+int vehicle = GetVehiclePedIsIn(playerPed, false);
 
 // Check if the vehicle exists in the game world.
 if (!DoesEntityExist(vehicle))

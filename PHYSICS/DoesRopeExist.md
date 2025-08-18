@@ -8,7 +8,10 @@ ns: PHYSICS
 BOOL DOES_ROPE_EXIST(int* ropeId);
 ```
 
+For an example on how to use this native please refer to [ADD_ROPE](#_0xE832D760399EB220)
+
 ## Parameters
-* **ropeId**: 
+* **ropeId**: The handle of the rope to check
 
 ## Return value
+Returns `true` if the rope exists, `false` otherwise.

@@ -19,6 +19,6 @@ drivingStyle: http://gtaforums.com/topic/822314-guide-driving-styles/
 * **vehicle**: 
 * **targetEntity**: 
 * **speed**: 
-* **drivingStyle**: 
+* **drivingStyle**: The driving style (default is 0) (see [SetDriveTaskDrivingStyle](#_0xDACE1BE37D88AF67)).
 * **minDistance**: 
 

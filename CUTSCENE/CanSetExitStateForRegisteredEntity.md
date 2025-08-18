@@ -13,7 +13,7 @@ Returns on frame after cutscene ends, so you cannot get is while using IsCutscen
 Whether it is safe to start doing scripted actions on the entity, like simulating walking out of a cutscene.
 
 ## Parameters
-* **cutsceneEntName**: i.e Michael
+* **cutsceneEntName**: Name of the entity cHandle in the cutscene
 * **modelHash**: Can be 0
 
 ## Return value

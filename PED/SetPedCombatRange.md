@@ -13,9 +13,9 @@ Define the scope within which the ped will engage in combat with the target.
 ```c
 enum eCombatRange {
     CR_NEAR = 0, // keeps within 5-15m
-    CR_MEDIUM, // keeps within 7-30m
-    CR_FAR, // keeps within 15-40m
-    CR_VERY_FAR // keeps within 22-45m
+    CR_MEDIUM = 1, // keeps within 7-30m
+    CR_FAR = 2, // keeps within 15-40m
+    CR_VERY_FAR = 3 // keeps within 22-45m
 };
 ```
 

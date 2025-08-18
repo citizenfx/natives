@@ -39,7 +39,7 @@ else
 end
 ```
 
-```javascript
+```js
 // Retrieve the player ped
 const playerPed = PlayerPedId();
 
@@ -59,14 +59,14 @@ if (controlPanelsIntact) {
 }
 ```
 
-```csharp
+```cs
 using static CitizenFX.Core.Native.API;
 
 // Retrieve the player ped
-Ped playerPed = PlayerPedId();
+int playerPed = PlayerPedId();
 
 // Retrieve the plane the player is currently flying
-Vehicle plane = GetVehiclePedIsIn(playerPed, false);
+int plane = GetVehiclePedIsIn(playerPed, false);
 
 // If the player is not flying a plane, return
 if (plane == 0 || !IsThisModelAPlane(GetEntityModel(plane))) return;

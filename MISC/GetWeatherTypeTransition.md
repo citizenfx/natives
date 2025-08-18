@@ -8,7 +8,7 @@ ns: MISC
 void _GET_WEATHER_TYPE_TRANSITION(Hash* weatherType1, Hash* weatherType2, float* percentWeather2);
 ```
 
-Refer to [`SET_WEATHER_TYPE_NOW_PERSIST`](#_0xED712CA327900C8A) for weather types.
+Refer to [`SET_WEATHER_TYPE_NOW`](#_0x29B487C359E19889) for weather types.
 
 ## Parameters
 * **weatherType1**: 

@@ -7,7 +7,7 @@ on:
 
 jobs:
   deploy:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-24.04
     name: Build & Deploy
     steps:
       - uses: actions/checkout@v2
@@ -17,6 +17,9 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: '12' # while 14+ technically works, it's 25-50x slower at running native-doc-tooling
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.8' # node-gyp compatibility
       - name: Install SSH key
         uses: shimataro/ssh-key-action@v2
         with:
@@ -26,11 +29,13 @@ jobs:
         env:
           NATIVE_DEPLOY_URL: ${{ secrets.NATIVE_DEPLOY_URL }}
         run: |
+          echo "::add-mask::${{ secrets.NATIVE_REMOTE_URL }}"
           mkdir ./in
           . ./.ci/config.sh
-          rsync -q --ignore-missing-args $NATIVE_DEPLOY_URL/$CONFIG_UPLOAD_COMPAT_FILE.lua ./in/$CONFIG_UPLOAD_COMPAT_FILE.lua
+          rsync -e "ssh" -q --ignore-missing-args $NATIVE_DEPLOY_URL/$CONFIG_UPLOAD_COMPAT_FILE.lua ./in/$CONFIG_UPLOAD_COMPAT_FILE.lua
       - name: Run build
         run: |
+          echo "::add-mask::${{ secrets.NATIVE_REMOTE_URL }}"
           set -xe
           bash ./.ci/setup-builder
           bash ./.ci/run-deploy
@@ -38,5 +43,6 @@ jobs:
         env:
           NATIVE_DEPLOY_URL: ${{ secrets.NATIVE_DEPLOY_URL }}
         run: |
-          rsync -rq --exclude=*compat.lua* ./out/ $NATIVE_DEPLOY_URL
-          rsync -rqb --backup-dir=./ --suffix=.bak --include=*compat.lua --exclude=* ./out/ $NATIVE_DEPLOY_URL
+          echo "::add-mask::${{ secrets.NATIVE_REMOTE_URL }}"
+          rsync -e "ssh" -rq --exclude=*compat.lua* ./out/ $NATIVE_DEPLOY_URL
+          rsync -e "ssh" -rqb --backup-dir=./ --suffix=.bak --include=*compat.lua --exclude=* ./out/ $NATIVE_DEPLOY_URL

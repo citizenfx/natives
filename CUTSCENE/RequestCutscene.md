@@ -9,6 +9,6 @@ void REQUEST_CUTSCENE(char* cutsceneName, int flags);
 ```
 
 ## Parameters
-* **cutsceneName**: Case insensitive
+* **cutsceneName**: Case insensitive name of the .cut file
 * **flags**: Usually 8
 

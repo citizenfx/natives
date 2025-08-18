@@ -5,78 +5,61 @@ ns: ENTITY
 
 ```c
 // 0xC5F68BE9613E2D18 0xC1C0855A
-void APPLY_FORCE_TO_ENTITY(Entity entity, int forceType, float x, float y, float z, float offX, float offY, float offZ, int boneIndex, BOOL isDirectionRel, BOOL ignoreUpVec, BOOL isForceRel, BOOL p12, BOOL p13);
+void APPLY_FORCE_TO_ENTITY(Entity entity, int forceType, float x, float y, float z, float offX, float offY, float offZ, int nComponent, BOOL bLocalForce, BOOL bLocalOffset, BOOL bScaleByMass, BOOL bPlayAudio, BOOL bScaleByTimeWarp);
 ```
 
-Applies a force to the specified entity.
 
-**List of force types (p1)**:
-
-```
-public enum ForceType
-{
-    MinForce = 0,
-    MaxForceRot = 1,
-    MinForce2 = 2,
-    MaxForceRot2 = 3,
-    ForceNoRot = 4,
-    ForceRotPlusForce = 5
+```c
+enum eApplyForceTypes {
+    APPLY_TYPE_FORCE = 0,
+    APPLY_TYPE_IMPULSE = 1,
+    APPLY_TYPE_EXTERNAL_FORCE = 2,
+    APPLY_TYPE_EXTERNAL_IMPULSE = 3,
+    APPLY_TYPE_TORQUE = 4,
+    APPLY_TYPE_ANGULAR_IMPULSE = 5
 }
 ```
 
-Research/documentation on the gtaforums can be found [here](https://gtaforums.com/topic/885669-precisely-define-object-physics/) and [here](https://gtaforums.com/topic/887362-apply-forces-and-momentums-to-entityobject/).
-
-
 ## Parameters
-* **entity**: The entity you want to apply a force on
-* **forceType**: See native description above for a list of commonly used values
-* **x**: Force amount (X)
-* **y**: Force amount (Y)
-* **z**: Force amount (Z)
-* **offX**: Rotation/offset force (X)
-* **offY**: Rotation/offset force (Y)
-* **offZ**: Rotation/offset force (Z)
-* **boneIndex**: (Often 0) Entity bone index
-* **isDirectionRel**: (Usually false) Vector defined in local (body-fixed) coordinate frame
-* **ignoreUpVec**: (Usually true)
-* **isForceRel**: (Usually true) When true, force gets multiplied with the objects mass and different objects will have the same acceleration
-* **p12**: (Usually false)
-* **p13**: (Usually true)
-
+* **entity**: The entity handle
+* **forceType**: The force type
+* **x**: The x component of the force to apply
+* **y**: The y component of the force to apply
+* **z**: The z component of the force to apply
+* **offX**: Offset from center of entity (X)
+* **offY**: Offset from center of entity (Y)
+* **offZ**: Offset from center of entity (Z)
+* **nComponent**: Component of the entity to apply the force too. Only matters for breakable or articulated (ragdoll) physics. 0 means the root or parent component
+* **bLocalForce**: Specifies whether the force vector passed in is in local or world coordinates. `true` means the force will get automatically transformed into world space before being applied
+* **bLocalOffset**: Specifies whether the offset passed in is in local or world coordinates
+* **bScaleByMass**: Specifies whether to scale the force by mass
+* **bPlayAudio**: Specifies whether to play audio events related to the force being applied. The audio will depend on the entity type. Currently vehicles are the only entity types supported, and will play a suspension squeal depending on the magnitude of the force
+* **bScaleByTimeWarp**: Specifies whether to scale the force by time warp. Default is `true`
 
 ## Examples
 ```lua
-local forceTypes = {
-    MinForce = 0,
-    MaxForceRot = 1,
-    MinForce2 = 2,
-    MaxForceRot2 = 3,
-    ForceNoRot = 4,
-    ForceRotPlusForce = 5
-}
-
 local entity = PlayerPedId()
-local forceType = forceTypes.MaxForceRot2
+local forceType = 2
  -- sends the entity straight up into the sky:
 local direction = vector3(0.0, 0.0, 15.0)
-local rotation = vector3(0.0, 0.0, 0.0)
-local boneIndex = 0
-local isDirectionRel = false
-local ignoreUpVec = true
-local isForceRel = true
-local p12 = false
-local p13 = true
+local offset = vector3(0.0, 0.0, 0.0)
+local component = 0
+local localForce = false
+local localOffset = true
+local scaleByMass = true
+local playAudio = false
+local scaleByTimeWarp = true
 
 ApplyForceToEntity(
     entity,
     forceType,
     direction,
-    rotation,
+    offset,
     boneIndex,
-    isDirectionRel,
-    ignoreUpVec,
-    isForceRel,
-    p12,
-    p13
+    localForce,
+    localOffset,
+    scaleByMass,
+    playAudio,
+    scaleByTimeWarp
 )
 ```

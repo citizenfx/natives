@@ -15,7 +15,7 @@ enum eDrivingMode {
   DF_StopForCars = 1,
   DF_StopForPeds = 2,
   DF_SwerveAroundAllCars = 4,
-  DF_SteerAroundStationaryCars	= 8,
+  DF_SteerAroundStationaryCars = 8,
   DF_SteerAroundPeds = 16,
   DF_SteerAroundObjects = 32,
   DF_DontSteerAroundPlayerPed = 64,
@@ -35,8 +35,10 @@ enum eDrivingMode {
 
   DF_UseShortCutLinks =  262144,
   DF_ChangeLanesAroundObstructions = 524288,
-  DF_UseSwitchedOffNodes =  2097152,	// cruise tasks ignore this anyway--only used for goto's
-  DF_PreferNavmeshRoute =  4194304,	// if you're going to be primarily driving off road
+  // cruise tasks ignore this anyway--only used for goto's
+  DF_UseSwitchedOffNodes =  2097152,
+  // if you're going to be primarily driving off road
+  DF_PreferNavmeshRoute =  4194304,
 
   // Only works for planes using MISSION_GOTO, will cause them to drive along the ground instead of fly
   DF_PlaneTaxiMode =  8388608,

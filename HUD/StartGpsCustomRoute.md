@@ -28,7 +28,7 @@ The GPS custom route works like the GPS multi route, except it does not follow r
 ClearGpsCustomRoute()
 
 -- Start a new route
-StartGpsMultiRoute(6, false, true)
+StartGpsCustomRoute(6, false, true)
 
 -- Add the points
 AddPointToGpsCustomRoute(1638.2155761719, -2344.685546875, 95.610511779785)

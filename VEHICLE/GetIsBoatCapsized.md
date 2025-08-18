@@ -87,10 +87,10 @@ if (GetIsBoatCapsized(vehicle)) {
 using static CitizenFX.Core.Native.API;
 
 // Retrieve the LocalPlayer.
-Ped playerPed = PlayerPedId();
+int playerPed = PlayerPedId();
 
 // Retrieve the vehicle the player is in
-Vehicle vehicle = GetVehiclePedIsIn(playerPed, false);
+int vehicle = GetVehiclePedIsIn(playerPed, false);
 
 // Retrieve the model of the vehicle
 uint vehicleModel = (uint)GetEntityModel(vehicle);
