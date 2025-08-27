@@ -42,9 +42,9 @@ When renaming a parameter, remember to also update the `## Parameters` section t
 ### Changing parameter or return types
 Changes must be backwards compatible, if you are changing a parameter type or return type it's imperative to prepend `cs_type` to the type you changed, for example, if the old type were `Any` and it's changed to `float`, the current declaration should be `cs_type(Any) float x`.
 
-You can check out these documented natives, [SET_RANDOM_BOATS](../VEHICLE/SetRandomBoats.md) and [SET_TRAIN_SPEED](../VEHICLE/SetTrainSpeed.md) to see exactly how `cs_type` declarations should be used.
+You don't have to use `cs_type` for any native that is treated like an `int`, you can find such types [in the codegen_types.lua](https://github.com/citizenfx/fivem/blob/master/ext/natives/codegen_types.lua). Although `uint` and `Hash`  are listed in the `codegen_types.lua` as `int` they are handled internally in the C# code gen as `uint`, so you **must** cast these types via `cs_type`.
 
-<!-- > Changes **must** be backwards compatible. Due to a limitation in ABI compatibility, types should currently not be changed unless they keep the same underlying type. For example, changing `Any` to `void` is not backwards compatible, but since vehicles are integers, changing `int` to `Vehicle` is supported. -->
+You can check out these documented natives, [SET_RANDOM_BOATS](../VEHICLE/SetRandomBoats.md) and [SET_TRAIN_SPEED](../VEHICLE/SetTrainSpeed.md) to see exactly how `cs_type` declarations should be used.
 
 ### Adding examples
 When adding example code, start out with Lua. It's possible to add extra examples for JavaScript and C# as well. See below for an [example](#example-documentation) on how to do so. Examples in different languages must be functionally identical.
