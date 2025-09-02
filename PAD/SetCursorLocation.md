@@ -8,7 +8,7 @@ aliases: ["0xFC695459D4D0E219"]
 // 0xFC695459D4D0E219
 BOOL _SET_CURSOR_LOCATION(float x, float y);
 ```
-## Description
+
 Sets the position of the mouse cursor within the current UI context (e.g., NUI menu or pause menu).  
 Coordinates must be in the range 0.0 to 1.0, where (0.5, 0.5) represents the center of the screen.
 
@@ -18,4 +18,3 @@ Coordinates must be in the range 0.0 to 1.0, where (0.5, 0.5) represents the cen
 
 ## Return value
 Returns `true` if the cursor position was successfully set, otherwise `false`.
-
