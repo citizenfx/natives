@@ -6,13 +6,16 @@ ns: OBJECT
 ```c
 // 0x0589B5E791CE9B2B 0x36C9A5EA
 void CREATE_MONEY_PICKUPS(float x, float y, float z, int value, int amount, Hash model);
+or
+void CREATE_MONEY_PICKUPS(vector3 , int value, int amount, Hash model);
 ```
 
 ```
 Spawns one or more money pickups.  
 x: The X-component of the world position to spawn the money pickups at.  
 y: The Y-component of the world position to spawn the money pickups at.  
-z: The Z-component of the world position to spawn the money pickups at.  
+z: The Z-component of the world position to spawn the money pickups at.
+vector3: GetEntityCoords() return
 value: The combined value of the pickups (in dollars).  
 amount: The number of pickups to spawn.  
 model: The model to use, or 0 for default money model.  
