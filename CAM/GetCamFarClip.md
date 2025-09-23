@@ -1,6 +1,6 @@
 ---
 ns: CAM
----
+---500
 ## GET_CAM_FAR_CLIP
 
 ```c
