@@ -1,7 +1,6 @@
 ---
 ns: PED
----
-## CREATE_PED
+--gta mundo de angel
 
 ```c
 // 0xD49F9B0955C367DE 0x0389EF71
