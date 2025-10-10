@@ -9,9 +9,9 @@ aliases: ["0xC2D15BEF167E27BC"]
 void SET_MULTIPLAYER_WALLET_CASH();
 ```
 
-Preview image:
-
-![](https://i.imgur.com/1BTmdyv.png)
+Preview:
+<br>
+![](https://i.imgur.com/b7lU2nl.png)
 
 To change money value use [`STAT_SET_INT`](#_0xB3271D7AB655B441) with "MP0_WALLET_BALANCE" to whatever value you need to.
 

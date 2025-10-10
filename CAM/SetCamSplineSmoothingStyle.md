@@ -43,13 +43,13 @@ Ranges from 0 to 3 in rockstar scripts although there are actually 26
 
 The above is documented and graphed at [Spline Cam Interp Graphs](https://docs.google.com/spreadsheets/d/1ejyiMcEYrhhQOL0mLe8664UN-vU4Oh-SBqQnVcKlFIk/edit?usp=sharing)
 
-```
-
 Using 1-3 will result in misalignment from the passed durations for the spline nodes, the overall duration will remain but other nodes will be shortened if smoothing anything.
 
 Graph below demonstrates interpolation between 0-1000 and back 10 times.
 
-![](https://i.imgur.com/cixWh7m.png)
+![](https://i.imgur.com/68htz5K.png)
+
+```
 
 ## Parameters
 * **cam**: The DEFAULT_SPLINE_CAMERA to apply the smoothing to

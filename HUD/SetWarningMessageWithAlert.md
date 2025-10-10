@@ -55,7 +55,8 @@ Alt = {
 }
 ```
 
-**Result of the example code:** [https://i.imgur.com/TvmNF4k.png](https://i.imgur.com/TvmNF4k.png)
+**Result of the example code:** 
+![](https://i.imgur.com/Cw5GoGs.png)
 
 ## Parameters
 * **labelTitle**: Label of the alert's title. 

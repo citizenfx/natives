@@ -14,8 +14,8 @@ Lines are drawn directly between points.
 The GPS custom route works like the GPS multi route, except it does not follow roads.
 
 **Example result:**
-
-![](https://i.imgur.com/BDm5pzt.png)
+<br>
+![](https://i.imgur.com/DqmZyp2.png)
 
 ## Parameters
 * **hudColor**: The HUD color of the GPS path.
