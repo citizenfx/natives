@@ -39,5 +39,5 @@ SetBlipSprite(blip, 358);
 ```
 
 Result:
-<br>
+
 ![](https://i.imgur.com/6Ni2BaN.png)
