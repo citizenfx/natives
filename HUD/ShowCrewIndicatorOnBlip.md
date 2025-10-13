@@ -32,8 +32,7 @@ ShowCrewIndicatorOnBlip(blip, true)
 -- Set the crew circle color.
 -- hud color 18 seems to be the closest color to the green crew color from GTA:O.
 SetBlipSecondaryColour(blip, GetHudColour(18))
-```
 
-Result:
-<br>
-![](https://i.imgur.com/iZ9tNWl.png)
+
+-- result: https://i.imgur.com/iZ9tNWl.png
+```
