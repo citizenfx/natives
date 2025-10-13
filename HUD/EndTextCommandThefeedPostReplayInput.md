@@ -23,7 +23,7 @@ l_D1[2/*1*/]=HUD::_DD6CB2CCE7C2735C(1,"~INPUT_REPLAY_START_STOP_RECORDING_SECOND
 ```
 
 Preview:
-![](![alt text](image.png))
+![](https://i.imgur.com/gw6kWOe.jpeg)
 
 ## Parameters
 * **type**: 
