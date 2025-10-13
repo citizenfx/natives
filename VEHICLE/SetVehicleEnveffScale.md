@@ -11,9 +11,9 @@ void SET_VEHICLE_ENVEFF_SCALE(Vehicle vehicle, float fade);
 
 Examples with a besra:
 
-- Fade value 0.0:<br>![](https://i.imgur.com/dlWnhgZ.png)
-- Fade value 0.5:<br>![](https://i.imgur.com/rbzMfh6.png)
-- Fade value 1.0:<br>![](https://i.imgur.com/pRqLnSP.png)
+- Fade value `0.0`:<br>![](https://i.imgur.com/dlWnhgZ.png)
+- Fade value `0.5`:<br>![](https://i.imgur.com/rbzMfh6.png)
+- Fade value `1.0`:<br>![](https://i.imgur.com/pRqLnSP.png)
 
 The parameter fade is a value from 0-1, where 0 is fresh paint.
 
