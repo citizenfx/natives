@@ -12,7 +12,7 @@ void SHOW_CREW_INDICATOR_ON_BLIP(Blip blip, BOOL toggle);
 Enables or disables the blue half circle around the specified blip on the left side of the blip. This is used to indicate that the player is in your crew in GTA:O. Color is changeable by using [`SET_BLIP_SECONDARY_COLOUR`](#_0x14892474891E09EB).
 
 Preview:
-<br>
+
 ![](https://i.imgur.com/JgRMbHb.png)
 
 To toggle the right side of the circle use: [`SHOW_FRIEND_INDICATOR_ON_BLIP`](#_0x23C3EB807312F01A).

@@ -14,8 +14,8 @@ An **angled area** is an X-Z oriented rectangle with three parameters:
 3. **width**: the length of the base edge; (named derived from logging strings ``CNetworkRoadNodeWorldStateData``).
 
 The oriented rectangle can then be derived from the direction of the two points (``norm(origin - extent)``), its orthonormal, and the width, e.g:
-1. <br>![golf_mp](https://i.imgur.com/WoIozPt.png)
-2. <br>![am_taxi](https://i.imgur.com/lipbffH.png)
+1. ![golf_mp](https://i.imgur.com/WoIozPt.png)
+2. ![am_taxi](https://i.imgur.com/lipbffH.png)
 
 ## Parameters
 * **xPos**: The x coordinate.

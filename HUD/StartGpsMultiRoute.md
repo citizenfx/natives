@@ -16,7 +16,7 @@ Once the player has passed a point, the GPS will no longer force its path throug
 Works independently from the player-placed waypoint and blip routes.
 
 **Example result:**
-<br>
+
 ![](https://i.imgur.com/xIuEhwA.png)
 
 ## Parameters

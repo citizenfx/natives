@@ -12,7 +12,7 @@ void _SHOW_HAS_COMPLETED_INDICATOR_ON_BLIP(Blip blip, BOOL toggle);
 Adds a orange checkmark on top of a given blip handle.
 
 Preview:
-<br>
+
 ![](https://i.imgur.com/KG9k6Fk.png)
 
 

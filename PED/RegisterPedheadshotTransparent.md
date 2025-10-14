@@ -12,7 +12,7 @@ int REGISTER_PEDHEADSHOT_TRANSPARENT(Ped ped);
 Similar to REGISTER_PEDHEADSHOT but creates a transparent background instead of black.
 
 **Result of the example code:**
-<br>
+
 ![](https://i.imgur.com/TDV7XMx.png)
 
 ## Parameters

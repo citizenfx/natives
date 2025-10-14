@@ -16,11 +16,11 @@ You can clear the disabled zone with CLEAR_GPS_DISABLED_ZONE_AT_INDEX.
 **Setting a waypoint at the same coordinate:**
 
 Disabled Zone:
-<br>
+
 ![](https://i.imgur.com/vsxkvjC.png)
 
 Enabled Zone (normal):
-<br>
+
 ![](https://i.imgur.com/OUZYLWL.png)
 
 
