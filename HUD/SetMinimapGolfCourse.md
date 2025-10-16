@@ -36,7 +36,8 @@ SetRadarBigmapEnabled(false, false);
 // Create the flag blip and set the sprite to the flag sprite.
 int blip = AddBlipForCoord(-1321.98f, 158.93f, 57.8f);
 SetBlipSprite(blip, 358);
-
-// result of this code example: https://i.imgur.com/DUnUzKS.png
 ```
 
+Result:
+
+![](https://i.imgur.com/6Ni2BaN.png)

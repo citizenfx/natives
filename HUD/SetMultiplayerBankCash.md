@@ -8,9 +8,9 @@ ns: HUD
 void SET_MULTIPLAYER_BANK_CASH();
 ```
 
-Preview image:
+Preview:
 
-![](https://i.imgur.com/1BTmdyv.png)
+![](https://i.imgur.com/b7lU2nl.png)
 
 To change the bank balance use [`STAT_SET_INT`](#_0xB3271D7AB655B441) with "BANK_BALANCE" to whatever value you need to.
 

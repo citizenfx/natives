@@ -9,7 +9,8 @@ aliases: ["0xF06EBB91A81E09E3"]
 void PAUSE_MENU_SET_WARN_ON_TAB_CHANGE(BOOL setWarn);
 ```
 
-Shows this warning message when trying to switch pause menu header tabs: https://i.imgur.com/8qmfztu.png
+Shows this warning message when trying to switch pause menu header tabs:
+![](https://i.imgur.com/EMRhvA3.png)
 
 ## Parameters
 * **setWarn**: Wether to show the message or not.

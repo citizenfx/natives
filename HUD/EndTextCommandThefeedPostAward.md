@@ -11,7 +11,7 @@ int END_TEXT_COMMAND_THEFEED_POST_AWARD(char* textureDict, char* textureName, in
 
 Shows an "award" notification above the minimap, lua example result:
 
-![](https://i.imgur.com/e2DNaKX.png)
+![](https://i.imgur.com/9U2x4ek.png)
 
 
 
