@@ -11,5 +11,5 @@ void SET_ENTITY_LIGHTS(Entity entity, BOOL toggle);
 
 ## Parameters
 * **entity**: 
-* **toggle**: 
+* **toggle**: To turn the lights on, set to "false". To turn the lights off, set to "true".
 
