@@ -1,7 +1,6 @@
 ---
 ns: TASK
 ---
-
 ## TASK_COMBAT_PED
 
 ```c
