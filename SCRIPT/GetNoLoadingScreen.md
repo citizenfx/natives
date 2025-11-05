@@ -9,5 +9,12 @@ aliases: ["_GET_NO_LOADING_SCREEN"]
 BOOL GET_NO_LOADING_SCREEN();
 ```
 
-
 ## Return value
+
+The value that was set by [SET_NO_LOADING_SCREEN](#_0x5262CC1995D07E09)
+
+## Examples
+```lua
+SetNoLoadingScreen(true)
+print(GetNoLoadingScreen()) -- will return true
+```

@@ -8,7 +8,13 @@ ns: SCRIPT
 void SET_NO_LOADING_SCREEN(BOOL toggle);
 ```
 
+Doesn't seem to do anything. Set value can be retrieved using [`GET_NO_LOADING_SCREEN`](#_0x18C1270EA7F199BC).
 
 ## Parameters
-* **toggle**: 
+* **toggle**: Enabled/Disable
 
+## Examples
+```lua
+SetNoLoadingScreen(true)
+print(GetNoLoadingScreen()) -- will return true
+```
