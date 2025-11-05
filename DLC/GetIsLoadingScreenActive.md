@@ -1,5 +1,6 @@
 ---
 ns: DLC
+apiset: client
 ---
 ## GET_IS_LOADING_SCREEN_ACTIVE
 
@@ -8,5 +9,17 @@ ns: DLC
 BOOL GET_IS_LOADING_SCREEN_ACTIVE();
 ```
 
+When loading in, returns true until [SHUTDOWN_LOADING_SCREEN](https://docs.fivem.net/natives/?_0x078EBE9809CCD637) was called. Note that this is referring to the game's loading screen and is not affected by the NUI loadingscreen and therefore not impacted by [loadscreen_manual_shutdown](https://docs.fivem.net/docs/scripting-reference/resource-manifest/resource-manifest/#loadscreen_manual_shutdown).
 
 ## Return value
+
+Wether the player is still in the loadingscreen
+
+## Examples
+
+```lua
+-- Close the loading screen if it's still active
+if GetIsLoadingScreenActive() then
+    ShutdownLoadingScreen()
+end
+```
