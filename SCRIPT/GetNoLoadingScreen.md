@@ -13,8 +13,7 @@ BOOL GET_NO_LOADING_SCREEN();
 
 The value that was set by [SET_NO_LOADING_SCREEN](#_0x5262CC1995D07E09)
 
-## Example
-
+## Examples
 ```lua
 SetNoLoadingScreen(true)
 print(GetNoLoadingScreen()) -- will return true

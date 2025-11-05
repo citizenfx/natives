@@ -1,6 +1,5 @@
 ---
 ns: DLC
-apiset: client
 ---
 ## GET_IS_LOADING_SCREEN_ACTIVE
 
@@ -16,7 +15,6 @@ When loading in, returns true until [`SHUTDOWN_LOADING_SCREEN`](#_0x078EBE9809CC
 Wether the player is still in the loadingscreen
 
 ## Examples
-
 ```lua
 -- Close the loading screen if it's still active
 if GetIsLoadingScreenActive() then

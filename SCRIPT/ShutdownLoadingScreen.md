@@ -1,6 +1,5 @@
 ---
 ns: SCRIPT
-apiset: client
 ---
 ## SHUTDOWN_LOADING_SCREEN
 

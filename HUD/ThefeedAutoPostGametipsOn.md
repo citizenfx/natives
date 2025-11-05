@@ -15,8 +15,7 @@ Call [`THEFEED_AUTO_POST_GAMETIPS_OFF`](#_0xADED7F5748ACAFE6) to disable.
 Example result:
 ![](https://i.imgur.com/GdRa0kw.png)
 
-## Example
-
+## Examples
 ```lua
 ThefeedAutoPostGametipsOn()
 ```

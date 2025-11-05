@@ -17,8 +17,7 @@ Call [`_THEFEED_DISABLE_LOADING_SCREEN_TIPS`](#_0x32888337579A5970) to disable i
 Example result:
 ![](https://i.imgur.com/hzaHuPb.png)
 
-## Example
-
+## Examples
 ```lua
 HudDisplayLoadingScreenTips()
 ```

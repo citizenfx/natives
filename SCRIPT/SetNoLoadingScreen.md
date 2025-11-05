@@ -13,8 +13,7 @@ Doesn't seem to do anything. Set value can be retrieved using [`GET_NO_LOADING_S
 ## Parameters
 * **toggle**: Enabled/Disable
 
-## Example
-
+## Examples
 ```lua
 SetNoLoadingScreen(true)
 print(GetNoLoadingScreen()) -- will return true
