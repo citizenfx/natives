@@ -7,7 +7,9 @@ ns: PED
 // 0xBF29516833893561 0xFC1CFC27
 void SET_PED_ENVEFF_SCALE(Ped ped, float value);
 ```
-
+```
+Controls environmental effects on the player's skin. 0.0f no effects, 1.0f for full effects, or the dreaded 2.0f which turns the skin plastic.
+```
 ```
 Values look to be between 0.0 and 1.0  
 From decompiled scripts: 0.0, 0.6, 0.65, 0.8, 1.0  
