@@ -1,3 +1,4 @@
+gta rp
 ---
 ns: WEAPON
 aliases: ["0xE620FD3512A04F18"]
