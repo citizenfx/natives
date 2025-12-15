@@ -17,7 +17,7 @@ When enabled:
 * Vehicles explode immediately when body health reaches 0.
 * Disables chain-reaction explosions for nearby vehicles.
 * Prevents engine damage from colliding with Ramp Cars.
-* Overrides the Stunt Mode ([`N_0x9ebd751e5787baf2`](https://docs.fivem.net/natives/?_0x9EBD751E5787BAF2)) collision protection.
+* Overrides the Stunt Mode ([`N_0x9ebd751e5787baf2`](#_0x9EBD751E5787BAF2)) collision protection.
 * Reduces the chance of falling off bikes/quads.
 
 ```
