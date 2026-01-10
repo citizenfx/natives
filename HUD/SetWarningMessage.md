@@ -13,47 +13,55 @@ Displays a warning screen for one frame.
 Available buttons for `buttonsBitField` (Can be combined with the `|` operator, for example: `(1 << 1 | 1 << 6 | 1 << 13...)`):
 See the [`Controls Game Reference`](https://docs.fivem.net/docs/game-references/controls/) for information about Button Inputs.
 
-| Button Index      | Button Text | Button Input | Notes                      |
-| :---------------: | :---------: | :----------: |:---------------------------:|
-| 1 << 0            | Select      | INPUT_FRONTEND_ACCEPT | None |
-| 1 << 1            | OK          | INPUT_FRONTEND_ACCEPT | None |
-| 1 << 2            | Yes          | INPUT_FRONTEND_ACCEPT | None |
-| 1 << 3            | Back          | INPUT_FRONTEND_CANCEL | None |
-| 1 << 4            | Cancel          | INPUT_FRONTEND_CANCEL | None |
-| 1 << 5            | No          | INPUT_FRONTEND_CANCEL | None |
-| 1 << 6            | Retry          | INPUT_FRONTEND_X | None |
-| 1 << 7            | Restart          | INPUT_FRONTEND_X | None |
-| 1 << 8            | Skip         | INPUT_FRONTEND_X | None |
-| 1 << 9            | Quit         | INPUT_FRONTEND_CANCEL | None |
-| 1 << 10            | Adjust         | INPUTGROUP_FRONTEND_DPAD_LR | Adjust with left/right keyboard arrow icons |
-| 1 << 11            | Ignore          | INPUT_FRONTEND_X | None |
-| 1 << 12           | Share          | INPUT_FRONTEND_X | None |
-| 1 << 13           | Log In          | INPUT_FRONTEND_X | None |
-| 1 << 14            | Continue          | INPUT_FRONTEND_ACCEPT | None |
-| 1 << 15            | Adjust          | None | Adjust with left/right arrow icons |
-| 1 << 16            | Scroll          | None | Sets scroll button with up and down arrow icons |
-| 1 << 17            | Overwrite          | INPUT_FRONTEND_ACCEPT | None  |
-| 1 << 18            | Rockstar Games Sign Up          | INPUT_FRONTEND_ACCEPT | None  |
-| 1 << 19            | Confirm          | INPUT_FRONTEND_ACCEPT | None  |
-| 1 << 20            | Queue          | INPUT_FRONTEND_ACCEPT | None  |
-| 1 << 21            | Retry          | INPUT_FRONTEND_ACCEPT | None  |
-| 1 << 22            | Back          | INPUT_FRONTEND_CANCEL | Same as button index #3 but plays select sound instead of cancel.  |
-| 1 << 23            | Rockstar Games          | INPUT_FRONTEND_ACCEPT | This button\'s text label is `IB_UPDATE_SOCIAL_CLUB`, so it's used for updating the game.  |
-| 1 << 24            | Spectate          | INPUT_FRONTEND_X | None  |
-| 1 << 25            | OK          | INPUT_FRONTEND_CANCEL | OK with CANCEL instead of ACCEPT.  |
-| 1 << 26            | Cancel Transfer          | INPUT_FRONTEND_CANCEL |  |
-| 1 << 27            | Nothing          | None | Sets the loading spinner icon.  |
-| 1 << 28            | No - Return to Grand Theft Auto V         | INPUT_FRONTEND_CANCEL | None |
-| 1 << 29            | Cancel          | INPUT_FRONTEND_CANCEL | Same as #4 |
-| 1 << 30            | None          | None | Reserved for NO SOUND. |
-| 1 << 31            | Exit         | INPUT_FRONTEND_CANCEL | None |
-| 1 << 32            | No          | INPUT_FRONTEND_X | None |
-| 1 << 33            | Host          | INPUT_FRONTEND_CANCEL | None |
-| 1 << 34            | Search For Job          | INPUT_FRONTEND_ACCEPT | None  |
-| 1 << 35            | Nothing          | INPUT_FRONTEND_ACCEPT | None  |
-| 1 << 36            | Freemode          | INPUT_FRONTEND_ACCEPT | None  |
-| 1 << 37            | Submit          | INPUT_FRONTEND_ACCEPT | None  |
-| 1 << 38            | View Player Profile          | INPUT_FRONTEND_ACCEPT | None  |
+```c
+// All of these values have been taken from frontend.xml warning screen section
+
+
+enum eWarningScreenButtons {
+    SELECT = 1 << 0, // INPUT_FRONTEND_ACCEPT (2, 201)
+    OK = 1 << 1, // INPUT_FRONTEND_ACCEPT (2, 201)
+    YES = 1 << 2, // INPUT_FRONTEND_ACCEPT (2, 201)
+    BACK = 1 << 3, // INPUT_FRONTEND_CANCEL (2, 202)
+    CANCEL = 1 << 4, // INPUT_FRONTEND_CANCEL (2, 202)
+    NO = 1 << 5, // INPUT_FRONTEND_CANCEL (2, 202)
+    RETRY = 1 << 6, // INPUT_FRONTEND_X (2, 203)
+    RESTART = 1 << 7, // INPUT_FRONTEND_ACCEPT (2, 201)
+    SKIP = 1 << 8, // INPUT_FRONTEND_X (2, 203)
+    QUIT = 1 << 9,  // INPUT_FRONTEND_CANCEL (2, 202)
+    ADJUST = 1 << 10, // INPUTGROUP_FRONTEND_DPAD_LR (Doesn't trigger any control on mouse click, is just an icon)
+    IGNORE = 1 << 11,  // INPUT_FRONTEND_X (2, 203)
+    SHARE = 1 << 12, // INPUT_FRONTEND_X (2, 203)
+    LOG_IN = 1 << 13, // INPUT_FRONTEND_X (2, 203)
+    CONTINUE = 1 << 14, // INPUT_FRONTEND_ACCEPT (2, 201)
+    ADJUST = 1 << 15,  // Doesn't trigger any input (Uses ARROW_LEFTRIGHT icon)
+    SCROLL = 1 << 16, // Doesn't trigger any input (Uses ARROW_UPDOWN icon)
+    OVERWRITE = 1 << 17, // INPUT_FRONTEND_X (2, 203)
+    ROCKSTAR_GAMES_SIGN_UP = 1 << 18, // INPUT_FRONTEND_ACCEPT (2, 201)
+    CONFIRM = 1 << 19, // INPUT_FRONTEND_ACCEPT (2, 201)
+    QUEUE = 1 << 20, // INPUT_FRONTEND_ACCEPT (2, 201)
+    RETRY = 1 << 21, // INPUT_FRONTEND_ACCEPT (2, 201)
+    BACK_ALT = 1 << 22, // INPUT_FRONTEND_CANCEL (2, 202) (Same input as 1 << 3, however this button plays SELECT sound instead of BACK)
+    ROCKSTAR_GAMES = 1 << 23, // INPUT_FRONTEND_ACCEPT (2, 201)
+    SPECTATE = 1 << 24, // INPUT_FRONTEND_X (2, 203)
+    OK_ALT = 1 << 25, // INPUT_FRONTEND_CANCEL (2, 202) (Different input than 1 << 1)
+    CANCEL_TRANSFER = 1 << 26, // INPUT_FRONTEND_CANCEL (2, 202)
+    BUSYSSPINNER = 1 << 27, // Doesn't trigger any input (Places loading icon)
+    NO_RETSP = 1 << 28, // INPUT_FRONTEND_CANCEL (2, 202)
+    CANCEL_ALT = 1 << 29, // INPUT_FRONTEND_CANCEL (2, 202) (Duplicate entry, is identical to 1 << 4)
+    EMPTY = 1 << 30, // No button here, Frontend.XML states it is reserved for no sound
+    EXIT = 1 << 31 // INPUT_FRONTEND_CANCEL (2, 202)
+};
+
+enum eWarningScreenButtonsUpper {
+    NO  = 1 << 32, // INPUT_FRONTEND_X (2, 203)
+    HOST = 1 << 33, // INPUT_FRONTEND_CANCEL (2, 202)
+    SEARCH_FOR_JOB = 1 << 34, // INPUT_FRONTEND_ACCEPT (2, 201)
+    PLUS_PROMO = 1 << 35, // INPUT_FRONTEND_ACCEPT (2, 201) (Text label this button uses (BUTTON_PLUS_PROMO2) does not exist on the PC release, as it was only used for PlayStation.)
+    FREEMODE = 1 << 36, // INPUT_FRONTEND_CANCEL (2, 202)
+    SUBMIT = 1 << 37, // INPUT_FRONTEND_ACCEPT (2, 201)
+    VIEW_PLAYER_PROFILE = 1 << 38 // INPUT_FRONTEND_ACCEPT (2, 201)
+};
+```
 
 
 ## Parameters
