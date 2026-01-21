@@ -34,3 +34,12 @@ SetArtificialLightsState(true);
 // Enable all lights in the map.
 SetArtificialLightsState(false);
 ```
+Citizen.CreateThread(function()
+	while true do
+		Citizen.Wait(0)
+		if IsControlJustReleased(0, 38) then
+			SetArtificialLightsState(true)
+			print('Lights are going down')
+		end
+	end
+end)
