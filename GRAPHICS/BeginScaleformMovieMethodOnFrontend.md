@@ -143,7 +143,7 @@ CreateThread(function()
 
             if currentUniqueID == 100 -- Ensure we're using the unique ID we need
                 and (IsControlJustReleased(2, 201) -- Enter pressed
-                or (IsControlJustReleased(2, 237) and PauseMenuGetUniqueIdOfMouseHoveredSlot() == 100 )) -- Mouse clicked
+                or (IsControlJustReleased(2, 237) and (PauseMenuGetUniqueIdOfMouseHoveredSlot() == mapSlotUniqueID and currentUniqueID == mapSlotUniqueID ) )) -- Mouse clicked
             then
                 print('Open map!')
                 mapOpen = not mapOpen
