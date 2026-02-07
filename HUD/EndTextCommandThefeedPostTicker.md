@@ -13,7 +13,6 @@ Posts a generic feed notification:
 
 ![](https://i.ibb.co/GkHcFvf/image.png)
 
-```
 ## Parameters
 * **isImportant**: Makes the notification flash on the screen.
 * **showInBrief**: Makes the notification appear in the "Pause Menu > Info/Brief > Notifications" section.
