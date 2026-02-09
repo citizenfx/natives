@@ -13,3 +13,6 @@ BOOL SC_GAMERDATA_GET_FLOAT(char *name, float *outValue);
 NativeDB Introduced: v323
 ```
 
+## Parameters
+* **name**:
+* **outValue**:

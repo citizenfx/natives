@@ -19,6 +19,7 @@ NativeDB Added Parameter 6: BOOL p5
 * **x**: Position on the X-axis to get ground elevation.
 * **y**: Position on the Y-axis to get ground elevation.
 * **z**: Position on the Z-axis to get ground elevation.
+* **groundZ**: The Z coordinate for the ground.
 * **includeWater**: Determines if the top water level at the specified position should be considered the ground elevation. (It would only matter if the specified position is located above or under the water)
 
 ## Return value

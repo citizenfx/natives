@@ -16,5 +16,5 @@ NativeDB Introduced: v1290
 ## Parameters
 * **weapon**:
 
-## Return vaalue
+## Return value
 Returns the pickup hash for the given weapon hash

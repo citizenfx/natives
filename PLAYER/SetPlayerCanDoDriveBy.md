@@ -17,7 +17,6 @@ This is a toggle, it does not have to be ran every frame.
 * **toggle**: If set to false, disables the players ability to do drive bys.
 
 ## Examples
-
 ```lua
 SetPlayerCanDoDriveBy(PlayerId(), false)
 ```

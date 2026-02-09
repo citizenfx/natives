@@ -49,7 +49,6 @@ Graph below demonstrates interpolation between 0-1000 and back 10 times.
 
 ![](https://i.imgur.com/68htz5K.png)
 
-```
 
 ## Parameters
 * **cam**: The DEFAULT_SPLINE_CAMERA to apply the smoothing to
