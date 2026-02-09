@@ -10,7 +10,7 @@ void PAUSE_MENU_SET_WARN_ON_TAB_CHANGE(BOOL setWarn);
 ```
 
 Shows this warning message when trying to switch pause menu header tabs:
-![](https://i.imgur.com/EMRhvA3.png)
+![](https://imgur.com/a/5jugFi9)
 
 ## Parameters
 * **setWarn**: Wether to show the message or not.
