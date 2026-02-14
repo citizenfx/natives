@@ -12,3 +12,4 @@ Hash GET_SELECTED_PED_WEAPON(Ped ped);
 * **ped**: 
 
 ## Return value
+Hash: The weapon hash of the currently selected weapon.
