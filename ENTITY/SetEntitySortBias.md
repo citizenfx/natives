@@ -1,11 +1,11 @@
 ---
 ns: ENTITY
 ---
-## _0x5C3B791D580E0BC2
+## SET_ENTITY_SORT_BIAS
 
 ```c
 // 0x5C3B791D580E0BC2
-void _0x5C3B791D580E0BC2(Entity entity, float p1);
+void SET_ENTITY_SORT_BIAS(Entity entity, float p1);
 ```
 
 ```

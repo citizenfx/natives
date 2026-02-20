@@ -1,15 +1,15 @@
 ---
 ns: ENTITY
 ---
-## _0xC34BC448DA29F5E9
+## SET_ENTITY_WATER_REFLECTION_FLAG
 
 ```c
 // 0xC34BC448DA29F5E9
-void _0xC34BC448DA29F5E9(Entity entity, BOOL toggle);
+void SET_ENTITY_WATER_REFLECTION_FLAG(Entity entity, BOOL toggle);
 ```
 
 ```
-SET_ENTITY_*
+
 ```
 
 ## Parameters
