@@ -10,7 +10,7 @@ void DRAW_MARKER(int type, float posX, float posY, float posZ, float dirX, float
 
 Draws a marker with the specified appearance at the target location. This has to be called every frame, e.g. in a `Wait(0)` loop.
 
-There's a [list of markers](https://docs.fivem.net/game-references/markers/) on the FiveM documentation site.
+There's a [list of markers](https://docs.fivem.net/docs/game-references/markers/) on the FiveM documentation site.
 
 ## Parameters
 * **type**: The marker type to draw.

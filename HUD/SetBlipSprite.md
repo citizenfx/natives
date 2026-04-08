@@ -10,7 +10,7 @@ void SET_BLIP_SPRITE(Blip blip, int spriteId);
 
 Sets the displayed sprite for a specific blip.
 
-There's a [list of sprites](https://docs.fivem.net/game-references/blips/) on the FiveM documentation site.
+There's a [list of sprites](https://docs.fivem.net/docs/game-references/blips/) on the FiveM documentation site.
 
 ## Parameters
 * **blip**: The blip to change.

@@ -11,7 +11,7 @@ void ENABLE_CONTROL_ACTION(int padIndex, int control, BOOL enable);
 ```
 control values and meaning: https://github.com/scripthookvdotnet/scripthookvdotnet/blob/47f8bb02a50e27d4bb982f43a78091feac59b21c/source/scripting_v3/GTA/Control.cs
 and  
-https://docs.fivem.net/game-references/controls/
+https://docs.fivem.net/docs/game-references/controls/
 0, 1 and 2 used in the scripts.  
 Control values from the decompiled scripts:   
 0,1,2,3,4,5,6,8,9,10,11,14,15,16,17,19,21,22,24,25,26,30,31,32,33,34,35,36,  
