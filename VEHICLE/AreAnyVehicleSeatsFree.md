@@ -9,17 +9,17 @@ aliases: ["_IS_ANY_VEHICLE_SEAT_EMPTY"]
 BOOL ARE_ANY_VEHICLE_SEATS_FREE(Vehicle vehicle);
 ```
 
-Returns `true` when the vehicle has at least one seat with no ped assigned to it, and `false` when every seat is filled. The check covers every seat in the vehicle's model layout, including the driver seat, so a bike or single-seat plane returns `true` only when that one seat is empty. An invalid vehicle handle returns `false`, and vehicles whose model defines zero seats (trailers, prop carriages) always return `false` because there are no seats to be free.
+Returns `true` when the vehicle has at least one seat with no ped assigned to it. Vehicles with no seats in their model (trailers, prop carriages) and invalid handles both return `false`.
 
-A seat only counts as occupied while a ped pointer is actually stored in it. Dead peds still count as occupying their seat until the body is removed, so a vehicle full of corpses will read as full. Peds that have been scheduled to enter the vehicle but have not yet been inserted do not occupy their target seat, so those seats keep reading as free until the ped is placed.
+Dead peds still count as occupying a seat until the body is removed, so a vehicle full of corpses returns `false`. Peds tasked to enter the vehicle but not yet inserted do not occupy their target seat.
 
-The native does not consider lock state, door damage, shuffle gating, or whether the caller could jack an existing occupant. Scripts that need "empty and enterable" semantics should pair this with the relevant lock and accessibility checks. For per-seat queries use [IS_VEHICLE_SEAT_FREE](#_0x22AC59A870E6A669), and to resolve which ped holds a specific seat use [GET_PED_IN_VEHICLE_SEAT](#_0xBB40BBB9B9A067B).
+For per-seat queries use [IS_VEHICLE_SEAT_FREE](#_0x22AC59A870E6A669), and to resolve which ped holds a specific seat use [GET_PED_IN_VEHICLE_SEAT](#_0xBB40BBB9B9A067B).
 
 ## Parameters
 * **vehicle**: The vehicle handle to check.
 
 ## Return value
-`true` if any seat on the vehicle is unoccupied, `false` if every seat is filled or the handle is not a valid vehicle.
+Returns `true` if any seat on the vehicle is unoccupied, `false` if every seat is filled or the handle is not a valid vehicle.
 
 ## Examples
 
