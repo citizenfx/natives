@@ -9,8 +9,6 @@ aliases: ["_IS_ANY_VEHICLE_SEAT_EMPTY"]
 BOOL ARE_ANY_VEHICLE_SEATS_FREE(Vehicle vehicle);
 ```
 
-Returns `true` when the vehicle has at least one seat with no ped assigned to it. Vehicles with no seats in their model (trailers, prop carriages) and invalid handles both return `false`.
-
 Dead peds still count as occupying a seat until the body is removed, so a vehicle full of corpses returns `false`. Peds tasked to enter the vehicle but not yet inserted do not occupy their target seat.
 
 For per-seat queries use [IS_VEHICLE_SEAT_FREE](#_0x22AC59A870E6A669), and to resolve which ped holds a specific seat use [GET_PED_IN_VEHICLE_SEAT](#_0xBB40BBB9B9A067B).
@@ -19,7 +17,7 @@ For per-seat queries use [IS_VEHICLE_SEAT_FREE](#_0x22AC59A870E6A669), and to re
 * **vehicle**: The vehicle handle to check.
 
 ## Return value
-Returns `true` if any seat on the vehicle is unoccupied, `false` if every seat is filled or the handle is not a valid vehicle.
+Returns `true` when the vehicle has at least one seat with no ped assigned to it. Vehicles with no seats in their model (trailers, prop carriages) or an invalid entity will return `false`.
 
 ## Examples
 

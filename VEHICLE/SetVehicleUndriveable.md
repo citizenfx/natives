@@ -10,13 +10,13 @@ void SET_VEHICLE_UNDRIVEABLE(Vehicle vehicle, BOOL toggle);
 
 Marks a vehicle as undriveable. While this is set, the engine cannot be started by anyone. Peds can still open the door, sit in the driver seat and close the door and try to start the car, but it will only turn over.
 
-When set to `true`, the engine is forced off instantly if it was running. A moving vehicle will coast, brakes and steering still respond.
+When set to `true`, the engine is forced off instantly even if it was running. A moving vehicle will coast, brakes and steering still respond.
 
 Toggling this to `false` will not restart the engine, the driver or a call to [SET_VEHICLE_ENGINE_ON](#_0x2497C4717C8B881E) has to start it again.
 
 The state is local to each client and is not synced via the network. Every client that has the vehicle in scope needs to apply it.
 
-Persists across damage and repair ([SET_VEHICLE_FIXED](#_0x115722B1B9C14C1C) does not clear it). If you set it, you clear it.
+This flag persists across damage and repair; [SET_VEHICLE_FIXED](#_0x115722B1B9C14C1C) does not clear it. If you set it, you are expected to clear it.
 
 Pair with [SET_VEHICLE_DOORS_LOCKED](#_0xB664292EAECF7FA6) to keep peds out entirely.
 
