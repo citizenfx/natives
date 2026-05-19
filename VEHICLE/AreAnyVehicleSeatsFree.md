@@ -11,7 +11,7 @@ BOOL ARE_ANY_VEHICLE_SEATS_FREE(Vehicle vehicle);
 
 Dead peds still count as occupying a seat until the body is removed, so a vehicle full of corpses returns `false`. Peds tasked to enter the vehicle but not yet inserted do not occupy their target seat.
 
-For per-seat queries use [IS_VEHICLE_SEAT_FREE](#_0x22AC59A870E6A669), and to resolve which ped holds a specific seat use [GET_PED_IN_VEHICLE_SEAT](#_0xBB40BBB9B9A067B).
+For per-seat queries use [IS_VEHICLE_SEAT_FREE](#_0x22AC59A870E6A669), to find which ped is in a specific seat use [GET_PED_IN_VEHICLE_SEAT](#_0xBB40BBB9B9A067B).
 
 ## Parameters
 * **vehicle**: The vehicle handle to check.

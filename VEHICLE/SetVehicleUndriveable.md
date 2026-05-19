@@ -12,7 +12,7 @@ Marks a vehicle as undriveable. While this is set, the engine cannot be started 
 
 When set to `true`, the engine is forced off instantly even if it was running. A moving vehicle will coast, brakes and steering still respond.
 
-Toggling this to `false` will not restart the engine, the driver or a call to [SET_VEHICLE_ENGINE_ON](#_0x2497C4717C8B881E) has to start it again.
+Toggling this to `false` will not restart the engine. The driver must start it again, or you must call [SET_VEHICLE_ENGINE_ON](#_0x2497C4717C8B881E).
 
 The state is local to each client and is not synced via the network. Every client that has the vehicle in scope needs to apply it.
 
