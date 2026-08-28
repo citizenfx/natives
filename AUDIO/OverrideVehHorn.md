@@ -10,7 +10,6 @@ void OVERRIDE_VEH_HORN(Vehicle vehicle, BOOL override, int hornHash);
 
 Overrides the vehicle's horn hash.
 
-
 When changing this hash on a vehicle, [`_GET_VEHICLE_HORN_HASH`](#_0xACB5DCCA1EC76840) will **not** return the 'overwritten' hash. It will still always return the default horn hash (same as [`GET_VEHICLE_DEFAULT_HORN`](#_0x02165D55000219AC)).
 
 List of possible hashes (found in decompiled scripts):
@@ -29,25 +28,23 @@ List of possible hashes (found in decompiled scripts):
 ## Parameters
 * **vehicle**: The vehicle you want to change the horn on.
 * **override**: Must be set to true. If set to false, the default horn hash will be restored.
-* **hornHash**: A horn hash.
+* **hornHash**: Sound name hash.
 
 ## Examples
 ```lua
 local vehicle = GetVehiclePedIsIn(PlayerPedId(), false)
 
--- These are the most common horn hashes found in the decompiled scripts.
+-- Sound names
 local horns = {
-    1604822495,
-    3032502287,
-    3405413507,
-    2737024210,
-    2976270679,
-    4287227293,
-    2479820329,
-    3955047940
+    "DLC_Biker_Trailblazers_Horns_01",
+    "Brigham_Horn",
+    "kosatka_surface_horn",
+    "DLC_HALLOWEEN_BTYPE2_HORN",
+    "DLC_XM_Explosions_Orbital_Cannon"
 }
 
-local randomHornHash = horns[math.random(1, #horns)]
+-- Grab a random horn from the list above and convert into a hash
+local randomHornHash = GetHashKey(horns[math.random(1, #horns)])
 
 print(randomHornHash)
 
