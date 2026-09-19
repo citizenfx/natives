@@ -8,20 +8,13 @@ ns: PED
 Vector3 GET_PED_BONE_COORDS(Ped ped, int boneId, float offsetX, float offsetY, float offsetZ);
 ```
 
-```
-Gets the position of the specified bone of the specified ped.  
-ped: The ped to get the position of a bone from.  
-boneId: The ID of the bone to get the position from. This is NOT the index.  
-offsetX: The X-component of the offset to add to the position relative to the bone's rotation.  
-offsetY: The Y-component of the offset to add to the position relative to the bone's rotation.  
-offsetZ: The Z-component of the offset to add to the position relative to the bone's rotation.  
-```
+Gets the position of the specified bone of the specified ped.
 
 ## Parameters
-* **ped**: 
-* **boneId**: 
-* **offsetX**: 
-* **offsetY**: 
-* **offsetZ**: 
+* **ped**: The ped to get the bone position from.
+* **boneId**: The bone ID, not the bone index.
+* **offsetX**: The X offset relative to the bone's rotation.
+* **offsetY**: The Y offset relative to the bone's rotation.
+* **offsetZ**: The Z offset relative to the bone's rotation.
 
 ## Return value
