@@ -10,7 +10,7 @@ int GET_PED_NEARBY_PEDS(Ped ped, int* sizeAndPeds, int ignore);
 
 Console/PC structure definitions and example: pastebin.com/SsFej963
 
-For FiveM/Cfx.Re use-cases refer to: [`GET_GAME_POOL`](#_0x2B9D4F50).
+For Cfx/FiveM use-cases refer to: [`GET_GAME_POOL`](#_0x2B9D4F50).
 
 ## Parameters
 * **ped**: 

@@ -8,7 +8,7 @@ ns: HUD
 void ACTIVATE_FRONTEND_MENU(Hash menuhash, BOOL togglePause, int component);
 ```
 
-
+```
 Does stuff like this:  
 gyazo.com/7fcb78ea3520e3dbc5b2c0c0f3712617  
 Example:  
@@ -49,7 +49,7 @@ Below is a list of all known Frontend Menu Hashes.
 - FE_MENU_VERSION_JOINING_SCREEN
 - FE_MENU_VERSION_LANDING_MENU
 - FE_MENU_VERSION_LANDING_KEYMAPPING_MENU
-
+```
 
 ## Parameters
 * **menuhash**: 

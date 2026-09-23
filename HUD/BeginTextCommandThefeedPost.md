@@ -9,6 +9,7 @@ aliases: ["_SET_NOTIFICATION_TEXT_ENTRY"]
 void BEGIN_TEXT_COMMAND_THEFEED_POST(char* text);
 ```
 
+```
 Declares the entry type of a notification, for example "STRING".
 int ShowNotification(char *text)
 {
@@ -16,6 +17,7 @@ int ShowNotification(char *text)
 	ADD_TEXT_COMPONENT_SUBSTRING_PLAYER_NAME(text);
 	return _DRAW_NOTIFICATION(1, 1);
 }
+```
 
 ## Parameters
 * **text**: The text label to use.
