@@ -21,4 +21,4 @@ NativeDB Added Parameter 7: Any p6
 * **outIncidentID**: 
 
 ## Return value
-Returns true if the incident was succesfully made
+Returns true if the incident was successfully made
