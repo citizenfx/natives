@@ -13,3 +13,9 @@ BOOL IS_PED_GETTING_INTO_A_VEHICLE(Ped ped);
 * **ped**: 
 
 ## Return value
+* **False**: Before the vehicle door is pulled out (ped is walking slowly to the vehicle door)
+* **True** : After vehicle door is pulled out
+
+
+
+
