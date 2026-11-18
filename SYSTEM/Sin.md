@@ -21,9 +21,6 @@ The sine of the given number
 -- Get the heading
 local heading = GetEntityHeading(PlayerPedId())
 local sin = Sin(heading)
-
--- equivalent in lua
-local sinLua = math.sin(heading * (math.pi / 180))
 ```
 
 ```js

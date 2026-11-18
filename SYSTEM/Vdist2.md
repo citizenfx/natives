@@ -28,9 +28,6 @@ Returns the squared distance as a float between the two points (`x1`, `y1`, `z1`
 ## Examples
 ```lua
 local squaredDistance = Vdist2(0.0, 0.0, 0.0, 3.0, 4.0, 0.0) -- 25.0
-
--- equivalent in lua
-local squaredDistanceLua = 3.0 * 3.0 + 4.0 * 4.0
 ```
 
 ```js

@@ -19,9 +19,6 @@ The value rounded down to the nearest whole number.
 ## Examples
 ```lua
 local floored = Floor(1.7) -- 1
-
--- equivalent in lua
-local flooredLua = math.floor(1.7)
 ```
 
 ```js

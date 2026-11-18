@@ -19,9 +19,6 @@ The value rounded up to the nearest whole number.
 ## Examples
 ```lua
 local ceiled = Ceil(1.2) -- 2
-
--- equivalent in lua
-local ceiledLua = math.ceil(1.2)
 ```
 
 ```js

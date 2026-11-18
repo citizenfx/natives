@@ -21,9 +21,6 @@ The value shifted right by bitShift bits.
 ## Examples
 ```lua
 local shifted = ShiftRight(16, 4) -- 1
-
--- equivalent in lua
-local shiftedLua = 16 >> 4
 ```
 
 ```js

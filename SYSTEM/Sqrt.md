@@ -19,9 +19,6 @@ The square root of value.
 ## Examples
 ```lua
 local root = Sqrt(16.0) -- 4.0
-
--- equivalent in lua
-local rootLua = math.sqrt(16.0)
 ```
 
 ```js

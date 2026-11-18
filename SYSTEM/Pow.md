@@ -20,9 +20,6 @@ The result of base raised to the exponent.
 ## Examples
 ```lua
 local power = Pow(2.0, 8.0) -- 256.0
-
--- equivalent in lua
-local powerLua = 2.0 ^ 8.0
 ```
 
 ```js

@@ -23,9 +23,6 @@ The base-10 logarithm of value.
 ## Examples
 ```lua
 local log = Log10(100.0) -- 2.0
-
--- equivalent in lua
-local logLua = math.log(100.0, 10)
 ```
 
 ```js

@@ -21,9 +21,6 @@ The cosine of the given number
 -- Get the heading
 local heading = GetEntityHeading(PlayerPedId())
 local cos = Cos(heading)
-
--- equivalent in lua
-local cosLua = math.cos(heading * (math.pi / 180))
 ```
 
 ```js
