@@ -12,7 +12,9 @@ Right bit shifts a value.
 It is advised you use the `>>` operator instead of this native. It does the same and is faster.
 
 ## Parameters
-* **value**: 
-* **bitShift**: 
+* **value**: The integer to shift.
+* **bitShift**: The number of bits to shift by.
 
 ## Return value
+The value shifted right by bitShift bits.
+

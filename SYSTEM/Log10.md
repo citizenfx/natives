@@ -8,9 +8,15 @@ ns: SYSTEM
 float _LOG10(float value);
 ```
 
+Returns the base-10 logarithm of value.
+
 ```
 NativeDB Introduced: v1604
 ```
 
 ## Parameters
-* **value**:
+* **value**: The number to get the base-10 logarithm of. Must be greater than 0.
+
+## Return value
+The base-10 logarithm of value.
+

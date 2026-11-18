@@ -8,8 +8,11 @@ ns: SYSTEM
 float TO_FLOAT(int value);
 ```
 
+Converts an integer to a float.
 
 ## Parameters
-* **value**: 
+* **value**: The integer to convert.
 
 ## Return value
+The value as a float.
+

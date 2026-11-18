@@ -8,11 +8,11 @@ ns: SYSTEM
 int CEIL(float value);
 ```
 
-```
-I'm guessing this rounds a float value up to the next whole number, and FLOOR rounds it down  
-```
+Rounds a float up to the nearest whole number, toward positive infinity.
 
 ## Parameters
-* **value**: 
+* **value**: The number to round up.
 
 ## Return value
+The value rounded up to the nearest whole number.
+

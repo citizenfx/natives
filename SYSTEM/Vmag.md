@@ -8,13 +8,13 @@ ns: SYSTEM
 float VMAG(float x, float y, float z);
 ```
 
-```
-Calculates the magnitude of a vector.  
-```
+Returns the magnitude (length) of the vector (x, y, z).
 
 ## Parameters
-* **x**: 
-* **y**: 
-* **z**: 
+* **x**: The X component of the vector.
+* **y**: The Y component of the vector.
+* **z**: The Z component of the vector.
 
 ## Return value
+The magnitude of the vector, equal to the square root of x * x + y * y + z * z.
+

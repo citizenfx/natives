@@ -11,7 +11,7 @@ float SIN(float value);
 Returns the sine of the given number.
 
 ## Parameters
-* **value**: The number of degrees (in degrees, not radians)
+* **value**: The angle in degrees.
 
 ## Return value
 The sine of the given number

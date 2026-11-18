@@ -8,8 +8,11 @@ ns: SYSTEM
 int ROUND(float value);
 ```
 
+Rounds a float to the nearest whole number. Values exactly halfway between two whole numbers round up, toward positive infinity.
 
 ## Parameters
-* **value**: 
+* **value**: The number to round.
 
 ## Return value
+The value rounded to the nearest whole number.
+

@@ -8,8 +8,11 @@ ns: SYSTEM
 float SQRT(float value);
 ```
 
+Returns the square root of value.
 
 ## Parameters
-* **value**: 
+* **value**: The number to take the square root of. Must be non-negative.
 
 ## Return value
+The square root of value.
+

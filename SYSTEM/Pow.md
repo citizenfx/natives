@@ -8,9 +8,12 @@ ns: SYSTEM
 float POW(float base, float exponent);
 ```
 
+Returns base raised to the power of exponent.
 
 ## Parameters
-* **base**: 
-* **exponent**: 
+* **base**: The base number.
+* **exponent**: The exponent.
 
 ## Return value
+The result of base raised to the exponent.
+

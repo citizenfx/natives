@@ -8,8 +8,11 @@ ns: SYSTEM
 int FLOOR(float value);
 ```
 
+Rounds a float down to the nearest whole number, toward negative infinity.
 
 ## Parameters
-* **value**: 
+* **value**: The number to round down.
 
 ## Return value
+The value rounded down to the nearest whole number.
+

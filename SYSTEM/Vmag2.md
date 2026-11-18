@@ -8,13 +8,13 @@ ns: SYSTEM
 float VMAG2(float x, float y, float z);
 ```
 
-```
-Calculates the magnitude of a vector but does not perform Sqrt operations. (Its way faster)  
-```
+Returns the squared magnitude of the vector (x, y, z), without taking the square root.
 
 ## Parameters
-* **x**: 
-* **y**: 
-* **z**: 
+* **x**: The X component of the vector.
+* **y**: The Y component of the vector.
+* **z**: The Z component of the vector.
 
 ## Return value
+The squared magnitude of the vector, equal to x * x + y * y + z * z.
+

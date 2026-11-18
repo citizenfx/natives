@@ -8,7 +8,7 @@ ns: SYSTEM
 float VDIST2(float x1, float y1, float z1, float x2, float y2, float z2);
 ```
 
-Calculates distance between vectors but does not perform Sqrt operations. Its way faster than [`VDIST`](#_0x2A488C176D52CCA5), but it's not faster than direct mathematical calculations.
+Returns the squared distance between two points, without taking the square root. Faster than [`VDIST`](#_0x2A488C176D52CCA5) when only comparing distances.
 
 ```
 NativeDB Introduced: v323
@@ -23,4 +23,5 @@ NativeDB Introduced: v323
 * **z2**: Z coordinate of the second point. Represents the height or elevation at the second point.
 
 ## Return value
-Returns the distance as a float between the two points (`x1`, `y1`, `z1`) and (`x2`, `y2`, `z2`) in the game world.
+Returns the squared distance as a float between the two points (`x1`, `y1`, `z1`) and (`x2`, `y2`, `z2`) in the game world.
+

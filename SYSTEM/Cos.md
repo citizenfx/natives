@@ -11,7 +11,7 @@ float COS(float value);
 Returns the cosine of the given number.
 
 ## Parameters
-* **value**: The number of degrees (in degrees, not radians)
+* **value**: The angle in degrees.
 
 ## Return value
 The cosine of the given number
