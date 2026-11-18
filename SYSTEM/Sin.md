@@ -10,6 +10,8 @@ float SIN(float value);
 
 Returns the sine of the given number.
 
+Note: Prefer the built-in equivalent: `math.sin` (Lua), `Math.sin` (JS), and `Math.Sin` (C#). The built-ins take radians, while this native takes degrees.
+
 ## Parameters
 * **value**: The angle in degrees.
 

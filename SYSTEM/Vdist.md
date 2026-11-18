@@ -8,7 +8,9 @@ ns: SYSTEM
 float VDIST(float x1, float y1, float z1, float x2, float y2, float z2);
 ```
 
-Calculates the distance between two points in 3D space. For performance reasons, consider using direct mathematical calculations for distance, as they can be more efficient than calling this native function.
+Calculates the distance between two points in 3D space.
+
+Note: Prefer composing the distance from built-in math functions (e.g. `Math.hypot(x2 - x1, y2 - y1, z2 - z1)` in JS).
 
 ```
 NativeDB Introduced: v323

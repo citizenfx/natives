@@ -10,6 +10,8 @@ float SQRT(float value);
 
 Returns the square root of value.
 
+Note: Prefer the built-in equivalent: `math.sqrt` (Lua), `Math.sqrt` (JS), and `Math.Sqrt` (C#).
+
 ## Parameters
 * **value**: The number to take the square root of. Must be non-negative.
 

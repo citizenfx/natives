@@ -10,6 +10,8 @@ float VMAG(float x, float y, float z);
 
 Returns the magnitude (length) of the vector (x, y, z).
 
+Note: Prefer composing the magnitude from built-in math functions (e.g. `Math.hypot(x, y, z)` in JS).
+
 ## Parameters
 * **x**: The X component of the vector.
 * **y**: The Y component of the vector.

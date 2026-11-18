@@ -10,6 +10,8 @@ int ROUND(float value);
 
 Rounds a float to the nearest whole number. Values exactly halfway between two whole numbers round up, toward positive infinity.
 
+Note: Prefer the built-in equivalent: `math.round` (Lua), `Math.round` (JS), and `Math.Round` (C#). C#'s `Math.Round` defaults to banker's rounding, so pass `MidpointRounding.ToPositiveInfinity` to match the half-up behavior.
+
 ## Parameters
 * **value**: The number to round.
 

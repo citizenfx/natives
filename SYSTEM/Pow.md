@@ -10,6 +10,8 @@ float POW(float base, float exponent);
 
 Returns base raised to the power of exponent.
 
+Note: Prefer the built-in equivalent: `math.pow` (Lua), `Math.pow` (JS), and `Math.Pow` (C#).
+
 ## Parameters
 * **base**: The base number.
 * **exponent**: The exponent.

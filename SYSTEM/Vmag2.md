@@ -10,6 +10,8 @@ float VMAG2(float x, float y, float z);
 
 Returns the squared magnitude of the vector (x, y, z), without taking the square root.
 
+Note: Prefer direct mathematical calculations using language built-ins.
+
 ## Parameters
 * **x**: The X component of the vector.
 * **y**: The Y component of the vector.

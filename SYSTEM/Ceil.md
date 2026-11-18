@@ -10,6 +10,8 @@ int CEIL(float value);
 
 Rounds a float up to the nearest whole number, toward positive infinity.
 
+Note: Prefer the built-in equivalent: `math.ceil` (Lua), `Math.ceil` (JS), and `Math.Ceiling` (C#).
+
 ## Parameters
 * **value**: The number to round up.
 

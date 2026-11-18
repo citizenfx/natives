@@ -10,6 +10,8 @@ float VDIST2(float x1, float y1, float z1, float x2, float y2, float z2);
 
 Returns the squared distance between two points, without taking the square root. Faster than [`VDIST`](#_0x2A488C176D52CCA5) when only comparing distances.
 
+Note: Prefer direct mathematical calculations using language built-ins.
+
 ```
 NativeDB Introduced: v323
 ```

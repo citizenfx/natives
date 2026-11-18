@@ -10,6 +10,8 @@ float _LOG10(float value);
 
 Returns the base-10 logarithm of value.
 
+Note: Prefer the built-in equivalent: `math.log(x, 10)` (Lua), `Math.log10` (JS), and `Math.Log10` (C#).
+
 ```
 NativeDB Introduced: v1604
 ```

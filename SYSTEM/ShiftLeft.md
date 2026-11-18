@@ -9,7 +9,8 @@ int SHIFT_LEFT(int value, int bitShift);
 ```
 
 Left bit shifts a value.
-It is advised you use the `<<` operator instead of this native. It does the same and is faster.
+
+Note: Prefer the `<<` operator, available in Lua, JS, and C#.
 
 ## Parameters
 * **value**: The integer to shift.
