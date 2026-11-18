@@ -16,3 +16,19 @@ Rounds a float up to the nearest whole number, toward positive infinity.
 ## Return value
 The value rounded up to the nearest whole number.
 
+## Examples
+```lua
+local ceiled = Ceil(1.2) -- 2
+
+-- equivalent in lua
+local ceiledLua = math.ceil(1.2)
+```
+
+```js
+const ceiled = Ceil(1.2); // 2
+```
+
+```cs
+using static CitizenFX.Core.Native.API;
+int ceiled = Ceil(1.2f); // 2
+```

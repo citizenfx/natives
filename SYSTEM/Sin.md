@@ -25,3 +25,14 @@ local sin = Sin(heading)
 -- equivalent in lua
 local sinLua = math.sin(heading * (math.pi / 180))
 ```
+
+```js
+const heading = GetEntityHeading(PlayerPedId());
+const sin = Sin(heading);
+```
+
+```cs
+using static CitizenFX.Core.Native.API;
+float heading = GetEntityHeading(PlayerPedId());
+float sin = Sin(heading);
+```

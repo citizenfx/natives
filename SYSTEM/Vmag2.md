@@ -18,3 +18,19 @@ Returns the squared magnitude of the vector (x, y, z), without taking the square
 ## Return value
 The squared magnitude of the vector, equal to x * x + y * y + z * z.
 
+## Examples
+```lua
+local squaredMagnitude = Vmag2(3.0, 4.0, 0.0) -- 25.0
+
+-- equivalent in lua
+local squaredMagnitudeLua = 3.0 * 3.0 + 4.0 * 4.0 + 0.0 * 0.0
+```
+
+```js
+const squaredMagnitude = Vmag2(3.0, 4.0, 0.0); // 25
+```
+
+```cs
+using static CitizenFX.Core.Native.API;
+float squaredMagnitude = Vmag2(3.0f, 4.0f, 0.0f); // 25
+```

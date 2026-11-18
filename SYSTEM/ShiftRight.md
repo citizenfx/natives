@@ -18,3 +18,19 @@ It is advised you use the `>>` operator instead of this native. It does the same
 ## Return value
 The value shifted right by bitShift bits.
 
+## Examples
+```lua
+local shifted = ShiftRight(16, 4) -- 1
+
+-- equivalent in lua
+local shiftedLua = 16 >> 4
+```
+
+```js
+const shifted = ShiftRight(16, 4); // 1
+```
+
+```cs
+using static CitizenFX.Core.Native.API;
+int shifted = ShiftRight(16, 4); // 1
+```

@@ -16,3 +16,16 @@ Converts an integer to a float.
 ## Return value
 The value as a float.
 
+## Examples
+```lua
+local floatValue = ToFloat(5) -- 5.0
+```
+
+```js
+const floatValue = ToFloat(5); // 5.0
+```
+
+```cs
+using static CitizenFX.Core.Native.API;
+float floatValue = ToFloat(5); // 5
+```

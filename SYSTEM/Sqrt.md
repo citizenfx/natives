@@ -16,3 +16,19 @@ Returns the square root of value.
 ## Return value
 The square root of value.
 
+## Examples
+```lua
+local root = Sqrt(16.0) -- 4.0
+
+-- equivalent in lua
+local rootLua = math.sqrt(16.0)
+```
+
+```js
+const root = Sqrt(16.0); // 4
+```
+
+```cs
+using static CitizenFX.Core.Native.API;
+float root = Sqrt(16.0f); // 4
+```

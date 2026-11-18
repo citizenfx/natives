@@ -25,3 +25,19 @@ NativeDB Introduced: v323
 ## Return value
 Returns the squared distance as a float between the two points (`x1`, `y1`, `z1`) and (`x2`, `y2`, `z2`) in the game world.
 
+## Examples
+```lua
+local squaredDistance = Vdist2(0.0, 0.0, 0.0, 3.0, 4.0, 0.0) -- 25.0
+
+-- equivalent in lua
+local squaredDistanceLua = 3.0 * 3.0 + 4.0 * 4.0
+```
+
+```js
+const squaredDistance = Vdist2(0.0, 0.0, 0.0, 3.0, 4.0, 0.0); // 25
+```
+
+```cs
+using static CitizenFX.Core.Native.API;
+float squaredDistance = Vdist2(0.0f, 0.0f, 0.0f, 3.0f, 4.0f, 0.0f); // 25
+```

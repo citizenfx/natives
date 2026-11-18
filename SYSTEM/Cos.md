@@ -25,3 +25,14 @@ local cos = Cos(heading)
 -- equivalent in lua
 local cosLua = math.cos(heading * (math.pi / 180))
 ```
+
+```js
+const heading = GetEntityHeading(PlayerPedId());
+const cos = Cos(heading);
+```
+
+```cs
+using static CitizenFX.Core.Native.API;
+float heading = GetEntityHeading(PlayerPedId());
+float cos = Cos(heading);
+```

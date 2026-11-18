@@ -18,3 +18,19 @@ Returns the magnitude (length) of the vector (x, y, z).
 ## Return value
 The magnitude of the vector, equal to the square root of x * x + y * y + z * z.
 
+## Examples
+```lua
+local magnitude = Vmag(3.0, 4.0, 0.0) -- 5.0
+
+-- equivalent in lua
+local magnitudeLua = math.sqrt(3.0 * 3.0 + 4.0 * 4.0 + 0.0 * 0.0)
+```
+
+```js
+const magnitude = Vmag(3.0, 4.0, 0.0); // 5
+```
+
+```cs
+using static CitizenFX.Core.Native.API;
+float magnitude = Vmag(3.0f, 4.0f, 0.0f); // 5
+```

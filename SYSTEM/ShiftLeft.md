@@ -18,3 +18,19 @@ It is advised you use the `<<` operator instead of this native. It does the same
 ## Return value
 The value shifted left by bitShift bits.
 
+## Examples
+```lua
+local shifted = ShiftLeft(1, 4) -- 16
+
+-- equivalent in lua
+local shiftedLua = 1 << 4
+```
+
+```js
+const shifted = ShiftLeft(1, 4); // 16
+```
+
+```cs
+using static CitizenFX.Core.Native.API;
+int shifted = ShiftLeft(1, 4); // 16
+```
