@@ -9,10 +9,26 @@ int SHIFT_LEFT(int value, int bitShift);
 ```
 
 Left bit shifts a value.
-It is advised you use the `<<` operator instead of this native. It does the same and is faster.
+
+Note: Prefer the `<<` operator, available in Lua, JS, and C#.
 
 ## Parameters
-* **value**: 
-* **bitShift**: 
+* **value**: The integer to shift.
+* **bitShift**: The number of bits to shift by.
 
 ## Return value
+The value shifted left by bitShift bits.
+
+## Examples
+```lua
+local shifted = ShiftLeft(1, 4) -- 16
+```
+
+```js
+const shifted = ShiftLeft(1, 4); // 16
+```
+
+```cs
+using static CitizenFX.Core.Native.API;
+int shifted = ShiftLeft(1, 4); // 16
+```

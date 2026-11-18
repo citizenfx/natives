@@ -8,11 +8,26 @@ ns: SYSTEM
 int CEIL(float value);
 ```
 
-```
-I'm guessing this rounds a float value up to the next whole number, and FLOOR rounds it down  
-```
+Rounds a float up to the nearest whole number, toward positive infinity.
+
+Note: Prefer the built-in equivalent: `math.ceil` (Lua), `Math.ceil` (JS), and `Math.Ceiling` (C#).
 
 ## Parameters
-* **value**: 
+* **value**: The number to round up.
 
 ## Return value
+The value rounded up to the nearest whole number.
+
+## Examples
+```lua
+local ceiled = Ceil(1.2) -- 2
+```
+
+```js
+const ceiled = Ceil(1.2); // 2
+```
+
+```cs
+using static CitizenFX.Core.Native.API;
+int ceiled = Ceil(1.2f); // 2
+```

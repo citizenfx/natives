@@ -8,13 +8,28 @@ ns: SYSTEM
 float VMAG2(float x, float y, float z);
 ```
 
-```
-Calculates the magnitude of a vector but does not perform Sqrt operations. (Its way faster)  
-```
+Returns the squared magnitude of the vector (x, y, z), without taking the square root.
+
+Note: Prefer direct mathematical calculations using language built-ins.
 
 ## Parameters
-* **x**: 
-* **y**: 
-* **z**: 
+* **x**: The X component of the vector.
+* **y**: The Y component of the vector.
+* **z**: The Z component of the vector.
 
 ## Return value
+The squared magnitude of the vector, equal to x * x + y * y + z * z.
+
+## Examples
+```lua
+local squaredMagnitude = Vmag2(3.0, 4.0, 0.0) -- 25.0
+```
+
+```js
+const squaredMagnitude = Vmag2(3.0, 4.0, 0.0); // 25
+```
+
+```cs
+using static CitizenFX.Core.Native.API;
+float squaredMagnitude = Vmag2(3.0f, 4.0f, 0.0f); // 25
+```

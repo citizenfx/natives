@@ -10,8 +10,10 @@ float COS(float value);
 
 Returns the cosine of the given number.
 
+Note: Prefer the built-in equivalent: `math.cos` (Lua), `Math.cos` (JS), and `Math.Cos` (C#). The built-ins take radians, while this native takes degrees.
+
 ## Parameters
-* **value**: The number of degrees (in degrees, not radians)
+* **value**: The angle in degrees.
 
 ## Return value
 The cosine of the given number
@@ -21,7 +23,15 @@ The cosine of the given number
 -- Get the heading
 local heading = GetEntityHeading(PlayerPedId())
 local cos = Cos(heading)
+```
 
--- equivalent in lua
-local cosLua = math.cos(heading * (math.pi / 180))
+```js
+const heading = GetEntityHeading(PlayerPedId());
+const cos = Cos(heading);
+```
+
+```cs
+using static CitizenFX.Core.Native.API;
+float heading = GetEntityHeading(PlayerPedId());
+float cos = Cos(heading);
 ```

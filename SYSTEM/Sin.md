@@ -10,8 +10,10 @@ float SIN(float value);
 
 Returns the sine of the given number.
 
+Note: Prefer the built-in equivalent: `math.sin` (Lua), `Math.sin` (JS), and `Math.Sin` (C#). The built-ins take radians, while this native takes degrees.
+
 ## Parameters
-* **value**: The number of degrees (in degrees, not radians)
+* **value**: The angle in degrees.
 
 ## Return value
 The sine of the given number
@@ -21,7 +23,15 @@ The sine of the given number
 -- Get the heading
 local heading = GetEntityHeading(PlayerPedId())
 local sin = Sin(heading)
+```
 
--- equivalent in lua
-local sinLua = math.sin(heading * (math.pi / 180))
+```js
+const heading = GetEntityHeading(PlayerPedId());
+const sin = Sin(heading);
+```
+
+```cs
+using static CitizenFX.Core.Native.API;
+float heading = GetEntityHeading(PlayerPedId());
+float sin = Sin(heading);
 ```

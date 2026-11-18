@@ -9,10 +9,26 @@ int SHIFT_RIGHT(int value, int bitShift);
 ```
 
 Right bit shifts a value.
-It is advised you use the `>>` operator instead of this native. It does the same and is faster.
+
+Note: Prefer the `>>` operator, available in Lua, JS, and C#.
 
 ## Parameters
-* **value**: 
-* **bitShift**: 
+* **value**: The integer to shift.
+* **bitShift**: The number of bits to shift by.
 
 ## Return value
+The value shifted right by bitShift bits.
+
+## Examples
+```lua
+local shifted = ShiftRight(16, 4) -- 1
+```
+
+```js
+const shifted = ShiftRight(16, 4); // 1
+```
+
+```cs
+using static CitizenFX.Core.Native.API;
+int shifted = ShiftRight(16, 4); // 1
+```

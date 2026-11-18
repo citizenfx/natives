@@ -8,8 +8,26 @@ ns: SYSTEM
 int FLOOR(float value);
 ```
 
+Rounds a float down to the nearest whole number, toward negative infinity.
+
+Note: Prefer the built-in equivalent: `math.floor` (Lua), `Math.floor` (JS), and `Math.Floor` (C#).
 
 ## Parameters
-* **value**: 
+* **value**: The number to round down.
 
 ## Return value
+The value rounded down to the nearest whole number.
+
+## Examples
+```lua
+local floored = Floor(1.7) -- 1
+```
+
+```js
+const floored = Floor(1.7); // 1
+```
+
+```cs
+using static CitizenFX.Core.Native.API;
+int floored = Floor(1.7f); // 1
+```
